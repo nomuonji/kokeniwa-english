@@ -2,6 +2,8 @@
 seed_state.json
 *state*.json
 tokens.txt
+.env
+.env.*
 
 # Python
 __pycache__/
