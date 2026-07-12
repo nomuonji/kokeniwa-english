@@ -40,4 +40,5 @@ jobs:
           GIST_ID: ${{ secrets.GIST_ID }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
           ACCOUNTS: ${{ github.event.inputs.accounts }}
+          PYTHONIOENCODING: "utf-8"
         run: python scripts/auto_post.py
