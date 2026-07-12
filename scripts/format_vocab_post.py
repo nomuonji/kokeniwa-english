@@ -16,15 +16,16 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 CHUNK = 5  # 1投稿あたりの語数
 
 CONTENT = {
+    # Threads は1投稿=タグ1個のみ有効なため主要タグに絞る(X転用時は複数へ)
     "uscpa": {
         "file": "uscpa_words.csv",
         "label": "USCPA英単語",
-        "hashtags": "#USCPA #米国公認会計士 #英語学習",
+        "hashtags": "#USCPA",
     },
     "legal": {
         "file": "legal_words.csv",
         "label": "法律英単語",
-        "hashtags": "#法律英語 #リーガル英語 #英語学習",
+        "hashtags": "#法律英語",
     },
 }
 

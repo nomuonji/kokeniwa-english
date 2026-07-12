@@ -24,7 +24,7 @@ REQUIRED_FIELDS = [
     "explanation_ja", "status", "used_at",
 ]
 DIFF_LABEL = {1: "B2", 2: "C1", 3: "C2"}
-HASHTAGS = "#英文解釈 #英語学習"
+HASHTAGS = "#英文解釈"  # Threadsは1投稿=タグ1個のみ有効
 X_LIMIT = 280  # X の重み付き文字数上限(全角2・半角1)
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
