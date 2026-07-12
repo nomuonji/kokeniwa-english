@@ -1,0 +1,8 @@
+# トークンを含む状態ファイルは絶対にコミットしない
+seed_state.json
+*state*.json
+tokens.txt
+
+# Python
+__pycache__/
+*.pyc

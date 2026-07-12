@@ -1,0 +1,43 @@
+name: Threads 自動投稿
+
+# 3アカウント(USCPA / 法律英語 / 英文読解)へ 1日3回投稿する。
+# 投稿時刻: 07:00 / 12:00 / 20:00 JST(= UTC 22:00 / 03:00 / 11:00)
+# トークンとカーソルは Gist に保存し、期限が近づくと自動でリフレッシュする。
+
+on:
+  schedule:
+    - cron: "0 22 * * *"  # 07:00 JST
+    - cron: "0 3 * * *"   # 12:00 JST
+    - cron: "0 11 * * *"  # 20:00 JST
+  workflow_dispatch:       # 手動実行(テスト用)
+    inputs:
+      dry_run:
+        description: "1 なら実投稿せず内容だけ表示"
+        required: false
+        default: "0"
+      accounts:
+        description: '対象を限定(例: "uscpa,legal")。空なら全部'
+        required: false
+        default: ""
+
+concurrency:
+  group: threads-autopost   # Gist 書き込み競合を防ぐため多重実行を禁止
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 投稿
+        env:
+          GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          ACCOUNTS: ${{ github.event.inputs.accounts }}
+        run: python scripts/auto_post.py
