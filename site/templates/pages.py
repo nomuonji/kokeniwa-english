@@ -61,8 +61,8 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
   <a class="card card-training" href="/training/">
     <span class="card-icon">✍️</span>
     <h2>英単語トレーニング</h2>
-    <p>英検準1級・ニュース・ドラマ・句動詞・イディオム。意味の確認と書き取りで定着させる。</p>
-    <div class="card-meta">全{training_count}語・確認＋ディクテーション</div>
+    <p>英検準1級・ニュース・ドラマ・句動詞・イディオム。めくって覚えるフラッシュカード。</p>
+    <div class="card-meta">全{training_count}語・フラッシュカード</div>
   </a>
 </div>
 

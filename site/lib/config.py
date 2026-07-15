@@ -90,7 +90,7 @@ VOCAB_SETS = {
 }
 
 # 英単語トレーニング（旧 english-learner「こつこつ英単語」を統合）。
-# 一般英語の単語帳。確認モード＋ディクテーションで、例文つきで学べる。
+# 一般英語の単語帳。USCPA/法律と同じフラッシュカード一覧（英単語⇄意味を個別反転）方式。
 # data/training/{file} に元データ（1行1語のJSONL: id/word/meaning/example/example_ja）。
 # 表示順は dict の定義順。key = データ上のタグ名（eiken_pre1 のみタグ無し）。
 TRAINING_SETS = {
@@ -100,7 +100,7 @@ TRAINING_SETS = {
         "title": "英検準1級 英単語",
         "short": "英検準1級",
         "icon": "🎓",
-        "description": "英検準1級レベルの必須英単語1500語。意味の確認と、書き取り（ディクテーション）で定着させます。",
+        "description": "英検準1級レベルの必須英単語1500語。カードをめくって意味を確認できます。",
     },
     "news": {
         "slug": "news",
@@ -108,7 +108,7 @@ TRAINING_SETS = {
         "title": "ニュース英単語",
         "short": "ニュース",
         "icon": "📰",
-        "description": "英字ニュースで頻出する時事英単語。政治・経済・社会の記事を読むための語彙を例文つきで。",
+        "description": "英字ニュースで頻出する時事英単語。政治・経済・社会の記事を読むための語彙。",
     },
     "drama": {
         "slug": "drama",
@@ -116,7 +116,7 @@ TRAINING_SETS = {
         "title": "ドラマ英単語",
         "short": "ドラマ",
         "icon": "🎬",
-        "description": "海外ドラマや映画でよく耳にする口語英単語。生きた会話表現を例文つきで身につけます。",
+        "description": "海外ドラマや映画でよく耳にする口語英単語。生きた会話表現を身につけます。",
     },
     "phrasal": {
         "slug": "phrasal",
@@ -124,7 +124,7 @@ TRAINING_SETS = {
         "title": "句動詞",
         "short": "句動詞",
         "icon": "🔗",
-        "description": "英会話に欠かせない句動詞（phrasal verbs）。get / bring / put などの組み合わせを例文つきで。",
+        "description": "英会話に欠かせない句動詞（phrasal verbs）。get / bring / put などの組み合わせ。",
     },
     "idioms": {
         "slug": "idioms",
@@ -132,6 +132,6 @@ TRAINING_SETS = {
         "title": "イディオム",
         "short": "イディオム",
         "icon": "💬",
-        "description": "ネイティブがよく使う慣用表現（イディオム）。直訳では分からない決まり文句を例文つきで。",
+        "description": "ネイティブがよく使う慣用表現（イディオム）。直訳では分からない決まり文句。",
     },
 }
