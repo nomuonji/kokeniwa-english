@@ -1,0 +1,12 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+/static/*
+  Cache-Control: public, max-age=86400
+
+/downloads/*
+  X-Robots-Tag: noindex
+  Content-Type: text/csv; charset=utf-8
+  Content-Disposition: attachment
