@@ -7,6 +7,7 @@ NAV_ITEMS = [
     ("/reading/", "英文解釈"),
     ("/vocab/uscpa/", "USCPA単語"),
     ("/vocab/legal/", "法律単語"),
+    ("/training/", "英単語"),
     ("/blog/", "ブログ"),
     ("/books/", "教材"),
     ("/sns/", "SNS"),

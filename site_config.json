@@ -1,7 +1,7 @@
 {
   "site_name": "English Hub",
   "tagline": "英文解釈・USCPA英単語・法律英単語を、毎日コツコツ。",
-  "description": "英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語を無料で学べる英語学習サイト。ThreadsのSNS投稿と連動しています。",
+  "description": "英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト。ThreadsのSNS投稿と連動しています。",
   "base_url": "https://example.pages.dev",
   "lang": "ja",
   "include_draft": true,
@@ -26,6 +26,13 @@
       "url": "https://www.threads.com/@your_legal_account",
       "label": "法律英単語",
       "description": "契約書・訴訟・会社法などの法律英語を毎日5語ずつ配信。実務で使える例文つき。"
+    },
+    "kotsukotsu": {
+      "platform": "Threads",
+      "handle": "@english_vocabulary_kotsukotsu",
+      "url": "https://www.threads.com/@english_vocabulary_kotsukotsu",
+      "label": "こつこつ英単語",
+      "description": "英検準1級・ニュース・ドラマ・句動詞・イディオムの一般英単語を毎日配信。例文つきで少しずつ。"
     }
   }
 }

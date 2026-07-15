@@ -1,0 +1,528 @@
+{"id":1,"word":"quirky","meaning":"風変わりな","example":"He has a quirky sense of humor.","example_ja":"彼は風変わりなユーモアのセンスを持っている。","tag":"drama"}
+{"id":2,"word":"deadpan","meaning":"無表情な、淡々とした","example":"He delivered the joke in a deadpan voice.","example_ja":"彼は無表情でジョークを言った。","tag":"drama"}
+{"id":3,"word":"snarky","meaning":"皮肉たっぷりの","example":"He made a snarky comment about the ad.","example_ja":"彼はその広告について皮肉たっぷりのコメントをした。","tag":"drama"}
+{"id":4,"word":"laid-back","meaning":"のんびりした","example":"He's pretty laid-back about deadlines.","example_ja":"彼は締め切りに関してかなりのんびりしている。","tag":"drama"}
+{"id":5,"word":"uptight","meaning":"神経質な、堅い","example":"Don't be so uptight about the rules.","example_ja":"そんなに規則に神経質にならないで。","tag":"drama"}
+{"id":6,"word":"oddball","meaning":"変わり者","example":"He's a bit of an oddball, but lovable.","example_ja":"彼は少し変わり者だけど憎めない。","tag":"drama"}
+{"id":7,"word":"spoof","meaning":"パロディ、茶化し","example":"The show is a spoof of crime dramas.","example_ja":"その番組は刑事ドラマを茶化したパロディだ。","tag":"drama"}
+{"id":8,"word":"spoiler","meaning":"ネタバレ","example":"Spoiler alert: the hero survives.","example_ja":"ネタバレ注意：主人公は生き残る。","tag":"drama"}
+{"id":9,"word":"cliffhanger","meaning":"引きの強い終わり方","example":"The episode ended on a cliffhanger.","example_ja":"その回は引きの強い終わり方で終わった。","tag":"drama"}
+{"id":10,"word":"cold open","meaning":"本編前の導入シーン","example":"The show starts with a cold open.","example_ja":"その番組は本編前の導入シーン（コールドオープン）から始まる。","tag":"drama"}
+{"id":11,"word":"pilot","meaning":"初回エピソード","example":"They shot the pilot last summer.","example_ja":"彼らは昨夏にパイロット版を撮影した。","tag":"drama"}
+{"id":12,"word":"cameo","meaning":"カメオ出演","example":"She made a cameo in the finale.","example_ja":"彼女は最終回にカメオ出演した。","tag":"drama"}
+{"id":13,"word":"binge-watch","meaning":"一気見する","example":"We binge-watched the entire season over the weekend.","example_ja":"週末にシーズン全話を一気見した。","tag":"drama"}
+{"id":14,"word":"showrunner","meaning":"作品統括責任者","example":"The showrunner announced a new cast member.","example_ja":"ショーランナーが新キャストを発表した。","tag":"drama"}
+{"id":15,"word":"wing it","meaning":"出たとこ勝負でやる","example":"We didn't rehearse—we just winged it.","example_ja":"リハーサルなしでぶっつけ本番でやった。","tag":"drama"}
+{"id":16,"word":"sleep on it","meaning":"一晩考える","example":"Let's sleep on it and decide tomorrow.","example_ja":"一晩考えて明日決めよう。","tag":"drama"}
+{"id":17,"word":"no-brainer","meaning":"考えるまでもない","example":"Choosing this plan is a no-brainer.","example_ja":"このプランを選ぶのは考えるまでもない。","tag":"drama"}
+{"id":18,"word":"pet peeve","meaning":"地味に嫌なこと","example":"Chewing loudly is my pet peeve.","example_ja":"クチャクチャ食べるのは個人的にすごく嫌だ。","tag":"drama"}
+{"id":19,"word":"deal-breaker","meaning":"決定的なNG要素","example":"Smoking is a deal-breaker for me.","example_ja":"喫煙は私にとって絶対に無理な条件だ。","tag":"drama"}
+{"id":20,"word":"curveball","meaning":"想定外の展開","example":"The last question threw me a curveball.","example_ja":"最後の質問は不意打ちだった。","tag":"drama"}
+{"id":21,"word":"butt-dial","meaning":"誤発信（ケツダイアル）","example":"Sorry, I butt-dialed you.","example_ja":"ごめん、誤発信しちゃった。","tag":"drama"}
+{"id":22,"word":"call dibs on ~","meaning":"先取り宣言する","example":"I call dibs on the window seat for our road trip!","example_ja":"窓側の席は俺のもの！先取宣言。","tag":"drama"}
+{"id":23,"word":"dibs!","meaning":"それ俺の！の一言","example":"Dibs on the front seat!","example_ja":"助手席は俺の！","tag":"drama"}
+{"id":24,"word":"shotgun!","meaning":"助手席もらった！","example":"I call shotgun!","example_ja":"助手席もらった！","tag":"drama"}
+{"id":25,"word":"bagsy","meaning":"先取権（英）","example":"Bagsy the front seat!","example_ja":"（英）助手席キープ！","tag":"drama"}
+{"id":26,"word":"yada yada","meaning":"なんやかんや","example":"We discussed budgets, timelines, yada yada.","example_ja":"予算やスケジュールなど、なんやかんや話した。","tag":"drama"}
+{"id":27,"word":"meh","meaning":"ふーん/微妙","example":"Meh, I don't really care.","example_ja":"まあ、正直どうでもいいかな。","tag":"drama"}
+{"id":28,"word":"boom!","meaning":"ドヤ！の一言","example":"We launched on time—boom!","example_ja":"予定どおりにローンチ——ドヤ！","tag":"drama"}
+{"id":29,"word":"ghost someone","meaning":"連絡を断つ","example":"He ghosted me after our third date.","example_ja":"3回目のデートの後、彼は急に連絡を絶った。","tag":"drama"}
+{"id":30,"word":"bench someone","meaning":"二軍扱いする/キープする","example":"The coach benched him for the final.","example_ja":"監督は決勝で彼をベンチに下げた。","tag":"drama"}
+{"id":31,"word":"breadcrumbing","meaning":"期待を持たせて繋ぎ止める","example":"She's breadcrumbing him with just enough texts.","example_ja":"彼女は時々メッセージを送って彼を繋ぎ止めている。","tag":"drama"}
+{"id":32,"word":"slow fade","meaning":"徐々にフェードアウト","example":"He did a slow fade after the breakup.","example_ja":"別れた後、彼は徐々にフェードアウトした。","tag":"drama"}
+{"id":33,"word":"closure","meaning":"心の区切り","example":"I needed closure after the breakup.","example_ja":"別れのあと、心の区切りが必要だった。","tag":"drama"}
+{"id":34,"word":"situationship","meaning":"友達以上恋人未満","example":"They're in a situationship, not a relationship.","example_ja":"2人は友達以上恋人未満の関係だ。","tag":"drama"}
+{"id":35,"word":"love triangle","meaning":"三角関係","example":"The drama centers on a love triangle.","example_ja":"そのドラマは三角関係を中心に描く。","tag":"drama"}
+{"id":36,"word":"wholesome","meaning":"健全で心温まる","example":"It's a wholesome family movie.","example_ja":"それは健全で心温まる家族映画だ。","tag":"drama"}
+{"id":37,"word":"edgy","meaning":"攻めた、尖った","example":"His jokes are a bit edgy.","example_ja":"彼のジョークは少し攻めている。","tag":"drama"}
+{"id":38,"word":"cringe","meaning":"こっぱずかしい","example":"That scene was pure cringe.","example_ja":"あのシーンは見ていてこっぱずかしかった。","tag":"drama"}
+{"id":39,"word":"heartwarming","meaning":"心温まる","example":"It's a heartwarming story.","example_ja":"心温まる物語だ。","tag":"drama"}
+{"id":40,"word":"gut-wrenching","meaning":"胸が張り裂けるような","example":"The ending was gut-wrenching.","example_ja":"ラストは胸が張り裂けるようだった。","tag":"drama"}
+{"id":41,"word":"mind-blowing","meaning":"度肝を抜く","example":"The special effects were mind-blowing.","example_ja":"特撮は度肝を抜く出来だった。","tag":"drama"}
+{"id":42,"word":"plot twist","meaning":"予想外の展開","example":"The plot twist caught everyone off guard.","example_ja":"そのどんでん返しは皆を驚かせた。","tag":"drama"}
+{"id":43,"word":"dead giveaway","meaning":"バレバレの証拠","example":"His accent was a dead giveaway.","example_ja":"彼の訛りがバレバレの証拠だった。","tag":"drama"}
+{"id":44,"word":"tell","meaning":"無意識の癖（ポーカー用語）","example":"Her nervous laughter is a tell.","example_ja":"彼女の緊張した笑い方は（ポーカー用語で）癖のサインだ。","tag":"drama"}
+{"id":45,"word":"poker face","meaning":"無表情","example":"He kept a perfect poker face.","example_ja":"彼は完全なポーカーフェイスを保った。","tag":"drama"}
+{"id":46,"word":"bluff","meaning":"かけ引き/はったり","example":"He tried to bluff his way through.","example_ja":"彼ははったりで乗り切ろうとした。","tag":"drama"}
+{"id":47,"word":"stack the deck","meaning":"有利に条件を積む","example":"The rules stack the deck against newcomers.","example_ja":"その規則は新参者に不利になるよう仕組まれている。","tag":"drama"}
+{"id":48,"word":"double down","meaning":"強気に出る","example":"They decided to double down on mobile.","example_ja":"彼らはモバイルにさらに注力することにした。","tag":"drama"}
+{"id":49,"word":"call someone’s bluff","meaning":"はったりを見破る","example":"She called his bluff.","example_ja":"彼女は彼のはったりを見破った。","tag":"drama"}
+{"id":50,"word":"hang in there","meaning":"踏ん張って","example":"Hang in there—you’re almost done.","example_ja":"踏ん張って。もう少しで終わるよ。","tag":"drama"}
+{"id":51,"word":"you got this","meaning":"いけるよ","example":"You got this—believe in yourself.","example_ja":"いけるよ。自分を信じて。","tag":"drama"}
+{"id":52,"word":"I’m proud of you","meaning":"誇りに思う","example":"I'm proud of you for trying.","example_ja":"挑戦したことを誇りに思うよ。","tag":"drama"}
+{"id":53,"word":"I’m rooting for you","meaning":"応援してる","example":"I'm rooting for you from here.","example_ja":"ここから応援しているよ。","tag":"drama"}
+{"id":54,"word":"fingers crossed","meaning":"上手くいきますように","example":"Fingers crossed for good news.","example_ja":"うまくいきますように。","tag":"drama"}
+{"id":55,"word":"it means a lot","meaning":"本当に助かる","example":"Thanks—this means a lot to me.","example_ja":"ありがとう。本当に助かるよ。","tag":"drama"}
+{"id":56,"word":"prime time","meaning":"ゴールデンタイム","example":"The show airs in prime time.","example_ja":"その番組はゴールデンタイムに放送される。","tag":"drama"}
+{"id":57,"word":"ratings","meaning":"視聴率","example":"The show's ratings improved this week.","example_ja":"今週、その番組の視聴率が上がった。","tag":"drama"}
+{"id":58,"word":"syndication","meaning":"再放送販売","example":"The sitcom went into syndication.","example_ja":"そのシットコムは再放送販売に回った。","tag":"drama"}
+{"id":59,"word":"spin-off","meaning":"派生作品","example":"They announced a spin‑off series.","example_ja":"スピンオフ作品が発表された。","tag":"drama"}
+{"id":60,"word":"crossover","meaning":"作品間コラボ","example":"It's a crossover episode with another show.","example_ja":"別の番組とのクロスオーバー回だ。","tag":"drama"}
+{"id":61,"word":"backstory","meaning":"背景設定","example":"We finally learned his backstory.","example_ja":"彼の背景設定がようやく明かされた。","tag":"drama"}
+{"id":62,"word":"canon","meaning":"正史/公式設定","example":"That scene is not canon.","example_ja":"そのシーンは公式設定ではない。","tag":"drama"}
+{"id":63,"word":"burnout","meaning":"燃え尽き","example":"He took time off to recover from burnout.","example_ja":"燃え尽き症候群から回復するため休暇を取った。","tag":"drama"}
+{"id":64,"word":"get one’s groove back","meaning":"勘を取り戻す","example":"After a slump, she finally got her groove back.","example_ja":"スランプの後、ついに勘を取り戻した。","tag":"drama"}
+{"id":65,"word":"recharge","meaning":"充電/リフレッシュ","example":"I need a weekend to recharge.","example_ja":"週末はリフレッシュが必要だ。","tag":"drama"}
+{"id":66,"word":"unwind","meaning":"ほぐす/緊張を解く","example":"A hot bath helps me unwind.","example_ja":"熱いお風呂に入るとリラックスできる。","tag":"drama"}
+{"id":67,"word":"veg out","meaning":"何もせずだらける","example":"I just want to veg out this weekend.","example_ja":"今週末は何もせずだらけたい。","tag":"drama"}
+{"id":68,"word":"catch a break","meaning":"運良く助かる/流れが向く","example":"I can't seem to catch a break lately.","example_ja":"最近、ちっともツキが回ってこない。","tag":"drama"}
+{"id":69,"word":"awkward","meaning":"気まずい","example":"There was an awkward silence.","example_ja":"気まずい沈黙が流れた。","tag":"drama"}
+{"id":70,"word":"second-hand embarrassment","meaning":"見てるこっちが恥ずかしい","example":"I felt second-hand embarrassment watching that scene.","example_ja":"そのシーンを見ているこっちが恥ずかしくなった。","tag":"drama"}
+{"id":71,"word":"social cue","meaning":"社会的合図","example":"He missed the social cues in the conversation.","example_ja":"彼は会話の中の社会的なサインを読み損ねた。","tag":"drama"}
+{"id":72,"word":"mixed signals","meaning":"相反するサイン","example":"He's been sending me mixed signals.","example_ja":"彼の態度がちぐはぐで戸惑う。","tag":"drama"}
+{"id":73,"word":"read the room","meaning":"空気を読む","example":"You need to read the room.","example_ja":"空気を読んだほうがいい。","tag":"drama"}
+{"id":74,"word":"overstep","meaning":"出過ぎた真似をする","example":"He overstepped by commenting on her appearance.","example_ja":"彼は彼女の外見に口出しして出過ぎた真似をした。","tag":"drama"}
+{"id":75,"word":"no strings attached","meaning":"条件なし","example":"It's a free trial—no strings attached.","example_ja":"無料トライアルです。条件は一切ありません。","tag":"drama"}
+{"id":76,"word":"wingman/wingwoman","meaning":"サポート役","example":"Thanks for being my wingman tonight.","example_ja":"今夜はサポート役をしてくれてありがとう。","tag":"drama"}
+{"id":77,"word":"make a move","meaning":"仕掛ける","example":"I'm going to make a move and ask her out.","example_ja":"思い切って彼女をデートに誘ってみる。","tag":"drama"}
+{"id":78,"word":"shoot one’s shot","meaning":"想いをぶつける","example":"He finally shot his shot and confessed.","example_ja":"彼はついに想いをぶつけて告白した。","tag":"drama"}
+{"id":79,"word":"friend zone","meaning":"友達止まり","example":"I think I'm stuck in the friend zone.","example_ja":"友達止まりの関係にハマってる気がする。","tag":"drama"}
+{"id":80,"word":"mixed feelings","meaning":"複雑な気持ち","example":"I have mixed feelings about the offer.","example_ja":"そのオファーには複雑な気持ちだ。","tag":"drama"}
+{"id":81,"word":"spill the tea","meaning":"暴露話をする","example":"Come on, spill the tea—what happened?","example_ja":"さあ教えて、何があったの？","tag":"drama"}
+{"id":82,"word":"tea","meaning":"ゴシップ","example":"What's the tea?","example_ja":"何のゴシップがあるの？","tag":"drama"}
+{"id":83,"word":"receipts","meaning":"証拠スクショ","example":"Show me the receipts.","example_ja":"証拠のスクショを見せて。","tag":"drama"}
+{"id":84,"word":"drag","meaning":"公然と批判する","example":"She dragged him on social media.","example_ja":"彼女はSNSで彼を公然と批判した。","tag":"drama"}
+{"id":85,"word":"stan","meaning":"熱狂的ファン","example":"I've been a Taylor Swift stan for years.","example_ja":"私は何年もテイラー・スウィフトの熱狂的ファンだ。","tag":"drama"}
+{"id":86,"word":"low-key / high-key","meaning":"ひそかに/あからさまに","example":"I low-key want to quit; he high-key doesn't care.","example_ja":"正直ひそかに辞めたい。彼はもうあからさまに気にしていない。","tag":"drama"}
+{"id":87,"word":"throw shade","meaning":"さりげなくディスる","example":"He threw shade at his rival on Twitter.","example_ja":"彼はツイッターでライバルをさりげなくディスった。","tag":"drama"}
+{"id":88,"word":"roast","meaning":"イジり倒す（友好的/強烈）","example":"They roasted him at the party (all in good fun).","example_ja":"みんなで彼をいじり倒した（もちろん仲良くね）。","tag":"drama"}
+{"id":89,"word":"clap back","meaning":"反撃する","example":"She clapped back at the critics.","example_ja":"彼女は批判に反撃した。","tag":"drama"}
+{"id":90,"word":"savage","meaning":"容赦ない（褒/貶）","example":"That comeback was savage.","example_ja":"その切り返しは容赦なかった（エグかった）。","tag":"drama"}
+{"id":91,"word":"soft spot","meaning":"甘い所/弱点","example":"I have a soft spot for cats.","example_ja":"猫にはめっぽう甘い。","tag":"drama"}
+{"id":92,"word":"hot take","meaning":"強い見解（即席）","example":"Here's my hot take: the book is overrated.","example_ja":"持論だけど、この本は過大評価だと思う。","tag":"drama"}
+{"id":93,"word":"plot armor","meaning":"ご都合主義の無敵感","example":"Thanks to plot armor, the hero survives every battle.","example_ja":"ご都合主義の“無敵設定”で主人公は毎回生き延びる。","tag":"drama"}
+{"id":94,"word":"red herring","meaning":"ミスリード","example":"That clue was a red herring.","example_ja":"あの手掛かりはミスリードだった。","tag":"drama"}
+{"id":95,"word":"MacGuffin","meaning":"物語を動かす装置","example":"The briefcase is the film's MacGuffin.","example_ja":"そのブリーフケースが物語を動かすマクガフィンだ。","tag":"drama"}
+{"id":96,"word":"foreshadow","meaning":"伏線を張る","example":"The opening scene foreshadows the final reveal.","example_ja":"冒頭のシーンが最後の種明かしの伏線になっている。","tag":"drama"}
+{"id":97,"word":"payoff","meaning":"回収","example":"The payoff was worth the wait.","example_ja":"回収は待った甲斐があった。","tag":"drama"}
+{"id":98,"word":"subplot","meaning":"サブプロット","example":"The romance subplot was charming.","example_ja":"その恋愛のサブプロットは魅力的だった。","tag":"drama"}
+{"id":99,"word":"ensemble cast","meaning":"群像劇","example":"The show features an ensemble cast.","example_ja":"その作品は群像劇（アンサンブルキャスト）だ。","tag":"drama"}
+{"id":100,"word":"nail-biting","meaning":"ハラハラする","example":"It was a nail-biting finish.","example_ja":"手に汗握る終盤だった。","tag":"drama"}
+{"id":101,"word":"edge-of-your-seat","meaning":"手に汗握る","example":"It's an edge-of-your-seat thriller.","example_ja":"手に汗握るスリラーだ。","tag":"drama"}
+{"id":102,"word":"campy","meaning":"わざとらしく面白い","example":"The costumes were delightfully campy.","example_ja":"衣装がわざとらしく面白かった。","tag":"drama"}
+{"id":103,"word":"over-the-top","meaning":"やり過ぎ","example":"His performance was over-the-top but fun.","example_ja":"彼の演技はやり過ぎだったが楽しかった。","tag":"drama"}
+{"id":104,"word":"underrated","meaning":"過小評価","example":"This film is underrated.","example_ja":"この映画は過小評価されている。","tag":"drama"}
+{"id":105,"word":"overrated","meaning":"過大評価","example":"That restaurant is overrated.","example_ja":"あのレストランは過大評価されている。","tag":"drama"}
+{"id":106,"word":"cult classic","meaning":"カルト的人気","example":"It's become a cult classic.","example_ja":"それはカルト的人気の名作になった。","tag":"drama"}
+{"id":107,"word":"hangry","meaning":"空腹でイライラ","example":"I get hangry if I skip lunch.","example_ja":"昼を抜くと空腹でイライラする。","tag":"drama"}
+{"id":108,"word":"snackable","meaning":"サクッと消費できる","example":"Short, snackable videos do well online.","example_ja":"短くてサクッと見られる動画はネットで受けがいい。","tag":"drama"}
+{"id":109,"word":"relatable","meaning":"共感できる","example":"Her stories are so relatable.","example_ja":"彼女の話はとても共感できる。","tag":"drama"}
+{"id":110,"word":"wholesome","meaning":"心が温かくなる","example":"It's a wholesome comedy.","example_ja":"心が温かくなるコメディだ。","tag":"drama"}
+{"id":111,"word":"sassy","meaning":"生意気で愛嬌ある","example":"She gave a sassy reply.","example_ja":"彼女は生意気で愛嬌のある返答をした。","tag":"drama"}
+{"id":112,"word":"goofy","meaning":"おっちょこちょい","example":"He's goofy but lovable.","example_ja":"彼はおっちょこちょいだけど憎めない。","tag":"drama"}
+{"id":113,"word":"savvy","meaning":"事情に明るい","example":"She's tech-savvy.","example_ja":"彼女はテクノロジーに明るい。","tag":"drama"}
+{"id":114,"word":"flaky","meaning":"約束を守らない","example":"He's flaky—he often cancels plans.","example_ja":"彼はドタキャンが多くて頼りない。","tag":"drama"}
+{"id":115,"word":"clingy","meaning":"依存気味","example":"He gets clingy when stressed.","example_ja":"彼はストレスがかかると依存気味になる。","tag":"drama"}
+{"id":116,"word":"high-maintenance","meaning":"手がかかる","example":"She's a bit high-maintenance.","example_ja":"彼女は少し手がかかる。","tag":"drama"}
+{"id":117,"word":"low-maintenance","meaning":"手がかからない","example":"He's very low-maintenance.","example_ja":"彼はとても手がかからない。","tag":"drama"}
+{"id":118,"word":"down-to-earth","meaning":"地に足のついた","example":"She's down-to-earth and practical.","example_ja":"彼女は飾らず現実的だ。","tag":"drama"}
+{"id":119,"word":"level-headed","meaning":"冷静沈着","example":"He's level-headed under pressure.","example_ja":"彼はプレッシャーの中でも冷静だ。","tag":"drama"}
+{"id":120,"word":"plot hole","meaning":"つじつまの合わない穴","example":"There's a major plot hole in the script.","example_ja":"脚本に大きな辻褄の合わない穴がある。","tag":"drama"}
+{"id":121,"word":"retcon","meaning":"後付け設定変更","example":"They retconned his backstory in season 3.","example_ja":"シーズン3で彼の設定が後付けで変更された。","tag":"drama"}
+{"id":122,"word":"reboot","meaning":"再始動","example":"The studio plans a franchise reboot.","example_ja":"スタジオはフランチャイズの再始動を計画している。","tag":"drama"}
+{"id":123,"word":"reimagine","meaning":"再解釈","example":"They reimagined the classic tale.","example_ja":"その古典を新しい解釈で描き直した。","tag":"drama"}
+{"id":124,"word":"Easter egg","meaning":"隠し要素","example":"Fans spotted an Easter egg in the scene.","example_ja":"そのシーンに隠し要素（イースターエッグ）をファンが見つけた。","tag":"drama"}
+{"id":125,"word":"fan service","meaning":"サービスシーン","example":"The episode is full of fan service.","example_ja":"その回はファンサービス満載だ。","tag":"drama"}
+{"id":126,"word":"shipping","meaning":"カップリング妄想","example":"Fandoms love shipping those two characters.","example_ja":"ファンはその2人のカップリング妄想が大好きだ。","tag":"drama"}
+{"id":127,"word":"go-to","meaning":"定番の","example":"It's my go-to café.","example_ja":"そこは私の定番のカフェだ。","tag":"drama"}
+{"id":128,"word":"spot-on","meaning":"的確","example":"Her impression was spot-on.","example_ja":"彼女の物真似は的確だった。","tag":"drama"}
+{"id":129,"word":"on point","meaning":"最高にキマってる","example":"Your outfit is on point.","example_ja":"今日のコーデ、最高にキマってる。","tag":"drama"}
+{"id":130,"word":"on brand","meaning":"その人らしい","example":"That joke is very on brand for him.","example_ja":"そのジョークは彼らしい。","tag":"drama"}
+{"id":131,"word":"off-brand","meaning":"らしくない","example":"This ad feels off-brand.","example_ja":"この広告はらしくない感じだ。","tag":"drama"}
+{"id":132,"word":"basic","meaning":"量産型で無個性","example":"That design feels a bit basic.","example_ja":"そのデザインは少し凡庸だ。","tag":"drama"}
+{"id":133,"word":"extra","meaning":"やりすぎ感","example":"He's a little extra sometimes.","example_ja":"彼は時々ちょっとやりすぎだ。","tag":"drama"}
+{"id":134,"word":"cuddle","meaning":"抱きしめる（甘いやつ）","example":"They cuddled on the couch.","example_ja":"2人はソファで抱き合っていた。","tag":"drama"}
+{"id":135,"word":"snuggle","meaning":"くっつく/寄り添う","example":"The kids snuggled under a blanket.","example_ja":"子どもたちは毛布の中で寄り添った。","tag":"drama"}
+{"id":136,"word":"make out","meaning":"いちゃつく/判別する","example":"They were making out in the park.","example_ja":"2人は公園でいちゃついていた。","tag":"drama"}
+{"id":137,"word":"hook up","meaning":"体の関係/繋ぐ","example":"They hooked up after the party.","example_ja":"2人はパーティーの後に体の関係を持った。","tag":"drama"}
+{"id":138,"word":"have a crush on","meaning":"片想い","example":"I have a crush on her.","example_ja":"彼女に片想いしている。","tag":"drama"}
+{"id":139,"word":"swoon","meaning":"ときめきでクラクラする","example":"Fans swooned over the singer.","example_ja":"ファンはその歌手にときめきでクラクラした。","tag":"drama"}
+{"id":140,"word":"burn someone","meaning":"手厳しく言い負かす","example":"She burned him with a savage line.","example_ja":"彼女は痛烈な一言で彼をやり込めた。","tag":"drama"}
+{"id":141,"word":"own someone","meaning":"完膚なきまでにやる","example":"He owned his opponent in the debate.","example_ja":"討論で相手を完全にやり込めた。","tag":"drama"}
+{"id":142,"word":"drag one’s name","meaning":"名を貶める","example":"They tried to drag her name through the mud.","example_ja":"彼女の名誉を地に落とそうとした。","tag":"drama"}
+{"id":143,"word":"throw under the bus","meaning":"身代わりにする","example":"He threw his teammate under the bus.","example_ja":"彼は仲間を身代わりにした。","tag":"drama"}
+{"id":144,"word":"call out","meaning":"公然と非難する","example":"She publicly called out the company.","example_ja":"彼女は会社を公然と非難した。","tag":"drama"}
+{"id":145,"word":"walk back","meaning":"発言を後退させる","example":"The politician walked back his remarks.","example_ja":"その政治家は発言を後退させた。","tag":"drama"}
+{"id":146,"word":"spoiled","meaning":"甘やかされて育った","example":"He's a spoiled rich kid.","example_ja":"彼は甘やかされて育った御曹司だ。","tag":"drama"}
+{"id":147,"word":"entitled","meaning":"何でも権利と思う","example":"She has an entitled attitude.","example_ja":"彼女は何でも権利と思っている態度だ。","tag":"drama"}
+{"id":148,"word":"humblebrag","meaning":"謙遜風自慢","example":"That post was a total humblebrag.","example_ja":"その投稿は完全に謙遜風自慢だった。","tag":"drama"}
+{"id":149,"word":"gaslight","meaning":"現実を疑わせる操作","example":"He tried to gaslight her about the incident.","example_ja":"彼は件の出来事について彼女をガスライティングしようとした。","tag":"drama"}
+{"id":150,"word":"love-bomb","meaning":"愛で囲い込む","example":"He love-bombed her early in the relationship.","example_ja":"交際初期に彼は愛情で囲い込んだ。","tag":"drama"}
+{"id":151,"word":"breadcrumb","meaning":"期待で繋ぎ止める","example":"Don't breadcrumb people just to keep them around.","example_ja":"繋ぎ止めるためだけに相手に期待を持たせないで。","tag":"drama"}
+{"id":152,"word":"rant","meaning":"長々と文句を言う","example":"He went on a rant about the delays.","example_ja":"彼は遅延について長々と不満をぶちまけた。","tag":"drama"}
+{"id":153,"word":"vent","meaning":"愚痴を吐き出す","example":"I just needed to vent.","example_ja":"ただ愚痴を吐き出したかっただけ。","tag":"drama"}
+{"id":154,"word":"spill one’s heart","meaning":"心情を吐露する","example":"She spilled her heart to a friend.","example_ja":"彼女は友人に心情を吐露した。","tag":"drama"}
+{"id":155,"word":"bottle it up","meaning":"ため込む","example":"Don't bottle it up—talk to someone.","example_ja":"ため込まないで、誰かに話して。","tag":"drama"}
+{"id":156,"word":"get it off your chest","meaning":"心のつかえを下ろす","example":"Get it off your chest and you'll feel better.","example_ja":"胸の内を吐き出せば楽になるよ。","tag":"drama"}
+{"id":157,"word":"tear up","meaning":"目が潤む","example":"I teared up at the ending.","example_ja":"ラストで目が潤んだ。","tag":"drama"}
+{"id":158,"word":"roomie","meaning":"ルームメイト","example":"I'm looking for a new roomie.","example_ja":"新しいルームメイトを探している。","tag":"drama"}
+{"id":159,"word":"landlord/landlady","meaning":"大家","example":"Our landlady is very kind.","example_ja":"うちの女大家さんはとても親切だ。","tag":"drama"}
+{"id":160,"word":"super","meaning":"管理人","example":"Ask the super to fix the sink.","example_ja":"シンクの修理は管理人に頼んで。","tag":"drama"}
+{"id":161,"word":"lease","meaning":"賃貸契約","example":"We signed a one-year lease.","example_ja":"1年の賃貸契約に署名した。","tag":"drama"}
+{"id":162,"word":"utilities","meaning":"光熱費","example":"Utilities are included in the rent.","example_ja":"家賃に光熱費が含まれている。","tag":"drama"}
+{"id":163,"word":"split the bill","meaning":"割り勘にする","example":"Let's split the bill.","example_ja":"割り勘にしよう。","tag":"drama"}
+{"id":164,"word":"talk it out","meaning":"話し合って解決する","example":"We need to talk it out.","example_ja":"話し合って解決しよう。","tag":"drama"}
+{"id":165,"word":"work it out","meaning":"何とかする","example":"We'll work it out together.","example_ja":"一緒に何とかしよう。","tag":"drama"}
+{"id":166,"word":"patch things up","meaning":"仲直りする","example":"They patched things up after the fight.","example_ja":"喧嘩のあとで仲直りした。","tag":"drama"}
+{"id":167,"word":"call it quits","meaning":"関係を終える","example":"They decided to call it quits.","example_ja":"2人は関係を終えることにした。","tag":"drama"}
+{"id":168,"word":"move on","meaning":"先へ進む","example":"It's time to move on.","example_ja":"先へ進む時だ。","tag":"drama"}
+{"id":169,"word":"be on a break","meaning":"休止中（お約束）","example":"We were on a break!","example_ja":"私たちは距離を置いていたんだ！","tag":"drama"}
+{"id":170,"word":"ghostwriter","meaning":"代筆者","example":"He worked as a ghostwriter for celebrities.","example_ja":"彼は有名人の代筆者として働いた。","tag":"drama"}
+{"id":171,"word":"pen name","meaning":"筆名","example":"She writes under a pen name.","example_ja":"彼女は筆名で執筆している。","tag":"drama"}
+{"id":172,"word":"spoof article","meaning":"パロディ記事","example":"They published a spoof article as satire.","example_ja":"風刺としてパロディ記事を公開した。","tag":"drama"}
+{"id":173,"word":"clickbait","meaning":"釣りタイトル","example":"Don't fall for clickbait headlines.","example_ja":"釣りタイトルに釣られないで。","tag":"drama"}
+{"id":174,"word":"op-ed","meaning":"寄稿欄（意見）","example":"He wrote an op-ed for the newspaper.","example_ja":"彼は新聞にオピニオン寄稿をした。","tag":"drama"}
+{"id":175,"word":"jam-packed","meaning":"ぎゅうぎゅう","example":"The schedule is jam-packed today.","example_ja":"今日はスケジュールがぎゅうぎゅうだ。","tag":"drama"}
+{"id":176,"word":"crammed","meaning":"詰め込まれた","example":"The train was crammed with commuters.","example_ja":"電車は通勤客でぎゅうぎゅう詰めだった。","tag":"drama"}
+{"id":177,"word":"packed to the brim","meaning":"いっぱい","example":"The suitcase was packed to the brim.","example_ja":"スーツケースはいっぱいまで詰め込まれていた。","tag":"drama"}
+{"id":178,"word":"standing room only","meaning":"立ち見のみ","example":"The concert was standing room only.","example_ja":"コンサートは立ち見のみだった。","tag":"drama"}
+{"id":179,"word":"crowded","meaning":"混雑した","example":"The mall was crowded.","example_ja":"ショッピングモールは混雑していた。","tag":"drama"}
+{"id":180,"word":"bustling","meaning":"活気ある","example":"The market was bustling with shoppers.","example_ja":"市場は買い物客で活気に満ちていた。","tag":"drama"}
+{"id":181,"word":"go-to guy/gal","meaning":"頼れる人","example":"She's our go-to gal for design.","example_ja":"デザインなら彼女が頼りになる人だ。","tag":"drama"}
+{"id":182,"word":"team player","meaning":"チーム志向","example":"He’s a real team player.","example_ja":"彼は本当にチーム志向の人だ。","tag":"drama"}
+{"id":183,"word":"people person","meaning":"人好き/社交的","example":"She's a people person.","example_ja":"彼女は人と接するのが好きなタイプだ。","tag":"drama"}
+{"id":184,"word":"lone wolf","meaning":"一匹狼","example":"He prefers to work as a lone wolf.","example_ja":"彼は一匹狼として働くのを好む。","tag":"drama"}
+{"id":185,"word":"jack-of-all-trades","meaning":"何でも屋","example":"He's a real jack-of-all-trades.","example_ja":"彼は本当に何でもこなす。","tag":"drama"}
+{"id":186,"word":"straight shooter","meaning":"率直な人","example":"I like her—she's a straight shooter.","example_ja":"彼女は率直な人で好感が持てる。","tag":"drama"}
+{"id":187,"word":"buddy-cop","meaning":"相棒刑事もの","example":"It's a buddy-cop movie about mismatched detectives.","example_ja":"性格の合わない相棒刑事を描く映画だ。","tag":"drama"}
+{"id":188,"word":"whodunit","meaning":"推理もの","example":"The novel is a classic whodunit.","example_ja":"その小説は古典的な推理ものだ。","tag":"drama"}
+{"id":189,"word":"dramedy","meaning":"笑いと涙の混合","example":"The show is a clever dramedy.","example_ja":"その番組は巧妙なドラメディだ。","tag":"drama"}
+{"id":190,"word":"slice of life","meaning":"日常系","example":"I enjoy slice-of-life stories.","example_ja":"日常系の物語が好きだ。","tag":"drama"}
+{"id":191,"word":"medical drama","meaning":"医療ドラマ","example":"He's starring in a medical drama.","example_ja":"彼は医療ドラマに出演している。","tag":"drama"}
+{"id":192,"word":"legal drama","meaning":"法廷ドラマ","example":"She writes for a legal drama.","example_ja":"彼女は法廷ドラマの脚本を書いている。","tag":"drama"}
+{"id":193,"word":"buddy","meaning":"相棒/友達","example":"He's my gym buddy.","example_ja":"彼はジムの相棒だ。","tag":"drama"}
+{"id":194,"word":"pal","meaning":"友達","example":"He's an old pal of mine.","example_ja":"彼は昔からの友人だ。","tag":"drama"}
+{"id":195,"word":"mate","meaning":"友（英）","example":"He's a good mate of mine (UK).","example_ja":"彼は仲の良い友達だ（英）。","tag":"drama"}
+{"id":196,"word":"bestie","meaning":"親友","example":"She's my bestie.","example_ja":"彼女は私の親友。","tag":"drama"}
+{"id":197,"word":"roomie","meaning":"同居人","example":"My roomie is moving out next month.","example_ja":"同居人は来月引っ越す。","tag":"drama"}
+{"id":198,"word":"work spouse","meaning":"職場の心の相方（比喩）","example":"We joke that she's my work spouse.","example_ja":"彼女は職場の相棒だって冗談を言っている。","tag":"drama"}
+{"id":199,"word":"ghost town","meaning":"人影まばら","example":"The streets were a ghost town at dawn.","example_ja":"夜明けの通りは人影もまばらだった。","tag":"drama"}
+{"id":200,"word":"hustle and bustle","meaning":"喧騒","example":"I love the hustle and bustle of the city.","example_ja":"都会の喧騒が大好きだ。","tag":"drama"}
+{"id":201,"word":"off the grid","meaning":"電力網外/俗世離れ","example":"They live off the grid in a cabin.","example_ja":"彼らは山小屋で電力網から離れて暮らしている。","tag":"drama"}
+{"id":202,"word":"cozy up","meaning":"寄り添う/すり寄る","example":"They cozied up by the fire.","example_ja":"彼らは暖炉のそばで寄り添った。","tag":"drama"}
+{"id":203,"word":"winding road","meaning":"曲がりくねった道","example":"We drove along a winding mountain road.","example_ja":"曲がりくねった山道を走った。","tag":"drama"}
+{"id":204,"word":"pit stop","meaning":"小休止/寄り道","example":"We made a quick pit stop for coffee.","example_ja":"コーヒーのためにちょっと寄り道した。","tag":"drama"}
+{"id":205,"word":"microaggression","meaning":"さりげない侮辱","example":"That comment was a microaggression.","example_ja":"その発言はさりげない侮辱だった。","tag":"drama"}
+{"id":206,"word":"tone-deaf","meaning":"空気が読めない","example":"The ad was criticized as tone-deaf.","example_ja":"その広告は空気が読めていないと批判された。","tag":"drama"}
+{"id":207,"word":"call-in","meaning":"内輪での注意喚起","example":"They chose a call-in rather than a public call-out.","example_ja":"公の場での指摘ではなく内輪での注意喚起を選んだ。","tag":"drama"}
+{"id":208,"word":"call-out","meaning":"公の場での指摘","example":"She issued a public call-out on Twitter.","example_ja":"彼女はTwitterで公然と指摘した。","tag":"drama"}
+{"id":209,"word":"ally","meaning":"支援者","example":"Be an ally to marginalized groups.","example_ja":"周縁化された人々の支援者になろう。","tag":"drama"}
+{"id":210,"word":"be inclusive","meaning":"包摂的である","example":"We strive to be inclusive.","example_ja":"私たちは包摂的であることを目指している。","tag":"drama"}
+{"id":211,"word":"wing it","meaning":"アドリブでやる","example":"We didn't rehearse—we'll just wing it.","example_ja":"リハなし。ぶっつけ本番でやろう。","tag":"drama"}
+{"id":212,"word":"play it by ear","meaning":"臨機応変にやる","example":"Let's play it by ear tomorrow.","example_ja":"明日は臨機応変にやろう。","tag":"drama"}
+{"id":213,"word":"off the cuff","meaning":"即興で","example":"He gave an off-the-cuff remark.","example_ja":"彼は即興の発言をした。","tag":"drama"}
+{"id":214,"word":"on the fly","meaning":"作業中に即座に","example":"We fixed the bug on the fly.","example_ja":"作業の合間に即座にバグを直した。","tag":"drama"}
+{"id":215,"word":"think on one’s feet","meaning":"機転を利かす","example":"She can think on her feet.","example_ja":"彼女はとっさの判断ができる。","tag":"drama"}
+{"id":216,"word":"late bloomer","meaning":"遅咲き","example":"He's a late bloomer in his career.","example_ja":"彼はキャリアで遅咲きだ。","tag":"drama"}
+{"id":217,"word":"overachiever","meaning":"期待以上の成果を出す人","example":"She's an overachiever at school.","example_ja":"彼女は学校で期待以上の成果を出すタイプだ。","tag":"drama"}
+{"id":218,"word":"underachiever","meaning":"伸び悩む人","example":"He's an underachiever despite his talent.","example_ja":"才能はあるのに伸び悩むタイプだ。","tag":"drama"}
+{"id":219,"word":"self-starter","meaning":"自走できる人","example":"We're looking for a self-starter.","example_ja":"自走できる人材を探しています。","tag":"drama"}
+{"id":220,"word":"people person","meaning":"人が好きな人","example":"She's a real people person.","example_ja":"彼女は本当に人と接するのが好きだ。","tag":"drama"}
+{"id":221,"word":"comfort food","meaning":"心が休まる味","example":"Mac and cheese is my comfort food.","example_ja":"マカロニチーズは私の癒やしの味だ。","tag":"drama"}
+{"id":222,"word":"leftovers","meaning":"残り物","example":"I ate leftovers for lunch.","example_ja":"昼は残り物を食べた。","tag":"drama"}
+{"id":223,"word":"meal prep","meaning":"作り置き","example":"Sunday is for meal prep.","example_ja":"日曜は作り置きの日だ。","tag":"drama"}
+{"id":224,"word":"potluck","meaning":"持ち寄り","example":"We had a potluck dinner at work.","example_ja":"職場で持ち寄りの夕食会をした。","tag":"drama"}
+{"id":225,"word":"cookout","meaning":"屋外料理/バーベキュー","example":"They hosted a cookout in the park.","example_ja":"彼らは公園でバーベキューを開いた。","tag":"drama"}
+{"id":226,"word":"takeout / takeaway","meaning":"テイクアウト（米/英）","example":"Let's order takeout tonight.","example_ja":"今夜はテイクアウトにしよう。","tag":"drama"}
+{"id":227,"word":"backup plan","meaning":"代替案","example":"We need a backup plan.","example_ja":"代替案が必要だ。","tag":"drama"}
+{"id":228,"word":"plan B","meaning":"第二案","example":"What's our Plan B?","example_ja":"第二案は何だっけ？","tag":"drama"}
+{"id":229,"word":"worst-case scenario","meaning":"最悪ケース","example":"In the worst-case scenario, we delay launch.","example_ja":"最悪の場合、ローンチを延期する。","tag":"drama"}
+{"id":230,"word":"best-case scenario","meaning":"最良ケース","example":"Best-case scenario, we finish early.","example_ja":"最良の場合、早く終わる。","tag":"drama"}
+{"id":231,"word":"likelihood","meaning":"可能性","example":"There's a high likelihood of rain.","example_ja":"雨の可能性が高い。","tag":"drama"}
+{"id":232,"word":"mitigate","meaning":"緩和する","example":"We can mitigate the risk with backups.","example_ja":"バックアップでリスクを緩和できる。","tag":"drama"}
+{"id":233,"word":"leave me hanging","meaning":"放置するな","example":"Don't leave me hanging.","example_ja":"私を放置しないで。","tag":"drama"}
+{"id":234,"word":"ghost me","meaning":"連絡を断つな","example":"Please don't ghost me.","example_ja":"連絡を急に絶たないで。","tag":"drama"}
+{"id":235,"word":"hit me up","meaning":"連絡ちょうだい","example":"Hit me up when you're free.","example_ja":"暇なときに連絡ちょうだい。","tag":"drama"}
+{"id":236,"word":"keep me posted","meaning":"情報ちょうだい","example":"Keep me posted on any updates.","example_ja":"更新があれば逐次知らせて。","tag":"drama"}
+{"id":237,"word":"circle back to me","meaning":"後で戻って","example":"Please circle back to me tomorrow.","example_ja":"明日また私に戻ってきて（連絡して）。","tag":"drama"}
+{"id":238,"word":"ping me","meaning":"軽く連絡して","example":"Ping me when you arrive.","example_ja":"着いたらピン（軽く連絡）して。","tag":"drama"}
+{"id":239,"word":"low-key","meaning":"控えめに/ひそかに","example":"I'm low-key excited about this.","example_ja":"これ、ひそかにワクワクしてる。","tag":"drama"}
+{"id":240,"word":"high-key","meaning":"あからさまに","example":"I'm high-key obsessed with this show.","example_ja":"この番組にあからさまにハマってる。","tag":"drama"}
+{"id":241,"word":"salty","meaning":"いじけてる/根に持つ","example":"He's still salty about losing.","example_ja":"彼は負けたことをいまだに根に持っている。","tag":"drama"}
+{"id":242,"word":"spicy","meaning":"辛口/刺激的","example":"That's a pretty spicy comment.","example_ja":"なかなか辛口なコメントだね。","tag":"drama"}
+{"id":243,"word":"wholesome","meaning":"健やか/心温まる","example":"It's such a wholesome video.","example_ja":"とても心温まる動画だ。","tag":"drama"}
+{"id":244,"word":"toxic","meaning":"有害な","example":"They were in a toxic relationship.","example_ja":"2人は有害な関係にあった。","tag":"drama"}
+{"id":245,"word":"healthy boundaries","meaning":"健全な境界線","example":"It's important to set healthy boundaries.","example_ja":"健全な境界線を設定することが大切だ。","tag":"drama"}
+{"id":246,"word":"office politics","meaning":"社内政治","example":"Try to stay out of office politics.","example_ja":"社内政治には関わらないように。","tag":"drama"}
+{"id":247,"word":"watercooler talk","meaning":"雑談","example":"We had some watercooler talk about the game.","example_ja":"ゲームの話でちょっと雑談した。","tag":"drama"}
+{"id":248,"word":"micromanager","meaning":"細かく口出しする上司","example":"He's a notorious micromanager.","example_ja":"彼は有名なマイクロマネージャーだ。","tag":"drama"}
+{"id":249,"word":"overbearing","meaning":"圧の強い","example":"Her overbearing boss made life difficult.","example_ja":"彼女の圧の強い上司のせいで大変だった。","tag":"drama"}
+{"id":250,"word":"work-life balance","meaning":"仕事と生活の調和","example":"Work-life balance matters for everyone.","example_ja":"ワークライフバランスは誰にとっても大切だ。","tag":"drama"}
+{"id":251,"word":"cling to hope","meaning":"希望にすがる","example":"They continued to cling to hope.","example_ja":"彼らは希望にすがり続けた。","tag":"drama"}
+{"id":252,"word":"hold out","meaning":"持ちこたえる","example":"We can hold out a little longer.","example_ja":"もう少しは持ちこたえられる。","tag":"drama"}
+{"id":253,"word":"let go","meaning":"手放す/手を離す","example":"It's time to let go of the past.","example_ja":"過去を手放す時だ。","tag":"drama"}
+{"id":254,"word":"move forward","meaning":"前へ進む","example":"Let's move forward with the plan.","example_ja":"計画を前へ進めよう。","tag":"drama"}
+{"id":255,"word":"turn the page","meaning":"気持ちを切り替える","example":"It's time to turn the page.","example_ja":"ページをめくって次に進む時だ。","tag":"drama"}
+{"id":256,"word":"start fresh","meaning":"心機一転やり直す","example":"Let's start fresh tomorrow.","example_ja":"明日から心機一転やり直そう。","tag":"drama"}
+{"id":257,"word":"plot device","meaning":"物語装置","example":"The amnesia is a tired plot device.","example_ja":"記憶喪失は使い古されたプロット装置だ。","tag":"drama"}
+{"id":258,"word":"narrator","meaning":"語り手","example":"The story is told by an unreliable narrator.","example_ja":"物語は信頼できない語り手によって語られる。","tag":"drama"}
+{"id":259,"word":"fourth wall","meaning":"第四の壁","example":"The character breaks the fourth wall.","example_ja":"そのキャラクターは第四の壁を破る。","tag":"drama"}
+{"id":260,"word":"montage","meaning":"モンタージュ","example":"A training montage follows.","example_ja":"トレーニングのモンタージュが続く。","tag":"drama"}
+{"id":261,"word":"flashback","meaning":"回想","example":"The film uses frequent flashbacks.","example_ja":"その映画は頻繁にフラッシュバックを用いる。","tag":"drama"}
+{"id":262,"word":"time skip","meaning":"時間跳躍","example":"There's a five‑year time skip in season 2.","example_ja":"シーズン2では5年の時間跳躍がある。","tag":"drama"}
+{"id":263,"word":"cold open","meaning":"本編前の導入","example":"The episode features a cold open.","example_ja":"その回はコールドオープンから始まる。","tag":"drama"}
+{"id":264,"word":"good call","meaning":"いい判断","example":"Good call—let's wait for more data.","example_ja":"いい判断だ。追加データを待とう。","tag":"drama"}
+{"id":265,"word":"solid point","meaning":"的を射た指摘","example":"That's a solid point.","example_ja":"それは的を射た指摘だ。","tag":"drama"}
+{"id":266,"word":"fair enough","meaning":"分かった/確かに","example":"Fair enough—let's try your approach.","example_ja":"確かに。君のやり方でやってみよう。","tag":"drama"}
+{"id":267,"word":"touché","meaning":"一本取られた（反論を認める）","example":"Touché—that's a good counterargument.","example_ja":"一本取られた。いい反論だ。","tag":"drama"}
+{"id":268,"word":"that’s on me","meaning":"それは私の責任","example":"That's on me. I should've checked.","example_ja":"それは私の責任。確認すべきだった。","tag":"drama"}
+{"id":269,"word":"my bad","meaning":"ごめん、ミスった","example":"My bad—I forgot to send it.","example_ja":"ごめん。送るのを忘れた。","tag":"drama"}
+{"id":270,"word":"snub","meaning":"露骨に無視","example":"He felt snubbed at the event.","example_ja":"彼はそのイベントで露骨に無視されたと感じた。","tag":"drama"}
+{"id":271,"word":"cold shoulder","meaning":"素っ気ない態度","example":"She gave him the cold shoulder.","example_ja":"彼女は彼に素っ気ない態度を取った。","tag":"drama"}
+{"id":272,"word":"standoffish","meaning":"よそよそしい","example":"He seemed standoffish at first.","example_ja":"最初はよそよそしく見えた。","tag":"drama"}
+{"id":273,"word":"rub someone the wrong way","meaning":"癇に障る","example":"His jokes rub me the wrong way.","example_ja":"彼の冗談は癇に障る。","tag":"drama"}
+{"id":274,"word":"hit a nerve","meaning":"痛い所を突く/逆鱗に触れる","example":"That comment hit a nerve.","example_ja":"その一言が痛い所を突いた。","tag":"drama"}
+{"id":275,"word":"strike a chord","meaning":"心に響く","example":"Her story struck a chord with me.","example_ja":"彼女の話は心に響いた。","tag":"drama"}
+{"id":276,"word":"wingman","meaning":"サポート役","example":"He acted as my wingman at the party.","example_ja":"彼はパーティーでサポート役を務めた。","tag":"drama"}
+{"id":277,"word":"third wheel","meaning":"お邪魔虫","example":"I felt like a third wheel.","example_ja":"お邪魔虫みたいに感じた。","tag":"drama"}
+{"id":278,"word":"plus-one","meaning":"同伴者","example":"Can I bring a plus‑one to the wedding?","example_ja":"結婚式に同伴者を連れていける？","tag":"drama"}
+{"id":279,"word":"plus-size","meaning":"大きめサイズ","example":"She shops at plus-size brands.","example_ja":"彼女はプラスサイズのブランドで買い物する。","tag":"drama"}
+{"id":280,"word":"hand-me-down","meaning":"お古","example":"I wore my sister's hand‑me‑downs.","example_ja":"姉のお古を着ていた。","tag":"drama"}
+{"id":281,"word":"dress code","meaning":"服装規定","example":"The office has a casual dress code.","example_ja":"職場はカジュアルな服装規定だ。","tag":"drama"}
+{"id":282,"word":"facepalm","meaning":"（呆れて）顔を覆う","example":"That moment was a total facepalm.","example_ja":"あの場面は完全に頭抱えた。","tag":"drama"}
+{"id":283,"word":"eye roll","meaning":"（呆れて）目を上へ向ける","example":"She gave an epic eye roll.","example_ja":"彼女は盛大に目を上へ向けた（呆れた）。","tag":"drama"}
+{"id":284,"word":"deadpan","meaning":"無表情で","example":"He delivered the line deadpan.","example_ja":"彼は無表情でその台詞を言った。","tag":"drama"}
+{"id":285,"word":"side-eye","meaning":"横目で見る（疑いの視線）","example":"She shot me a side‑eye.","example_ja":"彼女は私に疑いの横目を向けた。","tag":"drama"}
+{"id":286,"word":"jaw drop","meaning":"あ然とする/顎が落ちるほど驚く","example":"My jaw dropped at the twist.","example_ja":"その展開にあ然とした。","tag":"drama"}
+{"id":287,"word":"grin","meaning":"にやりと笑う","example":"He couldn't hide his grin.","example_ja":"彼はにやりとした笑みを隠せなかった。","tag":"drama"}
+{"id":288,"word":"messy","meaning":"ゴタゴタしている/散らかった","example":"Their breakup was messy.","example_ja":"二人の別れはゴタゴタしていた。","tag":"drama"}
+{"id":289,"word":"complicated","meaning":"複雑","example":"It's complicated.","example_ja":"いろいろ複雑なんだ。","tag":"drama"}
+{"id":290,"word":"it’s a lot","meaning":"（情報/負担が）多すぎる","example":"I know—it’s a lot to process.","example_ja":"わかる、消化することが多すぎるよね。","tag":"drama"}
+{"id":291,"word":"that’s rough","meaning":"つらいね","example":"That's rough—are you okay?","example_ja":"それはつらいね。大丈夫？","tag":"drama"}
+{"id":292,"word":"beef","meaning":"いさかい/因縁","example":"They've had beef for years.","example_ja":"彼らは何年も因縁がある。","tag":"drama"}
+{"id":293,"word":"squash the beef","meaning":"もめ事を収める","example":"They finally squashed the beef.","example_ja":"ついにもめ事を収めた。","tag":"drama"}
+{"id":294,"word":"call a truce","meaning":"休戦する","example":"Let's call a truce and talk.","example_ja":"休戦して話し合おう。","tag":"drama"}
+{"id":295,"word":"make amends","meaning":"償う/埋め合わせをする","example":"He tried to make amends.","example_ja":"彼は償おうとした。","tag":"drama"}
+{"id":296,"word":"bury the hatchet","meaning":"和解する","example":"They buried the hatchet at last.","example_ja":"彼らはついに和解した。","tag":"drama"}
+{"id":297,"word":"let bygones be bygones","meaning":"水に流す","example":"Let's let bygones be bygones.","example_ja":"過去のことは水に流そう。","tag":"drama"}
+{"id":298,"word":"game changer","meaning":"形勢を変える要素","example":"This feature is a game changer.","example_ja":"この機能は形勢を変える存在だ。","tag":"drama"}
+{"id":299,"word":"silver lining","meaning":"不幸中の幸い","example":"The silver lining is we learned a lot.","example_ja":"不幸中の幸いは多くを学べたことだ。","tag":"drama"}
+{"id":300,"word":"double-edged sword","meaning":"諸刃の剣","example":"Automation can be a double‑edged sword.","example_ja":"自動化は諸刃の剣になり得る。","tag":"drama"}
+{"id":301,"word":"necessary evil","meaning":"必要悪","example":"Paperwork is a necessary evil.","example_ja":"書類仕事は必要悪だ。","tag":"drama"}
+{"id":302,"word":"catch-22","meaning":"ジレンマ/板挟み","example":"It’s a classic catch‑22.","example_ja":"典型的な板挟みだ。","tag":"drama"}
+{"id":303,"word":"slippery slope","meaning":"（悪い方向へ）ずるずる進む/滑り台論法","example":"That's a slippery slope argument.","example_ja":"それは滑り台論法だ。","tag":"drama"}
+{"id":304,"word":"bail","meaning":"その場を離れる/保釈","example":"Sorry, I have to bail early.","example_ja":"ごめん、先に抜けなきゃ。","tag":"drama"}
+{"id":305,"word":"ditch","meaning":"置き去りにする/やめる","example":"Let's ditch the plan and improvise.","example_ja":"その計画はやめてアドリブでいこう。","tag":"drama"}
+{"id":306,"word":"split","meaning":"別れる/割り勘にする","example":"We decided to split the bill.","example_ja":"割り勘にすることにした。","tag":"drama"}
+{"id":307,"word":"dump","meaning":"（恋人を）ふる/捨てる","example":"He dumped his old laptop.","example_ja":"彼は古いノートPCを処分した。","tag":"drama"}
+{"id":308,"word":"bounce","meaning":"跳ねる/帰る","example":"It's late—we should bounce.","example_ja":"遅いし、そろそろ帰ろう。","tag":"drama"}
+{"id":309,"word":"peel out","meaning":"急発進する","example":"The car peeled out of the lot.","example_ja":"車が駐車場から急発進した。","tag":"drama"}
+{"id":310,"word":"plot twist","meaning":"どんでん返し","example":"The plot twist shocked everyone.","example_ja":"そのどんでん返しは皆を驚かせた。","tag":"drama"}
+{"id":311,"word":"foreshadow","meaning":"伏線","example":"Early scenes foreshadow the ending.","example_ja":"序盤のシーンが結末の伏線になっている。","tag":"drama"}
+{"id":312,"word":"pay off","meaning":"回収","example":"All the hints finally paid off.","example_ja":"散りばめられたヒントがついに回収された。","tag":"drama"}
+{"id":313,"word":"red flag","meaning":"危険信号","example":"His behavior raised some red flags.","example_ja":"彼の言動はいくつかの危険信号だった。","tag":"drama"}
+{"id":314,"word":"green flag","meaning":"安心サイン","example":"Patience is a green flag in relationships.","example_ja":"我慢強さは人間関係の安心サインだ。","tag":"drama"}
+{"id":315,"word":"deal-breaker","meaning":"絶対NG","example":"Lying is a deal‑breaker for me.","example_ja":"嘘は私にとって絶対に無理。","tag":"drama"}
+{"id":316,"word":"comfort zone","meaning":"安全圏/慣れた領域","example":"Step out of your comfort zone.","example_ja":"コンフォートゾーンから一歩出よう。","tag":"drama"}
+{"id":317,"word":"growth zone","meaning":"成長の領域","example":"Discomfort can mean you're in the growth zone.","example_ja":"居心地の悪さは成長の領域にいるサインかも。","tag":"drama"}
+{"id":318,"word":"stretch goal","meaning":"背伸び目標","example":"We set a stretch goal for Q3.","example_ja":"第3四半期に背伸び目標を設定した。","tag":"drama"}
+{"id":319,"word":"push one’s limits","meaning":"限界に挑む","example":"Athletes push their limits every day.","example_ja":"アスリートは日々、限界に挑んでいる。","tag":"drama"}
+{"id":320,"word":"hit a plateau","meaning":"頭打ちになる","example":"My progress hit a plateau last month.","example_ja":"先月、成長が頭打ちになった。","tag":"drama"}
+{"id":321,"word":"break through","meaning":"突破する","example":"We finally broke through the barrier.","example_ja":"ついに壁を突破した。","tag":"drama"}
+{"id":322,"word":"plot armor","meaning":"主人公補正","example":"Thanks to plot armor, he survives again.","example_ja":"主人公補正でまた生き延びる。","tag":"drama"}
+{"id":323,"word":"deus ex machina","meaning":"機械仕掛けの神（唐突解決）","example":"The ending felt like a deus ex machina.","example_ja":"ラストはご都合展開に感じた。","tag":"drama"}
+{"id":324,"word":"time loop","meaning":"時間ループ","example":"The characters are stuck in a time loop.","example_ja":"登場人物は時間ループに囚われている。","tag":"drama"}
+{"id":325,"word":"alternate timeline","meaning":"代替時間軸","example":"This episode shows an alternate timeline.","example_ja":"この回は別の時間軸を描く。","tag":"drama"}
+{"id":326,"word":"multiverse","meaning":"マルチバース","example":"The story explores the multiverse.","example_ja":"物語はマルチバースを探求する。","tag":"drama"}
+{"id":327,"word":"canon","meaning":"正史","example":"Is this scene canon?","example_ja":"このシーンは正史（公式設定）なの？","tag":"drama"}
+{"id":328,"word":"slow burn","meaning":"徐々に燃える展開","example":"The romance is a slow burn.","example_ja":"恋愛の進展はスローバーンだ。","tag":"drama"}
+{"id":329,"word":"will-they-won’t-they","meaning":"くっつくかどうかの関係","example":"It's a classic will‑they‑won't‑they.","example_ja":"典型的なくっつくのか問題だ。","tag":"drama"}
+{"id":330,"word":"banter","meaning":"軽口の掛け合い","example":"I enjoyed their playful banter.","example_ja":"二人の軽口の掛け合いが楽しかった。","tag":"drama"}
+{"id":331,"word":"chemistry","meaning":"相性/ケミストリー","example":"They have great on‑screen chemistry.","example_ja":"二人は画面越しの相性が抜群だ。","tag":"drama"}
+{"id":332,"word":"breakup","meaning":"別れ","example":"Their breakup was mutual.","example_ja":"二人の別れは円満だった。","tag":"drama"}
+{"id":333,"word":"wing it","meaning":"即興でやる","example":"We didn't prepare—let's wing it.","example_ja":"準備してないし、即興でいこう。","tag":"drama"}
+{"id":334,"word":"nail it","meaning":"うまくやる/完璧にこなす","example":"You totally nailed it!","example_ja":"完璧にやり切ったね！","tag":"drama"}
+{"id":335,"word":"blow it","meaning":"台無しにする","example":"Don't blow it this time.","example_ja":"今回は台無しにしないで。","tag":"drama"}
+{"id":336,"word":"botch it","meaning":"へまをする","example":"He botched it at the last minute.","example_ja":"彼は土壇場でへまをやらかした。","tag":"drama"}
+{"id":337,"word":"pull it off","meaning":"やり遂げる/成功させる","example":"We pulled it off despite the odds.","example_ja":"不利な状況でもやり遂げた。","tag":"drama"}
+{"id":338,"word":"mess it up","meaning":"やらかす","example":"I messed it up again.","example_ja":"またやらかしてしまった。","tag":"drama"}
+{"id":339,"word":"in denial","meaning":"現実否認","example":"He's still in denial about the breakup.","example_ja":"彼は別れをまだ受け入れられないでいる。","tag":"drama"}
+{"id":340,"word":"coping mechanism","meaning":"対処メカニズム","example":"Humor is her coping mechanism.","example_ja":"ユーモアが彼女の対処法だ。","tag":"drama"}
+{"id":341,"word":"trigger","meaning":"引き金/トリガー","example":"Loud noises can be a trigger.","example_ja":"大きな音が引き金になることがある。","tag":"drama"}
+{"id":342,"word":"boundary","meaning":"境界線/一線","example":"Set healthy boundaries at work.","example_ja":"職場で健全な境界線を引こう。","tag":"drama"}
+{"id":343,"word":"grounding","meaning":"地に足をつける行為","example":"Breathing exercises are grounding.","example_ja":"呼吸法は気持ちを落ち着かせる。","tag":"drama"}
+{"id":344,"word":"dead inside","meaning":"心が死んでいる感じ","example":"I feel dead inside after the breakup.","example_ja":"別れの後、心が死んだように感じる。","tag":"drama"}
+{"id":345,"word":"burned out","meaning":"燃え尽きた","example":"I'm totally burned out.","example_ja":"完全に燃え尽きている。","tag":"drama"}
+{"id":346,"word":"on edge","meaning":"ピリピリして","example":"I've been on edge all week.","example_ja":"今週ずっとピリピリしている。","tag":"drama"}
+{"id":347,"word":"over the moon","meaning":"有頂天で","example":"She was over the moon about the news.","example_ja":"彼女はその知らせに有頂天だった。","tag":"drama"}
+{"id":348,"word":"under the weather","meaning":"体調が悪くて","example":"I'm feeling under the weather today.","example_ja":"今日は体調が良くない。","tag":"drama"}
+{"id":349,"word":"in high spirits","meaning":"上機嫌で","example":"He was in high spirits after the win.","example_ja":"勝利後、彼は上機嫌だった。","tag":"drama"}
+{"id":350,"word":"banter","meaning":"軽口","example":"They exchanged friendly banter.","example_ja":"二人は友好的な軽口を交わした。","tag":"drama"}
+{"id":351,"word":"quip","meaning":"皮肉混じりの一言","example":"He made a clever quip.","example_ja":"彼は気の利いた一言を放った。","tag":"drama"}
+{"id":352,"word":"comeback","meaning":"切り返し","example":"Her comeback left him speechless.","example_ja":"彼女の切り返しに彼は言葉を失った。","tag":"drama"}
+{"id":353,"word":"one-liner","meaning":"一発ギャグ/決め台詞","example":"He delivered a perfect one‑liner.","example_ja":"彼は完璧な決め台詞を放った。","tag":"drama"}
+{"id":354,"word":"zinger","meaning":"痛烈な一言","example":"That zinger ended the argument.","example_ja":"その痛烈な一言で議論は終わった。","tag":"drama"}
+{"id":355,"word":"punchline","meaning":"オチの一言/決め台詞","example":"The punchline landed perfectly.","example_ja":"オチが見事に決まった。","tag":"drama"}
+{"id":356,"word":"awkward silence","meaning":"気まずい沈黙","example":"An awkward silence fell over the room.","example_ja":"部屋に気まずい沈黙が流れた。","tag":"drama"}
+{"id":357,"word":"small talk","meaning":"世間話","example":"We made small talk about the weather.","example_ja":"天気の話で世間話をした。","tag":"drama"}
+{"id":358,"word":"icebreaker","meaning":"場を和ませる話題/活動","example":"We started with a quick icebreaker.","example_ja":"簡単なアイスブレイクから始めた。","tag":"drama"}
+{"id":359,"word":"chit-chat","meaning":"おしゃべり","example":"We had a bit of chit‑chat.","example_ja":"少しおしゃべりした。","tag":"drama"}
+{"id":360,"word":"catch up","meaning":"近況報告する","example":"Let's catch up over coffee.","example_ja":"コーヒーでも飲みながら近況報告しよう。","tag":"drama"}
+{"id":361,"word":"bonding","meaning":"絆作り","example":"The trip was great for team bonding.","example_ja":"その旅はチームの絆作りに良かった。","tag":"drama"}
+{"id":362,"word":"buddy","meaning":"相棒","example":"We became workout buddies.","example_ja":"私たちはトレーニング仲間になった。","tag":"drama"}
+{"id":363,"word":"sidekick","meaning":"相棒（相対的に格下）","example":"He plays the hero's sidekick.","example_ja":"彼は主人公の相棒役だ。","tag":"drama"}
+{"id":364,"word":"mentor","meaning":"メンター","example":"She mentors junior engineers.","example_ja":"彼女は若手エンジニアのメンターを務める。","tag":"drama"}
+{"id":365,"word":"protégé","meaning":"弟子","example":"He's the protégé of a famous chef.","example_ja":"彼は有名シェフの弟子だ。","tag":"drama"}
+{"id":366,"word":"foil","meaning":"対照キャラ","example":"The rival serves as a foil to the hero.","example_ja":"ライバルは主人公の対照として機能する。","tag":"drama"}
+{"id":367,"word":"antagonist","meaning":"敵役","example":"The antagonist is complex and nuanced.","example_ja":"敵役は複雑で奥行きがある。","tag":"drama"}
+{"id":368,"word":"overstep","meaning":"出過ぎた真似をする","example":"He overstepped by sharing private info.","example_ja":"彼は個人情報を共有して出過ぎた真似をした。","tag":"drama"}
+{"id":369,"word":"cross the line","meaning":"一線を越える","example":"That joke crossed the line.","example_ja":"その冗談は一線を越えていた。","tag":"drama"}
+{"id":370,"word":"call it out","meaning":"その場で指摘する","example":"She called it out immediately.","example_ja":"彼女はその場ですぐ指摘した。","tag":"drama"}
+{"id":371,"word":"stand up to","meaning":"〜に立ち向かう","example":"He stood up to the bully.","example_ja":"彼はいじめっ子に立ち向かった。","tag":"drama"}
+{"id":372,"word":"stand up for","meaning":"〜を擁護する","example":"We should stand up for our rights.","example_ja":"自分たちの権利を擁護すべきだ。","tag":"drama"}
+{"id":373,"word":"hunch","meaning":"勘","example":"I have a hunch it's him.","example_ja":"彼だという勘が働く。","tag":"drama"}
+{"id":374,"word":"gut feeling","meaning":"腹の底の勘","example":"My gut feeling says no.","example_ja":"腹の勘ではノーだ。","tag":"drama"}
+{"id":375,"word":"sixth sense","meaning":"第六感","example":"She has a sixth sense for trouble.","example_ja":"彼女はトラブルを嗅ぎ分ける第六感がある。","tag":"drama"}
+{"id":376,"word":"sleuth","meaning":"探偵","example":"The amateur sleuth solved the case.","example_ja":"素人探偵が事件を解いた。","tag":"drama"}
+{"id":377,"word":"suspension","meaning":"停学/出場停止","example":"He got a two‑game suspension.","example_ja":"彼は2試合の出場停止処分を受けた。","tag":"drama"}
+{"id":378,"word":"probation","meaning":"執行猶予/試用期間","example":"She's on probation for three months.","example_ja":"彼女は3カ月の試用期間中だ。","tag":"drama"}
+{"id":379,"word":"detention","meaning":"居残り/拘留","example":"He got detention after class.","example_ja":"彼は放課後の居残りを命じられた。","tag":"drama"}
+{"id":380,"word":"expulsion","meaning":"退学/追放","example":"Expulsion is the last resort.","example_ja":"退学は最後の手段だ。","tag":"drama"}
+{"id":381,"word":"disciplinary action","meaning":"懲戒処分","example":"He faced disciplinary action.","example_ja":"彼は懲戒処分の対象となった。","tag":"drama"}
+{"id":382,"word":"warning","meaning":"警告","example":"Consider this your final warning.","example_ja":"これを最後の警告とする。","tag":"drama"}
+{"id":383,"word":"gas money","meaning":"ガソリン代","example":"I'll chip in for gas money.","example_ja":"ガソリン代は割り勘で出すよ。","tag":"drama"}
+{"id":384,"word":"cover","meaning":"（費用を）負担する","example":"I'll cover the drinks.","example_ja":"飲み物代は私が持つよ。","tag":"drama"}
+{"id":385,"word":"split","meaning":"割り勘にする","example":"Let's split the check.","example_ja":"割り勘にしよう。","tag":"drama"}
+{"id":386,"word":"tab","meaning":"つけ/会計","example":"Put it on my tab.","example_ja":"つけにしておいて。","tag":"drama"}
+{"id":387,"word":"pick up the tab","meaning":"おごる/支払いを持つ","example":"I'll pick up the tab this time.","example_ja":"今回は私がおごるよ。","tag":"drama"}
+{"id":388,"word":"chip in","meaning":"少しずつ出し合う","example":"Let's all chip in for a gift.","example_ja":"みんなで少しずつ出し合ってプレゼントを買おう。","tag":"drama"}
+{"id":389,"word":"meh","meaning":"微妙/どうでもいい","example":"Meh, it was okay but nothing special.","example_ja":"まあ、悪くはないけど特に良くもない。","tag":"drama"}
+{"id":390,"word":"yikes","meaning":"うわっ/やばっ（驚き・引き）","example":"Yikes, that's a huge bug.","example_ja":"うわ、これは大きなバグだ。","tag":"drama"}
+{"id":391,"word":"oops","meaning":"おっと/しまった","example":"Oops, I sent the wrong file.","example_ja":"おっと、間違ったファイルを送ってしまった。","tag":"drama"}
+{"id":392,"word":"ugh","meaning":"うんざり/げんなり","example":"Ugh, the traffic is awful today.","example_ja":"はあ、今日は渋滞がひどい。","tag":"drama"}
+{"id":393,"word":"aww","meaning":"あら〜/かわいい（共感の間投詞）","example":"Aww, look at that puppy!","example_ja":"あら〜、あの子犬見て！","tag":"drama"}
+{"id":394,"word":"phew","meaning":"ふう（安堵）","example":"Phew, we made the deadline.","example_ja":"ふう、締め切りに間に合った。","tag":"drama"}
+{"id":395,"word":"bottle episode","meaning":"ボトルエピソード（単一ロケの回）","example":"That bottle episode was surprisingly intense.","example_ja":"あのボトルエピソードは意外と濃密だった。","tag":"drama"}
+{"id":396,"word":"cold open","meaning":"コールドオープン（前置きなしの導入）","example":"The cold open hooked me right away.","example_ja":"コールドオープンで一気に惹きつけられた。","tag":"drama"}
+{"id":397,"word":"stinger","meaning":"（エンド）クレジット後の短いおまけ映像","example":"Don’t miss the stinger after the credits.","example_ja":"エンドクレジット後のおまけ映像を見逃さないで。","tag":"drama"}
+{"id":398,"word":"filler","meaning":"埋め草回/水増し回","example":"This episode felt like filler.","example_ja":"この回は埋め草っぽかった。","tag":"drama"}
+{"id":399,"word":"non-canon","meaning":"非正史/公式設定外","example":"The story is fun but non-canon.","example_ja":"その話は面白いけど非正史だ。","tag":"drama"}
+{"id":400,"word":"bond over ~","meaning":"〜をきっかけに仲良くなる","example":"We bonded over anime.","example_ja":"アニメをきっかけに仲良くなった。","tag":"drama"}
+{"id":401,"word":"hit it off","meaning":"意気投合する","example":"They hit it off immediately.","example_ja":"二人はすぐ意気投合した。","tag":"drama"}
+{"id":402,"word":"grow apart","meaning":"疎遠になる/離れていく","example":"We grew apart in college.","example_ja":"大学時代に疎遠になった。","tag":"drama"}
+{"id":403,"word":"be there for","meaning":"（人を）支える/寄り添う","example":"I’ll be there for you.","example_ja":"君の力になるよ。","tag":"drama"}
+{"id":404,"word":"have one’s back","meaning":"味方する/守る","example":"I’ve got your back.","example_ja":"君の味方だよ。","tag":"drama"}
+{"id":405,"word":"buddy road trip","meaning":"相棒もののロードトリップ","example":"It’s a buddy road trip movie.","example_ja":"これは相棒のロードトリップ映画だ。","tag":"drama"}
+{"id":406,"word":"odd couple","meaning":"正反対コンビ","example":"They’re an odd couple but it works.","example_ja":"正反対のコンビだけどうまくいっている。","tag":"drama"}
+{"id":407,"word":"fish out of water","meaning":"場違いで浮いた人","example":"He felt like a fish out of water at the gala.","example_ja":"彼はガラの場で場違いな感じがした。","tag":"drama"}
+{"id":408,"word":"rags to riches","meaning":"成り上がり/貧乏から成功","example":"It’s a rags-to-riches story.","example_ja":"それは成り上がりの物語だ。","tag":"drama"}
+{"id":409,"word":"coming of age","meaning":"成長物語/成人","example":"Her novel is a coming-of-age tale.","example_ja":"彼女の小説は成長物語だ。","tag":"drama"}
+{"id":410,"word":"found family","meaning":"擬似家族/選んだ家族","example":"The show focuses on found family.","example_ja":"その作品は擬似家族をテーマにしている。","tag":"drama"}
+{"id":411,"word":"drain","meaning":"消耗させる/負担になる","example":"The commute is such a drain.","example_ja":"通勤は本当に消耗する。","tag":"drama"}
+{"id":412,"word":"energize","meaning":"元気づける/活性化する","example":"This playlist energizes me in the morning.","example_ja":"このプレイリストは朝に元気をくれる。","tag":"drama"}
+{"id":413,"word":"lift someone up","meaning":"人を励ます/元気づける","example":"Her words really lifted me up.","example_ja":"彼女の言葉に本当に励まされた。","tag":"drama"}
+{"id":414,"word":"bring someone down","meaning":"気分を落ち込ませる","example":"Don’t let their comments bring you down.","example_ja":"彼らの言葉で落ち込まないで。","tag":"drama"}
+{"id":415,"word":"pep talk","meaning":"激励の言葉","example":"The coach gave us a pep talk.","example_ja":"コーチが激励の言葉をくれた。","tag":"drama"}
+{"id":416,"word":"tough love","meaning":"愛のムチ","example":"Sometimes kids need tough love.","example_ja":"時には子どもに愛のムチも必要だ。","tag":"drama"}
+{"id":417,"word":"get stood up","meaning":"（約束で）すっぽかされる","example":"I got stood up last night.","example_ja":"昨夜すっぽかされた。","tag":"drama"}
+{"id":418,"word":"flake on","meaning":"ドタキャンする","example":"He flaked on our plans again.","example_ja":"また約束をドタキャンされた。","tag":"drama"}
+{"id":419,"word":"no-show","meaning":"来ない人/無断欠席","example":"There were two no-shows at the meeting.","example_ja":"会議に2人の無断欠席があった。","tag":"drama"}
+{"id":420,"word":"rain check","meaning":"また今度/延期の約束","example":"Can I take a rain check on dinner?","example_ja":"夕食はまた今度でもいい？","tag":"drama"}
+{"id":421,"word":"reschedule","meaning":"予定を変更する/組み直す","example":"Let’s reschedule for next week.","example_ja":"来週に予定を組み直そう。","tag":"drama"}
+{"id":422,"word":"double-book","meaning":"二重予約する/ダブルブッキングする","example":"I double-booked by mistake.","example_ja":"うっかりダブルブッキングしてしまった。","tag":"drama"}
+{"id":423,"word":"mind your business","meaning":"首を突っ込むな/放っておいて","example":"Mind your own business.","example_ja":"余計な口を出さないで。","tag":"drama"}
+{"id":424,"word":"none of your business","meaning":"関係ない/君の知ったことではない","example":"That’s none of your business.","example_ja":"それはあなたの関係ない話だ。","tag":"drama"}
+{"id":425,"word":"butt in","meaning":"口を挟む/割り込む","example":"Don’t butt in while we’re talking.","example_ja":"話しているときに口を挟まないで。","tag":"drama"}
+{"id":426,"word":"pry","meaning":"詮索する/根掘り葉掘り聞く","example":"I don’t mean to pry, but are you okay?","example_ja":"詮索するつもりはないけど、大丈夫？","tag":"drama"}
+{"id":427,"word":"snoop","meaning":"こそこそ探る/詮索する","example":"Stop snooping through my stuff.","example_ja":"勝手に私物を漁らないで。","tag":"drama"}
+{"id":428,"word":"eavesdrop","meaning":"盗み聞きする","example":"They were eavesdropping on our conversation.","example_ja":"彼らは私たちの会話を盗み聞きしていた。","tag":"drama"}
+{"id":429,"word":"save the cat","meaning":"共感を呼ぶ序盤の行動","example":"The hero saves the cat in the opening scene.","example_ja":"主人公は冒頭で共感を呼ぶ行動をする。","tag":"drama"}
+{"id":430,"word":"beat sheet","meaning":"ビートシート/構成表","example":"We outlined the script with a beat sheet.","example_ja":"脚本をビートシートで構成した。","tag":"drama"}
+{"id":431,"word":"b-story","meaning":"Bストーリー/サブプロット","example":"The b-story complements the main plot.","example_ja":"Bストーリーがメインの筋を補っている。","tag":"drama"}
+{"id":432,"word":"climax","meaning":"クライマックス/山場","example":"The climax was unforgettable.","example_ja":"クライマックスは忘れ難かった。","tag":"drama"}
+{"id":433,"word":"resolution","meaning":"解決/結末","example":"The resolution felt satisfying.","example_ja":"結末は満足感があった。","tag":"drama"}
+{"id":434,"word":"ship","meaning":"（キャラ同士を）推す/カップリングする","example":"I ship those two characters.","example_ja":"あの二人のカップリングを推している。","tag":"drama"}
+{"id":435,"word":"OTP (one true pairing)","meaning":"至高の組み合わせ/最推しカップル","example":"They’re my OTP.","example_ja":"あの二人が私の最推しカップルだ。","tag":"drama"}
+{"id":436,"word":"fanfic","meaning":"二次創作（ファンフィクション）","example":"I read fanfic on weekends.","example_ja":"週末に二次創作を読む。","tag":"drama"}
+{"id":437,"word":"headcanon","meaning":"脳内設定/独自解釈","example":"My headcanon is that they’re siblings.","example_ja":"私の脳内設定では二人は兄妹だ。","tag":"drama"}
+{"id":438,"word":"spoiler-free","meaning":"ネタバレなしの","example":"Please keep the review spoiler-free.","example_ja":"レビューはネタバレなしでお願いします。","tag":"drama"}
+{"id":439,"word":"hard pass","meaning":"断固お断り","example":"Thanks, but that’s a hard pass.","example_ja":"ありがとう、でもそれは完全にお断り。","tag":"drama"}
+{"id":440,"word":"soft no","meaning":"角を立てない断り","example":"She gave a soft no.","example_ja":"彼女は角の立たない断り方をした。","tag":"drama"}
+{"id":441,"word":"maybe later","meaning":"また今度","example":"Maybe later—we’re busy now.","example_ja":"また今度ね、今は忙しい。","tag":"drama"}
+{"id":442,"word":"I’ll think about it","meaning":"検討しておく","example":"I’ll think about it, thanks.","example_ja":"検討しておきます、ありがとう。","tag":"drama"}
+{"id":443,"word":"let me get back to you","meaning":"後ほど返事します","example":"Let me get back to you tomorrow.","example_ja":"明日あらためて返事します。","tag":"drama"}
+{"id":444,"word":"rain check","meaning":"また今度にして/延期の約束","example":"Can I take a rain check?","example_ja":"また今度でもいい？","tag":"drama"}
+{"id":445,"word":"grateful","meaning":"感謝している","example":"I’m grateful for your help.","example_ja":"あなたの助けに感謝しています。","tag":"drama"}
+{"id":446,"word":"thankful","meaning":"感謝している（ややフォーマル）","example":"We’re thankful for your support.","example_ja":"ご支援に感謝しています。","tag":"drama"}
+{"id":447,"word":"appreciative","meaning":"ありがたく思う","example":"I’m appreciative of your feedback.","example_ja":"ご意見に感謝しています。","tag":"drama"}
+{"id":448,"word":"much obliged","meaning":"どうも恐れ入ります","example":"Much obliged for your assistance.","example_ja":"ご助力、恐れ入ります。","tag":"drama"}
+{"id":449,"word":"cheers","meaning":"ありがとう（英）/乾杯","example":"Cheers for the help.","example_ja":"手伝ってくれてありがとう。","tag":"drama"}
+{"id":450,"word":"props","meaning":"称賛/リスペクト","example":"Props to the design team.","example_ja":"デザインチームに称賛を。","tag":"drama"}
+{"id":451,"word":"plot convenience","meaning":"ご都合主義","example":"That twist felt like plot convenience.","example_ja":"その展開はご都合主義に感じた。","tag":"drama"}
+{"id":452,"word":"character arc","meaning":"成長の弧/人物の変化の過程","example":"Her character arc was compelling.","example_ja":"彼女のキャラの成長が魅力的だった。","tag":"drama"}
+{"id":453,"word":"redemption","meaning":"贖罪/名誉回復","example":"He seeks redemption for past mistakes.","example_ja":"彼は過去の過ちの贖罪を求めている。","tag":"drama"}
+{"id":454,"word":"tragic flaw","meaning":"宿命的な欠点","example":"His pride is his tragic flaw.","example_ja":"彼の誇りが彼の致命的欠点だ。","tag":"drama"}
+{"id":455,"word":"mentor figure","meaning":"導く存在/師匠役","example":"She serves as a mentor figure.","example_ja":"彼女は導き手の役割を果たす。","tag":"drama"}
+{"id":456,"word":"hang tight","meaning":"そのまま待つ/じっとしている","example":"Hang tight—I’ll be right back.","example_ja":"そのまま待ってて、すぐ戻る。","tag":"drama"}
+{"id":457,"word":"sit tight","meaning":"じっと待つ","example":"Sit tight and wait for updates.","example_ja":"そのまま待って続報を待とう。","tag":"drama"}
+{"id":458,"word":"hold that thought","meaning":"その話は後で/ちょっと待って","example":"Hold that thought—call’s coming in.","example_ja":"その話はちょっと待って、電話が来た。","tag":"drama"}
+{"id":459,"word":"bear with me","meaning":"少しお待ちを/ご容赦を","example":"Bear with me for a moment.","example_ja":"少々お待ちください。","tag":"drama"}
+{"id":460,"word":"give me a sec","meaning":"ちょっと待って","example":"Give me a sec to set this up.","example_ja":"準備するからちょっと待って。","tag":"drama"}
+{"id":461,"word":"one moment","meaning":"少々お待ちを","example":"One moment, please.","example_ja":"少々お待ちください。","tag":"drama"}
+{"id":462,"word":"cold feet","meaning":"怖気づく/土壇場で尻込みする","example":"He got cold feet before the speech.","example_ja":"彼はスピーチ前に怖気づいた。","tag":"drama"}
+{"id":463,"word":"butterflies","meaning":"緊張でそわそわする気持ち","example":"I have butterflies before exams.","example_ja":"試験前はそわそわする。","tag":"drama"}
+{"id":464,"word":"gut feeling","meaning":"勘/直感","example":"I followed my gut feeling.","example_ja":"勘に従った。","tag":"drama"}
+{"id":465,"word":"brain freeze","meaning":"頭が真っ白になる/（冷たい物で）キーンとする","example":"I got brain freeze during the test.","example_ja":"テスト中に頭が真っ白になった。","tag":"drama"}
+{"id":466,"word":"meltdown","meaning":"取り乱す/感情の爆発","example":"He had a meltdown at work.","example_ja":"彼は職場で取り乱した。","tag":"drama"}
+{"id":467,"word":"break down","meaning":"崩れる/取り乱す/故障する","example":"She broke down in tears.","example_ja":"彼女は泣き崩れた。","tag":"drama"}
+{"id":468,"word":"throw a tantrum","meaning":"癇癪を起こす","example":"The toddler threw a tantrum.","example_ja":"幼児が癇癪を起こした。","tag":"drama"}
+{"id":469,"word":"lose it","meaning":"我を忘れる/取り乱す","example":"I almost lost it at the meeting.","example_ja":"会議で取り乱しそうになった。","tag":"drama"}
+{"id":470,"word":"keep it together","meaning":"取り乱さない/冷静を保つ","example":"Try to keep it together.","example_ja":"冷静を保とう。","tag":"drama"}
+{"id":471,"word":"hold it in","meaning":"こらえる/抑える","example":"He couldn’t hold it in anymore.","example_ja":"彼はもうこらえきれなかった。","tag":"drama"}
+{"id":472,"word":"snap at","meaning":"きつく当たる/食ってかかる","example":"Sorry I snapped at you.","example_ja":"きつく当たってごめん。","tag":"drama"}
+{"id":473,"word":"lash out","meaning":"八つ当たりする/激しく非難する","example":"He lashed out at the staff.","example_ja":"彼はスタッフに八つ当たりした。","tag":"drama"}
+{"id":474,"word":"buddy-buddy","meaning":"とても仲良しの","example":"They’re all buddy-buddy now.","example_ja":"今や二人はすっかり仲良しだ。","tag":"drama"}
+{"id":475,"word":"frenemy","meaning":"友敵/仲が良いライバル","example":"They’re frenemies at best.","example_ja":"二人はいいとこ友敵だ。","tag":"drama"}
+{"id":476,"word":"fair-weather friend","meaning":"都合のいいときだけの友達","example":"He’s a fair-weather friend.","example_ja":"彼は都合のいい時だけの友達だ。","tag":"drama"}
+{"id":477,"word":"ride-or-die","meaning":"何があっても味方の（人）","example":"She’s my ride-or-die.","example_ja":"彼女は何があっても味方の相棒だ。","tag":"drama"}
+{"id":478,"word":"BFF","meaning":"親友","example":"We’ve been BFFs since childhood.","example_ja":"子どもの頃からの親友だ。","tag":"drama"}
+{"id":479,"word":"peckish","meaning":"小腹が空いた（英）","example":"I’m feeling a bit peckish.","example_ja":"ちょっと小腹が空いた。","tag":"drama"}
+{"id":480,"word":"stuffed","meaning":"お腹いっぱい","example":"I’m stuffed after that meal.","example_ja":"食事でお腹いっぱいだ。","tag":"drama"}
+{"id":481,"word":"takeout","meaning":"テイクアウト/持ち帰り","example":"Let’s order takeout tonight.","example_ja":"今夜はテイクアウトにしよう。","tag":"drama"}
+{"id":482,"word":"doggy bag","meaning":"（レストランの）持ち帰り袋","example":"Can I get a doggy bag?","example_ja":"持ち帰り用の袋をもらえますか。","tag":"drama"}
+{"id":483,"word":"good vibes","meaning":"良い雰囲気","example":"I’m getting good vibes from this place.","example_ja":"この場所、いい雰囲気だね。","tag":"drama"}
+{"id":484,"word":"bad vibes","meaning":"良くない雰囲気","example":"This gives me bad vibes.","example_ja":"ここはなんか雰囲気が悪い。","tag":"drama"}
+{"id":485,"word":"spark","meaning":"ときめき/火花","example":"There was a spark between them.","example_ja":"二人の間に火花が散った。","tag":"drama"}
+{"id":486,"word":"vibe check","meaning":"雰囲気の確認","example":"Quick vibe check—everyone okay?","example_ja":"ちょっと雰囲気確認、みんな大丈夫？","tag":"drama"}
+{"id":487,"word":"kill the vibe","meaning":"雰囲気を壊す","example":"That comment killed the vibe.","example_ja":"その一言で雰囲気が壊れた。","tag":"drama"}
+{"id":488,"word":"sibling","meaning":"兄弟姉妹","example":"Do you have any siblings?","example_ja":"兄弟姉妹はいますか。","tag":"drama"}
+{"id":489,"word":"in-law","meaning":"義理の親族","example":"I had dinner with my in-laws.","example_ja":"義理の家族と夕食をとった。","tag":"drama"}
+{"id":490,"word":"extended family","meaning":"親戚/大家族","example":"We visited our extended family.","example_ja":"親戚一同を訪ねた。","tag":"drama"}
+{"id":491,"word":"roommate","meaning":"ルームメイト","example":"My roommate is moving out.","example_ja":"ルームメイトが引っ越す。","tag":"drama"}
+{"id":492,"word":"housemate","meaning":"同居人（家を共有）","example":"I live with two housemates.","example_ja":"私は二人の同居人と住んでいる。","tag":"drama"}
+{"id":493,"word":"flatmate","meaning":"ルームメイト（英）","example":"She found a new flatmate.","example_ja":"彼女は新しいフラットメイトを見つけた。","tag":"drama"}
+{"id":494,"word":"plot device","meaning":"仕掛け/物語上の装置","example":"That amnesia was a plot device.","example_ja":"その記憶喪失は物語の仕掛けだった。","tag":"drama"}
+{"id":495,"word":"mcguffin","meaning":"マクガフィン（物語を動かす対象）","example":"The briefcase is the mcguffin.","example_ja":"そのアタッシュケースがマクガフィンだ。","tag":"drama"}
+{"id":496,"word":"red herring","meaning":"偽の手がかり","example":"It turned out to be a red herring.","example_ja":"それは偽の手がかりだった。","tag":"drama"}
+{"id":497,"word":"foreshadowing","meaning":"伏線","example":"The opening shot was foreshadowing.","example_ja":"冒頭のカットが伏線だった。","tag":"drama"}
+{"id":498,"word":"callback","meaning":"過去ネタの再登場/参照","example":"It’s a callback to season one.","example_ja":"シーズン1へのカリバックだ。","tag":"drama"}
+{"id":499,"word":"payoff","meaning":"回収の快感/報い","example":"The finale delivered a great payoff.","example_ja":"最終話で大きな回収があった。","tag":"drama"}
+{"id":500,"word":"comforting","meaning":"慰めになる/安心させる","example":"Her message was comforting.","example_ja":"彼女のメッセージは慰めになった。","tag":"drama"}
+{"id":501,"word":"uplifting","meaning":"励みになる/心が上向く","example":"The story is uplifting.","example_ja":"その話は励みになる。","tag":"drama"}
+{"id":502,"word":"soothing","meaning":"和らげる/落ち着かせる","example":"The music is soothing.","example_ja":"その音楽は心を和らげる。","tag":"drama"}
+{"id":503,"word":"empowering","meaning":"力を与える/自信をつける","example":"The workshop was empowering.","example_ja":"そのワークショップは力を与えてくれた。","tag":"drama"}
+{"id":504,"word":"heartbreaking","meaning":"胸が痛む/切ない","example":"It’s a heartbreaking scene.","example_ja":"胸が痛む場面だ。","tag":"drama"}
+{"id":505,"word":"hype","meaning":"盛り上がり/過剰な宣伝","example":"Ignore the hype and test it yourself.","example_ja":"過度な盛り上がりに流されず自分で試そう。","tag":"drama"}
+{"id":506,"word":"overhyped","meaning":"過大評価の/過剰に持ち上げられた","example":"The movie felt overhyped.","example_ja":"その映画は過大に持ち上げられていた感じだ。","tag":"drama"}
+{"id":507,"word":"mainstream","meaning":"主流/大衆向け","example":"It’s gone mainstream.","example_ja":"それは主流になった。","tag":"drama"}
+{"id":508,"word":"cult following","meaning":"熱狂的支持","example":"The show has a cult following.","example_ja":"その番組には熱狂的な支持層がいる。","tag":"drama"}
+{"id":509,"word":"word of mouth","meaning":"口コミ","example":"Sales grew by word of mouth.","example_ja":"口コミで売上が伸びた。","tag":"drama"}
+{"id":510,"word":"call it a night","meaning":"今日はここまでにする","example":"Let’s call it a night.","example_ja":"今日はここまでにしよう。","tag":"drama"}
+{"id":511,"word":"hit the hay","meaning":"寝る","example":"I’m going to hit the hay.","example_ja":"もう寝ることにする。","tag":"drama"}
+{"id":512,"word":"crash","meaning":"すぐ寝る/ばったり寝る","example":"I’ll crash as soon as I get home.","example_ja":"家に着いたらすぐ寝る。","tag":"drama"}
+{"id":513,"word":"pull an all-nighter","meaning":"徹夜する","example":"I pulled an all-nighter to finish.","example_ja":"仕上げるために徹夜した。","tag":"drama"}
+{"id":514,"word":"room for improvement","meaning":"改善の余地","example":"There’s room for improvement here.","example_ja":"ここには改善の余地がある。","tag":"drama"}
+{"id":515,"word":"on track","meaning":"順調に進んで","example":"The project is on track.","example_ja":"プロジェクトは順調だ。","tag":"drama"}
+{"id":516,"word":"off track","meaning":"脱線して/予定から外れて","example":"We’re getting off track.","example_ja":"話が脱線してきた。","tag":"drama"}
+{"id":517,"word":"ahead of schedule","meaning":"予定より早く","example":"We’re ahead of schedule.","example_ja":"予定より前倒しで進んでいる。","tag":"drama"}
+{"id":518,"word":"behind schedule","meaning":"予定より遅れて","example":"We’re behind schedule.","example_ja":"予定より遅れている。","tag":"drama"}
+{"id":519,"word":"in progress","meaning":"進行中","example":"The migration is in progress.","example_ja":"移行作業は進行中だ。","tag":"drama"}
+{"id":520,"word":"plot twist galore","meaning":"どんでん返しだらけ","example":"The season had plot twists galore.","example_ja":"今季はどんでん返しだらけだった。","tag":"drama"}
+{"id":521,"word":"no dull moment","meaning":"退屈な瞬間がない","example":"There was no dull moment in the film.","example_ja":"その映画は一瞬たりとも退屈しなかった。","tag":"drama"}
+{"id":522,"word":"roller coaster","meaning":"ジェットコースターのような展開","example":"The story is an emotional roller coaster.","example_ja":"物語は感情のジェットコースターだ。","tag":"drama"}
+{"id":523,"word":"chef’s kiss","meaning":"最高（の出来）","example":"That scene was chef’s kiss.","example_ja":"あの場面は最高だった。","tag":"drama"}
+{"id":524,"word":"instant classic","meaning":"すぐに名作と認められる作品","example":"The game is an instant classic.","example_ja":"そのゲームは速攻で名作と認められた。","tag":"drama"}
+{"id":525,"word":"be my guest","meaning":"ご自由にどうぞ","example":"Can I sit here?—Be my guest.","example_ja":"ここ座っていい？—どうぞ。","tag":"drama"}
+{"id":526,"word":"help yourself","meaning":"ご自由にどうぞ/ご自由に取って","example":"Help yourself to some snacks.","example_ja":"お菓子ご自由にどうぞ。","tag":"drama"}
+{"id":527,"word":"you first","meaning":"あなたが先に","example":"You first—I'll follow.","example_ja":"あなたが先に、私は後から行くよ。","tag":"drama"}
+{"id":528,"word":"all yours","meaning":"どうぞ/好きに使って","example":"The room is all yours.","example_ja":"この部屋はご自由にどうぞ。","tag":"drama"}

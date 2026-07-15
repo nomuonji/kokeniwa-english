@@ -3,7 +3,7 @@ from lib.render import esc
 from templates import blog as blog_tpl
 from templates import layout
 
-SNS_ICONS = {"reading": "📖", "uscpa": "📊", "legal": "⚖️"}
+SNS_ICONS = {"reading": "📖", "uscpa": "📊", "legal": "⚖️", "kotsukotsu": "✍️"}
 
 
 def _sns_card(key, sns, heading="h3"):
@@ -19,7 +19,7 @@ def _sns_card(key, sns, heading="h3"):
 </div>"""
 
 
-def render_home(cfg, *, reading_count, uscpa_count, legal_count, articles):
+def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count, articles):
     latest = ""
     if articles:
         items = "".join(
@@ -57,6 +57,12 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, articles):
     <h2>法律英単語</h2>
     <p>契約書・訴訟・会社法など、実務で出会う法律英語を分野別に。</p>
     <div class="card-meta">全{legal_count}語・分野別フラッシュカード</div>
+  </a>
+  <a class="card card-training" href="/training/">
+    <span class="card-icon">✍️</span>
+    <h2>英単語トレーニング</h2>
+    <p>英検準1級・ニュース・ドラマ・句動詞・イディオム。意味の確認と書き取りで定着させる。</p>
+    <div class="card-meta">全{training_count}語・確認＋ディクテーション</div>
   </a>
 </div>
 
@@ -127,6 +133,7 @@ def render_404(cfg):
   <a class="card" href="/"><h3>トップページへ</h3><p>サイトの入口から探す</p></a>
   <a class="card" href="/reading/"><h3>英文解釈</h3><p>問題一覧を見る</p></a>
   <a class="card" href="/vocab/"><h3>専門英単語</h3><p>単語帳一覧を見る</p></a>
+  <a class="card" href="/training/"><h3>英単語トレーニング</h3><p>確認とディクテーション</p></a>
 </div>
 """
     return layout.page(

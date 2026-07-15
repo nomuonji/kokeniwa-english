@@ -1,0 +1,283 @@
+{"id":1,"word":"bring it up","meaning":"切り出す","example":"I'll bring it up in the meeting.","example_ja":"会議でその件を切り出すね。","tag":"phrasal"}
+{"id":2,"word":"run it by ~","meaning":"~に相談する","example":"I'll run it by my manager before deciding.","example_ja":"決める前にその件を上司に相談するね。","tag":"phrasal"}
+{"id":3,"word":"bounce ideas off ~","meaning":"アイデアをぶつけて意見を聞く","example":"I'll bounce some ideas off you later.","example_ja":"後でいくつかアイデアをぶつけて意見を聞かせて。","tag":"phrasal"}
+{"id":4,"word":"follow up","meaning":"追って確認する","example":"I'll follow up with you tomorrow.","example_ja":"明日改めて連絡します。","tag":"phrasal"}
+{"id":5,"word":"circle back","meaning":"後で話を戻す","example":"Let's circle back on this after lunch.","example_ja":"この件は昼食後にまた話そう。","tag":"phrasal"}
+{"id":6,"word":"look into","meaning":"調べる","example":"I'll look into it.","example_ja":"その件を調べておくね。","tag":"phrasal"}
+{"id":7,"word":"pencil in","meaning":"仮押さえする","example":"I'll pencil it in for Friday.","example_ja":"金曜で仮押さえしておくね。","tag":"phrasal"}
+{"id":8,"word":"push back","meaning":"予定を後ろ倒しする","example":"Can we push back the meeting by an hour?","example_ja":"会議を1時間後ろ倒しにできる？","tag":"phrasal"}
+{"id":9,"word":"line up","meaning":"手配する","example":"I'll line up a photographer for the event.","example_ja":"イベント用にカメラマンを手配します。","tag":"phrasal"}
+{"id":10,"word":"fall through","meaning":"（予定が）流れる","example":"Our plan might fall through.","example_ja":"計画が流れるかもしれない。","tag":"phrasal"}
+{"id":11,"word":"free up","meaning":"時間を空ける","example":"I can free up some time.","example_ja":"少し時間を空けられる。","tag":"phrasal"}
+{"id":12,"word":"fill ~ in","meaning":"状況を伝える","example":"I'll fill you in later.","example_ja":"あとで状況を説明するね。","tag":"phrasal"}
+{"id":13,"word":"loop ~ in","meaning":"メンションに入れる","example":"I'll loop you in on the email thread.","example_ja":"メールに君も入れておくね。","tag":"phrasal"}
+{"id":14,"word":"bring ~ up to speed","meaning":"最新情報に追いつかせる","example":"I'll bring you up to speed after the call.","example_ja":"電話の後に最新情報を共有するね。","tag":"phrasal"}
+{"id":15,"word":"follow through","meaning":"最後までやり切る","example":"We need to follow through on our promises.","example_ja":"約束は最後までやり切る必要がある。","tag":"phrasal"}
+{"id":16,"word":"calm down","meaning":"落ち着く","example":"Calm down and take a breath.","example_ja":"落ち着いて深呼吸して。","tag":"phrasal"}
+{"id":17,"word":"cheer up","meaning":"元気づける","example":"Cheer up—you did your best.","example_ja":"元気出して。よく頑張ったよ。","tag":"phrasal"}
+{"id":18,"word":"open up","meaning":"打ち明ける","example":"It helps to open up to friends.","example_ja":"友人に打ち明けると楽になるよ。","tag":"phrasal"}
+{"id":19,"word":"lash out","meaning":"八つ当たりする","example":"He lashed out at the reporter.","example_ja":"彼は記者に八つ当たりした。","tag":"phrasal"}
+{"id":20,"word":"bottle up","meaning":"感情をため込む","example":"Don't bottle up your feelings.","example_ja":"感情を溜め込まないで。","tag":"phrasal"}
+{"id":21,"word":"blow up","meaning":"怒りが爆発する","example":"She blew up at him.","example_ja":"彼女は彼に怒りを爆発させた。","tag":"phrasal"}
+{"id":22,"word":"kick off","meaning":"開始する","example":"The event kicks off at 10 a.m.","example_ja":"イベントは午前10時に始まる。","tag":"phrasal"}
+{"id":23,"word":"wrap up","meaning":"まとめる/終える","example":"Let's wrap up the meeting.","example_ja":"会議をそろそろ締めよう。","tag":"phrasal"}
+{"id":24,"word":"hand off","meaning":"引き継ぐ","example":"I'll hand off the task to Ken.","example_ja":"その作業は健に引き継ぐね。","tag":"phrasal"}
+{"id":25,"word":"hand over","meaning":"渡す（権限など）","example":"Please hand over your badge at the gate.","example_ja":"ゲートでバッジを返却してください。","tag":"phrasal"}
+{"id":26,"word":"roll back","meaning":"巻き戻す/撤回する","example":"We had to roll back the update.","example_ja":"アップデートを元に戻す必要があった。","tag":"phrasal"}
+{"id":27,"word":"ramp up","meaning":"立ち上げを加速する","example":"Let's ramp up hiring this quarter.","example_ja":"今四半期は採用を加速しよう。","tag":"phrasal"}
+{"id":28,"word":"spin up","meaning":"立ち上げる","example":"I can spin up a new server.","example_ja":"新しいサーバーを立ち上げられるよ。","tag":"phrasal"}
+{"id":29,"word":"act up","meaning":"不調を起こす","example":"My laptop is acting up again.","example_ja":"ノートPCがまた不調だ。","tag":"phrasal"}
+{"id":30,"word":"freeze up","meaning":"固まる/固まって話せなくなる","example":"I freeze up when speaking in public.","example_ja":"人前で話すと固まってしまう。","tag":"phrasal"}
+{"id":31,"word":"mess up","meaning":"やらかす","example":"I messed up the presentation.","example_ja":"プレゼンをやらかしてしまった。","tag":"phrasal"}
+{"id":32,"word":"back up","meaning":"バックアップ/渋滞する","example":"Remember to back up your files regularly.","example_ja":"ファイルは定期的にバックアップしてね。","tag":"phrasal"}
+{"id":33,"word":"lock out","meaning":"閉め出す","example":"I locked myself out of the apartment.","example_ja":"家から締め出されてしまった。","tag":"phrasal"}
+{"id":34,"word":"break down","meaning":"故障/取り乱す","example":"The car broke down on the highway.","example_ja":"車が高速道路で故障した。","tag":"phrasal"}
+{"id":35,"word":"figure out","meaning":"理解する/解決する","example":"Let's figure out what went wrong.","example_ja":"何が悪かったのか突き止めよう。","tag":"phrasal"}
+{"id":36,"word":"map ~ out","meaning":"設計する","example":"Let's map out the plan together.","example_ja":"一緒に計画を練り上げよう。","tag":"phrasal"}
+{"id":37,"word":"zero in on","meaning":"的を絞る","example":"We need to zero in on the root cause.","example_ja":"根本原因に的を絞る必要がある。","tag":"phrasal"}
+{"id":38,"word":"try ~ out","meaning":"試してみる","example":"Try out this new feature.","example_ja":"この新機能を試してみて。","tag":"phrasal"}
+{"id":39,"word":"build on","meaning":"積み上げる","example":"We can build on last year's success.","example_ja":"昨年の成功を土台にできる。","tag":"phrasal"}
+{"id":40,"word":"carry over","meaning":"持ち越す","example":"Unused vacation days carry over to next year.","example_ja":"未使用の有給は来年に持ち越される。","tag":"phrasal"}
+{"id":41,"word":"work out","meaning":"運動する/うまくいく","example":"I work out three times a week.","example_ja":"週に3回トレーニングする。","tag":"phrasal"}
+{"id":42,"word":"cut back on","meaning":"減らす","example":"We need to cut back on expenses.","example_ja":"経費を削減する必要がある。","tag":"phrasal"}
+{"id":43,"word":"sleep in","meaning":"寝坊する","example":"I slept in until nine today.","example_ja":"今日は9時まで寝坊した。","tag":"phrasal"}
+{"id":44,"word":"fight off","meaning":"撃退する","example":"She fought off a cold.","example_ja":"彼女は風邪を撃退した。","tag":"phrasal"}
+{"id":45,"word":"come down with","meaning":"罹る（軽い）","example":"I came down with the flu.","example_ja":"インフルエンザにかかった。","tag":"phrasal"}
+{"id":46,"word":"chip in","meaning":"少しずつ出し合う","example":"We all chipped in for a gift.","example_ja":"皆で少しずつ出し合ってプレゼントを買った。","tag":"phrasal"}
+{"id":47,"word":"pay off","meaning":"返済する/報われる","example":"Hard work will pay off.","example_ja":"努力は報われる。","tag":"phrasal"}
+{"id":48,"word":"set ~ back","meaning":"出費がかさむ","example":"The repair set me back $200.","example_ja":"修理で200ドルの出費になった。","tag":"phrasal"}
+{"id":49,"word":"splash out","meaning":"奮発する","example":"We splashed out on a nice dinner.","example_ja":"奮発して良いディナーにした。","tag":"phrasal"}
+{"id":50,"word":"save up","meaning":"貯める","example":"I'm saving up for a trip.","example_ja":"旅行のために貯金している。","tag":"phrasal"}
+{"id":51,"word":"spin up servers","meaning":"サーバを起動","example":"I'll spin up servers in the new region.","example_ja":"新リージョンでサーバを起動する。","tag":"phrasal"}
+{"id":52,"word":"roll out","meaning":"展開する","example":"We’ll roll out the feature next week.","example_ja":"その機能は来週展開する。","tag":"phrasal"}
+{"id":53,"word":"roll back","meaning":"巻き戻す","example":"We had to roll back the release.","example_ja":"リリースをロールバックせざるを得なかった。","tag":"phrasal"}
+{"id":54,"word":"patch up","meaning":"修正を当てる","example":"We patched up the bug temporarily.","example_ja":"バグを一時的に当て修正した。","tag":"phrasal"}
+{"id":55,"word":"lock down","meaning":"ロックダウン/制限","example":"The city went into lockdown.","example_ja":"その都市はロックダウンに入った。","tag":"phrasal"}
+{"id":56,"word":"tidy up","meaning":"片付ける","example":"Let's tidy up the kitchen.","example_ja":"キッチンを片付けよう。","tag":"phrasal"}
+{"id":57,"word":"wipe down","meaning":"拭き上げる","example":"Wipe down the counters, please.","example_ja":"カウンターを拭き上げてください。","tag":"phrasal"}
+{"id":58,"word":"soak up","meaning":"吸い取る","example":"Use a towel to soak up the spill.","example_ja":"タオルでこぼれた液体を吸い取って。","tag":"phrasal"}
+{"id":59,"word":"air out","meaning":"風を通す","example":"Air out the room after painting.","example_ja":"塗装後は部屋を換気して。","tag":"phrasal"}
+{"id":60,"word":"throw out","meaning":"捨てる","example":"Throw out the trash before you leave.","example_ja":"出かける前にゴミを捨てて。","tag":"phrasal"}
+{"id":61,"word":"use up","meaning":"使い切る","example":"We used up all the milk.","example_ja":"牛乳を使い切ってしまった。","tag":"phrasal"}
+{"id":62,"word":"zone out","meaning":"ぼーっとする","example":"I zoned out during the lecture.","example_ja":"講義中にぼーっとしてしまった。","tag":"phrasal"}
+{"id":63,"word":"space out","meaning":"上の空になる","example":"Sorry, I spaced out for a second.","example_ja":"ごめん、ちょっと上の空だった。","tag":"phrasal"}
+{"id":64,"word":"wind down","meaning":"気持ちを落ち着かせる","example":"Let's wind down with some tea.","example_ja":"お茶でも飲んで落ち着こう。","tag":"phrasal"}
+{"id":65,"word":"perk up","meaning":"元気になる","example":"Coffee will perk you up.","example_ja":"コーヒーで元気が出るよ。","tag":"phrasal"}
+{"id":66,"word":"shut down","meaning":"心を閉ざす","example":"He shut down emotionally.","example_ja":"彼は心を閉ざしてしまった。","tag":"phrasal"}
+{"id":67,"word":"reach out","meaning":"働きかける","example":"I'll reach out to the team.","example_ja":"チームに働きかけてみるよ。","tag":"phrasal"}
+{"id":68,"word":"back down","meaning":"引き下がる","example":"He refused to back down.","example_ja":"彼は引き下がることを拒んだ。","tag":"phrasal"}
+{"id":69,"word":"set up","meaning":"準備する","example":"I'll set up the projector.","example_ja":"プロジェクターを準備するね。","tag":"phrasal"}
+{"id":70,"word":"lay out","meaning":"並べる/設計する","example":"Let's lay out the design options.","example_ja":"デザイン案を並べてみよう。","tag":"phrasal"}
+{"id":71,"word":"line up","meaning":"段取りする","example":"We lined up speakers for the event.","example_ja":"イベントの登壇者を手配した。","tag":"phrasal"}
+{"id":72,"word":"gear up","meaning":"準備を整える","example":"We're gearing up for launch.","example_ja":"ローンチに向けて準備を整えている。","tag":"phrasal"}
+{"id":73,"word":"walk through","meaning":"手順を案内する","example":"I'll walk you through the process.","example_ja":"手順を説明するね。","tag":"phrasal"}
+{"id":74,"word":"run through","meaning":"通しで確認する","example":"Let's run through the agenda once more.","example_ja":"議題をもう一度通しで確認しよう。","tag":"phrasal"}
+{"id":75,"word":"draw on","meaning":"〜に頼る/活用する","example":"We can draw on past experience.","example_ja":"これまでの経験を活用できる。","tag":"phrasal"}
+{"id":76,"word":"build around","meaning":"〜を核に組み立てる","example":"Let's build around user needs.","example_ja":"ユーザーのニーズを核に組み立てよう。","tag":"phrasal"}
+{"id":77,"word":"riff on","meaning":"発想を広げる","example":"Let's riff on this concept.","example_ja":"このコンセプトを広げて考えよう。","tag":"phrasal"}
+{"id":78,"word":"write up","meaning":"まとめて書く","example":"I'll write up the meeting notes.","example_ja":"議事録をまとめておくね。","tag":"phrasal"}
+{"id":79,"word":"polish up","meaning":"仕上げる","example":"We need to polish up the draft.","example_ja":"原稿を仕上げる必要がある。","tag":"phrasal"}
+{"id":80,"word":"head out","meaning":"出発する","example":"Let's head out after lunch.","example_ja":"昼食後に出発しよう。","tag":"phrasal"}
+{"id":81,"word":"stop by","meaning":"立ち寄る","example":"I'll stop by your office later.","example_ja":"後であなたのオフィスに立ち寄るね。","tag":"phrasal"}
+{"id":82,"word":"check in","meaning":"チェックインする","example":"We checked in at 3 p.m.","example_ja":"午後3時にチェックインした。","tag":"phrasal"}
+{"id":83,"word":"check out","meaning":"チェックアウトする","example":"What time do we check out?","example_ja":"チェックアウトは何時ですか？","tag":"phrasal"}
+{"id":84,"word":"drop off","meaning":"送って降ろす","example":"I'll drop you off at the station.","example_ja":"駅まで送って降ろすよ。","tag":"phrasal"}
+{"id":85,"word":"pick up","meaning":"迎えに行く/拾う","example":"Can you pick me up at 7?","example_ja":"7時に迎えに来てくれる？","tag":"phrasal"}
+{"id":86,"word":"try out","meaning":"試す","example":"Try out the new app.","example_ja":"新しいアプリを試してみて。","tag":"phrasal"}
+{"id":87,"word":"test out","meaning":"実地で試す","example":"We need to test out the prototype.","example_ja":"試作機を実地で試す必要がある。","tag":"phrasal"}
+{"id":88,"word":"double down on","meaning":"さらに注力する","example":"We decided to double down on quality.","example_ja":"品質にさらに注力することに決めた。","tag":"phrasal"}
+{"id":89,"word":"pivot away from","meaning":"方向転換する","example":"The company pivoted away from hardware to software.","example_ja":"その会社はハードからソフトへと方向転換した。","tag":"phrasal"}
+{"id":90,"word":"learn from","meaning":"学びを得る","example":"We can learn from our mistakes.","example_ja":"失敗から学ぶことができる。","tag":"phrasal"}
+{"id":91,"word":"watch out","meaning":"気をつけて","example":"Watch out for cars when crossing the street.","example_ja":"道路を渡るときは車に気をつけて。","tag":"phrasal"}
+{"id":92,"word":"look out","meaning":"気をつけて","example":"Look out—there's a step.","example_ja":"足元注意、段差があります。","tag":"phrasal"}
+{"id":93,"word":"heads up","meaning":"注意喚起/事前連絡","example":"Just a heads-up: the server will reboot tonight.","example_ja":"事前連絡です。今夜サーバーを再起動します。","tag":"phrasal"}
+{"id":94,"word":"kick off","meaning":"開始","example":"The workshop will kick off at 9.","example_ja":"ワークショップは9時に開始する。","tag":"phrasal"}
+{"id":95,"word":"chime in","meaning":"口を挟む","example":"Feel free to chime in at any time.","example_ja":"いつでも遠慮なく口を挟んでください。","tag":"phrasal"}
+{"id":96,"word":"weigh in","meaning":"意見を述べる","example":"Experts weighed in on the issue.","example_ja":"専門家がその問題について意見を述べた。","tag":"phrasal"}
+{"id":97,"word":"wrap up","meaning":"まとめる/終える","example":"Let's wrap up the discussion.","example_ja":"この議論をまとめよう。","tag":"phrasal"}
+{"id":98,"word":"own up to","meaning":"（過ちを）認める","example":"He owned up to the mistake.","example_ja":"彼はそのミスを認めた。","tag":"phrasal"}
+{"id":99,"word":"make up for","meaning":"埋め合わせる","example":"I'll make up for the delay.","example_ja":"遅れは埋め合わせるよ。","tag":"phrasal"}
+{"id":100,"word":"learn from","meaning":"学ぶ","example":"We can learn from this failure.","example_ja":"この失敗から学べる。","tag":"phrasal"}
+{"id":101,"word":"double down on","meaning":"さらに注力する","example":"We decided to double down on security.","example_ja":"セキュリティにさらに注力することにした。","tag":"phrasal"}
+{"id":102,"word":"spell out","meaning":"かみ砕いて説明する","example":"Let me spell it out for you.","example_ja":"かみ砕いて説明するね。","tag":"phrasal"}
+{"id":103,"word":"break down","meaning":"分解して説明する","example":"Let's break it down step by step.","example_ja":"一歩ずつ分解して説明しよう。","tag":"phrasal"}
+{"id":104,"word":"map out","meaning":"綿密に計画する","example":"We mapped out our strategy for Q4.","example_ja":"第4四半期の戦略を綿密に練った。","tag":"phrasal"}
+{"id":105,"word":"lay out","meaning":"全体像を示す/提示する","example":"She laid out the plan clearly.","example_ja":"彼女は計画の全体像を明確に示した。","tag":"phrasal"}
+{"id":106,"word":"boil down to","meaning":"結局〜に行き着く","example":"It all boils down to money.","example_ja":"結局はお金の問題だ。","tag":"phrasal"}
+{"id":107,"word":"zoom in on","meaning":"詳細に迫る","example":"Let's zoom in on the key issue.","example_ja":"重要な論点に詳しく迫ろう。","tag":"phrasal"}
+{"id":108,"word":"zone in","meaning":"集中する","example":"Let's zone in on the main point.","example_ja":"要点に集中しよう。","tag":"phrasal"}
+{"id":109,"word":"tune out","meaning":"意識を切る/上の空になる","example":"I tend to tune out during long meetings.","example_ja":"長い会議では上の空になりがちだ。","tag":"phrasal"}
+{"id":110,"word":"step away","meaning":"一旦離れる","example":"I need to step away for a minute.","example_ja":"ちょっと席を外します。","tag":"phrasal"}
+{"id":111,"word":"power through","meaning":"粘って乗り切る","example":"Let's power through this last section.","example_ja":"最後のセクションを気合で乗り切ろう。","tag":"phrasal"}
+{"id":112,"word":"reach out","meaning":"連絡する","example":"I'll reach out later today.","example_ja":"今日のうちに連絡するね。","tag":"phrasal"}
+{"id":113,"word":"follow up","meaning":"続報する/追って対応する","example":"I'll follow up tomorrow.","example_ja":"明日、追って連絡します。","tag":"phrasal"}
+{"id":114,"word":"loop back","meaning":"（後で）再度話す","example":"Let's loop back next week.","example_ja":"来週また話そう。","tag":"phrasal"}
+{"id":115,"word":"sync up","meaning":"認識合わせする","example":"Can we sync up at 3 p.m.?","example_ja":"午後3時に認識合わせできる？","tag":"phrasal"}
+{"id":116,"word":"reach out to","meaning":"関係者に連絡する","example":"Let's reach out to the vendor.","example_ja":"ベンダーに連絡しよう。","tag":"phrasal"}
+{"id":117,"word":"loop in legal","meaning":"法務に繋ぐ","example":"Let's loop in legal on this thread.","example_ja":"このスレッドに法務を入れよう。","tag":"phrasal"}
+{"id":118,"word":"patch up","meaning":"一時対応する","example":"We'll patch it up for now.","example_ja":"とりあえず当て修正しておく。","tag":"phrasal"}
+{"id":119,"word":"follow through","meaning":"最後までやり切る","example":"Let's follow through on the action items.","example_ja":"アクション項目を最後までやり切ろう。","tag":"phrasal"}
+{"id":120,"word":"jot down","meaning":"走り書きする","example":"Jot down your ideas.","example_ja":"アイデアを走り書きして。","tag":"phrasal"}
+{"id":121,"word":"note down","meaning":"書き留める","example":"Note down the key dates.","example_ja":"重要な日付を書き留めて。","tag":"phrasal"}
+{"id":122,"word":"keep track of","meaning":"追跡する/把握する","example":"Keep track of your spending.","example_ja":"支出を把握しておいて。","tag":"phrasal"}
+{"id":123,"word":"track back","meaning":"さかのぼる","example":"We need to track back the changes.","example_ja":"変更箇所をさかのぼって確認する必要がある。","tag":"phrasal"}
+{"id":124,"word":"tick off","meaning":"チェックを付ける/済みにする","example":"Tick off the items as you go.","example_ja":"進めながら項目にチェックを付けて。","tag":"phrasal"}
+{"id":125,"word":"follow up","meaning":"追って連絡する","example":"I'll follow up by email.","example_ja":"メールで追って連絡します。","tag":"phrasal"}
+{"id":126,"word":"circle back","meaning":"後で話を戻す","example":"Let's circle back after lunch.","example_ja":"昼食後にまた話そう。","tag":"phrasal"}
+{"id":127,"word":"double back","meaning":"引き返す","example":"We had to double back to the station.","example_ja":"駅まで引き返さなければならなかった。","tag":"phrasal"}
+{"id":128,"word":"veer off","meaning":"逸れる","example":"The car veered off the road.","example_ja":"車が道路から逸れた。","tag":"phrasal"}
+{"id":129,"word":"cut across","meaning":"近道する","example":"Let's cut across the park.","example_ja":"公園を近道しよう。","tag":"phrasal"}
+{"id":130,"word":"pull over","meaning":"路肩に寄せる","example":"Please pull over here.","example_ja":"ここで路肩に寄せてください。","tag":"phrasal"}
+{"id":131,"word":"merge in","meaning":"合流する","example":"Merge in when it's safe.","example_ja":"安全なときに合流して。","tag":"phrasal"}
+{"id":132,"word":"scope down","meaning":"範囲を絞る","example":"We need to scope down the project.","example_ja":"プロジェクトの範囲を絞る必要がある。","tag":"phrasal"}
+{"id":133,"word":"cut over","meaning":"切り替える","example":"We'll cut over to the new system tonight.","example_ja":"今夜、新システムに切り替える。","tag":"phrasal"}
+{"id":134,"word":"rally around","meaning":"（人/考えに）結集する","example":"Employees rallied around the new vision.","example_ja":"社員は新たなビジョンに結集した。","tag":"phrasal"}
+{"id":135,"word":"land on","meaning":"（結論に）落ち着く/決める","example":"We finally landed on a proposal.","example_ja":"ついに提案に落ち着いた。","tag":"phrasal"}
+{"id":136,"word":"hit it off","meaning":"打ち解ける","example":"They hit it off right away.","example_ja":"二人はすぐに打ち解けた。","tag":"phrasal"}
+{"id":137,"word":"drift apart","meaning":"（関係が）疎遠になる","example":"We drifted apart after college.","example_ja":"大学を卒業してから疎遠になった。","tag":"phrasal"}
+{"id":138,"word":"fall out","meaning":"もめる/仲たがいする","example":"They fell out over money.","example_ja":"お金のことで仲たがいした。","tag":"phrasal"}
+{"id":139,"word":"make up","meaning":"仲直りする","example":"They made up after the fight.","example_ja":"喧嘩のあとで仲直りした。","tag":"phrasal"}
+{"id":140,"word":"stick together","meaning":"団結する/離れず一緒にいる","example":"We need to stick together.","example_ja":"団結していこう。","tag":"phrasal"}
+{"id":141,"word":"have someone’s back","meaning":"味方する/守る","example":"I've got your back.","example_ja":"君の味方だよ。","tag":"phrasal"}
+{"id":142,"word":"push back","meaning":"期限を延ばす","example":"Can we push back the meeting by an hour?","example_ja":"会議を1時間後ろ倒しにできる？","tag":"phrasal"}
+{"id":143,"word":"live up to","meaning":"期待に応える","example":"The product lived up to the hype.","example_ja":"その製品は評判どおりだった。","tag":"phrasal"}
+{"id":144,"word":"fall short of","meaning":"期待に届かない","example":"Sales fell short of expectations.","example_ja":"売上は期待に届かなかった。","tag":"phrasal"}
+{"id":145,"word":"measure up","meaning":"基準に達する","example":"He doesn't measure up to the role.","example_ja":"彼はその役割の基準に達していない。","tag":"phrasal"}
+{"id":146,"word":"be accountable for","meaning":"説明責任を負う","example":"We are accountable for results.","example_ja":"私たちは結果に対して説明責任を負う。","tag":"phrasal"}
+{"id":147,"word":"answer for","meaning":"責任を取る/釈明する","example":"You'll have to answer for this.","example_ja":"これは君が責任を取らないといけない。","tag":"phrasal"}
+{"id":148,"word":"step up","meaning":"責任ある行動をとる","example":"It's time to step up.","example_ja":"今こそ一歩前に出る時だ。","tag":"phrasal"}
+{"id":149,"word":"iron out","meaning":"（問題を）解消する","example":"Let's iron out the remaining issues.","example_ja":"残った問題を解消しよう。","tag":"phrasal"}
+{"id":150,"word":"smooth over","meaning":"（対立を）和らげる","example":"She tried to smooth over the conflict.","example_ja":"彼女は対立を和らげようとした。","tag":"phrasal"}
+{"id":151,"word":"square away","meaning":"片付ける/整理する","example":"We squared away the paperwork.","example_ja":"書類仕事を片付けた。","tag":"phrasal"}
+{"id":152,"word":"lock in","meaning":"固める/固定する","example":"Let's lock in the schedule.","example_ja":"スケジュールを固めよう。","tag":"phrasal"}
+{"id":153,"word":"nail down","meaning":"（詳細を）詰める","example":"We need to nail down the budget.","example_ja":"予算の細部を詰める必要がある。","tag":"phrasal"}
+{"id":154,"word":"ask away","meaning":"何でも聞いて","example":"Got questions? Ask away!","example_ja":"質問ある？何でも聞いて！","tag":"phrasal"}
+{"id":155,"word":"push back","meaning":"異論を唱える/反発する","example":"Feel free to push back if you disagree.","example_ja":"異論があれば遠慮なく反論して。","tag":"phrasal"}
+{"id":156,"word":"bring back","meaning":"思い出させる","example":"This song brings back memories.","example_ja":"この曲は思い出を呼び起こす。","tag":"phrasal"}
+{"id":157,"word":"fade away","meaning":"薄れていく","example":"The pain slowly faded away.","example_ja":"痛みはゆっくりと薄れていった。","tag":"phrasal"}
+{"id":158,"word":"block out","meaning":"（記憶/音）を遮断する","example":"I tried to block out the noise.","example_ja":"騒音を遮断しようとした。","tag":"phrasal"}
+{"id":159,"word":"piece together","meaning":"つなぎ合わせる","example":"Detectives pieced together what happened.","example_ja":"刑事たちは何が起きたかをつなぎ合わせていった。","tag":"phrasal"}
+{"id":160,"word":"look back on","meaning":"振り返る","example":"I look back on those days fondly.","example_ja":"あの頃を懐かしく振り返る。","tag":"phrasal"}
+{"id":161,"word":"doze off","meaning":"うとうとする","example":"I dozed off during the movie.","example_ja":"映画の途中でうとうとしてしまった。","tag":"phrasal"}
+{"id":162,"word":"turn in","meaning":"寝る","example":"I'm going to turn in early tonight.","example_ja":"今夜は早めに寝るよ。","tag":"phrasal"}
+{"id":163,"word":"sleep over","meaning":"お泊まりする","example":"Can I sleep over at your place?","example_ja":"君の家にお泊まりしてもいい？","tag":"phrasal"}
+{"id":164,"word":"clear out","meaning":"不要物を処分する/片付ける","example":"We cleared out the garage.","example_ja":"ガレージを片付けた。","tag":"phrasal"}
+{"id":165,"word":"sort out","meaning":"整理する/解決する","example":"Let's sort out the boxes first.","example_ja":"まず箱を整理しよう。","tag":"phrasal"}
+{"id":166,"word":"box up","meaning":"箱に詰める","example":"Box up the books for moving.","example_ja":"本を引っ越し用に箱詰めして。","tag":"phrasal"}
+{"id":167,"word":"haul away","meaning":"運び出す","example":"They hauled away the junk.","example_ja":"彼らはガラクタを運び出した。","tag":"phrasal"}
+{"id":168,"word":"warm up","meaning":"ウォームアップする","example":"Let's warm up with some light jogging.","example_ja":"軽いジョギングでウォームアップしよう。","tag":"phrasal"}
+{"id":169,"word":"stretch out","meaning":"ストレッチする/伸ばす","example":"Don't forget to stretch out your legs.","example_ja":"脚のストレッチを忘れずに。","tag":"phrasal"}
+{"id":170,"word":"loosen up","meaning":"ほぐす/リラックスする","example":"Take a breath and loosen up.","example_ja":"深呼吸して力を抜こう。","tag":"phrasal"}
+{"id":171,"word":"cool down","meaning":"クールダウンする/冷静になる","example":"Let's cool down with some stretches.","example_ja":"ストレッチでクールダウンしよう。","tag":"phrasal"}
+{"id":172,"word":"bump into","meaning":"ばったり会う","example":"I bumped into Ken at the station.","example_ja":"駅で健にばったり会った。","tag":"phrasal"}
+{"id":173,"word":"run into","meaning":"ばったり会う","example":"We ran into each other downtown.","example_ja":"街で偶然会った。","tag":"phrasal"}
+{"id":174,"word":"hit it off with","meaning":"（人と）意気投合する","example":"She hit it off with my friends.","example_ja":"彼女は私の友人たちと意気投合した。","tag":"phrasal"}
+{"id":175,"word":"come across","meaning":"偶然見つける/出くわす","example":"I came across an old photo.","example_ja":"古い写真を偶然見つけた。","tag":"phrasal"}
+{"id":176,"word":"keep in touch","meaning":"連絡を取り合う","example":"Let's keep in touch.","example_ja":"連絡取り合おうね。","tag":"phrasal"}
+{"id":177,"word":"line up","meaning":"並べる/手配する","example":"I'll line up a venue and speakers.","example_ja":"会場と登壇者を手配するね。","tag":"phrasal"}
+{"id":178,"word":"pencil in","meaning":"仮押さえ","example":"I'll pencil it in for Friday.","example_ja":"金曜で仮押さえしておくね。","tag":"phrasal"}
+{"id":179,"word":"lock down","meaning":"固定する/確定する","example":"Let's lock down the timeline.","example_ja":"スケジュールを確定しよう。","tag":"phrasal"}
+{"id":180,"word":"firm up","meaning":"固める","example":"We need to firm up the budget.","example_ja":"予算を固める必要がある。","tag":"phrasal"}
+{"id":181,"word":"open up","meaning":"空ける/開放する","example":"Can you open up your afternoon?","example_ja":"午後の予定を空けられる？","tag":"phrasal"}
+{"id":182,"word":"check against","meaning":"照合する","example":"Check the IDs against the list.","example_ja":"IDをリストと照合して。","tag":"phrasal"}
+{"id":183,"word":"vote on","meaning":"〜を採決する","example":"We will vote on the motion today.","example_ja":"本日その動議を採決する。","tag":"phrasal"}
+{"id":184,"word":"align on","meaning":"認識を合わせる","example":"Let's align on goals first.","example_ja":"まず目標の認識を合わせよう。","tag":"phrasal"}
+{"id":185,"word":"agree on","meaning":"〜に合意する","example":"We agreed on the timeline.","example_ja":"私たちはスケジュールに合意した。","tag":"phrasal"}
+{"id":186,"word":"sign off on","meaning":"承認する","example":"Legal signed off on the contract.","example_ja":"法務が契約書を承認した。","tag":"phrasal"}
+{"id":187,"word":"buy in","meaning":"賛同/腹落ち","example":"We need stakeholder buy‑in.","example_ja":"関係者の賛同が必要だ。","tag":"phrasal"}
+{"id":188,"word":"push back on","meaning":"〜に異議を唱える","example":"Feel free to push back on this plan.","example_ja":"この計画に異議があれば遠慮なく言って。","tag":"phrasal"}
+{"id":189,"word":"share out","meaning":"分配する","example":"Let's share out the tasks fairly.","example_ja":"タスクを公平に分配しよう。","tag":"phrasal"}
+{"id":190,"word":"send around","meaning":"回覧する","example":"I'll send around the draft.","example_ja":"草稿を回覧します。","tag":"phrasal"}
+{"id":191,"word":"loop in","meaning":"共有に入れる","example":"Please loop me in on the thread.","example_ja":"そのスレッドに私も入れてください。","tag":"phrasal"}
+{"id":192,"word":"open up","meaning":"心を開く/打ち明ける","example":"It's hard to open up sometimes.","example_ja":"ときどき打ち明けるのは難しい。","tag":"phrasal"}
+{"id":193,"word":"save over","meaning":"上書き保存する","example":"Careful not to save over the file.","example_ja":"誤ってファイルを上書きしないよう注意。","tag":"phrasal"}
+{"id":194,"word":"back up","meaning":"バックアップを取る","example":"Remember to back up your work.","example_ja":"作業はバックアップを忘れずに。","tag":"phrasal"}
+{"id":195,"word":"sync up","meaning":"同期する/認識合わせする","example":"Let's sync up after lunch.","example_ja":"昼食後に同期（認識合わせ）しよう。","tag":"phrasal"}
+{"id":196,"word":"merge in","meaning":"取り込む/マージする","example":"Please merge in the latest changes.","example_ja":"最新の変更を取り込んでください。","tag":"phrasal"}
+{"id":197,"word":"log in","meaning":"ログインする","example":"Please log in to your account.","example_ja":"アカウントにログインしてください。","tag":"phrasal"}
+{"id":198,"word":"log out","meaning":"ログアウトする","example":"Don't forget to log out.","example_ja":"ログアウトを忘れずに。","tag":"phrasal"}
+{"id":199,"word":"sign up","meaning":"登録する","example":"You can sign up here.","example_ja":"ここから登録できます。","tag":"phrasal"}
+{"id":200,"word":"opt in","meaning":"参加を選ぶ","example":"Users must opt in to emails.","example_ja":"ユーザーはメール受信に参加（承諾）する必要がある。","tag":"phrasal"}
+{"id":201,"word":"opt out","meaning":"拒否する","example":"You can opt out anytime.","example_ja":"いつでも拒否できます。","tag":"phrasal"}
+{"id":202,"word":"follow up","meaning":"追って連絡する","example":"I'll follow up next week.","example_ja":"来週、追って連絡します。","tag":"phrasal"}
+{"id":203,"word":"lean in","meaning":"積極的に関わる","example":"Let's lean in and take ownership.","example_ja":"積極的に関わって当事者意識を持とう。","tag":"phrasal"}
+{"id":204,"word":"opt out","meaning":"参加をやめる/不参加を選ぶ","example":"She opted out of the trial.","example_ja":"彼女は試験参加を見送った。","tag":"phrasal"}
+{"id":205,"word":"double down","meaning":"さらに注力する","example":"We should double down on quality.","example_ja":"品質にさらに注力すべきだ。","tag":"phrasal"}
+{"id":206,"word":"stand down","meaning":"待機を解く/撤収する","example":"The team was told to stand down.","example_ja":"チームは待機解除を指示された。","tag":"phrasal"}
+{"id":207,"word":"speak up","meaning":"はっきり話す/意見を言う","example":"Please speak up if you disagree.","example_ja":"異議があれば遠慮なく言ってください。","tag":"phrasal"}
+{"id":208,"word":"back off","meaning":"引き下がる/距離を取る","example":"Back off a little, give them space.","example_ja":"少し引いて、相手にスペースを与えて。","tag":"phrasal"}
+{"id":209,"word":"act up","meaning":"調子が悪くなる/悪さをする","example":"My phone is acting up again.","example_ja":"スマホがまた不調だ。","tag":"phrasal"}
+{"id":210,"word":"roll out","meaning":"展開する","example":"We'll roll out the feature on Monday.","example_ja":"機能は月曜に展開する。","tag":"phrasal"}
+{"id":211,"word":"roll back","meaning":"巻き戻す","example":"We had to roll back the release.","example_ja":"リリースをロールバックせざるを得なかった。","tag":"phrasal"}
+{"id":212,"word":"walk it off","meaning":"歩いて気を晴らす/（軽い痛みなどを）歩いて紛らわせる","example":"Take a break and walk it off.","example_ja":"休憩して歩いて気を晴らして。","tag":"phrasal"}
+{"id":213,"word":"sleep on it","meaning":"一晩考える","example":"Don't decide now—sleep on it.","example_ja":"今決めないで、一晩考えよう。","tag":"phrasal"}
+{"id":214,"word":"switch off","meaning":"（頭や気持ちを）切り替えて休む/オフにする","example":"I need to switch off this weekend.","example_ja":"今週末は頭を休めたい。","tag":"phrasal"}
+{"id":215,"word":"ramp up","meaning":"立ち上げる/増強する/本格化する","example":"Production will ramp up next month.","example_ja":"生産は来月から本格化する。","tag":"phrasal"}
+{"id":216,"word":"go ahead","meaning":"どうぞ/先に進む","example":"Go ahead and start without me.","example_ja":"どうぞ私抜きで始めて。","tag":"phrasal"}
+{"id":217,"word":"after you","meaning":"お先にどうぞ","example":"After you.","example_ja":"お先にどうぞ。","tag":"phrasal"}
+{"id":218,"word":"show up daily","meaning":"毎日（継続して）取り組む","example":"Just show up daily and do the work.","example_ja":"毎日欠かさず取り組もう。","tag":"phrasal"}
+{"id":219,"word":"watch out for","meaning":"〜に気を付ける/注意する","example":"Watch out for scams.","example_ja":"詐欺に気を付けて。","tag":"phrasal"}
+{"id":220,"word":"look out for","meaning":"〜に気を配る/注意する","example":"I’ll look out for your package.","example_ja":"君の荷物に気を配っておくよ。","tag":"phrasal"}
+{"id":221,"word":"stay away from","meaning":"〜に近づかない/避ける","example":"Stay away from the edge.","example_ja":"端には近づかないで。","tag":"phrasal"}
+{"id":222,"word":"steer clear of","meaning":"〜を避ける","example":"Steer clear of that topic.","example_ja":"その話題は避けよう。","tag":"phrasal"}
+{"id":223,"word":"be wary of","meaning":"〜に警戒する","example":"Be wary of suspicious links.","example_ja":"怪しいリンクには警戒して。","tag":"phrasal"}
+{"id":224,"word":"cut back on","meaning":"〜を減らす/節約する","example":"We need to cut back on expenses.","example_ja":"経費を削減する必要がある。","tag":"phrasal"}
+{"id":225,"word":"save up","meaning":"貯金する/貯める","example":"I’m saving up for a trip.","example_ja":"旅行のために貯金している。","tag":"phrasal"}
+{"id":226,"word":"pay off","meaning":"（借金を）完済する/（努力が）実を結ぶ","example":"Hard work eventually paid off.","example_ja":"努力は最終的に報われた。","tag":"phrasal"}
+{"id":227,"word":"live within means","meaning":"身の丈に合った暮らしをする","example":"Try to live within your means.","example_ja":"身の丈に合った生活を心がけよう。","tag":"phrasal"}
+{"id":228,"word":"splurge on","meaning":"〜に奮発する","example":"I splurged on a new laptop.","example_ja":"新しいノートPCに奮発した。","tag":"phrasal"}
+{"id":229,"word":"across from","meaning":"〜の向かいに","example":"The cafe is across from the station.","example_ja":"カフェは駅の向かいだ。","tag":"phrasal"}
+{"id":230,"word":"put into words","meaning":"言語化する","example":"Can you put your idea into words?","example_ja":"その考えを言語化できる？","tag":"phrasal"}
+{"id":231,"word":"spell out","meaning":"かみ砕いて説明する","example":"Spell it out for the team.","example_ja":"チームにかみ砕いて説明して。","tag":"phrasal"}
+{"id":232,"word":"boil down","meaning":"要するに〜だ/要点は〜","example":"It boils down to cost.","example_ja":"要するにコストの問題だ。","tag":"phrasal"}
+{"id":233,"word":"check in","meaning":"進捗確認する/状況を共有する","example":"Let’s check in next week.","example_ja":"来週、進捗確認しよう。","tag":"phrasal"}
+{"id":234,"word":"start on","meaning":"〜に着手する","example":"Let’s start on the outline.","example_ja":"アウトラインに着手しよう。","tag":"phrasal"}
+{"id":235,"word":"dig into","meaning":"掘り下げる/取りかかる","example":"Time to dig into the data.","example_ja":"データに取りかかる時間だ。","tag":"phrasal"}
+{"id":236,"word":"get around to","meaning":"ようやく〜に取りかかる","example":"I finally got around to it.","example_ja":"ようやく取りかかった。","tag":"phrasal"}
+{"id":237,"word":"pick up where we left off","meaning":"中断した続きから再開する","example":"Let’s pick up where we left off.","example_ja":"続きから再開しよう。","tag":"phrasal"}
+{"id":238,"word":"scope out","meaning":"下見する/見極める","example":"Let’s scope out the venue.","example_ja":"会場を下見しよう。","tag":"phrasal"}
+{"id":239,"word":"tighten up","meaning":"引き締める/無駄を省く","example":"Tighten up the schedule.","example_ja":"スケジュールを引き締めよう。","tag":"phrasal"}
+{"id":240,"word":"tune in to","meaning":"〜に耳を傾ける/（周波数を）合わせる","example":"Tune in to subtle cues.","example_ja":"細かな合図に耳を傾けて。","tag":"phrasal"}
+{"id":241,"word":"pick up on","meaning":"〜に気付く/拾う","example":"Did you pick up on that hint?","example_ja":"あのヒントに気付いた？","tag":"phrasal"}
+{"id":242,"word":"listen for","meaning":"〜を探して聞く","example":"Listen for the key changes.","example_ja":"重要な変化を探して聞いて。","tag":"phrasal"}
+{"id":243,"word":"get into","meaning":"はまり始める/興味を持つ","example":"I’m getting into jazz lately.","example_ja":"最近ジャズにはまり始めた。","tag":"phrasal"}
+{"id":244,"word":"be into","meaning":"〜にはまっている/好きだ","example":"I’m really into photography.","example_ja":"写真にすごくはまっている。","tag":"phrasal"}
+{"id":245,"word":"nerd out","meaning":"オタク的に熱中する","example":"We nerded out about keyboards.","example_ja":"キーボード談義でオタク的に盛り上がった。","tag":"phrasal"}
+{"id":246,"word":"wind down","meaning":"くつろぐ/緊張をほぐす","example":"Let’s wind down after work.","example_ja":"仕事後にくつろごう。","tag":"phrasal"}
+{"id":247,"word":"geek out","meaning":"オタク的に盛り上がる","example":"They geeked out over comics.","example_ja":"彼らは漫画でオタク的に盛り上がった。","tag":"phrasal"}
+{"id":248,"word":"log off","meaning":"ログオフする","example":"It’s time to log off.","example_ja":"そろそろログオフしよう。","tag":"phrasal"}
+{"id":249,"word":"dial down","meaning":"刺激を弱める/抑える","example":"Dial down the notifications.","example_ja":"通知の刺激を抑えて。","tag":"phrasal"}
+{"id":250,"word":"slow down","meaning":"ペースを落とす","example":"We need to slow down a bit.","example_ja":"少しペースを落とそう。","tag":"phrasal"}
+{"id":251,"word":"speaking of which","meaning":"そういえば","example":"Speaking of which, did you call him?","example_ja":"そういえば、彼に電話した？","tag":"phrasal"}
+{"id":252,"word":"back to ~","meaning":"話を〜に戻る","example":"Back to the agenda, point three.","example_ja":"議題に戻って、3点目。","tag":"phrasal"}
+{"id":253,"word":"on a different note","meaning":"別の話だけど","example":"On a different note, congrats!","example_ja":"別の話だけど、おめでとう！","tag":"phrasal"}
+{"id":254,"word":"count on","meaning":"頼りにする/当てにする","example":"You can count on me.","example_ja":"私を頼りにしていいよ。","tag":"phrasal"}
+{"id":255,"word":"bank on","meaning":"当てにする/見込む","example":"Don’t bank on it.","example_ja":"それを当てにしないで。","tag":"phrasal"}
+{"id":256,"word":"let down","meaning":"失望させる","example":"I won’t let you down.","example_ja":"君を失望させないよ。","tag":"phrasal"}
+{"id":257,"word":"come through","meaning":"期待に応える/やり遂げる","example":"She always comes through.","example_ja":"彼女はいつも期待に応える。","tag":"phrasal"}
+{"id":258,"word":"back out","meaning":"約束を破る/手を引く","example":"Don’t back out at the last minute.","example_ja":"土壇場で約束を破らないで。","tag":"phrasal"}
+{"id":259,"word":"freak out","meaning":"パニックになる/取り乱す","example":"Try not to freak out.","example_ja":"取り乱さないようにね。","tag":"phrasal"}
+{"id":260,"word":"chill out","meaning":"落ち着く","example":"Let’s chill out for a bit.","example_ja":"ちょっと落ち着こう。","tag":"phrasal"}
+{"id":261,"word":"split up","meaning":"別れる/分かれる","example":"We split up to search faster.","example_ja":"手分けして探した。","tag":"phrasal"}
+{"id":262,"word":"pair up","meaning":"ペアになる","example":"Pair up with a partner.","example_ja":"パートナーとペアになって。","tag":"phrasal"}
+{"id":263,"word":"team up","meaning":"組む/協力する","example":"Let’s team up on this project.","example_ja":"この案件で組もう。","tag":"phrasal"}
+{"id":264,"word":"sit in","meaning":"参加する/見学する","example":"Can I sit in on the meeting?","example_ja":"会議を見学してもいいですか。","tag":"phrasal"}
+{"id":265,"word":"drop in","meaning":"立ち寄る","example":"Feel free to drop in anytime.","example_ja":"いつでも気軽に立ち寄って。","tag":"phrasal"}
+{"id":266,"word":"break it down","meaning":"分解する/要素に分ける","example":"Break it down into smaller tasks.","example_ja":"小さなタスクに分解しよう。","tag":"phrasal"}
+{"id":267,"word":"loop back","meaning":"話を戻す","example":"Let’s loop back to the main topic.","example_ja":"本題に話を戻そう。","tag":"phrasal"}
+{"id":268,"word":"circle back","meaning":"後で戻る/再訪する","example":"Let’s circle back after lunch.","example_ja":"昼食後にまた戻ろう。","tag":"phrasal"}
+{"id":269,"word":"to sum up","meaning":"要するに/まとめると","example":"To sum up, we need more time.","example_ja":"要するに、もっと時間が必要だ。","tag":"phrasal"}
+{"id":270,"word":"at the end of the day","meaning":"結局のところ","example":"At the end of the day, it’s about trust.","example_ja":"結局のところ、重要なのは信頼だ。","tag":"phrasal"}
+{"id":271,"word":"fly out","meaning":"飛行機で出発する","example":"We fly out at 7 a.m.","example_ja":"午前7時に出発する。","tag":"phrasal"}
+{"id":272,"word":"fly back","meaning":"飛行機で戻る","example":"I fly back on Friday.","example_ja":"金曜に戻る。","tag":"phrasal"}
+{"id":273,"word":"check in","meaning":"チェックインする/搭乗手続き","example":"Let’s check in online.","example_ja":"オンラインでチェックインしよう。","tag":"phrasal"}
+{"id":274,"word":"lay over","meaning":"乗り継ぎで滞在する/経由する","example":"We lay over in Seoul.","example_ja":"ソウルで乗り継ぎ滞在する。","tag":"phrasal"}
+{"id":275,"word":"follow up","meaning":"追って連絡する/フォローする","example":"I’ll follow up by email.","example_ja":"メールで追って連絡します。","tag":"phrasal"}
+{"id":276,"word":"loop you in","meaning":"共有に入れる","example":"I’ll loop you in on the thread.","example_ja":"スレッドにあなたを入れて共有します。","tag":"phrasal"}
+{"id":277,"word":"bring forward","meaning":"予定を前倒しする","example":"Can we bring the meeting forward to 2 p.m.?","example_ja":"会議を午後2時に前倒しできますか？","tag":"phrasal"}
+{"id":278,"word":"scale up","meaning":"垂直/水平スケール","example":"We need to scale up the cluster.","example_ja":"クラスタを水平スケールする必要がある。","tag":"phrasal"}
+{"id":279,"word":"scale out","meaning":"垂直/水平スケール","example":"We need to scale out the cluster.","example_ja":"クラスタを水平スケールする必要がある。","tag":"phrasal"}
+{"id":280,"word":"bring forward","meaning":"期限を早める","example":"Can we bring the deadline forward to Thursday?","example_ja":"締切を木曜に前倒しできますか？","tag":"phrasal"}
+{"id":281,"word":"stick with","meaning":"（心に）残る/〜を続ける","example":"The image stuck with me for years.","example_ja":"その光景は何年も心に残った。","tag":"phrasal"}
+{"id":282,"word":"stick to ~","meaning":"やり続ける/貫く","example":"Set a plan and stick to it.","example_ja":"計画を立てて、それを貫こう。","tag":"phrasal"}
+{"id":283,"word":"set aside","meaning":"〜を取り置きする/確保する","example":"Set aside time for study every day.","example_ja":"毎日、勉強の時間を確保しよう。","tag":"phrasal"}

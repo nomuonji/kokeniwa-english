@@ -18,6 +18,7 @@ from lib.render import write_page
 from templates import blog as blog_tpl
 from templates import pages as pages_tpl
 from templates import reading as reading_tpl
+from templates import training as training_tpl
 from templates import vocab as vocab_tpl
 
 
@@ -70,6 +71,7 @@ def build(cfg):
     uscpa = data_loader.load_vocab("uscpa")
     legal = data_loader.load_vocab("legal")
     vocab_data = {"uscpa": uscpa, "legal": legal}
+    training_data = {k: data_loader.load_training(k) for k in config.TRAINING_SETS}
     articles = load_articles()
 
     # --- 読解問題 ---
@@ -96,6 +98,17 @@ def build(cfg):
                        ensure_ascii=False, separators=(",", ":")),
             encoding="utf-8")
 
+    # --- 英単語トレーニング（確認＋ディクテーション。本体はnoindex、JSON同梱） ---
+    training_counts = {k: len(v) for k, v in training_data.items()}
+    emit("/training/", training_tpl.render_training_home(cfg, training_counts))
+    for set_key, words in training_data.items():
+        emit(training_tpl.set_url(set_key),
+             training_tpl.render_trainer(cfg, set_key, words), noindex=True)
+        (data_dir / f"training-{config.TRAINING_SETS[set_key]['slug']}.json").write_text(
+            json.dumps(training_tpl.build_json(set_key, words),
+                       ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8")
+
     # --- ブログ ---
     emit("/blog/", blog_tpl.render_index(cfg, articles))
     for a in articles:
@@ -104,7 +117,8 @@ def build(cfg):
     # --- 固定ページ ---
     emit("/", pages_tpl.render_home(
         cfg, reading_count=len(problems), uscpa_count=counts["uscpa"],
-        legal_count=counts["legal"], articles=articles))
+        legal_count=counts["legal"], training_count=sum(training_counts.values()),
+        articles=articles))
     emit("/sns/", pages_tpl.render_sns(cfg))
     emit("/books/", pages_tpl.render_books(cfg))
     write_page("404.html", pages_tpl.render_404(cfg))

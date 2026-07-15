@@ -88,3 +88,50 @@ VOCAB_SETS = {
         "sns_key": "legal",
     },
 }
+
+# 英単語トレーニング（旧 english-learner「こつこつ英単語」を統合）。
+# 一般英語の単語帳。確認モード＋ディクテーションで、例文つきで学べる。
+# data/training/{file} に元データ（1行1語のJSONL: id/word/meaning/example/example_ja）。
+# 表示順は dict の定義順。key = データ上のタグ名（eiken_pre1 のみタグ無し）。
+TRAINING_SETS = {
+    "eiken_pre1": {
+        "slug": "eiken-pre1",
+        "file": "eiken_pre1.jsonl",
+        "title": "英検準1級 英単語",
+        "short": "英検準1級",
+        "icon": "🎓",
+        "description": "英検準1級レベルの必須英単語1500語。意味の確認と、書き取り（ディクテーション）で定着させます。",
+    },
+    "news": {
+        "slug": "news",
+        "file": "news.jsonl",
+        "title": "ニュース英単語",
+        "short": "ニュース",
+        "icon": "📰",
+        "description": "英字ニュースで頻出する時事英単語。政治・経済・社会の記事を読むための語彙を例文つきで。",
+    },
+    "drama": {
+        "slug": "drama",
+        "file": "drama.jsonl",
+        "title": "ドラマ英単語",
+        "short": "ドラマ",
+        "icon": "🎬",
+        "description": "海外ドラマや映画でよく耳にする口語英単語。生きた会話表現を例文つきで身につけます。",
+    },
+    "phrasal": {
+        "slug": "phrasal",
+        "file": "phrasal.jsonl",
+        "title": "句動詞",
+        "short": "句動詞",
+        "icon": "🔗",
+        "description": "英会話に欠かせない句動詞（phrasal verbs）。get / bring / put などの組み合わせを例文つきで。",
+    },
+    "idioms": {
+        "slug": "idioms",
+        "file": "idioms.jsonl",
+        "title": "イディオム",
+        "short": "イディオム",
+        "icon": "💬",
+        "description": "ネイティブがよく使う慣用表現（イディオム）。直訳では分からない決まり文句を例文つきで。",
+    },
+}

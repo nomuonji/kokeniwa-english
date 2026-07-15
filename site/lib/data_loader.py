@@ -38,6 +38,30 @@ def load_reading_problems(cfg):
     return problems
 
 
+# 英単語トレーニングの1語に必須のフィールド
+TRAINING_REQUIRED_FIELDS = ["id", "word", "meaning", "example", "example_ja"]
+
+
+def load_training(set_key):
+    """英単語トレーニングのJSONLを読み込み、id順のリストで返す。"""
+    tset = config.TRAINING_SETS[set_key]
+    path = config.DATA_DIR / "training" / tset["file"]
+    words = []
+    with open(path, encoding="utf-8") as f:
+        for lineno, line in enumerate(f, 1):
+            line = line.strip()
+            if not line:
+                continue
+            w = json.loads(line)
+            missing = [k for k in TRAINING_REQUIRED_FIELDS if k not in w]
+            if missing:
+                raise ValueError(f"{path.name}:{lineno} missing fields: {missing}")
+            w["id"] = int(w["id"])
+            words.append(w)
+    words.sort(key=lambda w: w["id"])
+    return words
+
+
 def load_vocab(set_key):
     """語彙CSVを読み込み、subject別のdictで返す。rejectedは除外。"""
     vset = config.VOCAB_SETS[set_key]

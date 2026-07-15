@@ -1,0 +1,584 @@
+{"id":1,"word":"incumbent","meaning":"現職の","example":"The incumbent president faces a tough race.","example_ja":"現職の大統領は厳しい戦いに直面している。","tag":"news"}
+{"id":2,"word":"runoff","meaning":"決選投票","example":"The election is heading to a runoff.","example_ja":"選挙は決選投票にもつれ込みそうだ。","tag":"news"}
+{"id":3,"word":"polling station","meaning":"投票所","example":"Voters lined up outside the polling station.","example_ja":"有権者が投票所の外に列を作った。","tag":"news"}
+{"id":4,"word":"frontrunner","meaning":"最有力候補","example":"She remains the frontrunner in the race.","example_ja":"彼女はこの選挙戦の最有力候補だ。","tag":"news"}
+{"id":5,"word":"upset victory","meaning":"番狂わせの勝利","example":"They pulled off an upset victory.","example_ja":"彼らは番狂わせの勝利を収めた。","tag":"news"}
+{"id":6,"word":"endorsement","meaning":"支持表明","example":"The union announced its endorsement of the candidate.","example_ja":"労働組合がその候補者への支持を表明した。","tag":"news"}
+{"id":7,"word":"ballot measure","meaning":"住民投票案件","example":"Voters approved a ballot measure to raise the minimum wage.","example_ja":"有権者は最低賃金引き上げの住民投票案件を可決した。","tag":"news"}
+{"id":8,"word":"sweeping reform","meaning":"大幅な改革","example":"The government proposed sweeping reform of the tax code.","example_ja":"政府は税制の大幅な改革を提案した。","tag":"news"}
+{"id":9,"word":"bipartisan","meaning":"超党派の","example":"They reached a bipartisan agreement.","example_ja":"彼らは超党派の合意に達した。","tag":"news"}
+{"id":10,"word":"gridlock","meaning":"膠着状態","example":"Congress is in gridlock over the budget.","example_ja":"予算案をめぐって議会は膠着状態にある。","tag":"news"}
+{"id":11,"word":"filibuster","meaning":"議事妨害","example":"The senator launched a filibuster to block the bill.","example_ja":"上院議員は法案を阻止するために長時間演説（フィリバスター）を行った。","tag":"news"}
+{"id":12,"word":"lame-duck","meaning":"任期末で影響力の弱い","example":"He's a lame-duck president after the election.","example_ja":"選挙後、彼はレームダックの大統領となった。","tag":"news"}
+{"id":13,"word":"whistleblower","meaning":"内部告発者","example":"The whistleblower revealed internal misconduct.","example_ja":"内部告発者が社内の不正を明らかにした。","tag":"news"}
+{"id":14,"word":"executive order","meaning":"大統領令","example":"The President signed an executive order on climate.","example_ja":"大統領が気候に関する大統領令に署名した。","tag":"news"}
+{"id":15,"word":"rate cut","meaning":"利下げ","example":"The central bank signaled a rate cut.","example_ja":"中央銀行が利下げを示唆した。","tag":"news"}
+{"id":16,"word":"hawkish","meaning":"強気（利上げ寄り）","example":"Markets fell on the hawkish remarks.","example_ja":"強気（利上げ寄り）の発言で市場は下落した。","tag":"news"}
+{"id":17,"word":"dovish","meaning":"穏健（利下げ寄り）","example":"Investors cheered the dovish tone.","example_ja":"穏健（利下げ寄り）の姿勢に投資家は沸いた。","tag":"news"}
+{"id":18,"word":"soft landing","meaning":"軟着陸","example":"Economists are hoping for a soft landing.","example_ja":"経済学者は軟着陸を期待している。","tag":"news"}
+{"id":19,"word":"sticky inflation","meaning":"粘着的インフレ","example":"Sticky inflation remains a concern.","example_ja":"粘着的なインフレが依然として懸念されている。","tag":"news"}
+{"id":20,"word":"core CPI","meaning":"コア消費者物価指数","example":"Core CPI rose 3.2% year over year.","example_ja":"コアCPIは前年比3.2%上昇した。","tag":"news"}
+{"id":21,"word":"labor participation","meaning":"労働参加率","example":"Labor force participation ticked up last month.","example_ja":"先月、労働参加率がわずかに上昇した。","tag":"news"}
+{"id":22,"word":"cease and desist","meaning":"差止め命令","example":"The company sent a cease-and-desist letter.","example_ja":"その会社は差止め要求書を送った。","tag":"news"}
+{"id":23,"word":"injunction","meaning":"差止め（司法）","example":"The court issued an injunction.","example_ja":"裁判所が差止め命令を出した。","tag":"news"}
+{"id":24,"word":"class action","meaning":"集団訴訟","example":"Hundreds joined a class action lawsuit.","example_ja":"数百人が集団訴訟に加わった。","tag":"news"}
+{"id":25,"word":"settlement","meaning":"和解","example":"The parties reached a settlement out of court.","example_ja":"当事者は法廷外で和解に達した。","tag":"news"}
+{"id":26,"word":"liable","meaning":"法的責任がある","example":"The company was found liable for damages.","example_ja":"その会社は損害賠償の法的責任があると認定された。","tag":"news"}
+{"id":27,"word":"discovery","meaning":"証拠開示","example":"Discovery revealed thousands of emails.","example_ja":"証拠開示で数千通のメールが明らかになった。","tag":"news"}
+{"id":28,"word":"plea deal","meaning":"司法取引","example":"He accepted a plea deal.","example_ja":"彼は司法取引に応じた。","tag":"news"}
+{"id":29,"word":"supply chain","meaning":"供給網","example":"Supply chain disruptions eased this quarter.","example_ja":"今期、供給網の混乱は緩和した。","tag":"news"}
+{"id":30,"word":"backlog","meaning":"未処理の山","example":"We need to clear the backlog of orders.","example_ja":"受注の未処理分を片付ける必要がある。","tag":"news"}
+{"id":31,"word":"lead time","meaning":"リードタイム","example":"The lead time has been reduced to two weeks.","example_ja":"リードタイムは2週間に短縮された。","tag":"news"}
+{"id":32,"word":"bottleneck","meaning":"ボトルネック","example":"Testing is the bottleneck in our process.","example_ja":"テスト工程がプロセスのボトルネックだ。","tag":"news"}
+{"id":33,"word":"ramp up","meaning":"増産する","example":"They plan to ramp up production next month.","example_ja":"来月、生産を増やす予定だ。","tag":"news"}
+{"id":34,"word":"rollout","meaning":"展開、導入","example":"The product rollout starts in October.","example_ja":"製品の展開は10月に始まる。","tag":"news"}
+{"id":35,"word":"recall","meaning":"リコール（回収）","example":"The automaker issued a recall for 2,000 cars.","example_ja":"その自動車メーカーは2000台のリコールを発表した。","tag":"news"}
+{"id":36,"word":"wildfire","meaning":"山火事","example":"The wildfire forced thousands to evacuate.","example_ja":"山火事で数千人が避難を余儀なくされた。","tag":"news"}
+{"id":37,"word":"evacuation order","meaning":"避難命令","example":"Authorities issued an evacuation order.","example_ja":"当局が避難命令を出した。","tag":"news"}
+{"id":38,"word":"containment","meaning":"封じ込め","example":"Containment has reached 40%.","example_ja":"鎮圧率は40%に達した。","tag":"news"}
+{"id":39,"word":"heat advisory","meaning":"高温注意報","example":"A heat advisory is in effect today.","example_ja":"本日、高温注意報が発令されている。","tag":"news"}
+{"id":40,"word":"air quality index","meaning":"空気質指数","example":"Today's air quality index is unhealthy.","example_ja":"今日の大気質指数は「健康に良くない」水準だ。","tag":"news"}
+{"id":41,"word":"sustainability","meaning":"持続可能性","example":"We’re pursuing long‑term sustainability goals.","example_ja":"当社は長期的な持続可能性の目標を追求している。","tag":"news"}
+{"id":42,"word":"carbon footprint","meaning":"炭素排出量","example":"We’re working to reduce our carbon footprint.","example_ja":"炭素排出量の削減に取り組んでいる。","tag":"news"}
+{"id":43,"word":"defamation","meaning":"名誉毀損","example":"She sued for defamation.","example_ja":"彼女は名誉毀損で訴えた。","tag":"news"}
+{"id":44,"word":"libel","meaning":"文書による名誉毀損","example":"He filed a libel suit against the paper.","example_ja":"彼はその新聞を相手取り名誉毀損（文書）で訴訟を起こした。","tag":"news"}
+{"id":45,"word":"slander","meaning":"口頭の名誉毀損","example":"He apologized for slander.","example_ja":"彼は口頭での名誉毀損について謝罪した。","tag":"news"}
+{"id":46,"word":"retraction","meaning":"撤回","example":"The magazine issued a retraction.","example_ja":"雑誌は記事の撤回文を出した。","tag":"news"}
+{"id":47,"word":"fact-check","meaning":"事実確認","example":"Reporters began to fact-check the claims.","example_ja":"記者たちはその主張の事実確認を始めた。","tag":"news"}
+{"id":48,"word":"spin","meaning":"都合の良い解釈","example":"The campaign tried to put a positive spin on it.","example_ja":"陣営はそれを都合よく解釈させようとした。","tag":"news"}
+{"id":49,"word":"sound bite","meaning":"短い引用フレーズ","example":"The quote made for a perfect sound bite.","example_ja":"その引用は短い決め台詞にぴったりだった。","tag":"news"}
+{"id":50,"word":"data breach","meaning":"情報漏えい","example":"A data breach exposed user information.","example_ja":"データ漏えいで利用者情報が流出した。","tag":"news"}
+{"id":51,"word":"ransomware","meaning":"身代金型マルウェア","example":"Ransomware locked all the files.","example_ja":"ランサムウェアが全ファイルを暗号化した。","tag":"news"}
+{"id":52,"word":"phishing","meaning":"フィッシング詐欺","example":"Beware of phishing emails.","example_ja":"フィッシング詐欺のメールに注意して。","tag":"news"}
+{"id":53,"word":"two-factor authentication","meaning":"二要素認証","example":"Enable two‑factor authentication for added security.","example_ja":"セキュリティ向上のため二要素認証を有効にしよう。","tag":"news"}
+{"id":54,"word":"patch","meaning":"修正パッチ","example":"Install the latest security patch.","example_ja":"最新のセキュリティパッチを適用して。","tag":"news"}
+{"id":55,"word":"zero-day","meaning":"ゼロデイ脆弱性","example":"A zero‑day vulnerability was discovered.","example_ja":"ゼロデイ脆弱性が見つかった。","tag":"news"}
+{"id":56,"word":"exploit","meaning":"悪用する/エクスプロイト","example":"Attackers tried to exploit the bug.","example_ja":"攻撃者がそのバグを悪用しようとした。","tag":"news"}
+{"id":57,"word":"IPO","meaning":"新規株式公開","example":"The company filed for an IPO.","example_ja":"その会社は新規株式公開を申請した。","tag":"news"}
+{"id":58,"word":"valuation","meaning":"企業価値評価","example":"The startup's valuation hit $2 billion.","example_ja":"そのスタートアップの評価額は20億ドルに達した。","tag":"news"}
+{"id":59,"word":"unicorn","meaning":"時価総額10億ドル超の未上場企業","example":"They're one of the few unicorns in the sector.","example_ja":"その分野では数少ないユニコーン企業だ。","tag":"news"}
+{"id":60,"word":"burn rate","meaning":"資金消費速度","example":"Our burn rate is too high.","example_ja":"うちの資金消費ペースは高すぎる。","tag":"news"}
+{"id":61,"word":"runway","meaning":"資金が尽きるまでの期間","example":"We have 12 months of runway left.","example_ja":"資金が尽きるまであと12カ月ある。","tag":"news"}
+{"id":62,"word":"pivot","meaning":"方向転換","example":"We had to pivot to B2B.","example_ja":"B2Bに方向転換せざるを得なかった。","tag":"news"}
+{"id":63,"word":"term sheet","meaning":"投資条件表","example":"We signed the term sheet.","example_ja":"タームシートに署名した。","tag":"news"}
+{"id":64,"word":"backlash","meaning":"強い反発","example":"The ad sparked a public backlash.","example_ja":"その広告は強い反発を招いた。","tag":"news"}
+{"id":65,"word":"boycott","meaning":"ボイコット","example":"Consumers called for a boycott.","example_ja":"消費者がボイコットを呼びかけた。","tag":"news"}
+{"id":66,"word":"call to action","meaning":"行動喚起","example":"The speech ended with a call to action.","example_ja":"演説は行動喚起で締めくくられた。","tag":"news"}
+{"id":67,"word":"grassroots","meaning":"草の根の","example":"They launched a grassroots campaign.","example_ja":"彼らは草の根のキャンペーンを立ち上げた。","tag":"news"}
+{"id":68,"word":"rally","meaning":"集会/結集","example":"Thousands attended the rally downtown.","example_ja":"中心街の集会に何千人もが参加した。","tag":"news"}
+{"id":69,"word":"constituency","meaning":"支持層/選挙区民","example":"He lost support in his key constituency.","example_ja":"彼は主要な支持層の支持を失った。","tag":"news"}
+{"id":70,"word":"platform","meaning":"公約/政策方針","example":"She ran on a platform of reform.","example_ja":"彼女は改革を掲げる公約で立候補した。","tag":"news"}
+{"id":71,"word":"meltdown","meaning":"大混乱/崩壊","example":"The market went into a meltdown.","example_ja":"市場は大混乱に陥った。","tag":"news"}
+{"id":72,"word":"course-correct","meaning":"軌道修正する","example":"We need to course-correct before it's too late.","example_ja":"手遅れになる前に軌道修正が必要だ。","tag":"news"}
+{"id":73,"word":"misinfo/disinfo","meaning":"誤情報/偽情報","example":"Platforms are struggling with misinfo and disinfo.","example_ja":"プラットフォームは誤情報や偽情報への対応に苦慮している。","tag":"news"}
+{"id":74,"word":"fact-checker","meaning":"検証者","example":"A fact-checker verified the claim.","example_ja":"ファクトチェッカーがその主張を検証した。","tag":"news"}
+{"id":75,"word":"debunk","meaning":"誤りだと証明する/デマを暴く","example":"Experts debunked the viral claim.","example_ja":"専門家がその拡散した主張をデマだと暴いた。","tag":"news"}
+{"id":76,"word":"echo chamber","meaning":"反響室（同質空間）","example":"Social media can become an echo chamber.","example_ja":"SNSは同質な意見ばかりが反響する空間になり得る。","tag":"news"}
+{"id":77,"word":"nuance","meaning":"微妙な差異/含意","example":"Please pay attention to the nuance here.","example_ja":"ここではニュアンスの違いに注意してください。","tag":"news"}
+{"id":78,"word":"outage","meaning":"停電/停止","example":"The service suffered a major outage.","example_ja":"サービスが大規模な障害に見舞われた。","tag":"news"}
+{"id":79,"word":"downtime","meaning":"停止時間","example":"We aim to minimize downtime.","example_ja":"ダウンタイムを最小限に抑えることを目指している。","tag":"news"}
+{"id":80,"word":"redundancy","meaning":"冗長性","example":"The system has built-in redundancy.","example_ja":"そのシステムには冗長性が組み込まれている。","tag":"news"}
+{"id":81,"word":"failover","meaning":"切替","example":"Automatic failover kept the site online.","example_ja":"自動フェイルオーバーによりサイトの稼働が維持された。","tag":"news"}
+{"id":82,"word":"uptime","meaning":"稼働率","example":"We maintain 99.9% uptime.","example_ja":"稼働率99.9%を維持している。","tag":"news"}
+{"id":83,"word":"latency","meaning":"待ち時間/遅延","example":"High latency caused delays for users.","example_ja":"高いレイテンシが利用者の遅延を招いた。","tag":"news"}
+{"id":84,"word":"throughput","meaning":"処理量","example":"We increased throughput by 20%.","example_ja":"処理量を20%向上させた。","tag":"news"}
+{"id":85,"word":"heat wave","meaning":"熱波","example":"A record heat wave hit the region.","example_ja":"記録的な熱波がその地域を襲った。","tag":"news"}
+{"id":86,"word":"cold front","meaning":"寒冷前線","example":"A cold front will bring showers overnight.","example_ja":"寒冷前線の通過で夜のうちに雨が降る見込み。","tag":"news"}
+{"id":87,"word":"scattered showers","meaning":"にわか雨","example":"Expect scattered showers in the afternoon.","example_ja":"午後はにわか雨の予報。","tag":"news"}
+{"id":88,"word":"humidity","meaning":"湿度","example":"High humidity will make it feel hotter.","example_ja":"湿度が高く体感温度はさらに上がる。","tag":"news"}
+{"id":89,"word":"dew point","meaning":"露点","example":"The dew point will stay in the 20s (°C).","example_ja":"露点は20℃台のまま推移する。","tag":"news"}
+{"id":90,"word":"gust","meaning":"突風","example":"Strong gusts are expected along the coast.","example_ja":"沿岸部では強い突風が予想される。","tag":"news"}
+{"id":91,"word":"hail","meaning":"ひょう","example":"Hail damaged cars and roofs.","example_ja":"ひょうで車や屋根が被害を受けた。","tag":"news"}
+{"id":92,"word":"sanctions","meaning":"制裁","example":"The country imposed new sanctions on its neighbor.","example_ja":"その国は隣国に新たな制裁を科した。","tag":"news"}
+{"id":93,"word":"embargo","meaning":"禁輸","example":"They lifted the decades-old trade embargo.","example_ja":"数十年に及ぶ禁輸措置が解除された。","tag":"news"}
+{"id":94,"word":"tariff","meaning":"関税","example":"The government raised tariffs on imports.","example_ja":"政府は輸入品への関税を引き上げた。","tag":"news"}
+{"id":95,"word":"trade deficit","meaning":"貿易赤字","example":"The trade deficit widened in July.","example_ja":"7月の貿易赤字が拡大した。","tag":"news"}
+{"id":96,"word":"export quota","meaning":"輸出枠","example":"The ministry introduced an export quota.","example_ja":"省は輸出枠を導入した。","tag":"news"}
+{"id":97,"word":"supply glut","meaning":"供給過多","example":"A supply glut pushed prices lower.","example_ja":"供給過多で価格が下落した。","tag":"news"}
+{"id":98,"word":"price cap","meaning":"価格上限","example":"They proposed a price cap on gas.","example_ja":"ガスの価格上限が提案された。","tag":"news"}
+{"id":99,"word":"spillover","meaning":"波及効果","example":"The spillover effects hit neighboring countries.","example_ja":"波及効果が周辺国にも及んだ。","tag":"news"}
+{"id":100,"word":"knock-on effect","meaning":"連鎖的影響","example":"The decision had a knock-on effect on prices.","example_ja":"その決定は価格に連鎖的な影響を与えた。","tag":"news"}
+{"id":101,"word":"tail risk","meaning":"低頻度・大損失のリスク","example":"Investors worry about tail risk.","example_ja":"投資家はテールリスクを懸念している。","tag":"news"}
+{"id":102,"word":"hedge","meaning":"ヘッジ/リスク回避","example":"They hedged against currency risk.","example_ja":"彼らは為替リスクに対してヘッジをかけた。","tag":"news"}
+{"id":103,"word":"volatility","meaning":"変動性","example":"Market volatility increased sharply.","example_ja":"市場のボラティリティが急上昇した。","tag":"news"}
+{"id":104,"word":"liquidity","meaning":"流動性","example":"Liquidity dried up during the crisis.","example_ja":"危機の間、流動性が枯渇した。","tag":"news"}
+{"id":105,"word":"contagion","meaning":"連鎖/伝播","example":"Financial contagion spread to other markets.","example_ja":"金融危機の連鎖が他市場に広がった。","tag":"news"}
+{"id":106,"word":"collective bargaining","meaning":"団体交渉","example":"Workers began collective bargaining.","example_ja":"労働者が団体交渉を開始した。","tag":"news"}
+{"id":107,"word":"wage floor","meaning":"最低賃金","example":"They raised the wage floor.","example_ja":"最低賃金を引き上げた。","tag":"news"}
+{"id":108,"word":"cost of living","meaning":"生活費","example":"The cost of living keeps rising.","example_ja":"生活費が上がり続けている。","tag":"news"}
+{"id":109,"word":"benefits","meaning":"福利厚生","example":"The company improved employee benefits.","example_ja":"会社は従業員の福利厚生を改善した。","tag":"news"}
+{"id":110,"word":"overtime pay","meaning":"残業代","example":"They are owed overtime pay.","example_ja":"彼らには残業代の支払いが必要だ。","tag":"news"}
+{"id":111,"word":"unionize","meaning":"組合化する","example":"Workers voted to unionize.","example_ja":"労働者が組合の結成に賛成した。","tag":"news"}
+{"id":112,"word":"walkout","meaning":"ストライキ","example":"Employees staged a walkout.","example_ja":"従業員が職場放棄（スト）を行った。","tag":"news"}
+{"id":113,"word":"plagiarism","meaning":"盗用","example":"He was accused of plagiarism.","example_ja":"彼は盗用を疑われた。","tag":"news"}
+{"id":114,"word":"attribution","meaning":"出典明記","example":"Please provide proper attribution.","example_ja":"適切な出典明記をしてください。","tag":"news"}
+{"id":115,"word":"copyright claim","meaning":"著作権主張","example":"They filed a copyright claim.","example_ja":"彼らは著作権侵害の申し立てを行った。","tag":"news"}
+{"id":116,"word":"fair use","meaning":"フェアユース","example":"This likely falls under fair use.","example_ja":"これはフェアユースに該当する可能性が高い。","tag":"news"}
+{"id":117,"word":"royalty","meaning":"印税","example":"Authors earn royalties from sales.","example_ja":"著者は販売から印税を得る。","tag":"news"}
+{"id":118,"word":"public domain","meaning":"著作権切れ","example":"The work is now in the public domain.","example_ja":"その作品は著作権が切れている。","tag":"news"}
+{"id":119,"word":"derivative work","meaning":"二次創作","example":"Fan art can be a derivative work.","example_ja":"ファンアートは二次創作になり得る。","tag":"news"}
+{"id":120,"word":"megadrought","meaning":"大規模干ばつ","example":"The region is suffering a megadrought.","example_ja":"その地域は大規模な干ばつに苦しんでいる。","tag":"news"}
+{"id":121,"word":"water rationing","meaning":"断水/配水制限","example":"The city imposed water rationing.","example_ja":"市は配水制限を実施した。","tag":"news"}
+{"id":122,"word":"desalination","meaning":"海水淡水化","example":"They invested in desalination plants.","example_ja":"海水淡水化プラントに投資した。","tag":"news"}
+{"id":123,"word":"reservoir","meaning":"貯水池","example":"The reservoir is at record lows.","example_ja":"貯水池の水位が過去最低だ。","tag":"news"}
+{"id":124,"word":"groundwater","meaning":"地下水","example":"Groundwater levels are declining.","example_ja":"地下水位が低下している。","tag":"news"}
+{"id":125,"word":"aquifer","meaning":"帯水層","example":"The aquifer is being depleted.","example_ja":"帯水層の枯渇が進んでいる。","tag":"news"}
+{"id":126,"word":"runoff","meaning":"流出水","example":"Storm runoff polluted the river.","example_ja":"雨水の流出で川が汚染された。","tag":"news"}
+{"id":127,"word":"grounding","meaning":"飛行停止（航空）","example":"The airline ordered a grounding of its fleet.","example_ja":"航空会社が保有機の運航停止を命じた。","tag":"news"}
+{"id":128,"word":"turbulence","meaning":"乱気流","example":"We hit severe turbulence.","example_ja":"激しい乱気流に遭遇した。","tag":"news"}
+{"id":129,"word":"tailwind","meaning":"追い風","example":"We had a strong tailwind.","example_ja":"強い追い風を受けた。","tag":"news"}
+{"id":130,"word":"headwind","meaning":"逆風","example":"Headwinds could slow growth.","example_ja":"逆風が成長を鈍らせる可能性がある。","tag":"news"}
+{"id":131,"word":"layover","meaning":"乗継待ち","example":"We have a two-hour layover in Seoul.","example_ja":"ソウルで2時間の乗り継ぎ待ちがある。","tag":"news"}
+{"id":132,"word":"red-eye","meaning":"夜行便","example":"I took the red-eye to New York.","example_ja":"夜行便でニューヨークへ向かった。","tag":"news"}
+{"id":133,"word":"gate agent","meaning":"搭乗口スタッフ","example":"Ask the gate agent about upgrades.","example_ja":"アップグレードは搭乗口スタッフに聞いて。","tag":"news"}
+{"id":134,"word":"food insecurity","meaning":"食料不安","example":"Food insecurity is rising globally.","example_ja":"世界的に食料不安が高まっている。","tag":"news"}
+{"id":135,"word":"malnutrition","meaning":"栄養失調","example":"Malnutrition remains a serious issue.","example_ja":"栄養失調は依然として深刻だ。","tag":"news"}
+{"id":136,"word":"staple food","meaning":"主食","example":"Rice is a staple food in Japan.","example_ja":"日本では米が主食だ。","tag":"news"}
+{"id":137,"word":"food bank","meaning":"フードバンク","example":"Donations to the food bank increased.","example_ja":"フードバンクへの寄付が増えた。","tag":"news"}
+{"id":138,"word":"shelf life","meaning":"賞味期限","example":"Check the shelf life before buying.","example_ja":"購入前に賞味期限を確認して。","tag":"news"}
+{"id":139,"word":"shortage","meaning":"不足","example":"There’s a shortage of nurses.","example_ja":"看護師が不足している。","tag":"news"}
+{"id":140,"word":"ration","meaning":"配給","example":"The government began fuel rationing.","example_ja":"政府は燃料の配給を始めた。","tag":"news"}
+{"id":141,"word":"mortgage","meaning":"住宅ローン","example":"Mortgage rates hit a new high.","example_ja":"住宅ローン金利が過去最高を記録した。","tag":"news"}
+{"id":142,"word":"down payment","meaning":"頭金","example":"We saved for a 20% down payment.","example_ja":"頭金20%のために貯金した。","tag":"news"}
+{"id":143,"word":"interest rate","meaning":"金利","example":"The interest rate increased again.","example_ja":"金利が再び上がった。","tag":"news"}
+{"id":144,"word":"refinance","meaning":"借り換え","example":"We decided to refinance the mortgage.","example_ja":"住宅ローンの借り換えをすることにした。","tag":"news"}
+{"id":145,"word":"foreclosure","meaning":"差し押さえ","example":"The bank started foreclosure proceedings.","example_ja":"銀行が差し押さえ手続きを開始した。","tag":"news"}
+{"id":146,"word":"appraisal","meaning":"査定","example":"The home appraisal came in low.","example_ja":"住宅の査定額が低かった。","tag":"news"}
+{"id":147,"word":"equity","meaning":"純資産/持分","example":"Home equity rose as prices climbed.","example_ja":"価格上昇で住宅の持分（エクイティ）が増えた。","tag":"news"}
+{"id":148,"word":"antitrust","meaning":"反トラスト/独禁","example":"The agency opened an antitrust investigation.","example_ja":"当局が独禁法の調査を開始した。","tag":"news"}
+{"id":149,"word":"market dominance","meaning":"市場支配","example":"They were fined for market dominance.","example_ja":"市場支配的地位の乱用で罰金を科された。","tag":"news"}
+{"id":150,"word":"price fixing","meaning":"価格カルテル","example":"Several firms were accused of price fixing.","example_ja":"複数社が価格カルテルの疑いをかけられた。","tag":"news"}
+{"id":151,"word":"merger","meaning":"合併","example":"The companies announced a merger.","example_ja":"両社は合併を発表した。","tag":"news"}
+{"id":152,"word":"acquisition","meaning":"買収","example":"They completed the acquisition.","example_ja":"買収が完了した。","tag":"news"}
+{"id":153,"word":"regulatory approval","meaning":"規制当局の承認","example":"The deal awaits regulatory approval.","example_ja":"取引は規制当局の承認待ちだ。","tag":"news"}
+{"id":154,"word":"consent decree","meaning":"同意判決","example":"They settled under a consent decree.","example_ja":"彼らは同意判決に基づき和解した。","tag":"news"}
+{"id":155,"word":"opioid crisis","meaning":"オピオイド危機","example":"The opioid crisis has devastated communities.","example_ja":"オピオイド危機は地域社会に壊滅的打撃を与えた。","tag":"news"}
+{"id":156,"word":"overdose","meaning":"過剰摂取","example":"Overdose deaths have increased.","example_ja":"過剰摂取による死亡が増えている。","tag":"news"}
+{"id":157,"word":"rehab","meaning":"リハビリ","example":"He checked into rehab.","example_ja":"彼はリハビリ施設に入所した。","tag":"news"}
+{"id":158,"word":"relapse","meaning":"再発/再びはまる","example":"She relapsed after six months sober.","example_ja":"禁酒6カ月後に再び依存に戻ってしまった。","tag":"news"}
+{"id":159,"word":"withdrawal","meaning":"禁断症状","example":"He experienced severe withdrawal symptoms.","example_ja":"彼は重い禁断症状に苦しんだ。","tag":"news"}
+{"id":160,"word":"harm reduction","meaning":"害の低減","example":"Harm reduction programs save lives.","example_ja":"ハームリダクションの施策は命を救う。","tag":"news"}
+{"id":161,"word":"public health","meaning":"公衆衛生","example":"It's a major public health issue.","example_ja":"それは重要な公衆衛生上の問題だ。","tag":"news"}
+{"id":162,"word":"auditor","meaning":"監査人","example":"An independent auditor reviewed the accounts.","example_ja":"独立監査人が会計を精査した。","tag":"news"}
+{"id":163,"word":"fiduciary duty","meaning":"受託者責任","example":"They breached their fiduciary duty.","example_ja":"彼らは受託者責任に違反した。","tag":"news"}
+{"id":164,"word":"conflict of interest","meaning":"利益相反","example":"He failed to disclose a conflict of interest.","example_ja":"彼は利益相反を開示しなかった。","tag":"news"}
+{"id":165,"word":"probity","meaning":"高潔さ","example":"She is known for her probity.","example_ja":"彼女は高潔さで知られている。","tag":"news"}
+{"id":166,"word":"transparency","meaning":"透明性","example":"We value transparency in reporting.","example_ja":"報告における透明性を重視している。","tag":"news"}
+{"id":167,"word":"oversight","meaning":"監督/監視","example":"The board increased oversight of the project.","example_ja":"取締役会はプロジェクトの監督を強化した。","tag":"news"}
+{"id":168,"word":"compliance","meaning":"コンプライアンス","example":"Staff completed compliance training.","example_ja":"職員はコンプライアンス研修を修了した。","tag":"news"}
+{"id":169,"word":"affordable housing","meaning":"手頃な住宅","example":"The city is investing in affordable housing.","example_ja":"市は手頃な住宅への投資を進めている。","tag":"news"}
+{"id":170,"word":"rent control","meaning":"家賃規制","example":"The council passed rent control.","example_ja":"議会は家賃規制を可決した。","tag":"news"}
+{"id":171,"word":"eviction","meaning":"立ち退き","example":"Evictions surged after protections expired.","example_ja":"保護措置の期限切れ後、立ち退きが急増した。","tag":"news"}
+{"id":172,"word":"tenant","meaning":"借家人","example":"Tenants organized for better conditions.","example_ja":"借家人たちはより良い条件を求めて団結した。","tag":"news"}
+{"id":173,"word":"landlord","meaning":"大家","example":"The landlord raised the rent.","example_ja":"大家が家賃を値上げした。","tag":"news"}
+{"id":174,"word":"security deposit","meaning":"保証金","example":"We returned the full security deposit.","example_ja":"保証金を全額返金した。","tag":"news"}
+{"id":175,"word":"notice period","meaning":"通知期間","example":"The notice period is 30 days.","example_ja":"通知期間は30日だ。","tag":"news"}
+{"id":176,"word":"gene editing","meaning":"遺伝子編集","example":"Gene editing shows promise for curing disease.","example_ja":"遺伝子編集は病気治療への可能性を示している。","tag":"news"}
+{"id":177,"word":"clinical trial","meaning":"臨床試験","example":"The drug entered phase 3 clinical trials.","example_ja":"その薬は第3相の臨床試験に入った。","tag":"news"}
+{"id":178,"word":"placebo","meaning":"偽薬","example":"The control group received a placebo.","example_ja":"対照群には偽薬が投与された。","tag":"news"}
+{"id":179,"word":"double-blind","meaning":"二重盲検","example":"It was a randomized, double-blind study.","example_ja":"無作為化二重盲検試験だった。","tag":"news"}
+{"id":180,"word":"side effect","meaning":"副作用","example":"Common side effects include nausea.","example_ja":"一般的な副作用には吐き気がある。","tag":"news"}
+{"id":181,"word":"efficacy","meaning":"有効性","example":"We measured the vaccine's efficacy.","example_ja":"ワクチンの有効性を測定した。","tag":"news"}
+{"id":182,"word":"adverse event","meaning":"有害事象","example":"Report any adverse events immediately.","example_ja":"有害事象は直ちに報告してください。","tag":"news"}
+{"id":183,"word":"sovereign debt","meaning":"国債/国家債務","example":"The country restructured its sovereign debt.","example_ja":"その国は国家債務を再編した。","tag":"news"}
+{"id":184,"word":"bond yield","meaning":"債券利回り","example":"Bond yields climbed to 4%.","example_ja":"債券利回りが4%に上昇した。","tag":"news"}
+{"id":185,"word":"credit rating","meaning":"格付け","example":"The agency downgraded the credit rating.","example_ja":"格付け機関が格付けを引き下げた。","tag":"news"}
+{"id":186,"word":"default","meaning":"債務不履行","example":"The company defaulted on its loans.","example_ja":"その会社は貸付の返済を怠った。","tag":"news"}
+{"id":187,"word":"haircut","meaning":"債権削減","example":"Bondholders accepted a 20% haircut.","example_ja":"債権者は20%の削減に応じた。","tag":"news"}
+{"id":188,"word":"bailout","meaning":"救済","example":"The bank received a government bailout.","example_ja":"その銀行は政府の救済を受けた。","tag":"news"}
+{"id":189,"word":"austerity","meaning":"緊縮財政","example":"The government adopted austerity measures.","example_ja":"政府は緊縮財政策を採用した。","tag":"news"}
+{"id":190,"word":"due diligence","meaning":"デューデリジェンス","example":"Do proper due diligence before investing.","example_ja":"投資前に適切なデューデリジェンスを行って。","tag":"news"}
+{"id":191,"word":"earnings call","meaning":"決算説明会","example":"The CEO spoke on the earnings call.","example_ja":"CEOが決算説明会で発言した。","tag":"news"}
+{"id":192,"word":"guidance","meaning":"業績見通し","example":"The company raised its earnings guidance.","example_ja":"同社は業績見通しを上方修正した。","tag":"news"}
+{"id":193,"word":"top line","meaning":"売上高","example":"Top-line growth slowed this quarter.","example_ja":"今期は売上高の伸びが鈍化した。","tag":"news"}
+{"id":194,"word":"bottom line","meaning":"最終利益","example":"The bottom line improved year over year.","example_ja":"最終利益は前年比で改善した。","tag":"news"}
+{"id":195,"word":"beat/miss","meaning":"予想上振れ/下振れ","example":"The results beat expectations last quarter.","example_ja":"前四半期の結果は予想を上回った。","tag":"news"}
+{"id":196,"word":"outlook","meaning":"見通し","example":"We maintained a cautious outlook.","example_ja":"当社は慎重な見通しを維持した。","tag":"news"}
+{"id":197,"word":"underdog","meaning":"弱者/下馬評の低い側","example":"The underdog shocked everyone with a win.","example_ja":"下馬評の低いチームが皆を驚かせる勝利を挙げた。","tag":"news"}
+{"id":198,"word":"comeback","meaning":"逆転/復帰","example":"He made a remarkable comeback in the second half.","example_ja":"彼は後半に見事なカムバックを果たした。","tag":"news"}
+{"id":199,"word":"streak","meaning":"連勝/連敗","example":"Their winning streak reached five games.","example_ja":"連勝は5に伸びた。","tag":"news"}
+{"id":200,"word":"matchup","meaning":"対戦カード","example":"It's a highly anticipated matchup.","example_ja":"注目の対戦カードだ。","tag":"news"}
+{"id":201,"word":"overtime","meaning":"延長","example":"The game went into overtime.","example_ja":"試合は延長戦にもつれ込んだ。","tag":"news"}
+{"id":202,"word":"sudden death","meaning":"サドンデス","example":"They won in sudden death overtime.","example_ja":"サドンデスの延長で勝利した。","tag":"news"}
+{"id":203,"word":"home advantage","meaning":"地の利","example":"They have a strong home advantage.","example_ja":"彼らは地の利が大きい。","tag":"news"}
+{"id":204,"word":"airdrop","meaning":"エアドロップ（配布）","example":"The project will airdrop tokens to early users.","example_ja":"そのプロジェクトは初期ユーザーにトークンを配布する。","tag":"news"}
+{"id":205,"word":"on-chain","meaning":"オンチェーン","example":"All transactions are recorded on-chain.","example_ja":"全ての取引はオンチェーンで記録される。","tag":"news"}
+{"id":206,"word":"ledger","meaning":"元帳","example":"Entries are stored on a distributed ledger.","example_ja":"記帳データは分散型元帳に保存される。","tag":"news"}
+{"id":207,"word":"custody","meaning":"資産の保管","example":"The bank offers crypto custody services.","example_ja":"その銀行は暗号資産のカストディサービスを提供している。","tag":"news"}
+{"id":208,"word":"cold wallet","meaning":"コールドウォレット","example":"Store large amounts in a cold wallet.","example_ja":"多額の資産はコールドウォレットに保管しよう。","tag":"news"}
+{"id":209,"word":"hot wallet","meaning":"ホットウォレット","example":"Hot wallets are convenient but riskier.","example_ja":"ホットウォレットは便利だがリスクが高い。","tag":"news"}
+{"id":210,"word":"hash rate","meaning":"ハッシュレート","example":"The network's hash rate hit a new high.","example_ja":"ネットワークのハッシュレートが過去最高を記録した。","tag":"news"}
+{"id":211,"word":"mandatory","meaning":"義務の","example":"Masks are mandatory on public transport.","example_ja":"公共交通機関ではマスク着用が義務だ。","tag":"news"}
+{"id":212,"word":"voluntary","meaning":"任意の","example":"Participation is voluntary.","example_ja":"参加は任意です。","tag":"news"}
+{"id":213,"word":"opt-in","meaning":"参加を選ぶ","example":"Users can opt in to the beta.","example_ja":"ユーザーはベータ版への参加を選べる。","tag":"news"}
+{"id":214,"word":"opt-out","meaning":"不参加を選ぶ","example":"You can opt out at any time.","example_ja":"いつでもオプトアウトできます。","tag":"news"}
+{"id":215,"word":"compliance","meaning":"遵守","example":"Ensure compliance with regulations.","example_ja":"規制の遵守を徹底してください。","tag":"news"}
+{"id":216,"word":"enforcement","meaning":"施行/執行","example":"Stronger enforcement is needed.","example_ja":"より強力な執行が必要だ。","tag":"news"}
+{"id":217,"word":"penalty","meaning":"罰則","example":"Violators face a $500 penalty.","example_ja":"違反者には500ドルの罰金が科される。","tag":"news"}
+{"id":218,"word":"greenwashing","meaning":"うわべだけの環境配慮","example":"The company was accused of greenwashing.","example_ja":"その企業はグリーンウォッシングだと非難された。","tag":"news"}
+{"id":219,"word":"net zero","meaning":"実質ゼロ","example":"They aim to reach net zero by 2050.","example_ja":"彼らは2050年までに実質ゼロを目指す。","tag":"news"}
+{"id":220,"word":"carbon offset","meaning":"排出相殺","example":"They bought carbon offsets to compensate.","example_ja":"彼らは相殺のためカーボンオフセットを購入した。","tag":"news"}
+{"id":221,"word":"renewables","meaning":"再生可能エネルギー","example":"Investment in renewables is growing fast.","example_ja":"再生可能エネルギーへの投資が急増している。","tag":"news"}
+{"id":222,"word":"grid parity","meaning":"発電コスト同等化","example":"Solar reached grid parity in several markets.","example_ja":"太陽光は複数の市場でグリッドパリティに達した。","tag":"news"}
+{"id":223,"word":"peak demand","meaning":"需要ピーク","example":"Power use peaks around 6 p.m.","example_ja":"電力需要は午後6時ごろにピークを迎える。","tag":"news"}
+{"id":224,"word":"demand response","meaning":"需要応答","example":"Utilities are expanding demand response programs.","example_ja":"電力会社は需要応答プログラムを拡大している。","tag":"news"}
+{"id":225,"word":"food for thought","meaning":"考えさせられる材料","example":"The talk gave us food for thought.","example_ja":"その講演は考えさせられる材料を与えてくれた。","tag":"news"}
+{"id":226,"word":"wake-up call","meaning":"警鐘","example":"The incident was a wake-up call.","example_ja":"その出来事は警鐘となった。","tag":"news"}
+{"id":227,"word":"turning point","meaning":"転機","example":"It marked a turning point in the campaign.","example_ja":"それは選挙戦の転機となった。","tag":"news"}
+{"id":228,"word":"tipping point","meaning":"転換点","example":"We may be near the tipping point.","example_ja":"転換点が近いかもしれない。","tag":"news"}
+{"id":229,"word":"watershed moment","meaning":"画期的な瞬間","example":"It was a watershed moment for the industry.","example_ja":"業界にとって画期的な瞬間だった。","tag":"news"}
+{"id":230,"word":"status quo","meaning":"現状維持","example":"They chose to maintain the status quo.","example_ja":"彼らは現状維持を選んだ。","tag":"news"}
+{"id":231,"word":"thaw","meaning":"雪解け/関係改善","example":"Relations began to thaw after the talks.","example_ja":"会談後、関係が雪解けに向かい始めた。","tag":"news"}
+{"id":232,"word":"frostbite","meaning":"凍傷","example":"He suffered frostbite on his fingers.","example_ja":"彼は指に凍傷を負った。","tag":"news"}
+{"id":233,"word":"whiteout","meaning":"吹雪で視界ゼロ","example":"A whiteout reduced visibility to zero.","example_ja":"ホワイトアウトで視界がゼロになった。","tag":"news"}
+{"id":234,"word":"black ice","meaning":"見えにくい氷","example":"Watch out for black ice on the roads.","example_ja":"路面のブラックアイスに注意。","tag":"news"}
+{"id":235,"word":"wind chill","meaning":"体感温度","example":"Wind chill will make it feel like −10°C.","example_ja":"体感温度は−10℃ほどになりそうだ。","tag":"news"}
+{"id":236,"word":"cold snap","meaning":"急な寒波","example":"A cold snap hit the city overnight.","example_ja":"夜のうちに急な寒波が街を襲った。","tag":"news"}
+{"id":237,"word":"layoff","meaning":"一時解雇","example":"The company announced layoffs.","example_ja":"その会社は一時解雇を発表した。","tag":"news"}
+{"id":238,"word":"furlough","meaning":"一時帰休","example":"Workers were placed on furlough.","example_ja":"労働者は一時帰休となった。","tag":"news"}
+{"id":239,"word":"severance","meaning":"退職金","example":"She received six months' severance.","example_ja":"彼女は6カ月分の退職金を受け取った。","tag":"news"}
+{"id":240,"word":"attrition","meaning":"自然減","example":"The firm plans to cut staff through attrition.","example_ja":"同社は自然減で人員削減を図る計画だ。","tag":"news"}
+{"id":241,"word":"turnover","meaning":"離職率/売上高","example":"Employee turnover increased this year.","example_ja":"今年は離職率が上昇した。","tag":"news"}
+{"id":242,"word":"hiring freeze","meaning":"採用凍結","example":"They implemented a hiring freeze.","example_ja":"彼らは採用凍結を実施した。","tag":"news"}
+{"id":243,"word":"headcount","meaning":"人員数","example":"Headcount increased by 10%.","example_ja":"人員数は10%増加した。","tag":"news"}
+{"id":244,"word":"de-escalate","meaning":"緊張を緩和する","example":"Police tried to de-escalate the situation.","example_ja":"警察は事態の緊張緩和に努めた。","tag":"news"}
+{"id":245,"word":"deterrence","meaning":"抑止","example":"They emphasized deterrence in their policy.","example_ja":"彼らは政策で抑止力を強調した。","tag":"news"}
+{"id":246,"word":"coalition","meaning":"連合","example":"Several parties formed a coalition.","example_ja":"複数の政党が連合を組んだ。","tag":"news"}
+{"id":247,"word":"truce","meaning":"休戦","example":"The rivals agreed to a truce.","example_ja":"対立する両者は休戦に合意した。","tag":"news"}
+{"id":248,"word":"skirmish","meaning":"小競り合い","example":"A skirmish broke out near the border.","example_ja":"国境付近で小競り合いが起きた。","tag":"news"}
+{"id":249,"word":"escalation","meaning":"激化","example":"There was a rapid escalation in violence.","example_ja":"暴力が急速に激化した。","tag":"news"}
+{"id":250,"word":"broker a deal","meaning":"仲介してまとめる","example":"The UN helped broker a deal.","example_ja":"国連が合意の仲介に一役買った。","tag":"news"}
+{"id":251,"word":"food waste","meaning":"食品ロス","example":"We need to reduce food waste.","example_ja":"食品ロスを減らす必要がある。","tag":"news"}
+{"id":252,"word":"best before","meaning":"賞味期限","example":"Check the best-before date.","example_ja":"賞味期限を確認してね。","tag":"news"}
+{"id":253,"word":"use by","meaning":"消費期限","example":"This milk is past its use-by date.","example_ja":"この牛乳は消費期限を過ぎている。","tag":"news"}
+{"id":254,"word":"compost","meaning":"堆肥化","example":"We compost our kitchen scraps.","example_ja":"調理くずは堆肥化している。","tag":"news"}
+{"id":255,"word":"leftover recipe","meaning":"リメイク料理","example":"Try this leftover recipe for rice.","example_ja":"ご飯の残りで作るリメイク料理を試してみて。","tag":"news"}
+{"id":256,"word":"food rescue","meaning":"食品レスキュー","example":"Food rescue groups collect surplus meals.","example_ja":"食品レスキュー団体は余剰食品を回収する。","tag":"news"}
+{"id":257,"word":"ripple effect","meaning":"波及効果","example":"The change had a ripple effect across teams.","example_ja":"その変更はチーム横断で波及効果をもたらした。","tag":"news"}
+{"id":258,"word":"knock-on","meaning":"連鎖的な/波及する","example":"There were knock-on effects on prices.","example_ja":"価格に連鎖的な影響が出た。","tag":"news"}
+{"id":259,"word":"spillover","meaning":"波及","example":"Spillover effects were seen in Asia.","example_ja":"アジアでも波及が見られた。","tag":"news"}
+{"id":260,"word":"domino effect","meaning":"ドミノ現象","example":"One failure caused a domino effect.","example_ja":"ひとつの失敗がドミノ現象を引き起こした。","tag":"news"}
+{"id":261,"word":"chain reaction","meaning":"連鎖反応","example":"The news triggered a chain reaction.","example_ja":"そのニュースが連鎖反応を引き起こした。","tag":"news"}
+{"id":262,"word":"secondary impact","meaning":"二次的影響","example":"We must assess secondary impacts.","example_ja":"二次的影響を評価しなければならない。","tag":"news"}
+{"id":263,"word":"aging population","meaning":"高齢化","example":"The country faces an aging population.","example_ja":"その国は高齢化に直面している。","tag":"news"}
+{"id":264,"word":"birthrate","meaning":"出生率","example":"The birthrate fell to a record low.","example_ja":"出生率が過去最低を更新した。","tag":"news"}
+{"id":265,"word":"fertility rate","meaning":"合計特殊出生率","example":"The total fertility rate dropped to 1.2.","example_ja":"合計特殊出生率が1.2に低下した。","tag":"news"}
+{"id":266,"word":"life expectancy","meaning":"平均寿命","example":"Life expectancy rose for a third year.","example_ja":"平均寿命が3年連続で伸びた。","tag":"news"}
+{"id":267,"word":"dependency ratio","meaning":"従属人口比率","example":"The dependency ratio is increasing.","example_ja":"従属人口比率が上昇している。","tag":"news"}
+{"id":268,"word":"caregiver","meaning":"介護者","example":"Family caregivers need more support.","example_ja":"家族介護者にはより多くの支援が必要だ。","tag":"news"}
+{"id":269,"word":"pension","meaning":"年金","example":"Pension reforms are under debate.","example_ja":"年金制度の改革が議論されている。","tag":"news"}
+{"id":270,"word":"gig economy","meaning":"ギグ経済","example":"The gig economy is growing rapidly.","example_ja":"ギグ経済は急速に拡大している。","tag":"news"}
+{"id":271,"word":"side hustle","meaning":"副業","example":"He started a side hustle on weekends.","example_ja":"彼は週末に副業を始めた。","tag":"news"}
+{"id":272,"word":"remote work","meaning":"リモート勤務","example":"Remote work became the norm in 2020.","example_ja":"2020年にリモート勤務が当たり前になった。","tag":"news"}
+{"id":273,"word":"hybrid model","meaning":"ハイブリッド勤務","example":"Many firms adopted a hybrid model.","example_ja":"多くの企業がハイブリッド勤務を採用した。","tag":"news"}
+{"id":274,"word":"digital nomad","meaning":"ノマドワーカー","example":"She works as a digital nomad.","example_ja":"彼女はデジタルノマドとして働いている。","tag":"news"}
+{"id":275,"word":"flex hours","meaning":"フレックス勤務","example":"We offer flex hours.","example_ja":"当社はフレックス勤務を導入している。","tag":"news"}
+{"id":276,"word":"compressed workweek","meaning":"圧縮労働週","example":"They piloted a compressed workweek.","example_ja":"彼らは圧縮労働週を試行した。","tag":"news"}
+{"id":277,"word":"budget shortfall","meaning":"予算不足","example":"The city faces a budget shortfall.","example_ja":"その市は予算不足に直面している。","tag":"news"}
+{"id":278,"word":"surplus","meaning":"黒字/余剰","example":"They posted a budget surplus.","example_ja":"彼らは予算黒字を計上した。","tag":"news"}
+{"id":279,"word":"deficit","meaning":"赤字","example":"The trade deficit widened last month.","example_ja":"先月、貿易赤字が拡大した。","tag":"news"}
+{"id":280,"word":"appropriation","meaning":"予算割当","example":"Congress approved the appropriations bill.","example_ja":"議会は歳出（予算割当）法案を可決した。","tag":"news"}
+{"id":281,"word":"earmark","meaning":"用途指定する/特定用途支出","example":"Funds were earmarked for education.","example_ja":"教育向けに資金が用途指定された。","tag":"news"}
+{"id":282,"word":"fiscal year","meaning":"会計年度","example":"The fiscal year ends in March.","example_ja":"会計年度は3月に終わる。","tag":"news"}
+{"id":283,"word":"line item","meaning":"予算項目","example":"We cut a line item from the budget.","example_ja":"予算から一つの項目を削った。","tag":"news"}
+{"id":284,"word":"space debris","meaning":"宇宙ゴミ","example":"Space debris poses a growing risk.","example_ja":"宇宙ゴミは増大するリスクとなっている。","tag":"news"}
+{"id":285,"word":"orbital","meaning":"軌道上の","example":"Orbital debris tracking has improved.","example_ja":"軌道上デブリの追跡が改善された。","tag":"news"}
+{"id":286,"word":"reentry","meaning":"再突入","example":"The capsule made a safe reentry.","example_ja":"カプセルは安全に再突入した。","tag":"news"}
+{"id":287,"word":"dock","meaning":"ドッキングする","example":"The spacecraft will dock with the ISS.","example_ja":"宇宙船はISSにドッキングする。","tag":"news"}
+{"id":288,"word":"payload","meaning":"（ロケットの）ペイロード/積載物","example":"The rocket carried a 2‑ton payload.","example_ja":"ロケットは2トンのペイロードを搭載した。","tag":"news"}
+{"id":289,"word":"launch window","meaning":"打上げ可能時間","example":"The launch window opens at 8 a.m.","example_ja":"打ち上げの時間帯は午前8時に始まる。","tag":"news"}
+{"id":290,"word":"mission control","meaning":"管制センター","example":"Mission control confirmed the signal.","example_ja":"管制センターが信号を確認した。","tag":"news"}
+{"id":291,"word":"baseline","meaning":"基準値","example":"We set a 2024 baseline for comparison.","example_ja":"比較のために2024年の基準値を設定した。","tag":"news"}
+{"id":292,"word":"benchmark","meaning":"指標/基準","example":"We chose a widely used benchmark.","example_ja":"広く使われるベンチマークを選んだ。","tag":"news"}
+{"id":293,"word":"outlier","meaning":"外れ値","example":"This data point is an outlier.","example_ja":"このデータ点は外れ値だ。","tag":"news"}
+{"id":294,"word":"variance","meaning":"分散","example":"We're seeing high variance in results.","example_ja":"結果に大きな分散が見られる。","tag":"news"}
+{"id":295,"word":"robustness","meaning":"頑健性","example":"We tested the model's robustness.","example_ja":"モデルの頑健性を検証した。","tag":"news"}
+{"id":296,"word":"reproducibility","meaning":"再現性","example":"Reproducibility is essential in science.","example_ja":"科学では再現性が不可欠だ。","tag":"news"}
+{"id":297,"word":"confidence interval","meaning":"信頼区間","example":"The 95% confidence interval is narrow.","example_ja":"95%の信頼区間は狭い。","tag":"news"}
+{"id":298,"word":"hearing","meaning":"公聴会","example":"Lawmakers held a hearing on the bill.","example_ja":"議員らが法案に関する公聴会を開いた。","tag":"news"}
+{"id":299,"word":"subpoena","meaning":"召喚状","example":"The committee issued a subpoena.","example_ja":"委員会が召喚状を発行した。","tag":"news"}
+{"id":300,"word":"testimony","meaning":"証言","example":"Her testimony lasted three hours.","example_ja":"彼女の証言は3時間に及んだ。","tag":"news"}
+{"id":301,"word":"oath","meaning":"宣誓","example":"He testified under oath.","example_ja":"彼は宣誓の上で証言した。","tag":"news"}
+{"id":302,"word":"perjury","meaning":"偽証","example":"She was charged with perjury.","example_ja":"彼女は偽証罪で起訴された。","tag":"news"}
+{"id":303,"word":"contempt of court","meaning":"法廷侮辱","example":"He was held in contempt of court.","example_ja":"彼は法廷侮辱に問われた。","tag":"news"}
+{"id":304,"word":"cross-examination","meaning":"反対尋問","example":"Cross‑examination exposed inconsistencies.","example_ja":"反対尋問で矛盾が露呈した。","tag":"news"}
+{"id":305,"word":"exodus","meaning":"大量流出/移動","example":"There was a mass exodus from the city.","example_ja":"その都市から大量の人の移動が起きた。","tag":"news"}
+{"id":306,"word":"influx","meaning":"流入","example":"An influx of tourists boosted sales.","example_ja":"観光客の流入が売上を押し上げた。","tag":"news"}
+{"id":307,"word":"brain drain","meaning":"頭脳流出","example":"The country is suffering a brain drain.","example_ja":"その国は頭脳流出に苦しんでいる。","tag":"news"}
+{"id":308,"word":"diaspora","meaning":"離散/在外同胞","example":"They engaged with the diaspora community.","example_ja":"彼らは在外同胞コミュニティと関わった。","tag":"news"}
+{"id":309,"word":"remittance","meaning":"送金","example":"Remittances hit a record high.","example_ja":"海外送金が過去最高を記録した。","tag":"news"}
+{"id":310,"word":"visa waiver","meaning":"査証免除","example":"The country joined the visa waiver program.","example_ja":"その国は査証免除プログラムに加わった。","tag":"news"}
+{"id":311,"word":"border control","meaning":"国境管理","example":"Border control was tightened.","example_ja":"国境管理が強化された。","tag":"news"}
+{"id":312,"word":"relief package","meaning":"経済対策","example":"Congress passed a relief package.","example_ja":"議会は経済対策を可決した。","tag":"news"}
+{"id":313,"word":"stimulus","meaning":"景気刺激策","example":"The stimulus boosted spending.","example_ja":"景気刺激策が支出を押し上げた。","tag":"news"}
+{"id":314,"word":"grant","meaning":"助成金","example":"She received a research grant.","example_ja":"彼女は研究助成金を受け取った。","tag":"news"}
+{"id":315,"word":"subsidy","meaning":"補助金","example":"The government increased farm subsidies.","example_ja":"政府は農業補助金を増額した。","tag":"news"}
+{"id":316,"word":"tax credit","meaning":"税額控除","example":"Families qualify for a tax credit.","example_ja":"家族は税額控除の対象となる。","tag":"news"}
+{"id":317,"word":"write-off","meaning":"帳消し/損金算入","example":"They took a large write‑off.","example_ja":"彼らは大きな損金算入を行った。","tag":"news"}
+{"id":318,"word":"famine","meaning":"飢饉","example":"The region is facing famine.","example_ja":"その地域は飢饉に直面している。","tag":"news"}
+{"id":319,"word":"drought","meaning":"干ばつ","example":"A severe drought continues.","example_ja":"深刻な干ばつが続いている。","tag":"news"}
+{"id":320,"word":"floodplain","meaning":"氾濫原","example":"Homes were built on a floodplain.","example_ja":"家々が氾濫原の上に建てられていた。","tag":"news"}
+{"id":321,"word":"landslide","meaning":"地滑り","example":"A landslide cut off the road.","example_ja":"地滑りで道路が寸断された。","tag":"news"}
+{"id":322,"word":"aftershock","meaning":"余震","example":"Strong aftershocks followed the quake.","example_ja":"本震の後に強い余震が続いた。","tag":"news"}
+{"id":323,"word":"epicenter","meaning":"震源地","example":"The epicenter was 30 km offshore.","example_ja":"震源地は沖合30kmだった。","tag":"news"}
+{"id":324,"word":"disaster relief","meaning":"災害支援","example":"Volunteers provided disaster relief.","example_ja":"ボランティアが災害支援を行った。","tag":"news"}
+{"id":325,"word":"campus","meaning":"校内/キャンパス","example":"The campus is beautiful in spring.","example_ja":"春のキャンパスは美しい。","tag":"news"}
+{"id":326,"word":"curriculum","meaning":"カリキュラム","example":"They revamped the curriculum.","example_ja":"カリキュラムが刷新された。","tag":"news"}
+{"id":327,"word":"tuition","meaning":"授業料","example":"Tuition increased by 5%.","example_ja":"授業料が5%値上げされた。","tag":"news"}
+{"id":328,"word":"scholarship","meaning":"奨学金","example":"She won a full scholarship.","example_ja":"彼女は全額奨学金を獲得した。","tag":"news"}
+{"id":329,"word":"endowment","meaning":"基金","example":"The university's endowment grew.","example_ja":"大学の基金が増えた。","tag":"news"}
+{"id":330,"word":"alumni","meaning":"卒業生（複数）","example":"Alumni donated to the school.","example_ja":"卒業生たちが学校に寄付した。","tag":"news"}
+{"id":331,"word":"tenure","meaning":"終身在職権/在職期間","example":"He was granted tenure.","example_ja":"彼はテニュア（終身在職権）を得た。","tag":"news"}
+{"id":332,"word":"grassroots","meaning":"草の根","example":"A grassroots movement is growing.","example_ja":"草の根の運動が広がっている。","tag":"news"}
+{"id":333,"word":"town hall","meaning":"住民集会","example":"They held a town hall meeting.","example_ja":"住民集会が開かれた。","tag":"news"}
+{"id":334,"word":"ballot","meaning":"投票/投票用紙","example":"Ballots were mailed to voters.","example_ja":"投票用紙が有権者に郵送された。","tag":"news"}
+{"id":335,"word":"turnout","meaning":"投票率/参加者数","example":"Voter turnout was high.","example_ja":"有権者の投票率は高かった。","tag":"news"}
+{"id":336,"word":"poll","meaning":"世論調査","example":"The poll shows a tight race.","example_ja":"世論調査では接戦となっている。","tag":"news"}
+{"id":337,"word":"exit poll","meaning":"出口調査","example":"Exit polls projected a narrow win.","example_ja":"出口調査は僅差の勝利を予測した。","tag":"news"}
+{"id":338,"word":"gerrymandering","meaning":"選挙区いじり","example":"They challenged gerrymandering in court.","example_ja":"彼らは選挙区いじりを法廷で争った。","tag":"news"}
+{"id":339,"word":"fasting","meaning":"断食","example":"He practiced fasting for a week.","example_ja":"彼は1週間の断食を行った。","tag":"news"}
+{"id":340,"word":"intermittent fasting","meaning":"断続的断食","example":"Intermittent fasting has become popular.","example_ja":"断続的断食が人気になっている。","tag":"news"}
+{"id":341,"word":"circadian rhythm","meaning":"概日リズム","example":"Light affects our circadian rhythm.","example_ja":"光は私たちの概日リズムに影響する。","tag":"news"}
+{"id":342,"word":"sleep hygiene","meaning":"睡眠衛生","example":"Improving sleep hygiene can help.","example_ja":"睡眠衛生を改善すると役立つ。","tag":"news"}
+{"id":343,"word":"sleep debt","meaning":"睡眠負債","example":"Chronic sleep debt impairs focus.","example_ja":"慢性的な睡眠負債は集中力を損なう。","tag":"news"}
+{"id":344,"word":"power nap","meaning":"仮眠","example":"A 20‑minute power nap can refresh you.","example_ja":"20分の仮眠でリフレッシュできる。","tag":"news"}
+{"id":345,"word":"REM sleep","meaning":"レム睡眠","example":"Most dreams occur during REM sleep.","example_ja":"夢の多くはレム睡眠中に見る。","tag":"news"}
+{"id":346,"word":"acute shortage","meaning":"逼迫した不足","example":"Hospitals face an acute shortage of staff.","example_ja":"病院は深刻な人員不足に直面している。","tag":"news"}
+{"id":347,"word":"supply crunch","meaning":"供給ひっ迫","example":"A supply crunch pushed prices higher.","example_ja":"供給ひっ迫で価格が上昇した。","tag":"news"}
+{"id":348,"word":"price surge","meaning":"価格急騰","example":"There was a surge in prices.","example_ja":"価格が急騰した。","tag":"news"}
+{"id":349,"word":"rationing","meaning":"配給制/割当制","example":"Fuel rationing was introduced.","example_ja":"燃料の配給制が導入された。","tag":"news"}
+{"id":350,"word":"price ceiling","meaning":"価格上限","example":"They set a price ceiling on rent.","example_ja":"家賃の価格上限が設定された。","tag":"news"}
+{"id":351,"word":"substitute","meaning":"代替品/代用品","example":"Tofu is a good meat substitute.","example_ja":"豆腐は肉の良い代替品だ。","tag":"news"}
+{"id":352,"word":"hoarding","meaning":"買いだめ","example":"Panic hoarding emptied the shelves.","example_ja":"パニック買いだめで棚が空になった。","tag":"news"}
+{"id":353,"word":"food desert","meaning":"食料砂漠","example":"They live in a food desert with few stores.","example_ja":"彼らは店舗の少ない食料砂漠に住んでいる。","tag":"news"}
+{"id":354,"word":"urban sprawl","meaning":"都市のスプロール","example":"Urban sprawl strained local services.","example_ja":"都市のスプロールが地域のサービスを圧迫した。","tag":"news"}
+{"id":355,"word":"gentrification","meaning":"高級化による住民入替","example":"Gentrification displaced longtime residents.","example_ja":"高級化で長年の住民が立ち退きを迫られた。","tag":"news"}
+{"id":356,"word":"rent hike","meaning":"家賃高騰","example":"A rent hike forced them to move.","example_ja":"家賃高騰で彼らは引っ越しを余儀なくされた。","tag":"news"}
+{"id":357,"word":"public transit","meaning":"公共交通","example":"They invested in public transit.","example_ja":"公共交通への投資が行われた。","tag":"news"}
+{"id":358,"word":"commute","meaning":"通勤する/通勤","example":"I commute an hour each way.","example_ja":"通勤は片道1時間だ。","tag":"news"}
+{"id":359,"word":"walkability","meaning":"歩きやすさ","example":"Walkability is key to livable cities.","example_ja":"歩きやすさは住みやすい都市の鍵だ。","tag":"news"}
+{"id":360,"word":"tuition hike","meaning":"授業料値上げ","example":"The university announced a tuition hike.","example_ja":"大学が授業料の値上げを発表した。","tag":"news"}
+{"id":361,"word":"student loan","meaning":"学資ローン","example":"Student loan payments resume in October.","example_ja":"学資ローンの返済が10月に再開する。","tag":"news"}
+{"id":362,"word":"forgiveness","meaning":"返済免除","example":"Loan forgiveness will cover teachers.","example_ja":"教員はローン返済免除の対象になる。","tag":"news"}
+{"id":363,"word":"work-study","meaning":"勤労奨学","example":"He found a work‑study position on campus.","example_ja":"彼は学内で勤労奨学の職を得た。","tag":"news"}
+{"id":364,"word":"financial aid","meaning":"経済支援/奨学金","example":"She applied for financial aid.","example_ja":"彼女は経済支援を申請した。","tag":"news"}
+{"id":365,"word":"need-blind","meaning":"ニーズ無視入試（米）","example":"The college is need‑blind for admissions.","example_ja":"その大学は入試で家計状況を考慮しない（ニーズブラインド）。","tag":"news"}
+{"id":366,"word":"biofuel","meaning":"バイオ燃料","example":"Airlines are testing biofuels.","example_ja":"航空各社がバイオ燃料の試験運用をしている。","tag":"news"}
+{"id":367,"word":"green hydrogen","meaning":"グリーン水素","example":"Green hydrogen projects are expanding.","example_ja":"グリーン水素のプロジェクトが拡大している。","tag":"news"}
+{"id":368,"word":"carbon capture","meaning":"二酸化炭素回収","example":"Carbon capture technology advanced this year.","example_ja":"CO2回収技術が今年進展した。","tag":"news"}
+{"id":369,"word":"direct air capture","meaning":"大気直接回収","example":"A new direct air capture plant opened.","example_ja":"新しい大気直接回収プラントが稼働した。","tag":"news"}
+{"id":370,"word":"emissions trading","meaning":"排出量取引","example":"Emissions trading prices rose.","example_ja":"排出量取引価格が上昇した。","tag":"news"}
+{"id":371,"word":"cap-and-trade","meaning":"総量規制・取引","example":"The state adopted a cap‑and‑trade system.","example_ja":"州がキャップ・アンド・トレード制度を採用した。","tag":"news"}
+{"id":372,"word":"offshore wind","meaning":"洋上風力","example":"Offshore wind capacity increased.","example_ja":"洋上風力の設備容量が増えた。","tag":"news"}
+{"id":373,"word":"solar farm","meaning":"太陽光発電所","example":"A new solar farm went online.","example_ja":"新しい太陽光発電所が稼働を開始した。","tag":"news"}
+{"id":374,"word":"battery storage","meaning":"蓄電","example":"Battery storage helps stabilize the grid.","example_ja":"蓄電が送配電網の安定化に役立つ。","tag":"news"}
+{"id":375,"word":"peak shaving","meaning":"ピーク抑制（需要平準化）","example":"Utilities deployed peak shaving programs.","example_ja":"電力会社がピーク抑制の施策を導入した。","tag":"news"}
+{"id":376,"word":"smart meter","meaning":"スマートメーター","example":"Smart meter adoption is rising.","example_ja":"スマートメーターの普及が進んでいる。","tag":"news"}
+{"id":377,"word":"feed-in tariff","meaning":"固定価格買取制度","example":"The feed‑in tariff was extended.","example_ja":"固定価格買取制度が延長された。","tag":"news"}
+{"id":378,"word":"WHO","meaning":"世界保健機関","example":"The WHO issued new guidelines.","example_ja":"WHOが新しい指針を発表した。","tag":"news"}
+{"id":379,"word":"NGO","meaning":"非政府組織","example":"Several NGOs coordinated relief efforts.","example_ja":"複数のNGOが救援活動を調整した。","tag":"news"}
+{"id":380,"word":"think tank","meaning":"シンクタンク","example":"A think tank published the report.","example_ja":"シンクタンクが報告書を公表した。","tag":"news"}
+{"id":381,"word":"grassroots movement","meaning":"草の根運動","example":"A grassroots movement gained momentum.","example_ja":"草の根運動が勢いを増した。","tag":"news"}
+{"id":382,"word":"multilateral","meaning":"多国間の","example":"They held multilateral talks.","example_ja":"多国間協議が行われた。","tag":"news"}
+{"id":383,"word":"bilateral","meaning":"二国間の","example":"Bilateral relations improved.","example_ja":"二国間関係が改善した。","tag":"news"}
+{"id":384,"word":"content moderation","meaning":"コンテンツ審査","example":"Content moderation rules were updated.","example_ja":"コンテンツ審査の規約が更新された。","tag":"news"}
+{"id":385,"word":"community guidelines","meaning":"コミュニティ規約","example":"They revised the community guidelines.","example_ja":"コミュニティ規約が改訂された。","tag":"news"}
+{"id":386,"word":"deplatform","meaning":"発言権を奪う","example":"The site deplatformed several accounts.","example_ja":"そのサイトはいくつかのアカウントの発言権を剥奪した。","tag":"news"}
+{"id":387,"word":"shadow ban","meaning":"シャドーバン（隠れ制限）","example":"Users reported being shadow‑banned.","example_ja":"ユーザーはシャドーバンを受けたと報告した。","tag":"news"}
+{"id":388,"word":"appeal","meaning":"異議申し立て/上訴","example":"She filed an appeal.","example_ja":"彼女は不服申し立てを行った。","tag":"news"}
+{"id":389,"word":"transparency report","meaning":"透明性レポート","example":"The company published a transparency report.","example_ja":"会社が透明性レポートを公表した。","tag":"news"}
+{"id":390,"word":"soaring","meaning":"急騰する","example":"Soaring prices hit consumers.","example_ja":"急騰する物価が消費者を直撃した。","tag":"news"}
+{"id":391,"word":"plunge","meaning":"急落する","example":"Shares plunged after the report.","example_ja":"報道後、株価が急落した。","tag":"news"}
+{"id":392,"word":"volatile","meaning":"不安定な/変動の激しい","example":"Markets remain volatile.","example_ja":"市場は不安定な状態が続く。","tag":"news"}
+{"id":393,"word":"flat","meaning":"横ばいの","example":"Sales were flat in Q2.","example_ja":"第2四半期の売上は横ばいだった。","tag":"news"}
+{"id":394,"word":"surge","meaning":"急増/急伸","example":"Demand surged after the launch.","example_ja":"発売後、需要が急増した。","tag":"news"}
+{"id":395,"word":"dip","meaning":"小幅に下がる","example":"Revenue dipped slightly.","example_ja":"収益がわずかに低下した。","tag":"news"}
+{"id":396,"word":"rebound","meaning":"反発/持ち直す","example":"The economy rebounded in Q3.","example_ja":"第3四半期に経済が持ち直した。","tag":"news"}
+{"id":397,"word":"surveillance","meaning":"監視","example":"Mass surveillance raised privacy concerns.","example_ja":"大規模監視がプライバシーの懸念を招いた。","tag":"news"}
+{"id":398,"word":"privacy","meaning":"プライバシー","example":"We strengthened our privacy policy.","example_ja":"プライバシーポリシーを強化した。","tag":"news"}
+{"id":399,"word":"data retention","meaning":"データ保存","example":"Data retention rules were revised.","example_ja":"データ保存の規則が改定された。","tag":"news"}
+{"id":400,"word":"opt-out","meaning":"拒否選択","example":"Users can opt out of tracking.","example_ja":"ユーザーは追跡を拒否できる。","tag":"news"}
+{"id":401,"word":"consent","meaning":"同意","example":"We obtained user consent.","example_ja":"ユーザーの同意を取得した。","tag":"news"}
+{"id":402,"word":"anonymization","meaning":"匿名化","example":"We use anonymization to protect data.","example_ja":"データ保護のため匿名化を用いている。","tag":"news"}
+{"id":403,"word":"data broker","meaning":"データ仲介業者","example":"Lawmakers proposed rules for data brokers.","example_ja":"議員がデータ仲介業者向けの規制を提案した。","tag":"news"}
+{"id":404,"word":"litigation","meaning":"訴訟","example":"The company threatened litigation.","example_ja":"その会社は訴訟をちらつかせた。","tag":"news"}
+{"id":405,"word":"arbitration","meaning":"仲裁","example":"They agreed to arbitration.","example_ja":"彼らは仲裁に合意した。","tag":"news"}
+{"id":406,"word":"mediation","meaning":"調停","example":"Mediation helped resolve the dispute.","example_ja":"調停が紛争解決に役立った。","tag":"news"}
+{"id":407,"word":"case law","meaning":"判例法","example":"Case law varies by jurisdiction.","example_ja":"判例法は法域によって異なる。","tag":"news"}
+{"id":408,"word":"precedent","meaning":"先例/判例","example":"The ruling set a new precedent.","example_ja":"その判決は新たな先例を打ち立てた。","tag":"news"}
+{"id":409,"word":"diplomacy","meaning":"外交","example":"They resumed shuttle diplomacy.","example_ja":"彼らは往復型の外交を再開した。","tag":"news"}
+{"id":410,"word":"summit","meaning":"首脳会談","example":"Leaders met at the annual summit.","example_ja":"首脳らが年次首脳会談で会合した。","tag":"news"}
+{"id":411,"word":"bilateral talk","meaning":"二国間会談","example":"Bilateral talks made progress.","example_ja":"二国間会談が進展した。","tag":"news"}
+{"id":412,"word":"sanction","meaning":"制裁","example":"New sanctions were imposed.","example_ja":"新しい制裁が科された。","tag":"news"}
+{"id":413,"word":"joint statement","meaning":"共同声明","example":"They issued a joint statement.","example_ja":"彼らは共同声明を発表した。","tag":"news"}
+{"id":414,"word":"backchannel","meaning":"裏ルート","example":"Backchannel talks continued overnight.","example_ja":"裏ルートでの協議が一晩中続いた。","tag":"news"}
+{"id":415,"word":"overcapacity","meaning":"能力過剰","example":"Factories are running overcapacity.","example_ja":"工場は能力過剰で稼働している。","tag":"news"}
+{"id":416,"word":"scaling","meaning":"拡張/スケーリング","example":"We're focused on scaling the service.","example_ja":"サービスのスケーリングに注力している。","tag":"news"}
+{"id":417,"word":"latency","meaning":"遅延/レイテンシ","example":"Latency dropped below 50 ms.","example_ja":"レイテンシが50msを下回った。","tag":"news"}
+{"id":418,"word":"redundancy","meaning":"冗長性","example":"We added redundancy to avoid downtime.","example_ja":"ダウンタイム回避のため冗長性を追加した。","tag":"news"}
+{"id":419,"word":"failover","meaning":"フェイルオーバー","example":"Automatic failover kicked in.","example_ja":"自動フェイルオーバーが作動した。","tag":"news"}
+{"id":420,"word":"brokerage","meaning":"証券会社","example":"A major brokerage cut fees.","example_ja":"大手証券会社が手数料を引き下げた。","tag":"news"}
+{"id":421,"word":"custodian","meaning":"資産管理会社","example":"A bank will act as custodian.","example_ja":"銀行が資産管理会社（カストディアン）を務める。","tag":"news"}
+{"id":422,"word":"market maker","meaning":"マーケットメイカー","example":"The market maker tightened spreads.","example_ja":"マーケットメイカーがスプレッドを縮小した。","tag":"news"}
+{"id":423,"word":"spread","meaning":"スプレッド","example":"Bid‑ask spreads widened.","example_ja":"気配値のスプレッドが広がった。","tag":"news"}
+{"id":424,"word":"slippage","meaning":"スリッページ（約定ずれ）","example":"High volatility increased slippage.","example_ja":"高い変動でスリッページが拡大した。","tag":"news"}
+{"id":425,"word":"order book","meaning":"板（オーダーブック）","example":"The order book showed heavy selling.","example_ja":"板は売りが厚かった。","tag":"news"}
+{"id":426,"word":"biodiversity","meaning":"生物多様性","example":"Biodiversity is declining worldwide.","example_ja":"世界的に生物多様性が低下している。","tag":"news"}
+{"id":427,"word":"habitat","meaning":"生息地","example":"Their habitat is being destroyed.","example_ja":"彼らの生息地が破壊されつつある。","tag":"news"}
+{"id":428,"word":"endangered","meaning":"絶滅危惧の","example":"Endangered species need protection.","example_ja":"絶滅危惧種には保護が必要だ。","tag":"news"}
+{"id":429,"word":"poaching","meaning":"密猟","example":"Authorities cracked down on poaching.","example_ja":"当局が密猟の取り締まりを強化した。","tag":"news"}
+{"id":430,"word":"conservation","meaning":"保全","example":"Conservation efforts are paying off.","example_ja":"保全の取り組みが実り始めている。","tag":"news"}
+{"id":431,"word":"sanctuary","meaning":"保護区","example":"They expanded the wildlife sanctuary.","example_ja":"野生生物保護区が拡張された。","tag":"news"}
+{"id":432,"word":"reforestation","meaning":"再植林","example":"Reforestation projects are underway.","example_ja":"再植林プロジェクトが進行中だ。","tag":"news"}
+{"id":433,"word":"viral","meaning":"急速に拡散する/バズる","example":"The video went viral overnight.","example_ja":"動画が一晩でバズった。","tag":"news"}
+{"id":434,"word":"misquote","meaning":"誤引用","example":"The article misquoted her remarks.","example_ja":"記事が彼女の発言を誤引用した。","tag":"news"}
+{"id":435,"word":"clip","meaning":"クリップ/短編動画","example":"A short clip went viral.","example_ja":"短いクリップがバズった。","tag":"news"}
+{"id":436,"word":"context","meaning":"文脈/背景","example":"His quote was taken out of context.","example_ja":"彼の発言は文脈を無視して切り取られた。","tag":"news"}
+{"id":437,"word":"backlash","meaning":"反発","example":"The ad sparked a backlash.","example_ja":"その広告は反発を招いた。","tag":"news"}
+{"id":438,"word":"clarification","meaning":"釈明/明確化","example":"The company issued a clarification of its policy.","example_ja":"会社は方針についての釈明を発表した。","tag":"news"}
+{"id":439,"word":"infrastructure","meaning":"インフラ/基盤","example":"The city is investing in infrastructure.","example_ja":"市はインフラに投資している。","tag":"news"}
+{"id":440,"word":"grid","meaning":"送電網/電力網","example":"The storm damaged the power grid.","example_ja":"嵐で電力網が損傷した。","tag":"news"}
+{"id":441,"word":"substation","meaning":"変電所","example":"A new substation will stabilize the grid.","example_ja":"新しい変電所が電力網を安定させる。","tag":"news"}
+{"id":442,"word":"blackout","meaning":"停電","example":"The neighborhood suffered a blackout.","example_ja":"その地域で停電が起きた。","tag":"news"}
+{"id":443,"word":"brownout","meaning":"電圧低下（減光）","example":"We experienced a brownout last night.","example_ja":"昨夜、電圧低下があった。","tag":"news"}
+{"id":444,"word":"peak load","meaning":"最大負荷/ピーク負荷","example":"Peak load is highest in the evening.","example_ja":"最大負荷は夕方に最も高くなる。","tag":"news"}
+{"id":445,"word":"resilience","meaning":"強靭性/回復力","example":"We need more resilience against outages.","example_ja":"停電に対する強靭性を高める必要がある。","tag":"news"}
+{"id":446,"word":"grassroots fundraising","meaning":"草の根の募金活動/資金集め","example":"Grassroots fundraising powered the campaign.","example_ja":"草の根の資金集めが運動を支えた。","tag":"news"}
+{"id":447,"word":"charity drive","meaning":"慈善募金活動","example":"The charity drive raised $10,000.","example_ja":"その募金活動で1万ドル集まった。","tag":"news"}
+{"id":448,"word":"matching gift","meaning":"マッチング寄付","example":"The company offered a matching gift.","example_ja":"会社がマッチング寄付を提供した。","tag":"news"}
+{"id":449,"word":"nonprofit","meaning":"非営利団体/NPO","example":"She works for a nonprofit.","example_ja":"彼女は非営利団体で働いている。","tag":"news"}
+{"id":450,"word":"501(c)(3)","meaning":"米国の免税対象非営利法人","example":"The charity is a 501(c)(3).","example_ja":"その慈善団体は501(c)(3)に該当する。","tag":"news"}
+{"id":451,"word":"tax-deductible","meaning":"税控除の対象になる","example":"Donations are tax-deductible.","example_ja":"寄付は税控除の対象だ。","tag":"news"}
+{"id":452,"word":"deforestation","meaning":"森林破壊/伐採","example":"Deforestation threatens wildlife.","example_ja":"森林破壊が野生生物を脅かしている。","tag":"news"}
+{"id":453,"word":"wildlife corridor","meaning":"野生動物の回廊/移動ルート","example":"They built a wildlife corridor.","example_ja":"彼らは野生動物の回廊を整備した。","tag":"news"}
+{"id":454,"word":"reintroduction","meaning":"再導入（生息再導入）","example":"Wolf reintroduction changed the ecosystem.","example_ja":"オオカミの再導入で生態系が変わった。","tag":"news"}
+{"id":455,"word":"keystone species","meaning":"キーストーン種/基幹種","example":"Beavers are a keystone species.","example_ja":"ビーバーはキーストーン種だ。","tag":"news"}
+{"id":456,"word":"invasive species","meaning":"外来種（侵略的外来種）","example":"Invasive species harm native plants.","example_ja":"外来種が在来植物に悪影響を与える。","tag":"news"}
+{"id":457,"word":"habitat restoration","meaning":"生息地の再生/回復","example":"Habitat restoration is underway.","example_ja":"生息地の回復が進んでいる。","tag":"news"}
+{"id":458,"word":"portfolio","meaning":"ポートフォリオ","example":"My portfolio is heavy on tech stocks.","example_ja":"私のポートフォリオはハイテク株の比率が高い。","tag":"news"}
+{"id":459,"word":"diversification","meaning":"分散投資/多様化","example":"Diversification reduces risk.","example_ja":"分散投資はリスクを抑える。","tag":"news"}
+{"id":460,"word":"hedge","meaning":"ヘッジ/（価格変動から）守る手段","example":"We hedged our currency exposure.","example_ja":"通貨エクスポージャーをヘッジした。","tag":"news"}
+{"id":461,"word":"exposure","meaning":"エクスポージャー/保有比率","example":"Our exposure to bonds is limited.","example_ja":"債券のエクスポージャーは限定的だ。","tag":"news"}
+{"id":462,"word":"rebalance","meaning":"リバランス/比率を組み替える","example":"We rebalance quarterly.","example_ja":"四半期ごとにリバランスする。","tag":"news"}
+{"id":463,"word":"allocation","meaning":"配分/アロケーション","example":"Adjust your asset allocation annually.","example_ja":"資産配分は年に一度見直そう。","tag":"news"}
+{"id":464,"word":"drawdown","meaning":"ドローダウン/資産の減少局面","example":"The fund suffered a 15% drawdown.","example_ja":"そのファンドは15%のドローダウンに見舞われた。","tag":"news"}
+{"id":465,"word":"counterfeit","meaning":"偽造品/偽造","example":"They seized counterfeit bills.","example_ja":"偽札が押収された。","tag":"news"}
+{"id":466,"word":"forgery","meaning":"文書偽造/署名偽造","example":"He was charged with forgery.","example_ja":"彼は文書偽造で起訴された。","tag":"news"}
+{"id":467,"word":"embezzlement","meaning":"横領","example":"The accountant was arrested for embezzlement.","example_ja":"会計係が横領で逮捕された。","tag":"news"}
+{"id":468,"word":"bribery","meaning":"贈賄/収賄","example":"The official denied bribery allegations.","example_ja":"その職員は贈収賄疑惑を否定した。","tag":"news"}
+{"id":469,"word":"extortion","meaning":"恐喝","example":"The suspect is under investigation for extortion.","example_ja":"容疑者は恐喝容疑で捜査を受けている。","tag":"news"}
+{"id":470,"word":"money laundering","meaning":"資金洗浄/マネーロンダリング","example":"The scheme involved money laundering.","example_ja":"その手口にはマネーロンダリングが関係していた。","tag":"news"}
+{"id":471,"word":"content creator","meaning":"コンテンツクリエイター","example":"She’s a full-time content creator.","example_ja":"彼女は専業のコンテンツクリエイターだ。","tag":"news"}
+{"id":472,"word":"sponsorship","meaning":"スポンサー契約/協賛","example":"They secured a major sponsorship.","example_ja":"彼らは大型のスポンサー契約を獲得した。","tag":"news"}
+{"id":473,"word":"affiliate link","meaning":"アフィリエイトリンク","example":"This article contains affiliate links.","example_ja":"この記事にはアフィリエイトリンクが含まれる。","tag":"news"}
+{"id":474,"word":"disclosure","meaning":"開示/情報公開","example":"Please read the disclosure below.","example_ja":"下記の開示をご確認ください。","tag":"news"}
+{"id":475,"word":"ad revenue","meaning":"広告収益","example":"Ad revenue increased this quarter.","example_ja":"今期は広告収益が増加した。","tag":"news"}
+{"id":476,"word":"licensing","meaning":"ライセンス供与/許諾","example":"The brand makes money through licensing.","example_ja":"そのブランドはライセンス供与で収益を上げている。","tag":"news"}
+{"id":477,"word":"workation","meaning":"ワーケーション","example":"I’m on a workation this week.","example_ja":"今週はワーケーション中だ。","tag":"news"}
+{"id":478,"word":"coworking space","meaning":"コワーキングスペース","example":"We meet at a coworking space.","example_ja":"私たちはコワーキングスペースで会っている。","tag":"news"}
+{"id":479,"word":"hot desk","meaning":"フリーアドレス席","example":"I booked a hot desk for tomorrow.","example_ja":"明日のホットデスクを予約した。","tag":"news"}
+{"id":480,"word":"remote-first","meaning":"リモート前提の/リモート優先の","example":"Our company is remote-first.","example_ja":"うちの会社はリモート前提だ。","tag":"news"}
+{"id":481,"word":"asynchronous","meaning":"非同期の","example":"We rely on asynchronous communication.","example_ja":"私たちは非同期のコミュニケーションに依存している。","tag":"news"}
+{"id":482,"word":"time zone overlap","meaning":"時差が重なる時間帯","example":"We scheduled a meeting in the time zone overlap.","example_ja":"時差が重なる時間帯に会議を設定した。","tag":"news"}
+{"id":483,"word":"adoption curve","meaning":"普及曲線","example":"We’re still early on the adoption curve.","example_ja":"普及曲線ではまだ初期段階だ。","tag":"news"}
+{"id":484,"word":"early adopter","meaning":"アーリーアダプター/先行採用者","example":"Early adopters love new features.","example_ja":"アーリーアダプターは新機能を好む。","tag":"news"}
+{"id":485,"word":"network effect","meaning":"ネットワーク効果","example":"The product benefits from network effects.","example_ja":"その製品はネットワーク効果の恩恵を受ける。","tag":"news"}
+{"id":486,"word":"critical mass","meaning":"臨界質量/一定規模","example":"We need critical mass to grow.","example_ja":"成長には臨界規模が必要だ。","tag":"news"}
+{"id":487,"word":"churn","meaning":"解約/離脱","example":"We reduced churn last quarter.","example_ja":"前四半期に離脱率が下げた。","tag":"news"}
+{"id":488,"word":"retention","meaning":"維持/定着","example":"Retention improved after the update.","example_ja":"アップデート後、定着率が改善した。","tag":"news"}
+{"id":489,"word":"aid convoy","meaning":"支援物資の車列/救援コンボイ","example":"The aid convoy reached the city.","example_ja":"支援物資の車列がその都市に到着した。","tag":"news"}
+{"id":490,"word":"humanitarian corridor","meaning":"人道回廊","example":"A humanitarian corridor was opened.","example_ja":"人道回廊が開設された。","tag":"news"}
+{"id":491,"word":"ceasefire","meaning":"停戦","example":"The sides agreed to a ceasefire.","example_ja":"双方が停戦に合意した。","tag":"news"}
+{"id":492,"word":"armistice","meaning":"休戦協定","example":"They signed an armistice.","example_ja":"彼らは休戦協定に署名した。","tag":"news"}
+{"id":493,"word":"mediation","meaning":"仲介/調停","example":"Talks resumed under UN mediation.","example_ja":"国連の仲介で協議が再開した。","tag":"news"}
+{"id":494,"word":"observer","meaning":"監視団/オブザーバー","example":"International observers monitored the vote.","example_ja":"国際監視団が投票を監視した。","tag":"news"}
+{"id":495,"word":"protocol","meaning":"議定書/手順","example":"They adopted a new protocol.","example_ja":"新たな議定書が採択された。","tag":"news"}
+{"id":496,"word":"budget-friendly","meaning":"予算に優しい/お手頃","example":"This option is budget-friendly.","example_ja":"この選択肢はお手頃だ。","tag":"news"}
+{"id":497,"word":"cost-prohibitive","meaning":"高すぎて手が出ない","example":"The plan is cost-prohibitive.","example_ja":"その計画は高すぎて手が出ない。","tag":"news"}
+{"id":498,"word":"bang for the buck","meaning":"コスパ","example":"It offers great bang for the buck.","example_ja":"コスパが非常に良い。","tag":"news"}
+{"id":499,"word":"hidden cost","meaning":"隠れコスト","example":"Watch out for hidden costs.","example_ja":"隠れコストに注意して。","tag":"news"}
+{"id":500,"word":"break-even","meaning":"損益分岐","example":"We’re near break-even.","example_ja":"損益分岐点に近い。","tag":"news"}
+{"id":501,"word":"ROI","meaning":"投資対効果/ROI","example":"We need better ROI.","example_ja":"より良いROIが必要だ。","tag":"news"}
+{"id":502,"word":"savings","meaning":"節約/削減効果","example":"The change led to significant savings.","example_ja":"変更で大きな節約につながった。","tag":"news"}
+{"id":503,"word":"prime suspect","meaning":"有力容疑者","example":"He is the prime suspect.","example_ja":"彼が有力容疑者だ。","tag":"news"}
+{"id":504,"word":"eyewitness","meaning":"目撃者","example":"An eyewitness testified in court.","example_ja":"目撃者が法廷で証言した。","tag":"news"}
+{"id":505,"word":"alibi","meaning":"アリバイ","example":"He had a solid alibi.","example_ja":"彼には確かなアリバイがあった。","tag":"news"}
+{"id":506,"word":"motive","meaning":"動機","example":"Police are still looking for a motive.","example_ja":"警察は動機をなおも捜している。","tag":"news"}
+{"id":507,"word":"confession","meaning":"自白","example":"He signed a confession.","example_ja":"彼は自白書に署名した。","tag":"news"}
+{"id":508,"word":"plea bargain","meaning":"司法取引","example":"He accepted a plea bargain.","example_ja":"彼は司法取引を受け入れた。","tag":"news"}
+{"id":509,"word":"verdict","meaning":"評決/判決","example":"The jury returned a guilty verdict.","example_ja":"陪審は有罪評決を下した。","tag":"news"}
+{"id":510,"word":"tight labor market","meaning":"逼迫した労働市場","example":"We’re hiring in a tight labor market.","example_ja":"逼迫した労働市場で採用を進めている。","tag":"news"}
+{"id":511,"word":"wage growth","meaning":"賃金の伸び","example":"Wage growth slowed in May.","example_ja":"5月は賃金の伸びが鈍化した。","tag":"news"}
+{"id":512,"word":"job opening","meaning":"求人/求人数","example":"Job openings hit a record.","example_ja":"求人が過去最高を記録した。","tag":"news"}
+{"id":513,"word":"quit rate","meaning":"自発的離職率","example":"The quit rate remained elevated.","example_ja":"自発的離職率は高止まりした。","tag":"news"}
+{"id":514,"word":"booster shot","meaning":"追加接種","example":"She got a booster shot.","example_ja":"彼女は追加接種を受けた。","tag":"news"}
+{"id":515,"word":"herd immunity","meaning":"集団免疫","example":"Herd immunity remains elusive.","example_ja":"集団免疫の達成は依然難しい。","tag":"news"}
+{"id":516,"word":"contact tracing","meaning":"接触追跡","example":"Contact tracing identified clusters.","example_ja":"接触追跡でクラスターが特定された。","tag":"news"}
+{"id":517,"word":"quarantine","meaning":"検疫/隔離","example":"Travelers must quarantine for 7 days.","example_ja":"旅行者は7日間の隔離が必要だ。","tag":"news"}
+{"id":518,"word":"isolation","meaning":"隔離","example":"He is in isolation at home.","example_ja":"彼は自宅で隔離中だ。","tag":"news"}
+{"id":519,"word":"flatten the curve","meaning":"感染曲線を平坦化する","example":"We must flatten the curve.","example_ja":"感染曲線を平坦化しなければならない。","tag":"news"}
+{"id":520,"word":"due process","meaning":"適正手続","example":"We must ensure due process.","example_ja":"適正手続を確保しなければならない。","tag":"news"}
+{"id":521,"word":"burden of proof","meaning":"立証責任","example":"The burden of proof lies with the prosecution.","example_ja":"立証責任は検察側にある。","tag":"news"}
+{"id":522,"word":"beyond a reasonable doubt","meaning":"合理的疑いを超えて","example":"Guilt must be proven beyond a reasonable doubt.","example_ja":"有罪は合理的疑いを超えて証明されなければならない。","tag":"news"}
+{"id":523,"word":"plea","meaning":"申し立て/答弁","example":"He entered a not-guilty plea.","example_ja":"彼は無罪の答弁をした。","tag":"news"}
+{"id":524,"word":"indictment","meaning":"起訴","example":"The indictment was unsealed today.","example_ja":"起訴状が本日公開された。","tag":"news"}
+{"id":525,"word":"acquittal","meaning":"無罪判決","example":"The trial ended in acquittal.","example_ja":"裁判は無罪判決で終わった。","tag":"news"}
+{"id":526,"word":"chain of custody","meaning":"証拠保全の連続性","example":"The chain of custody was documented.","example_ja":"証拠保全の連続性が記録された。","tag":"news"}
+{"id":527,"word":"forensic","meaning":"科学捜査の/法医学の","example":"Forensic analysis found new evidence.","example_ja":"科学捜査の分析で新証拠が見つかった。","tag":"news"}
+{"id":528,"word":"ballistics","meaning":"弾道学","example":"Ballistics matched the bullet to the gun.","example_ja":"弾道学的鑑定で銃と弾丸の一致が確認された。","tag":"news"}
+{"id":529,"word":"fingerprint match","meaning":"指紋の一致","example":"A fingerprint match linked the suspect.","example_ja":"指紋の一致が容疑者を結び付けた。","tag":"news"}
+{"id":530,"word":"DNA profiling","meaning":"DNA型鑑定","example":"DNA profiling confirmed the identity.","example_ja":"DNA型鑑定で身元が確認された。","tag":"news"}
+{"id":531,"word":"surveillance footage","meaning":"監視映像","example":"Surveillance footage shows the suspect.","example_ja":"監視映像に容疑者が映っている。","tag":"news"}
+{"id":532,"word":"blueprint","meaning":"設計図/青写真","example":"They unveiled the city blueprint.","example_ja":"都市の青写真が公開された。","tag":"news"}
+{"id":533,"word":"pilot program","meaning":"試行プログラム","example":"We launched a pilot program.","example_ja":"試行プログラムを立ち上げた。","tag":"news"}
+{"id":534,"word":"rollout plan","meaning":"展開計画","example":"The rollout plan starts in July.","example_ja":"展開計画は7月に始まる。","tag":"news"}
+{"id":535,"word":"stakeholder","meaning":"利害関係者","example":"We met with key stakeholders.","example_ja":"主要な利害関係者と会合した。","tag":"news"}
+{"id":536,"word":"milestone","meaning":"節目/マイルストーン","example":"We reached a major milestone.","example_ja":"大きな節目に到達した。","tag":"news"}
+{"id":537,"word":"deliverable","meaning":"成果物","example":"What are the deliverables?","example_ja":"成果物は何ですか。","tag":"news"}
+{"id":538,"word":"postmortem","meaning":"事後検証/振り返り","example":"We’ll hold a postmortem next week.","example_ja":"来週、事後検証を行う。","tag":"news"}
+{"id":539,"word":"cyberbullying","meaning":"サイバーいじめ","example":"Cyberbullying is a serious issue.","example_ja":"サイバーいじめは深刻な問題だ。","tag":"news"}
+{"id":540,"word":"doxxing","meaning":"個人情報の晒し","example":"He was a victim of doxxing.","example_ja":"彼は個人情報の晒し被害に遭った。","tag":"news"}
+{"id":541,"word":"troll","meaning":"荒らし/荒らす","example":"Don’t feed the trolls.","example_ja":"荒らしに反応しないで。","tag":"news"}
+{"id":542,"word":"moderation","meaning":"モデレーション/投稿管理","example":"The platform improved moderation tools.","example_ja":"プラットフォームはモデレーション機能を改善した。","tag":"news"}
+{"id":543,"word":"community guideline","meaning":"コミュニティガイドライン","example":"They updated the community guidelines.","example_ja":"コミュニティガイドラインが更新された。","tag":"news"}
+{"id":544,"word":"ban/ban evasion","meaning":"アカウント停止/回避","example":"Ban evasion will result in suspension.","example_ja":"凍結回避は処分の対象になる。","tag":"news"}
+{"id":545,"word":"retirement plan","meaning":"退職金制度/退職給付制度","example":"We updated the retirement plan.","example_ja":"退職金制度を見直した。","tag":"news"}
+{"id":546,"word":"pension fund","meaning":"年金基金","example":"The pension fund outperformed the market.","example_ja":"年金基金は市場を上回る成績だった。","tag":"news"}
+{"id":547,"word":"matching","meaning":"（企業の）マッチング拠出","example":"Our 401(k) offers matching.","example_ja":"うちの401(k)にはマッチング拠出がある。","tag":"news"}
+{"id":548,"word":"vesting","meaning":"権利確定","example":"Vesting completes after four years.","example_ja":"権利確定は4年後に完了する。","tag":"news"}
+{"id":549,"word":"401(k)","meaning":"米国の確定拠出年金（401(k)）","example":"I increased my 401(k) contribution.","example_ja":"401(k)の拠出額を増やした。","tag":"news"}
+{"id":550,"word":"annuity","meaning":"年金（金融商品）/年金保険","example":"He bought an annuity for retirement.","example_ja":"彼は退職に備えて年金保険を買った。","tag":"news"}
+{"id":551,"word":"signature drive","meaning":"署名活動","example":"A signature drive is underway.","example_ja":"署名活動が進行中だ。","tag":"news"}
+{"id":552,"word":"petition","meaning":"請願書/署名運動","example":"They submitted a petition.","example_ja":"彼らは請願書を提出した。","tag":"news"}
+{"id":553,"word":"ballot initiative","meaning":"住民発議","example":"The ballot initiative passed.","example_ja":"住民発議が可決された。","tag":"news"}
+{"id":554,"word":"canvassing","meaning":"戸別訪問（選挙）","example":"Volunteers are canvassing today.","example_ja":"ボランティアが戸別訪問している。","tag":"news"}
+{"id":555,"word":"quota","meaning":"割当/枠","example":"We hit our quota early.","example_ja":"割当を早めに達成した。","tag":"news"}
+{"id":556,"word":"export control","meaning":"輸出管理","example":"New export controls were announced.","example_ja":"新たな輸出管理が発表された。","tag":"news"}
+{"id":557,"word":"blacklist","meaning":"ブラックリスト","example":"The firm was added to a blacklist.","example_ja":"その企業はブラックリストに追加された。","tag":"news"}
+{"id":558,"word":"exemption","meaning":"免除","example":"They applied for an exemption.","example_ja":"彼らは免除を申請した。","tag":"news"}
+{"id":559,"word":"bodycam footage","meaning":"ボディカメラ映像","example":"Bodycam footage was released.","example_ja":"ボディカメラ映像が公開された。","tag":"news"}
+{"id":560,"word":"dispatch","meaning":"出動要請/派遣","example":"Dispatch received multiple calls.","example_ja":"指令室に多数の通報が入った。","tag":"news"}
+{"id":561,"word":"perimeter","meaning":"周囲警戒線","example":"Police set up a perimeter.","example_ja":"警察が警戒線を張った。","tag":"news"}
+{"id":562,"word":"first responder","meaning":"初動対応者","example":"First responders arrived quickly.","example_ja":"初動対応者が素早く到着した。","tag":"news"}
+{"id":563,"word":"de-escalation","meaning":"緊張緩和/事態の沈静化","example":"Training focuses on de-escalation.","example_ja":"訓練は緊張緩和に重点を置いている。","tag":"news"}
+{"id":564,"word":"after-action report","meaning":"事後報告書","example":"They published an after-action report.","example_ja":"事後報告書が公表された。","tag":"news"}
+{"id":565,"word":"heatstroke","meaning":"熱中症","example":"Heatstroke cases are rising.","example_ja":"熱中症の症例が増えている。","tag":"news"}
+{"id":566,"word":"dehydration","meaning":"脱水","example":"Dehydration can be dangerous.","example_ja":"脱水は危険だ。","tag":"news"}
+{"id":567,"word":"electrolytes","meaning":"電解質","example":"Replenish fluids and electrolytes.","example_ja":"水分と電解質を補給しよう。","tag":"news"}
+{"id":568,"word":"cooling center","meaning":"クーリングセンター/暑さ避難所","example":"The city opened cooling centers.","example_ja":"市がクーリングセンターを開設した。","tag":"news"}
+{"id":569,"word":"hydration","meaning":"水分補給","example":"Hydration is essential in summer.","example_ja":"夏は水分補給が不可欠だ。","tag":"news"}
+{"id":570,"word":"shade","meaning":"日陰","example":"Rest in the shade when it’s hot.","example_ja":"暑い時は日陰で休もう。","tag":"news"}
+{"id":571,"word":"climate resilience","meaning":"気候変動への強靭性/適応力","example":"Cities invest in climate resilience.","example_ja":"都市は気候レジリエンスに投資している。","tag":"news"}
+{"id":572,"word":"weatherproof","meaning":"耐候性の/雨風に強い","example":"The roof is weatherproof.","example_ja":"屋根は耐候性がある。","tag":"news"}
+{"id":573,"word":"flood barrier","meaning":"防潮堤/防波堤","example":"They built new flood barriers.","example_ja":"新しい防潮堤が築かれた。","tag":"news"}
+{"id":574,"word":"retention basin","meaning":"調整池","example":"A retention basin prevents floods.","example_ja":"調整池が洪水を防ぐ。","tag":"news"}
+{"id":575,"word":"storm surge","meaning":"高潮","example":"Storm surge warnings were issued.","example_ja":"高潮警報が出された。","tag":"news"}
+{"id":576,"word":"early warning","meaning":"早期警戒","example":"Early warning systems saved lives.","example_ja":"早期警戒システムが人命を救った。","tag":"news"}
+{"id":577,"word":"unprecedented","meaning":"前例のない","example":"An unprecedented heatwave hit the region.","example_ja":"前例のない熱波が地域を襲った。","tag":"news"}
+{"id":578,"word":"landmark","meaning":"画期的な/歴史的な","example":"A landmark deal was signed.","example_ja":"画期的な合意が結ばれた。","tag":"news"}
+{"id":579,"word":"sweeping","meaning":"大規模な/抜本的な","example":"Sweeping reforms were proposed.","example_ja":"大規模な改革が提案された。","tag":"news"}
+{"id":580,"word":"incremental","meaning":"漸進的な/段階的な","example":"We prefer incremental changes.","example_ja":"私たちは漸進的な変更を好む。","tag":"news"}
+{"id":581,"word":"piecemeal","meaning":"小出しの/部分的な","example":"Piecemeal fixes won’t be enough.","example_ja":"場当たり的な修正では不十分だ。","tag":"news"}
+{"id":582,"word":"comprehensive","meaning":"包括的な/総合的な","example":"We need a comprehensive plan.","example_ja":"包括的な計画が必要だ。","tag":"news"}
+{"id":583,"word":"greenlight","meaning":"ゴーサインを出す","example":"The board greenlit the project.","example_ja":"取締役会がプロジェクトにゴーサインを出した。","tag":"news"}
+{"id":584,"word":"get bumped","meaning":"オーバーブッキングで外される","example":"We got bumped from the flight.","example_ja":"便のオーバーブッキングで外された。","tag":"news"}
