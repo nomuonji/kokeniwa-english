@@ -1,68 +1,90 @@
 /* ============================================================
-   English Hub — サイト共通スタイル v2
-   温かみのある紙のような背景 + インクの文字 + 3セクションアクセント。
+   Kokeniwa 苔庭 — サイト共通スタイル v3
+   コンセプト: 苔むす庭。生成りの和紙・墨・苔緑・水・土・石。
+   時間をかけて静かに育つ侘び寂びの世界観。
    CSS変数 + prefers-color-scheme でライト/ダーク自動切替。
    モーション原則: transform/opacityのみ・強めのease-out・200ms前後。
    ============================================================ */
 
 :root {
-  --bg: #faf9f6;
-  --surface: #ffffff;
-  --surface-2: #f1efe9;
-  --text: #1d222c;
-  --text-muted: #6b7280;
-  --border: #e6e2d8;
-  --border-strong: #cfc9ba;
-  --primary: #3d5bd9;
-  --primary-strong: #2f49bd;
-  --primary-soft: #e9edfb;
-  --on-primary: #ffffff;
-  --accent-reading: #3d5bd9;
-  --accent-uscpa: #0e8a68;
-  --accent-legal: #b0641a;
-  --accent-reading-soft: #e9edfb;
-  --accent-uscpa-soft: #dff3ec;
-  --accent-legal-soft: #f9eddc;
-  --success: #14824a;
-  --success-soft: #e0f4e8;
-  --danger: #c53a3a;
-  --danger-soft: #fbe8e8;
-  --shadow: 0 1px 2px rgba(29, 34, 44, .05), 0 6px 20px rgba(29, 34, 44, .06);
-  --shadow-lift: 0 4px 10px rgba(29, 34, 44, .07), 0 16px 40px rgba(29, 34, 44, .10);
+  --bg: #f3f1e7;          /* 生成り・和紙 */
+  --surface: #fbfaf3;     /* 浮いた紙 */
+  --surface-2: #e8e5d5;   /* 沈んだ面・石 */
+  --text: #23281f;        /* 墨（緑みの黒） */
+  --text-muted: #67705d;  /* 苔がかったグレー */
+  --border: #dcd8c7;
+  --border-strong: #c3bda4;
+  --primary: #4d6a38;         /* 苔緑 */
+  --primary-strong: #3b5329;
+  --primary-soft: #e4ebd4;
+  --on-primary: #fbfaf3;
+  --accent-reading: #4d6a38;  /* 苔 */
+  --accent-uscpa: #2f7368;    /* 水 */
+  --accent-legal: #96642a;    /* 土 */
+  --accent-reading-soft: #e4ebd4;
+  --accent-uscpa-soft: #daece8;
+  --accent-legal-soft: #f0e6d0;
+  --success: #2f7d4c;
+  --success-soft: #dcefe0;
+  --danger: #b0472f;          /* 紅殻・弁柄 */
+  --danger-soft: #f6e4dd;
+  --shadow: 0 1px 2px rgba(35, 40, 31, .05), 0 6px 20px rgba(35, 40, 31, .07);
+  --shadow-lift: 0 4px 10px rgba(35, 40, 31, .08), 0 16px 40px rgba(35, 40, 31, .12);
   --radius: 12px;
   --radius-lg: 18px;
   /* 強めのカスタムイージング（標準easeでは弱い） */
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
-  --font-serif: Georgia, "Times New Roman", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --font-serif: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", "Shippori Mincho", Georgia, "Times New Roman", serif;
+  /* 庭シルエット（遠山→手前の苔石） */
+  --garden-far: #e7e9d8;
+  --garden-mid: #dae0c6;
+  --garden-near: #c9d2ac;
+  --garden-stone: #cdc8b5;
+  --garden-lantern: #b7b19d;
+  --garden-line: #cfd3bd;
+  --garden-light: #e6b45f;
+  --garden-moss: #8ba656;
+  --garden-moss-2: #9fb96a;
+  --garden-opacity: .7;
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #12141a;
-    --surface: #1a1d26;
-    --surface-2: #232733;
-    --text: #e6e8ee;
-    --text-muted: #969eae;
-    --border: #2c3140;
-    --border-strong: #414a5e;
-    --primary: #8fa3f2;
-    --primary-strong: #a7b7f5;
-    --primary-soft: #242c47;
-    --on-primary: #12141a;
-    --accent-reading: #8fa3f2;
-    --accent-uscpa: #43cf9f;
-    --accent-legal: #e5a15e;
-    --accent-reading-soft: #242c47;
-    --accent-uscpa-soft: #16352b;
-    --accent-legal-soft: #382b1a;
-    --success: #4cc584;
-    --success-soft: #16352b;
-    --danger: #ef8080;
-    --danger-soft: #3b2121;
-    --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 6px 20px rgba(0, 0, 0, .35);
-    --shadow-lift: 0 4px 10px rgba(0, 0, 0, .5), 0 16px 40px rgba(0, 0, 0, .45);
+    --bg: #14180f;          /* 夜の苔庭 */
+    --surface: #1c2115;
+    --surface-2: #262c1c;
+    --text: #e8e8db;
+    --text-muted: #9aa088;
+    --border: #2f3624;
+    --border-strong: #475138;
+    --primary: #a2c07c;         /* 月あかりの苔 */
+    --primary-strong: #b8d296;
+    --primary-soft: #26311a;
+    --on-primary: #14180f;
+    --accent-reading: #a2c07c;
+    --accent-uscpa: #5cc0af;
+    --accent-legal: #d6a866;
+    --accent-reading-soft: #26311a;
+    --accent-uscpa-soft: #17352f;
+    --accent-legal-soft: #362a19;
+    --success: #5cc584;
+    --success-soft: #183324;
+    --danger: #e58d78;
+    --danger-soft: #3a221c;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 6px 20px rgba(0, 0, 0, .38);
+    --shadow-lift: 0 4px 10px rgba(0, 0, 0, .5), 0 16px 40px rgba(0, 0, 0, .48);
+    --garden-far: #1b2113;
+    --garden-mid: #212a17;
+    --garden-near: #29331c;
+    --garden-stone: #2d3221;
+    --garden-lantern: #38402a;
+    --garden-line: #2c341f;
+    --garden-light: #f0c073;
+    --garden-moss: #6f9143;
+    --garden-moss-2: #83a552;
+    --garden-opacity: .85;
     color-scheme: dark;
   }
 }
@@ -83,15 +105,40 @@ body {
 
 .container { max-width: 920px; margin: 0 auto; padding: 0 20px; }
 
+/* ---------- 庭シルエット背景（枯山水: 遠山・石灯籠・苔石・砂紋） ---------- */
+.garden-bg {
+  position: fixed; inset: auto 0 0 0; z-index: -1;
+  height: min(40vh, 360px); pointer-events: none;
+  opacity: var(--garden-opacity);
+  -webkit-mask-image: linear-gradient(to top, #000 55%, transparent);
+  mask-image: linear-gradient(to top, #000 55%, transparent);
+}
+.garden-bg svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.garden-bg .g-far { fill: var(--garden-far); }
+.garden-bg .g-mid { fill: var(--garden-mid); }
+.garden-bg .g-near { fill: var(--garden-near); }
+.garden-bg .g-stone { fill: var(--garden-stone); }
+.garden-bg .g-lantern { fill: var(--garden-lantern); }
+.garden-bg .g-light { fill: var(--garden-light); }
+.garden-bg .g-moss { fill: var(--garden-moss); }
+.garden-bg .g-moss-2 { fill: var(--garden-moss-2); }
+.garden-bg .g-rake { stroke: var(--garden-line); stroke-width: 2.5; opacity: .8; }
+@media (max-width: 640px) {
+  .garden-bg { height: min(32vh, 240px); }
+}
+
 a { color: var(--primary); text-decoration: none; }
 @media (hover: hover) and (pointer: fine) {
   a:hover { text-decoration: underline; }
 }
 
-h1, h2, h3, h4 { line-height: 1.35; letter-spacing: .015em; font-weight: 700; }
-h1 { font-size: clamp(1.5rem, 4vw, 2.1rem); margin: .5em 0 .5em; }
-h2 { font-size: clamp(1.2rem, 3vw, 1.45rem); margin: 2.2em 0 .7em; }
-h3 { font-size: 1.08rem; margin: 1.6em 0 .5em; }
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  line-height: 1.4; letter-spacing: .01em; font-weight: 600;
+}
+h1 { font-size: clamp(1.55rem, 4vw, 2.15rem); margin: .5em 0 .5em; }
+h2 { font-size: clamp(1.22rem, 3vw, 1.5rem); margin: 2.2em 0 .7em; }
+h3 { font-size: 1.1rem; margin: 1.6em 0 .5em; }
 
 code {
   font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
@@ -142,7 +189,8 @@ blockquote {
 }
 .brand {
   display: inline-flex; align-items: center; gap: 9px;
-  font-weight: 800; font-size: 1.12rem; letter-spacing: .01em;
+  font-family: var(--font-serif);
+  font-weight: 600; font-size: 1.18rem; letter-spacing: .02em;
   color: var(--text);
 }
 .brand:hover { text-decoration: none !important; }
@@ -507,10 +555,10 @@ a.card:active { transform: translateY(-1px) scale(.99); }
 
 /* ---------- フッタ ---------- */
 .site-footer {
-  margin-top: 80px;
+  margin-top: 96px;
   border-top: 1px solid var(--border);
-  background: var(--surface);
-  padding: 40px 0 48px;
+  background: transparent;
+  padding: 40px 0 130px;
   text-align: center;
 }
 .footer-brand { font-weight: 800; margin: 0; }

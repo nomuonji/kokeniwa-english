@@ -1,29 +1,29 @@
 {
-  "site_name": "English Hub",
-  "tagline": "英文解釈・USCPA英単語・法律英単語を、毎日コツコツ。",
-  "description": "英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト。ThreadsのSNS投稿と連動しています。",
-  "base_url": "https://example.pages.dev",
+  "site_name": "Kokeniwa English",
+  "tagline": "苔むすように、言葉を育てる。英語を毎日すこしずつ。",
+  "description": "英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト「Kokeniwa（苔庭）」。ThreadsのSNS投稿と連動しています。",
+  "base_url": "https://en.kokeniwa.study",
   "lang": "ja",
   "include_draft": true,
   "sns": {
     "reading": {
       "platform": "Threads",
-      "handle": "@your_reading_account",
-      "url": "https://www.threads.com/@your_reading_account",
+      "handle": "@eibun_reading",
+      "url": "https://www.threads.com/@eibun_reading",
       "label": "英文解釈クイズ",
       "description": "B2〜C2レベルの英文解釈問題を毎日出題。1日1問、読み解く力を鍛えます。"
     },
     "uscpa": {
       "platform": "Threads",
-      "handle": "@your_uscpa_account",
-      "url": "https://www.threads.com/@your_uscpa_account",
+      "handle": "@uscpa_vocab_jp",
+      "url": "https://www.threads.com/@uscpa_vocab_jp",
       "label": "USCPA英単語",
       "description": "USCPA（米国公認会計士）試験の頻出英単語を毎日5語ずつ配信。FAR・AUD・REGなど科目別。"
     },
     "legal": {
       "platform": "Threads",
-      "handle": "@your_legal_account",
-      "url": "https://www.threads.com/@your_legal_account",
+      "handle": "@legal_english_vocab",
+      "url": "https://www.threads.com/@legal_english_vocab",
       "label": "法律英単語",
       "description": "契約書・訴訟・会社法などの法律英語を毎日5語ずつ配信。実務で使える例文つき。"
     },
