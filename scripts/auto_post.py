@@ -1,21 +1,25 @@
 # -*- coding: utf-8 -*-
-"""Threads 3アカウント自動投稿のオーケストレーター(GitHub Actions から実行)。
+"""Threads 複数アカウント自動投稿のオーケストレーター(GitHub Actions から実行)。
 
-処理の流れ:
-  1. Gist から状態(トークン・カーソル等)を読む
-  2. 各アカウントについて
-       - 期限が近ければトークンをリフレッシュ
-       - カーソル位置のコンテンツを1件投稿(読解はツリー投稿)
-       - カーソルを1つ進める
-  3. 状態を Gist へ書き戻す
+処理の流れ(各アカウント):
+  1. (前回投稿があり未リプライなら)サイト誘導リプライを前回投稿へぶら下げる
+  2. 期限が近ければトークンをリフレッシュ
+  3. カーソル位置のコンテンツを1件投稿(読解はツリー投稿)
+  4. 次回の誘導用に last_post を保存し、カーソルを1つ進める
+状態(トークン・カーソル・last_post)は Gist に保存。
+
+コンテンツ種別(acc["content"]):
+  uscpa / legal : 語彙CSVを5語ずつ(format_vocab_post)
+  reading       : 英文解釈を親+解説のツリー(format_reading_post)
+  training      : 一般英単語を6語ずつ、5カテゴリをローテーション(format_training_post)
 
 環境変数:
-  GH_GIST_TOKEN, GIST_ID           : Gist アクセス(gist_state.py が使用)
-  DRY_RUN=1                        : 実投稿せず内容を表示するだけ
-  ACCOUNTS="uscpa,legal"           : (任意) 対象アカウントを限定
-  REFRESH_BEFORE_DAYS=10           : (任意) 期限が何日以内でリフレッシュするか
+  GH_GIST_TOKEN, GIST_ID  : Gist アクセス(gist_state.py が使用)
+  PAGES_BASE              : (任意)誘導リンクのドメイン(format_referral.py が使用)
+  DRY_RUN=1               : 実投稿せず内容を表示するだけ
+  ACCOUNTS="uscpa,legal"  : (任意)対象アカウントを限定
+  REFRESH_BEFORE_DAYS=10  : (任意)期限が何日以内でリフレッシュするか
 """
-import csv
 import datetime as dt
 import os
 import sys
@@ -26,32 +30,85 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import gist_state
 import threads_client as tc
+import format_training_post as ftp
+from format_referral import build_referral
 from format_vocab_post import build_post as build_vocab_post, load_rows, chunk_rows
 import format_reading_post as reading
 
 THREADS_LIMIT = 500  # Threads の1投稿あたり文字数上限
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 NOW = dt.datetime.now(dt.timezone.utc)
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 REFRESH_BEFORE = dt.timedelta(days=int(os.environ.get("REFRESH_BEFORE_DAYS", "10")))
 
 
-def build_items(content_key):
-    """content_key に応じ、投稿単位のリストを返す。各要素は「投稿文字列のリスト」。"""
+# ---- コンテンツ抽出(各アカウントのカーソルを進めつつ、今回の投稿分を返す) ----
+
+def training_pick(acc):
+    """training アカウント: ローテーションで次カテゴリの6語チャンクを返す。
+
+    acc に rotation / rot_index / cursors(カテゴリ別・語インデックス) を持つ。
+    未設定なら既定値で初期化する。
+    """
+    rotation = acc.get("rotation") or list(ftp.ROTATION)
+    acc["rotation"] = rotation
+    rot = int(acc.get("rot_index", 0)) % len(rotation)
+    cat = rotation[rot]
+    words = ftp.load_words(cat)
+    cursors = acc.setdefault("cursors", {})
+    cur = int(cursors.get(cat, 0)) % len(words)
+    rows = ftp.pick_chunk(words, cur)
+    # 前進
+    cursors[cat] = (cur + ftp.WORDS_PER_POST) % len(words)
+    acc["rot_index"] = (rot + 1) % len(rotation)
+    text = ftp.build_post(cat, rows)
+    meta = {"slug": ftp.TRAINING[cat]["slug"], "first_id": rows[0]["id"],
+            "total": len(words), "words": [r["word"] for r in rows]}
+    return {"posts": [text], "kind": "training", "meta": meta,
+            "label": f"training:{cat} cursor={cur}/{len(words)}"}
+
+
+def vocab_pick(content_key, acc):
+    rows_all = load_rows(content_key)
+    chunks = chunk_rows(rows_all)  # 5語ずつ
+    total = len(chunks)
+    cur = int(acc.get("cursor", 0)) % total
+    rows = chunks[cur]
+    acc["cursor"] = (cur + 1) % total
+    text = build_vocab_post(content_key, rows)
+    meta = {"set": content_key, "first_id": rows[0]["id"], "total": len(rows_all),
+            "words": [r["term"] for r in rows]}
+    return {"posts": [text], "kind": "vocab", "meta": meta,
+            "label": f"{content_key} cursor={cur}/{total}"}
+
+
+def reading_pick(acc):
+    items = [it for _, it in reading.load_items() if it.get("status") != "rejected"]
+    items.sort(key=lambda x: x["id"])
+    total = len(items)
+    cur = int(acc.get("cursor", 0)) % total
+    it = items[cur]
+    acc["cursor"] = (cur + 1) % total
+    posts = reading.build_posts(it, limit=THREADS_LIMIT, length_fn=len)  # 親+解説
+    meta = {"id": it["id"], "total": total}
+    return {"posts": posts, "kind": "reading", "meta": meta,
+            "label": f"reading cursor={cur}/{total} id={it['id']}"}
+
+
+def build_current(acc):
+    content_key = acc["content"]
+    if content_key == "training":
+        return training_pick(acc)
     if content_key in ("uscpa", "legal"):
-        chunks = chunk_rows(load_rows(content_key))  # 5語ずつ = 1投稿
-        return [[build_vocab_post(content_key, ch)] for ch in chunks]
+        return vocab_pick(content_key, acc)
     if content_key == "reading":
-        items = [it for _, it in reading.load_items() if it.get("status") != "rejected"]
-        items.sort(key=lambda x: x["id"])
-        # Threads(500字・素の文字数)基準で「親+返信1」に統合
-        return [reading.build_posts(it, limit=THREADS_LIMIT, length_fn=len) for it in items]
+        return reading_pick(acc)
     raise ValueError(f"未知のコンテンツ種別: {content_key}")
 
 
+# ---- トークン延命 ----
+
 def maybe_refresh(name, acc):
-    """必要ならトークンをリフレッシュして acc を更新。変更があれば True。"""
     if DRY_RUN:  # 副作用を避けるためリフレッシュしない
         return False
     exp = acc.get("expires_at")
@@ -74,29 +131,55 @@ def maybe_refresh(name, acc):
         print(f"[{name}] トークンをリフレッシュ(新期限 {acc['expires_at']})")
         return True
     except tc.ThreadsError as e:
-        # 発行24時間未満などで失敗しても投稿は続行(次回以降に再試行)
         print(f"[{name}] リフレッシュskip: {e}")
         return False
 
 
-def post_account(name, acc):
-    content_key = acc["content"]
-    items = build_items(content_key)
-    total = len(items)
-    cursor = int(acc.get("cursor", 0)) % total
-    posts = items[cursor]
-    label = f"[{name}/{content_key}] cursor={cursor}/{total}"
+# ---- 遅延サイト誘導リプライ(前回投稿へ) ----
 
+def do_referral(name, acc):
+    """前回投稿(last_post)が未リプライなら、誘導リプライをぶら下げる。
+
+    ベストエフォート: 失敗しても本投稿は続行し、無限リトライを避けるため
+    以後は replied=True にして諦める(親削除=media_not_found 等を想定)。
+    """
+    lp = acc.get("last_post")
+    if not lp or lp.get("replied"):
+        return False
+    text = build_referral(lp["kind"], lp["meta"])
+    if DRY_RUN:
+        print(f"[{name}] (DRY_RUN 誘導リプライ)\n  " + text.replace("\n", "\n  "))
+        return False
+    try:
+        rid = tc.post_text(acc["user_id"], acc["token"], text, reply_to_id=lp["root_id"])
+        lp["replied"] = True
+        lp["reply_id"] = rid
+        print(f"[{name}] 誘導リプライ完了 reply_id={rid}")
+    except tc.ThreadsError as e:
+        lp["replied"] = True  # 諦めて次へ(親が消えている等)
+        print(f"[{name}] 誘導リプライskip: {e}")
+    return True
+
+
+# ---- 1アカウントの処理 ----
+
+def post_account(name, acc):
+    cur = build_current(acc)
+    label = f"[{name}] {cur['label']}"
     if DRY_RUN:
         print(f"{label} (DRY_RUN 投稿せず)")
-        for i, p in enumerate(posts):
+        for i, p in enumerate(cur["posts"]):
             print(f"  --- part {i + 1} ---")
             print("  " + p.replace("\n", "\n  "))
     else:
-        ids = tc.post_thread(acc["user_id"], acc["token"], posts)
+        ids = tc.post_thread(acc["user_id"], acc["token"], cur["posts"])
         print(f"{label} 投稿完了 media_ids={ids}")
-
-    acc["cursor"] = (cursor + 1) % total
+        # 次回の誘導用に親(先頭)投稿を記録
+        acc["last_post"] = {
+            "kind": cur["kind"], "meta": cur["meta"],
+            "root_id": ids[0], "replied": False,
+            "posted_at": NOW.isoformat(),
+        }
 
 
 def main():
@@ -113,6 +196,8 @@ def main():
             print(f"[{name}] 状態に存在しないためskip")
             continue
         try:
+            if do_referral(name, acc):
+                changed = True
             if maybe_refresh(name, acc):
                 changed = True
             post_account(name, acc)
