@@ -3,4003 +3,1003 @@
 #deck:USCPA英単語
 #notetype:Basic
 #tags column:3
-accounts receivable,"売掛金
-
-The company collected its accounts receivable in June.
-当社は6月に売掛金を回収した。",uscpa FAR
-accounts payable,"買掛金
-
-Accounts payable increased due to larger purchases.
-仕入の増加により買掛金が増加した。",uscpa FAR
-accrued expenses,"未払費用
-
-Accrued expenses are recorded at year-end.
-未払費用は期末に計上される。",uscpa FAR
-deferred revenue,"前受収益
-
-Deferred revenue is recognized as services are performed.
-前受収益はサービスの提供に応じて収益認識される。",uscpa FAR
-depreciation,"減価償却
-
-Depreciation expense is recorded each year.
-減価償却費は毎年計上される。",uscpa FAR
-amortization,"(無形資産の)償却
-
-The patent is subject to amortization over ten years.
-その特許権は10年で償却される。",uscpa FAR
-impairment,"減損
-
-The asset was tested for impairment.
-その資産は減損テストの対象となった。",uscpa FAR
-inventory,"棚卸資産
-
-Inventory is measured at cost.
-棚卸資産は原価で測定される。",uscpa FAR
-goodwill,"のれん
-
-Goodwill arises from a business combination.
-のれんは企業結合から生じる。",uscpa FAR
-retained earnings,"利益剰余金
-
-Dividends reduce retained earnings.
-配当は利益剰余金を減少させる。",uscpa FAR
-accrual basis,"発生主義
-
-Revenues are recognized under the accrual basis.
-収益は発生主義に基づいて認識される。",uscpa FAR
-cash basis,"現金主義
-
-Small firms sometimes use the cash basis.
-小規模企業は現金主義を用いることがある。",uscpa FAR
-fair value,"公正価値
-
-The securities are measured at fair value.
-その有価証券は公正価値で測定される。",uscpa FAR
-carrying amount,"帳簿価額
-
-The carrying amount exceeded the fair value.
-帳簿価額が公正価値を上回った。",uscpa FAR
-historical cost,"取得原価
-
-Land is reported at historical cost.
-土地は取得原価で報告される。",uscpa FAR
-balance sheet,"貸借対照表
-
-The balance sheet shows assets and liabilities.
-貸借対照表は資産と負債を示す。",uscpa FAR
-income statement,"損益計算書
-
-The income statement reports revenues and expenses.
-損益計算書は収益と費用を報告する。",uscpa FAR
-statement of cash flows,"キャッシュ・フロー計算書
-
-The statement of cash flows has three sections.
-キャッシュ・フロー計算書は3つの区分からなる。",uscpa FAR
-statement of stockholders' equity,"株主資本等変動計算書
-
-The statement of stockholders' equity shows changes in equity.
-株主資本等変動計算書は資本の変動を示す。",uscpa FAR
-current assets,"流動資産
-
-Cash is classified as a current asset.
-現金は流動資産に分類される。",uscpa FAR
-noncurrent assets,"固定資産(非流動資産)
-
-Equipment is reported as a noncurrent asset.
-設備は固定資産として報告される。",uscpa FAR
-current liabilities,"流動負債
-
-Accounts payable are current liabilities.
-買掛金は流動負債である。",uscpa FAR
-noncurrent liabilities,"固定負債(非流動負債)
-
-Bonds payable are usually noncurrent liabilities.
-社債は通常は固定負債である。",uscpa FAR
-cash and cash equivalents,"現金及び現金同等物
-
-Cash and cash equivalents include short-term deposits.
-現金及び現金同等物には短期預金が含まれる。",uscpa FAR
-marketable securities,"市場性有価証券
-
-The company invested in marketable securities.
-当社は市場性有価証券に投資した。",uscpa FAR
-allowance for doubtful accounts,"貸倒引当金
-
-The allowance for doubtful accounts was increased.
-貸倒引当金が増額された。",uscpa FAR
-bad debt expense,"貸倒費用(貸倒損失)
-
-Bad debt expense is estimated at year-end.
-貸倒費用は期末に見積もられる。",uscpa FAR
-notes receivable,"受取手形
-
-Notes receivable bear interest.
-受取手形には利息が付く。",uscpa FAR
-notes payable,"支払手形
-
-The company issued notes payable to the bank.
-当社は銀行に支払手形を振り出した。",uscpa FAR
-prepaid expenses,"前払費用
-
-Prepaid expenses are assets until they are used.
-前払費用は使用されるまで資産である。",uscpa FAR
-accrued revenue,"未収収益
-
-Accrued revenue is earned but not yet received.
-未収収益は稼得済みだが未回収の収益である。",uscpa FAR
-property plant and equipment,"有形固定資産
-
-Property plant and equipment are depreciated.
-有形固定資産は減価償却される。",uscpa FAR
-accumulated depreciation,"減価償却累計額
-
-Accumulated depreciation is a contra account.
-減価償却累計額は評価勘定である。",uscpa FAR
-salvage value,"残存価額
-
-The machine has a salvage value of $1000.
-その機械の残存価額は1000ドルである。",uscpa FAR
-useful life,"耐用年数
-
-The building has a useful life of 40 years.
-その建物の耐用年数は40年である。",uscpa FAR
-straight-line method,"定額法
-
-Depreciation is computed using the straight-line method.
-減価償却は定額法で計算される。",uscpa FAR
-declining balance method,"定率法
-
-The declining balance method front-loads depreciation.
-定率法では償却費が初期に多く計上される。",uscpa FAR
-units-of-production method,"生産高比例法
-
-The units-of-production method is based on output.
-生産高比例法は生産量に基づく。",uscpa FAR
-intangible assets,"無形資産
-
-Patents are intangible assets.
-特許権は無形資産である。",uscpa FAR
-patent,"特許権
-
-The patent was acquired for $50000.
-その特許権は5万ドルで取得された。",uscpa FAR
-trademark,"商標権
-
-The trademark protects the brand name.
-商標権はブランド名を保護する。",uscpa FAR
-copyright,"著作権
-
-The copyright covers the published work.
-著作権は出版物を保護する。",uscpa FAR
-research and development costs,"研究開発費
-
-Research and development costs are generally expensed.
-研究開発費は原則として費用処理される。",uscpa FAR
-capitalize,"資産計上する
-
-The company capitalized the installation costs.
-当社は据付費用を資産計上した。",uscpa FAR
-revenue recognition,"収益認識
-
-Revenue recognition follows a five-step model.
-収益認識は5ステップ・モデルに従う。",uscpa FAR
-performance obligation,"履行義務
-
-Each performance obligation is identified in the contract.
-契約の中で各履行義務が識別される。",uscpa FAR
-transaction price,"取引価格
-
-The transaction price is allocated to each obligation.
-取引価格は各履行義務に配分される。",uscpa FAR
-matching principle,"費用収益対応の原則
-
-Expenses are recognized under the matching principle.
-費用は費用収益対応の原則により認識される。",uscpa FAR
-conservatism,"保守主義
-
-Conservatism avoids overstating assets.
-保守主義は資産の過大表示を避ける。",uscpa FAR
-consistency,"継続性
-
-Consistency requires the same methods each period.
-継続性は毎期同じ方法の適用を求める。",uscpa FAR
-comparability,"比較可能性
-
-Comparability helps users compare companies.
-比較可能性は企業間の比較に役立つ。",uscpa FAR
-relevance,"目的適合性
-
-Relevant information affects users' decisions.
-目的適合性のある情報は利用者の意思決定に影響する。",uscpa FAR
-faithful representation,"忠実な表現
-
-Faithful representation requires complete and neutral information.
-忠実な表現は完全で中立的な情報を求める。",uscpa FAR
-first-in first-out (FIFO),"先入先出法
-
-FIFO assumes the oldest goods are sold first.
-先入先出法では古い商品から販売されたとみなす。",uscpa FAR
-last-in first-out (LIFO),"後入先出法
-
-LIFO assumes the newest goods are sold first.
-後入先出法では新しい商品から販売されたとみなす。",uscpa FAR
-weighted-average method,"加重平均法
-
-The weighted-average method smooths cost fluctuations.
-加重平均法は原価の変動を平準化する。",uscpa FAR
-lower of cost or market,"低価法
-
-Inventory is measured at the lower of cost or market.
-棚卸資産は低価法で測定される。",uscpa FAR
-net realizable value,"正味実現可能価額
-
-Net realizable value is the estimated selling price less costs.
-正味実現可能価額は見積売価から費用を控除した額である。",uscpa FAR
-cost of goods sold,"売上原価
-
-Cost of goods sold is deducted from sales.
-売上原価は売上高から控除される。",uscpa FAR
-gross profit,"売上総利益
-
-Gross profit equals sales minus cost of goods sold.
-売上総利益は売上高から売上原価を差し引いた額である。",uscpa FAR
-operating income,"営業利益
-
-Operating income excludes interest expense.
-営業利益には支払利息は含まれない。",uscpa FAR
-net income,"当期純利益
-
-Net income increased by 10 percent.
-当期純利益は10パーセント増加した。",uscpa FAR
-earnings per share,"1株当たり利益
-
-Earnings per share is disclosed on the income statement.
-1株当たり利益は損益計算書で開示される。",uscpa FAR
-diluted earnings per share,"希薄化後1株当たり利益
-
-Diluted earnings per share reflects convertible securities.
-希薄化後1株当たり利益は転換証券を反映する。",uscpa FAR
-common stock,"普通株式
-
-The company issued common stock for cash.
-当社は現金と引換えに普通株式を発行した。",uscpa FAR
-preferred stock,"優先株式
-
-Preferred stock has priority over common stock.
-優先株式は普通株式に優先する。",uscpa FAR
-treasury stock,"自己株式
-
-Treasury stock reduces total equity.
-自己株式は資本合計を減少させる。",uscpa FAR
-additional paid-in capital,"払込剰余金(資本剰余金)
-
-The excess was credited to additional paid-in capital.
-超過額は払込剰余金に貸方記入された。",uscpa FAR
-dividends,"配当金
-
-The board declared cash dividends.
-取締役会は現金配当を宣言した。",uscpa FAR
-stock split,"株式分割
-
-The company announced a two-for-one stock split.
-当社は1対2の株式分割を発表した。",uscpa FAR
-stock dividend,"株式配当
-
-A stock dividend does not change total equity.
-株式配当は資本合計を変化させない。",uscpa FAR
-comprehensive income,"包括利益
-
-Comprehensive income includes unrealized gains.
-包括利益には未実現利益が含まれる。",uscpa FAR
-accumulated other comprehensive income,"その他の包括利益累計額
-
-Translation adjustments are part of accumulated other comprehensive income.
-為替換算調整額はその他の包括利益累計額に含まれる。",uscpa FAR
-bonds payable,"社債
-
-The company issued bonds payable at a discount.
-当社は社債を割引発行した。",uscpa FAR
-bond premium,"社債の打歩発行差額(プレミアム)
-
-The bond premium is amortized over the bond term.
-社債プレミアムは償還期間にわたり償却される。",uscpa FAR
-bond discount,"社債の割引発行差額(ディスカウント)
-
-The bond discount increases interest expense.
-社債ディスカウントは支払利息を増加させる。",uscpa FAR
-effective interest method,"実効金利法
-
-Interest expense is computed under the effective interest method.
-支払利息は実効金利法で計算される。",uscpa FAR
-face value,"額面金額
-
-The bond has a face value of $1000.
-その社債の額面金額は1000ドルである。",uscpa FAR
-stated interest rate,"表面利率
-
-The stated interest rate is 5 percent.
-表面利率は5パーセントである。",uscpa FAR
-maturity date,"満期日
-
-The note is due on its maturity date.
-その手形は満期日に支払期限を迎える。",uscpa FAR
-finance lease,"ファイナンス・リース
-
-A finance lease transfers control of the asset.
-ファイナンス・リースは資産の支配を移転する。",uscpa FAR
-operating lease,"オペレーティング・リース
-
-Office space is often held under an operating lease.
-オフィスはオペレーティング・リースで賃借されることが多い。",uscpa FAR
-right-of-use asset,"使用権資産
-
-The lessee recognizes a right-of-use asset.
-借手は使用権資産を認識する。",uscpa FAR
-lease liability,"リース負債
-
-The lease liability equals the present value of payments.
-リース負債はリース料の現在価値に等しい。",uscpa FAR
-deferred tax asset,"繰延税金資産
-
-A deferred tax asset arises from deductible differences.
-繰延税金資産は将来減算一時差異から生じる。",uscpa FAR
-deferred tax liability,"繰延税金負債
-
-A deferred tax liability arises from taxable differences.
-繰延税金負債は将来加算一時差異から生じる。",uscpa FAR
-temporary difference,"一時差異
-
-Depreciation methods often create temporary differences.
-減価償却方法の違いはしばしば一時差異を生む。",uscpa FAR
-permanent difference,"永久差異
-
-Fines are a common permanent difference.
-罰金は代表的な永久差異である。",uscpa FAR
-defined benefit plan,"確定給付制度
-
-A defined benefit plan promises a fixed pension.
-確定給付制度は一定の年金を約束する。",uscpa FAR
-defined contribution plan,"確定拠出制度
-
-The employer contributes to a defined contribution plan.
-事業主は確定拠出制度に拠出する。",uscpa FAR
-contingent liability,"偶発債務
-
-The lawsuit created a contingent liability.
-その訴訟により偶発債務が生じた。",uscpa FAR
-warranty liability,"製品保証引当金
-
-The warranty liability is estimated from past experience.
-製品保証引当金は過去の実績から見積もられる。",uscpa FAR
-subsequent events,"後発事象
-
-Subsequent events are evaluated before the report is issued.
-後発事象は報告書発行前に評価される。",uscpa FAR
-related party transactions,"関連当事者取引
-
-Related party transactions must be disclosed.
-関連当事者取引は開示が必要である。",uscpa FAR
-segment reporting,"セグメント報告
-
-Segment reporting shows results by business unit.
-セグメント報告は事業単位ごとの業績を示す。",uscpa FAR
-interim financial reporting,"期中財務報告
-
-Interim financial reporting is issued quarterly.
-期中財務報告は四半期ごとに公表される。",uscpa FAR
-foreign currency translation,"外貨換算
-
-Foreign currency translation affects consolidated statements.
-外貨換算は連結財務諸表に影響する。",uscpa FAR
-exchange rate,"為替レート
-
-The exchange rate changed significantly this year.
-今年は為替レートが大きく変動した。",uscpa FAR
-hedging,"ヘッジ
-
-Hedging reduces exposure to currency risk.
-ヘッジは為替リスクへのエクスポージャーを減らす。",uscpa FAR
-derivative,"デリバティブ(金融派生商品)
-
-A forward contract is a derivative.
-先渡契約はデリバティブである。",uscpa FAR
-equity method,"持分法
-
-The investment is accounted for under the equity method.
-その投資は持分法で会計処理される。",uscpa FAR
-subsidiary,"子会社
-
-The parent controls its subsidiary.
-親会社は子会社を支配している。",uscpa FAR
-parent company,"親会社
-
-The parent company prepares consolidated statements.
-親会社は連結財務諸表を作成する。",uscpa FAR
-noncontrolling interest,"非支配持分
-
-Noncontrolling interest is presented within equity.
-非支配持分は資本の部に表示される。",uscpa FAR
-business combination,"企業結合
-
-The business combination was accounted for as an acquisition.
-その企業結合は取得として会計処理された。",uscpa FAR
-acquisition,"取得(買収)
-
-The acquisition was completed in March.
-その買収は3月に完了した。",uscpa FAR
-merger,"合併
-
-The merger created the largest firm in the industry.
-その合併により業界最大の企業が誕生した。",uscpa FAR
-consolidation,"連結
-
-Consolidation combines the parent and its subsidiaries.
-連結は親会社と子会社を結合する。",uscpa FAR
-elimination entry,"連結消去仕訳
-
-An elimination entry removes intercompany sales.
-連結消去仕訳はグループ内売上を消去する。",uscpa FAR
-intercompany transaction,"グループ内取引(内部取引)
-
-Intercompany transactions are eliminated in consolidation.
-グループ内取引は連結上消去される。",uscpa FAR
-journal entry,"仕訳
-
-The accountant recorded a journal entry.
-経理担当者は仕訳を記帳した。",uscpa FAR
-general ledger,"総勘定元帳
-
-All accounts are kept in the general ledger.
-すべての勘定は総勘定元帳に記録される。",uscpa FAR
-trial balance,"試算表
-
-The trial balance lists all account balances.
-試算表はすべての勘定残高を一覧にする。",uscpa FAR
-adjusting entries,"決算整理仕訳
-
-Adjusting entries are made at period-end.
-決算整理仕訳は期末に行われる。",uscpa FAR
-closing entries,"帳簿の締切仕訳
-
-Closing entries reset the temporary accounts.
-締切仕訳は一時勘定をゼロに戻す。",uscpa FAR
-chart of accounts,"勘定科目一覧表
-
-Each account number is defined in the chart of accounts.
-各勘定番号は勘定科目一覧表で定義される。",uscpa FAR
-debit,"借方
-
-Cash was recorded as a debit.
-現金は借方に記帳された。",uscpa FAR
-credit,"貸方
-
-Revenue is recorded as a credit.
-収益は貸方に記帳される。",uscpa FAR
-double-entry bookkeeping,"複式簿記
-
-Double-entry bookkeeping keeps debits equal to credits.
-複式簿記では借方と貸方が常に一致する。",uscpa FAR
-fiscal year,"会計年度
-
-The fiscal year ends on December 31.
-会計年度は12月31日に終了する。",uscpa FAR
-book value,"簿価
-
-The book value of the asset is $8000.
-その資産の簿価は8000ドルである。",uscpa FAR
-present value,"現在価値
-
-The liability is measured at present value.
-その負債は現在価値で測定される。",uscpa FAR
-future value,"将来価値
-
-Future value grows with compound interest.
-将来価値は複利で増加する。",uscpa FAR
-discount rate,"割引率
-
-A higher discount rate lowers present value.
-割引率が高いほど現在価値は低くなる。",uscpa FAR
-annuity,"年金(定額の定期支払)
-
-The lease payments form an annuity.
-そのリース料は年金型の支払である。",uscpa FAR
-installment sales,"割賦販売
-
-Installment sales are collected over several years.
-割賦販売の代金は数年にわたり回収される。",uscpa FAR
-percentage-of-completion method,"工事進行基準
-
-Revenue is recognized under the percentage-of-completion method.
-収益は工事進行基準で認識される。",uscpa FAR
-completed-contract method,"工事完成基準
-
-The completed-contract method defers revenue until completion.
-工事完成基準では完成まで収益が繰り延べられる。",uscpa FAR
-construction in progress,"建設仮勘定
-
-Costs are accumulated in construction in progress.
-原価は建設仮勘定に集計される。",uscpa FAR
-asset retirement obligation,"資産除去債務
-
-An asset retirement obligation is recognized at present value.
-資産除去債務は現在価値で認識される。",uscpa FAR
-discontinued operations,"非継続事業
-
-Discontinued operations are reported separately.
-非継続事業は区分表示される。",uscpa FAR
-restructuring charges,"事業再編費用
-
-Restructuring charges reduced operating income.
-事業再編費用が営業利益を減少させた。",uscpa FAR
-write-off,"(回収不能債権などの)直接償却
-
-The uncollectible account was written off.
-回収不能な債権は直接償却された。",uscpa FAR
-write-down,"評価減
-
-The inventory write-down was recorded in June.
-棚卸資産の評価減が6月に計上された。",uscpa FAR
-gain on sale,"売却益
-
-The company recognized a gain on sale of equipment.
-当社は設備の売却益を認識した。",uscpa FAR
-loss on sale,"売却損
-
-A loss on sale was reported for the old machine.
-旧機械について売却損が報告された。",uscpa FAR
-fund accounting,"基金会計(ファンド会計)
-
-Governments use fund accounting.
-政府は基金会計を用いる。",uscpa FAR
-modified accrual basis,"修正発生主義
-
-Governmental funds use the modified accrual basis.
-政府のファンドは修正発生主義を用いる。",uscpa FAR
-governmental accounting,"政府会計
-
-Governmental accounting differs from business accounting.
-政府会計は企業会計と異なる。",uscpa FAR
-not-for-profit organization,"非営利組織
-
-A not-for-profit organization reports net assets.
-非営利組織は純資産を報告する。",uscpa FAR
-petty cash,"小口現金
-
-Small payments are made from petty cash.
-少額の支払は小口現金から行われる。",uscpa FAR
-bank reconciliation,"銀行勘定調整表
-
-The bank reconciliation is prepared monthly.
-銀行勘定調整表は毎月作成される。",uscpa FAR
-outstanding checks,"未取付小切手
-
-Outstanding checks are deducted from the bank balance.
-未取付小切手は銀行残高から控除される。",uscpa FAR
-deposit in transit,"未達預金
-
-A deposit in transit is added to the bank balance.
-未達預金は銀行残高に加算される。",uscpa FAR
-voucher,"証憑
-
-Each payment is supported by a voucher.
-各支払は証憑によって裏付けられる。",uscpa FAR
-freight-in,"引取運賃
-
-Freight-in is included in inventory cost.
-引取運賃は棚卸資産の原価に含まれる。",uscpa FAR
-freight-out,"発送運賃
-
-Freight-out is a selling expense.
-発送運賃は販売費である。",uscpa FAR
-purchase discount,"仕入割引
-
-A purchase discount was taken for early payment.
-早期支払により仕入割引を受けた。",uscpa FAR
-sales discount,"売上割引
-
-Sales discounts reduce net sales.
-売上割引は純売上高を減少させる。",uscpa FAR
-sales returns and allowances,"売上返品・値引
-
-Sales returns and allowances are contra revenue accounts.
-売上返品・値引は収益の控除項目である。",uscpa FAR
-purchase returns,"仕入返品
-
-Purchase returns reduce inventory cost.
-仕入返品は仕入原価を減少させる。",uscpa FAR
-consignment,"委託販売
-
-Goods on consignment remain the consignor's inventory.
-委託販売の商品は委託者の棚卸資産にとどまる。",uscpa FAR
-consignor,"委託者
-
-The consignor ships goods to the consignee.
-委託者は受託者に商品を発送する。",uscpa FAR
-consignee,"受託者
-
-The consignee sells goods for a commission.
-受託者は手数料を得て商品を販売する。",uscpa FAR
-FOB shipping point,"出荷地渡し
-
-Title passes at shipment under FOB shipping point.
-出荷地渡しでは出荷時に所有権が移転する。",uscpa FAR
-FOB destination,"仕向地渡し
-
-Title passes on delivery under FOB destination.
-仕向地渡しでは引渡時に所有権が移転する。",uscpa FAR
-perpetual inventory system,"継続記録法
-
-The perpetual inventory system updates records continuously.
-継続記録法では記録が継続的に更新される。",uscpa FAR
-periodic inventory system,"棚卸計算法
-
-The periodic inventory system counts goods at period-end.
-棚卸計算法では期末に実地棚卸を行う。",uscpa FAR
-inventory shrinkage,"棚卸減耗
-
-Inventory shrinkage was caused by theft and damage.
-棚卸減耗は盗難や破損によって生じた。",uscpa FAR
-specific identification method,"個別法
-
-The specific identification method tracks each item.
-個別法は品目ごとに原価を追跡する。",uscpa FAR
-retail inventory method,"売価還元法
-
-The retail inventory method estimates ending inventory.
-売価還元法は期末棚卸資産を見積もる。",uscpa FAR
-gross profit method,"売上総利益法
-
-The gross profit method is used for interim estimates.
-売上総利益法は期中の見積りに用いられる。",uscpa FAR
-factoring,"ファクタリング(債権の売却)
-
-The company raised cash by factoring its receivables.
-当社は債権のファクタリングで資金を調達した。",uscpa FAR
-pledging,"(債権の)担保差入
-
-Receivables were pledged as collateral for the loan.
-債権は借入金の担保として差し入れられた。",uscpa FAR
-discounting notes receivable,"受取手形の割引
-
-The note was discounted at the bank.
-その手形は銀行で割り引かれた。",uscpa FAR
-held-to-maturity securities,"満期保有目的有価証券
-
-Held-to-maturity securities are carried at amortized cost.
-満期保有目的有価証券は償却原価で計上される。",uscpa FAR
-trading securities,"売買目的有価証券
-
-Trading securities are measured at fair value.
-売買目的有価証券は公正価値で測定される。",uscpa FAR
-available-for-sale securities,"売却可能有価証券
-
-Unrealized gains on available-for-sale securities go to OCI.
-売却可能有価証券の未実現利益はその他の包括利益に計上される。",uscpa FAR
-unrealized gain,"未実現利益
-
-An unrealized gain was recorded on the securities.
-その有価証券について未実現利益が計上された。",uscpa FAR
-realized gain,"実現利益
-
-A realized gain arises when the asset is sold.
-実現利益は資産の売却時に生じる。",uscpa FAR
-equity securities,"持分証券
-
-Equity securities represent ownership interests.
-持分証券は所有持分を表す。",uscpa FAR
-debt securities,"負債性証券(債券)
-
-Bonds are debt securities.
-社債は負債性証券である。",uscpa FAR
-leasehold improvements,"賃借設備改良(造作)
-
-Leasehold improvements are amortized over the lease term.
-造作はリース期間にわたり償却される。",uscpa FAR
-capital expenditure,"資本的支出
-
-The renovation was treated as a capital expenditure.
-その改修は資本的支出として処理された。",uscpa FAR
-revenue expenditure,"収益的支出
-
-Routine repairs are revenue expenditures.
-通常の修繕は収益的支出である。",uscpa FAR
-repairs and maintenance,"修繕維持費
-
-Repairs and maintenance are expensed as incurred.
-修繕維持費は発生時に費用処理される。",uscpa FAR
-depletion,"減耗償却
-
-Depletion applies to natural resources.
-減耗償却は天然資源に適用される。",uscpa FAR
-franchise,"フランチャイズ権
-
-The franchise was recorded as an intangible asset.
-フランチャイズ権は無形資産として計上された。",uscpa FAR
-license,"ライセンス(使用許諾)
-
-The license grants the right to use the software.
-そのライセンスはソフトウェアの使用権を与える。",uscpa FAR
-startup costs,"開業費
-
-Startup costs are expensed as incurred.
-開業費は発生時に費用処理される。",uscpa FAR
-contra account,"評価勘定(控除勘定)
-
-Accumulated depreciation is a contra account.
-減価償却累計額は評価勘定である。",uscpa FAR
-accrued interest,"未払利息(未収利息)
-
-Accrued interest is recorded at period-end.
-未払利息は期末に計上される。",uscpa FAR
-callable bond,"繰上償還可能社債
-
-A callable bond can be redeemed early by the issuer.
-繰上償還可能社債は発行者が期限前に償還できる。",uscpa FAR
-convertible bond,"転換社債
-
-A convertible bond can be exchanged for common stock.
-転換社債は普通株式に転換できる。",uscpa FAR
-serial bonds,"連続償還社債
-
-Serial bonds mature in installments.
-連続償還社債は分割して満期を迎える。",uscpa FAR
-term bonds,"満期一括償還社債
-
-Term bonds mature on a single date.
-満期一括償還社債は単一の期日に満期となる。",uscpa FAR
-sinking fund,"減債基金
-
-A sinking fund is set aside to repay the bonds.
-減債基金は社債の償還のために積み立てられる。",uscpa FAR
-troubled debt restructuring,"問題債務の条件緩和
-
-The loan terms were modified in a troubled debt restructuring.
-問題債務の条件緩和により貸付条件が変更された。",uscpa FAR
-note disclosure,"注記開示
-
-Details are provided in the note disclosures.
-詳細は注記開示で提供される。",uscpa FAR
-accounting policies,"会計方針
-
-Significant accounting policies are disclosed.
-重要な会計方針は開示される。",uscpa FAR
-change in accounting estimate,"会計上の見積りの変更
-
-A change in accounting estimate is applied prospectively.
-会計上の見積りの変更は将来に向かって適用される。",uscpa FAR
-change in accounting principle,"会計方針の変更
-
-A change in accounting principle is applied retrospectively.
-会計方針の変更は遡及適用される。",uscpa FAR
-prior period adjustment,"前期修正
-
-The error required a prior period adjustment.
-その誤謬により前期修正が必要となった。",uscpa FAR
-error correction,"誤謬の訂正
-
-The error correction was disclosed in the notes.
-誤謬の訂正は注記で開示された。",uscpa FAR
-restatement,"訂正再表示
-
-The financial statements required a restatement.
-財務諸表の訂正再表示が必要となった。",uscpa FAR
-gross method,"総額法
-
-Purchases are recorded at the gross method amount.
-総額法では仕入を総額で記録する。",uscpa FAR
-net method,"純額法
-
-The net method records purchases net of discounts.
-純額法では割引控除後の金額で仕入を記録する。",uscpa FAR
-trade receivables,"営業債権
-
-Trade receivables arise from normal sales.
-営業債権は通常の販売から生じる。",uscpa FAR
-betterment,"改良
-
-The betterment extended the asset's useful life.
-その改良により資産の耐用年数が延長された。",uscpa FAR
-organization costs,"創立費
-
-Organization costs were expensed when incurred.
-創立費は発生時に費用処理された。",uscpa FAR
-audit risk,"監査リスク
-
-Audit risk is the risk of an inappropriate opinion.
-監査リスクとは不適切な意見を表明するリスクである。",uscpa AUD
-inherent risk,"固有リスク
-
-Complex estimates increase inherent risk.
-複雑な見積りは固有リスクを高める。",uscpa AUD
-control risk,"統制リスク
-
-Weak controls increase control risk.
-脆弱な統制は統制リスクを高める。",uscpa AUD
-detection risk,"発見リスク
-
-The auditor lowers detection risk with more testing.
-監査人は手続を増やして発見リスクを下げる。",uscpa AUD
-risk assessment,"リスク評価
-
-Risk assessment is performed during planning.
-リスク評価は計画段階で実施される。",uscpa AUD
-audit plan,"監査計画
-
-The audit plan describes the planned procedures.
-監査計画は予定される手続を記載する。",uscpa AUD
-audit evidence,"監査証拠
-
-Sufficient appropriate audit evidence must be obtained.
-十分かつ適切な監査証拠を入手しなければならない。",uscpa AUD
-sufficiency,"(監査証拠の)十分性
-
-Sufficiency refers to the quantity of evidence.
-十分性は証拠の量に関する概念である。",uscpa AUD
-appropriateness,"(監査証拠の)適切性
-
-Appropriateness refers to the quality of evidence.
-適切性は証拠の質に関する概念である。",uscpa AUD
-analytical procedures,"分析的手続
-
-Analytical procedures compare recorded amounts with expectations.
-分析的手続は記録された金額と予想値を比較する。",uscpa AUD
-confirmation,"確認
-
-The auditor sent a confirmation to the customer.
-監査人は顧客に確認状を送付した。",uscpa AUD
-positive confirmation,"積極的確認
-
-A positive confirmation requests a reply in all cases.
-積極的確認は常に回答を求める。",uscpa AUD
-negative confirmation,"消極的確認
-
-A negative confirmation requests a reply only if incorrect.
-消極的確認は誤りがある場合のみ回答を求める。",uscpa AUD
-observation,"観察
-
-Observation of the inventory count is a common procedure.
-棚卸の観察は一般的な監査手続である。",uscpa AUD
-inspection,"閲覧(検査)
-
-Inspection of documents provides audit evidence.
-文書の閲覧は監査証拠を提供する。",uscpa AUD
-recalculation,"再計算
-
-Recalculation verifies mathematical accuracy.
-再計算は計算の正確性を確かめる。",uscpa AUD
-reperformance,"再実施
-
-The auditor reperformed the control procedure.
-監査人は統制手続を再実施した。",uscpa AUD
-inquiry,"質問
-
-Inquiry alone does not provide sufficient evidence.
-質問のみでは十分な証拠にならない。",uscpa AUD
-vouching,"証憑突合(バウチング)
-
-Vouching tests for overstatement of recorded amounts.
-証憑突合は記録金額の過大表示を検証する。",uscpa AUD
-tracing,"追跡(トレーシング)
-
-Tracing tests for completeness of recorded transactions.
-追跡は取引記録の網羅性を検証する。",uscpa AUD
-cutoff,"期間帰属(カットオフ)
-
-Cutoff testing focuses on transactions near year-end.
-カットオフ・テストは期末付近の取引に注目する。",uscpa AUD
-existence,"実在性
-
-Existence addresses whether assets actually exist.
-実在性は資産が実際に存在するかを扱う。",uscpa AUD
-completeness,"網羅性
-
-Completeness addresses whether all transactions are recorded.
-網羅性はすべての取引が記録されているかを扱う。",uscpa AUD
-accuracy,"正確性
-
-Accuracy addresses whether amounts are recorded correctly.
-正確性は金額が正しく記録されているかを扱う。",uscpa AUD
-valuation and allocation,"評価と配分
-
-Valuation addresses whether assets are properly measured.
-評価は資産が適切に測定されているかを扱う。",uscpa AUD
-rights and obligations,"権利と義務
-
-Rights and obligations address ownership of assets.
-権利と義務は資産の所有権を扱う。",uscpa AUD
-presentation and disclosure,"表示と開示
-
-Presentation and disclosure address proper classification.
-表示と開示は適切な分類を扱う。",uscpa AUD
-occurrence,"発生
-
-Occurrence addresses whether recorded transactions took place.
-発生は記録された取引が実際に生じたかを扱う。",uscpa AUD
-classification,"分類
-
-Classification addresses recording in the proper accounts.
-分類は適切な勘定への記録を扱う。",uscpa AUD
-misstatement,"虚偽表示
-
-The auditor identified a material misstatement.
-監査人は重要な虚偽表示を発見した。",uscpa AUD
-tolerable misstatement,"許容虚偽表示
-
-Tolerable misstatement is set below materiality.
-許容虚偽表示は重要性より低く設定される。",uscpa AUD
-fraud,"不正
-
-Fraud involves intentional misstatement.
-不正は意図的な虚偽表示を伴う。",uscpa AUD
-error,"誤謬
-
-An error is an unintentional misstatement.
-誤謬は意図的でない虚偽表示である。",uscpa AUD
-professional skepticism,"職業的懐疑心
-
-The auditor maintains professional skepticism throughout the audit.
-監査人は監査全体を通じて職業的懐疑心を保持する。",uscpa AUD
-professional judgment,"職業的専門家としての判断
-
-Professional judgment is applied in setting materiality.
-重要性の設定には職業的判断が用いられる。",uscpa AUD
-independence,"独立性
-
-Independence is required for audit engagements.
-監査業務には独立性が求められる。",uscpa AUD
-due professional care,"正当な注意
-
-The auditor exercises due professional care.
-監査人は正当な注意を払う。",uscpa AUD
-engagement letter,"監査契約書
-
-The engagement letter defines the scope of the audit.
-監査契約書は監査の範囲を定める。",uscpa AUD
-predecessor auditor,"前任監査人
-
-The new auditor contacted the predecessor auditor.
-新任監査人は前任監査人に連絡した。",uscpa AUD
-audit report,"監査報告書
-
-The audit report was issued in February.
-監査報告書は2月に発行された。",uscpa AUD
-unmodified opinion,"無限定適正意見
-
-The auditor expressed an unmodified opinion.
-監査人は無限定適正意見を表明した。",uscpa AUD
-qualified opinion,"限定付適正意見
-
-A qualified opinion was issued due to a scope limitation.
-監査範囲の制約により限定付適正意見が表明された。",uscpa AUD
-adverse opinion,"不適正意見
-
-An adverse opinion indicates pervasive misstatements.
-不適正意見は広範な虚偽表示を示す。",uscpa AUD
-disclaimer of opinion,"意見不表明
-
-The auditor issued a disclaimer of opinion.
-監査人は意見不表明とした。",uscpa AUD
-emphasis-of-matter paragraph,"強調事項区分
-
-An emphasis-of-matter paragraph highlights a disclosed matter.
-強調事項区分は開示済みの事項を強調する。",uscpa AUD
-internal control,"内部統制
-
-The auditor obtained an understanding of internal control.
-監査人は内部統制を理解した。",uscpa AUD
-control environment,"統制環境
-
-The control environment sets the tone of the organization.
-統制環境は組織の気風を決める。",uscpa AUD
-control activities,"統制活動
-
-Control activities include approvals and reconciliations.
-統制活動には承認や照合が含まれる。",uscpa AUD
-monitoring activities,"モニタリング活動
-
-Monitoring activities assess control performance over time.
-モニタリング活動は統制の有効性を継続的に評価する。",uscpa AUD
-segregation of duties,"職務の分離
-
-Segregation of duties reduces the risk of fraud.
-職務の分離は不正のリスクを低減する。",uscpa AUD
-authorization,"承認
-
-Proper authorization is required for each purchase.
-各購買には適切な承認が必要である。",uscpa AUD
-reconciliation,"照合(残高調整)
-
-The monthly reconciliation detected the difference.
-月次照合により差異が発見された。",uscpa AUD
-walkthrough,"ウォークスルー
-
-A walkthrough traces a transaction through the process.
-ウォークスルーは取引を業務プロセスに沿って追跡する。",uscpa AUD
-test of controls,"統制テスト(運用評価手続)
-
-Tests of controls evaluate operating effectiveness.
-統制テストは運用状況の有効性を評価する。",uscpa AUD
-substantive procedures,"実証手続
-
-Substantive procedures detect material misstatements.
-実証手続は重要な虚偽表示を発見する。",uscpa AUD
-sampling risk,"サンプリング・リスク
-
-Sampling risk arises from testing less than 100 percent.
-サンプリング・リスクは全数検証を行わないことから生じる。",uscpa AUD
-attribute sampling,"属性サンプリング
-
-Attribute sampling is used in tests of controls.
-属性サンプリングは統制テストで用いられる。",uscpa AUD
-population,"母集団
-
-The population consists of all sales invoices.
-母集団はすべての売上請求書からなる。",uscpa AUD
-sample size,"サンプル数
-
-A lower risk requires a larger sample size.
-リスクを低くするには大きなサンプル数が必要である。",uscpa AUD
-materiality,"重要性
-
-Materiality is determined during planning.
-重要性は計画段階で決定される。",uscpa AUD
-going concern,"継続企業の前提
-
-Substantial doubt about going concern must be evaluated.
-継続企業の前提に関する重要な疑義は評価されなければならない。",uscpa AUD
-management representation letter,"経営者確認書
-
-The management representation letter is dated at the report date.
-経営者確認書の日付は監査報告書日と同日である。",uscpa AUD
-those charged with governance,"統治責任者
-
-Significant findings are communicated to those charged with governance.
-重要な発見事項は統治責任者に伝達される。",uscpa AUD
-audit committee,"監査委員会
-
-The audit committee oversees the external auditor.
-監査委員会は外部監査人を監督する。",uscpa AUD
-internal auditor,"内部監査人
-
-The internal auditor reports to the audit committee.
-内部監査人は監査委員会に報告する。",uscpa AUD
-external auditor,"外部監査人
-
-The external auditor is independent of the company.
-外部監査人は会社から独立している。",uscpa AUD
-compilation,"調製業務(コンピレーション)
-
-A compilation provides no assurance.
-調製業務は保証を提供しない。",uscpa AUD
-review engagement,"レビュー業務
-
-A review provides limited assurance.
-レビュー業務は限定的保証を提供する。",uscpa AUD
-attestation engagement,"証明業務
-
-An attestation engagement reports on subject matter.
-証明業務は主題に関して報告する。",uscpa AUD
-assurance services,"保証業務
-
-Assurance services improve the quality of information.
-保証業務は情報の質を高める。",uscpa AUD
-agreed-upon procedures,"合意された手続
-
-Agreed-upon procedures report only factual findings.
-合意された手続は事実に基づく発見事項のみを報告する。",uscpa AUD
-quality control,"品質管理
-
-The firm maintains a system of quality control.
-監査事務所は品質管理のシステムを維持する。",uscpa AUD
-scope limitation,"監査範囲の制約
-
-A scope limitation may lead to a qualified opinion.
-監査範囲の制約は限定付適正意見につながり得る。",uscpa AUD
-working papers,"監査調書
-
-Working papers document the evidence obtained.
-監査調書は入手した証拠を文書化する。",uscpa AUD
-dual dating,"二重日付
-
-Dual dating is used for a subsequent event.
-二重日付は後発事象に対して用いられる。",uscpa AUD
-engagement partner,"業務執行社員
-
-The engagement partner is responsible for the audit.
-業務執行社員は監査に責任を負う。",uscpa AUD
-peer review,"ピア・レビュー(相互審査)
-
-The firm undergoes a peer review every three years.
-監査事務所は3年ごとにピア・レビューを受ける。",uscpa AUD
-planning materiality,"計画段階の重要性
-
-Planning materiality guides the extent of testing.
-計画段階の重要性は手続の範囲を方向づける。",uscpa AUD
-performance materiality,"手続実施上の重要性
-
-Performance materiality is set below overall materiality.
-手続実施上の重要性は全体の重要性より低く設定される。",uscpa AUD
-risk of material misstatement,"重要な虚偽表示リスク
-
-The risk of material misstatement combines inherent and control risk.
-重要な虚偽表示リスクは固有リスクと統制リスクからなる。",uscpa AUD
-significant risk,"特別な検討を必要とするリスク
-
-Revenue recognition is often a significant risk.
-収益認識はしばしば特別な検討を必要とするリスクとなる。",uscpa AUD
-fraud risk factors,"不正リスク要因
-
-Fraud risk factors include incentives and opportunities.
-不正リスク要因には動機と機会が含まれる。",uscpa AUD
-management override,"経営者による内部統制の無効化
-
-Management override is a risk in every audit.
-経営者による内部統制の無効化はすべての監査におけるリスクである。",uscpa AUD
-collusion,"共謀
-
-Collusion can defeat segregation of duties.
-共謀は職務の分離を無効にし得る。",uscpa AUD
-tone at the top,"経営トップの姿勢
-
-Tone at the top shapes the control environment.
-経営トップの姿勢は統制環境を形づくる。",uscpa AUD
-whistleblower,"内部通報者
-
-The whistleblower reported the suspicious transactions.
-内部通報者が不審な取引を報告した。",uscpa AUD
-related party,"関連当事者
-
-Transactions with a related party require attention.
-関連当事者との取引には注意が必要である。",uscpa AUD
-lawyer's letter,"弁護士確認書
-
-The lawyer's letter addresses litigation and claims.
-弁護士確認書は訴訟や請求について記載する。",uscpa AUD
-bank confirmation,"銀行確認状
-
-A bank confirmation verifies cash balances.
-銀行確認状は現金預金残高を確かめる。",uscpa AUD
-inventory observation,"棚卸立会
-
-Inventory observation is required when amounts are material.
-金額が重要な場合は棚卸立会が求められる。",uscpa AUD
-physical count,"実地棚卸
-
-The physical count was performed on December 31.
-実地棚卸は12月31日に実施された。",uscpa AUD
-other-matter paragraph,"その他の事項区分
-
-An other-matter paragraph addresses matters not disclosed.
-その他の事項区分は財務諸表に表示されない事項を扱う。",uscpa AUD
-comparative financial statements,"比較財務諸表
-
-Comparative financial statements present two or more periods.
-比較財務諸表は複数の期間を表示する。",uscpa AUD
-opening balances,"期首残高
-
-Opening balances are audited in an initial engagement.
-初年度監査では期首残高が監査される。",uscpa AUD
-group audit,"グループ監査
-
-A group audit covers the consolidated statements.
-グループ監査は連結財務諸表を対象とする。",uscpa AUD
-component auditor,"構成単位の監査人
-
-The component auditor audits a subsidiary.
-構成単位の監査人は子会社を監査する。",uscpa AUD
-using the work of a specialist,"専門家の業務の利用
-
-The auditor used the work of a valuation specialist.
-監査人は評価専門家の業務を利用した。",uscpa AUD
-statistical sampling,"統計的サンプリング
-
-Statistical sampling quantifies sampling risk.
-統計的サンプリングはサンプリング・リスクを定量化する。",uscpa AUD
-nonstatistical sampling,"非統計的サンプリング
-
-Nonstatistical sampling relies on professional judgment.
-非統計的サンプリングは職業的判断に依拠する。",uscpa AUD
-stratification,"層化
-
-Stratification divides the population into groups.
-層化は母集団をグループに分割する。",uscpa AUD
-projected misstatement,"推定虚偽表示
-
-The projected misstatement was below tolerable misstatement.
-推定虚偽表示は許容虚偽表示を下回った。",uscpa AUD
-nonsampling risk,"ノンサンプリング・リスク
-
-Nonsampling risk includes auditor error.
-ノンサンプリング・リスクには監査人の誤りが含まれる。",uscpa AUD
-engagement quality review,"業務品質レビュー
-
-An engagement quality review is performed before issuance.
-業務品質レビューは報告書発行前に実施される。",uscpa AUD
-code of professional conduct,"職業行為規範
-
-CPAs must follow the code of professional conduct.
-公認会計士は職業行為規範に従わなければならない。",uscpa AUD
-continuing professional education,"継続的専門研修
-
-CPAs complete continuing professional education each year.
-公認会計士は毎年継続的専門研修を修了する。",uscpa AUD
-contingent fee,"成功報酬
-
-Contingent fees are prohibited for audit clients.
-監査クライアントからの成功報酬は禁止されている。",uscpa AUD
-internal audit function,"内部監査機能
-
-The auditor evaluated the internal audit function.
-監査人は内部監査機能を評価した。",uscpa AUD
-litigation claims and assessments,"訴訟・賠償請求等
-
-Litigation claims and assessments were reviewed with counsel.
-訴訟・賠償請求等は弁護士とともに検討された。",uscpa AUD
-haphazard selection,"無作為的選択
-
-Haphazard selection avoids intentional bias.
-無作為的選択は意図的な偏りを避ける。",uscpa AUD
-going concern disclosure,"継続企業の前提に関する開示
-
-Going concern disclosures were included in the notes.
-継続企業の前提に関する開示が注記に含まれた。",uscpa AUD
-federal income tax,"連邦所得税
-
-Federal income tax is imposed on worldwide income.
-連邦所得税は全世界所得に課される。",uscpa REG
-tax return,"納税申告書
-
-The tax return is due on April 15.
-納税申告書の提出期限は4月15日である。",uscpa REG
-filing status,"申告資格
-
-Filing status affects the tax rates applied.
-申告資格は適用される税率に影響する。",uscpa REG
-standard deduction,"標準控除
-
-The taxpayer claimed the standard deduction.
-納税者は標準控除を選択した。",uscpa REG
-itemized deductions,"項目別控除
-
-Itemized deductions include mortgage interest.
-項目別控除には住宅ローン利子が含まれる。",uscpa REG
-adjusted gross income,"調整後総所得(AGI)
-
-Adjusted gross income is computed before deductions.
-調整後総所得は各種控除の前に計算される。",uscpa REG
-gross income,"総所得
-
-Gross income includes wages and interest.
-総所得には給与と利子が含まれる。",uscpa REG
-taxable income,"課税所得
-
-Taxable income equals AGI minus deductions.
-課税所得はAGIから控除を差し引いた額である。",uscpa REG
-tax credit,"税額控除
-
-A tax credit reduces tax dollar for dollar.
-税額控除は税額をそのまま減額する。",uscpa REG
-tax deduction,"所得控除
-
-A tax deduction reduces taxable income.
-所得控除は課税所得を減少させる。",uscpa REG
-capital gain,"譲渡益(キャピタル・ゲイン)
-
-The sale of stock produced a capital gain.
-株式の売却により譲渡益が生じた。",uscpa REG
-capital loss,"譲渡損失
-
-Capital losses offset capital gains.
-譲渡損失は譲渡益と相殺される。",uscpa REG
-short-term capital gain,"短期譲渡益
-
-Short-term capital gains are taxed at ordinary rates.
-短期譲渡益は通常税率で課税される。",uscpa REG
-long-term capital gain,"長期譲渡益
-
-Long-term capital gains receive preferential rates.
-長期譲渡益には優遇税率が適用される。",uscpa REG
-dividend income,"配当所得
-
-Dividend income is reported on the return.
-配当所得は申告書で報告される。",uscpa REG
-interest income,"利子所得
-
-Interest income from bonds is taxable.
-債券の利子所得は課税対象である。",uscpa REG
-rental income,"賃貸所得
-
-Rental income is reduced by related expenses.
-賃貸所得は関連費用によって減額される。",uscpa REG
-passive activity,"受動的活動
-
-Rental real estate is generally a passive activity.
-不動産賃貸は原則として受動的活動である。",uscpa REG
-withholding,"源泉徴収
-
-Income tax is collected through withholding.
-所得税は源泉徴収により徴収される。",uscpa REG
-estimated tax,"予定納税
-
-Self-employed taxpayers make estimated tax payments.
-自営業者は予定納税を行う。",uscpa REG
-tax basis,"税務上の取得価額(ベーシス)
-
-The tax basis of the property is its cost.
-その資産の税務上のベーシスは取得原価である。",uscpa REG
-depreciation recapture,"減価償却の取戻し
-
-Depreciation recapture is taxed as ordinary income.
-減価償却の取戻しは通常所得として課税される。",uscpa REG
-like-kind exchange,"同種資産の交換
-
-Gain may be deferred in a like-kind exchange.
-同種資産の交換では利得の課税が繰り延べられる。",uscpa REG
-net operating loss,"純営業損失
-
-The net operating loss was carried forward.
-純営業損失は繰り越された。",uscpa REG
-carryforward,"(欠損金などの)繰越
-
-The unused credit is available as a carryforward.
-未使用の税額控除は繰越が可能である。",uscpa REG
-carryback,"(欠損金などの)繰戻し
-
-A carryback applies the loss to prior years.
-繰戻しは損失を過年度に適用する。",uscpa REG
-alternative minimum tax,"代替ミニマム税
-
-The alternative minimum tax limits certain benefits.
-代替ミニマム税は一定の租税優遇を制限する。",uscpa REG
-estate tax,"遺産税
-
-The estate tax applies to large estates.
-遺産税は大規模な遺産に課される。",uscpa REG
-gift tax,"贈与税
-
-The gift tax is imposed on the donor.
-贈与税は贈与者に課される。",uscpa REG
-trust,"信託
-
-The assets were transferred to a trust.
-資産は信託に移転された。",uscpa REG
-beneficiary,"受益者
-
-The beneficiary received a distribution from the trust.
-受益者は信託から分配を受けた。",uscpa REG
-fiduciary,"受託者
-
-A fiduciary must act in the beneficiary's interest.
-受託者は受益者の利益のために行動しなければならない。",uscpa REG
-C corporation,"C法人
-
-A C corporation pays tax at the entity level.
-C法人は法人レベルで課税される。",uscpa REG
-S corporation,"S法人
-
-An S corporation passes income through to shareholders.
-S法人の所得は株主に直接帰属する。",uscpa REG
-partnership,"パートナーシップ
-
-A partnership files an information return.
-パートナーシップは情報申告書を提出する。",uscpa REG
-general partner,"無限責任パートナー
-
-A general partner has unlimited liability.
-無限責任パートナーは無限責任を負う。",uscpa REG
-limited partner,"有限責任パートナー
-
-A limited partner's liability is limited to the investment.
-有限責任パートナーの責任は出資額に限定される。",uscpa REG
-limited liability company (LLC),"有限責任会社(LLC)
-
-An LLC combines limited liability with flexibility.
-LLCは有限責任と柔軟性を併せ持つ。",uscpa REG
-sole proprietorship,"個人事業
-
-A sole proprietorship is not a separate entity.
-個人事業は独立した事業体ではない。",uscpa REG
-distribution,"(株主・組合員への)分配
-
-The partnership made a cash distribution.
-パートナーシップは現金分配を行った。",uscpa REG
-dividends-received deduction,"受取配当控除
-
-The corporation claimed the dividends-received deduction.
-その法人は受取配当控除を適用した。",uscpa REG
-contract,"契約
-
-A valid contract requires mutual assent.
-有効な契約には相互の合意が必要である。",uscpa REG
-offer,"申込み
-
-The offer was accepted without changes.
-その申込みは変更なく承諾された。",uscpa REG
-acceptance,"承諾
-
-Acceptance creates a binding contract.
-承諾により拘束力のある契約が成立する。",uscpa REG
-consideration,"約因
-
-Consideration is something of legal value.
-約因とは法的価値のあるものをいう。",uscpa REG
-breach of contract,"契約違反
-
-The seller's delay was a breach of contract.
-売主の遅延は契約違反であった。",uscpa REG
-damages,"損害賠償
-
-The buyer sued for damages.
-買主は損害賠償を求めて提訴した。",uscpa REG
-specific performance,"特定履行
-
-Specific performance may be granted for unique goods.
-特定履行は代替性のない物について認められ得る。",uscpa REG
-rescission,"契約の取消し(解除)
-
-The contract was canceled by rescission.
-その契約は取消しにより解消された。",uscpa REG
-misrepresentation,"不実表示
-
-The buyer relied on a misrepresentation.
-買主は不実表示を信頼した。",uscpa REG
-duress,"強迫
-
-A contract signed under duress is voidable.
-強迫の下で締結された契約は取消可能である。",uscpa REG
-undue influence,"不当威圧
-
-Undue influence makes the contract voidable.
-不当威圧があると契約は取消可能となる。",uscpa REG
-capacity,"行為能力
-
-Minors lack full contractual capacity.
-未成年者は完全な契約上の行為能力を欠く。",uscpa REG
-minor,"未成年者
-
-A minor may disaffirm the contract.
-未成年者は契約を取り消すことができる。",uscpa REG
-void contract,"無効な契約
-
-An illegal agreement is a void contract.
-違法な合意は無効な契約である。",uscpa REG
-voidable contract,"取消可能な契約
-
-A voidable contract can be canceled by one party.
-取消可能な契約は一方当事者が取り消せる。",uscpa REG
-statute of frauds,"詐欺防止法
-
-Contracts for land require a writing under the statute of frauds.
-土地の契約は詐欺防止法により書面が必要である。",uscpa REG
-parol evidence rule,"口頭証拠排除原則
-
-The parol evidence rule excludes prior oral statements.
-口頭証拠排除原則は事前の口頭合意を排除する。",uscpa REG
-assignment,"(権利の)譲渡
-
-The right to payment was transferred by assignment.
-支払を受ける権利は譲渡により移転した。",uscpa REG
-delegation,"(義務の)委譲
-
-Duties were transferred by delegation.
-義務は委譲により移転された。",uscpa REG
-third-party beneficiary,"第三者受益者
-
-The insurance contract named a third-party beneficiary.
-その保険契約は第三者受益者を指定した。",uscpa REG
-agency,"代理
-
-Agency allows one person to act for another.
-代理により他人のために行為することができる。",uscpa REG
-principal,"本人
-
-The principal is bound by the agent's authorized acts.
-本人は代理人の権限内の行為に拘束される。",uscpa REG
-agent,"代理人
-
-The agent signed the contract for the principal.
-代理人は本人のために契約に署名した。",uscpa REG
-apparent authority,"表見的権限(表見代理)
-
-Apparent authority arises from the principal's conduct.
-表見的権限は本人の行動から生じる。",uscpa REG
-fiduciary duty,"信認義務
-
-An agent owes a fiduciary duty to the principal.
-代理人は本人に対して信認義務を負う。",uscpa REG
-negligence,"過失
-
-Negligence requires a breach of duty of care.
-過失には注意義務違反が必要である。",uscpa REG
-statute of limitations,"出訴期限(時効)
-
-The claim was barred by the statute of limitations.
-その請求は出訴期限により妨げられた。",uscpa REG
-negotiable instrument,"流通証券
-
-A check is a negotiable instrument.
-小切手は流通証券である。",uscpa REG
-promissory note,"約束手形
-
-The borrower signed a promissory note.
-借主は約束手形に署名した。",uscpa REG
-endorsement,"裏書
-
-The check was transferred by endorsement.
-その小切手は裏書により譲渡された。",uscpa REG
-holder in due course,"正当所持人
-
-A holder in due course takes free of most defenses.
-正当所持人は多くの抗弁の対抗を受けない。",uscpa REG
-secured transaction,"担保付取引
-
-The loan was structured as a secured transaction.
-その貸付は担保付取引として組成された。",uscpa REG
-collateral,"担保物
-
-The equipment served as collateral.
-その設備が担保物となった。",uscpa REG
-perfection,"(担保権の)対抗要件の具備
-
-Perfection was achieved by filing a financing statement.
-担保権の対抗要件は登録書類の提出により具備された。",uscpa REG
-bankruptcy,"破産
-
-The debtor filed for bankruptcy.
-債務者は破産を申し立てた。",uscpa REG
-debtor,"債務者
-
-The debtor listed all creditors in the petition.
-債務者は申立書にすべての債権者を記載した。",uscpa REG
-creditor,"債権者
-
-Each creditor filed a claim.
-各債権者は債権の届出を行った。",uscpa REG
-lien,"リーエン(担保権・先取特権)
-
-The bank held a lien on the property.
-銀行はその不動産にリーエンを有していた。",uscpa REG
-surety,"保証人
-
-The surety is liable if the debtor defaults.
-債務者が不履行の場合は保証人が責任を負う。",uscpa REG
-registration statement,"(証券の)登録届出書
-
-The company filed a registration statement with the SEC.
-当社はSECに登録届出書を提出した。",uscpa REG
-prospectus,"目論見書
-
-Investors received the prospectus before purchase.
-投資家は購入前に目論見書を受け取った。",uscpa REG
-insider trading,"インサイダー取引
-
-Insider trading is prohibited by securities law.
-インサイダー取引は証券法により禁止されている。",uscpa REG
-Internal Revenue Code,"内国歳入法典
-
-The Internal Revenue Code governs federal taxation.
-内国歳入法典は連邦課税を規律する。",uscpa REG
-Internal Revenue Service (IRS),"内国歳入庁(IRS)
-
-The IRS examined the taxpayer's return.
-IRSは納税者の申告書を調査した。",uscpa REG
-tax audit,"税務調査
-
-The company was selected for a tax audit.
-当社は税務調査の対象に選ばれた。",uscpa REG
-tax evasion,"脱税
-
-Tax evasion is a criminal offense.
-脱税は犯罪である。",uscpa REG
-tax avoidance,"節税(租税回避)
-
-Legal tax avoidance uses available deductions.
-適法な節税は認められた控除を活用する。",uscpa REG
-penalty,"加算税(ペナルティ)
-
-A penalty was imposed for late filing.
-期限後申告に対して加算税が課された。",uscpa REG
-amended return,"修正申告書
-
-The taxpayer filed an amended return.
-納税者は修正申告書を提出した。",uscpa REG
-extension,"申告期限の延長
-
-An extension gives more time to file.
-期限延長により申告の時間が延びる。",uscpa REG
-dependent,"扶養親族
-
-The taxpayer claimed two dependents.
-納税者は2人の扶養親族を申告した。",uscpa REG
-qualifying child,"適格児童
-
-A qualifying child must meet the age test.
-適格児童は年齢要件を満たす必要がある。",uscpa REG
-head of household,"特定世帯主
-
-Head of household status offers lower rates.
-特定世帯主の申告資格には低い税率が適用される。",uscpa REG
-married filing jointly,"夫婦合算申告
-
-The couple chose married filing jointly.
-その夫婦は夫婦合算申告を選択した。",uscpa REG
-married filing separately,"夫婦個別申告
-
-Married filing separately may limit certain benefits.
-夫婦個別申告では一定の優遇が制限され得る。",uscpa REG
-wages,"給与
-
-Wages are subject to withholding.
-給与は源泉徴収の対象である。",uscpa REG
-self-employment income,"自営業所得
-
-Self-employment income is subject to self-employment tax.
-自営業所得には自営業税が課される。",uscpa REG
-fringe benefits,"付加給付(フリンジ・ベネフィット)
-
-Some fringe benefits are excluded from income.
-一部の付加給付は所得から除外される。",uscpa REG
-alimony,"離婚扶養料
-
-The tax treatment of alimony depends on the agreement date.
-離婚扶養料の課税関係は合意の時期による。",uscpa REG
-child support,"養育費
-
-Child support is not taxable to the recipient.
-養育費は受取人において課税されない。",uscpa REG
-scholarship,"奨学金
-
-A scholarship for tuition may be tax-free.
-授業料に充てる奨学金は非課税となり得る。",uscpa REG
-unemployment compensation,"失業給付
-
-Unemployment compensation is included in gross income.
-失業給付は総所得に含まれる。",uscpa REG
-social security benefits,"社会保障給付
-
-A portion of social security benefits may be taxable.
-社会保障給付の一部は課税対象となり得る。",uscpa REG
-municipal bond interest,"地方債利子
-
-Municipal bond interest is exempt from federal tax.
-地方債利子は連邦税が非課税である。",uscpa REG
-casualty loss,"災害損失
-
-The casualty loss resulted from the flood.
-その災害損失は洪水により生じた。",uscpa REG
-medical expenses,"医療費
-
-Medical expenses above the threshold are deductible.
-一定額を超える医療費は控除できる。",uscpa REG
-mortgage interest,"住宅ローン利子
-
-Mortgage interest is an itemized deduction.
-住宅ローン利子は項目別控除の対象である。",uscpa REG
-property tax,"固定資産税
-
-Property taxes were paid on the residence.
-住宅に固定資産税が支払われた。",uscpa REG
-charitable deduction,"寄付金控除
-
-The donation qualified for a charitable deduction.
-その寄付は寄付金控除の対象となった。",uscpa REG
-earned income credit,"勤労所得税額控除
-
-The earned income credit is refundable.
-勤労所得税額控除は還付可能である。",uscpa REG
-child tax credit,"児童税額控除
-
-The family claimed the child tax credit.
-その家族は児童税額控除を申告した。",uscpa REG
-foreign tax credit,"外国税額控除
-
-The foreign tax credit prevents double taxation.
-外国税額控除は二重課税を防止する。",uscpa REG
-corporate formation,"法人設立
-
-No gain is recognized on a qualifying corporate formation.
-要件を満たす法人設立では利得は認識されない。",uscpa REG
-boot,"ブート(交換差金)
-
-Receiving boot may trigger gain recognition.
-ブートの受領は利得の認識を生じさせ得る。",uscpa REG
-liquidation,"清算
-
-The corporation distributed assets in liquidation.
-その法人は清算により資産を分配した。",uscpa REG
-reorganization,"組織再編
-
-A tax-free reorganization requires continuity of interest.
-非課税の組織再編には持分の継続が必要である。",uscpa REG
-accumulated earnings tax,"留保金課税
-
-The accumulated earnings tax targets excessive retention.
-留保金課税は過剰な内部留保を対象とする。",uscpa REG
-personal holding company,"個人持株会社
-
-A personal holding company is subject to an additional tax.
-個人持株会社には追加の税が課される。",uscpa REG
-workers' compensation,"労災補償
-
-Workers' compensation benefits are excluded from income.
-労災補償給付は所得から除外される。",uscpa REG
-capital budgeting,"設備投資の経済性計算(資本予算)
-
-Capital budgeting evaluates long-term investments.
-資本予算は長期投資を評価する。",uscpa BAR
-net present value,"正味現在価値(NPV)
-
-The project has a positive net present value.
-そのプロジェクトの正味現在価値はプラスである。",uscpa BAR
-internal rate of return,"内部収益率(IRR)
-
-The internal rate of return exceeds the hurdle rate.
-内部収益率はハードル・レートを上回っている。",uscpa BAR
-payback period,"回収期間
-
-The payback period is three years.
-回収期間は3年である。",uscpa BAR
-cost of capital,"資本コスト
-
-Projects must earn more than the cost of capital.
-プロジェクトは資本コストを上回る収益を上げなければならない。",uscpa BAR
-cost of debt,"負債コスト
-
-The cost of debt reflects interest rates.
-負債コストは金利を反映する。",uscpa BAR
-cost of equity,"株主資本コスト
-
-The cost of equity exceeds the cost of debt.
-株主資本コストは負債コストより高い。",uscpa BAR
-weighted-average cost of capital,"加重平均資本コスト(WACC)
-
-The WACC is used as the discount rate.
-WACCは割引率として用いられる。",uscpa BAR
-leverage,"レバレッジ
-
-Higher leverage increases financial risk.
-レバレッジが高いほど財務リスクは増大する。",uscpa BAR
-liquidity,"流動性
-
-Liquidity measures the ability to pay short-term debts.
-流動性は短期債務の支払能力を測る。",uscpa BAR
-solvency,"支払能力
-
-Solvency concerns long-term financial stability.
-支払能力は長期の財務健全性に関わる。",uscpa BAR
-current ratio,"流動比率
-
-The current ratio is current assets divided by current liabilities.
-流動比率は流動資産を流動負債で割ったものである。",uscpa BAR
-quick ratio,"当座比率
-
-The quick ratio excludes inventory.
-当座比率は棚卸資産を除外する。",uscpa BAR
-debt-to-equity ratio,"負債資本比率
-
-The debt-to-equity ratio measures leverage.
-負債資本比率はレバレッジを測定する。",uscpa BAR
-inventory turnover,"棚卸資産回転率
-
-High inventory turnover indicates efficient sales.
-高い棚卸資産回転率は効率的な販売を示す。",uscpa BAR
-receivables turnover,"売上債権回転率
-
-Receivables turnover shows collection efficiency.
-売上債権回転率は回収の効率を示す。",uscpa BAR
-return on assets,"総資産利益率(ROA)
-
-Return on assets measures asset efficiency.
-ROAは資産の効率性を測定する。",uscpa BAR
-return on equity,"自己資本利益率(ROE)
-
-Return on equity measures shareholder returns.
-ROEは株主にとっての収益性を測定する。",uscpa BAR
-contribution margin,"貢献利益
-
-Contribution margin equals sales minus variable costs.
-貢献利益は売上高から変動費を差し引いた額である。",uscpa BAR
-break-even point,"損益分岐点
-
-Sales reached the break-even point in May.
-売上は5月に損益分岐点に達した。",uscpa BAR
-fixed costs,"固定費
-
-Rent is a typical fixed cost.
-家賃は典型的な固定費である。",uscpa BAR
-variable costs,"変動費
-
-Variable costs change with production volume.
-変動費は生産量に応じて変化する。",uscpa BAR
-mixed costs,"準変動費
-
-Utility costs are often mixed costs.
-水道光熱費はしばしば準変動費である。",uscpa BAR
-relevant range,"正常操業圏
-
-Cost behavior holds within the relevant range.
-原価の挙動は正常操業圏内で成立する。",uscpa BAR
-job order costing,"個別原価計算
-
-Custom products use job order costing.
-受注生産品には個別原価計算が用いられる。",uscpa BAR
-process costing,"総合原価計算
-
-Mass production uses process costing.
-大量生産には総合原価計算が用いられる。",uscpa BAR
-activity-based costing,"活動基準原価計算(ABC)
-
-Activity-based costing assigns overhead by activities.
-ABCは活動に基づいて間接費を配賦する。",uscpa BAR
-standard costing,"標準原価計算
-
-Standard costing compares actual and standard costs.
-標準原価計算は実際原価と標準原価を比較する。",uscpa BAR
-manufacturing overhead,"製造間接費
-
-Manufacturing overhead is applied to products.
-製造間接費は製品に配賦される。",uscpa BAR
-direct materials,"直接材料費
-
-Direct materials are traced to each product.
-直接材料費は各製品に直課される。",uscpa BAR
-direct labor,"直接労務費
-
-Direct labor hours were used to apply overhead.
-間接費の配賦には直接作業時間が用いられた。",uscpa BAR
-absorption costing,"全部原価計算
-
-Absorption costing includes fixed overhead in inventory.
-全部原価計算では固定間接費が棚卸資産に含まれる。",uscpa BAR
-variable costing,"直接原価計算
-
-Variable costing treats fixed overhead as a period cost.
-直接原価計算では固定間接費を期間原価として扱う。",uscpa BAR
-master budget,"総合予算
-
-The master budget covers the entire year.
-総合予算は年度全体を対象とする。",uscpa BAR
-flexible budget,"変動予算
-
-A flexible budget adjusts for actual volume.
-変動予算は実際の操業度に合わせて調整される。",uscpa BAR
-variance analysis,"差異分析
-
-Variance analysis explains budget deviations.
-差異分析は予算との乖離を説明する。",uscpa BAR
-favorable variance,"有利差異
-
-Lower costs produced a favorable variance.
-原価の低下により有利差異が生じた。",uscpa BAR
-unfavorable variance,"不利差異
-
-The price increase caused an unfavorable variance.
-価格上昇により不利差異が生じた。",uscpa BAR
-balanced scorecard,"バランスト・スコアカード
-
-The balanced scorecard includes nonfinancial measures.
-バランスト・スコアカードは非財務指標を含む。",uscpa BAR
-benchmarking,"ベンチマーキング
-
-Benchmarking compares performance with industry leaders.
-ベンチマーキングは業界のリーダーと業績を比較する。",uscpa BAR
-economies of scale,"規模の経済
-
-Economies of scale lower unit costs.
-規模の経済は単位当たりコストを下げる。",uscpa BAR
-supply and demand,"需要と供給
-
-Prices are determined by supply and demand.
-価格は需要と供給によって決まる。",uscpa BAR
-elasticity,"(需要の)弾力性
-
-Demand elasticity measures sensitivity to price.
-需要の弾力性は価格への感応度を測る。",uscpa BAR
-inflation,"インフレーション
-
-Inflation reduces purchasing power.
-インフレーションは購買力を低下させる。",uscpa BAR
-gross domestic product,"国内総生産(GDP)
-
-GDP measures total economic output.
-GDPは経済全体の産出を測定する。",uscpa BAR
-monetary policy,"金融政策
-
-The central bank tightened monetary policy.
-中央銀行は金融政策を引き締めた。",uscpa BAR
-fiscal policy,"財政政策
-
-Fiscal policy involves government spending and taxes.
-財政政策は政府支出と税を扱う。",uscpa BAR
-business cycle,"景気循環
-
-The economy moves through the business cycle.
-経済は景気循環を経て変動する。",uscpa BAR
-recession,"景気後退
-
-Demand fell during the recession.
-景気後退の間に需要が減少した。",uscpa BAR
-working capital,"運転資本
-
-Working capital equals current assets minus current liabilities.
-運転資本は流動資産から流動負債を差し引いた額である。",uscpa BAR
-regression analysis,"回帰分析
-
-Regression analysis estimates cost behavior.
-回帰分析は原価の挙動を推定する。",uscpa BAR
-correlation,"相関
-
-A strong correlation was found between the variables.
-変数間に強い相関が見られた。",uscpa BAR
-forecasting,"予測
-
-Sales forecasting supports budgeting.
-売上予測は予算編成を支える。",uscpa BAR
-sensitivity analysis,"感応度分析
-
-Sensitivity analysis tests changes in assumptions.
-感応度分析は前提条件の変化を検証する。",uscpa BAR
-scenario analysis,"シナリオ分析
-
-Scenario analysis considers multiple outcomes.
-シナリオ分析は複数の結果を検討する。",uscpa BAR
-discounted cash flow,"割引キャッシュ・フロー
-
-The valuation used a discounted cash flow model.
-その評価には割引キャッシュ・フロー・モデルが用いられた。",uscpa BAR
-free cash flow,"フリー・キャッシュ・フロー
-
-Free cash flow is available to investors.
-フリー・キャッシュ・フローは投資家に帰属する。",uscpa BAR
-terminal value,"継続価値(ターミナル・バリュー)
-
-Terminal value captures cash flows beyond the forecast.
-継続価値は予測期間後のキャッシュ・フローを表す。",uscpa BAR
-hurdle rate,"ハードル・レート(最低要求収益率)
-
-Projects below the hurdle rate are rejected.
-ハードル・レートを下回るプロジェクトは棄却される。",uscpa BAR
-profitability index,"収益性指数
-
-The profitability index ranks competing projects.
-収益性指数は競合するプロジェクトを順位づける。",uscpa BAR
-opportunity cost,"機会費用
-
-Opportunity cost is the benefit of the next best alternative.
-機会費用は次善の選択肢から得られたはずの便益である。",uscpa BAR
-sunk cost,"埋没原価
-
-Sunk costs are irrelevant to future decisions.
-埋没原価は将来の意思決定に無関連である。",uscpa BAR
-relevant cost,"関連原価
-
-Only relevant costs affect the decision.
-意思決定に影響するのは関連原価のみである。",uscpa BAR
-incremental cost,"増分原価
-
-The incremental cost of the order was low.
-その注文の増分原価は低かった。",uscpa BAR
-avoidable cost,"回避可能原価
-
-Avoidable costs disappear if the segment is dropped.
-回避可能原価は事業部門の廃止により消滅する。",uscpa BAR
-make-or-buy decision,"自製か購入かの意思決定
-
-The make-or-buy decision compared internal and external costs.
-自製か購入かの意思決定では内外の原価が比較された。",uscpa BAR
-transfer pricing,"振替価格
-
-Transfer pricing affects divisional profits.
-振替価格は事業部利益に影響する。",uscpa BAR
-target costing,"原価企画(目標原価計算)
-
-Target costing starts from the market price.
-原価企画は市場価格から出発する。",uscpa BAR
-residual income,"残余利益
-
-Residual income deducts a capital charge from profit.
-残余利益は利益から資本コスト相当額を控除する。",uscpa BAR
-economic value added,"経済的付加価値(EVA)
-
-Economic value added measures value creation.
-EVAは価値創造を測定する。",uscpa BAR
-horizontal analysis,"趨勢分析(水平分析)
-
-Horizontal analysis compares amounts across years.
-水平分析は金額を年度間で比較する。",uscpa BAR
-vertical analysis,"構成比分析(垂直分析)
-
-Vertical analysis expresses items as percentages of sales.
-垂直分析は各項目を売上高に対する比率で表す。",uscpa BAR
-common-size financial statements,"百分率財務諸表
-
-Common-size statements aid comparison between firms.
-百分率財務諸表は企業間比較に役立つ。",uscpa BAR
-ratio analysis,"財務比率分析
-
-Ratio analysis summarizes financial performance.
-財務比率分析は財務業績を要約する。",uscpa BAR
-key performance indicator,"重要業績評価指標(KPI)
-
-Each division reports its key performance indicators.
-各事業部は重要業績評価指標を報告する。",uscpa BAR
-value chain,"価値連鎖(バリュー・チェーン)
-
-The value chain covers design through customer service.
-バリュー・チェーンは設計から顧客サービスまでを含む。",uscpa BAR
-just-in-time,"ジャスト・イン・タイム
-
-Just-in-time reduces inventory levels.
-ジャスト・イン・タイムは在庫水準を削減する。",uscpa BAR
-total quality management,"総合的品質管理
-
-Total quality management focuses on continuous improvement.
-総合的品質管理は継続的改善に焦点を当てる。",uscpa BAR
-corporate governance,"コーポレート・ガバナンス
-
-Strong corporate governance protects shareholders.
-健全なコーポレート・ガバナンスは株主を保護する。",uscpa BAR
-board of directors,"取締役会
-
-The board of directors approved the budget.
-取締役会は予算を承認した。",uscpa BAR
-information systems,"情報システム
-
-Information systems support financial reporting.
-情報システムは財務報告を支える。",uscpa ISC
-internal control over financial reporting,"財務報告に係る内部統制
-
-Management assesses internal control over financial reporting.
-経営者は財務報告に係る内部統制を評価する。",uscpa ISC
-COSO framework,"COSOフレームワーク
-
-The COSO framework has five components.
-COSOフレームワークは5つの構成要素からなる。",uscpa ISC
-enterprise risk management,"全社的リスク管理(ERM)
-
-Enterprise risk management addresses risks across the organization.
-ERMは組織全体のリスクを扱う。",uscpa ISC
-access control,"アクセス制御
-
-Access controls restrict who can view the data.
-アクセス制御はデータを閲覧できる者を制限する。",uscpa ISC
-encryption,"暗号化
-
-Sensitive data is protected by encryption.
-機密データは暗号化により保護される。",uscpa ISC
-firewall,"ファイアウォール
-
-The firewall blocks unauthorized network traffic.
-ファイアウォールは不正な通信を遮断する。",uscpa ISC
-authentication,"認証
-
-Authentication verifies the user's identity.
-認証は利用者の身元を確認する。",uscpa ISC
-authorization,"(システムの)権限付与
-
-Authorization determines what each user can do.
-権限付与は各利用者ができる操作を決める。",uscpa ISC
-backup,"バックアップ
-
-Backups are performed every night.
-バックアップは毎晩実行される。",uscpa ISC
-disaster recovery plan,"災害復旧計画
-
-The disaster recovery plan was tested last quarter.
-災害復旧計画は前四半期にテストされた。",uscpa ISC
-business continuity plan,"事業継続計画(BCP)
-
-The business continuity plan keeps operations running.
-事業継続計画は業務の継続を確保する。",uscpa ISC
-data integrity,"データ完全性
-
-Validation checks protect data integrity.
-検証チェックはデータ完全性を守る。",uscpa ISC
-confidentiality,"機密性
-
-Confidentiality prevents unauthorized disclosure.
-機密性は不正な開示を防止する。",uscpa ISC
-availability,"可用性
-
-Availability ensures systems are accessible when needed.
-可用性は必要時にシステムを利用できることを保証する。",uscpa ISC
-change management,"変更管理
-
-Program changes follow the change management process.
-プログラムの変更は変更管理プロセスに従う。",uscpa ISC
-IT general controls,"IT全般統制
-
-IT general controls support application controls.
-IT全般統制は業務処理統制を支える。",uscpa ISC
-application controls,"業務処理統制(アプリケーション統制)
-
-Application controls check individual transactions.
-業務処理統制は個々の取引をチェックする。",uscpa ISC
-cybersecurity,"サイバーセキュリティ
-
-Cybersecurity protects systems from attacks.
-サイバーセキュリティは攻撃からシステムを守る。",uscpa ISC
-phishing,"フィッシング
-
-Employees were trained to recognize phishing emails.
-従業員はフィッシング・メールを見分ける訓練を受けた。",uscpa ISC
-audit trail,"監査証跡
-
-The audit trail records every change to the data.
-監査証跡はデータへのすべての変更を記録する。",uscpa ISC
-System and Organization Controls (SOC) report,"SOC報告書
-
-The service provider issued a SOC report.
-サービス提供者はSOC報告書を発行した。",uscpa ISC
-logical access,"論理的アクセス
-
-Logical access is controlled with user IDs.
-論理的アクセスはユーザーIDで管理される。",uscpa ISC
-physical access controls,"物理的アクセス管理
-
-Physical access controls protect the data center.
-物理的アクセス管理はデータセンターを保護する。",uscpa ISC
-multi-factor authentication,"多要素認証
-
-Multi-factor authentication adds a second verification step.
-多要素認証は第二の確認手順を追加する。",uscpa ISC
-password policy,"パスワード・ポリシー
-
-The password policy requires regular updates.
-パスワード・ポリシーは定期的な更新を求める。",uscpa ISC
-privileged access,"特権アクセス
-
-Privileged access is limited to administrators.
-特権アクセスは管理者に限定される。",uscpa ISC
-patch management,"パッチ管理
-
-Patch management fixes known vulnerabilities.
-パッチ管理は既知の脆弱性を修正する。",uscpa ISC
-vulnerability assessment,"脆弱性評価
-
-A vulnerability assessment was performed on the network.
-ネットワークの脆弱性評価が実施された。",uscpa ISC
-penetration testing,"ペネトレーション・テスト(侵入テスト)
-
-Penetration testing simulates real attacks.
-侵入テストは実際の攻撃を模擬する。",uscpa ISC
-intrusion detection system,"侵入検知システム
-
-The intrusion detection system flagged unusual activity.
-侵入検知システムが異常な動きを検知した。",uscpa ISC
-malware,"マルウェア
-
-Malware was found on the workstation.
-その端末でマルウェアが発見された。",uscpa ISC
-ransomware,"ランサムウェア
-
-Ransomware encrypts files and demands payment.
-ランサムウェアはファイルを暗号化し支払を要求する。",uscpa ISC
-social engineering,"ソーシャル・エンジニアリング
-
-Social engineering exploits human trust.
-ソーシャル・エンジニアリングは人の信頼につけ込む。",uscpa ISC
-denial-of-service attack,"サービス妨害攻撃(DoS攻撃)
-
-The denial-of-service attack overwhelmed the server.
-DoS攻撃によりサーバーが過負荷になった。",uscpa ISC
-data breach,"データ漏えい
-
-The data breach exposed customer records.
-データ漏えいにより顧客記録が流出した。",uscpa ISC
-incident response,"インシデント対応
-
-The incident response plan assigns clear roles.
-インシデント対応計画は明確な役割を定める。",uscpa ISC
-cloud computing,"クラウド・コンピューティング
-
-The company moved its systems to cloud computing.
-当社はシステムをクラウドに移行した。",uscpa ISC
-software as a service (SaaS),"SaaS(サービスとしてのソフトウェア)
-
-The accounting system is provided as SaaS.
-その会計システムはSaaSとして提供されている。",uscpa ISC
-outsourcing,"外部委託
-
-Payroll processing was outsourced to a vendor.
-給与計算は外部業者に委託された。",uscpa ISC
-service organization,"受託会社
-
-The service organization processes transactions for clients.
-受託会社は顧客のために取引を処理する。",uscpa ISC
-batch processing,"バッチ処理
-
-Payroll runs use batch processing.
-給与計算はバッチ処理で実行される。",uscpa ISC
-real-time processing,"リアルタイム処理
-
-Online sales use real-time processing.
-オンライン販売はリアルタイム処理を用いる。",uscpa ISC
-database management system,"データベース管理システム
-
-The database management system stores transaction data.
-データベース管理システムは取引データを保存する。",uscpa ISC
-data warehouse,"データウェアハウス
-
-The data warehouse supports management reporting.
-データウェアハウスは経営報告を支える。",uscpa ISC
-data analytics,"データ分析
-
-Data analytics identified unusual journal entries.
-データ分析により異常な仕訳が特定された。",uscpa ISC
-artificial intelligence,"人工知能(AI)
-
-Artificial intelligence assists with document review.
-AIは文書レビューを支援する。",uscpa ISC
-robotic process automation (RPA),"RPA(ロボティック・プロセス・オートメーション)
-
-RPA automates repetitive tasks.
-RPAは反復作業を自動化する。",uscpa ISC
-blockchain,"ブロックチェーン
-
-Blockchain creates a shared transaction record.
-ブロックチェーンは共有された取引記録を作る。",uscpa ISC
-electronic data interchange (EDI),"電子データ交換(EDI)
-
-Orders are exchanged with suppliers through EDI.
-注文はEDIを通じて仕入先とやり取りされる。",uscpa ISC
-tax planning,"タックス・プランニング(税務計画)
-
-Tax planning arranges affairs to reduce taxes legally.
-タックス・プランニングは適法に税負担を軽減するよう物事を整える。",uscpa TCP
-gift tax exclusion,"贈与税の年間非課税枠
-
-Gifts within the annual exclusion are not taxed.
-年間非課税枠内の贈与には課税されない。",uscpa TCP
-qualified retirement plan,"適格退職年金制度
-
-Contributions to a qualified retirement plan are deductible.
-適格退職年金制度への拠出は控除できる。",uscpa TCP
-individual retirement account (IRA),"個人退職勘定(IRA)
-
-The taxpayer contributed to an IRA.
-納税者はIRAに拠出した。",uscpa TCP
-traditional IRA,"伝統的IRA(税引前拠出型)
-
-Traditional IRA contributions may be deductible.
-伝統的IRAへの拠出は控除できる場合がある。",uscpa TCP
-Roth IRA,"ロスIRA(税引後拠出型)
-
-Qualified Roth IRA withdrawals are tax-free.
-ロスIRAからの適格な引出しは非課税である。",uscpa TCP
-rollover,"(退職資金の)移管(ロールオーバー)
-
-The funds were moved by a direct rollover.
-資金は直接ロールオーバーにより移管された。",uscpa TCP
-required minimum distribution,"最低引出義務額(RMD)
-
-Required minimum distributions begin at the specified age.
-最低引出義務額の引出しは所定の年齢から始まる。",uscpa TCP
-deferred compensation,"繰延報酬
-
-Deferred compensation is taxed when received.
-繰延報酬は受領時に課税される。",uscpa TCP
-stock option,"ストック・オプション
-
-The employee exercised the stock options.
-その従業員はストック・オプションを行使した。",uscpa TCP
-charitable contribution,"慈善寄付
-
-The charitable contribution was made in December.
-慈善寄付は12月に行われた。",uscpa TCP
-tax-exempt organization,"非課税団体
-
-The charity qualifies as a tax-exempt organization.
-その慈善団体は非課税団体に該当する。",uscpa TCP
-estimated tax payments,"予定納税額の納付
-
-Estimated tax payments are made quarterly.
-予定納税は四半期ごとに納付される。",uscpa TCP
-passive income,"受動的所得
-
-Passive income includes rental earnings.
-受動的所得には賃貸収入が含まれる。",uscpa TCP
-ordinary income,"通常所得
-
-Wages are taxed as ordinary income.
-給与は通常所得として課税される。",uscpa TCP
-tax bracket,"税率区分
-
-The bonus pushed the taxpayer into a higher tax bracket.
-賞与により納税者はより高い税率区分に入った。",uscpa TCP
-marginal tax rate,"限界税率
-
-The marginal tax rate applies to the next dollar earned.
-限界税率は追加的な所得に適用される。",uscpa TCP
-effective tax rate,"実効税率
-
-The effective tax rate is total tax divided by income.
-実効税率は税額合計を所得で割ったものである。",uscpa TCP
-gross estate,"総遺産
-
-The gross estate includes all property owned at death.
-総遺産には死亡時に保有していたすべての財産が含まれる。",uscpa TCP
-taxable estate,"課税遺産
-
-The taxable estate is the gross estate less deductions.
-課税遺産は総遺産から控除を差し引いた額である。",uscpa TCP
-unified credit,"統一移転税額控除
-
-The unified credit offsets estate and gift taxes.
-統一移転税額控除は遺産税と贈与税を相殺する。",uscpa TCP
-marital deduction,"配偶者控除(遺産・贈与税)
-
-The marital deduction allows unlimited transfers to a spouse.
-配偶者控除により配偶者への移転は無制限に控除される。",uscpa TCP
-generation-skipping transfer tax,"世代飛越移転税
-
-The generation-skipping transfer tax applies to gifts to grandchildren.
-世代飛越移転税は孫への贈与などに適用される。",uscpa TCP
-grantor,"(信託の)委託者
-
-The grantor transferred assets into the trust.
-委託者は信託に資産を移転した。",uscpa TCP
-revocable trust,"撤回可能信託
-
-A revocable trust can be changed by the grantor.
-撤回可能信託は委託者が変更できる。",uscpa TCP
-irrevocable trust,"撤回不能信託
-
-An irrevocable trust generally cannot be amended.
-撤回不能信託は原則として変更できない。",uscpa TCP
-simple trust,"単純信託
-
-A simple trust must distribute all its income.
-単純信託はすべての収益を分配しなければならない。",uscpa TCP
-complex trust,"複合信託
-
-A complex trust may accumulate income.
-複合信託は収益を留保できる。",uscpa TCP
-distributable net income,"分配可能純利益(DNI)
-
-Distributable net income limits the distribution deduction.
-DNIは分配控除の上限となる。",uscpa TCP
-qualified dividend,"適格配当
-
-Qualified dividends are taxed at capital gain rates.
-適格配当は譲渡益と同じ税率で課税される。",uscpa TCP
-net investment income tax,"純投資所得税
-
-High earners may owe the net investment income tax.
-高所得者には純投資所得税が課され得る。",uscpa TCP
-wash sale,"ウォッシュ・セール(買戻しによる損失否認)
-
-The loss was disallowed under the wash sale rules.
-その損失はウォッシュ・セール・ルールにより否認された。",uscpa TCP
-worthless securities,"無価値化した有価証券
-
-Worthless securities are treated as sold at year-end.
-無価値化した有価証券は期末に売却されたものとして扱われる。",uscpa TCP
-home sale exclusion,"自宅売却益の非課税特例
-
-The home sale exclusion sheltered the gain.
-自宅売却益の非課税特例により利得は課税されなかった。",uscpa TCP
-installment sale,"割賦販売(税務)
-
-Gain is spread over the years in an installment sale.
-割賦販売では利得が複数年に配分される。",uscpa TCP
-involuntary conversion,"非自発的転換(収用等)
-
-Gain from an involuntary conversion may be deferred.
-非自発的転換による利得は課税繰延べが可能である。",uscpa TCP
-Section 1231 property,"1231条資産(事業用資産)
-
-Section 1231 property includes business real estate.
-1231条資産には事業用不動産が含まれる。",uscpa TCP
-at-risk rules,"リスク負担額ルール
-
-The at-risk rules limit deductible losses.
-リスク負担額ルールは控除できる損失を制限する。",uscpa TCP
-passive activity loss,"受動的活動損失
-
-Passive activity losses offset only passive income.
-受動的活動損失は受動的所得としか相殺できない。",uscpa TCP
-material participation,"実質的関与
-
-Material participation makes the activity nonpassive.
-実質的関与があれば活動は受動的でなくなる。",uscpa TCP
-partnership interest,"パートナーシップ持分
-
-The partner sold her partnership interest.
-そのパートナーはパートナーシップ持分を売却した。",uscpa TCP
-guaranteed payments,"(パートナーへの)保証支払
-
-Guaranteed payments are made regardless of profits.
-保証支払は損益にかかわらず行われる。",uscpa TCP
-basis adjustment,"ベーシスの調整
-
-Distributions require a basis adjustment.
-分配があるとベーシスの調整が必要となる。",uscpa TCP
-health savings account (HSA),"医療貯蓄口座(HSA)
-
-Contributions to an HSA are deductible.
-HSAへの拠出は控除できる。",uscpa TCP
-529 plan,"529プラン(教育資金積立制度)
-
-A 529 plan saves for education expenses.
-529プランは教育費のための積立制度である。",uscpa TCP
-kiddie tax,"未成年者投資所得課税(キディ・タックス)
-
-The kiddie tax applies to a child's investment income.
-キディ・タックスは子どもの投資所得に適用される。",uscpa TCP
-foreign earned income exclusion,"国外勤労所得の非課税措置
-
-The expatriate claimed the foreign earned income exclusion.
-その海外駐在員は国外勤労所得の非課税措置を適用した。",uscpa TCP
-tax year,"課税年度
-
-Most individuals use the calendar tax year.
-ほとんどの個人は暦年を課税年度とする。",uscpa TCP
-accrual method (tax),"(税務上の)発生主義
-
-Large corporations must use the accrual method.
-大法人は発生主義の使用が義務づけられる。",uscpa TCP
-cash method (tax),"(税務上の)現金主義
-
-Small businesses often use the cash method.
-小規模事業者は現金主義を用いることが多い。",uscpa TCP
-current portion of long-term debt,"1年内返済予定の長期負債
-
-The current portion of long-term debt is reclassified each year.
-1年内返済予定の長期負債は毎年振り替えられる。",uscpa FAR
-income tax payable,"未払法人税等
-
-Income tax payable is settled after year-end.
-未払法人税等は期末後に納付される。",uscpa FAR
-dividends payable,"未払配当金
-
-Dividends payable arise when dividends are declared.
-未払配当金は配当宣言時に生じる。",uscpa FAR
-accounting equation,"会計等式
-
-The accounting equation states that assets equal liabilities plus equity.
-会計等式は資産が負債と資本の合計に等しいことを示す。",uscpa FAR
-posting,"転記
-
-Journal entries are posted to the ledger.
-仕訳は元帳に転記される。",uscpa FAR
-worksheet,"精算表
-
-The worksheet organizes the adjusting process.
-精算表は決算整理の過程を整理する。",uscpa FAR
-reversing entries,"再振替仕訳
-
-Reversing entries are made at the start of the period.
-再振替仕訳は期首に行われる。",uscpa FAR
-permanent accounts,"実在勘定
-
-Permanent accounts carry balances into the next period.
-実在勘定の残高は次期に繰り越される。",uscpa FAR
-temporary accounts,"名目勘定
-
-Temporary accounts are closed at year-end.
-名目勘定は期末に締め切られる。",uscpa FAR
-normal balance,"正常残高
-
-The normal balance of an asset is a debit.
-資産の正常残高は借方である。",uscpa FAR
-source documents,"原始証憑
-
-Source documents support each journal entry.
-原始証憑は各仕訳を裏付ける。",uscpa FAR
-invoice,"請求書(送り状)
-
-The invoice shows the amount due.
-請求書は支払額を示す。",uscpa FAR
-purchase order,"注文書
-
-A purchase order was issued to the supplier.
-仕入先に注文書が発行された。",uscpa FAR
-receiving report,"検収報告書
-
-The receiving report confirms the goods arrived.
-検収報告書は商品の到着を確認する。",uscpa FAR
-credit memo,"貸方票(値引・返品通知)
-
-A credit memo was issued for the returned goods.
-返品に対して貸方票が発行された。",uscpa FAR
-NSF check,"不渡小切手
-
-The NSF check was returned by the bank.
-不渡小切手が銀行から返却された。",uscpa FAR
-bank service charge,"銀行手数料
-
-Bank service charges appear on the statement.
-銀行手数料は取引明細書に表示される。",uscpa FAR
-aging of receivables,"売上債権の年齢分析
-
-The aging of receivables estimates uncollectible amounts.
-売上債権の年齢分析は回収不能額を見積もる。",uscpa FAR
-percentage of sales method,"売上高比率法
-
-Bad debts were estimated by the percentage of sales method.
-貸倒れは売上高比率法で見積もられた。",uscpa FAR
-direct write-off method,"直接償却法
-
-The direct write-off method is not GAAP for material amounts.
-直接償却法は金額が重要な場合はGAAPに反する。",uscpa FAR
-cash discount,"現金割引
-
-A cash discount encourages early payment.
-現金割引は早期の支払を促す。",uscpa FAR
-trade discount,"数量値引(取引割引)
-
-Trade discounts are deducted before recording sales.
-取引割引は売上計上前に控除される。",uscpa FAR
-moving average method,"移動平均法
-
-The moving average method updates unit cost after each purchase.
-移動平均法は仕入の都度単価を更新する。",uscpa FAR
-LIFO reserve,"LIFO評価差額(LIFOリザーブ)
-
-The LIFO reserve reconciles LIFO and FIFO inventory.
-LIFOリザーブはLIFOとFIFOの棚卸資産を調整する。",uscpa FAR
-LIFO liquidation,"LIFO層の食い込み(LIFO清算)
-
-A LIFO liquidation released old low-cost layers.
-LIFO清算により古い低原価の層が払い出された。",uscpa FAR
-purchase commitments,"仕入契約(購入予約)
-
-Losses on purchase commitments are recognized when probable.
-仕入契約の損失は発生の可能性が高い場合に認識される。",uscpa FAR
-capitalized interest,"利息の資産化(資本化利息)
-
-Interest was capitalized during construction.
-建設期間中の利息は資産化された。",uscpa FAR
-nonmonetary exchange,"非貨幣性資産の交換
-
-The trucks were traded in a nonmonetary exchange.
-トラックは非貨幣性資産の交換で取引された。",uscpa FAR
-commercial substance,"経済的実質
-
-The exchange had commercial substance.
-その交換取引には経済的実質があった。",uscpa FAR
-goodwill impairment,"のれんの減損
-
-A goodwill impairment loss was recognized.
-のれんの減損損失が認識された。",uscpa FAR
-indefinite-lived intangible asset,"耐用年数を確定できない無形資産
-
-Indefinite-lived intangibles are tested annually for impairment.
-耐用年数を確定できない無形資産は毎年減損テストを受ける。",uscpa FAR
-internally developed software,"自社開発ソフトウェア
-
-Certain costs of internally developed software are capitalized.
-自社開発ソフトウェアの一定の原価は資産計上される。",uscpa FAR
-significant influence,"重要な影響力
-
-Significant influence is presumed at 20 percent ownership.
-重要な影響力は20パーセントの持分で推定される。",uscpa FAR
-variable interest entity,"変動持分事業体(VIE)
-
-The variable interest entity was consolidated.
-その変動持分事業体は連結された。",uscpa FAR
-primary beneficiary,"主たる受益者
-
-The primary beneficiary consolidates the VIE.
-主たる受益者はVIEを連結する。",uscpa FAR
-functional currency,"機能通貨
-
-The subsidiary's functional currency is the euro.
-その子会社の機能通貨はユーロである。",uscpa FAR
-reporting currency,"報告通貨
-
-The reporting currency of the group is the dollar.
-グループの報告通貨はドルである。",uscpa FAR
-remeasurement,"(外貨の)再測定
-
-Remeasurement gains are reported in net income.
-再測定による利得は純利益に計上される。",uscpa FAR
-translation adjustment,"為替換算調整額
-
-The translation adjustment is reported in OCI.
-為替換算調整額はその他の包括利益に計上される。",uscpa FAR
-forward contract,"先渡契約
-
-A forward contract fixes the future exchange rate.
-先渡契約は将来の為替レートを固定する。",uscpa FAR
-futures contract,"先物契約
-
-Futures contracts are traded on exchanges.
-先物契約は取引所で売買される。",uscpa FAR
-option contract,"オプション契約
-
-An option contract gives the right but not the obligation.
-オプション契約は義務ではなく権利を与える。",uscpa FAR
-swap,"スワップ
-
-The company entered into an interest rate swap.
-当社は金利スワップ契約を締結した。",uscpa FAR
-fair value hedge,"公正価値ヘッジ
-
-A fair value hedge offsets changes in asset values.
-公正価値ヘッジは資産価値の変動を相殺する。",uscpa FAR
-cash flow hedge,"キャッシュ・フロー・ヘッジ
-
-Gains on a cash flow hedge are deferred in OCI.
-キャッシュ・フロー・ヘッジの利得はOCIで繰り延べられる。",uscpa FAR
-notional amount,"想定元本
-
-The swap has a notional amount of one million dollars.
-そのスワップの想定元本は100万ドルである。",uscpa FAR
-embedded derivative,"組込デリバティブ
-
-The contract contained an embedded derivative.
-その契約には組込デリバティブが含まれていた。",uscpa FAR
-fair value hierarchy,"公正価値ヒエラルキー
-
-The fair value hierarchy has three levels.
-公正価値ヒエラルキーは3つのレベルからなる。",uscpa FAR
-exit price,"出口価格
-
-Fair value is based on the exit price.
-公正価値は出口価格に基づく。",uscpa FAR
-principal market,"主要な市場
-
-Fair value assumes a sale in the principal market.
-公正価値は主要な市場での売却を想定する。",uscpa FAR
-highest and best use,"最有効使用
-
-Nonfinancial assets are valued at their highest and best use.
-非金融資産は最有効使用を前提に評価される。",uscpa FAR
-operating segment,"事業セグメント
-
-Each operating segment has discrete financial information.
-各事業セグメントは区分された財務情報を有する。",uscpa FAR
-reportable segment,"報告セグメント
-
-A reportable segment meets a quantitative threshold.
-報告セグメントは量的基準を満たす。",uscpa FAR
-chief operating decision maker,"最高経営意思決定者
-
-Segments are based on the chief operating decision maker's view.
-セグメントは最高経営意思決定者の視点に基づく。",uscpa FAR
-basic earnings per share,"基本的1株当たり利益
-
-Basic earnings per share ignores dilutive securities.
-基本的1株当たり利益は希薄化証券を考慮しない。",uscpa FAR
-weighted-average shares outstanding,"加重平均発行済株式数
-
-EPS uses weighted-average shares outstanding.
-1株当たり利益は加重平均発行済株式数を用いる。",uscpa FAR
-antidilutive,"逆希薄化効果のある
-
-Antidilutive securities are excluded from diluted EPS.
-逆希薄化効果のある証券は希薄化後EPSから除外される。",uscpa FAR
-treasury stock method,"自己株式方式
-
-Options are included using the treasury stock method.
-オプションは自己株式方式で計算に含められる。",uscpa FAR
-if-converted method,"転換仮定方式
-
-Convertible bonds are tested with the if-converted method.
-転換社債は転換仮定方式で検討される。",uscpa FAR
-share-based payment,"株式報酬
-
-Share-based payment is measured at grant-date fair value.
-株式報酬は付与日の公正価値で測定される。",uscpa FAR
-grant date,"付与日
-
-The options were valued at the grant date.
-オプションは付与日に評価された。",uscpa FAR
-vesting period,"権利確定期間
-
-Compensation cost is recognized over the vesting period.
-報酬費用は権利確定期間にわたり認識される。",uscpa FAR
-compensation expense,"報酬費用
-
-Compensation expense was recorded for the stock awards.
-株式報酬について報酬費用が計上された。",uscpa FAR
-par value,"額面価額
-
-The stock has a par value of one dollar.
-その株式の額面価額は1ドルである。",uscpa FAR
-appropriation of retained earnings,"利益剰余金の処分
-
-An appropriation of retained earnings restricts dividends.
-利益剰余金の処分は配当を制限する。",uscpa FAR
-deficit,"欠損金
-
-Years of losses produced a deficit.
-長年の損失により欠損金が生じた。",uscpa FAR
-property dividend,"現物配当
-
-The property dividend was recorded at fair value.
-現物配当は公正価値で記録された。",uscpa FAR
-cumulative preferred stock,"累積的優先株式
-
-Dividends in arrears attach to cumulative preferred stock.
-累積的優先株式には未払配当が累積する。",uscpa FAR
-book value per share,"1株当たり純資産
-
-Book value per share is equity divided by shares outstanding.
-1株当たり純資産は資本を発行済株式数で割ったものである。",uscpa FAR
-projected benefit obligation,"予測給付債務
-
-The projected benefit obligation reflects future salary increases.
-予測給付債務は将来の昇給を反映する。",uscpa FAR
-plan assets,"年金資産
-
-Plan assets are measured at fair value.
-年金資産は公正価値で測定される。",uscpa FAR
-service cost,"勤務費用
-
-Service cost increases the pension obligation.
-勤務費用は年金債務を増加させる。",uscpa FAR
-interest cost,"利息費用
-
-Interest cost accrues on the benefit obligation.
-利息費用は給付債務に対して発生する。",uscpa FAR
-prior service cost,"過去勤務費用
-
-The plan amendment created prior service cost.
-制度改訂により過去勤務費用が生じた。",uscpa FAR
-actuarial gains and losses,"数理計算上の差異
-
-Actuarial gains and losses arise from changed assumptions.
-数理計算上の差異は前提条件の変更から生じる。",uscpa FAR
-funded status,"(年金の)積立状況
-
-The funded status is reported on the balance sheet.
-積立状況は貸借対照表で報告される。",uscpa FAR
-postretirement benefits,"退職後給付
-
-Postretirement benefits include retiree health care.
-退職後給付には退職者医療給付が含まれる。",uscpa FAR
-compensated absences,"補償付休暇(有給休暇)
-
-A liability is accrued for compensated absences.
-補償付休暇について負債が計上される。",uscpa FAR
-sales-type lease,"販売型リース
-
-The manufacturer recorded a sales-type lease.
-メーカーは販売型リースを計上した。",uscpa FAR
-direct financing lease,"直接金融リース
-
-A direct financing lease earns interest income only.
-直接金融リースでは利息収益のみが生じる。",uscpa FAR
-lessor,"貸手
-
-The lessor owns the leased asset.
-貸手はリース資産を所有する。",uscpa FAR
-lessee,"借手
-
-The lessee recognizes a right-of-use asset.
-借手は使用権資産を認識する。",uscpa FAR
-lease term,"リース期間
-
-The lease term includes renewal options likely to be exercised.
-リース期間には行使が合理的に確実な更新オプションが含まれる。",uscpa FAR
-bargain purchase option,"割安購入選択権
-
-The bargain purchase option makes the lease a finance lease.
-割安購入選択権があるとリースはファイナンス・リースとなる。",uscpa FAR
-residual value guarantee,"残価保証
-
-The lessee provided a residual value guarantee.
-借手は残価保証を提供した。",uscpa FAR
-short-term lease,"短期リース
-
-Short-term leases may be expensed directly.
-短期リースは直接費用処理できる。",uscpa FAR
-valuation allowance,"(繰延税金資産の)評価性引当額
-
-A valuation allowance reduces the deferred tax asset.
-評価性引当額は繰延税金資産を減額する。",uscpa FAR
-intraperiod tax allocation,"期間内税金配分
-
-Intraperiod tax allocation assigns tax to income components.
-期間内税金配分は税金を損益の各区分に配分する。",uscpa FAR
-income from continuing operations,"継続事業からの利益
-
-Income from continuing operations excludes discontinued items.
-継続事業からの利益は非継続事業を除外する。",uscpa FAR
-multiple-step income statement,"区分式損益計算書
-
-The multiple-step income statement shows gross profit separately.
-区分式損益計算書は売上総利益を区分表示する。",uscpa FAR
-single-step income statement,"単一区分式損益計算書
-
-The single-step income statement groups all revenues together.
-単一区分式損益計算書はすべての収益を一括表示する。",uscpa FAR
-operating activities,"営業活動
-
-Cash from operating activities was positive.
-営業活動によるキャッシュ・フローはプラスだった。",uscpa FAR
-investing activities,"投資活動
-
-Equipment purchases are investing activities.
-設備の購入は投資活動である。",uscpa FAR
-financing activities,"財務活動
-
-Issuing bonds is a financing activity.
-社債の発行は財務活動である。",uscpa FAR
-direct method,"(キャッシュ・フローの)直接法
-
-The direct method lists cash receipts and payments.
-直接法は収入と支出を直接表示する。",uscpa FAR
-indirect method,"(キャッシュ・フローの)間接法
-
-The indirect method starts with net income.
-間接法は純利益から出発する。",uscpa FAR
-noncash transactions,"非資金取引
-
-Noncash transactions are disclosed separately.
-非資金取引は別途開示される。",uscpa FAR
-generally accepted accounting principles (GAAP),"一般に公正妥当と認められる会計原則(GAAP)
-
-The statements were prepared in accordance with GAAP.
-財務諸表はGAAPに準拠して作成された。",uscpa FAR
-amortized cost,"償却原価
-
-The bonds are carried at amortized cost.
-その債券は償却原価で計上されている。",uscpa FAR
-accrued payroll,"未払給与
-
-Accrued payroll is recorded at period-end.
-未払給与は期末に計上される。",uscpa FAR
-statement of retained earnings,"利益剰余金計算書
-
-The statement of retained earnings shows dividends declared.
-利益剰余金計算書は宣言された配当を示す。",uscpa FAR
-statement of comprehensive income,"包括利益計算書
-
-The statement of comprehensive income includes OCI items.
-包括利益計算書はOCI項目を含む。",uscpa FAR
-operating cycle,"営業循環
-
-The operating cycle runs from purchase to collection.
-営業循環は仕入から回収までの期間である。",uscpa FAR
-classified balance sheet,"区分式貸借対照表
-
-A classified balance sheet separates current and noncurrent items.
-区分式貸借対照表は流動項目と固定項目を区分する。",uscpa FAR
-monetary assets,"貨幣性資産
-
-Cash and receivables are monetary assets.
-現金と債権は貨幣性資産である。",uscpa FAR
-nonmonetary assets,"非貨幣性資産
-
-Inventory and equipment are nonmonetary assets.
-棚卸資産と設備は非貨幣性資産である。",uscpa FAR
-replacement cost,"再調達原価
-
-Replacement cost is used in the market test.
-再調達原価は時価テストで用いられる。",uscpa FAR
-going concern assumption,"継続企業の公準
-
-The going concern assumption underlies historical cost.
-継続企業の公準は取得原価主義の前提となる。",uscpa FAR
-economic entity assumption,"企業実体の公準
-
-The economic entity assumption separates the business from its owners.
-企業実体の公準は企業と所有者を区別する。",uscpa FAR
-monetary unit assumption,"貨幣的測定の公準
-
-The monetary unit assumption records events in dollars.
-貨幣的測定の公準では取引を貨幣額で記録する。",uscpa FAR
-periodicity assumption,"会計期間の公準
-
-The periodicity assumption divides activity into periods.
-会計期間の公準は活動を期間に区切る。",uscpa FAR
-full disclosure principle,"完全開示の原則
-
-The full disclosure principle requires all material information.
-完全開示の原則はすべての重要な情報の開示を求める。",uscpa FAR
-revenue,"収益
-
-Revenue is recognized when control transfers.
-収益は支配の移転時に認識される。",uscpa FAR
-expense,"費用
-
-Expenses are matched with related revenues.
-費用は関連する収益に対応づけられる。",uscpa FAR
-gain,"利得
-
-A gain arose from the sale of investments.
-投資の売却から利得が生じた。",uscpa FAR
-loss,"損失
-
-A loss was recognized on the disposal.
-処分により損失が認識された。",uscpa FAR
-asset,"資産
-
-An asset provides future economic benefits.
-資産は将来の経済的便益をもたらす。",uscpa FAR
-liability,"負債
-
-A liability is a present obligation.
-負債は現在の義務である。",uscpa FAR
-equity,"資本(持分)
-
-Equity is the residual interest in assets.
-資本は資産に対する残余持分である。",uscpa FAR
-contributed capital,"拠出資本
-
-Contributed capital comes from shareholders.
-拠出資本は株主からの出資による。",uscpa FAR
-accrued liabilities,"未払債務
-
-Accrued liabilities include unpaid wages.
-未払債務には未払賃金が含まれる。",uscpa FAR
-contingent asset,"偶発資産
-
-A contingent asset is not recognized until realized.
-偶発資産は実現するまで認識されない。",uscpa FAR
-executory contract,"未履行契約
-
-An executory contract remains unperformed by both parties.
-未履行契約は両当事者とも履行していない契約である。",uscpa FAR
-purchase allowance,"仕入値引
-
-A purchase allowance was granted for damaged goods.
-損傷品について仕入値引が認められた。",uscpa FAR
-sales allowance,"売上値引
-
-The sales allowance reduced the invoice amount.
-売上値引により請求額が減額された。",uscpa FAR
-net sales,"純売上高
-
-Net sales exclude returns and allowances.
-純売上高は返品と値引を除く。",uscpa FAR
-net purchases,"純仕入高
-
-Net purchases include freight-in.
-純仕入高には引取運賃が含まれる。",uscpa FAR
-beginning inventory,"期首棚卸資産
-
-Beginning inventory equals last period's ending inventory.
-期首棚卸資産は前期の期末棚卸資産に等しい。",uscpa FAR
-ending inventory,"期末棚卸資産
-
-Ending inventory was counted on December 31.
-期末棚卸資産は12月31日に実査された。",uscpa FAR
-goods in transit,"未着品
-
-Goods in transit belong to the party holding title.
-未着品は所有権を有する側に帰属する。",uscpa FAR
-generally accepted auditing standards (GAAS),"一般に公正妥当と認められる監査基準(GAAS)
-
-The audit was conducted in accordance with GAAS.
-監査はGAASに準拠して実施された。",uscpa AUD
-PCAOB,"公開会社会計監督委員会(PCAOB)
-
-The PCAOB sets standards for public company audits.
-PCAOBは公開会社の監査基準を設定する。",uscpa AUD
-Securities and Exchange Commission (SEC),"証券取引委員会(SEC)
-
-Public companies file reports with the SEC.
-公開会社はSECに報告書を提出する。",uscpa AUD
-financial statement audit,"財務諸表監査
-
-A financial statement audit provides reasonable assurance.
-財務諸表監査は合理的保証を提供する。",uscpa AUD
-compliance audit,"準拠性監査
-
-A compliance audit tests adherence to rules.
-準拠性監査は規則の遵守を検証する。",uscpa AUD
-operational audit,"業務監査
-
-An operational audit evaluates efficiency and effectiveness.
-業務監査は効率性と有効性を評価する。",uscpa AUD
-integrated audit,"統合監査
-
-An integrated audit covers statements and internal control.
-統合監査は財務諸表と内部統制の両方を対象とする。",uscpa AUD
-reasonable assurance,"合理的保証
-
-An audit provides reasonable but not absolute assurance.
-監査は絶対的ではなく合理的な保証を提供する。",uscpa AUD
-limited assurance,"限定的保証
-
-A review provides limited assurance.
-レビューは限定的保証を提供する。",uscpa AUD
-negative assurance,"消極的保証
-
-The review report expresses negative assurance.
-レビュー報告書は消極的保証を表明する。",uscpa AUD
-audit strategy,"監査の基本方針(監査戦略)
-
-The audit strategy sets the scope and timing.
-監査の基本方針は範囲と時期を定める。",uscpa AUD
-interim testing,"期中テスト
-
-Interim testing was performed in October.
-期中テストは10月に実施された。",uscpa AUD
-roll-forward procedures,"ロール・フォワード手続
-
-Roll-forward procedures update interim results to year-end.
-ロール・フォワード手続は期中の結果を期末まで更新する。",uscpa AUD
-test of details,"詳細テスト
-
-Tests of details examine individual transactions.
-詳細テストは個々の取引を検証する。",uscpa AUD
-dual-purpose test,"二重目的テスト
-
-A dual-purpose test addresses controls and amounts together.
-二重目的テストは統制と金額を同時に検証する。",uscpa AUD
-random selection,"無作為抽出
-
-Random selection gives every item an equal chance.
-無作為抽出ではすべての項目が等しい確率で選ばれる。",uscpa AUD
-systematic selection,"系統的抽出
-
-Systematic selection picks every nth item.
-系統的抽出は一定間隔で項目を選ぶ。",uscpa AUD
-monetary unit sampling,"金額単位サンプリング
-
-Monetary unit sampling favors larger balances.
-金額単位サンプリングは大きな残高が選ばれやすい。",uscpa AUD
-deviation rate,"逸脱率
-
-The sample deviation rate was 2 percent.
-サンプルの逸脱率は2パーセントだった。",uscpa AUD
-expected deviation rate,"予想逸脱率
-
-The expected deviation rate affects sample size.
-予想逸脱率はサンプル数に影響する。",uscpa AUD
-tolerable deviation rate,"許容逸脱率
-
-The deviation rate was below the tolerable deviation rate.
-逸脱率は許容逸脱率を下回った。",uscpa AUD
-entity-level controls,"全社的統制
-
-Entity-level controls affect the whole organization.
-全社的統制は組織全体に影響する。",uscpa AUD
-flowchart,"フローチャート
-
-The process was documented in a flowchart.
-その業務プロセスはフローチャートで文書化された。",uscpa AUD
-internal control questionnaire,"内部統制質問書
-
-The internal control questionnaire uses yes-or-no questions.
-内部統制質問書は二択の質問を用いる。",uscpa AUD
-narrative,"業務記述書
-
-A narrative describes the transaction flow in words.
-業務記述書は取引の流れを文章で記述する。",uscpa AUD
-control deficiency,"内部統制の不備
-
-A control deficiency was identified in purchasing.
-購買業務で内部統制の不備が識別された。",uscpa AUD
-significant deficiency,"重要な不備
-
-A significant deficiency merits attention by governance.
-重要な不備は統治責任者の注意に値する。",uscpa AUD
-material weakness,"開示すべき重要な不備
-
-A material weakness makes misstatement reasonably possible.
-開示すべき重要な不備は重要な虚偽表示の合理的可能性を生む。",uscpa AUD
-threats to independence,"独立性への阻害要因
-
-Threats to independence must be evaluated.
-独立性への阻害要因は評価されなければならない。",uscpa AUD
-safeguards,"セーフガード(阻害要因への対応策)
-
-Safeguards reduce threats to an acceptable level.
-セーフガードは阻害要因を許容水準まで軽減する。",uscpa AUD
-self-review threat,"自己レビューの脅威
-
-Preparing the statements creates a self-review threat.
-財務諸表の作成は自己レビューの脅威を生む。",uscpa AUD
-advocacy threat,"擁護の脅威
-
-Promoting the client's stock creates an advocacy threat.
-クライアント株式の推奨は擁護の脅威を生む。",uscpa AUD
-familiarity threat,"馴れ合いの脅威
-
-Long association creates a familiarity threat.
-長期の関与は馴れ合いの脅威を生む。",uscpa AUD
-noncompliance with laws and regulations,"法令違反
-
-Identified noncompliance is communicated to management.
-識別された法令違反は経営者に伝達される。",uscpa AUD
-comfort letter,"コンフォート・レター
-
-A comfort letter was provided to the underwriters.
-引受人にコンフォート・レターが提供された。",uscpa AUD
-special purpose framework,"特別目的の枠組み
-
-The statements were prepared under a special purpose framework.
-その財務諸表は特別目的の枠組みで作成された。",uscpa AUD
-single audit,"シングル・オーディット(補助金監査)
-
-Federal award recipients may require a single audit.
-連邦補助金の受給者にはシングル・オーディットが必要な場合がある。",uscpa AUD
-report release date,"監査報告書発行日
-
-Documentation is assembled after the report release date.
-監査調書は報告書発行日後に整理される。",uscpa AUD
-audit documentation,"監査文書化
-
-Audit documentation supports the opinion.
-監査文書化は監査意見を裏付ける。",uscpa AUD
-fieldwork,"実地作業(往査)
-
-Fieldwork was completed in January.
-実地作業は1月に完了した。",uscpa AUD
-audit opinion,"監査意見
-
-The audit opinion is stated in the report.
-監査意見は報告書に記載される。",uscpa AUD
-auditor's responsibility,"監査人の責任
-
-The auditor's responsibility is to express an opinion.
-監査人の責任は意見を表明することである。",uscpa AUD
-management's responsibility,"経営者の責任
-
-Management's responsibility is to prepare the statements.
-経営者の責任は財務諸表を作成することである。",uscpa AUD
-critical audit matters,"監査上の重要な検討事項(CAM)
-
-Critical audit matters are described in PCAOB reports.
-監査上の重要な検討事項はPCAOB様式の報告書に記載される。",uscpa AUD
-required supplementary information,"必須補足情報
-
-Required supplementary information accompanies the statements.
-必須補足情報は財務諸表に添付される。",uscpa AUD
-other information,"その他の記載内容
-
-The auditor reads the other information for inconsistencies.
-監査人はその他の記載内容の矛盾の有無を通読する。",uscpa AUD
-summary financial statements,"要約財務諸表
-
-Summary financial statements are derived from audited statements.
-要約財務諸表は監査済財務諸表から作成される。",uscpa AUD
-interim review,"期中レビュー
-
-An interim review covers quarterly information.
-期中レビューは四半期情報を対象とする。",uscpa AUD
-client acceptance,"監査契約の新規締結(クライアント受入れ)
-
-Client acceptance procedures assess integrity and risk.
-クライアント受入手続は誠実性とリスクを評価する。",uscpa AUD
-successor auditor,"後任監査人
-
-The successor auditor requested permission to contact the predecessor.
-後任監査人は前任監査人への照会の許可を求めた。",uscpa AUD
-Uniform Commercial Code (UCC),"統一商事法典(UCC)
-
-The UCC governs sales of goods.
-UCCは物品の売買を規律する。",uscpa REG
-merchant,"商人
-
-Special rules apply to a merchant under the UCC.
-UCCの下では商人に特別な規定が適用される。",uscpa REG
-firm offer,"確定申込み
-
-A merchant's firm offer is irrevocable without consideration.
-商人の確定申込みは約因なしでも撤回できない。",uscpa REG
-counteroffer,"反対申込み
-
-A counteroffer terminates the original offer.
-反対申込みは元の申込みを消滅させる。",uscpa REG
-revocation,"(申込みの)撤回
-
-Revocation is effective when received.
-申込みの撤回は到達時に効力を生じる。",uscpa REG
-mailbox rule,"発信主義(メールボックス・ルール)
-
-Under the mailbox rule acceptance is effective when sent.
-発信主義では承諾は発信時に効力を生じる。",uscpa REG
-unilateral contract,"片務契約
-
-A unilateral contract is accepted by performance.
-片務契約は履行によって承諾される。",uscpa REG
-bilateral contract,"双務契約
-
-A bilateral contract exchanges mutual promises.
-双務契約は相互の約束を交換する。",uscpa REG
-promissory estoppel,"約束的禁反言
-
-Promissory estoppel may enforce a promise without consideration.
-約束的禁反言により約因のない約束が強制されることがある。",uscpa REG
-condition precedent,"停止条件
-
-Payment was subject to a condition precedent.
-支払は停止条件に服していた。",uscpa REG
-anticipatory repudiation,"履行期前の履行拒絶
-
-Anticipatory repudiation allows an immediate lawsuit.
-履行期前の履行拒絶により直ちに提訴できる。",uscpa REG
-impossibility,"履行不能
-
-The contract was discharged by impossibility.
-契約は履行不能により消滅した。",uscpa REG
-commercial impracticability,"商業的実行困難性
-
-Commercial impracticability may excuse performance.
-商業的実行困難性は履行を免除し得る。",uscpa REG
-accord and satisfaction,"合意と履行による債務消滅
-
-The dispute was settled by accord and satisfaction.
-その紛争は合意と履行により解決された。",uscpa REG
-novation,"更改
-
-A novation substitutes a new party for an old one.
-更改は当事者を新しい者に交替させる。",uscpa REG
-liquidated damages,"損害賠償額の予定
-
-The contract included a liquidated damages clause.
-契約には損害賠償額の予定条項が含まれていた。",uscpa REG
-punitive damages,"懲罰的損害賠償
-
-Punitive damages are rare in contract cases.
-契約事件で懲罰的損害賠償は稀である。",uscpa REG
-compensatory damages,"填補賠償
-
-Compensatory damages cover the actual loss.
-填補賠償は現実の損失を填補する。",uscpa REG
-consequential damages,"結果損害(特別損害)
-
-Consequential damages must be foreseeable.
-結果損害は予見可能でなければならない。",uscpa REG
-mitigation of damages,"損害軽減義務
-
-The injured party must attempt mitigation of damages.
-被害当事者は損害の軽減に努めなければならない。",uscpa REG
-express warranty,"明示的保証
-
-The seller's statement created an express warranty.
-売主の言明は明示的保証を生じさせた。",uscpa REG
-implied warranty of merchantability,"商品性の黙示的保証
-
-Merchants give an implied warranty of merchantability.
-商人は商品性の黙示的保証を負う。",uscpa REG
-implied warranty of fitness for a particular purpose,"特定目的適合性の黙示的保証
-
-The warranty of fitness arises when the seller selects the goods.
-特定目的適合性の保証は売主が商品を選んだ場合に生じる。",uscpa REG
-risk of loss,"危険負担
-
-Risk of loss passed to the buyer on delivery.
-危険負担は引渡時に買主へ移転した。",uscpa REG
-express authority,"明示の権限
-
-The agent acted within express authority.
-代理人は明示の権限の範囲内で行動した。",uscpa REG
-implied authority,"黙示の権限
-
-Implied authority covers acts reasonably necessary.
-黙示の権限は合理的に必要な行為に及ぶ。",uscpa REG
-ratification,"追認
-
-The principal ratified the unauthorized act.
-本人は無権限の行為を追認した。",uscpa REG
-undisclosed principal,"非顕名の本人
-
-An undisclosed principal may still be liable on the contract.
-非顕名の本人も契約上の責任を負い得る。",uscpa REG
-respondeat superior,"使用者責任
-
-The employer was liable under respondeat superior.
-使用者は使用者責任に基づき責任を負った。",uscpa REG
-independent contractor,"独立請負人
-
-The company is generally not liable for an independent contractor.
-会社は原則として独立請負人の行為に責任を負わない。",uscpa REG
-strict liability,"厳格責任(無過失責任)
-
-Strict liability applies to abnormally dangerous activities.
-厳格責任は異常に危険な活動に適用される。",uscpa REG
-product liability,"製造物責任
-
-The defect gave rise to product liability.
-その欠陥により製造物責任が生じた。",uscpa REG
-tort,"不法行為
-
-Negligence is a common tort.
-過失は代表的な不法行為である。",uscpa REG
-drawer,"(手形・小切手の)振出人
-
-The drawer signed the check.
-振出人は小切手に署名した。",uscpa REG
-drawee,"支払人(名宛人)
-
-The bank is the drawee of the check.
-銀行は小切手の支払人である。",uscpa REG
-payee,"受取人
-
-The payee deposited the check.
-受取人は小切手を預け入れた。",uscpa REG
-maker,"(約束手形の)振出人
-
-The maker promises to pay the note.
-約束手形の振出人は支払を約束する。",uscpa REG
-bearer paper,"持参人払式証券
-
-Bearer paper is negotiated by delivery alone.
-持参人払式証券は引渡しのみで譲渡される。",uscpa REG
-order paper,"指図式証券
-
-Order paper requires endorsement and delivery.
-指図式証券は裏書と引渡しを要する。",uscpa REG
-blank endorsement,"白地式裏書
-
-A blank endorsement converts the instrument to bearer paper.
-白地式裏書により証券は持参人払式となる。",uscpa REG
-special endorsement,"記名式裏書
-
-A special endorsement names the next holder.
-記名式裏書は次の所持人を指定する。",uscpa REG
-restrictive endorsement,"制限裏書
-
-A restrictive endorsement limits further negotiation.
-制限裏書はその後の流通を制限する。",uscpa REG
-dishonor,"支払拒絶(不渡り)
-
-The instrument was dishonored at presentment.
-その証券は呈示の際に支払を拒絶された。",uscpa REG
-letter of credit,"信用状
-
-Payment was secured by a letter of credit.
-支払は信用状によって担保された。",uscpa REG
-financing statement,"担保権登録書類(ファイナンシング・ステートメント)
-
-The financing statement was filed with the state.
-担保権登録書類は州に提出された。",uscpa REG
-purchase money security interest,"購入代金担保権(PMSI)
-
-A PMSI can obtain super-priority.
-購入代金担保権は最優先順位を取得し得る。",uscpa REG
-attachment,"(担保権の)成立
-
-Attachment requires value and rights in the collateral.
-担保権の成立には対価と担保物に対する権利が必要である。",uscpa REG
-default,"債務不履行
-
-The borrower's default triggered the security agreement.
-借主の債務不履行により担保契約が発動した。",uscpa REG
-foreclosure,"担保権の実行
-
-The lender began foreclosure on the property.
-貸主はその不動産の担保権実行を開始した。",uscpa REG
-garnishment,"債権差押え
-
-Wages were subject to garnishment.
-給与は債権差押えの対象となった。",uscpa REG
-automatic stay,"自動停止(オートマティック・ステイ)
-
-The automatic stay halts collection actions.
-自動停止は取立行為を停止させる。",uscpa REG
-trustee in bankruptcy,"破産管財人
-
-The trustee in bankruptcy administers the estate.
-破産管財人は破産財団を管理する。",uscpa REG
-preference,"偏頗弁済
-
-The payment was recovered as a preference.
-その支払は偏頗弁済として取り戻された。",uscpa REG
-discharge,"(破産による)免責
-
-The debtor received a discharge of most debts.
-債務者は大部分の債務について免責を受けた。",uscpa REG
-Securities Act of 1933,"1933年証券法
-
-The Securities Act of 1933 governs initial offerings.
-1933年証券法は証券の発行市場を規律する。",uscpa REG
-Securities Exchange Act of 1934,"1934年証券取引所法
-
-The 1934 Act governs secondary market trading.
-1934年法は流通市場での取引を規律する。",uscpa REG
-accredited investor,"適格投資家
-
-Private offerings often target accredited investors.
-私募はしばしば適格投資家を対象とする。",uscpa REG
-private placement,"私募
-
-The shares were sold in a private placement.
-その株式は私募で販売された。",uscpa REG
-Form 10-K,"年次報告書(Form 10-K)
-
-The company filed its Form 10-K in February.
-当社は2月にForm 10-Kを提出した。",uscpa REG
-Sarbanes-Oxley Act,"サーベンス・オクスリー法(SOX法)
-
-The Sarbanes-Oxley Act strengthened corporate governance.
-SOX法はコーポレート・ガバナンスを強化した。",uscpa REG
-legality,"(契約の)適法性
-
-Legality is required for an enforceable contract.
-強制可能な契約には適法性が必要である。",uscpa REG
-unconscionable contract,"非良心的契約
-
-A court may refuse to enforce an unconscionable contract.
-裁判所は非良心的契約の強制を拒否できる。",uscpa REG
-adhesion contract,"附合契約
-
-An adhesion contract is offered on fixed terms.
-附合契約は一方が定めた条件で提示される。",uscpa REG
-mutual mistake,"双方の錯誤
-
-A mutual mistake may make the contract voidable.
-双方の錯誤があると契約は取消可能となり得る。",uscpa REG
-unilateral mistake,"一方の錯誤
-
-A unilateral mistake generally does not excuse performance.
-一方の錯誤は原則として履行を免除しない。",uscpa REG
-cover,"(買主の)代替品調達
-
-The buyer purchased cover after the breach.
-買主は契約違反の後に代替品を調達した。",uscpa REG
-cure,"(売主の)追完
-
-The seller has a right to cure a defective delivery.
-売主は不適合な引渡しを追完する権利を有する。",uscpa REG
-installment contract,"分割履行契約
-
-Each delivery under an installment contract is separate.
-分割履行契約の各引渡しは別個に扱われる。",uscpa REG
-quasi-contract,"準契約
-
-Recovery was allowed under a quasi-contract theory.
-準契約の法理により回復が認められた。",uscpa REG
-guaranty,"保証(契約)
-
-The parent company signed a guaranty for the loan.
-親会社はその借入の保証契約に署名した。",uscpa REG
-suretyship,"保証関係
-
-Suretyship makes a third party liable for the debt.
-保証関係により第三者が債務に責任を負う。",uscpa REG
-subrogation,"代位
-
-The surety obtained the creditor's rights by subrogation.
-保証人は代位により債権者の権利を取得した。",uscpa REG
-contribution,"(共同保証人間の)求償
-
-A co-surety may seek contribution from the others.
-共同保証人は他の保証人に求償できる。",uscpa REG
-mechanic's lien,"建築先取特権
-
-The contractor filed a mechanic's lien on the building.
-請負業者はその建物に建築先取特権を登録した。",uscpa REG
-judgment lien,"判決リーエン
-
-A judgment lien attached to the debtor's real estate.
-判決リーエンが債務者の不動産に成立した。",uscpa REG
-involuntary bankruptcy,"強制破産(債権者申立て)
-
-Creditors filed an involuntary bankruptcy petition.
-債権者らは強制破産を申し立てた。",uscpa REG
-voluntary bankruptcy,"自己破産(債務者申立て)
-
-The debtor filed a voluntary bankruptcy petition.
-債務者は自己破産を申し立てた。",uscpa REG
-reorganization plan,"再建計画
-
-The court confirmed the reorganization plan.
-裁判所は再建計画を認可した。",uscpa REG
-proof of claim,"債権届出
-
-Each creditor filed a proof of claim.
-各債権者は債権届出を行った。",uscpa REG
-priority claims,"優先債権
-
-Priority claims are paid before general claims.
-優先債権は一般債権より先に弁済される。",uscpa REG
-cost-volume-profit analysis,"CVP分析(原価・営業量・利益分析)
-
-Cost-volume-profit analysis links costs and sales volume.
-CVP分析は原価と販売量を関連づける。",uscpa BAR
-margin of safety,"安全余裕率
-
-The margin of safety shows how far sales can fall.
-安全余裕率は売上がどこまで減少できるかを示す。",uscpa BAR
-operating leverage,"経営レバレッジ
-
-High fixed costs create high operating leverage.
-固定費が大きいと経営レバレッジは高くなる。",uscpa BAR
-sales mix,"販売構成(セールス・ミックス)
-
-A change in sales mix affected total profit.
-販売構成の変化が利益合計に影響した。",uscpa BAR
-high-low method,"高低点法
-
-The high-low method separates fixed and variable costs.
-高低点法は固定費と変動費を分解する。",uscpa BAR
-learning curve,"学習曲線
-
-The learning curve lowers labor time per unit.
-学習曲線により単位当たり作業時間が減少する。",uscpa BAR
-theory of constraints,"制約理論
-
-The theory of constraints focuses on the bottleneck.
-制約理論はボトルネックに焦点を当てる。",uscpa BAR
-bottleneck,"ボトルネック
-
-The assembly line is the bottleneck of the plant.
-組立ラインが工場のボトルネックである。",uscpa BAR
-equivalent units,"完成品換算量
-
-Equivalent units measure partially completed work.
-完成品換算量は仕掛品の進捗を測定する。",uscpa BAR
-joint costs,"連産品原価(結合原価)
-
-Joint costs are allocated at the split-off point.
-結合原価は分離点で配分される。",uscpa BAR
-split-off point,"分離点
-
-Products become identifiable at the split-off point.
-製品は分離点で識別可能になる。",uscpa BAR
-byproduct,"副産物
-
-The byproduct has minor sales value.
-副産物の販売価値は小さい。",uscpa BAR
-normal spoilage,"正常仕損
-
-Normal spoilage is included in product cost.
-正常仕損は製品原価に含められる。",uscpa BAR
-abnormal spoilage,"異常仕損
-
-Abnormal spoilage is expensed as a loss.
-異常仕損は損失として費用処理される。",uscpa BAR
-cost driver,"原価作用因(コスト・ドライバー)
-
-Machine hours serve as the cost driver.
-機械稼働時間がコスト・ドライバーとなる。",uscpa BAR
-predetermined overhead rate,"予定間接費配賦率
-
-Overhead is applied using a predetermined rate.
-間接費は予定配賦率で配賦される。",uscpa BAR
-underapplied overhead,"配賦不足
-
-Underapplied overhead was closed to cost of goods sold.
-配賦不足は売上原価に振り替えられた。",uscpa BAR
-overapplied overhead,"配賦超過
-
-Overapplied overhead reduces cost of goods sold.
-配賦超過は売上原価を減少させる。",uscpa BAR
-responsibility accounting,"責任会計
-
-Responsibility accounting assigns results to managers.
-責任会計は業績を管理者に帰属させる。",uscpa BAR
-profit center,"利益センター
-
-Each store is treated as a profit center.
-各店舗は利益センターとして扱われる。",uscpa BAR
-cost center,"コスト・センター
-
-The maintenance department is a cost center.
-保全部門はコスト・センターである。",uscpa BAR
-investment center,"投資センター
-
-An investment center is judged on return on investment.
-投資センターは投資利益率で評価される。",uscpa BAR
-return on investment,"投資利益率(ROI)
-
-The division's return on investment improved.
-その事業部のROIは改善した。",uscpa BAR
-asset turnover,"総資産回転率
-
-Asset turnover measures sales per dollar of assets.
-総資産回転率は資産1ドル当たりの売上を測る。",uscpa BAR
-profit margin,"売上高利益率
-
-The profit margin declined due to higher costs.
-コスト上昇により売上高利益率が低下した。",uscpa BAR
-DuPont analysis,"デュポン分析
-
-DuPont analysis decomposes return on equity.
-デュポン分析はROEを分解する。",uscpa BAR
-days sales outstanding,"売上債権回収日数
-
-Days sales outstanding fell to 35 days.
-売上債権回収日数は35日に短縮した。",uscpa BAR
-days inventory on hand,"棚卸資産保有日数
-
-Days inventory on hand indicates inventory efficiency.
-棚卸資産保有日数は在庫効率を示す。",uscpa BAR
-cash conversion cycle,"現金循環化日数
-
-A shorter cash conversion cycle frees up cash.
-現金循環化日数の短縮は資金を生み出す。",uscpa BAR
-times interest earned,"インタレスト・カバレッジ・レシオ
-
-Times interest earned measures debt service ability.
-インタレスト・カバレッジ・レシオは利払能力を測る。",uscpa BAR
-dividend payout ratio,"配当性向
-
-The dividend payout ratio was 40 percent.
-配当性向は40パーセントだった。",uscpa BAR
-price-earnings ratio,"株価収益率(PER)
-
-The stock trades at a high price-earnings ratio.
-その株式は高いPERで取引されている。",uscpa BAR
-beta,"ベータ(市場感応度)
-
-A beta above one indicates higher volatility.
-1を超えるベータはより高い変動性を示す。",uscpa BAR
-capital asset pricing model,"資本資産価格モデル(CAPM)
-
-The CAPM estimates the cost of equity.
-CAPMは株主資本コストを推定する。",uscpa BAR
-systematic risk,"市場リスク(システマティック・リスク)
-
-Systematic risk cannot be diversified away.
-市場リスクは分散投資で除去できない。",uscpa BAR
-unsystematic risk,"個別リスク
-
-Unsystematic risk is reduced by diversification.
-個別リスクは分散投資により低減される。",uscpa BAR
-diversification,"分散投資
-
-Diversification spreads risk across assets.
-分散投資はリスクを複数の資産に分散させる。",uscpa BAR
-yield curve,"イールド・カーブ(利回り曲線)
-
-The yield curve flattened this quarter.
-今四半期はイールド・カーブが平坦化した。",uscpa BAR
-nominal interest rate,"名目金利
-
-The nominal interest rate includes expected inflation.
-名目金利は期待インフレ率を含む。",uscpa BAR
-real interest rate,"実質金利
-
-The real interest rate excludes inflation.
-実質金利はインフレの影響を除く。",uscpa BAR
-COBIT,"COBIT(ITガバナンスの枠組み)
-
-COBIT provides a framework for IT governance.
-COBITはITガバナンスの枠組みを提供する。",uscpa ISC
-SOC 1 report,"SOC1報告書
-
-A SOC 1 report addresses controls over financial reporting.
-SOC1報告書は財務報告に関連する統制を扱う。",uscpa ISC
-SOC 2 report,"SOC2報告書
-
-A SOC 2 report addresses the trust services criteria.
-SOC2報告書はトラスト・サービス規準を扱う。",uscpa ISC
-type 1 report,"タイプ1報告書
-
-A type 1 report covers design at a point in time.
-タイプ1報告書は一時点における整備状況を扱う。",uscpa ISC
-type 2 report,"タイプ2報告書
-
-A type 2 report covers operating effectiveness over a period.
-タイプ2報告書は一定期間の運用状況を扱う。",uscpa ISC
-trust services criteria,"トラスト・サービス規準
-
-The trust services criteria include security and availability.
-トラスト・サービス規準にはセキュリティと可用性が含まれる。",uscpa ISC
-processing integrity,"処理のインテグリティ
-
-Processing integrity means complete and accurate processing.
-処理のインテグリティは完全かつ正確な処理を意味する。",uscpa ISC
-privacy,"プライバシー
-
-Privacy addresses personal information handling.
-プライバシーは個人情報の取扱いを扱う。",uscpa ISC
-data governance,"データ・ガバナンス
-
-Data governance defines ownership and quality rules.
-データ・ガバナンスは責任と品質のルールを定める。",uscpa ISC
-data classification,"データ分類
-
-Data classification labels information by sensitivity.
-データ分類は情報を機密度で区分する。",uscpa ISC
-data retention,"データ保持
-
-The data retention policy sets storage periods.
-データ保持ポリシーは保存期間を定める。",uscpa ISC
-hashing,"ハッシュ化
-
-Hashing verifies that data has not changed.
-ハッシュ化はデータが改変されていないことを確かめる。",uscpa ISC
-digital signature,"電子署名
-
-A digital signature authenticates the sender.
-電子署名は送信者の真正性を確認する。",uscpa ISC
-public key infrastructure,"公開鍵基盤(PKI)
-
-Public key infrastructure manages digital certificates.
-PKIは電子証明書を管理する。",uscpa ISC
-virtual private network (VPN),"仮想私設網(VPN)
-
-Remote employees connect through a VPN.
-在宅勤務者はVPN経由で接続する。",uscpa ISC
-network segmentation,"ネットワーク・セグメンテーション
-
-Network segmentation limits the spread of attacks.
-ネットワーク分割は攻撃の拡大を抑える。",uscpa ISC
-zero trust,"ゼロ・トラスト
-
-Zero trust verifies every access request.
-ゼロ・トラストはすべてのアクセス要求を検証する。",uscpa ISC
-endpoint security,"エンドポイント・セキュリティ
-
-Endpoint security protects laptops and devices.
-エンドポイント・セキュリティはPCや端末を保護する。",uscpa ISC
-security awareness training,"セキュリティ意識向上研修
-
-Security awareness training is held annually.
-セキュリティ意識向上研修は毎年実施される。",uscpa ISC
-recovery time objective,"目標復旧時間(RTO)
-
-The recovery time objective is four hours.
-目標復旧時間は4時間である。",uscpa ISC
-recovery point objective,"目標復旧時点(RPO)
-
-The recovery point objective limits acceptable data loss.
-目標復旧時点は許容できるデータ損失の範囲を定める。",uscpa ISC
-hot site,"ホット・サイト
-
-A hot site is ready for immediate use.
-ホット・サイトは直ちに利用できる。",uscpa ISC
-cold site,"コールド・サイト
-
-A cold site requires setup before use.
-コールド・サイトは利用前に設営が必要である。",uscpa ISC
-redundancy,"冗長化
-
-Redundancy keeps systems running after a failure.
-冗長化は障害後もシステムを稼働させる。",uscpa ISC
-failover,"フェイルオーバー
-
-Failover switched processing to the backup server.
-フェイルオーバーにより処理は予備サーバーへ切り替わった。",uscpa ISC
-uninterruptible power supply,"無停電電源装置(UPS)
-
-The UPS protected the servers during the outage.
-停電の間UPSがサーバーを保護した。",uscpa ISC
-input controls,"入力統制
-
-Input controls check data before processing.
-入力統制は処理前にデータをチェックする。",uscpa ISC
-output controls,"出力統制
-
-Output controls ensure reports reach authorized users.
-出力統制は報告書が権限ある利用者に届くことを確保する。",uscpa ISC
-limit check,"リミット・チェック(限度チェック)
-
-A limit check rejects amounts above the ceiling.
-リミット・チェックは上限を超える金額を拒否する。",uscpa ISC
-exception report,"例外報告書
-
-Unusual transactions appear on the exception report.
-異常な取引は例外報告書に表示される。",uscpa ISC
-enterprise resource planning (ERP),"統合基幹業務システム(ERP)
-
-The ERP system integrates all business processes.
-ERPはすべての業務プロセスを統合する。",uscpa ISC
-application programming interface (API),"API(アプリケーション・プログラミング・インターフェース)
-
-Data is exchanged between systems through an API.
-データはAPIを通じてシステム間で交換される。",uscpa ISC
-operating system,"オペレーティング・システム
-
-The operating system manages hardware resources.
-オペレーティング・システムはハードウェア資源を管理する。",uscpa ISC
-local area network (LAN),"構内ネットワーク(LAN)
-
-The office computers share a LAN.
-オフィスのコンピュータはLANを共有する。",uscpa ISC
-wide area network (WAN),"広域ネットワーク(WAN)
-
-Branches are connected through a WAN.
-支店はWANで接続されている。",uscpa ISC
-data center,"データセンター
-
-The servers are housed in a secure data center.
-サーバーは安全なデータセンターに設置されている。",uscpa ISC
-virtualization,"仮想化
-
-Virtualization runs multiple servers on one machine.
-仮想化は1台の機器で複数のサーバーを稼働させる。",uscpa ISC
-scalability,"拡張性(スケーラビリティ)
-
-Cloud services offer high scalability.
-クラウド・サービスは高い拡張性を提供する。",uscpa ISC
-system development life cycle,"システム開発ライフサイクル(SDLC)
-
-The SDLC includes design and testing phases.
-SDLCには設計とテストの段階が含まれる。",uscpa ISC
-user acceptance testing,"受入テスト(UAT)
-
-Users approved the system after user acceptance testing.
-受入テストの後に利用者はシステムを承認した。",uscpa ISC
-above-the-line deduction,"所得調整控除(AGI前控除)
-
-Above-the-line deductions reduce adjusted gross income.
-AGI前控除は調整後総所得を減少させる。",uscpa TCP
-qualified business income deduction,"適格事業所得控除(QBI控除)
-
-The owner claimed the qualified business income deduction.
-その事業主はQBI控除を適用した。",uscpa TCP
-Section 179 expensing,"179条即時償却
-
-Section 179 allows immediate expensing of equipment.
-179条により設備の即時費用化が認められる。",uscpa TCP
-bonus depreciation,"特別償却(ボーナス減価償却)
-
-Bonus depreciation accelerates cost recovery.
-ボーナス償却は原価回収を加速する。",uscpa TCP
-MACRS,"修正加速度原価回収制度(MACRS)
-
-Tax depreciation follows the MACRS tables.
-税務上の減価償却はMACRSの表に従う。",uscpa TCP
-half-year convention,"半年慣行
-
-The half-year convention assumes mid-year acquisition.
-半年慣行は年央での取得を仮定する。",uscpa TCP
-safe harbor,"セーフ・ハーバー(免責基準)
-
-The taxpayer met the estimated tax safe harbor.
-納税者は予定納税のセーフ・ハーバーを満たした。",uscpa TCP
-capital loss carryover,"譲渡損失の繰越
-
-The unused capital loss becomes a carryover.
-未使用の譲渡損失は繰越となる。",uscpa TCP
-qualified small business stock,"適格中小企業株式
-
-Gains on qualified small business stock may be excluded.
-適格中小企業株式の譲渡益は非課税となり得る。",uscpa TCP
-incentive stock option,"税制適格ストック・オプション(ISO)
-
-No income is recognized when an ISO is exercised.
-ISOの行使時には所得は認識されない。",uscpa TCP
-nonqualified stock option,"税制非適格ストック・オプション
-
-Exercising a nonqualified option creates ordinary income.
-非適格オプションの行使は通常所得を生む。",uscpa TCP
-restricted stock,"譲渡制限株式
-
-Restricted stock is taxed when it vests.
-譲渡制限株式は権利確定時に課税される。",uscpa TCP
-vesting,"権利確定
-
-The shares are subject to four-year vesting.
-その株式は4年の権利確定期間に服する。",uscpa TCP
-Section 83(b) election,"83条(b)項の選択
-
-A Section 83(b) election taxes the stock at grant.
-83条(b)項の選択により株式は付与時に課税される。",uscpa TCP
-tax deferral,"課税繰延べ
-
-Retirement plans provide tax deferral.
-退職年金制度は課税繰延べをもたらす。",uscpa TCP
-constructive receipt,"みなし受領
-
-Constructive receipt taxes income made available.
-みなし受領により受領可能となった所得は課税される。",uscpa TCP
-assignment of income doctrine,"所得移転の法理
-
-The assignment of income doctrine taxes the earner.
-所得移転の法理により稼得者に課税される。",uscpa TCP
-step-up in basis,"(相続時の)ベーシスの引上げ
-
-Inherited assets receive a step-up in basis.
-相続資産はベーシスの引上げを受ける。",uscpa TCP
-carryover basis,"引継ベーシス
-
-Gifted property takes a carryover basis.
-贈与財産は引継ベーシスを承継する。",uscpa TCP
-gift splitting,"贈与の夫婦分割(ギフト・スプリッティング)
-
-Gift splitting doubles the annual exclusion.
-贈与の夫婦分割により年間非課税枠は2倍になる。",uscpa TCP
-charitable remainder trust,"公益残余信託
-
-A charitable remainder trust pays income before the gift.
-公益残余信託は寄付の前に受益者へ収益を支払う。",uscpa TCP
-life insurance proceeds,"生命保険金
-
-Life insurance proceeds are generally tax-free.
-生命保険金は原則として非課税である。",uscpa TCP
-education credits,"教育税額控除
-
-Education credits offset tuition costs.
-教育税額控除は授業料負担を軽減する。",uscpa TCP
-lifetime learning credit,"生涯学習税額控除
-
-The lifetime learning credit applies to continuing education.
-生涯学習税額控除は継続教育に適用される。",uscpa TCP
-premium tax credit,"保険料税額控除
-
-The premium tax credit subsidizes health insurance.
-保険料税額控除は医療保険料を補助する。",uscpa TCP
-self-employment tax,"自営業税
-
-Self-employment tax covers social security and medicare.
-自営業税は社会保障とメディケアの財源となる。",uscpa TCP
-hobby loss rules,"趣味活動の損失制限
-
-The hobby loss rules disallowed the deductions.
-趣味活動の損失制限により控除が否認された。",uscpa TCP
-home office deduction,"自宅事務所控除
-
-The home office deduction requires exclusive business use.
-自宅事務所控除には事業専用の使用が必要である。",uscpa TCP
-early withdrawal penalty,"早期引出しペナルティ
-
-An early withdrawal penalty applies before the specified age.
-所定の年齢前の引出しにはペナルティが課される。",uscpa TCP
-catch-up contribution,"キャッチアップ拠出
-
-Older workers may make catch-up contributions.
-一定年齢以上の労働者はキャッチアップ拠出ができる。",uscpa TCP
-adjusted basis,"調整後ベーシス
-
-Gain equals the amount realized minus adjusted basis.
-利得は実現額から調整後ベーシスを差し引いた額である。",uscpa TCP
-amount realized,"譲渡対価(実現額)
-
-The amount realized includes cash and debt relief.
-実現額には現金と債務の引受けが含まれる。",uscpa TCP
-recognized gain,"認識利得
-
-Only part of the realized gain was recognized.
-実現利得の一部のみが認識された。",uscpa TCP
-holding period,"保有期間
-
-The holding period determines capital gain treatment.
-保有期間は譲渡益の取扱いを決める。",uscpa TCP
-inherited property,"相続財産
-
-Inherited property is treated as long-term.
-相続財産は長期保有として扱われる。",uscpa TCP
-community property,"夫婦共有財産
-
-Community property rules apply in some states.
-一部の州では夫婦共有財産制度が適用される。",uscpa TCP
-alternate valuation date,"(遺産の)代替評価日
-
-The estate elected the alternate valuation date.
-遺産について代替評価日が選択された。",uscpa TCP
-portability,"(遺産税控除の)移転(ポータビリティ)
-
-Portability transfers the unused exclusion to the spouse.
-ポータビリティにより未使用の控除枠が配偶者へ移転する。",uscpa TCP
-qualified disclaimer,"適格放棄
-
-A qualified disclaimer passes property without gift tax.
-適格放棄により贈与税なしで財産が移転する。",uscpa TCP
-present interest,"現在権益
-
-The annual exclusion requires a present interest.
-年間非課税枠には現在権益が必要である。",uscpa TCP
-future interest,"将来権益
-
-A future interest does not qualify for the exclusion.
-将来権益は非課税枠の対象とならない。",uscpa TCP
-remainder interest,"残余権
-
-The trust gave a remainder interest to the children.
-その信託は子らに残余権を与えた。",uscpa TCP
-life estate,"生涯権益
-
-The widow received a life estate in the home.
-その未亡人は自宅の生涯権益を得た。",uscpa TCP
-charitable lead trust,"公益先行信託
-
-A charitable lead trust pays the charity first.
-公益先行信託はまず公益団体に支払う。",uscpa TCP
-underpayment penalty,"過少納付ペナルティ
-
-An underpayment penalty was assessed for the year.
-その年度について過少納付ペナルティが賦課された。",uscpa TCP
-failure-to-file penalty,"無申告ペナルティ
-
-The failure-to-file penalty exceeds the failure-to-pay penalty.
-無申告ペナルティは納付遅延ペナルティより重い。",uscpa TCP
-failure-to-pay penalty,"納付遅延ペナルティ
-
-A failure-to-pay penalty accrues monthly.
-納付遅延ペナルティは月ごとに加算される。",uscpa TCP
-accuracy-related penalty,"正確性関連ペナルティ
-
-An accuracy-related penalty applies to negligent understatement.
-正確性関連ペナルティは過失による過少申告に適用される。",uscpa TCP
-innocent spouse relief,"無過失配偶者救済
-
-Innocent spouse relief protects an unaware spouse.
-無過失配偶者救済は事情を知らない配偶者を保護する。",uscpa TCP
-offer in compromise,"和解申出(オファー・イン・コンプロマイズ)
-
-An offer in compromise settles the tax debt for less.
-和解申出により税債務は減額されて解決される。",uscpa TCP
+accounts receivable,売掛金,uscpa FAR
+accounts payable,買掛金,uscpa FAR
+accrued expenses,未払費用,uscpa FAR
+deferred revenue,前受収益,uscpa FAR
+depreciation,減価償却,uscpa FAR
+amortization,(無形資産の)償却,uscpa FAR
+impairment,減損,uscpa FAR
+inventory,棚卸資産,uscpa FAR
+goodwill,のれん,uscpa FAR
+retained earnings,利益剰余金,uscpa FAR
+accrual basis,発生主義,uscpa FAR
+cash basis,現金主義,uscpa FAR
+fair value,公正価値,uscpa FAR
+carrying amount,帳簿価額,uscpa FAR
+historical cost,取得原価,uscpa FAR
+balance sheet,貸借対照表,uscpa FAR
+income statement,損益計算書,uscpa FAR
+statement of cash flows,キャッシュ・フロー計算書,uscpa FAR
+statement of stockholders' equity,株主資本等変動計算書,uscpa FAR
+current assets,流動資産,uscpa FAR
+noncurrent assets,固定資産(非流動資産),uscpa FAR
+current liabilities,流動負債,uscpa FAR
+noncurrent liabilities,固定負債(非流動負債),uscpa FAR
+cash and cash equivalents,現金及び現金同等物,uscpa FAR
+marketable securities,市場性有価証券,uscpa FAR
+allowance for doubtful accounts,貸倒引当金,uscpa FAR
+bad debt expense,貸倒費用(貸倒損失),uscpa FAR
+notes receivable,受取手形,uscpa FAR
+notes payable,支払手形,uscpa FAR
+prepaid expenses,前払費用,uscpa FAR
+accrued revenue,未収収益,uscpa FAR
+property plant and equipment,有形固定資産,uscpa FAR
+accumulated depreciation,減価償却累計額,uscpa FAR
+salvage value,残存価額,uscpa FAR
+useful life,耐用年数,uscpa FAR
+straight-line method,定額法,uscpa FAR
+declining balance method,定率法,uscpa FAR
+units-of-production method,生産高比例法,uscpa FAR
+intangible assets,無形資産,uscpa FAR
+patent,特許権,uscpa FAR
+trademark,商標権,uscpa FAR
+copyright,著作権,uscpa FAR
+research and development costs,研究開発費,uscpa FAR
+capitalize,資産計上する,uscpa FAR
+revenue recognition,収益認識,uscpa FAR
+performance obligation,履行義務,uscpa FAR
+transaction price,取引価格,uscpa FAR
+matching principle,費用収益対応の原則,uscpa FAR
+conservatism,保守主義,uscpa FAR
+consistency,継続性,uscpa FAR
+comparability,比較可能性,uscpa FAR
+relevance,目的適合性,uscpa FAR
+faithful representation,忠実な表現,uscpa FAR
+first-in first-out (FIFO),先入先出法,uscpa FAR
+last-in first-out (LIFO),後入先出法,uscpa FAR
+weighted-average method,加重平均法,uscpa FAR
+lower of cost or market,低価法,uscpa FAR
+net realizable value,正味実現可能価額,uscpa FAR
+cost of goods sold,売上原価,uscpa FAR
+gross profit,売上総利益,uscpa FAR
+operating income,営業利益,uscpa FAR
+net income,当期純利益,uscpa FAR
+earnings per share,1株当たり利益,uscpa FAR
+diluted earnings per share,希薄化後1株当たり利益,uscpa FAR
+common stock,普通株式,uscpa FAR
+preferred stock,優先株式,uscpa FAR
+treasury stock,自己株式,uscpa FAR
+additional paid-in capital,払込剰余金(資本剰余金),uscpa FAR
+dividends,配当金,uscpa FAR
+stock split,株式分割,uscpa FAR
+stock dividend,株式配当,uscpa FAR
+comprehensive income,包括利益,uscpa FAR
+accumulated other comprehensive income,その他の包括利益累計額,uscpa FAR
+bonds payable,社債,uscpa FAR
+bond premium,社債の打歩発行差額(プレミアム),uscpa FAR
+bond discount,社債の割引発行差額(ディスカウント),uscpa FAR
+effective interest method,実効金利法,uscpa FAR
+face value,額面金額,uscpa FAR
+stated interest rate,表面利率,uscpa FAR
+maturity date,満期日,uscpa FAR
+finance lease,ファイナンス・リース,uscpa FAR
+operating lease,オペレーティング・リース,uscpa FAR
+right-of-use asset,使用権資産,uscpa FAR
+lease liability,リース負債,uscpa FAR
+deferred tax asset,繰延税金資産,uscpa FAR
+deferred tax liability,繰延税金負債,uscpa FAR
+temporary difference,一時差異,uscpa FAR
+permanent difference,永久差異,uscpa FAR
+defined benefit plan,確定給付制度,uscpa FAR
+defined contribution plan,確定拠出制度,uscpa FAR
+contingent liability,偶発債務,uscpa FAR
+warranty liability,製品保証引当金,uscpa FAR
+subsequent events,後発事象,uscpa FAR
+related party transactions,関連当事者取引,uscpa FAR
+segment reporting,セグメント報告,uscpa FAR
+interim financial reporting,期中財務報告,uscpa FAR
+foreign currency translation,外貨換算,uscpa FAR
+exchange rate,為替レート,uscpa FAR
+hedging,ヘッジ,uscpa FAR
+derivative,デリバティブ(金融派生商品),uscpa FAR
+equity method,持分法,uscpa FAR
+subsidiary,子会社,uscpa FAR
+parent company,親会社,uscpa FAR
+noncontrolling interest,非支配持分,uscpa FAR
+business combination,企業結合,uscpa FAR
+acquisition,取得(買収),uscpa FAR
+merger,合併,uscpa FAR
+consolidation,連結,uscpa FAR
+elimination entry,連結消去仕訳,uscpa FAR
+intercompany transaction,グループ内取引(内部取引),uscpa FAR
+journal entry,仕訳,uscpa FAR
+general ledger,総勘定元帳,uscpa FAR
+trial balance,試算表,uscpa FAR
+adjusting entries,決算整理仕訳,uscpa FAR
+closing entries,帳簿の締切仕訳,uscpa FAR
+chart of accounts,勘定科目一覧表,uscpa FAR
+debit,借方,uscpa FAR
+credit,貸方,uscpa FAR
+double-entry bookkeeping,複式簿記,uscpa FAR
+fiscal year,会計年度,uscpa FAR
+book value,簿価,uscpa FAR
+present value,現在価値,uscpa FAR
+future value,将来価値,uscpa FAR
+discount rate,割引率,uscpa FAR
+annuity,年金(定額の定期支払),uscpa FAR
+installment sales,割賦販売,uscpa FAR
+percentage-of-completion method,工事進行基準,uscpa FAR
+completed-contract method,工事完成基準,uscpa FAR
+construction in progress,建設仮勘定,uscpa FAR
+asset retirement obligation,資産除去債務,uscpa FAR
+discontinued operations,非継続事業,uscpa FAR
+restructuring charges,事業再編費用,uscpa FAR
+write-off,(回収不能債権などの)直接償却,uscpa FAR
+write-down,評価減,uscpa FAR
+gain on sale,売却益,uscpa FAR
+loss on sale,売却損,uscpa FAR
+fund accounting,基金会計(ファンド会計),uscpa FAR
+modified accrual basis,修正発生主義,uscpa FAR
+governmental accounting,政府会計,uscpa FAR
+not-for-profit organization,非営利組織,uscpa FAR
+petty cash,小口現金,uscpa FAR
+bank reconciliation,銀行勘定調整表,uscpa FAR
+outstanding checks,未取付小切手,uscpa FAR
+deposit in transit,未達預金,uscpa FAR
+voucher,証憑,uscpa FAR
+freight-in,引取運賃,uscpa FAR
+freight-out,発送運賃,uscpa FAR
+purchase discount,仕入割引,uscpa FAR
+sales discount,売上割引,uscpa FAR
+sales returns and allowances,売上返品・値引,uscpa FAR
+purchase returns,仕入返品,uscpa FAR
+consignment,委託販売,uscpa FAR
+consignor,委託者,uscpa FAR
+consignee,受託者,uscpa FAR
+FOB shipping point,出荷地渡し,uscpa FAR
+FOB destination,仕向地渡し,uscpa FAR
+perpetual inventory system,継続記録法,uscpa FAR
+periodic inventory system,棚卸計算法,uscpa FAR
+inventory shrinkage,棚卸減耗,uscpa FAR
+specific identification method,個別法,uscpa FAR
+retail inventory method,売価還元法,uscpa FAR
+gross profit method,売上総利益法,uscpa FAR
+factoring,ファクタリング(債権の売却),uscpa FAR
+pledging,(債権の)担保差入,uscpa FAR
+discounting notes receivable,受取手形の割引,uscpa FAR
+held-to-maturity securities,満期保有目的有価証券,uscpa FAR
+trading securities,売買目的有価証券,uscpa FAR
+available-for-sale securities,売却可能有価証券,uscpa FAR
+unrealized gain,未実現利益,uscpa FAR
+realized gain,実現利益,uscpa FAR
+equity securities,持分証券,uscpa FAR
+debt securities,負債性証券(債券),uscpa FAR
+leasehold improvements,賃借設備改良(造作),uscpa FAR
+capital expenditure,資本的支出,uscpa FAR
+revenue expenditure,収益的支出,uscpa FAR
+repairs and maintenance,修繕維持費,uscpa FAR
+depletion,減耗償却,uscpa FAR
+franchise,フランチャイズ権,uscpa FAR
+license,ライセンス(使用許諾),uscpa FAR
+startup costs,開業費,uscpa FAR
+contra account,評価勘定(控除勘定),uscpa FAR
+accrued interest,未払利息(未収利息),uscpa FAR
+callable bond,繰上償還可能社債,uscpa FAR
+convertible bond,転換社債,uscpa FAR
+serial bonds,連続償還社債,uscpa FAR
+term bonds,満期一括償還社債,uscpa FAR
+sinking fund,減債基金,uscpa FAR
+troubled debt restructuring,問題債務の条件緩和,uscpa FAR
+note disclosure,注記開示,uscpa FAR
+accounting policies,会計方針,uscpa FAR
+change in accounting estimate,会計上の見積りの変更,uscpa FAR
+change in accounting principle,会計方針の変更,uscpa FAR
+prior period adjustment,前期修正,uscpa FAR
+error correction,誤謬の訂正,uscpa FAR
+restatement,訂正再表示,uscpa FAR
+gross method,総額法,uscpa FAR
+net method,純額法,uscpa FAR
+trade receivables,営業債権,uscpa FAR
+betterment,改良,uscpa FAR
+organization costs,創立費,uscpa FAR
+audit risk,監査リスク,uscpa AUD
+inherent risk,固有リスク,uscpa AUD
+control risk,統制リスク,uscpa AUD
+detection risk,発見リスク,uscpa AUD
+risk assessment,リスク評価,uscpa AUD
+audit plan,監査計画,uscpa AUD
+audit evidence,監査証拠,uscpa AUD
+sufficiency,(監査証拠の)十分性,uscpa AUD
+appropriateness,(監査証拠の)適切性,uscpa AUD
+analytical procedures,分析的手続,uscpa AUD
+confirmation,確認,uscpa AUD
+positive confirmation,積極的確認,uscpa AUD
+negative confirmation,消極的確認,uscpa AUD
+observation,観察,uscpa AUD
+inspection,閲覧(検査),uscpa AUD
+recalculation,再計算,uscpa AUD
+reperformance,再実施,uscpa AUD
+inquiry,質問,uscpa AUD
+vouching,証憑突合(バウチング),uscpa AUD
+tracing,追跡(トレーシング),uscpa AUD
+cutoff,期間帰属(カットオフ),uscpa AUD
+existence,実在性,uscpa AUD
+completeness,網羅性,uscpa AUD
+accuracy,正確性,uscpa AUD
+valuation and allocation,評価と配分,uscpa AUD
+rights and obligations,権利と義務,uscpa AUD
+presentation and disclosure,表示と開示,uscpa AUD
+occurrence,発生,uscpa AUD
+classification,分類,uscpa AUD
+misstatement,虚偽表示,uscpa AUD
+tolerable misstatement,許容虚偽表示,uscpa AUD
+fraud,不正,uscpa AUD
+error,誤謬,uscpa AUD
+professional skepticism,職業的懐疑心,uscpa AUD
+professional judgment,職業的専門家としての判断,uscpa AUD
+independence,独立性,uscpa AUD
+due professional care,正当な注意,uscpa AUD
+engagement letter,監査契約書,uscpa AUD
+predecessor auditor,前任監査人,uscpa AUD
+audit report,監査報告書,uscpa AUD
+unmodified opinion,無限定適正意見,uscpa AUD
+qualified opinion,限定付適正意見,uscpa AUD
+adverse opinion,不適正意見,uscpa AUD
+disclaimer of opinion,意見不表明,uscpa AUD
+emphasis-of-matter paragraph,強調事項区分,uscpa AUD
+internal control,内部統制,uscpa AUD
+control environment,統制環境,uscpa AUD
+control activities,統制活動,uscpa AUD
+monitoring activities,モニタリング活動,uscpa AUD
+segregation of duties,職務の分離,uscpa AUD
+authorization,承認,uscpa AUD
+reconciliation,照合(残高調整),uscpa AUD
+walkthrough,ウォークスルー,uscpa AUD
+test of controls,統制テスト(運用評価手続),uscpa AUD
+substantive procedures,実証手続,uscpa AUD
+sampling risk,サンプリング・リスク,uscpa AUD
+attribute sampling,属性サンプリング,uscpa AUD
+population,母集団,uscpa AUD
+sample size,サンプル数,uscpa AUD
+materiality,重要性,uscpa AUD
+going concern,継続企業の前提,uscpa AUD
+management representation letter,経営者確認書,uscpa AUD
+those charged with governance,統治責任者,uscpa AUD
+audit committee,監査委員会,uscpa AUD
+internal auditor,内部監査人,uscpa AUD
+external auditor,外部監査人,uscpa AUD
+compilation,調製業務(コンピレーション),uscpa AUD
+review engagement,レビュー業務,uscpa AUD
+attestation engagement,証明業務,uscpa AUD
+assurance services,保証業務,uscpa AUD
+agreed-upon procedures,合意された手続,uscpa AUD
+quality control,品質管理,uscpa AUD
+scope limitation,監査範囲の制約,uscpa AUD
+working papers,監査調書,uscpa AUD
+dual dating,二重日付,uscpa AUD
+engagement partner,業務執行社員,uscpa AUD
+peer review,ピア・レビュー(相互審査),uscpa AUD
+planning materiality,計画段階の重要性,uscpa AUD
+performance materiality,手続実施上の重要性,uscpa AUD
+risk of material misstatement,重要な虚偽表示リスク,uscpa AUD
+significant risk,特別な検討を必要とするリスク,uscpa AUD
+fraud risk factors,不正リスク要因,uscpa AUD
+management override,経営者による内部統制の無効化,uscpa AUD
+collusion,共謀,uscpa AUD
+tone at the top,経営トップの姿勢,uscpa AUD
+whistleblower,内部通報者,uscpa AUD
+related party,関連当事者,uscpa AUD
+lawyer's letter,弁護士確認書,uscpa AUD
+bank confirmation,銀行確認状,uscpa AUD
+inventory observation,棚卸立会,uscpa AUD
+physical count,実地棚卸,uscpa AUD
+other-matter paragraph,その他の事項区分,uscpa AUD
+comparative financial statements,比較財務諸表,uscpa AUD
+opening balances,期首残高,uscpa AUD
+group audit,グループ監査,uscpa AUD
+component auditor,構成単位の監査人,uscpa AUD
+using the work of a specialist,専門家の業務の利用,uscpa AUD
+statistical sampling,統計的サンプリング,uscpa AUD
+nonstatistical sampling,非統計的サンプリング,uscpa AUD
+stratification,層化,uscpa AUD
+projected misstatement,推定虚偽表示,uscpa AUD
+nonsampling risk,ノンサンプリング・リスク,uscpa AUD
+engagement quality review,業務品質レビュー,uscpa AUD
+code of professional conduct,職業行為規範,uscpa AUD
+continuing professional education,継続的専門研修,uscpa AUD
+contingent fee,成功報酬,uscpa AUD
+internal audit function,内部監査機能,uscpa AUD
+litigation claims and assessments,訴訟・賠償請求等,uscpa AUD
+haphazard selection,無作為的選択,uscpa AUD
+going concern disclosure,継続企業の前提に関する開示,uscpa AUD
+federal income tax,連邦所得税,uscpa REG
+tax return,納税申告書,uscpa REG
+filing status,申告資格,uscpa REG
+standard deduction,標準控除,uscpa REG
+itemized deductions,項目別控除,uscpa REG
+adjusted gross income,調整後総所得(AGI),uscpa REG
+gross income,総所得,uscpa REG
+taxable income,課税所得,uscpa REG
+tax credit,税額控除,uscpa REG
+tax deduction,所得控除,uscpa REG
+capital gain,譲渡益(キャピタル・ゲイン),uscpa REG
+capital loss,譲渡損失,uscpa REG
+short-term capital gain,短期譲渡益,uscpa REG
+long-term capital gain,長期譲渡益,uscpa REG
+dividend income,配当所得,uscpa REG
+interest income,利子所得,uscpa REG
+rental income,賃貸所得,uscpa REG
+passive activity,受動的活動,uscpa REG
+withholding,源泉徴収,uscpa REG
+estimated tax,予定納税,uscpa REG
+tax basis,税務上の取得価額(ベーシス),uscpa REG
+depreciation recapture,減価償却の取戻し,uscpa REG
+like-kind exchange,同種資産の交換,uscpa REG
+net operating loss,純営業損失,uscpa REG
+carryforward,(欠損金などの)繰越,uscpa REG
+carryback,(欠損金などの)繰戻し,uscpa REG
+alternative minimum tax,代替ミニマム税,uscpa REG
+estate tax,遺産税,uscpa REG
+gift tax,贈与税,uscpa REG
+trust,信託,uscpa REG
+beneficiary,受益者,uscpa REG
+fiduciary,受託者,uscpa REG
+C corporation,C法人,uscpa REG
+S corporation,S法人,uscpa REG
+partnership,パートナーシップ,uscpa REG
+general partner,無限責任パートナー,uscpa REG
+limited partner,有限責任パートナー,uscpa REG
+limited liability company (LLC),有限責任会社(LLC),uscpa REG
+sole proprietorship,個人事業,uscpa REG
+distribution,(株主・組合員への)分配,uscpa REG
+dividends-received deduction,受取配当控除,uscpa REG
+contract,契約,uscpa REG
+offer,申込み,uscpa REG
+acceptance,承諾,uscpa REG
+consideration,約因,uscpa REG
+breach of contract,契約違反,uscpa REG
+damages,損害賠償,uscpa REG
+specific performance,特定履行,uscpa REG
+rescission,契約の取消し(解除),uscpa REG
+misrepresentation,不実表示,uscpa REG
+duress,強迫,uscpa REG
+undue influence,不当威圧,uscpa REG
+capacity,行為能力,uscpa REG
+minor,未成年者,uscpa REG
+void contract,無効な契約,uscpa REG
+voidable contract,取消可能な契約,uscpa REG
+statute of frauds,詐欺防止法,uscpa REG
+parol evidence rule,口頭証拠排除原則,uscpa REG
+assignment,(権利の)譲渡,uscpa REG
+delegation,(義務の)委譲,uscpa REG
+third-party beneficiary,第三者受益者,uscpa REG
+agency,代理,uscpa REG
+principal,本人,uscpa REG
+agent,代理人,uscpa REG
+apparent authority,表見的権限(表見代理),uscpa REG
+fiduciary duty,信認義務,uscpa REG
+negligence,過失,uscpa REG
+statute of limitations,出訴期限(時効),uscpa REG
+negotiable instrument,流通証券,uscpa REG
+promissory note,約束手形,uscpa REG
+endorsement,裏書,uscpa REG
+holder in due course,正当所持人,uscpa REG
+secured transaction,担保付取引,uscpa REG
+collateral,担保物,uscpa REG
+perfection,(担保権の)対抗要件の具備,uscpa REG
+bankruptcy,破産,uscpa REG
+debtor,債務者,uscpa REG
+creditor,債権者,uscpa REG
+lien,リーエン(担保権・先取特権),uscpa REG
+surety,保証人,uscpa REG
+registration statement,(証券の)登録届出書,uscpa REG
+prospectus,目論見書,uscpa REG
+insider trading,インサイダー取引,uscpa REG
+Internal Revenue Code,内国歳入法典,uscpa REG
+Internal Revenue Service (IRS),内国歳入庁(IRS),uscpa REG
+tax audit,税務調査,uscpa REG
+tax evasion,脱税,uscpa REG
+tax avoidance,節税(租税回避),uscpa REG
+penalty,加算税(ペナルティ),uscpa REG
+amended return,修正申告書,uscpa REG
+extension,申告期限の延長,uscpa REG
+dependent,扶養親族,uscpa REG
+qualifying child,適格児童,uscpa REG
+head of household,特定世帯主,uscpa REG
+married filing jointly,夫婦合算申告,uscpa REG
+married filing separately,夫婦個別申告,uscpa REG
+wages,給与,uscpa REG
+self-employment income,自営業所得,uscpa REG
+fringe benefits,付加給付(フリンジ・ベネフィット),uscpa REG
+alimony,離婚扶養料,uscpa REG
+child support,養育費,uscpa REG
+scholarship,奨学金,uscpa REG
+unemployment compensation,失業給付,uscpa REG
+social security benefits,社会保障給付,uscpa REG
+municipal bond interest,地方債利子,uscpa REG
+casualty loss,災害損失,uscpa REG
+medical expenses,医療費,uscpa REG
+mortgage interest,住宅ローン利子,uscpa REG
+property tax,固定資産税,uscpa REG
+charitable deduction,寄付金控除,uscpa REG
+earned income credit,勤労所得税額控除,uscpa REG
+child tax credit,児童税額控除,uscpa REG
+foreign tax credit,外国税額控除,uscpa REG
+corporate formation,法人設立,uscpa REG
+boot,ブート(交換差金),uscpa REG
+liquidation,清算,uscpa REG
+reorganization,組織再編,uscpa REG
+accumulated earnings tax,留保金課税,uscpa REG
+personal holding company,個人持株会社,uscpa REG
+workers' compensation,労災補償,uscpa REG
+capital budgeting,設備投資の経済性計算(資本予算),uscpa BAR
+net present value,正味現在価値(NPV),uscpa BAR
+internal rate of return,内部収益率(IRR),uscpa BAR
+payback period,回収期間,uscpa BAR
+cost of capital,資本コスト,uscpa BAR
+cost of debt,負債コスト,uscpa BAR
+cost of equity,株主資本コスト,uscpa BAR
+weighted-average cost of capital,加重平均資本コスト(WACC),uscpa BAR
+leverage,レバレッジ,uscpa BAR
+liquidity,流動性,uscpa BAR
+solvency,支払能力,uscpa BAR
+current ratio,流動比率,uscpa BAR
+quick ratio,当座比率,uscpa BAR
+debt-to-equity ratio,負債資本比率,uscpa BAR
+inventory turnover,棚卸資産回転率,uscpa BAR
+receivables turnover,売上債権回転率,uscpa BAR
+return on assets,総資産利益率(ROA),uscpa BAR
+return on equity,自己資本利益率(ROE),uscpa BAR
+contribution margin,貢献利益,uscpa BAR
+break-even point,損益分岐点,uscpa BAR
+fixed costs,固定費,uscpa BAR
+variable costs,変動費,uscpa BAR
+mixed costs,準変動費,uscpa BAR
+relevant range,正常操業圏,uscpa BAR
+job order costing,個別原価計算,uscpa BAR
+process costing,総合原価計算,uscpa BAR
+activity-based costing,活動基準原価計算(ABC),uscpa BAR
+standard costing,標準原価計算,uscpa BAR
+manufacturing overhead,製造間接費,uscpa BAR
+direct materials,直接材料費,uscpa BAR
+direct labor,直接労務費,uscpa BAR
+absorption costing,全部原価計算,uscpa BAR
+variable costing,直接原価計算,uscpa BAR
+master budget,総合予算,uscpa BAR
+flexible budget,変動予算,uscpa BAR
+variance analysis,差異分析,uscpa BAR
+favorable variance,有利差異,uscpa BAR
+unfavorable variance,不利差異,uscpa BAR
+balanced scorecard,バランスト・スコアカード,uscpa BAR
+benchmarking,ベンチマーキング,uscpa BAR
+economies of scale,規模の経済,uscpa BAR
+supply and demand,需要と供給,uscpa BAR
+elasticity,(需要の)弾力性,uscpa BAR
+inflation,インフレーション,uscpa BAR
+gross domestic product,国内総生産(GDP),uscpa BAR
+monetary policy,金融政策,uscpa BAR
+fiscal policy,財政政策,uscpa BAR
+business cycle,景気循環,uscpa BAR
+recession,景気後退,uscpa BAR
+working capital,運転資本,uscpa BAR
+regression analysis,回帰分析,uscpa BAR
+correlation,相関,uscpa BAR
+forecasting,予測,uscpa BAR
+sensitivity analysis,感応度分析,uscpa BAR
+scenario analysis,シナリオ分析,uscpa BAR
+discounted cash flow,割引キャッシュ・フロー,uscpa BAR
+free cash flow,フリー・キャッシュ・フロー,uscpa BAR
+terminal value,継続価値(ターミナル・バリュー),uscpa BAR
+hurdle rate,ハードル・レート(最低要求収益率),uscpa BAR
+profitability index,収益性指数,uscpa BAR
+opportunity cost,機会費用,uscpa BAR
+sunk cost,埋没原価,uscpa BAR
+relevant cost,関連原価,uscpa BAR
+incremental cost,増分原価,uscpa BAR
+avoidable cost,回避可能原価,uscpa BAR
+make-or-buy decision,自製か購入かの意思決定,uscpa BAR
+transfer pricing,振替価格,uscpa BAR
+target costing,原価企画(目標原価計算),uscpa BAR
+residual income,残余利益,uscpa BAR
+economic value added,経済的付加価値(EVA),uscpa BAR
+horizontal analysis,趨勢分析(水平分析),uscpa BAR
+vertical analysis,構成比分析(垂直分析),uscpa BAR
+common-size financial statements,百分率財務諸表,uscpa BAR
+ratio analysis,財務比率分析,uscpa BAR
+key performance indicator,重要業績評価指標(KPI),uscpa BAR
+value chain,価値連鎖(バリュー・チェーン),uscpa BAR
+just-in-time,ジャスト・イン・タイム,uscpa BAR
+total quality management,総合的品質管理,uscpa BAR
+corporate governance,コーポレート・ガバナンス,uscpa BAR
+board of directors,取締役会,uscpa BAR
+information systems,情報システム,uscpa ISC
+internal control over financial reporting,財務報告に係る内部統制,uscpa ISC
+COSO framework,COSOフレームワーク,uscpa ISC
+enterprise risk management,全社的リスク管理(ERM),uscpa ISC
+access control,アクセス制御,uscpa ISC
+encryption,暗号化,uscpa ISC
+firewall,ファイアウォール,uscpa ISC
+authentication,認証,uscpa ISC
+authorization,(システムの)権限付与,uscpa ISC
+backup,バックアップ,uscpa ISC
+disaster recovery plan,災害復旧計画,uscpa ISC
+business continuity plan,事業継続計画(BCP),uscpa ISC
+data integrity,データ完全性,uscpa ISC
+confidentiality,機密性,uscpa ISC
+availability,可用性,uscpa ISC
+change management,変更管理,uscpa ISC
+IT general controls,IT全般統制,uscpa ISC
+application controls,業務処理統制(アプリケーション統制),uscpa ISC
+cybersecurity,サイバーセキュリティ,uscpa ISC
+phishing,フィッシング,uscpa ISC
+audit trail,監査証跡,uscpa ISC
+System and Organization Controls (SOC) report,SOC報告書,uscpa ISC
+logical access,論理的アクセス,uscpa ISC
+physical access controls,物理的アクセス管理,uscpa ISC
+multi-factor authentication,多要素認証,uscpa ISC
+password policy,パスワード・ポリシー,uscpa ISC
+privileged access,特権アクセス,uscpa ISC
+patch management,パッチ管理,uscpa ISC
+vulnerability assessment,脆弱性評価,uscpa ISC
+penetration testing,ペネトレーション・テスト(侵入テスト),uscpa ISC
+intrusion detection system,侵入検知システム,uscpa ISC
+malware,マルウェア,uscpa ISC
+ransomware,ランサムウェア,uscpa ISC
+social engineering,ソーシャル・エンジニアリング,uscpa ISC
+denial-of-service attack,サービス妨害攻撃(DoS攻撃),uscpa ISC
+data breach,データ漏えい,uscpa ISC
+incident response,インシデント対応,uscpa ISC
+cloud computing,クラウド・コンピューティング,uscpa ISC
+software as a service (SaaS),SaaS(サービスとしてのソフトウェア),uscpa ISC
+outsourcing,外部委託,uscpa ISC
+service organization,受託会社,uscpa ISC
+batch processing,バッチ処理,uscpa ISC
+real-time processing,リアルタイム処理,uscpa ISC
+database management system,データベース管理システム,uscpa ISC
+data warehouse,データウェアハウス,uscpa ISC
+data analytics,データ分析,uscpa ISC
+artificial intelligence,人工知能(AI),uscpa ISC
+robotic process automation (RPA),RPA(ロボティック・プロセス・オートメーション),uscpa ISC
+blockchain,ブロックチェーン,uscpa ISC
+electronic data interchange (EDI),電子データ交換(EDI),uscpa ISC
+tax planning,タックス・プランニング(税務計画),uscpa TCP
+gift tax exclusion,贈与税の年間非課税枠,uscpa TCP
+qualified retirement plan,適格退職年金制度,uscpa TCP
+individual retirement account (IRA),個人退職勘定(IRA),uscpa TCP
+traditional IRA,伝統的IRA(税引前拠出型),uscpa TCP
+Roth IRA,ロスIRA(税引後拠出型),uscpa TCP
+rollover,(退職資金の)移管(ロールオーバー),uscpa TCP
+required minimum distribution,最低引出義務額(RMD),uscpa TCP
+deferred compensation,繰延報酬,uscpa TCP
+stock option,ストック・オプション,uscpa TCP
+charitable contribution,慈善寄付,uscpa TCP
+tax-exempt organization,非課税団体,uscpa TCP
+estimated tax payments,予定納税額の納付,uscpa TCP
+passive income,受動的所得,uscpa TCP
+ordinary income,通常所得,uscpa TCP
+tax bracket,税率区分,uscpa TCP
+marginal tax rate,限界税率,uscpa TCP
+effective tax rate,実効税率,uscpa TCP
+gross estate,総遺産,uscpa TCP
+taxable estate,課税遺産,uscpa TCP
+unified credit,統一移転税額控除,uscpa TCP
+marital deduction,配偶者控除(遺産・贈与税),uscpa TCP
+generation-skipping transfer tax,世代飛越移転税,uscpa TCP
+grantor,(信託の)委託者,uscpa TCP
+revocable trust,撤回可能信託,uscpa TCP
+irrevocable trust,撤回不能信託,uscpa TCP
+simple trust,単純信託,uscpa TCP
+complex trust,複合信託,uscpa TCP
+distributable net income,分配可能純利益(DNI),uscpa TCP
+qualified dividend,適格配当,uscpa TCP
+net investment income tax,純投資所得税,uscpa TCP
+wash sale,ウォッシュ・セール(買戻しによる損失否認),uscpa TCP
+worthless securities,無価値化した有価証券,uscpa TCP
+home sale exclusion,自宅売却益の非課税特例,uscpa TCP
+installment sale,割賦販売(税務),uscpa TCP
+involuntary conversion,非自発的転換(収用等),uscpa TCP
+Section 1231 property,1231条資産(事業用資産),uscpa TCP
+at-risk rules,リスク負担額ルール,uscpa TCP
+passive activity loss,受動的活動損失,uscpa TCP
+material participation,実質的関与,uscpa TCP
+partnership interest,パートナーシップ持分,uscpa TCP
+guaranteed payments,(パートナーへの)保証支払,uscpa TCP
+basis adjustment,ベーシスの調整,uscpa TCP
+health savings account (HSA),医療貯蓄口座(HSA),uscpa TCP
+529 plan,529プラン(教育資金積立制度),uscpa TCP
+kiddie tax,未成年者投資所得課税(キディ・タックス),uscpa TCP
+foreign earned income exclusion,国外勤労所得の非課税措置,uscpa TCP
+tax year,課税年度,uscpa TCP
+accrual method (tax),(税務上の)発生主義,uscpa TCP
+cash method (tax),(税務上の)現金主義,uscpa TCP
+current portion of long-term debt,1年内返済予定の長期負債,uscpa FAR
+income tax payable,未払法人税等,uscpa FAR
+dividends payable,未払配当金,uscpa FAR
+accounting equation,会計等式,uscpa FAR
+posting,転記,uscpa FAR
+worksheet,精算表,uscpa FAR
+reversing entries,再振替仕訳,uscpa FAR
+permanent accounts,実在勘定,uscpa FAR
+temporary accounts,名目勘定,uscpa FAR
+normal balance,正常残高,uscpa FAR
+source documents,原始証憑,uscpa FAR
+invoice,請求書(送り状),uscpa FAR
+purchase order,注文書,uscpa FAR
+receiving report,検収報告書,uscpa FAR
+credit memo,貸方票(値引・返品通知),uscpa FAR
+NSF check,不渡小切手,uscpa FAR
+bank service charge,銀行手数料,uscpa FAR
+aging of receivables,売上債権の年齢分析,uscpa FAR
+percentage of sales method,売上高比率法,uscpa FAR
+direct write-off method,直接償却法,uscpa FAR
+cash discount,現金割引,uscpa FAR
+trade discount,数量値引(取引割引),uscpa FAR
+moving average method,移動平均法,uscpa FAR
+LIFO reserve,LIFO評価差額(LIFOリザーブ),uscpa FAR
+LIFO liquidation,LIFO層の食い込み(LIFO清算),uscpa FAR
+purchase commitments,仕入契約(購入予約),uscpa FAR
+capitalized interest,利息の資産化(資本化利息),uscpa FAR
+nonmonetary exchange,非貨幣性資産の交換,uscpa FAR
+commercial substance,経済的実質,uscpa FAR
+goodwill impairment,のれんの減損,uscpa FAR
+indefinite-lived intangible asset,耐用年数を確定できない無形資産,uscpa FAR
+internally developed software,自社開発ソフトウェア,uscpa FAR
+significant influence,重要な影響力,uscpa FAR
+variable interest entity,変動持分事業体(VIE),uscpa FAR
+primary beneficiary,主たる受益者,uscpa FAR
+functional currency,機能通貨,uscpa FAR
+reporting currency,報告通貨,uscpa FAR
+remeasurement,(外貨の)再測定,uscpa FAR
+translation adjustment,為替換算調整額,uscpa FAR
+forward contract,先渡契約,uscpa FAR
+futures contract,先物契約,uscpa FAR
+option contract,オプション契約,uscpa FAR
+swap,スワップ,uscpa FAR
+fair value hedge,公正価値ヘッジ,uscpa FAR
+cash flow hedge,キャッシュ・フロー・ヘッジ,uscpa FAR
+notional amount,想定元本,uscpa FAR
+embedded derivative,組込デリバティブ,uscpa FAR
+fair value hierarchy,公正価値ヒエラルキー,uscpa FAR
+exit price,出口価格,uscpa FAR
+principal market,主要な市場,uscpa FAR
+highest and best use,最有効使用,uscpa FAR
+operating segment,事業セグメント,uscpa FAR
+reportable segment,報告セグメント,uscpa FAR
+chief operating decision maker,最高経営意思決定者,uscpa FAR
+basic earnings per share,基本的1株当たり利益,uscpa FAR
+weighted-average shares outstanding,加重平均発行済株式数,uscpa FAR
+antidilutive,逆希薄化効果のある,uscpa FAR
+treasury stock method,自己株式方式,uscpa FAR
+if-converted method,転換仮定方式,uscpa FAR
+share-based payment,株式報酬,uscpa FAR
+grant date,付与日,uscpa FAR
+vesting period,権利確定期間,uscpa FAR
+compensation expense,報酬費用,uscpa FAR
+par value,額面価額,uscpa FAR
+appropriation of retained earnings,利益剰余金の処分,uscpa FAR
+deficit,欠損金,uscpa FAR
+property dividend,現物配当,uscpa FAR
+cumulative preferred stock,累積的優先株式,uscpa FAR
+book value per share,1株当たり純資産,uscpa FAR
+projected benefit obligation,予測給付債務,uscpa FAR
+plan assets,年金資産,uscpa FAR
+service cost,勤務費用,uscpa FAR
+interest cost,利息費用,uscpa FAR
+prior service cost,過去勤務費用,uscpa FAR
+actuarial gains and losses,数理計算上の差異,uscpa FAR
+funded status,(年金の)積立状況,uscpa FAR
+postretirement benefits,退職後給付,uscpa FAR
+compensated absences,補償付休暇(有給休暇),uscpa FAR
+sales-type lease,販売型リース,uscpa FAR
+direct financing lease,直接金融リース,uscpa FAR
+lessor,貸手,uscpa FAR
+lessee,借手,uscpa FAR
+lease term,リース期間,uscpa FAR
+bargain purchase option,割安購入選択権,uscpa FAR
+residual value guarantee,残価保証,uscpa FAR
+short-term lease,短期リース,uscpa FAR
+valuation allowance,(繰延税金資産の)評価性引当額,uscpa FAR
+intraperiod tax allocation,期間内税金配分,uscpa FAR
+income from continuing operations,継続事業からの利益,uscpa FAR
+multiple-step income statement,区分式損益計算書,uscpa FAR
+single-step income statement,単一区分式損益計算書,uscpa FAR
+operating activities,営業活動,uscpa FAR
+investing activities,投資活動,uscpa FAR
+financing activities,財務活動,uscpa FAR
+direct method,(キャッシュ・フローの)直接法,uscpa FAR
+indirect method,(キャッシュ・フローの)間接法,uscpa FAR
+noncash transactions,非資金取引,uscpa FAR
+generally accepted accounting principles (GAAP),一般に公正妥当と認められる会計原則(GAAP),uscpa FAR
+amortized cost,償却原価,uscpa FAR
+accrued payroll,未払給与,uscpa FAR
+statement of retained earnings,利益剰余金計算書,uscpa FAR
+statement of comprehensive income,包括利益計算書,uscpa FAR
+operating cycle,営業循環,uscpa FAR
+classified balance sheet,区分式貸借対照表,uscpa FAR
+monetary assets,貨幣性資産,uscpa FAR
+nonmonetary assets,非貨幣性資産,uscpa FAR
+replacement cost,再調達原価,uscpa FAR
+going concern assumption,継続企業の公準,uscpa FAR
+economic entity assumption,企業実体の公準,uscpa FAR
+monetary unit assumption,貨幣的測定の公準,uscpa FAR
+periodicity assumption,会計期間の公準,uscpa FAR
+full disclosure principle,完全開示の原則,uscpa FAR
+revenue,収益,uscpa FAR
+expense,費用,uscpa FAR
+gain,利得,uscpa FAR
+loss,損失,uscpa FAR
+asset,資産,uscpa FAR
+liability,負債,uscpa FAR
+equity,資本(持分),uscpa FAR
+contributed capital,拠出資本,uscpa FAR
+accrued liabilities,未払債務,uscpa FAR
+contingent asset,偶発資産,uscpa FAR
+executory contract,未履行契約,uscpa FAR
+purchase allowance,仕入値引,uscpa FAR
+sales allowance,売上値引,uscpa FAR
+net sales,純売上高,uscpa FAR
+net purchases,純仕入高,uscpa FAR
+beginning inventory,期首棚卸資産,uscpa FAR
+ending inventory,期末棚卸資産,uscpa FAR
+goods in transit,未着品,uscpa FAR
+generally accepted auditing standards (GAAS),一般に公正妥当と認められる監査基準(GAAS),uscpa AUD
+PCAOB,公開会社会計監督委員会(PCAOB),uscpa AUD
+Securities and Exchange Commission (SEC),証券取引委員会(SEC),uscpa AUD
+financial statement audit,財務諸表監査,uscpa AUD
+compliance audit,準拠性監査,uscpa AUD
+operational audit,業務監査,uscpa AUD
+integrated audit,統合監査,uscpa AUD
+reasonable assurance,合理的保証,uscpa AUD
+limited assurance,限定的保証,uscpa AUD
+negative assurance,消極的保証,uscpa AUD
+audit strategy,監査の基本方針(監査戦略),uscpa AUD
+interim testing,期中テスト,uscpa AUD
+roll-forward procedures,ロール・フォワード手続,uscpa AUD
+test of details,詳細テスト,uscpa AUD
+dual-purpose test,二重目的テスト,uscpa AUD
+random selection,無作為抽出,uscpa AUD
+systematic selection,系統的抽出,uscpa AUD
+monetary unit sampling,金額単位サンプリング,uscpa AUD
+deviation rate,逸脱率,uscpa AUD
+expected deviation rate,予想逸脱率,uscpa AUD
+tolerable deviation rate,許容逸脱率,uscpa AUD
+entity-level controls,全社的統制,uscpa AUD
+flowchart,フローチャート,uscpa AUD
+internal control questionnaire,内部統制質問書,uscpa AUD
+narrative,業務記述書,uscpa AUD
+control deficiency,内部統制の不備,uscpa AUD
+significant deficiency,重要な不備,uscpa AUD
+material weakness,開示すべき重要な不備,uscpa AUD
+threats to independence,独立性への阻害要因,uscpa AUD
+safeguards,セーフガード(阻害要因への対応策),uscpa AUD
+self-review threat,自己レビューの脅威,uscpa AUD
+advocacy threat,擁護の脅威,uscpa AUD
+familiarity threat,馴れ合いの脅威,uscpa AUD
+noncompliance with laws and regulations,法令違反,uscpa AUD
+comfort letter,コンフォート・レター,uscpa AUD
+special purpose framework,特別目的の枠組み,uscpa AUD
+single audit,シングル・オーディット(補助金監査),uscpa AUD
+report release date,監査報告書発行日,uscpa AUD
+audit documentation,監査文書化,uscpa AUD
+fieldwork,実地作業(往査),uscpa AUD
+audit opinion,監査意見,uscpa AUD
+auditor's responsibility,監査人の責任,uscpa AUD
+management's responsibility,経営者の責任,uscpa AUD
+critical audit matters,監査上の重要な検討事項(CAM),uscpa AUD
+required supplementary information,必須補足情報,uscpa AUD
+other information,その他の記載内容,uscpa AUD
+summary financial statements,要約財務諸表,uscpa AUD
+interim review,期中レビュー,uscpa AUD
+client acceptance,監査契約の新規締結(クライアント受入れ),uscpa AUD
+successor auditor,後任監査人,uscpa AUD
+Uniform Commercial Code (UCC),統一商事法典(UCC),uscpa REG
+merchant,商人,uscpa REG
+firm offer,確定申込み,uscpa REG
+counteroffer,反対申込み,uscpa REG
+revocation,(申込みの)撤回,uscpa REG
+mailbox rule,発信主義(メールボックス・ルール),uscpa REG
+unilateral contract,片務契約,uscpa REG
+bilateral contract,双務契約,uscpa REG
+promissory estoppel,約束的禁反言,uscpa REG
+condition precedent,停止条件,uscpa REG
+anticipatory repudiation,履行期前の履行拒絶,uscpa REG
+impossibility,履行不能,uscpa REG
+commercial impracticability,商業的実行困難性,uscpa REG
+accord and satisfaction,合意と履行による債務消滅,uscpa REG
+novation,更改,uscpa REG
+liquidated damages,損害賠償額の予定,uscpa REG
+punitive damages,懲罰的損害賠償,uscpa REG
+compensatory damages,填補賠償,uscpa REG
+consequential damages,結果損害(特別損害),uscpa REG
+mitigation of damages,損害軽減義務,uscpa REG
+express warranty,明示的保証,uscpa REG
+implied warranty of merchantability,商品性の黙示的保証,uscpa REG
+implied warranty of fitness for a particular purpose,特定目的適合性の黙示的保証,uscpa REG
+risk of loss,危険負担,uscpa REG
+express authority,明示の権限,uscpa REG
+implied authority,黙示の権限,uscpa REG
+ratification,追認,uscpa REG
+undisclosed principal,非顕名の本人,uscpa REG
+respondeat superior,使用者責任,uscpa REG
+independent contractor,独立請負人,uscpa REG
+strict liability,厳格責任(無過失責任),uscpa REG
+product liability,製造物責任,uscpa REG
+tort,不法行為,uscpa REG
+drawer,(手形・小切手の)振出人,uscpa REG
+drawee,支払人(名宛人),uscpa REG
+payee,受取人,uscpa REG
+maker,(約束手形の)振出人,uscpa REG
+bearer paper,持参人払式証券,uscpa REG
+order paper,指図式証券,uscpa REG
+blank endorsement,白地式裏書,uscpa REG
+special endorsement,記名式裏書,uscpa REG
+restrictive endorsement,制限裏書,uscpa REG
+dishonor,支払拒絶(不渡り),uscpa REG
+letter of credit,信用状,uscpa REG
+financing statement,担保権登録書類(ファイナンシング・ステートメント),uscpa REG
+purchase money security interest,購入代金担保権(PMSI),uscpa REG
+attachment,(担保権の)成立,uscpa REG
+default,債務不履行,uscpa REG
+foreclosure,担保権の実行,uscpa REG
+garnishment,債権差押え,uscpa REG
+automatic stay,自動停止(オートマティック・ステイ),uscpa REG
+trustee in bankruptcy,破産管財人,uscpa REG
+preference,偏頗弁済,uscpa REG
+discharge,(破産による)免責,uscpa REG
+Securities Act of 1933,1933年証券法,uscpa REG
+Securities Exchange Act of 1934,1934年証券取引所法,uscpa REG
+accredited investor,適格投資家,uscpa REG
+private placement,私募,uscpa REG
+Form 10-K,年次報告書(Form 10-K),uscpa REG
+Sarbanes-Oxley Act,サーベンス・オクスリー法(SOX法),uscpa REG
+legality,(契約の)適法性,uscpa REG
+unconscionable contract,非良心的契約,uscpa REG
+adhesion contract,附合契約,uscpa REG
+mutual mistake,双方の錯誤,uscpa REG
+unilateral mistake,一方の錯誤,uscpa REG
+cover,(買主の)代替品調達,uscpa REG
+cure,(売主の)追完,uscpa REG
+installment contract,分割履行契約,uscpa REG
+quasi-contract,準契約,uscpa REG
+guaranty,保証(契約),uscpa REG
+suretyship,保証関係,uscpa REG
+subrogation,代位,uscpa REG
+contribution,(共同保証人間の)求償,uscpa REG
+mechanic's lien,建築先取特権,uscpa REG
+judgment lien,判決リーエン,uscpa REG
+involuntary bankruptcy,強制破産(債権者申立て),uscpa REG
+voluntary bankruptcy,自己破産(債務者申立て),uscpa REG
+reorganization plan,再建計画,uscpa REG
+proof of claim,債権届出,uscpa REG
+priority claims,優先債権,uscpa REG
+cost-volume-profit analysis,CVP分析(原価・営業量・利益分析),uscpa BAR
+margin of safety,安全余裕率,uscpa BAR
+operating leverage,経営レバレッジ,uscpa BAR
+sales mix,販売構成(セールス・ミックス),uscpa BAR
+high-low method,高低点法,uscpa BAR
+learning curve,学習曲線,uscpa BAR
+theory of constraints,制約理論,uscpa BAR
+bottleneck,ボトルネック,uscpa BAR
+equivalent units,完成品換算量,uscpa BAR
+joint costs,連産品原価(結合原価),uscpa BAR
+split-off point,分離点,uscpa BAR
+byproduct,副産物,uscpa BAR
+normal spoilage,正常仕損,uscpa BAR
+abnormal spoilage,異常仕損,uscpa BAR
+cost driver,原価作用因(コスト・ドライバー),uscpa BAR
+predetermined overhead rate,予定間接費配賦率,uscpa BAR
+underapplied overhead,配賦不足,uscpa BAR
+overapplied overhead,配賦超過,uscpa BAR
+responsibility accounting,責任会計,uscpa BAR
+profit center,利益センター,uscpa BAR
+cost center,コスト・センター,uscpa BAR
+investment center,投資センター,uscpa BAR
+return on investment,投資利益率(ROI),uscpa BAR
+asset turnover,総資産回転率,uscpa BAR
+profit margin,売上高利益率,uscpa BAR
+DuPont analysis,デュポン分析,uscpa BAR
+days sales outstanding,売上債権回収日数,uscpa BAR
+days inventory on hand,棚卸資産保有日数,uscpa BAR
+cash conversion cycle,現金循環化日数,uscpa BAR
+times interest earned,インタレスト・カバレッジ・レシオ,uscpa BAR
+dividend payout ratio,配当性向,uscpa BAR
+price-earnings ratio,株価収益率(PER),uscpa BAR
+beta,ベータ(市場感応度),uscpa BAR
+capital asset pricing model,資本資産価格モデル(CAPM),uscpa BAR
+systematic risk,市場リスク(システマティック・リスク),uscpa BAR
+unsystematic risk,個別リスク,uscpa BAR
+diversification,分散投資,uscpa BAR
+yield curve,イールド・カーブ(利回り曲線),uscpa BAR
+nominal interest rate,名目金利,uscpa BAR
+real interest rate,実質金利,uscpa BAR
+COBIT,COBIT(ITガバナンスの枠組み),uscpa ISC
+SOC 1 report,SOC1報告書,uscpa ISC
+SOC 2 report,SOC2報告書,uscpa ISC
+type 1 report,タイプ1報告書,uscpa ISC
+type 2 report,タイプ2報告書,uscpa ISC
+trust services criteria,トラスト・サービス規準,uscpa ISC
+processing integrity,処理のインテグリティ,uscpa ISC
+privacy,プライバシー,uscpa ISC
+data governance,データ・ガバナンス,uscpa ISC
+data classification,データ分類,uscpa ISC
+data retention,データ保持,uscpa ISC
+hashing,ハッシュ化,uscpa ISC
+digital signature,電子署名,uscpa ISC
+public key infrastructure,公開鍵基盤(PKI),uscpa ISC
+virtual private network (VPN),仮想私設網(VPN),uscpa ISC
+network segmentation,ネットワーク・セグメンテーション,uscpa ISC
+zero trust,ゼロ・トラスト,uscpa ISC
+endpoint security,エンドポイント・セキュリティ,uscpa ISC
+security awareness training,セキュリティ意識向上研修,uscpa ISC
+recovery time objective,目標復旧時間(RTO),uscpa ISC
+recovery point objective,目標復旧時点(RPO),uscpa ISC
+hot site,ホット・サイト,uscpa ISC
+cold site,コールド・サイト,uscpa ISC
+redundancy,冗長化,uscpa ISC
+failover,フェイルオーバー,uscpa ISC
+uninterruptible power supply,無停電電源装置(UPS),uscpa ISC
+input controls,入力統制,uscpa ISC
+output controls,出力統制,uscpa ISC
+limit check,リミット・チェック(限度チェック),uscpa ISC
+exception report,例外報告書,uscpa ISC
+enterprise resource planning (ERP),統合基幹業務システム(ERP),uscpa ISC
+application programming interface (API),API(アプリケーション・プログラミング・インターフェース),uscpa ISC
+operating system,オペレーティング・システム,uscpa ISC
+local area network (LAN),構内ネットワーク(LAN),uscpa ISC
+wide area network (WAN),広域ネットワーク(WAN),uscpa ISC
+data center,データセンター,uscpa ISC
+virtualization,仮想化,uscpa ISC
+scalability,拡張性(スケーラビリティ),uscpa ISC
+system development life cycle,システム開発ライフサイクル(SDLC),uscpa ISC
+user acceptance testing,受入テスト(UAT),uscpa ISC
+above-the-line deduction,所得調整控除(AGI前控除),uscpa TCP
+qualified business income deduction,適格事業所得控除(QBI控除),uscpa TCP
+Section 179 expensing,179条即時償却,uscpa TCP
+bonus depreciation,特別償却(ボーナス減価償却),uscpa TCP
+MACRS,修正加速度原価回収制度(MACRS),uscpa TCP
+half-year convention,半年慣行,uscpa TCP
+safe harbor,セーフ・ハーバー(免責基準),uscpa TCP
+capital loss carryover,譲渡損失の繰越,uscpa TCP
+qualified small business stock,適格中小企業株式,uscpa TCP
+incentive stock option,税制適格ストック・オプション(ISO),uscpa TCP
+nonqualified stock option,税制非適格ストック・オプション,uscpa TCP
+restricted stock,譲渡制限株式,uscpa TCP
+vesting,権利確定,uscpa TCP
+Section 83(b) election,83条(b)項の選択,uscpa TCP
+tax deferral,課税繰延べ,uscpa TCP
+constructive receipt,みなし受領,uscpa TCP
+assignment of income doctrine,所得移転の法理,uscpa TCP
+step-up in basis,(相続時の)ベーシスの引上げ,uscpa TCP
+carryover basis,引継ベーシス,uscpa TCP
+gift splitting,贈与の夫婦分割(ギフト・スプリッティング),uscpa TCP
+charitable remainder trust,公益残余信託,uscpa TCP
+life insurance proceeds,生命保険金,uscpa TCP
+education credits,教育税額控除,uscpa TCP
+lifetime learning credit,生涯学習税額控除,uscpa TCP
+premium tax credit,保険料税額控除,uscpa TCP
+self-employment tax,自営業税,uscpa TCP
+hobby loss rules,趣味活動の損失制限,uscpa TCP
+home office deduction,自宅事務所控除,uscpa TCP
+early withdrawal penalty,早期引出しペナルティ,uscpa TCP
+catch-up contribution,キャッチアップ拠出,uscpa TCP
+adjusted basis,調整後ベーシス,uscpa TCP
+amount realized,譲渡対価(実現額),uscpa TCP
+recognized gain,認識利得,uscpa TCP
+holding period,保有期間,uscpa TCP
+inherited property,相続財産,uscpa TCP
+community property,夫婦共有財産,uscpa TCP
+alternate valuation date,(遺産の)代替評価日,uscpa TCP
+portability,(遺産税控除の)移転(ポータビリティ),uscpa TCP
+qualified disclaimer,適格放棄,uscpa TCP
+present interest,現在権益,uscpa TCP
+future interest,将来権益,uscpa TCP
+remainder interest,残余権,uscpa TCP
+life estate,生涯権益,uscpa TCP
+charitable lead trust,公益先行信託,uscpa TCP
+underpayment penalty,過少納付ペナルティ,uscpa TCP
+failure-to-file penalty,無申告ペナルティ,uscpa TCP
+failure-to-pay penalty,納付遅延ペナルティ,uscpa TCP
+accuracy-related penalty,正確性関連ペナルティ,uscpa TCP
+innocent spouse relief,無過失配偶者救済,uscpa TCP
+offer in compromise,和解申出(オファー・イン・コンプロマイズ),uscpa TCP

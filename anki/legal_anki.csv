@@ -3,4003 +3,1003 @@
 #deck:法律英単語
 #notetype:Basic
 #tags column:3
-agreement,"契約(合意)
-
-The parties entered into a written agreement.
-当事者らは書面による契約を締結した。",legal CONTRACT
-contract,"契約
-
-The contract takes effect on April 1.
-その契約は4月1日に発効する。",legal CONTRACT
-party,"当事者
-
-Each party shall bear its own costs.
-各当事者は自己の費用を負担する。",legal CONTRACT
-counterparty,"相手方当事者
-
-The counterparty requested an extension.
-相手方当事者は期限の延長を求めた。",legal CONTRACT
-execution,"(契約の)締結・調印
-
-Execution of the agreement occurred on Monday.
-契約の調印は月曜日に行われた。",legal CONTRACT
-effective date,"発効日
-
-The effective date is January 1.
-発効日は1月1日である。",legal CONTRACT
-term,"(契約)期間
-
-The term of this agreement is three years.
-本契約の期間は3年である。",legal CONTRACT
-termination,"解除(終了)
-
-Termination requires thirty days' notice.
-解除には30日前の通知が必要である。",legal CONTRACT
-expiration,"(期間)満了
-
-The license ends upon expiration of the term.
-ライセンスは期間満了により終了する。",legal CONTRACT
-renewal,"更新
-
-Renewal requires written agreement of both parties.
-更新には両当事者の書面合意が必要である。",legal CONTRACT
-breach,"違反
-
-The delay constituted a breach of the contract.
-その遅延は契約違反にあたった。",legal CONTRACT
-default,"債務不履行
-
-The borrower is in default under the agreement.
-借主は契約上の債務不履行に陥っている。",legal CONTRACT
-remedy,"救済(手段)
-
-The buyer sought a remedy for the breach.
-買主は違反に対する救済を求めた。",legal CONTRACT
-damages,"損害賠償
-
-The court awarded damages to the plaintiff.
-裁判所は原告に損害賠償を認めた。",legal CONTRACT
-indemnification,"補償
-
-The clause provides for indemnification against claims.
-その条項は請求に対する補償を定める。",legal CONTRACT
-indemnify,"補償する
-
-The seller shall indemnify the buyer for losses.
-売主は買主の損失を補償する。",legal CONTRACT
-liability,"責任
-
-Liability is limited to the contract price.
-責任は契約金額に制限される。",legal CONTRACT
-obligation,"義務
-
-Each party shall perform its obligations.
-各当事者はその義務を履行する。",legal CONTRACT
-covenant,"誓約(コベナンツ)
-
-The tenant made a covenant to maintain the premises.
-賃借人は物件を維持する誓約をした。",legal CONTRACT
-representation,"表明
-
-The seller made a representation about the assets.
-売主は資産について表明を行った。",legal CONTRACT
-warranty,"保証
-
-The product carries a one-year warranty.
-その製品には1年間の保証が付く。",legal CONTRACT
-condition,"条件
-
-Payment is a condition of delivery.
-支払は引渡しの条件である。",legal CONTRACT
-consideration,"約因
-
-The contract is supported by valid consideration.
-その契約は有効な約因に裏付けられている。",legal CONTRACT
-offer,"申込み
-
-The offer remained open for ten days.
-申込みは10日間有効であった。",legal CONTRACT
-acceptance,"承諾
-
-Acceptance was communicated by email.
-承諾は電子メールで伝達された。",legal CONTRACT
-assignment,"譲渡
-
-Assignment of this agreement requires consent.
-本契約の譲渡には同意が必要である。",legal CONTRACT
-novation,"更改
-
-The parties replaced the contract by novation.
-当事者らは更改により契約を差し替えた。",legal CONTRACT
-amendment,"変更(修正)
-
-The amendment must be in writing.
-契約の変更は書面によらなければならない。",legal CONTRACT
-waiver,"権利放棄
-
-No waiver shall be implied from conduct.
-行為から権利放棄が推定されることはない。",legal CONTRACT
-severability,"分離可能性(可分性)
-
-The severability clause preserves the remaining terms.
-可分性条項は残りの条項を存続させる。",legal CONTRACT
-entire agreement,"完全合意
-
-This document constitutes the entire agreement.
-本書面が完全な合意を構成する。",legal CONTRACT
-governing law,"準拠法
-
-The governing law is the law of New York.
-準拠法はニューヨーク州法である。",legal CONTRACT
-jurisdiction,"裁判管轄
-
-The courts of Tokyo have jurisdiction.
-東京の裁判所が裁判管轄を有する。",legal CONTRACT
-venue,"裁判地
-
-Venue lies in the state courts of Delaware.
-裁判地はデラウェア州裁判所とする。",legal CONTRACT
-arbitration,"仲裁
-
-Disputes shall be settled by arbitration.
-紛争は仲裁により解決される。",legal CONTRACT
-mediation,"調停
-
-The parties attempted mediation before filing suit.
-当事者らは提訴前に調停を試みた。",legal CONTRACT
-notice,"通知
-
-Notice shall be given in writing.
-通知は書面で行うものとする。",legal CONTRACT
-force majeure,"不可抗力
-
-The flood qualified as force majeure.
-その洪水は不可抗力に該当した。",legal CONTRACT
-confidentiality,"秘密保持
-
-Confidentiality survives termination of the agreement.
-秘密保持義務は契約終了後も存続する。",legal CONTRACT
-non-disclosure agreement,"秘密保持契約(NDA)
-
-The parties signed a non-disclosure agreement.
-当事者らは秘密保持契約に署名した。",legal CONTRACT
-non-compete,"競業避止
-
-The non-compete lasts for two years.
-競業避止義務は2年間継続する。",legal CONTRACT
-non-solicitation,"勧誘禁止
-
-The non-solicitation clause protects employees and customers.
-勧誘禁止条項は従業員と顧客を保護する。",legal CONTRACT
-good faith,"誠実(善意)
-
-The parties shall negotiate in good faith.
-当事者らは誠実に交渉する。",legal CONTRACT
-best efforts,"最大限の努力
-
-The distributor shall use best efforts to promote sales.
-販売店は販売促進に最大限の努力を尽くす。",legal CONTRACT
-reasonable efforts,"合理的な努力
-
-Reasonable efforts is a lower standard than best efforts.
-合理的努力は最大限の努力より低い基準である。",legal CONTRACT
-material breach,"重大な違反
-
-A material breach permits immediate termination.
-重大な違反があれば直ちに解除できる。",legal CONTRACT
-cure period,"是正期間
-
-The defaulting party has a thirty-day cure period.
-不履行当事者には30日の是正期間がある。",legal CONTRACT
-termination for cause,"事由に基づく解除
-
-Termination for cause requires a material breach.
-事由に基づく解除には重大な違反が必要である。",legal CONTRACT
-termination for convenience,"任意解除(便宜解除)
-
-The client may exercise termination for convenience.
-クライアントは任意解除を行使できる。",legal CONTRACT
-survival,"(条項の)存続
-
-The survival clause lists provisions that continue.
-存続条項は継続する規定を列挙する。",legal CONTRACT
-counterparts,"(契約書の)副本
-
-The agreement may be executed in counterparts.
-本契約は副本により締結できる。",legal CONTRACT
-binding,"拘束力のある
-
-The term sheet is not binding.
-タームシートには拘束力がない。",legal CONTRACT
-enforceable,"強制可能な(執行可能な)
-
-The clause is enforceable under state law.
-その条項は州法上強制可能である。",legal CONTRACT
-void,"無効な
-
-An illegal contract is void.
-違法な契約は無効である。",legal CONTRACT
-voidable,"取消可能な
-
-A contract signed under duress is voidable.
-強迫下で締結された契約は取消可能である。",legal CONTRACT
-unenforceable,"強制不能な
-
-An oral land sale is unenforceable.
-口頭の土地売買は強制不能である。",legal CONTRACT
-rescission,"契約の取消し(解除)
-
-The buyer sought rescission of the sale.
-買主は売買の取消しを求めた。",legal CONTRACT
-restitution,"原状回復
-
-Restitution restores the parties to their original positions.
-原状回復は当事者を元の状態に戻す。",legal CONTRACT
-specific performance,"特定履行
-
-The court ordered specific performance of the sale.
-裁判所は売買の特定履行を命じた。",legal CONTRACT
-injunction,"差止命令
-
-The court granted an injunction against the use.
-裁判所はその使用に対する差止命令を認めた。",legal CONTRACT
-liquidated damages,"損害賠償額の予定
-
-Liquidated damages must be a reasonable estimate.
-損害賠償額の予定は合理的な見積りでなければならない。",legal CONTRACT
-consequential damages,"結果損害
-
-The contract excludes consequential damages.
-契約は結果損害を除外している。",legal CONTRACT
-incidental damages,"付随的損害
-
-Incidental damages include costs of cover.
-付随的損害には代替品調達の費用が含まれる。",legal CONTRACT
-punitive damages,"懲罰的損害賠償
-
-Punitive damages punish egregious conduct.
-懲罰的損害賠償は悪質な行為を制裁する。",legal CONTRACT
-mitigation,"損害軽減
-
-The seller failed to make mitigation efforts.
-売主は損害軽減の努力を怠った。",legal CONTRACT
-disclaimer,"免責(否認)
-
-The disclaimer excludes implied warranties.
-その免責文言は黙示的保証を排除する。",legal CONTRACT
-limitation of liability,"責任制限
-
-The limitation of liability excludes indirect losses.
-責任制限条項は間接損害を除外する。",legal CONTRACT
-liability cap,"責任上限
-
-The liability cap equals the fees paid.
-責任上限は支払済み報酬額と同額である。",legal CONTRACT
-exclusivity,"独占性(排他性)
-
-The distributor has exclusivity in Japan.
-販売店は日本での独占権を有する。",legal CONTRACT
-license,"ライセンス(使用許諾)
-
-The license permits use of the software.
-ライセンスはソフトウェアの使用を許諾する。",legal CONTRACT
-sublicense,"サブライセンス(再許諾)
-
-The licensee may not grant a sublicense.
-ライセンシーは再許諾を行うことができない。",legal CONTRACT
-royalty,"ロイヤルティ(実施料)
-
-The royalty is 5 percent of net sales.
-ロイヤルティは純売上高の5パーセントである。",legal CONTRACT
-deliverables,"成果物
-
-The deliverables are listed in the schedule.
-成果物は別紙に列挙されている。",legal CONTRACT
-milestone,"マイルストーン(中間目標)
-
-Payment is tied to each milestone.
-支払は各マイルストーンに連動する。",legal CONTRACT
-acceptance criteria,"検収基準
-
-The deliverables must meet the acceptance criteria.
-成果物は検収基準を満たさなければならない。",legal CONTRACT
-statement of work,"作業範囲記述書(SOW)
-
-The statement of work defines the services.
-SOWは提供する役務を定義する。",legal CONTRACT
-change order,"変更指図書
-
-The change order increased the price.
-変更指図書により代金が増額された。",legal CONTRACT
-purchase order,"注文書
-
-The buyer issued a purchase order.
-買主は注文書を発行した。",legal CONTRACT
-invoice,"請求書
-
-The invoice is payable within thirty days.
-請求書は30日以内に支払われる。",legal CONTRACT
-payment terms,"支払条件
-
-The payment terms are net sixty days.
-支払条件は60日後払いである。",legal CONTRACT
-late payment interest,"遅延利息
-
-Late payment interest accrues at 10 percent.
-遅延利息は年10パーセントで発生する。",legal CONTRACT
-set-off,"相殺
-
-The buyer exercised a right of set-off.
-買主は相殺権を行使した。",legal CONTRACT
-escrow,"エスクロー(第三者預託)
-
-The source code is held in escrow.
-ソースコードはエスクローに預託されている。",legal CONTRACT
-deposit,"手付金(預託金)
-
-The buyer paid a 10 percent deposit.
-買主は10パーセントの手付金を支払った。",legal CONTRACT
-guarantee,"保証
-
-The parent company issued a guarantee.
-親会社は保証を差し入れた。",legal CONTRACT
-guarantor,"保証人
-
-The guarantor is liable upon default.
-保証人は債務不履行時に責任を負う。",legal CONTRACT
-performance,"履行
-
-Performance is due on the delivery date.
-履行は引渡日に行われるべきものとする。",legal CONTRACT
-non-performance,"不履行
-
-Non-performance triggers the penalty clause.
-不履行により違約金条項が発動する。",legal CONTRACT
-delay,"履行遅滞
-
-The delay entitled the buyer to damages.
-履行遅滞により買主は損害賠償を請求できた。",legal CONTRACT
-time is of the essence,"期限厳守(時間の本質性)
-
-Time is of the essence in this agreement.
-本契約においては期限厳守が本質的条件である。",legal CONTRACT
-substantial performance,"実質的履行
-
-Substantial performance entitles the builder to payment.
-実質的履行により建築業者は代金を請求できる。",legal CONTRACT
-anticipatory breach,"履行期前の違反
-
-The letter amounted to an anticipatory breach.
-その書簡は履行期前の違反にあたった。",legal CONTRACT
-repudiation,"履行拒絶
-
-The seller's repudiation excused the buyer.
-売主の履行拒絶により買主は免責された。",legal CONTRACT
-frustration,"契約目的の達成不能(フラストレーション)
-
-The event frustrated the purpose of the contract.
-その事象により契約目的が達成不能となった。",legal CONTRACT
-impossibility,"履行不能
-
-Impossibility discharged the parties' duties.
-履行不能により当事者の義務は消滅した。",legal CONTRACT
-impracticability,"実行困難性
-
-Extreme cost increases may show impracticability.
-極端な費用の増加は実行困難性を示し得る。",legal CONTRACT
-unconscionability,"非良心性
-
-The court found unconscionability in the terms.
-裁判所はその条件に非良心性を認めた。",legal CONTRACT
-duress,"強迫
-
-The agreement was signed under duress.
-その契約は強迫の下で署名された。",legal CONTRACT
-undue influence,"不当威圧
-
-Undue influence invalidated the gift.
-不当威圧によりその贈与は無効とされた。",legal CONTRACT
-misrepresentation,"不実表示
-
-The buyer relied on a misrepresentation.
-買主は不実表示を信頼した。",legal CONTRACT
-fraud,"詐欺
-
-The contract was rescinded for fraud.
-その契約は詐欺を理由に取り消された。",legal CONTRACT
-mistake,"錯誤
-
-A mutual mistake made the contract voidable.
-双方の錯誤により契約は取消可能となった。",legal CONTRACT
-capacity,"行為能力
-
-Minors lack full capacity to contract.
-未成年者は完全な契約締結能力を欠く。",legal CONTRACT
-legality,"適法性
-
-Legality of purpose is required.
-目的の適法性が要求される。",legal CONTRACT
-public policy,"公序良俗(公共政策)
-
-The clause was void as against public policy.
-その条項は公序良俗違反で無効とされた。",legal CONTRACT
-privity of contract,"契約当事者関係
-
-Privity of contract limits who can sue.
-契約当事者関係は提訴できる者を限定する。",legal CONTRACT
-third-party beneficiary,"第三者受益者
-
-The insurance names a third-party beneficiary.
-その保険は第三者受益者を指定する。",legal CONTRACT
-agent,"代理人
-
-The agent signed on behalf of the company.
-代理人は会社を代理して署名した。",legal CONTRACT
-principal,"本人
-
-The principal is bound by authorized acts.
-本人は権限内の行為に拘束される。",legal CONTRACT
-authority,"権限
-
-The manager lacked authority to sign.
-その管理職には署名の権限がなかった。",legal CONTRACT
-power of attorney,"委任状
-
-She granted a power of attorney to her lawyer.
-彼女は弁護士に委任状を交付した。",legal CONTRACT
-delegation,"(義務の)委譲
-
-Delegation does not release the original party.
-義務の委譲は元の当事者を免責しない。",legal CONTRACT
-subcontract,"下請契約
-
-The builder entered into a subcontract.
-建築業者は下請契約を締結した。",legal CONTRACT
-subcontractor,"下請業者
-
-The subcontractor performed the electrical work.
-下請業者が電気工事を実施した。",legal CONTRACT
-vendor,"売主(ベンダー)
-
-The vendor delivers the equipment monthly.
-ベンダーは毎月機器を納入する。",legal CONTRACT
-supplier,"供給者
-
-The supplier guarantees the quality of materials.
-供給者は材料の品質を保証する。",legal CONTRACT
-licensee,"ライセンシー(実施権者)
-
-The licensee pays quarterly royalties.
-ライセンシーは四半期ごとにロイヤルティを支払う。",legal CONTRACT
-licensor,"ライセンサー(許諾者)
-
-The licensor retains ownership of the IP.
-ライセンサーは知的財産の所有権を保持する。",legal CONTRACT
-assignee,"譲受人
-
-The assignee acquired all contract rights.
-譲受人はすべての契約上の権利を取得した。",legal CONTRACT
-assignor,"譲渡人
-
-The assignor remains liable for past breaches.
-譲渡人は過去の違反について責任を負い続ける。",legal CONTRACT
-successor,"承継人
-
-The agreement binds successors of each party.
-本契約は各当事者の承継人を拘束する。",legal CONTRACT
-affiliate,"関連会社
-
-Affiliates may receive the confidential information.
-関連会社は秘密情報を受領できる。",legal CONTRACT
-joint venture,"合弁事業
-
-The companies formed a joint venture.
-両社は合弁事業を設立した。",legal CONTRACT
-memorandum of understanding,"覚書(MOU)
-
-The memorandum of understanding outlines the cooperation.
-覚書は協力の概要を定める。",legal CONTRACT
-letter of intent,"基本合意書(LOI)
-
-The letter of intent preceded the final agreement.
-基本合意書は最終契約に先行した。",legal CONTRACT
-term sheet,"タームシート(条件概要書)
-
-The term sheet summarizes the key terms.
-タームシートは主要条件を要約する。",legal CONTRACT
-due diligence,"デュー・ディリジェンス
-
-Due diligence revealed undisclosed liabilities.
-デュー・ディリジェンスで未開示の債務が判明した。",legal CONTRACT
-closing,"クロージング(取引実行)
-
-The closing took place on June 30.
-クロージングは6月30日に行われた。",legal CONTRACT
-conditions precedent,"前提条件(停止条件)
-
-The closing is subject to conditions precedent.
-クロージングは前提条件の充足を条件とする。",legal CONTRACT
-conditions subsequent,"解除条件
-
-A condition subsequent terminates the obligation.
-解除条件の成就により義務は消滅する。",legal CONTRACT
-escrow agent,"エスクロー・エージェント
-
-The escrow agent holds the funds until closing.
-エスクロー・エージェントはクロージングまで資金を保管する。",legal CONTRACT
-earnest money,"手付金
-
-The buyer forfeited the earnest money.
-買主は手付金を没収された。",legal CONTRACT
-ownership,"所有権
-
-Ownership passes upon full payment.
-所有権は全額支払時に移転する。",legal CONTRACT
-possession,"占有
-
-The tenant took possession of the premises.
-賃借人は物件の占有を開始した。",legal CONTRACT
-transfer,"移転
-
-The transfer of shares requires board approval.
-株式の移転には取締役会の承認が必要である。",legal CONTRACT
-delivery,"引渡し
-
-Delivery shall be made at the buyer's warehouse.
-引渡しは買主の倉庫で行われる。",legal CONTRACT
-risk of loss,"危険負担
-
-Risk of loss passes upon shipment.
-危険負担は出荷時に移転する。",legal CONTRACT
-insurance,"保険
-
-The contractor shall maintain liability insurance.
-請負業者は賠償責任保険を維持する。",legal CONTRACT
-insured,"被保険者
-
-The insured filed a claim promptly.
-被保険者は速やかに保険金を請求した。",legal CONTRACT
-insurer,"保険者
-
-The insurer denied coverage for the loss.
-保険者はその損害の填補を拒否した。",legal CONTRACT
-premium,"保険料
-
-The annual premium increased this year.
-年間保険料は今年増額された。",legal CONTRACT
-claim,"請求(クレーム)
-
-The claim was submitted within the deadline.
-請求は期限内に提出された。",legal CONTRACT
-coverage,"補償範囲
-
-The policy provides coverage for water damage.
-その保険は水漏れ損害を補償範囲に含む。",legal CONTRACT
-deductible,"免責金額
-
-The deductible is one thousand dollars per claim.
-免責金額は1請求当たり1000ドルである。",legal CONTRACT
-defect,"瑕疵(欠陥)
-
-The buyer notified the seller of the defect.
-買主は売主に瑕疵を通知した。",legal CONTRACT
-warranty period,"保証期間
-
-Repairs are free during the warranty period.
-保証期間中の修理は無償である。",legal CONTRACT
-negligence,"過失
-
-The damage resulted from the contractor's negligence.
-その損害は請負業者の過失により生じた。",legal CONTRACT
-gross negligence,"重過失
-
-The cap does not apply to gross negligence.
-責任上限は重過失には適用されない。",legal CONTRACT
-willful misconduct,"故意の違反行為
-
-Liability for willful misconduct cannot be excluded.
-故意の違反行為に対する責任は排除できない。",legal CONTRACT
-strict liability,"厳格責任
-
-Strict liability applies to defective products.
-厳格責任は欠陥製品に適用される。",legal CONTRACT
-tort,"不法行為
-
-The claim sounds in tort rather than contract.
-その請求は契約ではなく不法行為に基づく。",legal CONTRACT
-joint and several liability,"連帯責任
-
-The partners assumed joint and several liability.
-パートナーらは連帯責任を負った。",legal CONTRACT
-contribution,"求償
-
-The co-defendant sought contribution.
-共同被告は求償を求めた。",legal CONTRACT
-subrogation,"代位
-
-The insurer acquired rights by subrogation.
-保険者は代位により権利を取得した。",legal CONTRACT
-hold harmless,"免責する
-
-The client agreed to hold the consultant harmless.
-クライアントはコンサルタントを免責することに合意した。",legal CONTRACT
-settlement,"和解
-
-The parties reached a settlement before trial.
-当事者らは公判前に和解に達した。",legal CONTRACT
-dispute,"紛争
-
-Any dispute shall first be negotiated.
-いかなる紛争もまず交渉により解決を図る。",legal CONTRACT
-dispute resolution,"紛争解決
-
-The dispute resolution clause requires arbitration.
-紛争解決条項は仲裁を義務づける。",legal CONTRACT
-negotiation,"交渉
-
-The price was fixed after lengthy negotiation.
-価格は長い交渉の末に確定した。",legal CONTRACT
-renegotiation,"再交渉
-
-The clause allows renegotiation upon hardship.
-その条項は困難な事情がある場合の再交渉を認める。",legal CONTRACT
-termination notice,"解除通知
-
-The termination notice was sent by courier.
-解除通知は宅配便で送付された。",legal CONTRACT
-notice period,"通知期間
-
-The notice period is ninety days.
-通知期間は90日である。",legal CONTRACT
-automatic renewal,"自動更新
-
-The lease provides for automatic renewal.
-その賃貸借契約は自動更新を定める。",legal CONTRACT
-evergreen clause,"自動更新条項
-
-The evergreen clause renews the term annually.
-自動更新条項により期間は毎年更新される。",legal CONTRACT
-grace period,"猶予期間
-
-A ten-day grace period applies to payments.
-支払には10日間の猶予期間が適用される。",legal CONTRACT
-business day,"営業日
-
-Payment is due within five business days.
-支払は5営業日以内に行われる。",legal CONTRACT
-calendar day,"暦日
-
-The period is counted in calendar days.
-その期間は暦日で計算される。",legal CONTRACT
-prior written consent,"事前の書面による同意
-
-Assignment requires prior written consent.
-譲渡には事前の書面による同意が必要である。",legal CONTRACT
-written notice,"書面による通知
-
-Written notice must be delivered to the address below.
-書面による通知は下記住所に送達されなければならない。",legal CONTRACT
-electronic signature,"電子署名
-
-Electronic signatures are legally valid.
-電子署名は法的に有効である。",legal CONTRACT
-execution date,"締結日
-
-The execution date differs from the effective date.
-締結日は発効日と異なる。",legal CONTRACT
-commencement date,"開始日
-
-Services begin on the commencement date.
-役務は開始日から提供される。",legal CONTRACT
-completion date,"完了日
-
-The works must finish by the completion date.
-工事は完了日までに終えなければならない。",legal CONTRACT
-extension,"延長
-
-The parties agreed to a six-month extension.
-当事者らは6か月の延長に合意した。",legal CONTRACT
-suspension,"停止(中断)
-
-The buyer ordered a suspension of the work.
-買主は作業の中断を指示した。",legal CONTRACT
-resumption,"再開
-
-Resumption of work followed the payment.
-支払の後に作業が再開された。",legal CONTRACT
-assignment of rights,"権利の譲渡
-
-The assignment of rights was notified to the debtor.
-権利の譲渡は債務者に通知された。",legal CONTRACT
-change of control,"支配権の変更(チェンジ・オブ・コントロール)
-
-A change of control permits termination.
-支配権の変更があれば解除できる。",legal CONTRACT
-audit rights,"監査権
-
-The licensor has audit rights over royalty reports.
-ライセンサーはロイヤルティ報告に対する監査権を有する。",legal CONTRACT
-records retention,"記録保持
-
-Records retention is required for seven years.
-記録は7年間保持しなければならない。",legal CONTRACT
-compliance with laws,"法令遵守
-
-Each party warrants compliance with laws.
-各当事者は法令遵守を保証する。",legal CONTRACT
-anti-bribery,"贈賄禁止
-
-The anti-bribery clause references applicable statutes.
-贈賄禁止条項は適用法令を引用する。",legal CONTRACT
-export control,"輸出管理
-
-The software is subject to export control laws.
-そのソフトウェアは輸出管理法令の適用を受ける。",legal CONTRACT
-data protection,"データ保護
-
-The processor complies with data protection laws.
-処理者はデータ保護法を遵守する。",legal CONTRACT
-personal data,"個人データ
-
-Personal data shall be processed lawfully.
-個人データは適法に処理されなければならない。",legal CONTRACT
-intellectual property rights,"知的財産権
-
-All intellectual property rights remain with the licensor.
-すべての知的財産権はライセンサーに帰属する。",legal CONTRACT
-ownership of work product,"成果物の帰属
-
-Ownership of work product vests in the client.
-成果物の権利はクライアントに帰属する。",legal CONTRACT
-background IP,"既存知的財産(バックグラウンドIP)
-
-Each party retains its background IP.
-各当事者は既存知的財産を保持する。",legal CONTRACT
-foreground IP,"新規知的財産(フォアグラウンドIP)
-
-Foreground IP belongs to the funding party.
-新規知的財産は資金提供者に帰属する。",legal CONTRACT
-infringement,"権利侵害
-
-The use constituted infringement of the mark.
-その使用は商標の権利侵害にあたった。",legal CONTRACT
-warranty disclaimer,"保証の否認
-
-The warranty disclaimer is printed in capitals.
-保証の否認文言は大文字で記載される。",legal CONTRACT
-as is,"現状有姿
-
-The equipment is sold as is.
-その設備は現状有姿で売却される。",legal CONTRACT
-fitness for purpose,"目的適合性
-
-The seller disclaimed fitness for purpose.
-売主は目的適合性の保証を否認した。",legal CONTRACT
-merchantability,"商品性
-
-The implied warranty of merchantability was excluded.
-商品性の黙示的保証は排除された。",legal CONTRACT
-remedies cumulative,"救済手段の累積
-
-Remedies are cumulative and not exclusive.
-救済手段は累積的であり排他的でない。",legal CONTRACT
-sole remedy,"唯一の救済手段
-
-Repair or replacement is the sole remedy.
-修理又は交換が唯一の救済手段である。",legal CONTRACT
-equitable relief,"衡平法上の救済
-
-The licensor may seek equitable relief.
-ライセンサーは衡平法上の救済を求めることができる。",legal CONTRACT
-irreparable harm,"回復不能な損害
-
-Disclosure would cause irreparable harm.
-開示は回復不能な損害をもたらす。",legal CONTRACT
-injunctive relief,"差止めによる救済
-
-Injunctive relief is available for breaches of confidentiality.
-秘密保持違反には差止めによる救済が認められる。",legal CONTRACT
-declaratory judgment,"確認判決
-
-The company sought a declaratory judgment of non-infringement.
-当社は非侵害の確認判決を求めた。",legal CONTRACT
-whereas,"~であるので(前文の導入)
-
-Whereas the parties wish to cooperate as follows.
-当事者らは以下のとおり協力を望むので。",legal CLAUSE
-hereinafter,"以下(~という)
-
-ABC Inc. (hereinafter the Seller) agrees as follows.
-ABC社(以下「売主」)は以下のとおり合意する。",legal CLAUSE
-herein,"本契約書中に
-
-Capitalized terms are defined herein.
-大文字語は本契約書中で定義される。",legal CLAUSE
-hereof,"本契約書の
-
-Section 5 hereof governs termination.
-本契約第5条が解除を規律する。",legal CLAUSE
-hereto,"本契約書に
-
-The parties hereto agree as follows.
-本契約の当事者は以下のとおり合意する。",legal CLAUSE
-hereby,"本契約書により
-
-The Seller hereby grants a license.
-売主は本契約によりライセンスを許諾する。",legal CLAUSE
-hereunder,"本契約書に基づき
-
-All payments due hereunder shall be in dollars.
-本契約に基づく支払はすべてドル建てとする。",legal CLAUSE
-thereof,"それの
-
-The agreement and any amendment thereof remain valid.
-契約及びその変更は有効に存続する。",legal CLAUSE
-thereto,"それに
-
-The schedule and any annex thereto are incorporated.
-別紙及びその附属書は契約に組み込まれる。",legal CLAUSE
-thereunder,"それに基づき
-
-The license and the rights thereunder are non-transferable.
-ライセンス及びそれに基づく権利は譲渡できない。",legal CLAUSE
-aforementioned,"前述の
-
-The aforementioned conditions must be satisfied.
-前述の条件は充足されなければならない。",legal CLAUSE
-foregoing,"上記の
-
-Notwithstanding the foregoing the cap applies.
-上記にかかわらず責任上限が適用される。",legal CLAUSE
-notwithstanding,"~にかかわらず
-
-Notwithstanding Section 3 the buyer may terminate.
-第3条にかかわらず買主は解除できる。",legal CLAUSE
-provided that,"ただし~を条件として
-
-The license continues provided that royalties are paid.
-ロイヤルティの支払を条件としてライセンスは継続する。",legal CLAUSE
-subject to,"~を条件として(~に従うことを前提に)
-
-The obligation is subject to force majeure.
-その義務は不可抗力条項に服する。",legal CLAUSE
-pursuant to,"~に従って
-
-Notice was given pursuant to Section 10.
-通知は第10条に従って行われた。",legal CLAUSE
-in accordance with,"~に従い
-
-Disputes are resolved in accordance with this clause.
-紛争は本条項に従って解決される。",legal CLAUSE
-in witness whereof,"以上の証として
-
-In witness whereof the parties have executed this agreement.
-以上の証として当事者らは本契約を締結した。",legal CLAUSE
-now therefore,"よって(本文の導入)
-
-Now therefore the parties agree as follows.
-よって当事者らは以下のとおり合意する。",legal CLAUSE
-shall,"~しなければならない(義務)
-
-The supplier shall deliver by March 31.
-供給者は3月31日までに納入しなければならない。",legal CLAUSE
-may,"~することができる(権利・裁量)
-
-Either party may terminate upon notice.
-いずれの当事者も通知により解除できる。",legal CLAUSE
-deem,"みなす
-
-The parties deem the notice effective upon sending.
-当事者らは通知を発信時に有効とみなす。",legal CLAUSE
-deemed,"みなされた
-
-Silence is deemed acceptance of the report.
-沈黙は報告書の承認とみなされる。",legal CLAUSE
-without limitation,"制限なく
-
-Losses include without limitation lost profits.
-損失には制限なく逸失利益が含まれる。",legal CLAUSE
-including but not limited to,"~を含むがこれに限られない
-
-Costs including but not limited to fees are reimbursed.
-報酬を含むがこれに限られない費用が償還される。",legal CLAUSE
-null and void,"無効な
-
-The unsigned amendment is null and void.
-署名のない変更は無効である。",legal CLAUSE
-terms and conditions,"諸条件
-
-The terms and conditions appear on the website.
-諸条件はウェブサイトに掲載されている。",legal CLAUSE
-from time to time,"随時
-
-The policy may be updated from time to time.
-ポリシーは随時更新されることがある。",legal CLAUSE
-at its sole discretion,"その単独の裁量で
-
-The licensor may refuse at its sole discretion.
-ライセンサーはその単独の裁量で拒否できる。",legal CLAUSE
-to the extent permitted by law,"法令の許す範囲で
-
-Liability is excluded to the extent permitted by law.
-法令の許す範囲で責任は排除される。",legal CLAUSE
-applicable law,"適用法
-
-The processing complies with applicable law.
-その処理は適用法を遵守する。",legal CLAUSE
-in full force and effect,"完全に有効で
-
-The remaining provisions continue in full force and effect.
-その余の条項は完全に有効に存続する。",legal CLAUSE
-execute and deliver,"締結し交付する
-
-Each party shall execute and deliver the documents.
-各当事者は文書を締結し交付する。",legal CLAUSE
-duly authorized,"正当に授権された
-
-The signatory is duly authorized to bind the company.
-署名者は会社を拘束する正当な権限を有する。",legal CLAUSE
-duly executed,"正当に締結された
-
-The agreement was duly executed by both parties.
-契約は両当事者により正当に締結された。",legal CLAUSE
-binding obligation,"拘束力ある義務
-
-This agreement constitutes a binding obligation.
-本契約は拘束力ある義務を構成する。",legal CLAUSE
-arm's length,"独立当事者間(の)
-
-The price reflects an arm's length transaction.
-その価格は独立当事者間取引を反映する。",legal CLAUSE
-commercially reasonable,"商業的に合理的な
-
-The seller shall take commercially reasonable steps.
-売主は商業的に合理的な措置を講じる。",legal CLAUSE
-material adverse effect,"重大な悪影響
-
-No event has caused a material adverse effect.
-重大な悪影響を生じさせた事象は存在しない。",legal CLAUSE
-material adverse change,"重大な悪化
-
-The lender may withdraw upon a material adverse change.
-重大な悪化があれば貸主は撤回できる。",legal CLAUSE
-to the best of its knowledge,"その知る限りにおいて
-
-To the best of its knowledge no claim is pending.
-その知る限り係属中の請求は存在しない。",legal CLAUSE
-represent and warrant,"表明し保証する
-
-The parties represent and warrant as follows.
-当事者らは以下のとおり表明し保証する。",legal CLAUSE
-covenant and agree,"誓約し合意する
-
-The borrower covenants and agrees to maintain insurance.
-借主は保険の維持を誓約し合意する。",legal CLAUSE
-indemnify and hold harmless,"補償し免責する
-
-The supplier shall indemnify and hold harmless the buyer.
-供給者は買主を補償し免責する。",legal CLAUSE
-successors and assigns,"承継人及び譲受人
-
-The agreement binds successors and assigns.
-本契約は承継人及び譲受人を拘束する。",legal CLAUSE
-free and clear,"(負担のない)完全な
-
-The shares are transferred free and clear of liens.
-株式は担保権の負担なく譲渡される。",legal CLAUSE
-right title and interest,"権利・権原及び利益
-
-The seller conveys all right title and interest.
-売主はすべての権利・権原及び利益を譲渡する。",legal CLAUSE
-sole and exclusive,"唯一かつ排他的な
-
-Arbitration is the sole and exclusive forum.
-仲裁が唯一かつ排他的な紛争解決手段である。",legal CLAUSE
-final and binding,"最終的かつ拘束力のある
-
-The award is final and binding on the parties.
-仲裁判断は当事者に対して最終的かつ拘束力を有する。",legal CLAUSE
-due and payable,"支払期限が到来した
-
-The fees become due and payable upon invoice.
-報酬は請求書の発行により支払期限が到来する。",legal CLAUSE
-defined terms,"定義語
-
-Defined terms have the meanings in Section 1.
-定義語は第1条の意味を有する。",legal CLAUSE
-definitions,"定義
-
-The definitions section precedes the operative terms.
-定義条項は実体条項に先行する。",legal CLAUSE
-recitals,"前文(経緯)
-
-The recitals describe the background of the deal.
-前文は取引の背景を記述する。",legal CLAUSE
-preamble,"頭書
-
-The preamble identifies the parties and the date.
-頭書は当事者と日付を特定する。",legal CLAUSE
-schedule,"別紙(スケジュール)
-
-Prices are listed in Schedule 1.
-価格は別紙1に記載される。",legal CLAUSE
-exhibit,"別添(エキシビット)
-
-The form of notice is attached as Exhibit A.
-通知の様式は別添Aとして添付される。",legal CLAUSE
-appendix,"付属書
-
-Technical details appear in the appendix.
-技術的詳細は付属書に記載される。",legal CLAUSE
-annex,"附属書
-
-The annex forms part of this agreement.
-附属書は本契約の一部を構成する。",legal CLAUSE
-addendum,"追補
-
-The addendum modifies the delivery schedule.
-追補は納入スケジュールを修正する。",legal CLAUSE
-boilerplate,"定型条項(ボイラープレート)
-
-Boilerplate clauses appear at the end of the contract.
-定型条項は契約書の末尾に置かれる。",legal CLAUSE
-signature block,"署名欄
-
-Each party signs in its signature block.
-各当事者は自らの署名欄に署名する。",legal CLAUSE
-attestation,"立会認証
-
-The attestation confirms the signing was witnessed.
-立会認証は署名に立会いがあったことを確認する。",legal CLAUSE
-notary public,"公証人
-
-The deed was signed before a notary public.
-その証書は公証人の面前で署名された。",legal CLAUSE
-notarization,"公証
-
-Notarization is required for the power of attorney.
-委任状には公証が必要である。",legal CLAUSE
-corporate seal,"社印(法人印)
-
-The corporate seal was affixed to the document.
-文書に社印が押印された。",legal CLAUSE
-irrevocable,"撤回不能な
-
-The buyer issued an irrevocable letter of credit.
-買主は撤回不能な信用状を発行させた。",legal CLAUSE
-revocable,"撤回可能な
-
-A revocable license may be withdrawn at any time.
-撤回可能なライセンスはいつでも取り消せる。",legal CLAUSE
-perpetual,"永続的な
-
-The client receives a perpetual license.
-クライアントは永続的ライセンスを取得する。",legal CLAUSE
-non-exclusive,"非独占的な
-
-The license is non-exclusive and worldwide.
-そのライセンスは非独占的かつ全世界的である。",legal CLAUSE
-exclusive,"独占的な
-
-The distributor has exclusive rights in Asia.
-販売店はアジアにおける独占的権利を有する。",legal CLAUSE
-worldwide,"全世界的な
-
-The grant is worldwide in scope.
-その許諾の範囲は全世界に及ぶ。",legal CLAUSE
-royalty-free,"使用料無償の
-
-The software includes a royalty-free license.
-そのソフトウェアには使用料無償のライセンスが含まれる。",legal CLAUSE
-non-transferable,"譲渡不能な
-
-The membership is personal and non-transferable.
-その会員資格は一身専属で譲渡不能である。",legal CLAUSE
-without prejudice,"権利を害することなく
-
-The offer was made without prejudice.
-その提案は権利を害することなく行われた。",legal CLAUSE
-with prejudice,"再訴を禁じて
-
-The case was dismissed with prejudice.
-その事件は再訴を禁じて却下された。",legal CLAUSE
-reservation of rights,"権利の留保
-
-The letter included a reservation of rights.
-その書簡には権利の留保が含まれていた。",legal CLAUSE
-no waiver,"権利不放棄
-
-The no waiver clause preserves future enforcement.
-権利不放棄条項は将来の権利行使を保全する。",legal CLAUSE
-cumulative remedies,"累積的救済
-
-The cumulative remedies clause permits multiple remedies.
-累積的救済条項は複数の救済の行使を認める。",legal CLAUSE
-merger clause,"完全合意条項
-
-The merger clause supersedes prior negotiations.
-完全合意条項は従前の交渉に優先する。",legal CLAUSE
-integration clause,"統合条項
-
-The integration clause excludes side agreements.
-統合条項は付随的合意を排除する。",legal CLAUSE
-savings clause,"存続(留保)条項
-
-The savings clause preserves accrued rights.
-存続条項は既発生の権利を保全する。",legal CLAUSE
-escalation clause,"エスカレーション条項(段階的協議条項)
-
-The escalation clause requires executive negotiation first.
-エスカレーション条項はまず経営陣の協議を求める。",legal CLAUSE
-sunset clause,"サンセット条項(失効条項)
-
-The sunset clause ends the obligation after five years.
-サンセット条項により義務は5年後に失効する。",legal CLAUSE
-headings,"見出し
-
-Headings are for convenience only.
-見出しは便宜のためのものにすぎない。",legal CLAUSE
-construction,"(契約の)解釈
-
-Rules of construction apply to ambiguous terms.
-解釈準則は曖昧な条項に適用される。",legal CLAUSE
-interpretation,"解釈
-
-The interpretation clause defines singular and plural.
-解釈条項は単数・複数の扱いを定める。",legal CLAUSE
-ambiguity,"曖昧さ(多義性)
-
-The court resolved the ambiguity against the drafter.
-裁判所は曖昧さを作成者に不利に解釈した。",legal CLAUSE
-contra proferentem,"作成者不利の原則
-
-Contra proferentem construes ambiguity against the drafter.
-作成者不利の原則は曖昧さを起草者に不利に解する。",legal CLAUSE
-governing language,"正文(準拠言語)
-
-The English text is the governing language.
-英語版を正文とする。",legal CLAUSE
-prevailing party,"勝訴当事者
-
-The prevailing party recovers its attorneys' fees.
-勝訴当事者は弁護士費用を回収できる。",legal CLAUSE
-attorneys' fees,"弁護士費用
-
-Each party bears its own attorneys' fees.
-各当事者は自己の弁護士費用を負担する。",legal CLAUSE
-court costs,"訴訟費用
-
-Court costs were awarded to the plaintiff.
-訴訟費用は原告に認められた。",legal CLAUSE
-remedies at law,"コモン・ロー上の救済
-
-Remedies at law would be inadequate here.
-この場合コモン・ロー上の救済では不十分である。",legal CLAUSE
-adequate remedy,"十分な救済
-
-Damages are not an adequate remedy for disclosure.
-開示に対して損害賠償は十分な救済でない。",legal CLAUSE
-anniversary date,"応当日(起算応当日)
-
-Fees increase on each anniversary date.
-料金は毎年の応当日に増額される。",legal CLAUSE
-wind-down,"段階的終了(ワインドダウン)
-
-The wind-down period lasts six months.
-段階的終了期間は6か月である。",legal CLAUSE
-transition services,"移行支援サービス
-
-The seller provides transition services after closing.
-売主はクロージング後に移行支援サービスを提供する。",legal CLAUSE
-further assurances,"追加保証(必要書類の追完)
-
-The further assurances clause requires additional documents.
-追加保証条項は追加書類の作成を義務づける。",legal CLAUSE
-mutual agreement,"相互の合意
-
-The term may be extended by mutual agreement.
-期間は相互の合意により延長できる。",legal CLAUSE
-unilateral,"一方的な
-
-A unilateral change of terms is prohibited.
-条件の一方的な変更は禁止される。",legal CLAUSE
-bilateral,"双方的な
-
-The obligations are bilateral in nature.
-その義務は双方的な性質を有する。",legal CLAUSE
-severally,"個別に(分別して)
-
-The guarantors are liable severally.
-保証人らは分別して責任を負う。",legal CLAUSE
-jointly,"共同して
-
-The partners are jointly liable for the debt.
-パートナーらはその債務について共同して責任を負う。",legal CLAUSE
-in lieu of,"~の代わりに
-
-Payment was made in lieu of notice.
-通知の代わりに支払が行われた。",legal CLAUSE
-on behalf of,"~を代理して
-
-The officer signed on behalf of the corporation.
-その役員は会社を代理して署名した。",legal CLAUSE
-with respect to,"~に関して
-
-No claim exists with respect to the assets.
-その資産に関して請求は存在しない。",legal CLAUSE
-in connection with,"~に関連して
-
-Costs incurred in connection with the closing are shared.
-クロージングに関連して生じた費用は分担される。",legal CLAUSE
-arising out of,"~から生じる
-
-Claims arising out of this agreement go to arbitration.
-本契約から生じる請求は仲裁に付される。",legal CLAUSE
-in the event of,"~の場合には
-
-In the event of default the loan accelerates.
-債務不履行の場合には期限の利益を喪失する。",legal CLAUSE
-upon the occurrence of,"~の発生時に
-
-Upon the occurrence of a trigger event notice is required.
-トリガー事由の発生時には通知が必要である。",legal CLAUSE
-for the avoidance of doubt,"疑義を避けるために付言すると
-
-For the avoidance of doubt taxes are excluded.
-疑義を避けるため付言すると税金は含まれない。",legal CLAUSE
-as the case may be,"場合に応じて
-
-The buyer or the seller as the case may be shall pay.
-場合に応じて買主又は売主が支払う。",legal CLAUSE
-as applicable,"該当する場合
-
-Local rules apply as applicable.
-該当する場合には現地規則が適用される。",legal CLAUSE
-if any,"もしあれば
-
-Accrued interest if any shall be paid at closing.
-未払利息があればクロージング時に支払われる。",legal CLAUSE
-as of,"~現在で(~の時点で)
-
-The statement is true as of the closing date.
-その表明はクロージング日現在で真実である。",legal CLAUSE
-effective as of,"~付で発効する
-
-The amendment is effective as of April 1.
-その変更は4月1日付で発効する。",legal CLAUSE
-retroactive effect,"遡及効
-
-The amendment has no retroactive effect.
-その改正には遡及効がない。",legal CLAUSE
-prospective effect,"将来効
-
-The rule change has prospective effect only.
-その規則変更は将来効のみを有する。",legal CLAUSE
-without cause,"事由なく
-
-The employer terminated the contract without cause.
-使用者は事由なく契約を解除した。",legal CLAUSE
-with cause,"正当事由により
-
-Dismissal with cause requires documentation.
-正当事由による解雇には文書化が必要である。",legal CLAUSE
-at law or in equity,"コモン・ロー上又は衡平法上
-
-All remedies at law or in equity are preserved.
-コモン・ロー上又は衡平法上のすべての救済は留保される。",legal CLAUSE
-express,"明示の
-
-The contract contains an express warranty.
-契約には明示の保証が含まれる。",legal CLAUSE
-implied,"黙示の
-
-An implied term filled the gap.
-黙示の条項が欠缺を補った。",legal CLAUSE
-tacit,"暗黙の
-
-Tacit approval was inferred from silence.
-沈黙から暗黙の承認が推認された。",legal CLAUSE
-verbal agreement,"口頭の合意
-
-A verbal agreement is hard to prove.
-口頭の合意は立証が困難である。",legal CLAUSE
-written agreement,"書面による合意
-
-Modifications require a written agreement.
-変更には書面による合意が必要である。",legal CLAUSE
-partial invalidity,"一部無効
-
-Partial invalidity does not affect the remainder.
-一部無効はその余の部分に影響しない。",legal CLAUSE
-remainder of the agreement,"契約のその余の部分
-
-The remainder of the agreement stays effective.
-契約のその余の部分は有効に存続する。",legal CLAUSE
-counterpart execution,"副本による締結
-
-Counterpart execution allows signing in separate copies.
-副本による締結は別々の写しでの署名を認める。",legal CLAUSE
-facsimile signature,"ファクシミリ署名
-
-A facsimile signature is treated as an original.
-ファクシミリ署名は原本として扱われる。",legal CLAUSE
-original copy,"原本
-
-Each party keeps one original copy.
-各当事者は原本を1通保管する。",legal CLAUSE
-certified copy,"認証謄本
-
-A certified copy of the resolution was delivered.
-決議の認証謄本が交付された。",legal CLAUSE
-true and correct,"真実かつ正確な
-
-The statements are true and correct in all respects.
-その記載はすべての点で真実かつ正確である。",legal CLAUSE
-to the satisfaction of,"~の満足する形で
-
-The work was completed to the satisfaction of the client.
-作業はクライアントの満足する形で完了した。",legal CLAUSE
-in a timely manner,"適時に
-
-Reports shall be submitted in a timely manner.
-報告書は適時に提出されなければならない。",legal CLAUSE
-without undue delay,"不当な遅滞なく
-
-Defects shall be notified without undue delay.
-瑕疵は不当な遅滞なく通知されなければならない。",legal CLAUSE
-promptly,"速やかに
-
-The licensee shall promptly report any infringement.
-ライセンシーは侵害を速やかに報告する。",legal CLAUSE
-forthwith,"直ちに
-
-The deposit shall be returned forthwith.
-預託金は直ちに返還される。",legal CLAUSE
-mutually acceptable,"相互に受け入れ可能な
-
-The parties shall find a mutually acceptable solution.
-当事者らは相互に受け入れ可能な解決策を見出す。",legal CLAUSE
-good standing,"(法人の)適法な存続
-
-The company is in good standing in Delaware.
-当社はデラウェア州で適法に存続している。",legal CLAUSE
-organized and existing,"適法に設立され存続する
-
-The Seller is organized and existing under Japanese law.
-売主は日本法に基づき適法に設立され存続している。",legal CLAUSE
-laws of the state of,"~州法
-
-This agreement is governed by the laws of the State of California.
-本契約はカリフォルニア州法に準拠する。",legal CLAUSE
-exclusive jurisdiction,"専属的裁判管轄
-
-The Tokyo District Court has exclusive jurisdiction.
-東京地方裁判所が専属的裁判管轄を有する。",legal CLAUSE
-non-exclusive jurisdiction,"非専属的裁判管轄
-
-The parties submit to the non-exclusive jurisdiction of London courts.
-当事者らはロンドンの裁判所の非専属的管轄に服する。",legal CLAUSE
-submit to jurisdiction,"裁判管轄に服する
-
-Each party submits to the jurisdiction of the chosen court.
-各当事者は選択された裁判所の管轄に服する。",legal CLAUSE
-waive a jury trial,"陪審裁判を放棄する
-
-The parties waive a jury trial for all disputes.
-当事者らはすべての紛争について陪審裁判を放棄する。",legal CLAUSE
-service of notice,"通知の送達
-
-Service of notice is effective upon receipt.
-通知の送達は受領時に効力を生じる。",legal CLAUSE
-registered mail,"書留郵便
-
-Notices shall be sent by registered mail.
-通知は書留郵便で送付される。",legal CLAUSE
-return receipt requested,"配達証明付きで
-
-The letter was mailed return receipt requested.
-その書簡は配達証明付きで郵送された。",legal CLAUSE
-overnight courier,"翌日配達便
-
-Delivery by overnight courier is permitted.
-翌日配達便による送付が認められる。",legal CLAUSE
-deemed received,"受領されたものとみなす
-
-Email notice is deemed received the next business day.
-電子メール通知は翌営業日に受領されたものとみなす。",legal CLAUSE
-change of address,"住所変更
-
-Each party shall notify any change of address.
-各当事者は住所変更を通知する。",legal CLAUSE
-assignment prohibited,"譲渡禁止
-
-Assignment is prohibited without written consent.
-書面の同意のない譲渡は禁止される。",legal CLAUSE
-consent not to be unreasonably withheld,"同意は不合理に留保されない
-
-Consent shall not be unreasonably withheld.
-同意は不合理に留保されないものとする。",legal CLAUSE
-material term,"重要条項
-
-Price is a material term of the contract.
-価格は契約の重要条項である。",legal CLAUSE
-essential term,"本質的条項
-
-The essential terms were agreed in the LOI.
-本質的条項は基本合意書で合意された。",legal CLAUSE
-severable,"分離可能な
-
-Each provision is severable from the others.
-各条項は他の条項から分離可能である。",legal CLAUSE
-enforceability,"執行可能性
-
-The opinion addresses the enforceability of the agreement.
-その意見書は契約の執行可能性を扱う。",legal CLAUSE
-validity,"有効性
-
-The validity of the clause was challenged.
-その条項の有効性が争われた。",legal CLAUSE
-legally binding,"法的拘束力のある
-
-The MOU is not legally binding.
-その覚書には法的拘束力がない。",legal CLAUSE
-non-binding,"法的拘束力のない
-
-The parties exchanged a non-binding proposal.
-当事者らは拘束力のない提案を交換した。",legal CLAUSE
-moral obligation,"道義的義務
-
-A moral obligation is not legally enforceable.
-道義的義務は法的に強制できない。",legal CLAUSE
-condition of closing,"クロージングの条件
-
-Regulatory approval is a condition of closing.
-当局の承認はクロージングの条件である。",legal CLAUSE
-closing certificate,"クロージング証明書
-
-The officer delivered a closing certificate.
-役員はクロージング証明書を交付した。",legal CLAUSE
-long-stop date,"最終期限日(ロングストップ・デート)
-
-The deal terminates on the long-stop date.
-取引は最終期限日に終了する。",legal CLAUSE
-outside date,"取引最終期限日
-
-Either party may walk away after the outside date.
-取引最終期限日以降はいずれの当事者も離脱できる。",legal CLAUSE
-standstill,"現状維持(スタンドスティル)
-
-The standstill prevents further share purchases.
-スタンドスティルは追加の株式取得を禁止する。",legal CLAUSE
-lock-up,"ロックアップ(売却制限)
-
-The lock-up restricts sales for 180 days.
-ロックアップは180日間の売却を制限する。",legal CLAUSE
-exclusivity period,"独占交渉期間
-
-The exclusivity period runs for sixty days.
-独占交渉期間は60日間である。",legal CLAUSE
-no-shop clause,"他者交渉禁止条項
-
-The no-shop clause bars talks with other bidders.
-他者交渉禁止条項は他の買い手との協議を禁じる。",legal CLAUSE
-break-up fee,"違約金(ブレークアップ・フィー)
-
-A break-up fee is payable if the deal fails.
-取引不成立の場合はブレークアップ・フィーが支払われる。",legal CLAUSE
-reverse break-up fee,"逆違約金
-
-The buyer owes a reverse break-up fee if financing fails.
-資金調達に失敗すれば買主が逆違約金を負う。",legal CLAUSE
-earn-out,"アーンアウト(業績連動対価)
-
-The earn-out depends on future revenue.
-アーンアウトは将来の収益に連動する。",legal CLAUSE
-holdback,"支払留保
-
-A 10 percent holdback secures indemnity claims.
-10パーセントの支払留保が補償請求を担保する。",legal CLAUSE
-true-up,"精算調整
-
-A true-up occurs after the final accounts.
-最終計算の後に精算調整が行われる。",legal CLAUSE
-clawback,"クローバック(返還請求)
-
-The clawback recovers overpaid bonuses.
-クローバックは過払い賞与を取り戻す。",legal CLAUSE
-gross-up,"グロスアップ(税負担調整)
-
-The gross-up covers withholding taxes.
-グロスアップは源泉税の負担を調整する。",legal CLAUSE
-pass-through,"転嫁(パススルー)
-
-Cost increases are a pass-through to the customer.
-費用増は顧客に転嫁される。",legal CLAUSE
-most favored nation clause,"最恵待遇条項
-
-The most favored nation clause guarantees the best price.
-最恵待遇条項は最良の価格を保証する。",legal CLAUSE
-non-circumvention,"迂回禁止
-
-The non-circumvention clause protects the intermediary.
-迂回禁止条項は仲介者を保護する。",legal CLAUSE
-corporation,"株式会社(法人)
-
-The corporation was formed in Delaware.
-その会社はデラウェア州で設立された。",legal CORP
-incorporation,"法人設立
-
-Incorporation limits the owners' liability.
-法人設立により所有者の責任は限定される。",legal CORP
-articles of incorporation,"基本定款
-
-The articles of incorporation state the corporate purpose.
-基本定款は会社の目的を記載する。",legal CORP
-bylaws,"付属定款
-
-The bylaws govern board procedures.
-付属定款は取締役会の手続を定める。",legal CORP
-board of directors,"取締役会
-
-The board of directors approved the merger.
-取締役会は合併を承認した。",legal CORP
-director,"取締役
-
-Each director owes fiduciary duties.
-各取締役は信認義務を負う。",legal CORP
-officer,"執行役員(役員)
-
-The officers manage daily operations.
-役員は日常業務を執行する。",legal CORP
-chief executive officer,"最高経営責任者(CEO)
-
-The chief executive officer reports to the board.
-CEOは取締役会に報告する。",legal CORP
-shareholder,"株主
-
-Shareholders vote at the annual meeting.
-株主は年次総会で議決権を行使する。",legal CORP
-share,"株式
-
-Each share carries one vote.
-各株式は1個の議決権を有する。",legal CORP
-common stock,"普通株式
-
-The company issued additional common stock.
-当社は普通株式を追加発行した。",legal CORP
-preferred stock,"優先株式
-
-Preferred stock has priority for dividends.
-優先株式は配当について優先する。",legal CORP
-dividend,"配当
-
-The board declared a quarterly dividend.
-取締役会は四半期配当を宣言した。",legal CORP
-annual meeting,"年次株主総会
-
-Directors are elected at the annual meeting.
-取締役は年次株主総会で選任される。",legal CORP
-special meeting,"臨時株主総会
-
-A special meeting was called to approve the sale.
-売却承認のため臨時株主総会が招集された。",legal CORP
-quorum,"定足数
-
-A quorum was present at the meeting.
-その会議には定足数が出席していた。",legal CORP
-resolution,"決議
-
-The resolution passed by majority vote.
-その決議は過半数の賛成で可決された。",legal CORP
-minutes,"議事録
-
-The secretary prepared the minutes.
-秘書役が議事録を作成した。",legal CORP
-proxy,"委任状(議決権代理行使)
-
-Shareholders may vote by proxy.
-株主は委任状により議決権を行使できる。",legal CORP
-voting rights,"議決権
-
-Preferred shares may lack voting rights.
-優先株式には議決権がない場合がある。",legal CORP
-cumulative voting,"累積投票
-
-Cumulative voting protects minority shareholders.
-累積投票は少数株主を保護する。",legal CORP
-fiduciary duty,"信認義務
-
-Directors owe fiduciary duties to the corporation.
-取締役は会社に対して信認義務を負う。",legal CORP
-duty of care,"注意義務
-
-The duty of care requires informed decisions.
-注意義務は十分な情報に基づく判断を求める。",legal CORP
-duty of loyalty,"忠実義務
-
-The duty of loyalty prohibits self-dealing.
-忠実義務は自己取引を禁止する。",legal CORP
-business judgment rule,"経営判断の原則
-
-The business judgment rule protects honest decisions.
-経営判断の原則は誠実な判断を保護する。",legal CORP
-derivative suit,"株主代表訴訟
-
-A shareholder filed a derivative suit against the directors.
-株主が取締役に対して代表訴訟を提起した。",legal CORP
-piercing the corporate veil,"法人格否認
-
-The court pierced the corporate veil to reach the owner.
-裁判所は法人格を否認して所有者の責任を認めた。",legal CORP
-limited liability,"有限責任
-
-Shareholders enjoy limited liability.
-株主は有限責任の利益を享受する。",legal CORP
-legal entity,"法人(法的主体)
-
-A corporation is a separate legal entity.
-会社は独立した法人である。",legal CORP
-registered agent,"登録代理人
-
-The registered agent receives service of process.
-登録代理人は訴状の送達を受領する。",legal CORP
-registered office,"登録事務所
-
-The registered office is in Wilmington.
-登録事務所はウィルミントンにある。",legal CORP
-certificate of incorporation,"設立証明書
-
-The certificate of incorporation was filed with the state.
-設立証明書は州に提出された。",legal CORP
-good standing certificate,"適法存続証明書
-
-The bank requested a good standing certificate.
-銀行は適法存続証明書の提出を求めた。",legal CORP
-merger,"合併
-
-The merger was approved by both boards.
-合併は両社の取締役会で承認された。",legal CORP
-acquisition,"買収
-
-The acquisition closed after regulatory review.
-買収は当局審査の後に完了した。",legal CORP
-consolidation,"新設合併(統合)
-
-The consolidation created a new entity.
-新設合併により新会社が誕生した。",legal CORP
-takeover,"企業買収
-
-The takeover bid was announced on Monday.
-買収提案は月曜日に公表された。",legal CORP
-hostile takeover,"敵対的買収
-
-The board resisted the hostile takeover.
-取締役会は敵対的買収に抵抗した。",legal CORP
-tender offer,"公開買付け(TOB)
-
-The tender offer targeted all outstanding shares.
-公開買付けは全流通株式を対象とした。",legal CORP
-poison pill,"ポイズン・ピル(買収防衛策)
-
-The poison pill dilutes the acquirer's stake.
-ポイズン・ピルは買収者の持分を希薄化する。",legal CORP
-share purchase agreement,"株式譲渡契約
-
-The share purchase agreement was signed in May.
-株式譲渡契約は5月に締結された。",legal CORP
-asset purchase agreement,"資産譲渡契約
-
-The asset purchase agreement excludes certain liabilities.
-資産譲渡契約は一定の債務を除外する。",legal CORP
-stock split,"株式分割
-
-The stock split doubled the share count.
-株式分割により株式数は倍増した。",legal CORP
-share buyback,"自社株買い
-
-The share buyback returned cash to shareholders.
-自社株買いにより株主へ資金が還元された。",legal CORP
-treasury shares,"自己株式
-
-Treasury shares carry no voting rights.
-自己株式には議決権がない。",legal CORP
-authorized shares,"授権株式数
-
-The charter authorizes ten million shares.
-定款は1000万株を授権している。",legal CORP
-issued shares,"発行済株式
-
-Issued shares include treasury shares.
-発行済株式には自己株式が含まれる。",legal CORP
-outstanding shares,"社外流通株式
-
-Outstanding shares exclude treasury shares.
-社外流通株式は自己株式を除く。",legal CORP
-par value,"額面価額
-
-The shares have no par value.
-その株式は無額面である。",legal CORP
-capital increase,"増資
-
-The capital increase funded the expansion.
-増資により事業拡大の資金が調達された。",legal CORP
-capital reduction,"減資
-
-The capital reduction offset accumulated losses.
-減資により累積損失が填補された。",legal CORP
-dissolution,"解散
-
-The shareholders approved the dissolution.
-株主は解散を承認した。",legal CORP
-liquidation,"清算
-
-Assets were sold in the liquidation.
-清算において資産が売却された。",legal CORP
-winding up,"清算手続
-
-The winding up took two years.
-清算手続には2年を要した。",legal CORP
-insolvency,"支払不能(倒産)
-
-The company filed for insolvency protection.
-当社は倒産手続の保護を申請した。",legal CORP
-bankruptcy,"破産
-
-The subsidiary entered bankruptcy last year.
-その子会社は昨年破産手続に入った。",legal CORP
-receivership,"財産管理(レシーバーシップ)
-
-The lender placed the company into receivership.
-貸主は会社を財産管理手続に付した。",legal CORP
-trustee,"管財人(受託者)
-
-The trustee took control of the assets.
-管財人が資産の管理を引き継いだ。",legal CORP
-creditor,"債権者
-
-Creditors voted on the restructuring plan.
-債権者らは再建計画について議決した。",legal CORP
-debtor,"債務者
-
-The debtor proposed a repayment schedule.
-債務者は返済計画を提案した。",legal CORP
-reorganization,"再建(更生)
-
-The reorganization preserved the business.
-再建手続により事業は維持された。",legal CORP
-restructuring,"事業再編(リストラクチャリング)
-
-The restructuring reduced the workforce.
-事業再編により人員が削減された。",legal CORP
-going concern,"継続企業
-
-The auditor questioned the going concern status.
-監査人は継続企業としての存続に疑義を示した。",legal CORP
-corporate governance,"コーポレート・ガバナンス
-
-Corporate governance reforms strengthened the board.
-ガバナンス改革により取締役会が強化された。",legal CORP
-compliance,"コンプライアンス(法令遵守)
-
-The compliance department monitors regulations.
-コンプライアンス部門は規制を監視する。",legal CORP
-internal control,"内部統制
-
-Internal control failures led to the fraud.
-内部統制の不備が不正につながった。",legal CORP
-audit committee,"監査委員会
-
-The audit committee met with the external auditor.
-監査委員会は外部監査人と協議した。",legal CORP
-whistleblower,"内部通報者
-
-The whistleblower reported the accounting fraud.
-内部通報者が会計不正を通報した。",legal CORP
-insider trading,"インサイダー取引
-
-The executive was charged with insider trading.
-その役員はインサイダー取引で訴追された。",legal CORP
-disclosure,"開示
-
-Timely disclosure is required for material events.
-重要事象には適時開示が求められる。",legal CORP
-prospectus,"目論見書
-
-The prospectus describes the offering.
-目論見書は募集の内容を記載する。",legal CORP
-securities,"有価証券
-
-The securities were sold to institutional investors.
-その有価証券は機関投資家に販売された。",legal CORP
-initial public offering,"新規株式公開(IPO)
-
-The initial public offering raised 200 million dollars.
-IPOにより2億ドルが調達された。",legal CORP
-listing,"上場
-
-The listing on the exchange was approved.
-取引所への上場が承認された。",legal CORP
-delisting,"上場廃止
-
-The delisting followed the going-private deal.
-非公開化取引の後に上場廃止となった。",legal CORP
-underwriter,"引受人
-
-The underwriter purchased the entire issue.
-引受人は発行分全部を買い取った。",legal CORP
-subsidiary,"子会社
-
-The subsidiary operates in Singapore.
-その子会社はシンガポールで事業を行う。",legal CORP
-parent company,"親会社
-
-The parent company guaranteed the loan.
-親会社がその借入を保証した。",legal CORP
-holding company,"持株会社
-
-The holding company owns three operating units.
-持株会社は3つの事業会社を保有する。",legal CORP
-general partnership,"ゼネラル・パートナーシップ(合名組合)
-
-Partners in a general partnership face unlimited liability.
-ゼネラル・パートナーシップのパートナーは無限責任を負う。",legal CORP
-limited partnership,"リミテッド・パートナーシップ
-
-The fund is organized as a limited partnership.
-そのファンドはリミテッド・パートナーシップとして組成されている。",legal CORP
-limited liability company,"有限責任会社(LLC)
-
-The business operates as a limited liability company.
-その事業はLLCとして運営されている。",legal CORP
-sole proprietorship,"個人事業
-
-A sole proprietorship has a single owner.
-個人事業の所有者は1人である。",legal CORP
-partnership agreement,"パートナーシップ契約
-
-The partnership agreement allocates profits.
-パートナーシップ契約は利益の配分を定める。",legal CORP
-operating agreement,"(LLCの)運営契約
-
-The LLC members signed an operating agreement.
-LLCの社員らは運営契約に署名した。",legal CORP
-capital contribution,"出資
-
-Each member made a capital contribution.
-各社員は出資を行った。",legal CORP
-equity interest,"持分
-
-The investor acquired a 30 percent equity interest.
-投資家は30パーセントの持分を取得した。",legal CORP
-membership interest,"(LLCの)社員持分
-
-Membership interests were transferred with consent.
-社員持分は同意を得て譲渡された。",legal CORP
-general partner,"無限責任パートナー
-
-The general partner manages the fund.
-無限責任パートナーがファンドを運営する。",legal CORP
-limited partner,"有限責任パートナー
-
-Limited partners do not manage the business.
-有限責任パートナーは業務を執行しない。",legal CORP
-silent partner,"匿名パートナー
-
-The silent partner provided capital only.
-匿名パートナーは資本のみを提供した。",legal CORP
-profit sharing,"利益分配
-
-Profit sharing follows the ownership ratio.
-利益分配は持分比率に従う。",legal CORP
-distribution,"分配
-
-The distribution was paid to all members.
-分配は全社員に支払われた。",legal CORP
-buy-sell agreement,"持分売買契約(バイセル契約)
-
-The buy-sell agreement governs exits of owners.
-バイセル契約は持分保有者の離脱を規律する。",legal CORP
-right of first refusal,"先買権(優先買取権)
-
-The right of first refusal applies to share transfers.
-先買権は株式の譲渡に適用される。",legal CORP
-preemptive rights,"新株引受権
-
-Preemptive rights protect against dilution.
-新株引受権は希薄化から株主を保護する。",legal CORP
-drag-along rights,"強制売却参加権(ドラッグ・アロング)
-
-Drag-along rights force minority holders to sell.
-ドラッグ・アロングは少数株主に売却を強制する。",legal CORP
-tag-along rights,"売却参加権(タグ・アロング)
-
-Tag-along rights let minority holders join the sale.
-タグ・アロングは少数株主の売却参加を認める。",legal CORP
-shareholders' agreement,"株主間契約
-
-The shareholders' agreement restricts transfers.
-株主間契約は株式譲渡を制限する。",legal CORP
-voting agreement,"議決権行使契約
-
-The voting agreement binds the founders.
-議決権行使契約は創業者らを拘束する。",legal CORP
-board resolution,"取締役会決議
-
-A board resolution authorized the signing.
-取締役会決議により調印が授権された。",legal CORP
-written consent,"書面決議(書面同意)
-
-The directors acted by written consent.
-取締役らは書面決議により決定した。",legal CORP
-annual report,"年次報告書
-
-The annual report was distributed to shareholders.
-年次報告書は株主に配布された。",legal CORP
-stated capital,"法定資本
-
-Stated capital cannot be distributed as dividends.
-法定資本は配当として分配できない。",legal CORP
-company secretary,"会社秘書役
-
-The company secretary keeps the corporate records.
-会社秘書役は会社の記録を保管する。",legal CORP
-independent director,"独立取締役
-
-Independent directors chair the key committees.
-独立取締役が主要委員会の議長を務める。",legal CORP
-chairman of the board,"取締役会議長
-
-The chairman of the board sets the agenda.
-取締役会議長が議題を設定する。",legal CORP
-executive officer,"業務執行役員
-
-Executive officers implement board decisions.
-業務執行役員は取締役会の決定を実行する。",legal CORP
-non-executive director,"非業務執行取締役
-
-Non-executive directors provide oversight.
-非業務執行取締役は監督機能を担う。",legal CORP
-conflict of interest,"利益相反
-
-The director disclosed a conflict of interest.
-その取締役は利益相反を開示した。",legal CORP
-related party transaction,"関連当事者取引
-
-Related party transactions require board approval.
-関連当事者取引には取締役会の承認が必要である。",legal CORP
-self-dealing,"自己取引
-
-Self-dealing violates the duty of loyalty.
-自己取引は忠実義務に違反する。",legal CORP
-corporate opportunity doctrine,"会社機会の法理
-
-The corporate opportunity doctrine barred the director's purchase.
-会社機会の法理により取締役の取得は禁じられた。",legal CORP
-ultra vires,"権限踰越(ウルトラ・ヴィーレス)
-
-The act was challenged as ultra vires.
-その行為は権限踰越として争われた。",legal CORP
-apparent authority,"表見的権限(表見代理)
-
-The manager bound the company through apparent authority.
-その管理職は表見的権限により会社を拘束した。",legal CORP
-indemnification of directors,"役員補償
-
-The bylaws provide for indemnification of directors.
-付属定款は役員補償を定める。",legal CORP
-directors and officers insurance,"会社役員賠償責任保険(D&O保険)
-
-The company maintains directors and officers insurance.
-当社はD&O保険を維持している。",legal CORP
-corporate charter,"会社設立準拠文書(チャーター)
-
-The corporate charter limits the board's powers.
-チャーターは取締役会の権限を制限する。",legal CORP
-foreign corporation,"州外法人(外国法人)
-
-A foreign corporation must register to do business.
-州外法人は事業を行うために登録しなければならない。",legal CORP
-doing business as,"商号(DBA・屋号)
-
-The company operates doing business as Sunrise Cafe.
-その会社はサンライズ・カフェの商号で営業している。",legal CORP
-lawsuit,"訴訟
-
-The company faces a lawsuit over the defect.
-当社はその欠陥をめぐる訴訟に直面している。",legal LIT
-litigation,"訴訟(手続)
-
-Litigation lasted more than three years.
-訴訟は3年以上続いた。",legal LIT
-plaintiff,"原告
-
-The plaintiff seeks two million dollars in damages.
-原告は200万ドルの損害賠償を求めている。",legal LIT
-defendant,"被告
-
-The defendant denied all allegations.
-被告はすべての主張を否認した。",legal LIT
-complaint,"訴状
-
-The complaint was filed in federal court.
-訴状は連邦裁判所に提出された。",legal LIT
-answer,"答弁書
-
-The answer must be filed within 21 days.
-答弁書は21日以内に提出しなければならない。",legal LIT
-counterclaim,"反訴
-
-The defendant asserted a counterclaim for payment.
-被告は代金支払を求める反訴を提起した。",legal LIT
-cross-claim,"交差請求(共同当事者間請求)
-
-One defendant filed a cross-claim against another.
-一方の被告が他の被告に交差請求を行った。",legal LIT
-motion,"申立て
-
-The motion was heard on Friday.
-その申立ては金曜日に審理された。",legal LIT
-motion to dismiss,"却下申立て
-
-The court denied the motion to dismiss.
-裁判所は却下申立てを退けた。",legal LIT
-summary judgment,"略式判決(サマリー・ジャッジメント)
-
-Summary judgment was granted for the defendant.
-被告勝訴の略式判決が下された。",legal LIT
-discovery,"証拠開示(ディスカバリー)
-
-Discovery produced thousands of documents.
-証拠開示により数千の文書が提出された。",legal LIT
-deposition,"証言録取(デポジション)
-
-The witness was questioned at a deposition.
-その証人は証言録取で尋問された。",legal LIT
-interrogatories,"質問書
-
-The plaintiff served interrogatories on the defendant.
-原告は被告に質問書を送達した。",legal LIT
-subpoena,"召喚状(文書提出命令)
-
-A subpoena compelled production of the records.
-召喚状により記録の提出が強制された。",legal LIT
-testimony,"証言
-
-Her testimony contradicted the documents.
-彼女の証言は文書と矛盾した。",legal LIT
-witness,"(法廷の)証人
-
-The witness was sworn in before testifying.
-証人は証言前に宣誓した。",legal LIT
-expert witness,"専門家証人
-
-An expert witness explained the industry standard.
-専門家証人が業界標準を説明した。",legal LIT
-evidence,"証拠
-
-The evidence supported the plaintiff's claim.
-証拠は原告の主張を裏付けた。",legal LIT
-documentary evidence,"書証
-
-Documentary evidence included the signed contract.
-書証には署名済みの契約書が含まれた。",legal LIT
-hearsay,"伝聞証拠
-
-The statement was excluded as hearsay.
-その供述は伝聞証拠として排除された。",legal LIT
-objection,"異議
-
-Counsel raised an objection to the question.
-弁護人はその質問に異議を述べた。",legal LIT
-admissible,"証拠能力のある
-
-The recording was ruled admissible.
-その録音は証拠能力があると判断された。",legal LIT
-burden of proof,"立証責任
-
-The burden of proof rests on the plaintiff.
-立証責任は原告にある。",legal LIT
-preponderance of the evidence,"証拠の優越
-
-Civil cases require a preponderance of the evidence.
-民事事件では証拠の優越が要求される。",legal LIT
-beyond a reasonable doubt,"合理的疑いを超える(立証)
-
-Guilt must be proven beyond a reasonable doubt.
-有罪は合理的疑いを超えて立証されなければならない。",legal LIT
-standard of proof,"立証基準
-
-The standard of proof differs in criminal cases.
-刑事事件では立証基準が異なる。",legal LIT
-trial,"公判(トライアル)
-
-The trial lasted two weeks.
-公判は2週間続いた。",legal LIT
-bench trial,"裁判官による裁判(非陪審)
-
-The parties agreed to a bench trial.
-当事者らは非陪審裁判に合意した。",legal LIT
-jury,"陪審
-
-The jury deliberated for two days.
-陪審は2日間評議した。",legal LIT
-jury trial,"陪審裁判
-
-The defendant demanded a jury trial.
-被告は陪審裁判を要求した。",legal LIT
-verdict,"評決
-
-The jury returned a verdict for the plaintiff.
-陪審は原告勝訴の評決を下した。",legal LIT
-judgment,"判決
-
-Judgment was entered against the defendant.
-被告敗訴の判決が登録された。",legal LIT
-ruling,"決定(裁定)
-
-The judge issued a ruling on the motion.
-裁判官はその申立てについて決定を下した。",legal LIT
-court order,"裁判所命令
-
-The court order required immediate compliance.
-裁判所命令は直ちに従うことを求めた。",legal LIT
-temporary restraining order,"暫定的差止命令(TRO)
-
-A temporary restraining order was issued the same day.
-暫定的差止命令が即日発令された。",legal LIT
-preliminary injunction,"仮差止命令
-
-The preliminary injunction remains until trial.
-仮差止命令は公判まで存続する。",legal LIT
-permanent injunction,"終局的差止命令
-
-The court entered a permanent injunction.
-裁判所は終局的差止命令を発した。",legal LIT
-appeal,"上訴(控訴)
-
-The defendant filed an appeal within thirty days.
-被告は30日以内に上訴した。",legal LIT
-appellant,"上訴人
-
-The appellant challenged the damages award.
-上訴人は損害賠償の認容額を争った。",legal LIT
-appellee,"被上訴人
-
-The appellee defended the lower court's ruling.
-被上訴人は原審の判断を擁護した。",legal LIT
-appellate court,"上訴裁判所(控訴裁判所)
-
-The appellate court reversed the judgment.
-上訴裁判所は判決を破棄した。",legal LIT
-supreme court,"最高裁判所
-
-The supreme court declined to hear the case.
-最高裁判所は事件の受理を拒否した。",legal LIT
-district court,"地方裁判所(連邦地裁)
-
-The case was tried in the district court.
-その事件は地方裁判所で審理された。",legal LIT
-personal jurisdiction,"対人管轄
-
-The court lacked personal jurisdiction over the defendant.
-裁判所は被告に対する対人管轄を欠いていた。",legal LIT
-subject matter jurisdiction,"事物管轄
-
-Federal courts have limited subject matter jurisdiction.
-連邦裁判所の事物管轄は限定されている。",legal LIT
-statute of limitations,"出訴期限(時効)
-
-The claim was barred by the statute of limitations.
-その請求は出訴期限により遮断された。",legal LIT
-pleading,"訴答書面
-
-The pleadings define the issues in dispute.
-訴答書面は争点を確定する。",legal LIT
-service of process,"訴状の送達
-
-Service of process was completed by a process server.
-訴状の送達は送達人により完了した。",legal LIT
-summons,"呼出状
-
-The summons requires a response within 21 days.
-呼出状は21日以内の応答を求める。",legal LIT
-default judgment,"欠席判決
-
-A default judgment was entered against the absent defendant.
-欠席した被告に対して欠席判決が下された。",legal LIT
-dismissal with prejudice,"再訴禁止の却下
-
-Dismissal with prejudice bars refiling the claim.
-再訴禁止の却下は再提訴を妨げる。",legal LIT
-dismissal without prejudice,"再訴可能な却下
-
-Dismissal without prejudice allows a new filing.
-再訴可能な却下は新たな提訴を許す。",legal LIT
-class action,"クラス・アクション(集団訴訟)
-
-The class action covered thousands of consumers.
-その集団訴訟は数千人の消費者を対象とした。",legal LIT
-remand,"差戻し
-
-The case was remanded to the trial court.
-事件は第一審裁判所に差し戻された。",legal LIT
-retrial,"再審理
-
-The appellate court ordered a retrial.
-上訴裁判所は再審理を命じた。",legal LIT
-precedent,"判例(先例)
-
-The decision set an important precedent.
-その判決は重要な先例となった。",legal LIT
-stare decisis,"先例拘束性の原則
-
-Stare decisis promotes stability in the law.
-先例拘束性の原則は法の安定性を促進する。",legal LIT
-case law,"判例法
-
-Case law interprets the statute narrowly.
-判例法はその制定法を狭く解釈している。",legal LIT
-common law,"コモン・ロー(判例法)
-
-Contract principles developed at common law.
-契約法理はコモン・ローで発展した。",legal LIT
-civil law,"大陸法(民事法)
-
-Japan follows a civil law tradition.
-日本は大陸法の伝統に属する。",legal LIT
-statute,"制定法
-
-The statute codified the common law rule.
-その制定法は判例法上の準則を成文化した。",legal LIT
-regulation,"規則(行政規則)
-
-The agency issued a new regulation.
-行政機関は新しい規則を公布した。",legal LIT
-ordinance,"条例
-
-The city passed a zoning ordinance.
-市はゾーニング条例を制定した。",legal LIT
-code,"法典
-
-The commercial code governs sales.
-商事法典が売買を規律する。",legal LIT
-repeal,"(法律の)廃止
-
-The legislature voted for the repeal of the act.
-議会はその法律の廃止を可決した。",legal LIT
-provision,"規定(条項)
-
-The provision applies to public companies only.
-その規定は公開会社にのみ適用される。",legal LIT
-clause,"条項
-
-The clause was added during negotiations.
-その条項は交渉中に追加された。",legal LIT
-article,"条
-
-Article 9 governs secured transactions.
-第9条は担保付取引を規律する。",legal LIT
-section,"条項(セクション)
-
-Section 2 defines the key terms.
-第2条は主要な用語を定義する。",legal LIT
-paragraph,"項(パラグラフ)
-
-The paragraph was renumbered in the amendment.
-その項は改正で番号が振り直された。",legal LIT
-holding,"判決理由(ホールディング)
-
-The holding of the case is narrow.
-その判決の射程は狭い。",legal LIT
-dictum,"傍論
-
-The comment was dictum and not binding.
-その説示は傍論であり拘束力を持たない。",legal LIT
-majority opinion,"多数意見
-
-The majority opinion was written by the chief justice.
-多数意見は長官が執筆した。",legal LIT
-dissenting opinion,"反対意見
-
-Two justices joined the dissenting opinion.
-2名の裁判官が反対意見に加わった。",legal LIT
-concurring opinion,"補足意見(同調意見)
-
-The concurring opinion offered different reasoning.
-補足意見は異なる理由づけを示した。",legal LIT
-docket,"事件記録(ドケット)
-
-The case was added to the court's docket.
-事件は裁判所のドケットに登載された。",legal LIT
-brief,"準備書面(ブリーフ)
-
-The brief was filed before oral argument.
-準備書面は口頭弁論前に提出された。",legal LIT
-oral argument,"口頭弁論
-
-Each side had thirty minutes for oral argument.
-各当事者に30分の口頭弁論時間が与えられた。",legal LIT
-cross-examination,"反対尋問
-
-Cross-examination weakened the witness's account.
-反対尋問により証人の供述は弱められた。",legal LIT
-direct examination,"主尋問
-
-Direct examination established the timeline.
-主尋問により時系列が立証された。",legal LIT
-perjury,"偽証
-
-The witness was charged with perjury.
-その証人は偽証罪で訴追された。",legal LIT
-contempt of court,"法廷侮辱
-
-He was held in contempt of court.
-彼は法廷侮辱と認定された。",legal LIT
-sanction,"制裁
-
-The court imposed sanctions for discovery abuse.
-裁判所は証拠開示の濫用に制裁を科した。",legal LIT
-attorney,"弁護士
-
-The attorney advised against settlement.
-弁護士は和解しないよう助言した。",legal LIT
-counsel,"弁護人(法律顧問)
-
-Counsel for both parties met with the judge.
-両当事者の弁護人が裁判官と面談した。",legal LIT
-in-house counsel,"社内弁護士
-
-In-house counsel reviewed the contract first.
-社内弁護士がまず契約書を確認した。",legal LIT
-outside counsel,"社外弁護士
-
-Outside counsel was retained for the litigation.
-訴訟のために社外弁護士が起用された。",legal LIT
-paralegal,"パラリーガル
-
-The paralegal organized the exhibits for trial.
-パラリーガルが公判用の証拠を整理した。",legal LIT
-bar exam,"司法試験(バー・イグザム)
-
-She passed the bar exam on her first attempt.
-彼女は司法試験に一度で合格した。",legal LIT
-bar association,"弁護士会
-
-The bar association disciplines its members.
-弁護士会は会員を懲戒する。",legal LIT
-attorney-client privilege,"弁護士依頼者間秘匿特権
-
-The memo is protected by attorney-client privilege.
-そのメモは弁護士依頼者間秘匿特権で保護される。",legal LIT
-work product doctrine,"ワーク・プロダクトの法理
-
-The notes were shielded by the work product doctrine.
-そのメモはワーク・プロダクトの法理で保護された。",legal LIT
-retainer,"着手金(顧問料)
-
-The firm required a retainer of ten thousand dollars.
-その事務所は1万ドルの着手金を求めた。",legal LIT
-contingency fee,"成功報酬
-
-The case was taken on a contingency fee basis.
-その事件は成功報酬制で受任された。",legal LIT
-litigation hold,"訴訟ホールド(証拠保全指示)
-
-A litigation hold preserved the emails.
-訴訟ホールドにより電子メールが保全された。",legal LIT
-e-discovery,"電子証拠開示
-
-E-discovery covered the company's servers.
-電子証拠開示は会社のサーバーに及んだ。",legal LIT
-protective order,"秘密保持命令
-
-A protective order limited access to trade secrets.
-秘密保持命令が営業秘密へのアクセスを制限した。",legal LIT
-standing,"原告適格
-
-The plaintiff lacked standing to sue.
-原告は原告適格を欠いていた。",legal LIT
-res judicata,"既判力
-
-Res judicata barred the second lawsuit.
-既判力により再度の訴訟は遮断された。",legal LIT
-collateral estoppel,"争点効
-
-Collateral estoppel prevented relitigating the issue.
-争点効によりその争点の再審理は妨げられた。",legal LIT
-mootness,"ムートネス(訴えの利益の消滅)
-
-The appeal was dismissed for mootness.
-訴えの利益の消滅により上訴は却下された。",legal LIT
-writ,"令状
-
-The court issued a writ to enforce the order.
-裁判所は命令執行のため令状を発した。",legal LIT
-certiorari,"裁量上訴受理(サーシオレアライ)
-
-The petition for certiorari was denied.
-裁量上訴受理の申立ては却下された。",legal LIT
-arbitrator,"仲裁人
-
-The arbitrator heard both parties' evidence.
-仲裁人は両当事者の証拠を審理した。",legal LIT
-arbitral award,"仲裁判断
-
-The arbitral award was enforced by the court.
-仲裁判断は裁判所により執行された。",legal LIT
-arbitration clause,"仲裁条項
-
-The arbitration clause designates Singapore as the seat.
-仲裁条項はシンガポールを仲裁地と定める。",legal LIT
-mediator,"調停人
-
-The mediator proposed a compromise.
-調停人は妥協案を提示した。",legal LIT
-amicable settlement,"友好的解決(示談)
-
-The parties reached an amicable settlement.
-当事者らは友好的解決に達した。",legal LIT
-out-of-court settlement,"裁判外の和解
-
-An out-of-court settlement avoided trial.
-裁判外の和解により公判は回避された。",legal LIT
-alternative dispute resolution,"裁判外紛争解決(ADR)
-
-Alternative dispute resolution saves time and cost.
-ADRは時間と費用を節約する。",legal LIT
-small claims court,"少額裁判所
-
-The dispute was filed in small claims court.
-その紛争は少額裁判所に提訴された。",legal LIT
-filing fee,"提訴手数料
-
-The filing fee was four hundred dollars.
-提訴手数料は400ドルだった。",legal LIT
-court reporter,"法廷速記官
-
-The court reporter transcribed the testimony.
-法廷速記官が証言を記録した。",legal LIT
-transcript,"(公判)記録(反訳書)
-
-The transcript was cited in the appeal.
-反訳書が上訴で引用された。",legal LIT
-admissibility,"証拠能力
-
-The admissibility of the email was disputed.
-その電子メールの証拠能力が争われた。",legal LIT
-relevance,"関連性
-
-The court excluded the document for lack of relevance.
-裁判所は関連性の欠如を理由に文書を排除した。",legal LIT
-privilege,"秘匿特権
-
-The client asserted privilege over the letters.
-依頼者はその書簡について秘匿特権を主張した。",legal LIT
-immunity,"免責(免除)
-
-The state claimed sovereign immunity.
-州は主権免除を主張した。",legal LIT
-judgment creditor,"判決債権者
-
-The judgment creditor sought to collect the award.
-判決債権者は認容額の回収を図った。",legal LIT
-judgment debtor,"判決債務者
-
-The judgment debtor failed to pay.
-判決債務者は支払を怠った。",legal LIT
-enforcement of judgment,"判決の執行
-
-Enforcement of judgment required locating assets.
-判決の執行には資産の特定が必要だった。",legal LIT
-garnishment,"債権差押え
-
-Garnishment reached the debtor's bank account.
-債権差押えは債務者の銀行口座に及んだ。",legal LIT
-attachment,"(財産の)仮差押え
-
-The court granted attachment of the assets.
-裁判所は資産の仮差押えを認めた。",legal LIT
-levy,"差押え(執行)
-
-The sheriff made a levy on the equipment.
-執行官は設備を差し押さえた。",legal LIT
-notice of appeal,"上訴通知
-
-The notice of appeal was filed on time.
-上訴通知は期限内に提出された。",legal LIT
-affidavit,"宣誓供述書
-
-The affidavit was signed before a notary.
-宣誓供述書は公証人の面前で署名された。",legal LIT
-declaration,"陳述書
-
-The declaration supported the motion.
-陳述書がその申立てを裏付けた。",legal LIT
-stipulation,"(当事者間の)合意(スティピュレーション)
-
-The parties filed a stipulation of facts.
-当事者らは事実に関する合意書を提出した。",legal LIT
-pro se,"本人訴訟(の)
-
-The plaintiff appeared pro se.
-原告は本人訴訟で出廷した。",legal LIT
-crime,"犯罪
-
-The act constitutes a crime under state law.
-その行為は州法上の犯罪を構成する。",legal CRIM
-criminal law,"刑法
-
-Criminal law defines offenses and punishments.
-刑法は犯罪と刑罰を定める。",legal CRIM
-felony,"重罪
-
-The charge was elevated to a felony.
-その訴因は重罪に引き上げられた。",legal CRIM
-misdemeanor,"軽罪
-
-A misdemeanor carries a lighter sentence.
-軽罪の刑はより軽い。",legal CRIM
-offense,"犯罪(違反)
-
-It was his first offense.
-それは彼の初犯だった。",legal CRIM
-suspect,"被疑者
-
-The suspect was questioned by the police.
-被疑者は警察の取調べを受けた。",legal CRIM
-the accused,"被告人
-
-The accused has the right to counsel.
-被告人は弁護人選任権を有する。",legal CRIM
-arrest,"逮捕
-
-The arrest was made without incident.
-逮捕は混乱なく行われた。",legal CRIM
-arrest warrant,"逮捕状
-
-The judge signed the arrest warrant.
-裁判官は逮捕状に署名した。",legal CRIM
-search warrant,"捜索令状
-
-The search warrant covered the office premises.
-捜索令状は事務所の敷地を対象とした。",legal CRIM
-probable cause,"相当な理由
-
-Probable cause is required for an arrest.
-逮捕には相当な理由が必要である。",legal CRIM
-Miranda rights,"ミランダ権利(黙秘権等の告知)
-
-The officer read the suspect his Miranda rights.
-警察官は被疑者にミランダ権利を告知した。",legal CRIM
-interrogation,"取調べ
-
-The interrogation was recorded on video.
-取調べはビデオに記録された。",legal CRIM
-custody,"身柄拘束
-
-The suspect remained in custody overnight.
-被疑者は一晩身柄を拘束された。",legal CRIM
-detention,"勾留(留置)
-
-The detention was reviewed by a judge.
-勾留は裁判官の審査を受けた。",legal CRIM
-bail,"保釈(保釈金)
-
-Bail was set at fifty thousand dollars.
-保釈金は5万ドルと定められた。",legal CRIM
-indictment,"起訴(大陪審起訴)
-
-The grand jury returned an indictment.
-大陪審は起訴を決定した。",legal CRIM
-arraignment,"罪状認否
-
-The defendant pleaded not guilty at the arraignment.
-被告人は罪状認否で無罪を主張した。",legal CRIM
-plea,"答弁(認否)
-
-The court accepted the plea.
-裁判所はその答弁を受理した。",legal CRIM
-guilty plea,"有罪答弁
-
-A guilty plea waives the right to trial.
-有罪答弁により公判を受ける権利は放棄される。",legal CRIM
-plea bargain,"司法取引
-
-The plea bargain reduced the charge.
-司法取引により訴因は軽減された。",legal CRIM
-prosecution,"訴追(検察側)
-
-The prosecution presented its case first.
-検察側が先に立証を行った。",legal CRIM
-prosecutor,"検察官
-
-The prosecutor recommended a five-year sentence.
-検察官は5年の刑を求刑した。",legal CRIM
-defense counsel,"弁護人
-
-Defense counsel challenged the evidence.
-弁護人は証拠を争った。",legal CRIM
-public defender,"公選弁護人
-
-A public defender was appointed for the accused.
-被告人に公選弁護人が選任された。",legal CRIM
-conviction,"有罪判決
-
-The conviction was upheld on appeal.
-有罪判決は上訴審で維持された。",legal CRIM
-acquittal,"無罪判決
-
-The jury's verdict resulted in an acquittal.
-陪審の評決により無罪となった。",legal CRIM
-sentence,"刑の宣告(量刑)
-
-The sentence was ten years' imprisonment.
-言い渡された刑は拘禁10年だった。",legal CRIM
-sentencing,"量刑手続
-
-Sentencing was scheduled for next month.
-量刑手続は来月に予定された。",legal CRIM
-imprisonment,"拘禁刑
-
-The offense carries up to five years' imprisonment.
-その犯罪の法定刑は5年以下の拘禁刑である。",legal CRIM
-fine,"罰金
-
-The court imposed a fine of ten thousand dollars.
-裁判所は1万ドルの罰金を科した。",legal CRIM
-probation,"保護観察
-
-He was placed on probation for two years.
-彼は2年間の保護観察に付された。",legal CRIM
-parole,"仮釈放
-
-Parole was granted after eight years.
-8年の服役後に仮釈放が認められた。",legal CRIM
-community service,"社会奉仕活動
-
-The sentence included community service.
-判決には社会奉仕活動が含まれた。",legal CRIM
-criminal record,"犯罪歴(前科)
-
-The applicant has no criminal record.
-その応募者に犯罪歴はない。",legal CRIM
-juvenile,"少年(未成年者)
-
-Juvenile cases are heard in a separate court.
-少年事件は別の裁判所で審理される。",legal CRIM
-mens rea,"犯意(メンズ・レア)
-
-Mens rea is the mental element of a crime.
-犯意は犯罪の主観的要素である。",legal CRIM
-actus reus,"犯罪行為(アクトゥス・レウス)
-
-Actus reus is the physical element of a crime.
-アクトゥス・レウスは犯罪の客観的要素である。",legal CRIM
-intent,"故意
-
-The prosecution must prove intent.
-検察側は故意を立証しなければならない。",legal CRIM
-recklessness,"未必の故意(無謀)
-
-Recklessness suffices for some offenses.
-一部の犯罪では未必の故意で足りる。",legal CRIM
-criminal negligence,"刑事過失
-
-The driver was charged with criminal negligence.
-その運転者は刑事過失で訴追された。",legal CRIM
-self-defense,"正当防衛
-
-The accused claimed self-defense.
-被告人は正当防衛を主張した。",legal CRIM
-alibi,"アリバイ
-
-The alibi was confirmed by security footage.
-アリバイは防犯映像で確認された。",legal CRIM
-accomplice,"共犯者
-
-The accomplice testified against the defendant.
-共犯者は被告人に不利な証言をした。",legal CRIM
-conspiracy,"共謀
-
-They were charged with conspiracy to commit fraud.
-彼らは詐欺の共謀で訴追された。",legal CRIM
-attempt,"未遂
-
-Attempt is punishable even without completion.
-未遂は既遂に至らなくても処罰される。",legal CRIM
-embezzlement,"横領(業務上横領)
-
-The treasurer was convicted of embezzlement.
-その会計係は横領で有罪となった。",legal CRIM
-money laundering,"マネー・ロンダリング(資金洗浄)
-
-The funds were traced in a money laundering investigation.
-資金洗浄の捜査で資金の流れが追跡された。",legal CRIM
-bribery,"贈収賄
-
-The official was arrested for bribery.
-その公務員は収賄で逮捕された。",legal CRIM
-extortion,"恐喝
-
-The threats amounted to extortion.
-その脅迫は恐喝にあたった。",legal CRIM
-rule of law,"法の支配
-
-The rule of law limits arbitrary power.
-法の支配は恣意的な権力を制約する。",legal GEN
-due process,"適正手続(デュー・プロセス)
-
-Due process guarantees a fair hearing.
-適正手続は公正な審理を保障する。",legal GEN
-presumption of innocence,"無罪推定
-
-The presumption of innocence protects the accused.
-無罪推定は被告人を保護する。",legal GEN
-double jeopardy,"二重の危険の禁止
-
-Double jeopardy bars a second prosecution.
-二重の危険の禁止は再度の訴追を妨げる。",legal GEN
-equity,"衡平法(エクイティ)
-
-Equity developed alongside the common law.
-衡平法はコモン・ローと並行して発展した。",legal GEN
-estoppel,"禁反言
-
-Estoppel prevented the party from denying its statement.
-禁反言によりその当事者は自らの言明を否定できなかった。",legal GEN
-sovereignty,"主権
-
-Sovereignty belongs to the people.
-主権は国民に属する。",legal GEN
-treaty,"条約
-
-The treaty was signed by forty nations.
-その条約は40か国により署名された。",legal GEN
-ratification,"批准(追認)
-
-Ratification by the legislature followed the signing.
-署名の後に議会による批准が行われた。",legal GEN
-legislation,"立法(法令)
-
-New legislation regulates data privacy.
-新しい法令がデータ・プライバシーを規制する。",legal GEN
-judiciary,"司法(府)
-
-The judiciary is independent of the executive.
-司法府は行政府から独立している。",legal GEN
-legislature,"立法府
-
-The legislature enacted the reform bill.
-立法府は改革法案を制定した。",legal GEN
-executive branch,"行政府
-
-The executive branch enforces the laws.
-行政府は法律を執行する。",legal GEN
-constitutional law,"憲法
-
-Constitutional law protects fundamental rights.
-憲法は基本的権利を保護する。",legal GEN
-human rights,"人権
-
-The treaty protects basic human rights.
-その条約は基本的人権を保護する。",legal GEN
-ad hoc,"アド・ホック(特別の)
-
-An ad hoc committee was formed for the issue.
-その問題のために特別委員会が設置された。",legal GEN
-de facto,"事実上の
-
-He was the de facto manager of the business.
-彼はその事業の事実上の経営者だった。",legal GEN
-de jure,"法律上の
-
-The de jure owner differs from the actual user.
-法律上の所有者は実際の利用者と異なる。",legal GEN
-de novo,"覆審(新規に)
-
-The appellate court reviewed the issue de novo.
-上訴裁判所はその争点を覆審的に審査した。",legal GEN
-ex parte,"一方当事者のみの
-
-The judge granted an ex parte order.
-裁判官は一方当事者のみの申立てによる命令を発した。",legal GEN
-in camera,"非公開で(裁判官室で)
-
-The judge reviewed the documents in camera.
-裁判官は文書を非公開で検討した。",legal GEN
-amicus curiae,"法廷助言者(アミカス・キュリエ)
-
-An amicus curiae brief was filed by the association.
-その団体が法廷助言者としての意見書を提出した。",legal GEN
-habeas corpus,"人身保護令状
-
-The prisoner petitioned for habeas corpus.
-その被収容者は人身保護令状を申し立てた。",legal GEN
-quid pro quo,"対価(見返り)
-
-The bribe was a quid pro quo for the contract.
-その賄賂は契約の見返りだった。",legal GEN
-caveat emptor,"買主注意せよ(の原則)
-
-Caveat emptor applies to as-is sales.
-現状有姿の売買には買主注意の原則が適用される。",legal GEN
-res ipsa loquitur,"事実推定則(事実自体が語る)
-
-Res ipsa loquitur shifted the burden to the defendant.
-事実推定則により立証の負担は被告に移った。",legal GEN
-pari passu,"同順位で(パリ・パス)
-
-The bonds rank pari passu with other senior debt.
-その社債は他の優先債務と同順位である。",legal GEN
-in rem,"対物的な
-
-The court exercised in rem jurisdiction over the vessel.
-裁判所はその船舶に対して対物管轄を行使した。",legal GEN
-in personam,"対人的な
-
-An in personam judgment binds the defendant personally.
-対人判決は被告個人を拘束する。",legal GEN
-inter alia,"とりわけ(特に)
-
-The contract covers inter alia delivery and payment.
-契約はとりわけ引渡しと支払を定める。",legal GEN
-intellectual property,"知的財産
-
-Intellectual property is the company's main asset.
-知的財産は当社の主要な資産である。",legal IP
-patent,"特許
-
-The patent covers the manufacturing process.
-その特許は製造方法を対象とする。",legal IP
-patent application,"特許出願
-
-The patent application was filed last year.
-特許出願は昨年行われた。",legal IP
-patent infringement,"特許権侵害
-
-The court found patent infringement.
-裁判所は特許権侵害を認定した。",legal IP
-prior art,"先行技術
-
-The prior art invalidated the claim.
-先行技術によりその請求項は無効とされた。",legal IP
-claims,"(特許の)請求項(クレーム)
-
-The claims define the scope of the patent.
-請求項は特許の範囲を画定する。",legal IP
-specification,"明細書
-
-The specification describes the invention in detail.
-明細書は発明を詳細に記載する。",legal IP
-patentee,"特許権者
-
-The patentee licensed the technology.
-特許権者はその技術をライセンスした。",legal IP
-utility patent,"実用特許
-
-A utility patent protects functional inventions.
-実用特許は機能的な発明を保護する。",legal IP
-design patent,"意匠特許
-
-The design patent covers the product's appearance.
-意匠特許は製品の外観を保護する。",legal IP
-trademark,"商標
-
-The trademark distinguishes the goods.
-商標は商品を識別する。",legal IP
-service mark,"役務商標(サービス・マーク)
-
-The service mark identifies the consulting business.
-その役務商標はコンサルティング業を識別する。",legal IP
-trade name,"商号
-
-The trade name is registered with the state.
-商号は州に登録されている。",legal IP
-trade dress,"トレード・ドレス(商品外観)
-
-The packaging is protected as trade dress.
-その包装はトレード・ドレスとして保護される。",legal IP
-trademark registration,"商標登録
-
-Trademark registration strengthens enforcement.
-商標登録は権利行使を強化する。",legal IP
-trademark infringement,"商標権侵害
-
-The similar logo constituted trademark infringement.
-類似のロゴは商標権侵害を構成した。",legal IP
-dilution,"(著名商標の)希釈化
-
-Dilution weakens a famous mark's distinctiveness.
-希釈化は著名商標の識別力を弱める。",legal IP
-copyright,"著作権
-
-Copyright arises automatically upon creation.
-著作権は創作と同時に自動的に発生する。",legal IP
-copyright infringement,"著作権侵害
-
-Unauthorized copying is copyright infringement.
-無断複製は著作権侵害である。",legal IP
-fair use,"フェア・ユース(公正利用)
-
-The quotation qualified as fair use.
-その引用はフェア・ユースに該当した。",legal IP
-derivative work,"二次的著作物
-
-The translation is a derivative work.
-翻訳は二次的著作物である。",legal IP
-work made for hire,"職務著作
-
-The manual is a work made for hire.
-そのマニュアルは職務著作である。",legal IP
-moral rights,"著作者人格権
-
-Moral rights protect the author's attribution.
-著作者人格権は氏名表示を保護する。",legal IP
-public domain,"パブリック・ドメイン
-
-The novel entered the public domain in 2020.
-その小説は2020年にパブリック・ドメインとなった。",legal IP
-licensing agreement,"ライセンス契約
-
-The licensing agreement covers two patents.
-そのライセンス契約は2件の特許を対象とする。",legal IP
-exclusive license,"独占的ライセンス
-
-An exclusive license bars even the licensor's use.
-独占的ライセンスはライセンサー自身の使用も妨げる。",legal IP
-non-exclusive license,"非独占的ライセンス
-
-Several firms hold non-exclusive licenses.
-複数の企業が非独占的ライセンスを保有する。",legal IP
-cross-license,"クロス・ライセンス
-
-The rivals settled through a cross-license.
-競合他社はクロス・ライセンスにより和解した。",legal IP
-trade secret,"営業秘密
-
-The formula is protected as a trade secret.
-その配合は営業秘密として保護されている。",legal IP
-misappropriation,"(営業秘密の)不正取得・使用
-
-The former employee was sued for misappropriation.
-元従業員は営業秘密の不正使用で提訴された。",legal IP
-confidential information,"秘密情報
-
-Confidential information must be marked as such.
-秘密情報にはその旨の表示が必要である。",legal IP
-know-how,"ノウハウ
-
-The license includes technical know-how.
-そのライセンスには技術ノウハウが含まれる。",legal IP
-invention,"発明
-
-The invention improves battery life.
-その発明は電池寿命を改善する。",legal IP
-inventor,"発明者
-
-The inventor assigned the patent to the employer.
-発明者は特許を使用者に譲渡した。",legal IP
-patent office,"特許庁
-
-The patent office examined the application.
-特許庁は出願を審査した。",legal IP
-filing date,"出願日
-
-Priority is based on the filing date.
-優先権は出願日に基づく。",legal IP
-priority date,"優先日
-
-The priority date precedes the competing application.
-優先日は競合出願より早い。",legal IP
-patent prosecution,"特許出願手続
-
-Patent prosecution took three years.
-特許出願手続には3年を要した。",legal IP
-office action,"拒絶理由通知(オフィス・アクション)
-
-The applicant responded to the office action.
-出願人は拒絶理由通知に応答した。",legal IP
-patent examiner,"特許審査官
-
-The patent examiner cited two references.
-特許審査官は2件の文献を引用した。",legal IP
-novelty,"新規性
-
-Novelty requires that the invention is new.
-新規性は発明が新しいことを要求する。",legal IP
-non-obviousness,"非自明性
-
-Non-obviousness was the main issue in examination.
-非自明性が審査の主要な争点だった。",legal IP
-utility,"有用性
-
-Utility is rarely disputed in practice.
-有用性が実務で争われることは少ない。",legal IP
-enablement,"実施可能性
-
-Enablement requires a sufficient disclosure.
-実施可能性は十分な開示を要求する。",legal IP
-patent term,"特許存続期間
-
-The patent term is twenty years from filing.
-特許存続期間は出願から20年である。",legal IP
-maintenance fee,"特許維持料
-
-Maintenance fees keep the patent in force.
-特許維持料の納付により特許は維持される。",legal IP
-cease and desist letter,"警告書(停止要求書)
-
-A cease and desist letter was sent to the infringer.
-侵害者に警告書が送付された。",legal IP
-reasonable royalty,"合理的実施料
-
-Damages were calculated as a reasonable royalty.
-損害額は合理的実施料として算定された。",legal IP
-lost profits,"逸失利益
-
-The patentee recovered lost profits.
-特許権者は逸失利益の賠償を得た。",legal IP
-willful infringement,"故意侵害
-
-Willful infringement can triple the damages.
-故意侵害の場合は賠償額が3倍になり得る。",legal IP
-invalidity,"無効
-
-The defendant argued invalidity of the patent.
-被告は特許の無効を主張した。",legal IP
-opposition,"異議申立て
-
-An opposition was filed against the registration.
-その登録に対して異議申立てが行われた。",legal IP
-reexamination,"再審査
-
-The patent survived reexamination.
-その特許は再審査を経て維持された。",legal IP
-inter partes review,"当事者系レビュー(IPR)
-
-The competitor requested inter partes review.
-競合他社は当事者系レビューを請求した。",legal IP
-domain name,"ドメイン名
-
-The domain name was registered in bad faith.
-そのドメイン名は悪意で登録された。",legal IP
-cybersquatting,"サイバースクワッティング
-
-Cybersquatting exploits famous brand names.
-サイバースクワッティングは著名ブランド名を悪用する。",legal IP
-counterfeit,"模倣品(偽造品)
-
-Customs seized the counterfeit goods.
-税関は模倣品を差し押さえた。",legal IP
-piracy,"海賊行為(著作権侵害)
-
-Online piracy reduces legitimate sales.
-オンラインの海賊行為は正規の売上を減少させる。",legal IP
-technology transfer,"技術移転
-
-The university promotes technology transfer.
-その大学は技術移転を推進している。",legal IP
-open source license,"オープンソース・ライセンス
-
-The code is distributed under an open source license.
-そのコードはオープンソース・ライセンスで配布される。",legal IP
-license grant,"ライセンスの付与
-
-The license grant is limited to internal use.
-ライセンスの付与は内部利用に限定される。",legal IP
-field of use,"使用分野(の限定)
-
-The license is restricted to a medical field of use.
-そのライセンスは医療分野の使用に限定される。",legal IP
-territory,"(ライセンスの)許諾地域
-
-The territory covers North America only.
-許諾地域は北米のみである。",legal IP
-sublicensing rights,"再許諾権
-
-Sublicensing rights require the licensor's consent.
-再許諾権にはライセンサーの同意が必要である。",legal IP
-improvement,"改良(発明)
-
-Improvements belong to the developing party.
-改良発明は開発した当事者に帰属する。",legal IP
-joint ownership,"共有(共同保有)
-
-Joint ownership of the patent complicated licensing.
-特許の共有がライセンス供与を複雑にした。",legal IP
-assignment of patent,"特許権の譲渡
-
-The assignment of patent was recorded at the office.
-特許権の譲渡は特許庁に登録された。",legal IP
-registration,"登録
-
-Registration establishes public notice of the right.
-登録により権利の公示がなされる。",legal IP
-renewal of registration,"登録更新
-
-Renewal of registration occurs every ten years.
-登録更新は10年ごとに行われる。",legal IP
-first-to-file,"先願主義
-
-Most countries follow the first-to-file system.
-ほとんどの国は先願主義を採用している。",legal IP
-infringement litigation,"侵害訴訟
-
-The infringement litigation settled after two years.
-その侵害訴訟は2年後に和解した。",legal IP
-declaratory judgment action,"確認訴訟
-
-The user filed a declaratory judgment action of invalidity.
-利用者は無効確認訴訟を提起した。",legal IP
-border enforcement,"水際措置
-
-Border enforcement blocks infringing imports.
-水際措置は侵害品の輸入を阻止する。",legal IP
-royalty rate,"ロイヤルティ料率
-
-The royalty rate was set at 3 percent.
-ロイヤルティ料率は3パーセントと定められた。",legal IP
-upfront payment,"頭金(一時金)
-
-The license required an upfront payment.
-そのライセンスには一時金の支払が必要だった。",legal IP
-milestone payment,"マイルストーン支払
-
-Milestone payments follow each development stage.
-マイルストーン支払は各開発段階に対応する。",legal IP
-running royalty,"ランニング・ロイヤルティ
-
-A running royalty is paid on each sale.
-ランニング・ロイヤルティは販売の都度支払われる。",legal IP
-royalty audit,"ロイヤルティ監査
-
-The royalty audit found underpayment.
-ロイヤルティ監査で過少支払が判明した。",legal IP
-grant-back condition,"グラント・バック条項
-
-The grant-back condition covers improvements.
-グラント・バック条項は改良発明を対象とする。",legal IP
-exhaustion doctrine,"消尽の法理
-
-The exhaustion doctrine permits resale of the product.
-消尽の法理は製品の再販売を許容する。",legal IP
-employment agreement,"雇用契約
-
-The employment agreement specifies the duties.
-雇用契約は職務内容を特定する。",legal EMP
-employer,"使用者(雇用主)
-
-The employer provides health insurance.
-使用者は健康保険を提供する。",legal EMP
-employee,"従業員
-
-The employee received a promotion.
-その従業員は昇進した。",legal EMP
-at-will employment,"随意雇用
-
-At-will employment allows termination at any time.
-随意雇用ではいつでも雇用を終了できる。",legal EMP
-probationary period,"試用期間
-
-The probationary period lasts three months.
-試用期間は3か月である。",legal EMP
-salary,"給与(月給・年俸)
-
-The salary is paid monthly.
-給与は毎月支払われる。",legal EMP
-wages,"賃金
-
-Wages are calculated on an hourly basis.
-賃金は時給で計算される。",legal EMP
-overtime,"時間外労働(残業)
-
-Overtime is paid at 1.5 times the regular rate.
-時間外労働には1.5倍の割増賃金が支払われる。",legal EMP
-benefits,"福利厚生
-
-Benefits include paid vacation and insurance.
-福利厚生には有給休暇と保険が含まれる。",legal EMP
-severance pay,"退職手当(解雇手当)
-
-Severance pay equals one month per year of service.
-解雇手当は勤続1年につき1か月分である。",legal EMP
-notice of termination,"解雇予告(退職通知)
-
-Notice of termination was given in writing.
-解雇予告は書面で行われた。",legal EMP
-resignation,"辞職
-
-She submitted her resignation on Friday.
-彼女は金曜日に辞表を提出した。",legal EMP
-dismissal,"解雇
-
-The dismissal followed repeated warnings.
-解雇は度重なる警告の後に行われた。",legal EMP
-wrongful termination,"不当解雇
-
-The employee sued for wrongful termination.
-その従業員は不当解雇で提訴した。",legal EMP
-layoff,"一時解雇(レイオフ)
-
-The layoff affected two hundred workers.
-レイオフは200人の労働者に影響した。",legal EMP
-redundancy,"人員整理(剰員解雇)
-
-The plant closure caused redundancies.
-工場閉鎖により人員整理が行われた。",legal EMP
-discrimination,"差別
-
-Discrimination based on age is prohibited.
-年齢に基づく差別は禁止されている。",legal EMP
-harassment,"ハラスメント
-
-The company investigated the harassment complaint.
-会社はハラスメントの申立てを調査した。",legal EMP
-sexual harassment,"セクシュアル・ハラスメント
-
-Sexual harassment training is mandatory.
-セクハラ研修は必須である。",legal EMP
-equal employment opportunity,"雇用機会均等
-
-The policy ensures equal employment opportunity.
-その方針は雇用機会均等を確保する。",legal EMP
-reasonable accommodation,"合理的配慮
-
-The employer provided a reasonable accommodation.
-使用者は合理的配慮を提供した。",legal EMP
-disability,"障害
-
-Discrimination based on disability is unlawful.
-障害を理由とする差別は違法である。",legal EMP
-workers' compensation,"労災補償
-
-Workers' compensation covered the injury.
-労災補償がその負傷を填補した。",legal EMP
-minimum wage,"最低賃金
-
-The state raised the minimum wage.
-州は最低賃金を引き上げた。",legal EMP
-working hours,"労働時間
-
-Working hours are capped at forty per week.
-労働時間は週40時間が上限である。",legal EMP
-paid leave,"有給休暇
-
-Employees earn paid leave each month.
-従業員は毎月有給休暇を取得する。",legal EMP
-sick leave,"病気休暇
-
-Sick leave requires a doctor's note.
-病気休暇には診断書が必要である。",legal EMP
-parental leave,"育児休暇
-
-Both parents may take parental leave.
-両親とも育児休暇を取得できる。",legal EMP
-maternity leave,"産前産後休暇
-
-Maternity leave begins six weeks before birth.
-産前休暇は出産の6週間前から始まる。",legal EMP
-collective bargaining,"団体交渉
-
-Collective bargaining produced a new agreement.
-団体交渉により新協約が成立した。",legal EMP
-labor union,"労働組合
-
-The labor union represents the factory workers.
-労働組合は工場労働者を代表する。",legal EMP
-strike,"ストライキ
-
-The strike lasted two weeks.
-ストライキは2週間続いた。",legal EMP
-lockout,"ロックアウト(作業所閉鎖)
-
-The employer responded with a lockout.
-使用者はロックアウトで対抗した。",legal EMP
-grievance procedure,"苦情処理手続
-
-The dispute went through the grievance procedure.
-その紛争は苦情処理手続にかけられた。",legal EMP
-restrictive covenant,"制限的約款(競業避止等)
-
-The restrictive covenant was held unenforceable.
-その制限的約款は強制不能と判断された。",legal EMP
-garden leave,"ガーデン・リーブ(自宅待機)
-
-The executive was placed on garden leave.
-その役員は自宅待機とされた。",legal EMP
-employee handbook,"就業規則(従業員ハンドブック)
-
-The employee handbook explains the policies.
-従業員ハンドブックは諸方針を説明する。",legal EMP
-code of conduct,"行動規範
-
-All staff must follow the code of conduct.
-全従業員は行動規範に従わなければならない。",legal EMP
-disciplinary action,"懲戒処分
-
-The violation resulted in disciplinary action.
-その違反により懲戒処分が行われた。",legal EMP
-performance review,"人事評価
-
-Performance reviews are held twice a year.
-人事評価は年2回実施される。",legal EMP
-promotion,"昇進
-
-The promotion included a salary increase.
-昇進には昇給が伴った。",legal EMP
-demotion,"降格
-
-The demotion followed the misconduct.
-その非違行為の後に降格が行われた。",legal EMP
-secondment,"出向
-
-The engineer accepted a secondment to the subsidiary.
-その技術者は子会社への出向を受け入れた。",legal EMP
-independent contractor,"独立請負人
-
-An independent contractor receives no benefits.
-独立請負人は福利厚生を受けない。",legal EMP
-misclassification,"(労働者の)誤分類
-
-Misclassification of workers led to penalties.
-労働者の誤分類により制裁金が科された。",legal EMP
-payroll,"給与計算(支払給与)
-
-Payroll is processed on the 25th.
-給与計算は25日に処理される。",legal EMP
-pension plan,"年金制度
-
-The pension plan vests after five years.
-年金制度の受給権は5年で確定する。",legal EMP
-retirement,"退職(定年)
-
-Retirement age is set at sixty-five.
-定年は65歳と定められている。",legal EMP
-whistleblower protection,"内部通報者保護
-
-Whistleblower protection prohibits retaliation.
-内部通報者保護は報復を禁止する。",legal EMP
-occupational safety,"労働安全
-
-Occupational safety rules require protective gear.
-労働安全規則は保護具の着用を義務づける。",legal EMP
-workplace injury,"労働災害
-
-The workplace injury was reported immediately.
-労働災害は直ちに報告された。",legal EMP
-background check,"経歴調査
-
-A background check preceded the offer.
-採用通知の前に経歴調査が行われた。",legal EMP
-offer letter,"採用通知(オファー・レター)
-
-The offer letter states the starting salary.
-採用通知には初任給が記載されている。",legal EMP
-job description,"職務記述書
-
-The job description lists the required skills.
-職務記述書は必要なスキルを列挙する。",legal EMP
-full-time employee,"正社員(フルタイム従業員)
-
-Full-time employees receive full benefits.
-フルタイム従業員は全ての福利厚生を受ける。",legal EMP
-part-time employee,"パートタイム従業員
-
-Part-time employees work twenty hours a week.
-パートタイム従業員は週20時間勤務する。",legal EMP
-temporary worker,"臨時労働者
-
-Temporary workers were hired for the season.
-繁忙期に臨時労働者が雇用された。",legal EMP
-fixed-term contract,"有期契約
-
-The fixed-term contract expires in December.
-有期契約は12月に満了する。",legal EMP
-indefinite-term contract,"無期契約
-
-The worker converted to an indefinite-term contract.
-その労働者は無期契約に転換した。",legal EMP
-constructive dismissal,"みなし解雇(実質的解雇)
-
-The demotion amounted to constructive dismissal.
-その降格は実質的解雇にあたった。",legal EMP
-retaliation,"報復(的取扱い)
-
-Retaliation against complainants is prohibited.
-申立人への報復は禁止されている。",legal EMP
-hostile work environment,"敵対的職場環境
-
-The conduct created a hostile work environment.
-その行為は敵対的職場環境を生み出した。",legal EMP
-exempt employee,"(残業代の)適用除外従業員
-
-Exempt employees receive no overtime pay.
-適用除外従業員には残業代が支払われない。",legal EMP
-non-exempt employee,"残業代支払対象の従業員
-
-Non-exempt employees track their hours.
-残業代支払対象の従業員は労働時間を記録する。",legal EMP
-work permit,"労働許可
-
-A work permit is required for foreign staff.
-外国人スタッフには労働許可が必要である。",legal EMP
-employment visa,"就労ビザ
-
-The company sponsored his employment visa.
-会社は彼の就労ビザを支援した。",legal EMP
-immigration law,"移民法
-
-Immigration law governs foreign workers.
-移民法は外国人労働者を規律する。",legal EMP
-confidentiality undertaking,"秘密保持誓約
-
-New hires sign a confidentiality undertaking.
-新入社員は秘密保持誓約に署名する。",legal EMP
-conflict of interest policy,"利益相反ポリシー
-
-The conflict of interest policy requires disclosure.
-利益相反ポリシーは開示を義務づける。",legal EMP
-exit interview,"退職面談
-
-An exit interview was conducted on the last day.
-最終日に退職面談が実施された。",legal EMP
-loan agreement,"金銭消費貸借契約(ローン契約)
-
-The loan agreement was signed with two banks.
-ローン契約は2つの銀行と締結された。",legal FIN
-lender,"貸主
-
-The lender required additional collateral.
-貸主は追加担保を要求した。",legal FIN
-borrower,"借主
-
-The borrower must maintain financial ratios.
-借主は財務比率を維持しなければならない。",legal FIN
-principal amount,"元本
-
-The principal amount is ten million dollars.
-元本は1000万ドルである。",legal FIN
-interest rate,"金利
-
-The interest rate is fixed for five years.
-金利は5年間固定される。",legal FIN
-fixed rate,"固定金利
-
-The borrower chose a fixed rate.
-借主は固定金利を選択した。",legal FIN
-floating rate,"変動金利
-
-The floating rate is reset quarterly.
-変動金利は四半期ごとに見直される。",legal FIN
-maturity,"満期
-
-The loan reaches maturity in 2030.
-そのローンは2030年に満期を迎える。",legal FIN
-repayment,"返済
-
-Repayment begins after a one-year grace period.
-返済は1年の据置期間後に始まる。",legal FIN
-prepayment,"期限前返済
-
-Prepayment is permitted without penalty.
-期限前返済は違約金なしで認められる。",legal FIN
-amortization schedule,"返済予定表
-
-The amortization schedule shows monthly installments.
-返済予定表は毎月の分割払額を示す。",legal FIN
-installment,"分割払い(の各回)
-
-Each installment includes principal and interest.
-各回の支払には元本と利息が含まれる。",legal FIN
-balloon payment,"バルーン返済(満期一括の大口返済)
-
-A balloon payment is due at maturity.
-満期にバルーン返済が必要となる。",legal FIN
-default interest,"遅延損害金
-
-Default interest accrues at 14 percent.
-遅延損害金は年14パーセントで発生する。",legal FIN
-event of default,"期限の利益喪失事由(デフォルト事由)
-
-Nonpayment is an event of default.
-支払の不履行はデフォルト事由である。",legal FIN
-acceleration,"期限の利益喪失(繰上げ)
-
-Acceleration makes the entire loan due immediately.
-期限の利益喪失により全額が直ちに支払期限を迎える。",legal FIN
-affirmative covenant,"作為誓約
-
-An affirmative covenant requires financial reporting.
-作為誓約は財務報告を義務づける。",legal FIN
-negative covenant,"不作為誓約
-
-A negative covenant restricts additional debt.
-不作為誓約は追加借入を制限する。",legal FIN
-financial covenant,"財務制限条項
-
-The financial covenant sets a leverage limit.
-財務制限条項はレバレッジの上限を定める。",legal FIN
-cross-default,"クロス・デフォルト
-
-Cross-default links all the group's loans.
-クロス・デフォルトはグループの全借入を連動させる。",legal FIN
-security agreement,"担保契約
-
-The security agreement covers the inventory.
-担保契約は棚卸資産を対象とする。",legal FIN
-secured party,"担保権者
-
-The secured party filed a financing statement.
-担保権者は担保権登録書類を提出した。",legal FIN
-pledge,"質(質権設定)
-
-The shares were given in pledge to the bank.
-株式は銀行に質入れされた。",legal FIN
-mortgage,"抵当権(モーゲージ)
-
-The mortgage secures the property loan.
-抵当権は不動産ローンを担保する。",legal FIN
-mortgagee,"抵当権者
-
-The mortgagee may foreclose upon default.
-抵当権者は債務不履行時に担保権を実行できる。",legal FIN
-mortgagor,"抵当権設定者
-
-The mortgagor retains possession of the property.
-抵当権設定者は物件の占有を継続する。",legal FIN
-charge,"担保権(チャージ)
-
-The lender took a charge over the assets.
-貸主は資産に担保権を設定した。",legal FIN
-floating charge,"浮動担保
-
-A floating charge covers changing assets.
-浮動担保は変動する資産を対象とする。",legal FIN
-fixed charge,"固定担保
-
-A fixed charge attaches to specific property.
-固定担保は特定の財産に付着する。",legal FIN
-guarantee agreement,"保証契約
-
-The guarantee agreement covers all obligations.
-保証契約はすべての債務を対象とする。",legal FIN
-letter of credit,"信用状
-
-The exporter was paid under the letter of credit.
-輸出者は信用状に基づき支払を受けた。",legal FIN
-standby letter of credit,"スタンドバイ信用状
-
-A standby letter of credit backs the performance.
-スタンドバイ信用状が履行を裏付ける。",legal FIN
-promissory note,"約束手形
-
-The borrower executed a promissory note.
-借主は約束手形を作成した。",legal FIN
-bill of exchange,"為替手形
-
-The bill of exchange was accepted by the bank.
-為替手形は銀行により引き受けられた。",legal FIN
-syndicated loan,"シンジケート・ローン(協調融資)
-
-Ten banks joined the syndicated loan.
-10行がシンジケート・ローンに参加した。",legal FIN
-facility agreement,"融資枠契約(ファシリティ契約)
-
-The facility agreement provides a revolving line.
-ファシリティ契約はリボルビング枠を提供する。",legal FIN
-revolving credit,"リボルビング・クレジット(回転信用枠)
-
-Revolving credit may be drawn and repaid repeatedly.
-回転信用枠は繰り返し借入と返済ができる。",legal FIN
-term loan,"タームローン(証書貸付)
-
-The term loan finances the acquisition.
-タームローンが買収資金を賄う。",legal FIN
-credit line,"与信枠
-
-The credit line was increased to five million.
-与信枠は500万ドルに増額された。",legal FIN
-drawdown,"(融資の)引出し(実行)
-
-The first drawdown occurred at closing.
-初回の引出しはクロージング時に行われた。",legal FIN
-disbursement,"(資金の)払出し
-
-Disbursement follows satisfaction of the conditions.
-払出しは条件の充足後に行われる。",legal FIN
-refinancing,"借換え(リファイナンス)
-
-Refinancing lowered the interest cost.
-借換えにより金利負担が軽減された。",legal FIN
-debt restructuring,"債務再編
-
-The debt restructuring extended the maturities.
-債務再編により満期が延長された。",legal FIN
-subordinated debt,"劣後債務
-
-Subordinated debt ranks below the bank loans.
-劣後債務は銀行借入より劣後する。",legal FIN
-senior debt,"優先債務
-
-Senior debt is repaid first in insolvency.
-優先債務は倒産時に最初に弁済される。",legal FIN
-mezzanine financing,"メザニン・ファイナンス
-
-Mezzanine financing filled the funding gap.
-メザニン・ファイナンスが資金不足を埋めた。",legal FIN
-bond,"債券
-
-The company issued a ten-year bond.
-当社は10年債を発行した。",legal FIN
-debenture,"無担保社債(ディベンチャー)
-
-The debenture is unsecured.
-そのディベンチャーは無担保である。",legal FIN
-coupon,"クーポン(利札)
-
-The bond pays a 4 percent coupon.
-その債券のクーポンは4パーセントである。",legal FIN
-yield,"利回り
-
-The yield rose as prices fell.
-価格の下落により利回りは上昇した。",legal FIN
-issuer,"発行体
-
-The issuer defaulted on the notes.
-発行体はその債券について債務不履行となった。",legal FIN
-underwriting,"引受け
-
-Underwriting was completed by a syndicate.
-引受けはシンジケート団により行われた。",legal FIN
-securitization,"証券化
-
-Securitization converted the receivables into notes.
-証券化により債権は証券に転換された。",legal FIN
-collateralization,"担保化
-
-Collateralization reduced the lender's risk.
-担保化により貸主のリスクは低減された。",legal FIN
-netting,"ネッティング(差引決済)
-
-Netting reduced the settlement amounts.
-ネッティングにより決済金額は減少した。",legal FIN
-derivative,"デリバティブ(金融派生商品)
-
-The derivative hedges currency exposure.
-そのデリバティブは為替エクスポージャーをヘッジする。",legal FIN
-hedge,"ヘッジ
-
-The hedge offset the interest rate risk.
-ヘッジにより金利リスクは相殺された。",legal FIN
-swap agreement,"スワップ契約
-
-The swap agreement follows the ISDA form.
-スワップ契約はISDAの書式に従う。",legal FIN
-foreclosure,"担保権実行(フォークロージャー)
-
-Foreclosure proceedings began after default.
-債務不履行後に担保権実行手続が開始された。",legal FIN
-repossession,"(担保物の)取戻し
-
-Repossession of the vehicle followed nonpayment.
-支払遅滞により車両の取戻しが行われた。",legal FIN
-deficiency,"不足額(残債)
-
-The debtor remains liable for the deficiency.
-債務者は不足額について責任を負い続ける。",legal FIN
-usury,"高利(利息制限違反)
-
-The rate violated the usury laws.
-その金利は利息制限法に違反した。",legal FIN
-anti-money laundering,"マネー・ロンダリング防止(AML)
-
-Anti-money laundering checks are mandatory.
-AMLチェックは必須である。",legal FIN
-know your customer,"顧客確認(KYC)
-
-Know your customer procedures verify identity.
-KYC手続は本人確認を行う。",legal FIN
-economic sanctions,"経済制裁
-
-The payment was blocked by economic sanctions.
-その支払は経済制裁により停止された。",legal FIN
-escrow account,"エスクロー口座
-
-The purchase price was deposited into an escrow account.
-購入代金はエスクロー口座に預託された。",legal FIN
-trust account,"信託口座
-
-Client funds are held in a trust account.
-顧客資金は信託口座で保管される。",legal FIN
-custodian,"保管機関(カストディアン)
-
-The custodian safeguards the securities.
-カストディアンは有価証券を保管する。",legal FIN
-fiduciary,"受託者(信認義務を負う者)
-
-A fiduciary must avoid conflicts of interest.
-受託者は利益相反を回避しなければならない。",legal FIN
-solvency,"支払能力
-
-The certificate confirms the company's solvency.
-その証明書は会社の支払能力を確認する。",legal FIN
-creditworthiness,"信用力
-
-The bank assessed the borrower's creditworthiness.
-銀行は借主の信用力を審査した。",legal FIN
-credit rating,"信用格付
-
-The credit rating was downgraded.
-信用格付は引き下げられた。",legal FIN
-due date,"支払期日
-
-Payment is required on the due date.
-支払期日に支払が必要である。",legal FIN
-grace period for payment,"支払猶予期間
-
-A five-day grace period for payment applies.
-5日間の支払猶予期間が適用される。",legal FIN
-rollover,"(債務の)借換え(ロールオーバー)
-
-The loan was extended by rollover.
-そのローンはロールオーバーにより延長された。",legal FIN
-novation of debt,"債務の更改
-
-The novation of debt substituted a new borrower.
-債務の更改により新しい借主に交替した。",legal FIN
-debt assumption,"債務引受
-
-The buyer agreed to a debt assumption.
-買主は債務引受に同意した。",legal FIN
-assignment of receivables,"債権譲渡
-
-The assignment of receivables was notified to obligors.
-債権譲渡は債務者らに通知された。",legal FIN
-factoring,"ファクタリング
-
-Factoring converted receivables into cash.
-ファクタリングにより債権は現金化された。",legal FIN
-letter of comfort,"経営指導念書
-
-The parent issued a letter of comfort to the bank.
-親会社は銀行に経営指導念書を差し入れた。",legal FIN
-payment guarantee,"支払保証
-
-The payment guarantee covers the full price.
-支払保証は代金全額を対象とする。",legal FIN
-performance bond,"履行保証(ボンド)
-
-A performance bond secures the construction contract.
-履行保証が建設契約を担保する。",legal FIN
-bid bond,"入札保証
-
-A bid bond accompanies each tender.
-各入札には入札保証が添付される。",legal FIN
-surety bond,"保証証書(サーティ・ボンド)
-
-The surety bond protects the project owner.
-保証証書は発注者を保護する。",legal FIN
-bank guarantee,"銀行保証
-
-A bank guarantee replaced the cash deposit.
-銀行保証が現金預託に代わった。",legal FIN
-documentary collection,"荷為替取立
-
-Documentary collection was used for the export.
-その輸出には荷為替取立が用いられた。",legal FIN
-open account,"掛売り(オープン・アカウント)
-
-Open account terms require mutual trust.
-掛売り条件には相互の信頼が必要である。",legal FIN
-payment in advance,"前払い
-
-The seller demanded payment in advance.
-売主は前払いを要求した。",legal FIN
-cash on delivery,"代金引換
-
-The goods were shipped cash on delivery.
-商品は代金引換で発送された。",legal FIN
-wire transfer,"電信送金
-
-Payment shall be made by wire transfer.
-支払は電信送金により行われる。",legal FIN
-real property,"不動産
-
-Real property includes land and buildings.
-不動産には土地と建物が含まれる。",legal PROP
-personal property,"動産
-
-Personal property passes by delivery.
-動産は引渡しにより移転する。",legal PROP
-real estate,"不動産(物件)
-
-The fund invests in commercial real estate.
-そのファンドは商業用不動産に投資する。",legal PROP
-land,"土地
-
-The land was surveyed before the sale.
-その土地は売却前に測量された。",legal PROP
-premises,"(契約対象の)物件(建物・敷地)
-
-The tenant shall keep the premises clean.
-賃借人は物件を清潔に保つものとする。",legal PROP
-leasehold,"賃借権(リースホールド)
-
-The leasehold runs for ninety-nine years.
-その賃借権の期間は99年である。",legal PROP
-freehold,"自由保有権(フリーホールド)
-
-The buyer acquired the freehold of the site.
-買主はその敷地の自由保有権を取得した。",legal PROP
-easement,"地役権
-
-An easement allows access across the neighbor's land.
-地役権により隣地の通行が認められる。",legal PROP
-encumbrance,"負担(担保・制限)
-
-The title is free from encumbrances.
-その権原には負担が付着していない。",legal PROP
-zoning,"用途地域規制(ゾーニング)
-
-Zoning prohibits commercial use of the lot.
-ゾーニングによりその区画の商業利用は禁止される。",legal PROP
-deed,"譲渡証書(ディード)
-
-The deed was recorded at the county office.
-譲渡証書は郡の登記所に登録された。",legal PROP
-warranty deed,"保証付譲渡証書
-
-A warranty deed guarantees good title.
-保証付譲渡証書は完全な権原を保証する。",legal PROP
-quitclaim deed,"権利放棄型譲渡証書
-
-A quitclaim deed conveys only the grantor's interest.
-権利放棄型譲渡証書は譲渡人の持つ権利のみを移転する。",legal PROP
-title,"権原(所有権)
-
-Title passed to the buyer at closing.
-権原はクロージング時に買主へ移転した。",legal PROP
-marketable title,"市場性のある権原
-
-The seller must deliver marketable title.
-売主は市場性のある権原を移転しなければならない。",legal PROP
-title search,"権原調査
-
-The title search revealed an old lien.
-権原調査で古い担保権が判明した。",legal PROP
-title insurance,"権原保険
-
-Title insurance protects against hidden defects.
-権原保険は隠れた瑕疵から保護する。",legal PROP
-conveyance,"(不動産の)譲渡
-
-The conveyance was completed by deed.
-譲渡は譲渡証書により完了した。",legal PROP
-grantor,"譲渡人
-
-The grantor signed the deed before a notary.
-譲渡人は公証人の面前で譲渡証書に署名した。",legal PROP
-grantee,"譲受人
-
-The grantee recorded the deed promptly.
-譲受人は速やかに譲渡証書を登録した。",legal PROP
-landlord,"賃貸人(家主)
-
-The landlord is responsible for structural repairs.
-賃貸人は構造部分の修繕に責任を負う。",legal PROP
-tenant,"賃借人(テナント)
-
-The tenant pays rent monthly in advance.
-賃借人は賃料を毎月前払いする。",legal PROP
-lease agreement,"賃貸借契約
-
-The lease agreement runs for five years.
-賃貸借契約の期間は5年である。",legal PROP
-rent,"賃料
-
-Rent increases 3 percent each year.
-賃料は毎年3パーセント増額される。",legal PROP
-security deposit,"敷金(保証金)
-
-The security deposit equals two months' rent.
-敷金は賃料2か月分である。",legal PROP
-eviction,"立退き(明渡し)
-
-Eviction requires a court order.
-立退きには裁判所の命令が必要である。",legal PROP
-sublease,"転貸借(サブリース)
-
-The sublease requires the landlord's consent.
-転貸借には賃貸人の同意が必要である。",legal PROP
-tenancy,"賃借権(保有形態)
-
-The tenancy continues month to month.
-その賃借権は月極めで継続する。",legal PROP
-joint tenancy,"合有(ジョイント・テナンシー)
-
-Joint tenancy includes the right of survivorship.
-合有には生存者権が伴う。",legal PROP
-tenancy in common,"共有(テナンシー・イン・コモン)
-
-Tenancy in common allows unequal shares.
-共有では持分が不均等でもよい。",legal PROP
-right of survivorship,"生存者権
-
-The right of survivorship passes title automatically.
-生存者権により権原は自動的に移転する。",legal PROP
-adverse possession,"取得時効(不法占有による取得)
-
-Adverse possession requires open and continuous use.
-取得時効には公然かつ継続的な使用が必要である。",legal PROP
-eminent domain,"土地収用権
-
-The state exercised eminent domain for the highway.
-州は高速道路のため土地収用権を行使した。",legal PROP
-condemnation,"収用
-
-Condemnation requires just compensation.
-収用には正当な補償が必要である。",legal PROP
-appraisal,"鑑定評価
-
-The appraisal valued the property at one million.
-鑑定評価はその物件を100万ドルと評価した。",legal PROP
-survey,"測量
-
-The survey confirmed the boundary lines.
-測量により境界線が確認された。",legal PROP
-fixture,"定着物
-
-The built-in shelves are fixtures.
-造り付けの棚は定着物である。",legal PROP
-chattel,"動産(チャテル)
-
-Chattels are excluded from the sale of the land.
-動産は土地の売買から除外される。",legal PROP
-bailment,"寄託
-
-Leaving a car with a valet creates a bailment.
-車を係員に預けることで寄託が成立する。",legal PROP
-covenant running with the land,"土地に随伴する約款
-
-The covenant running with the land binds later owners.
-土地に随伴する約款は後の所有者を拘束する。",legal PROP
-closing costs,"決済費用
-
-Closing costs include taxes and fees.
-決済費用には税金と手数料が含まれる。",legal PROP
-escrow closing,"エスクロー決済
-
-The sale completed through an escrow closing.
-売買はエスクロー決済により完了した。",legal PROP
-property management,"物件管理
-
-Property management was outsourced to an agency.
-物件管理は業者に委託された。",legal PROP
-common areas,"共用部分
-
-The landlord maintains the common areas.
-賃貸人は共用部分を維持管理する。",legal PROP
-homeowners association,"住宅所有者組合(HOA)
-
-The homeowners association collects monthly dues.
-住宅所有者組合は毎月組合費を徴収する。",legal PROP
-property tax,"固定資産税
-
-Property tax is assessed annually.
-固定資産税は毎年賦課される。",legal PROP
-mortgage loan,"住宅ローン(抵当貸付)
-
-The mortgage loan has a thirty-year term.
-その住宅ローンの期間は30年である。",legal PROP
-down payment,"頭金
-
-The buyer made a 20 percent down payment.
-買主は20パーセントの頭金を支払った。",legal PROP
-refinance,"(住宅ローンの)借換え
-
-The owner refinanced at a lower rate.
-所有者はより低い金利で借り換えた。",legal PROP
-vacant possession,"空け渡し(占有のない引渡し)
-
-The property was sold with vacant possession.
-その物件は空け渡しの条件で売却された。",legal PROP
+agreement,契約(合意),legal CONTRACT
+contract,契約,legal CONTRACT
+party,当事者,legal CONTRACT
+counterparty,相手方当事者,legal CONTRACT
+execution,(契約の)締結・調印,legal CONTRACT
+effective date,発効日,legal CONTRACT
+term,(契約)期間,legal CONTRACT
+termination,解除(終了),legal CONTRACT
+expiration,(期間)満了,legal CONTRACT
+renewal,更新,legal CONTRACT
+breach,違反,legal CONTRACT
+default,債務不履行,legal CONTRACT
+remedy,救済(手段),legal CONTRACT
+damages,損害賠償,legal CONTRACT
+indemnification,補償,legal CONTRACT
+indemnify,補償する,legal CONTRACT
+liability,責任,legal CONTRACT
+obligation,義務,legal CONTRACT
+covenant,誓約(コベナンツ),legal CONTRACT
+representation,表明,legal CONTRACT
+warranty,保証,legal CONTRACT
+condition,条件,legal CONTRACT
+consideration,約因,legal CONTRACT
+offer,申込み,legal CONTRACT
+acceptance,承諾,legal CONTRACT
+assignment,譲渡,legal CONTRACT
+novation,更改,legal CONTRACT
+amendment,変更(修正),legal CONTRACT
+waiver,権利放棄,legal CONTRACT
+severability,分離可能性(可分性),legal CONTRACT
+entire agreement,完全合意,legal CONTRACT
+governing law,準拠法,legal CONTRACT
+jurisdiction,裁判管轄,legal CONTRACT
+venue,裁判地,legal CONTRACT
+arbitration,仲裁,legal CONTRACT
+mediation,調停,legal CONTRACT
+notice,通知,legal CONTRACT
+force majeure,不可抗力,legal CONTRACT
+confidentiality,秘密保持,legal CONTRACT
+non-disclosure agreement,秘密保持契約(NDA),legal CONTRACT
+non-compete,競業避止,legal CONTRACT
+non-solicitation,勧誘禁止,legal CONTRACT
+good faith,誠実(善意),legal CONTRACT
+best efforts,最大限の努力,legal CONTRACT
+reasonable efforts,合理的な努力,legal CONTRACT
+material breach,重大な違反,legal CONTRACT
+cure period,是正期間,legal CONTRACT
+termination for cause,事由に基づく解除,legal CONTRACT
+termination for convenience,任意解除(便宜解除),legal CONTRACT
+survival,(条項の)存続,legal CONTRACT
+counterparts,(契約書の)副本,legal CONTRACT
+binding,拘束力のある,legal CONTRACT
+enforceable,強制可能な(執行可能な),legal CONTRACT
+void,無効な,legal CONTRACT
+voidable,取消可能な,legal CONTRACT
+unenforceable,強制不能な,legal CONTRACT
+rescission,契約の取消し(解除),legal CONTRACT
+restitution,原状回復,legal CONTRACT
+specific performance,特定履行,legal CONTRACT
+injunction,差止命令,legal CONTRACT
+liquidated damages,損害賠償額の予定,legal CONTRACT
+consequential damages,結果損害,legal CONTRACT
+incidental damages,付随的損害,legal CONTRACT
+punitive damages,懲罰的損害賠償,legal CONTRACT
+mitigation,損害軽減,legal CONTRACT
+disclaimer,免責(否認),legal CONTRACT
+limitation of liability,責任制限,legal CONTRACT
+liability cap,責任上限,legal CONTRACT
+exclusivity,独占性(排他性),legal CONTRACT
+license,ライセンス(使用許諾),legal CONTRACT
+sublicense,サブライセンス(再許諾),legal CONTRACT
+royalty,ロイヤルティ(実施料),legal CONTRACT
+deliverables,成果物,legal CONTRACT
+milestone,マイルストーン(中間目標),legal CONTRACT
+acceptance criteria,検収基準,legal CONTRACT
+statement of work,作業範囲記述書(SOW),legal CONTRACT
+change order,変更指図書,legal CONTRACT
+purchase order,注文書,legal CONTRACT
+invoice,請求書,legal CONTRACT
+payment terms,支払条件,legal CONTRACT
+late payment interest,遅延利息,legal CONTRACT
+set-off,相殺,legal CONTRACT
+escrow,エスクロー(第三者預託),legal CONTRACT
+deposit,手付金(預託金),legal CONTRACT
+guarantee,保証,legal CONTRACT
+guarantor,保証人,legal CONTRACT
+performance,履行,legal CONTRACT
+non-performance,不履行,legal CONTRACT
+delay,履行遅滞,legal CONTRACT
+time is of the essence,期限厳守(時間の本質性),legal CONTRACT
+substantial performance,実質的履行,legal CONTRACT
+anticipatory breach,履行期前の違反,legal CONTRACT
+repudiation,履行拒絶,legal CONTRACT
+frustration,契約目的の達成不能(フラストレーション),legal CONTRACT
+impossibility,履行不能,legal CONTRACT
+impracticability,実行困難性,legal CONTRACT
+unconscionability,非良心性,legal CONTRACT
+duress,強迫,legal CONTRACT
+undue influence,不当威圧,legal CONTRACT
+misrepresentation,不実表示,legal CONTRACT
+fraud,詐欺,legal CONTRACT
+mistake,錯誤,legal CONTRACT
+capacity,行為能力,legal CONTRACT
+legality,適法性,legal CONTRACT
+public policy,公序良俗(公共政策),legal CONTRACT
+privity of contract,契約当事者関係,legal CONTRACT
+third-party beneficiary,第三者受益者,legal CONTRACT
+agent,代理人,legal CONTRACT
+principal,本人,legal CONTRACT
+authority,権限,legal CONTRACT
+power of attorney,委任状,legal CONTRACT
+delegation,(義務の)委譲,legal CONTRACT
+subcontract,下請契約,legal CONTRACT
+subcontractor,下請業者,legal CONTRACT
+vendor,売主(ベンダー),legal CONTRACT
+supplier,供給者,legal CONTRACT
+licensee,ライセンシー(実施権者),legal CONTRACT
+licensor,ライセンサー(許諾者),legal CONTRACT
+assignee,譲受人,legal CONTRACT
+assignor,譲渡人,legal CONTRACT
+successor,承継人,legal CONTRACT
+affiliate,関連会社,legal CONTRACT
+joint venture,合弁事業,legal CONTRACT
+memorandum of understanding,覚書(MOU),legal CONTRACT
+letter of intent,基本合意書(LOI),legal CONTRACT
+term sheet,タームシート(条件概要書),legal CONTRACT
+due diligence,デュー・ディリジェンス,legal CONTRACT
+closing,クロージング(取引実行),legal CONTRACT
+conditions precedent,前提条件(停止条件),legal CONTRACT
+conditions subsequent,解除条件,legal CONTRACT
+escrow agent,エスクロー・エージェント,legal CONTRACT
+earnest money,手付金,legal CONTRACT
+ownership,所有権,legal CONTRACT
+possession,占有,legal CONTRACT
+transfer,移転,legal CONTRACT
+delivery,引渡し,legal CONTRACT
+risk of loss,危険負担,legal CONTRACT
+insurance,保険,legal CONTRACT
+insured,被保険者,legal CONTRACT
+insurer,保険者,legal CONTRACT
+premium,保険料,legal CONTRACT
+claim,請求(クレーム),legal CONTRACT
+coverage,補償範囲,legal CONTRACT
+deductible,免責金額,legal CONTRACT
+defect,瑕疵(欠陥),legal CONTRACT
+warranty period,保証期間,legal CONTRACT
+negligence,過失,legal CONTRACT
+gross negligence,重過失,legal CONTRACT
+willful misconduct,故意の違反行為,legal CONTRACT
+strict liability,厳格責任,legal CONTRACT
+tort,不法行為,legal CONTRACT
+joint and several liability,連帯責任,legal CONTRACT
+contribution,求償,legal CONTRACT
+subrogation,代位,legal CONTRACT
+hold harmless,免責する,legal CONTRACT
+settlement,和解,legal CONTRACT
+dispute,紛争,legal CONTRACT
+dispute resolution,紛争解決,legal CONTRACT
+negotiation,交渉,legal CONTRACT
+renegotiation,再交渉,legal CONTRACT
+termination notice,解除通知,legal CONTRACT
+notice period,通知期間,legal CONTRACT
+automatic renewal,自動更新,legal CONTRACT
+evergreen clause,自動更新条項,legal CONTRACT
+grace period,猶予期間,legal CONTRACT
+business day,営業日,legal CONTRACT
+calendar day,暦日,legal CONTRACT
+prior written consent,事前の書面による同意,legal CONTRACT
+written notice,書面による通知,legal CONTRACT
+electronic signature,電子署名,legal CONTRACT
+execution date,締結日,legal CONTRACT
+commencement date,開始日,legal CONTRACT
+completion date,完了日,legal CONTRACT
+extension,延長,legal CONTRACT
+suspension,停止(中断),legal CONTRACT
+resumption,再開,legal CONTRACT
+assignment of rights,権利の譲渡,legal CONTRACT
+change of control,支配権の変更(チェンジ・オブ・コントロール),legal CONTRACT
+audit rights,監査権,legal CONTRACT
+records retention,記録保持,legal CONTRACT
+compliance with laws,法令遵守,legal CONTRACT
+anti-bribery,贈賄禁止,legal CONTRACT
+export control,輸出管理,legal CONTRACT
+data protection,データ保護,legal CONTRACT
+personal data,個人データ,legal CONTRACT
+intellectual property rights,知的財産権,legal CONTRACT
+ownership of work product,成果物の帰属,legal CONTRACT
+background IP,既存知的財産(バックグラウンドIP),legal CONTRACT
+foreground IP,新規知的財産(フォアグラウンドIP),legal CONTRACT
+infringement,権利侵害,legal CONTRACT
+warranty disclaimer,保証の否認,legal CONTRACT
+as is,現状有姿,legal CONTRACT
+fitness for purpose,目的適合性,legal CONTRACT
+merchantability,商品性,legal CONTRACT
+remedies cumulative,救済手段の累積,legal CONTRACT
+sole remedy,唯一の救済手段,legal CONTRACT
+equitable relief,衡平法上の救済,legal CONTRACT
+irreparable harm,回復不能な損害,legal CONTRACT
+injunctive relief,差止めによる救済,legal CONTRACT
+declaratory judgment,確認判決,legal CONTRACT
+whereas,~であるので(前文の導入),legal CLAUSE
+hereinafter,以下(~という),legal CLAUSE
+herein,本契約書中に,legal CLAUSE
+hereof,本契約書の,legal CLAUSE
+hereto,本契約書に,legal CLAUSE
+hereby,本契約書により,legal CLAUSE
+hereunder,本契約書に基づき,legal CLAUSE
+thereof,それの,legal CLAUSE
+thereto,それに,legal CLAUSE
+thereunder,それに基づき,legal CLAUSE
+aforementioned,前述の,legal CLAUSE
+foregoing,上記の,legal CLAUSE
+notwithstanding,~にかかわらず,legal CLAUSE
+provided that,ただし~を条件として,legal CLAUSE
+subject to,~を条件として(~に従うことを前提に),legal CLAUSE
+pursuant to,~に従って,legal CLAUSE
+in accordance with,~に従い,legal CLAUSE
+in witness whereof,以上の証として,legal CLAUSE
+now therefore,よって(本文の導入),legal CLAUSE
+shall,~しなければならない(義務),legal CLAUSE
+may,~することができる(権利・裁量),legal CLAUSE
+deem,みなす,legal CLAUSE
+deemed,みなされた,legal CLAUSE
+without limitation,制限なく,legal CLAUSE
+including but not limited to,~を含むがこれに限られない,legal CLAUSE
+null and void,無効な,legal CLAUSE
+terms and conditions,諸条件,legal CLAUSE
+from time to time,随時,legal CLAUSE
+at its sole discretion,その単独の裁量で,legal CLAUSE
+to the extent permitted by law,法令の許す範囲で,legal CLAUSE
+applicable law,適用法,legal CLAUSE
+in full force and effect,完全に有効で,legal CLAUSE
+execute and deliver,締結し交付する,legal CLAUSE
+duly authorized,正当に授権された,legal CLAUSE
+duly executed,正当に締結された,legal CLAUSE
+binding obligation,拘束力ある義務,legal CLAUSE
+arm's length,独立当事者間(の),legal CLAUSE
+commercially reasonable,商業的に合理的な,legal CLAUSE
+material adverse effect,重大な悪影響,legal CLAUSE
+material adverse change,重大な悪化,legal CLAUSE
+to the best of its knowledge,その知る限りにおいて,legal CLAUSE
+represent and warrant,表明し保証する,legal CLAUSE
+covenant and agree,誓約し合意する,legal CLAUSE
+indemnify and hold harmless,補償し免責する,legal CLAUSE
+successors and assigns,承継人及び譲受人,legal CLAUSE
+free and clear,(負担のない)完全な,legal CLAUSE
+right title and interest,権利・権原及び利益,legal CLAUSE
+sole and exclusive,唯一かつ排他的な,legal CLAUSE
+final and binding,最終的かつ拘束力のある,legal CLAUSE
+due and payable,支払期限が到来した,legal CLAUSE
+defined terms,定義語,legal CLAUSE
+definitions,定義,legal CLAUSE
+recitals,前文(経緯),legal CLAUSE
+preamble,頭書,legal CLAUSE
+schedule,別紙(スケジュール),legal CLAUSE
+exhibit,別添(エキシビット),legal CLAUSE
+appendix,付属書,legal CLAUSE
+annex,附属書,legal CLAUSE
+addendum,追補,legal CLAUSE
+boilerplate,定型条項(ボイラープレート),legal CLAUSE
+signature block,署名欄,legal CLAUSE
+attestation,立会認証,legal CLAUSE
+notary public,公証人,legal CLAUSE
+notarization,公証,legal CLAUSE
+corporate seal,社印(法人印),legal CLAUSE
+irrevocable,撤回不能な,legal CLAUSE
+revocable,撤回可能な,legal CLAUSE
+perpetual,永続的な,legal CLAUSE
+non-exclusive,非独占的な,legal CLAUSE
+exclusive,独占的な,legal CLAUSE
+worldwide,全世界的な,legal CLAUSE
+royalty-free,使用料無償の,legal CLAUSE
+non-transferable,譲渡不能な,legal CLAUSE
+without prejudice,権利を害することなく,legal CLAUSE
+with prejudice,再訴を禁じて,legal CLAUSE
+reservation of rights,権利の留保,legal CLAUSE
+no waiver,権利不放棄,legal CLAUSE
+cumulative remedies,累積的救済,legal CLAUSE
+merger clause,完全合意条項,legal CLAUSE
+integration clause,統合条項,legal CLAUSE
+savings clause,存続(留保)条項,legal CLAUSE
+escalation clause,エスカレーション条項(段階的協議条項),legal CLAUSE
+sunset clause,サンセット条項(失効条項),legal CLAUSE
+headings,見出し,legal CLAUSE
+construction,(契約の)解釈,legal CLAUSE
+interpretation,解釈,legal CLAUSE
+ambiguity,曖昧さ(多義性),legal CLAUSE
+contra proferentem,作成者不利の原則,legal CLAUSE
+governing language,正文(準拠言語),legal CLAUSE
+prevailing party,勝訴当事者,legal CLAUSE
+attorneys' fees,弁護士費用,legal CLAUSE
+court costs,訴訟費用,legal CLAUSE
+remedies at law,コモン・ロー上の救済,legal CLAUSE
+adequate remedy,十分な救済,legal CLAUSE
+anniversary date,応当日(起算応当日),legal CLAUSE
+wind-down,段階的終了(ワインドダウン),legal CLAUSE
+transition services,移行支援サービス,legal CLAUSE
+further assurances,追加保証(必要書類の追完),legal CLAUSE
+mutual agreement,相互の合意,legal CLAUSE
+unilateral,一方的な,legal CLAUSE
+bilateral,双方的な,legal CLAUSE
+severally,個別に(分別して),legal CLAUSE
+jointly,共同して,legal CLAUSE
+in lieu of,~の代わりに,legal CLAUSE
+on behalf of,~を代理して,legal CLAUSE
+with respect to,~に関して,legal CLAUSE
+in connection with,~に関連して,legal CLAUSE
+arising out of,~から生じる,legal CLAUSE
+in the event of,~の場合には,legal CLAUSE
+upon the occurrence of,~の発生時に,legal CLAUSE
+for the avoidance of doubt,疑義を避けるために付言すると,legal CLAUSE
+as the case may be,場合に応じて,legal CLAUSE
+as applicable,該当する場合,legal CLAUSE
+if any,もしあれば,legal CLAUSE
+as of,~現在で(~の時点で),legal CLAUSE
+effective as of,~付で発効する,legal CLAUSE
+retroactive effect,遡及効,legal CLAUSE
+prospective effect,将来効,legal CLAUSE
+without cause,事由なく,legal CLAUSE
+with cause,正当事由により,legal CLAUSE
+at law or in equity,コモン・ロー上又は衡平法上,legal CLAUSE
+express,明示の,legal CLAUSE
+implied,黙示の,legal CLAUSE
+tacit,暗黙の,legal CLAUSE
+verbal agreement,口頭の合意,legal CLAUSE
+written agreement,書面による合意,legal CLAUSE
+partial invalidity,一部無効,legal CLAUSE
+remainder of the agreement,契約のその余の部分,legal CLAUSE
+counterpart execution,副本による締結,legal CLAUSE
+facsimile signature,ファクシミリ署名,legal CLAUSE
+original copy,原本,legal CLAUSE
+certified copy,認証謄本,legal CLAUSE
+true and correct,真実かつ正確な,legal CLAUSE
+to the satisfaction of,~の満足する形で,legal CLAUSE
+in a timely manner,適時に,legal CLAUSE
+without undue delay,不当な遅滞なく,legal CLAUSE
+promptly,速やかに,legal CLAUSE
+forthwith,直ちに,legal CLAUSE
+mutually acceptable,相互に受け入れ可能な,legal CLAUSE
+good standing,(法人の)適法な存続,legal CLAUSE
+organized and existing,適法に設立され存続する,legal CLAUSE
+laws of the state of,~州法,legal CLAUSE
+exclusive jurisdiction,専属的裁判管轄,legal CLAUSE
+non-exclusive jurisdiction,非専属的裁判管轄,legal CLAUSE
+submit to jurisdiction,裁判管轄に服する,legal CLAUSE
+waive a jury trial,陪審裁判を放棄する,legal CLAUSE
+service of notice,通知の送達,legal CLAUSE
+registered mail,書留郵便,legal CLAUSE
+return receipt requested,配達証明付きで,legal CLAUSE
+overnight courier,翌日配達便,legal CLAUSE
+deemed received,受領されたものとみなす,legal CLAUSE
+change of address,住所変更,legal CLAUSE
+assignment prohibited,譲渡禁止,legal CLAUSE
+consent not to be unreasonably withheld,同意は不合理に留保されない,legal CLAUSE
+material term,重要条項,legal CLAUSE
+essential term,本質的条項,legal CLAUSE
+severable,分離可能な,legal CLAUSE
+enforceability,執行可能性,legal CLAUSE
+validity,有効性,legal CLAUSE
+legally binding,法的拘束力のある,legal CLAUSE
+non-binding,法的拘束力のない,legal CLAUSE
+moral obligation,道義的義務,legal CLAUSE
+condition of closing,クロージングの条件,legal CLAUSE
+closing certificate,クロージング証明書,legal CLAUSE
+long-stop date,最終期限日(ロングストップ・デート),legal CLAUSE
+outside date,取引最終期限日,legal CLAUSE
+standstill,現状維持(スタンドスティル),legal CLAUSE
+lock-up,ロックアップ(売却制限),legal CLAUSE
+exclusivity period,独占交渉期間,legal CLAUSE
+no-shop clause,他者交渉禁止条項,legal CLAUSE
+break-up fee,違約金(ブレークアップ・フィー),legal CLAUSE
+reverse break-up fee,逆違約金,legal CLAUSE
+earn-out,アーンアウト(業績連動対価),legal CLAUSE
+holdback,支払留保,legal CLAUSE
+true-up,精算調整,legal CLAUSE
+clawback,クローバック(返還請求),legal CLAUSE
+gross-up,グロスアップ(税負担調整),legal CLAUSE
+pass-through,転嫁(パススルー),legal CLAUSE
+most favored nation clause,最恵待遇条項,legal CLAUSE
+non-circumvention,迂回禁止,legal CLAUSE
+corporation,株式会社(法人),legal CORP
+incorporation,法人設立,legal CORP
+articles of incorporation,基本定款,legal CORP
+bylaws,付属定款,legal CORP
+board of directors,取締役会,legal CORP
+director,取締役,legal CORP
+officer,執行役員(役員),legal CORP
+chief executive officer,最高経営責任者(CEO),legal CORP
+shareholder,株主,legal CORP
+share,株式,legal CORP
+common stock,普通株式,legal CORP
+preferred stock,優先株式,legal CORP
+dividend,配当,legal CORP
+annual meeting,年次株主総会,legal CORP
+special meeting,臨時株主総会,legal CORP
+quorum,定足数,legal CORP
+resolution,決議,legal CORP
+minutes,議事録,legal CORP
+proxy,委任状(議決権代理行使),legal CORP
+voting rights,議決権,legal CORP
+cumulative voting,累積投票,legal CORP
+fiduciary duty,信認義務,legal CORP
+duty of care,注意義務,legal CORP
+duty of loyalty,忠実義務,legal CORP
+business judgment rule,経営判断の原則,legal CORP
+derivative suit,株主代表訴訟,legal CORP
+piercing the corporate veil,法人格否認,legal CORP
+limited liability,有限責任,legal CORP
+legal entity,法人(法的主体),legal CORP
+registered agent,登録代理人,legal CORP
+registered office,登録事務所,legal CORP
+certificate of incorporation,設立証明書,legal CORP
+good standing certificate,適法存続証明書,legal CORP
+merger,合併,legal CORP
+acquisition,買収,legal CORP
+consolidation,新設合併(統合),legal CORP
+takeover,企業買収,legal CORP
+hostile takeover,敵対的買収,legal CORP
+tender offer,公開買付け(TOB),legal CORP
+poison pill,ポイズン・ピル(買収防衛策),legal CORP
+share purchase agreement,株式譲渡契約,legal CORP
+asset purchase agreement,資産譲渡契約,legal CORP
+stock split,株式分割,legal CORP
+share buyback,自社株買い,legal CORP
+treasury shares,自己株式,legal CORP
+authorized shares,授権株式数,legal CORP
+issued shares,発行済株式,legal CORP
+outstanding shares,社外流通株式,legal CORP
+par value,額面価額,legal CORP
+capital increase,増資,legal CORP
+capital reduction,減資,legal CORP
+dissolution,解散,legal CORP
+liquidation,清算,legal CORP
+winding up,清算手続,legal CORP
+insolvency,支払不能(倒産),legal CORP
+bankruptcy,破産,legal CORP
+receivership,財産管理(レシーバーシップ),legal CORP
+trustee,管財人(受託者),legal CORP
+creditor,債権者,legal CORP
+debtor,債務者,legal CORP
+reorganization,再建(更生),legal CORP
+restructuring,事業再編(リストラクチャリング),legal CORP
+going concern,継続企業,legal CORP
+corporate governance,コーポレート・ガバナンス,legal CORP
+compliance,コンプライアンス(法令遵守),legal CORP
+internal control,内部統制,legal CORP
+audit committee,監査委員会,legal CORP
+whistleblower,内部通報者,legal CORP
+insider trading,インサイダー取引,legal CORP
+disclosure,開示,legal CORP
+prospectus,目論見書,legal CORP
+securities,有価証券,legal CORP
+initial public offering,新規株式公開(IPO),legal CORP
+listing,上場,legal CORP
+delisting,上場廃止,legal CORP
+underwriter,引受人,legal CORP
+subsidiary,子会社,legal CORP
+parent company,親会社,legal CORP
+holding company,持株会社,legal CORP
+general partnership,ゼネラル・パートナーシップ(合名組合),legal CORP
+limited partnership,リミテッド・パートナーシップ,legal CORP
+limited liability company,有限責任会社(LLC),legal CORP
+sole proprietorship,個人事業,legal CORP
+partnership agreement,パートナーシップ契約,legal CORP
+operating agreement,(LLCの)運営契約,legal CORP
+capital contribution,出資,legal CORP
+equity interest,持分,legal CORP
+membership interest,(LLCの)社員持分,legal CORP
+general partner,無限責任パートナー,legal CORP
+limited partner,有限責任パートナー,legal CORP
+silent partner,匿名パートナー,legal CORP
+profit sharing,利益分配,legal CORP
+distribution,分配,legal CORP
+buy-sell agreement,持分売買契約(バイセル契約),legal CORP
+right of first refusal,先買権(優先買取権),legal CORP
+preemptive rights,新株引受権,legal CORP
+drag-along rights,強制売却参加権(ドラッグ・アロング),legal CORP
+tag-along rights,売却参加権(タグ・アロング),legal CORP
+shareholders' agreement,株主間契約,legal CORP
+voting agreement,議決権行使契約,legal CORP
+board resolution,取締役会決議,legal CORP
+written consent,書面決議(書面同意),legal CORP
+annual report,年次報告書,legal CORP
+stated capital,法定資本,legal CORP
+company secretary,会社秘書役,legal CORP
+independent director,独立取締役,legal CORP
+chairman of the board,取締役会議長,legal CORP
+executive officer,業務執行役員,legal CORP
+non-executive director,非業務執行取締役,legal CORP
+conflict of interest,利益相反,legal CORP
+related party transaction,関連当事者取引,legal CORP
+self-dealing,自己取引,legal CORP
+corporate opportunity doctrine,会社機会の法理,legal CORP
+ultra vires,権限踰越(ウルトラ・ヴィーレス),legal CORP
+apparent authority,表見的権限(表見代理),legal CORP
+indemnification of directors,役員補償,legal CORP
+directors and officers insurance,会社役員賠償責任保険(D&O保険),legal CORP
+corporate charter,会社設立準拠文書(チャーター),legal CORP
+foreign corporation,州外法人(外国法人),legal CORP
+doing business as,商号(DBA・屋号),legal CORP
+lawsuit,訴訟,legal LIT
+litigation,訴訟(手続),legal LIT
+plaintiff,原告,legal LIT
+defendant,被告,legal LIT
+complaint,訴状,legal LIT
+answer,答弁書,legal LIT
+counterclaim,反訴,legal LIT
+cross-claim,交差請求(共同当事者間請求),legal LIT
+motion,申立て,legal LIT
+motion to dismiss,却下申立て,legal LIT
+summary judgment,略式判決(サマリー・ジャッジメント),legal LIT
+discovery,証拠開示(ディスカバリー),legal LIT
+deposition,証言録取(デポジション),legal LIT
+interrogatories,質問書,legal LIT
+subpoena,召喚状(文書提出命令),legal LIT
+testimony,証言,legal LIT
+witness,(法廷の)証人,legal LIT
+expert witness,専門家証人,legal LIT
+evidence,証拠,legal LIT
+documentary evidence,書証,legal LIT
+hearsay,伝聞証拠,legal LIT
+objection,異議,legal LIT
+admissible,証拠能力のある,legal LIT
+burden of proof,立証責任,legal LIT
+preponderance of the evidence,証拠の優越,legal LIT
+beyond a reasonable doubt,合理的疑いを超える(立証),legal LIT
+standard of proof,立証基準,legal LIT
+trial,公判(トライアル),legal LIT
+bench trial,裁判官による裁判(非陪審),legal LIT
+jury,陪審,legal LIT
+jury trial,陪審裁判,legal LIT
+verdict,評決,legal LIT
+judgment,判決,legal LIT
+ruling,決定(裁定),legal LIT
+court order,裁判所命令,legal LIT
+temporary restraining order,暫定的差止命令(TRO),legal LIT
+preliminary injunction,仮差止命令,legal LIT
+permanent injunction,終局的差止命令,legal LIT
+appeal,上訴(控訴),legal LIT
+appellant,上訴人,legal LIT
+appellee,被上訴人,legal LIT
+appellate court,上訴裁判所(控訴裁判所),legal LIT
+supreme court,最高裁判所,legal LIT
+district court,地方裁判所(連邦地裁),legal LIT
+personal jurisdiction,対人管轄,legal LIT
+subject matter jurisdiction,事物管轄,legal LIT
+statute of limitations,出訴期限(時効),legal LIT
+pleading,訴答書面,legal LIT
+service of process,訴状の送達,legal LIT
+summons,呼出状,legal LIT
+default judgment,欠席判決,legal LIT
+dismissal with prejudice,再訴禁止の却下,legal LIT
+dismissal without prejudice,再訴可能な却下,legal LIT
+class action,クラス・アクション(集団訴訟),legal LIT
+remand,差戻し,legal LIT
+retrial,再審理,legal LIT
+precedent,判例(先例),legal LIT
+stare decisis,先例拘束性の原則,legal LIT
+case law,判例法,legal LIT
+common law,コモン・ロー(判例法),legal LIT
+civil law,大陸法(民事法),legal LIT
+statute,制定法,legal LIT
+regulation,規則(行政規則),legal LIT
+ordinance,条例,legal LIT
+code,法典,legal LIT
+repeal,(法律の)廃止,legal LIT
+provision,規定(条項),legal LIT
+clause,条項,legal LIT
+article,条,legal LIT
+section,条項(セクション),legal LIT
+paragraph,項(パラグラフ),legal LIT
+holding,判決理由(ホールディング),legal LIT
+dictum,傍論,legal LIT
+majority opinion,多数意見,legal LIT
+dissenting opinion,反対意見,legal LIT
+concurring opinion,補足意見(同調意見),legal LIT
+docket,事件記録(ドケット),legal LIT
+brief,準備書面(ブリーフ),legal LIT
+oral argument,口頭弁論,legal LIT
+cross-examination,反対尋問,legal LIT
+direct examination,主尋問,legal LIT
+perjury,偽証,legal LIT
+contempt of court,法廷侮辱,legal LIT
+sanction,制裁,legal LIT
+attorney,弁護士,legal LIT
+counsel,弁護人(法律顧問),legal LIT
+in-house counsel,社内弁護士,legal LIT
+outside counsel,社外弁護士,legal LIT
+paralegal,パラリーガル,legal LIT
+bar exam,司法試験(バー・イグザム),legal LIT
+bar association,弁護士会,legal LIT
+attorney-client privilege,弁護士依頼者間秘匿特権,legal LIT
+work product doctrine,ワーク・プロダクトの法理,legal LIT
+retainer,着手金(顧問料),legal LIT
+contingency fee,成功報酬,legal LIT
+litigation hold,訴訟ホールド(証拠保全指示),legal LIT
+e-discovery,電子証拠開示,legal LIT
+protective order,秘密保持命令,legal LIT
+standing,原告適格,legal LIT
+res judicata,既判力,legal LIT
+collateral estoppel,争点効,legal LIT
+mootness,ムートネス(訴えの利益の消滅),legal LIT
+writ,令状,legal LIT
+certiorari,裁量上訴受理(サーシオレアライ),legal LIT
+arbitrator,仲裁人,legal LIT
+arbitral award,仲裁判断,legal LIT
+arbitration clause,仲裁条項,legal LIT
+mediator,調停人,legal LIT
+amicable settlement,友好的解決(示談),legal LIT
+out-of-court settlement,裁判外の和解,legal LIT
+alternative dispute resolution,裁判外紛争解決(ADR),legal LIT
+small claims court,少額裁判所,legal LIT
+filing fee,提訴手数料,legal LIT
+court reporter,法廷速記官,legal LIT
+transcript,(公判)記録(反訳書),legal LIT
+admissibility,証拠能力,legal LIT
+relevance,関連性,legal LIT
+privilege,秘匿特権,legal LIT
+immunity,免責(免除),legal LIT
+judgment creditor,判決債権者,legal LIT
+judgment debtor,判決債務者,legal LIT
+enforcement of judgment,判決の執行,legal LIT
+garnishment,債権差押え,legal LIT
+attachment,(財産の)仮差押え,legal LIT
+levy,差押え(執行),legal LIT
+notice of appeal,上訴通知,legal LIT
+affidavit,宣誓供述書,legal LIT
+declaration,陳述書,legal LIT
+stipulation,(当事者間の)合意(スティピュレーション),legal LIT
+pro se,本人訴訟(の),legal LIT
+crime,犯罪,legal CRIM
+criminal law,刑法,legal CRIM
+felony,重罪,legal CRIM
+misdemeanor,軽罪,legal CRIM
+offense,犯罪(違反),legal CRIM
+suspect,被疑者,legal CRIM
+the accused,被告人,legal CRIM
+arrest,逮捕,legal CRIM
+arrest warrant,逮捕状,legal CRIM
+search warrant,捜索令状,legal CRIM
+probable cause,相当な理由,legal CRIM
+Miranda rights,ミランダ権利(黙秘権等の告知),legal CRIM
+interrogation,取調べ,legal CRIM
+custody,身柄拘束,legal CRIM
+detention,勾留(留置),legal CRIM
+bail,保釈(保釈金),legal CRIM
+indictment,起訴(大陪審起訴),legal CRIM
+arraignment,罪状認否,legal CRIM
+plea,答弁(認否),legal CRIM
+guilty plea,有罪答弁,legal CRIM
+plea bargain,司法取引,legal CRIM
+prosecution,訴追(検察側),legal CRIM
+prosecutor,検察官,legal CRIM
+defense counsel,弁護人,legal CRIM
+public defender,公選弁護人,legal CRIM
+conviction,有罪判決,legal CRIM
+acquittal,無罪判決,legal CRIM
+sentence,刑の宣告(量刑),legal CRIM
+sentencing,量刑手続,legal CRIM
+imprisonment,拘禁刑,legal CRIM
+fine,罰金,legal CRIM
+probation,保護観察,legal CRIM
+parole,仮釈放,legal CRIM
+community service,社会奉仕活動,legal CRIM
+criminal record,犯罪歴(前科),legal CRIM
+juvenile,少年(未成年者),legal CRIM
+mens rea,犯意(メンズ・レア),legal CRIM
+actus reus,犯罪行為(アクトゥス・レウス),legal CRIM
+intent,故意,legal CRIM
+recklessness,未必の故意(無謀),legal CRIM
+criminal negligence,刑事過失,legal CRIM
+self-defense,正当防衛,legal CRIM
+alibi,アリバイ,legal CRIM
+accomplice,共犯者,legal CRIM
+conspiracy,共謀,legal CRIM
+attempt,未遂,legal CRIM
+embezzlement,横領(業務上横領),legal CRIM
+money laundering,マネー・ロンダリング(資金洗浄),legal CRIM
+bribery,贈収賄,legal CRIM
+extortion,恐喝,legal CRIM
+rule of law,法の支配,legal GEN
+due process,適正手続(デュー・プロセス),legal GEN
+presumption of innocence,無罪推定,legal GEN
+double jeopardy,二重の危険の禁止,legal GEN
+equity,衡平法(エクイティ),legal GEN
+estoppel,禁反言,legal GEN
+sovereignty,主権,legal GEN
+treaty,条約,legal GEN
+ratification,批准(追認),legal GEN
+legislation,立法(法令),legal GEN
+judiciary,司法(府),legal GEN
+legislature,立法府,legal GEN
+executive branch,行政府,legal GEN
+constitutional law,憲法,legal GEN
+human rights,人権,legal GEN
+ad hoc,アド・ホック(特別の),legal GEN
+de facto,事実上の,legal GEN
+de jure,法律上の,legal GEN
+de novo,覆審(新規に),legal GEN
+ex parte,一方当事者のみの,legal GEN
+in camera,非公開で(裁判官室で),legal GEN
+amicus curiae,法廷助言者(アミカス・キュリエ),legal GEN
+habeas corpus,人身保護令状,legal GEN
+quid pro quo,対価(見返り),legal GEN
+caveat emptor,買主注意せよ(の原則),legal GEN
+res ipsa loquitur,事実推定則(事実自体が語る),legal GEN
+pari passu,同順位で(パリ・パス),legal GEN
+in rem,対物的な,legal GEN
+in personam,対人的な,legal GEN
+inter alia,とりわけ(特に),legal GEN
+intellectual property,知的財産,legal IP
+patent,特許,legal IP
+patent application,特許出願,legal IP
+patent infringement,特許権侵害,legal IP
+prior art,先行技術,legal IP
+claims,(特許の)請求項(クレーム),legal IP
+specification,明細書,legal IP
+patentee,特許権者,legal IP
+utility patent,実用特許,legal IP
+design patent,意匠特許,legal IP
+trademark,商標,legal IP
+service mark,役務商標(サービス・マーク),legal IP
+trade name,商号,legal IP
+trade dress,トレード・ドレス(商品外観),legal IP
+trademark registration,商標登録,legal IP
+trademark infringement,商標権侵害,legal IP
+dilution,(著名商標の)希釈化,legal IP
+copyright,著作権,legal IP
+copyright infringement,著作権侵害,legal IP
+fair use,フェア・ユース(公正利用),legal IP
+derivative work,二次的著作物,legal IP
+work made for hire,職務著作,legal IP
+moral rights,著作者人格権,legal IP
+public domain,パブリック・ドメイン,legal IP
+licensing agreement,ライセンス契約,legal IP
+exclusive license,独占的ライセンス,legal IP
+non-exclusive license,非独占的ライセンス,legal IP
+cross-license,クロス・ライセンス,legal IP
+trade secret,営業秘密,legal IP
+misappropriation,(営業秘密の)不正取得・使用,legal IP
+confidential information,秘密情報,legal IP
+know-how,ノウハウ,legal IP
+invention,発明,legal IP
+inventor,発明者,legal IP
+patent office,特許庁,legal IP
+filing date,出願日,legal IP
+priority date,優先日,legal IP
+patent prosecution,特許出願手続,legal IP
+office action,拒絶理由通知(オフィス・アクション),legal IP
+patent examiner,特許審査官,legal IP
+novelty,新規性,legal IP
+non-obviousness,非自明性,legal IP
+utility,有用性,legal IP
+enablement,実施可能性,legal IP
+patent term,特許存続期間,legal IP
+maintenance fee,特許維持料,legal IP
+cease and desist letter,警告書(停止要求書),legal IP
+reasonable royalty,合理的実施料,legal IP
+lost profits,逸失利益,legal IP
+willful infringement,故意侵害,legal IP
+invalidity,無効,legal IP
+opposition,異議申立て,legal IP
+reexamination,再審査,legal IP
+inter partes review,当事者系レビュー(IPR),legal IP
+domain name,ドメイン名,legal IP
+cybersquatting,サイバースクワッティング,legal IP
+counterfeit,模倣品(偽造品),legal IP
+piracy,海賊行為(著作権侵害),legal IP
+technology transfer,技術移転,legal IP
+open source license,オープンソース・ライセンス,legal IP
+license grant,ライセンスの付与,legal IP
+field of use,使用分野(の限定),legal IP
+territory,(ライセンスの)許諾地域,legal IP
+sublicensing rights,再許諾権,legal IP
+improvement,改良(発明),legal IP
+joint ownership,共有(共同保有),legal IP
+assignment of patent,特許権の譲渡,legal IP
+registration,登録,legal IP
+renewal of registration,登録更新,legal IP
+first-to-file,先願主義,legal IP
+infringement litigation,侵害訴訟,legal IP
+declaratory judgment action,確認訴訟,legal IP
+border enforcement,水際措置,legal IP
+royalty rate,ロイヤルティ料率,legal IP
+upfront payment,頭金(一時金),legal IP
+milestone payment,マイルストーン支払,legal IP
+running royalty,ランニング・ロイヤルティ,legal IP
+royalty audit,ロイヤルティ監査,legal IP
+grant-back condition,グラント・バック条項,legal IP
+exhaustion doctrine,消尽の法理,legal IP
+employment agreement,雇用契約,legal EMP
+employer,使用者(雇用主),legal EMP
+employee,従業員,legal EMP
+at-will employment,随意雇用,legal EMP
+probationary period,試用期間,legal EMP
+salary,給与(月給・年俸),legal EMP
+wages,賃金,legal EMP
+overtime,時間外労働(残業),legal EMP
+benefits,福利厚生,legal EMP
+severance pay,退職手当(解雇手当),legal EMP
+notice of termination,解雇予告(退職通知),legal EMP
+resignation,辞職,legal EMP
+dismissal,解雇,legal EMP
+wrongful termination,不当解雇,legal EMP
+layoff,一時解雇(レイオフ),legal EMP
+redundancy,人員整理(剰員解雇),legal EMP
+discrimination,差別,legal EMP
+harassment,ハラスメント,legal EMP
+sexual harassment,セクシュアル・ハラスメント,legal EMP
+equal employment opportunity,雇用機会均等,legal EMP
+reasonable accommodation,合理的配慮,legal EMP
+disability,障害,legal EMP
+workers' compensation,労災補償,legal EMP
+minimum wage,最低賃金,legal EMP
+working hours,労働時間,legal EMP
+paid leave,有給休暇,legal EMP
+sick leave,病気休暇,legal EMP
+parental leave,育児休暇,legal EMP
+maternity leave,産前産後休暇,legal EMP
+collective bargaining,団体交渉,legal EMP
+labor union,労働組合,legal EMP
+strike,ストライキ,legal EMP
+lockout,ロックアウト(作業所閉鎖),legal EMP
+grievance procedure,苦情処理手続,legal EMP
+restrictive covenant,制限的約款(競業避止等),legal EMP
+garden leave,ガーデン・リーブ(自宅待機),legal EMP
+employee handbook,就業規則(従業員ハンドブック),legal EMP
+code of conduct,行動規範,legal EMP
+disciplinary action,懲戒処分,legal EMP
+performance review,人事評価,legal EMP
+promotion,昇進,legal EMP
+demotion,降格,legal EMP
+secondment,出向,legal EMP
+independent contractor,独立請負人,legal EMP
+misclassification,(労働者の)誤分類,legal EMP
+payroll,給与計算(支払給与),legal EMP
+pension plan,年金制度,legal EMP
+retirement,退職(定年),legal EMP
+whistleblower protection,内部通報者保護,legal EMP
+occupational safety,労働安全,legal EMP
+workplace injury,労働災害,legal EMP
+background check,経歴調査,legal EMP
+offer letter,採用通知(オファー・レター),legal EMP
+job description,職務記述書,legal EMP
+full-time employee,正社員(フルタイム従業員),legal EMP
+part-time employee,パートタイム従業員,legal EMP
+temporary worker,臨時労働者,legal EMP
+fixed-term contract,有期契約,legal EMP
+indefinite-term contract,無期契約,legal EMP
+constructive dismissal,みなし解雇(実質的解雇),legal EMP
+retaliation,報復(的取扱い),legal EMP
+hostile work environment,敵対的職場環境,legal EMP
+exempt employee,(残業代の)適用除外従業員,legal EMP
+non-exempt employee,残業代支払対象の従業員,legal EMP
+work permit,労働許可,legal EMP
+employment visa,就労ビザ,legal EMP
+immigration law,移民法,legal EMP
+confidentiality undertaking,秘密保持誓約,legal EMP
+conflict of interest policy,利益相反ポリシー,legal EMP
+exit interview,退職面談,legal EMP
+loan agreement,金銭消費貸借契約(ローン契約),legal FIN
+lender,貸主,legal FIN
+borrower,借主,legal FIN
+principal amount,元本,legal FIN
+interest rate,金利,legal FIN
+fixed rate,固定金利,legal FIN
+floating rate,変動金利,legal FIN
+maturity,満期,legal FIN
+repayment,返済,legal FIN
+prepayment,期限前返済,legal FIN
+amortization schedule,返済予定表,legal FIN
+installment,分割払い(の各回),legal FIN
+balloon payment,バルーン返済(満期一括の大口返済),legal FIN
+default interest,遅延損害金,legal FIN
+event of default,期限の利益喪失事由(デフォルト事由),legal FIN
+acceleration,期限の利益喪失(繰上げ),legal FIN
+affirmative covenant,作為誓約,legal FIN
+negative covenant,不作為誓約,legal FIN
+financial covenant,財務制限条項,legal FIN
+cross-default,クロス・デフォルト,legal FIN
+security agreement,担保契約,legal FIN
+secured party,担保権者,legal FIN
+pledge,質(質権設定),legal FIN
+mortgage,抵当権(モーゲージ),legal FIN
+mortgagee,抵当権者,legal FIN
+mortgagor,抵当権設定者,legal FIN
+charge,担保権(チャージ),legal FIN
+floating charge,浮動担保,legal FIN
+fixed charge,固定担保,legal FIN
+guarantee agreement,保証契約,legal FIN
+letter of credit,信用状,legal FIN
+standby letter of credit,スタンドバイ信用状,legal FIN
+promissory note,約束手形,legal FIN
+bill of exchange,為替手形,legal FIN
+syndicated loan,シンジケート・ローン(協調融資),legal FIN
+facility agreement,融資枠契約(ファシリティ契約),legal FIN
+revolving credit,リボルビング・クレジット(回転信用枠),legal FIN
+term loan,タームローン(証書貸付),legal FIN
+credit line,与信枠,legal FIN
+drawdown,(融資の)引出し(実行),legal FIN
+disbursement,(資金の)払出し,legal FIN
+refinancing,借換え(リファイナンス),legal FIN
+debt restructuring,債務再編,legal FIN
+subordinated debt,劣後債務,legal FIN
+senior debt,優先債務,legal FIN
+mezzanine financing,メザニン・ファイナンス,legal FIN
+bond,債券,legal FIN
+debenture,無担保社債(ディベンチャー),legal FIN
+coupon,クーポン(利札),legal FIN
+yield,利回り,legal FIN
+issuer,発行体,legal FIN
+underwriting,引受け,legal FIN
+securitization,証券化,legal FIN
+collateralization,担保化,legal FIN
+netting,ネッティング(差引決済),legal FIN
+derivative,デリバティブ(金融派生商品),legal FIN
+hedge,ヘッジ,legal FIN
+swap agreement,スワップ契約,legal FIN
+foreclosure,担保権実行(フォークロージャー),legal FIN
+repossession,(担保物の)取戻し,legal FIN
+deficiency,不足額(残債),legal FIN
+usury,高利(利息制限違反),legal FIN
+anti-money laundering,マネー・ロンダリング防止(AML),legal FIN
+know your customer,顧客確認(KYC),legal FIN
+economic sanctions,経済制裁,legal FIN
+escrow account,エスクロー口座,legal FIN
+trust account,信託口座,legal FIN
+custodian,保管機関(カストディアン),legal FIN
+fiduciary,受託者(信認義務を負う者),legal FIN
+solvency,支払能力,legal FIN
+creditworthiness,信用力,legal FIN
+credit rating,信用格付,legal FIN
+due date,支払期日,legal FIN
+grace period for payment,支払猶予期間,legal FIN
+rollover,(債務の)借換え(ロールオーバー),legal FIN
+novation of debt,債務の更改,legal FIN
+debt assumption,債務引受,legal FIN
+assignment of receivables,債権譲渡,legal FIN
+factoring,ファクタリング,legal FIN
+letter of comfort,経営指導念書,legal FIN
+payment guarantee,支払保証,legal FIN
+performance bond,履行保証(ボンド),legal FIN
+bid bond,入札保証,legal FIN
+surety bond,保証証書(サーティ・ボンド),legal FIN
+bank guarantee,銀行保証,legal FIN
+documentary collection,荷為替取立,legal FIN
+open account,掛売り(オープン・アカウント),legal FIN
+payment in advance,前払い,legal FIN
+cash on delivery,代金引換,legal FIN
+wire transfer,電信送金,legal FIN
+real property,不動産,legal PROP
+personal property,動産,legal PROP
+real estate,不動産(物件),legal PROP
+land,土地,legal PROP
+premises,(契約対象の)物件(建物・敷地),legal PROP
+leasehold,賃借権(リースホールド),legal PROP
+freehold,自由保有権(フリーホールド),legal PROP
+easement,地役権,legal PROP
+encumbrance,負担(担保・制限),legal PROP
+zoning,用途地域規制(ゾーニング),legal PROP
+deed,譲渡証書(ディード),legal PROP
+warranty deed,保証付譲渡証書,legal PROP
+quitclaim deed,権利放棄型譲渡証書,legal PROP
+title,権原(所有権),legal PROP
+marketable title,市場性のある権原,legal PROP
+title search,権原調査,legal PROP
+title insurance,権原保険,legal PROP
+conveyance,(不動産の)譲渡,legal PROP
+grantor,譲渡人,legal PROP
+grantee,譲受人,legal PROP
+landlord,賃貸人(家主),legal PROP
+tenant,賃借人(テナント),legal PROP
+lease agreement,賃貸借契約,legal PROP
+rent,賃料,legal PROP
+security deposit,敷金(保証金),legal PROP
+eviction,立退き(明渡し),legal PROP
+sublease,転貸借(サブリース),legal PROP
+tenancy,賃借権(保有形態),legal PROP
+joint tenancy,合有(ジョイント・テナンシー),legal PROP
+tenancy in common,共有(テナンシー・イン・コモン),legal PROP
+right of survivorship,生存者権,legal PROP
+adverse possession,取得時効(不法占有による取得),legal PROP
+eminent domain,土地収用権,legal PROP
+condemnation,収用,legal PROP
+appraisal,鑑定評価,legal PROP
+survey,測量,legal PROP
+fixture,定着物,legal PROP
+chattel,動産(チャテル),legal PROP
+bailment,寄託,legal PROP
+covenant running with the land,土地に随伴する約款,legal PROP
+closing costs,決済費用,legal PROP
+escrow closing,エスクロー決済,legal PROP
+property management,物件管理,legal PROP
+common areas,共用部分,legal PROP
+homeowners association,住宅所有者組合(HOA),legal PROP
+property tax,固定資産税,legal PROP
+mortgage loan,住宅ローン(抵当貸付),legal PROP
+down payment,頭金,legal PROP
+refinance,(住宅ローンの)借換え,legal PROP
+vacant possession,空け渡し(占有のない引渡し),legal PROP

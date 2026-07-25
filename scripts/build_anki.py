@@ -55,9 +55,20 @@ def write_csv(path, header_lines, rows):
 
 
 # ---- 語彙(USCPA / 法律) ----
+#
+# include_example=False にしている理由（重要・変更しないこと）:
+#   単語帳のKindle版は「見出し語＋定訳＋例文」で構成されており、例文が有料側の
+#   差別化要素にあたる。KDPセレクトは登録本の内容（特典コンテンツを含む）を
+#   Kindleストア独占とすることを求めるため、例文入りCSVを自サイトで配布すると
+#   独占条件と衝突する。
+#   そこで配布CSVは「見出し語＋定訳」＝サイトのカードページで既に無料公開している
+#   範囲にとどめ、例文は本にだけ残す。
+#   （読解は全問をサイトで公開しており独占にできないため、例文相当の制限は不要）
 VOCAB = {
-    "uscpa": {"file": "uscpa_words.csv", "deck": "USCPA英単語", "out": "uscpa_anki.csv"},
-    "legal": {"file": "legal_words.csv", "deck": "法律英単語", "out": "legal_anki.csv"},
+    "uscpa": {"file": "uscpa_words.csv", "deck": "USCPA英単語",
+              "out": "uscpa_anki.csv", "include_example": False},
+    "legal": {"file": "legal_words.csv", "deck": "法律英単語",
+              "out": "legal_anki.csv", "include_example": False},
 }
 
 
@@ -69,8 +80,12 @@ def build_vocab(key):
             if r.get("status") == "rejected":
                 continue
             front = r["term"]
-            example = "\n".join(p for p in [r.get("example_en", ""), r.get("example_ja", "")] if p)
-            back = para(r["meaning_ja"], example)
+            if cfg.get("include_example"):
+                example = "\n".join(
+                    p for p in [r.get("example_en", ""), r.get("example_ja", "")] if p)
+                back = para(r["meaning_ja"], example)
+            else:
+                back = r["meaning_ja"]
             tags = " ".join(t for t in [key, r.get("subject", "")] if t)
             rows.append([front, back, tags])
     path = OUT / cfg["out"]
