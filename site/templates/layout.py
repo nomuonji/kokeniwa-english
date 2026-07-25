@@ -181,6 +181,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
   </svg>
 </div>
 <a class="skip-link" href="#main">本文へスキップ</a>
+<div class="site-top">
 {announce_html}
 <header class="site-header">
   <div class="container header-inner">
@@ -191,6 +192,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
     <nav class="site-nav" aria-label="メイン">{nav_html}</nav>
   </div>
 </header>
+</div>
 <main id="main" class="container">
 {crumbs_html}
 {content}
