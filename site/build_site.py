@@ -121,6 +121,12 @@ def build(cfg):
         articles=articles))
     emit("/sns/", pages_tpl.render_sns(cfg))
     emit("/books/", pages_tpl.render_books(cfg))
+    # Kindle読者特典（本からリンクされる固定URL。検索には載せない）
+    # 書籍ごとに1ページ＝1データ。他書籍のデータへは導線を作らない。
+    emit("/kindle/", pages_tpl.render_kindle_index(cfg), noindex=True)
+    for bonus_key in pages_tpl.KINDLE_BONUS:
+        emit(pages_tpl.kindle_bonus_url(bonus_key),
+             pages_tpl.render_kindle_bonus(cfg, bonus_key), noindex=True)
     write_page("404.html", pages_tpl.render_404(cfg))
 
     # --- 静的アセット（static/data は上で作成済みのため dirs_exist_ok） ---

@@ -102,6 +102,149 @@ def render_sns(cfg):
         breadcrumbs=[("/sns/", "SNS")], active_nav="/sns/")
 
 
+# 読者特典ページ上部に出すお知らせ。
+#
+# Kindle本は出版後に読者へ更新を届けられないため、告知はこのページ経由になる
+# （＝再訪した読者にしか届かないプル型）。暗記アプリのリリース時などは、
+# ここを埋めて再デプロイすれば全書籍の特典ページに同時に反映される。
+#
+# 例:
+# KINDLE_ANNOUNCEMENT = {
+#     "title": "暗記アプリをリリースしました",
+#     "body": "本書のデータをそのまま学習できるアプリを公開しました。",
+#     "link": "/app/", "link_label": "アプリを見る",
+# }
+KINDLE_ANNOUNCEMENT = None
+
+
+def _kindle_announcement_html():
+    a = KINDLE_ANNOUNCEMENT
+    if not a:
+        return ""
+    btn = ""
+    if a.get("link"):
+        btn = (f'<p><a class="follow-btn" href="{esc(a["link"])}">'
+               f'{esc(a.get("link_label", "詳しく見る"))}</a></p>')
+    return (f'<div class="note-box"><p>📣 <strong>{esc(a["title"])}</strong><br>'
+            f'{esc(a["body"])}</p>{btn}</div>')
+
+
+# Kindle読者特典ページの定義。書籍ごとに1ページ＝1データにする。
+# （1冊買えば全書籍のデータが手に入る状態を避けるため、まとめページは作らない）
+KINDLE_BONUS = {
+    "reading": {
+        "slug": "reading",
+        "book": "英文解釈トレーニング200問",
+        "icon": "📖",
+        "file": "reading_anki.csv",
+        "deck": "英文解釈",
+        "count": "全200問",
+        "desc": "表面に英文と設問、裏面に正解・和訳・解説が入ります。"
+                "分野・難易度はタグで絞り込めます。",
+    },
+    "uscpa": {
+        "slug": "uscpa",
+        "book": "USCPA頻出英単語1000",
+        "icon": "📊",
+        "file": "uscpa_anki.csv",
+        "deck": "USCPA英単語",
+        "count": "全1,000語",
+        "desc": "表面に見出し語、裏面に定訳と例文・和訳が入ります。"
+                "FAR/AUD/REG/BAR/ISC/TCP の科目タグで絞り込めます。",
+    },
+    "legal": {
+        "slug": "legal",
+        "book": "英文契約書の頻出英単語380",
+        "icon": "⚖️",
+        "file": "legal_anki.csv",
+        "deck": "法律英単語",
+        "count": "全1,000語",
+        "desc": "表面に見出し語、裏面に定訳と例文・和訳が入ります。"
+                "本書の380語に加え、会社法・訴訟・知的財産・労働・金融など"
+                "他分野の法律英単語も収録しています。",
+    },
+}
+
+
+def kindle_bonus_url(key):
+    return f"/kindle/{KINDLE_BONUS[key]['slug']}/"
+
+
+def render_kindle_bonus(cfg, key):
+    """書籍ごとのKindle読者特典ページ。
+
+    Kindle本からはこのURLだけをリンクし、CSVには直リンクしない。
+    - URLが固定なので、配布物が増減しても出版済みの本を差し替えずに済む
+    - 書籍ごとにページを分け、他書籍のデータへは導線を作らない
+    - noindex＝検索には載せず、書籍の読者だけが辿り着くページ
+    """
+    b = KINDLE_BONUS[key]
+    content = f"""
+<h1>{b["icon"]} {esc(b["book"])}　読者特典</h1>
+<p class="lead">お読みいただきありがとうございます。
+このページでは、本書の内容をそのまま使える学習用データを配布しています。</p>
+{_kindle_announcement_html()}
+
+<h2>Anki用データ（無料・登録不要）</h2>
+<p>無料の暗記アプリ <strong>Anki</strong> にそのまま取り込めるCSVです。
+デッキ名・カード形式はファイル内に指定済みなので、読み込むだけで使えます。</p>
+
+<div class="note-box">
+<p><strong>デッキ名：{esc(b["deck"])}</strong>（{esc(b["count"])}）<br>
+{esc(b["desc"])}</p>
+<p><a class="follow-btn" href="/downloads/{esc(b["file"])}">CSVをダウンロード</a></p>
+</div>
+
+<h3>取り込み手順</h3>
+<ol>
+<li>上のボタンからCSVファイルをダウンロードします。</li>
+<li>Ankiを起動し、「ファイル」→「読み込む」を選びます。</li>
+<li>ダウンロードしたCSVを選び、そのまま「読み込む」を押せば完了です。</li>
+</ol>
+<p class="note">※ Anki は第三者が提供するアプリであり、本書とは別のものです。
+入手方法や使い方の詳細は公式サイトをご確認ください。</p>
+
+<h2>対応アプリ・配布内容について</h2>
+<p>配布データの形式や、対応する学習アプリは今後追加・変更されることがあります。
+最新の内容はこのページでご確認ください。URLは変更しませんので、
+ブックマークしておくと便利です。</p>
+
+<h2>ブラウザで学習する</h2>
+<p>当サイトでも英語学習コンテンツを無料で公開しています。
+スマートフォンのブラウザからそのまま学習できます。</p>
+<p><a class="follow-btn" href="/">学習サイトを開く</a></p>
+"""
+    return layout.page(
+        cfg, title=f'{b["book"]}　読者特典',
+        description=f'{b["book"]}の読者向けに、Anki用の学習データを配布しています。',
+        path=kindle_bonus_url(key), content=content,
+        breadcrumbs=[(kindle_bonus_url(key), "読者特典")], noindex=True)
+
+
+def render_kindle_index(cfg):
+    """/kindle/ に直接来た人向けの案内。
+
+    ここから各書籍のデータへは意図的にリンクしない
+    （書籍の読者だけが、本に記載されたURLから各ページに入る）。
+    """
+    content = """
+<h1>Kindle読者特典</h1>
+<p class="lead">書籍ごとに専用のダウンロードページをご用意しています。</p>
+<div class="note-box">
+<p>お手元の書籍の巻末「読者特典」ページに記載されたURLを、
+ブラウザで直接開いてください。</p>
+</div>
+<h2>ブラウザで学習する</h2>
+<p>当サイトでは英語学習コンテンツを無料で公開しています。</p>
+<p><a class="follow-btn" href="/">学習サイトを開く</a></p>
+"""
+    return layout.page(
+        cfg, title="Kindle読者特典",
+        description="Kindle書籍の読者向け特典ページのご案内。",
+        path="/kindle/", content=content,
+        breadcrumbs=[("/kindle/", "Kindle読者特典")], noindex=True)
+
+
 def render_books(cfg):
     content = """
 <h1>おすすめ教材</h1>
