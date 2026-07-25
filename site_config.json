@@ -11,28 +11,40 @@
       "handle": "@eibun_reading",
       "url": "https://www.threads.com/@eibun_reading",
       "label": "英文解釈クイズ",
-      "description": "B2〜C2レベルの英文解釈問題を毎日出題。1日1問、読み解く力を鍛えます。"
+      "description": "B2〜C2レベルの英文解釈問題を1日3問出題。解説つきで、読み解く力を鍛えます。",
+      "display_name": "英文解釈bot",
+      "icon": "/static/sns/reading.jpg",
+      "cadence": "1日3問"
     },
     "uscpa": {
       "platform": "Threads",
       "handle": "@uscpa_vocab_jp",
       "url": "https://www.threads.com/@uscpa_vocab_jp",
       "label": "USCPA英単語",
-      "description": "USCPA（米国公認会計士）試験の頻出英単語を毎日5語ずつ配信。FAR・AUD・REGなど科目別。"
+      "description": "USCPA（米国公認会計士）試験の頻出英単語を1投稿5語ずつ、1日3回配信。FAR・AUD・REGなど科目別。",
+      "display_name": "USCPA英単語",
+      "icon": "/static/sns/uscpa.jpg",
+      "cadence": "1日15語"
     },
     "legal": {
       "platform": "Threads",
       "handle": "@legal_english_vocab",
       "url": "https://www.threads.com/@legal_english_vocab",
       "label": "法律英単語",
-      "description": "契約書・訴訟・会社法などの法律英語を毎日5語ずつ配信。実務で使える例文つき。"
+      "description": "契約書・訴訟・会社法などの法律英語を1投稿5語ずつ、1日3回配信。実務で使える例文つき。",
+      "display_name": "Legal English｜法律英単語",
+      "icon": "/static/sns/legal.jpg",
+      "cadence": "1日15語"
     },
     "kotsukotsu": {
       "platform": "Threads",
       "handle": "@english_vocabulary_kotsukotsu",
       "url": "https://www.threads.com/@english_vocabulary_kotsukotsu",
       "label": "こつこつ英単語",
-      "description": "英検準1級・ニュース・ドラマ・句動詞・イディオムの一般英単語を毎日配信。例文つきで少しずつ。"
+      "description": "英検準1級・ニュース・ドラマ・句動詞・イディオムの一般英単語を1投稿5語ずつ配信。例文つきで少しずつ。",
+      "display_name": "こつこつ英単語",
+      "icon": "/static/sns/kotsukotsu.jpg",
+      "cadence": "1日15語"
     }
   }
 }

@@ -7,14 +7,28 @@ SNS_ICONS = {"reading": "📖", "uscpa": "📊", "legal": "⚖️", "kotsukotsu"
 
 
 def _sns_card(key, sns, heading="h3"):
+    """SNSアカウントカード。
+
+    アイコンは Threads のプロフィール画像を static/sns/ に取り込んで自己ホストする。
+    CDN(scontent.cdninstagram.com)のURLは署名に有効期限があり直リンクだと切れるため。
+    アイコンを差し替えたいときは同じパスの画像を置き換える。
+    """
+    name = sns.get("display_name") or sns["label"]
+    icon = sns.get("icon")
+    avatar = (f'<img src="{esc(icon)}" alt="{esc(name)}のアイコン" '
+              f'width="320" height="320" loading="lazy">'
+              if icon else f'<span class="sns-emoji">{SNS_ICONS.get(key, "📱")}</span>')
+    cadence = (f'<span class="sns-cadence">{esc(sns["cadence"])}</span>'
+               if sns.get("cadence") else "")
     return f"""
 <div class="sns-card sns-{key}">
-  <div class="sns-avatar">{SNS_ICONS.get(key, "📱")}</div>
-  <div>
-    <{heading}>{esc(sns["label"])}</{heading}>
-    <span class="handle">{esc(sns["platform"])}・{esc(sns["handle"])}</span>
+  <div class="sns-avatar">{avatar}</div>
+  <div class="sns-body">
+    <{heading}>{esc(name)}</{heading}>
+    <span class="handle">{esc(sns["handle"])}{cadence}</span>
     <p>{esc(sns["description"])}</p>
-    <a class="follow-btn" href="{esc(sns["url"])}" rel="noopener" target="_blank">フォローする</a>
+    <a class="follow-btn" href="{esc(sns["url"])}" rel="noopener" target="_blank">
+      {esc(sns["platform"])}でフォロー</a>
   </div>
 </div>"""
 
@@ -73,8 +87,10 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
 
 <div class="section-head"><h2>Kindle教材</h2><a class="more" href="/books/">くわしく見る →</a></div>
 <p class="lead">当サイトの学習コンテンツをもとに作った「英語トレーニングシリーズ」全3巻。
-単語の例文や英文解釈の詳しい解説は、Kindle版に収録しています。</p>
+単語の例文や英文解釈の詳しい解説は、Kindle版に収録しています。
+<strong>3冊とも Kindle Unlimited の読み放題対象</strong>です。</p>
 <div class="book-strip">{_book_strip()}</div>
+{_AFFILIATE_NOTICE}
 """
     jsonld = {
         "@context": "https://schema.org",
@@ -93,7 +109,7 @@ def render_sns(cfg):
     cards = "".join(_sns_card(k, s, heading="h2") for k, s in cfg["sns"].items())
     content = f"""
 <h1>SNSアカウント紹介</h1>
-<p class="lead">当サイトのコンテンツは、Threadsの3つのアカウントで毎日配信しています。
+<p class="lead">当サイトのコンテンツは、Threadsの4つのアカウントで毎日配信しています。
 スキマ時間の学習にはSNS、じっくり復習にはこのサイト、という使い分けがおすすめです。</p>
 {cards}
 """
@@ -250,7 +266,12 @@ def render_kindle_index(cfg):
         breadcrumbs=[("/kindle/", "Kindle読者特典")], noindex=True)
 
 
-# 自社Kindle書籍。「英語トレーニングシリーズ」（レーベル: Kokeniwa English）
+# 自社Kindle書籍。2つのシリーズを扱う。
+#   KINDLE_BOOKS       … 英語トレーニングシリーズ（レーベル: Kokeniwa English）
+#   BILINGUAL_BOOKS    … 名作で学ぶ英語多読シリーズ（レーベル: 名著翻訳ラボ）
+#
+# 全冊 KDP セレクト登録済み＝Kindle Unlimited 対象（2026-07-25 時点で確認）。
+# セレクトを外した本が出たら ku: False を持たせてバッジを消すこと。
 #
 # asin が None の本はまだ Amazon の審査中で商品ページが存在しないため、
 # 「近日公開」として表示しリンクを張らない（リンク切れを作らないため）。
@@ -297,7 +318,7 @@ KINDLE_BOOKS = [
         "volume": 3,
         "title": "英文解釈トレーニング200問",
         "subtitle": "日英対訳で読み解く英文法・構文",
-        "asin": None,          # 審査中。販売開始後にASINを記入する
+        "asin": "B0HBJPK81Z",
         "price": "¥500",
         "cover": "/static/covers/reading.jpg",
         "icon": "📖",
@@ -312,9 +333,65 @@ KINDLE_BOOKS = [
     },
 ]
 
+# 名作で学ぶ英語多読シリーズ（レーベル: 名著翻訳ラボ）。版権切れの名著を一文ごとの対訳に。
+BILINGUAL_BOOKS = [
+    {
+        "slug": "holmes",
+        "title": "シャーロック・ホームズの冒険",
+        "subtitle": "日英対訳版",
+        "author": "アーサー・コナン・ドイル",
+        "asin": "B0G8KQLQ5D",
+        "price": "¥300",
+        "cover": "/static/covers/holmes.jpg",
+        "icon": "🔍",
+        "lead": "全12編の短編を、一文ごとの日英対訳で。"
+                "推理を追いながら、自然と英文を読み進められます。",
+    },
+    {
+        "slug": "woolf",
+        "title": "自分だけの部屋",
+        "subtitle": "A Room of One's Own（英日対訳）",
+        "author": "ヴァージニア・ウルフ",
+        "asin": "B0G7RXQHM9",
+        "price": "¥300",
+        "cover": "/static/covers/woolf.jpg",
+        "icon": "🚪",
+        "lead": "「女性が小説を書くには、お金と自分だけの部屋が必要である」。"
+                "近代エッセイの名作を一文ごとの対訳で読みます。",
+    },
+    {
+        "slug": "marx",
+        "title": "共産党宣言",
+        "subtitle": "日英対訳 ─ 英語で読む歴史的名著",
+        "author": "カール・マルクス",
+        "asin": "B0G9M1VB9V",
+        "price": "¥300",
+        "cover": "/static/covers/marx.jpg",
+        "icon": "📜",
+        "lead": "世界を動かした歴史的文書を、英語原文と日本語訳で。"
+                "硬質な論説文を読む練習にも向いています。",
+    },
+]
+
+
+# Amazonアソシエイト。既存のAmazon URLに tag= を付けるだけで成立する。
+# 表示にあたっては景品表示法・アソシエイト規約により、
+# 広告である旨の明示（_AFFILIATE_NOTICE）を同じページに必ず出すこと。
+ASSOCIATE_TAG = "kokeniwa-22"
+KU_LANDING = "https://www.amazon.co.jp/kindle-dbs/hz/subscribe/ku"
+
+_AFFILIATE_NOTICE = (
+    '<p class="affiliate-note">※ 当サイトは Amazon.co.jp アソシエイトとして、'
+    '適格販売により収入を得ています。</p>')
+
+
+def with_tag(url):
+    sep = "&" if "?" in url else "?"
+    return f"{url}{sep}tag={ASSOCIATE_TAG}"
+
 
 def amazon_url(asin):
-    return f"https://www.amazon.co.jp/dp/{asin}"
+    return with_tag(f"https://www.amazon.co.jp/dp/{asin}")
 
 
 def _book_strip():
@@ -343,6 +420,7 @@ def _book_card(b):
   <div class="book-cover">
     <img src="{esc(b["cover"])}" alt="{esc(b["title"])} の表紙"
          width="500" height="800" loading="lazy">
+    <span class="ku-badge">Kindle Unlimited 対象</span>
   </div>
   <div class="book-body">
     <span class="book-vol">英語トレーニングシリーズ 第{b["volume"]}巻</span>
@@ -356,15 +434,56 @@ def _book_card(b):
 </article>"""
 
 
+def _bilingual_card(b):
+    """対訳シリーズ用のコンパクトなカード。"""
+    return f"""
+<article class="bl-card">
+  <div class="book-cover">
+    <img src="{esc(b["cover"])}" alt="{esc(b["title"])} の表紙" loading="lazy">
+    <span class="ku-badge">Kindle Unlimited 対象</span>
+  </div>
+  <div class="bl-body">
+    <h3>{b["icon"]} {esc(b["title"])}</h3>
+    <p class="book-sub">{esc(b["author"])}｜{esc(b["subtitle"])}</p>
+    <p>{esc(b["lead"])}</p>
+    <p class="book-actions">
+      <a class="follow-btn" href="{esc(amazon_url(b["asin"]))}"
+         rel="noopener" target="_blank">Amazonで見る（{esc(b["price"])}）</a>
+    </p>
+  </div>
+</article>"""
+
+
 def render_books(cfg):
     cards = "".join(_book_card(b) for b in KINDLE_BOOKS)
+    bl_cards = "".join(_bilingual_card(b) for b in BILINGUAL_BOOKS)
     content = f"""
 <h1>Kindle教材</h1>
-<p class="lead">当サイトの学習コンテンツをもとに作った、
-<strong>英語トレーニングシリーズ</strong>（全3巻）です。
-サイトで学んだ内容を、オフラインでもまとめて復習できます。</p>
+<p class="lead">英語学習のためのKindle書籍を2シリーズ、全6冊出版しています。
+当サイトの学習コンテンツをまとめた<strong>英語トレーニングシリーズ</strong>と、
+名著を一文ごとの対訳で読む<strong>名作で学ぶ英語多読シリーズ</strong>です。</p>
 
+<div class="ku-hero">
+  <div class="ku-hero-body">
+    <span class="ku-hero-label">Kindle Unlimited 対象</span>
+    <h2>6冊とも読み放題で読めます</h2>
+    <p>Kindle Unlimited に登録すると、両シリーズの全6冊を追加料金なしで読めます。
+    初めての方は30日間の無料体験があります。</p>
+    <p class="ku-hero-actions">
+      <a class="follow-btn" href="{esc(with_tag(KU_LANDING))}"
+         rel="noopener" target="_blank">Kindle Unlimited を見る</a>
+    </p>
+  </div>
+</div>
+
+<h2>英語トレーニングシリーズ</h2>
+<p>当サイトの問題・単語をもとにした学習書。全3巻。</p>
 <div class="book-list">{cards}</div>
+
+<h2>名作で学ぶ英語多読シリーズ</h2>
+<p>版権切れの名著を、一文ごとの日英対訳で読むシリーズ。
+辞書を引く手を止めずに、名作をそのまま英語で味わえます。全3巻・各¥300。</p>
+<div class="bl-list">{bl_cards}</div>
 
 <h2>サイトとの違い</h2>
 <p>当サイトでは、英単語は<strong>見出し語と定訳</strong>まで、英文解釈は
@@ -375,10 +494,13 @@ Kindle版には、これに加えて<strong>単語の例文と対訳</strong>、
 <h2>読者特典</h2>
 <p>各書籍には、内容をそのまま暗記アプリ <strong>Anki</strong> に取り込める
 学習用データの特典がついています。ダウンロード方法は書籍の巻末に記載しています。</p>
+
+{_AFFILIATE_NOTICE}
 """
     return layout.page(
         cfg, title="Kindle教材",
-        description="英文解釈・USCPA英単語・法律英単語のKindle教材「英語トレーニングシリーズ」全3巻のご紹介。",
+        description="英文解釈・USCPA英単語・法律英単語のKindle教材「英語トレーニングシリーズ」全3巻。"
+                    "Kindle Unlimited 対象です。",
         path="/books/", content=content,
         breadcrumbs=[("/books/", "教材")], active_nav="/books/")
 

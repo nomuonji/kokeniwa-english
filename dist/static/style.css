@@ -507,18 +507,41 @@ a.card:active { transform: translateY(-1px) scale(.99); }
   border-radius: var(--radius-lg); padding: 26px; margin: 16px 0;
   box-shadow: var(--shadow);
 }
-.sns-avatar {
-  width: 52px; height: 52px; border-radius: 14px; flex-shrink: 0;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.5rem; color: #fff;
+.sns-card {
+  transition: transform 200ms var(--ease-out), box-shadow 200ms var(--ease-out);
 }
-.sns-reading .sns-avatar { background: var(--accent-reading); }
-.sns-uscpa .sns-avatar { background: var(--accent-uscpa); }
-.sns-legal .sns-avatar { background: var(--accent-legal); }
-.sns-kotsukotsu .sns-avatar { background: var(--primary); }
-.sns-card h2, .sns-card h3 { margin: 0 0 2px; font-size: 1.1rem; }
-.sns-card .handle { color: var(--text-muted); font-size: .88rem; }
-.sns-card p { margin: 8px 0 14px; font-size: .93rem; color: var(--text-muted); }
+@media (hover: hover) and (pointer: fine) {
+  .sns-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+}
+.sns-avatar {
+  width: 64px; height: 64px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem; color: #fff; overflow: hidden;
+  /* アイコンのふちを地色から少し浮かせる */
+  box-shadow: 0 0 0 1px var(--border), var(--shadow);
+}
+.sns-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* 画像がない場合の絵文字フォールバックにだけ色地を敷く */
+.sns-reading .sns-emoji { background: var(--accent-reading); }
+.sns-uscpa .sns-emoji { background: var(--accent-uscpa); }
+.sns-legal .sns-emoji { background: var(--accent-legal); }
+.sns-kotsukotsu .sns-emoji { background: var(--primary); }
+.sns-emoji {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+}
+.sns-body { min-width: 0; }
+.sns-card h2, .sns-card h3 { margin: 0 0 4px; font-size: 1.1rem; }
+.sns-card .handle {
+  color: var(--text-muted); font-size: .85rem;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+}
+.sns-cadence {
+  font-size: .74rem; letter-spacing: .04em;
+  border: 1px solid var(--border-strong); border-radius: 999px;
+  padding: 1px 10px; color: var(--text-muted);
+}
+.sns-card p { margin: 10px 0 14px; font-size: .93rem; color: var(--text-muted); }
 .follow-btn {
   display: inline-block; font-weight: 700; font-size: .88rem;
   background: var(--text); color: var(--bg);
@@ -554,6 +577,68 @@ a.card:active { transform: translateY(-1px) scale(.99); }
 .book-thumb span {
   display: block; margin-top: 10px; font-size: .82rem;
   color: var(--text-muted); line-height: 1.4;
+}
+
+/* ---------- アナウンスバー ---------- */
+.announce {
+  background: var(--primary); color: var(--on-primary);
+  font-size: .86rem; position: relative; z-index: 20;
+}
+.announce[hidden] { display: none; }
+.announce-inner {
+  display: flex; align-items: center; gap: 12px;
+  padding-top: 10px; padding-bottom: 10px;
+}
+.announce-icon { flex-shrink: 0; }
+.announce-text { margin: 0; flex: 1; min-width: 0; line-height: 1.5; }
+.announce-short { display: none; }
+.announce-link {
+  flex-shrink: 0; color: var(--on-primary); font-weight: 700;
+  text-decoration: underline; text-underline-offset: 3px; white-space: nowrap;
+}
+.announce-link:hover { opacity: .85; }
+.announce-close {
+  flex-shrink: 0; background: none; border: 0; cursor: pointer;
+  color: var(--on-primary); font-size: 1.2rem; line-height: 1;
+  padding: 4px 6px; border-radius: 6px; opacity: .8;
+}
+.announce-close:hover { opacity: 1; background: rgba(255, 255, 255, .15); }
+
+@media (max-width: 720px) {
+  .announce { font-size: .8rem; }
+  .announce-full { display: none; }
+  .announce-short { display: inline; }
+}
+
+/* Kindle Unlimited 訴求 */
+.ku-hero {
+  background: linear-gradient(135deg, var(--primary-soft), var(--surface));
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  padding: 26px 28px; margin: 26px 0 8px;
+}
+.ku-hero-label {
+  display: inline-block; font-size: .74rem; font-weight: 700; letter-spacing: .06em;
+  background: var(--primary); color: var(--on-primary);
+  border-radius: 999px; padding: 3px 14px; margin-bottom: 10px;
+}
+.ku-hero h2 { margin: 0 0 8px; font-size: 1.15rem; }
+.ku-hero p { margin: 0 0 6px; font-size: .93rem; color: var(--text-muted); }
+.ku-hero-actions { margin-top: 16px !important; }
+
+.book-cover { position: relative; }
+.ku-badge {
+  position: absolute; left: 50%; transform: translateX(-50%);
+  bottom: -9px; white-space: nowrap;
+  font-size: .66rem; font-weight: 700; letter-spacing: .03em;
+  background: var(--primary); color: var(--on-primary);
+  border-radius: 999px; padding: 3px 10px;
+  box-shadow: var(--shadow);
+}
+
+.affiliate-note {
+  font-size: .78rem; color: var(--text-muted);
+  border-top: 1px solid var(--border); padding-top: 14px; margin-top: 32px;
 }
 
 .book-list { display: grid; gap: 28px; margin: 28px 0 40px; }
@@ -605,9 +690,35 @@ a.card:active { transform: translateY(-1px) scale(.99); }
   border-radius: 999px; padding: 8px 22px;
 }
 
+/* 対訳シリーズ（コンパクトな3カラム） */
+.bl-list {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px; margin: 22px 0 40px;
+}
+.bl-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 20px;
+  box-shadow: var(--shadow);
+  transition: transform 200ms var(--ease-out), box-shadow 200ms var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) {
+  .bl-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+}
+/* 表紙の縦横比が本ごとに違う（正方形と1.6:1が混在）ため、
+   枠の高さを揃えて object-fit で中央を見せる。カードの頭が揃う。 */
+.bl-card .book-cover { width: 150px; height: 220px; margin: 0 auto 18px; }
+.bl-card .book-cover img {
+  display: block; width: 100%; height: 100%; object-fit: cover;
+  border-radius: 6px; box-shadow: var(--shadow-lift);
+}
+.bl-card h3 { margin: 0 0 2px; font-size: 1.05rem; }
+.bl-card .book-sub { margin: 0 0 10px; font-size: .82rem; }
+.bl-card p { font-size: .89rem; color: var(--text-muted); }
+.bl-card .book-actions { margin-top: 16px; }
+
 @media (max-width: 640px) {
   .book-card { grid-template-columns: 1fr; gap: 18px; padding: 20px; }
-  .book-cover { max-width: 170px; margin: 0 auto; }
+  .book-card .book-cover { max-width: 170px; margin: 0 auto; }
 }
 
 /* ---------- ブログ ---------- */

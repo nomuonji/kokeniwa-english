@@ -24,6 +24,39 @@ def breadcrumb_jsonld(cfg, crumbs):
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
 
 
+# 全ページ共通のアナウンスバー。Kindle教材の告知に使う。
+#
+# text/link を書き換えれば全ページに反映される。告知をやめるときは None にする。
+# 閉じるボタンは localStorage に記録し、同じ id のうちは再表示しない。
+# 内容を変えたら id も変える（過去に閉じた人にも再度出すため）。
+ANNOUNCE = {
+    "id": "kindle-2026-07",
+    "text": "英語トレーニングシリーズ全3巻を出版しました。対訳シリーズと合わせて全6冊、"
+            "Kindle Unlimited の読み放題対象です。",
+    "short": "Kindle教材 全6冊を出版しました（Kindle Unlimited 対象）",
+    "link": "/books/",
+    "link_label": "教材を見る",
+}
+
+
+def _announce_html():
+    a = ANNOUNCE
+    if not a:
+        return ""
+    return f"""
+<div class="announce" id="announce" data-announce-id="{esc(a["id"])}" hidden>
+  <div class="container announce-inner">
+    <span class="announce-icon" aria-hidden="true">📚</span>
+    <p class="announce-text">
+      <span class="announce-full">{esc(a["text"])}</span>
+      <span class="announce-short">{esc(a["short"])}</span>
+    </p>
+    <a class="announce-link" href="{esc(a["link"])}">{esc(a["link_label"])} →</a>
+    <button type="button" class="announce-close" aria-label="お知らせを閉じる">×</button>
+  </div>
+</div>"""
+
+
 def page(cfg, *, title, description, path, content, breadcrumbs=None,
          jsonld=None, og_type="website", active_nav=None, extra_scripts="",
          noindex=False):
@@ -34,6 +67,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
     jsonld: dict または dictのリスト（BreadcrumbListは自動付与）
     active_nav: NAV_ITEMS のパス（現在地のハイライト用）
     """
+    announce_html = _announce_html()
     site_name = cfg["site_name"]
     full_title = site_name if path == "/" else f"{title}｜{site_name}"
     canonical = cfg["base_url"] + path
@@ -126,6 +160,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
   </svg>
 </div>
 <a class="skip-link" href="#main">本文へスキップ</a>
+{announce_html}
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="/">
@@ -148,6 +183,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
   </div>
 </footer>
 {extra_scripts}
+<script src="/static/announce.js" defer></script>
 </body>
 </html>
 """
