@@ -1,7 +1,28 @@
 """共通レイアウト（ヘッダ・フッタ・head内メタ）。"""
+import hashlib
 import json
+from functools import lru_cache
+from pathlib import Path
 
 from lib.render import esc
+
+_STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
+
+
+@lru_cache(maxsize=None)
+def asset(path):
+    """/static/... に内容ハッシュのクエリを付けて返す。
+
+    _headers で /static/* に Cache-Control: max-age=86400 を設定しているため、
+    ファイルを更新しても既存訪問者には最大24時間、古いCSS/JSが使われてしまう。
+    （実際にCSS更新後、キャッシュ済みブラウザでレイアウトが崩れた）
+    内容が変わったときだけURLが変わるようにして、確実に取り直させる。
+    """
+    f = _STATIC_DIR / path.removeprefix("/static/")
+    if not f.is_file():
+        return path
+    h = hashlib.sha1(f.read_bytes()).hexdigest()[:8]
+    return f"{path}?v={h}"
 
 NAV_ITEMS = [
     ("/reading/", "英文解釈"),
@@ -117,7 +138,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
 <meta property="og:site_name" content="{esc(site_name)}">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="{esc(asset("/static/style.css"))}">
 {jsonld_html}
 </head>
 <body>
@@ -183,7 +204,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
   </div>
 </footer>
 {extra_scripts}
-<script src="/static/announce.js" defer></script>
+<script src="{esc(asset("/static/announce.js"))}" defer></script>
 </body>
 </html>
 """
