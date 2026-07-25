@@ -94,6 +94,15 @@ def build_vocab(key):
 
 
 # ---- 読解 ----
+#
+# 解説を含めない理由（重要・戻さないこと）:
+#   Kindle版『英文解釈トレーニング200問』を KDP セレクトに登録しているため、
+#   本の内容（特典コンテンツを含む）を Amazon 以外で配布すると独占条件と衝突する。
+#   配布CSVは「英文＋設問＋正解＋訳」＝サイトで公開している範囲にとどめ、
+#   詳しい解説は書籍にのみ残す（語彙の例文を除いているのと同じ方針）。
+INCLUDE_READING_EXPLANATION = False
+
+
 def build_reading():
     with (DATA / "reading_problems.jsonl").open(encoding="utf-8") as f:
         items = [json.loads(l) for l in f if l.strip()]
@@ -111,7 +120,8 @@ def build_reading():
             head = para(ans, f"訳: {it['translation_ja']}")
         else:
             head = f"【訳例】{it['translation_ja']}"
-        back = para(head, f"【解説】{it['explanation_ja']}")
+        back = (para(head, f"【解説】{it['explanation_ja']}")
+                if INCLUDE_READING_EXPLANATION else head)
         tags = " ".join([
             "reading",
             str(it["category"]).replace(" ", "_"),

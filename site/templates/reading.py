@@ -121,11 +121,21 @@ def render_category(cfg, problems, category):
 
 
 def _answer_panel_body(p):
+    """解答パネルの中身。
+
+    ■ 解説をサイトに出さない理由（重要・戻さないこと）
+    Kindle版『英文解釈トレーニング200問』を KDP セレクトに登録しているため、
+    本の内容を Amazon 以外で公開すると独占条件と衝突する。
+    サイトでは英文と全文訳までにとどめ、詳しい解説は書籍にのみ残す。
+    （語彙の例文を配布CSVから除いているのと同じ方針。[[kdp-select-exclusivity]]）
+    """
     return f"""
 <h2>全文訳</h2>
 <p>{esc(p["translation_ja"])}</p>
-<h2>解説</h2>
-<p>{esc(p["explanation_ja"])}</p>
+<div class="note-box">
+<p>📘 この英文の<strong>詳しい解説</strong>は、Kindle版
+『英文解釈トレーニング200問』に収録しています。</p>
+</div>
 """
 
 
@@ -151,7 +161,7 @@ def render_problem(cfg, problems, index):
     else:
         interaction = f"""
 <p class="question-ja">Q. {esc(p["question_ja"])}</p>
-<p><button type="button" class="reveal-btn" data-reveal="{panel_id}">訳と解説を表示</button></p>
+<p><button type="button" class="reveal-btn" data-reveal="{panel_id}">全文訳を表示</button></p>
 <div class="answer-panel" id="{panel_id}">{_answer_panel_body(p)}</div>
 """
         quiz_attrs = ""
@@ -185,7 +195,7 @@ def render_problem(cfg, problems, index):
     }
     return layout.page(
         cfg, title=f"英文解釈 No.{p['id']}｜{p['category']}「{p['point']}」",
-        description=f"【{lv['label']}】{p['sentence_en'][:80]} — {p['question_ja']} 和訳と詳しい解説つき。",
+        description=f"【{lv['label']}】{p['sentence_en'][:80]} — {p['question_ja']} 全文訳つき。",
         path=path, content=content, jsonld=jsonld,
         breadcrumbs=[("/reading/", "英文解釈"),
                      (category_url(p["category"]), p["category"]),
