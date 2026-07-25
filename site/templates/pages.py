@@ -71,8 +71,10 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
 
 {latest}
 
-<div class="section-head"><h2>おすすめ教材</h2><a class="more" href="/books/">教材一覧 →</a></div>
-<p class="lead">Kindleで読める英語学習書など、当サイトと相性のよい教材を紹介しています。</p>
+<div class="section-head"><h2>Kindle教材</h2><a class="more" href="/books/">くわしく見る →</a></div>
+<p class="lead">当サイトの学習コンテンツをもとに作った「英語トレーニングシリーズ」全3巻。
+単語の例文や英文解釈の詳しい解説は、Kindle版に収録しています。</p>
+<div class="book-strip">{_book_strip()}</div>
 """
     jsonld = {
         "@context": "https://schema.org",
@@ -248,23 +250,135 @@ def render_kindle_index(cfg):
         breadcrumbs=[("/kindle/", "Kindle読者特典")], noindex=True)
 
 
+# 自社Kindle書籍。「英語トレーニングシリーズ」（レーベル: Kokeniwa English）
+#
+# asin が None の本はまだ Amazon の審査中で商品ページが存在しないため、
+# 「近日公開」として表示しリンクを張らない（リンク切れを作らないため）。
+# 販売開始後に asin を埋めて再デプロイすれば購入ボタンが出る。
+KINDLE_BOOKS = [
+    {
+        "slug": "uscpa",
+        "volume": 1,
+        "title": "USCPA頻出英単語1000",
+        "subtitle": "科目別・例文対訳つき",
+        "asin": "B0HBJ6BKVZ",
+        "price": "¥500",
+        "cover": "/static/covers/uscpa.jpg",
+        "icon": "📊",
+        "lead": "米国公認会計士（USCPA）試験に頻出する英単語1,000語を、"
+                "現行試験の6科目にそって整理した単語帳です。",
+        "points": [
+            "現行試験（CPA Evolution 以降）の科目区分に準拠",
+            "全1,000語に定訳と「1文の例文＋和訳」つき",
+            "FAR 330 / AUD 160 / REG 200 / BAR 120 / ISC 90 / TCP 100",
+        ],
+        "site_link": ("/vocab/uscpa/", "サイトで単語を確認する"),
+    },
+    {
+        "slug": "legal",
+        "volume": 2,
+        "title": "法律英単語1000",
+        "subtitle": "分野別・例文対訳つき",
+        "asin": "B0GYRD22QP",
+        "price": "¥500",
+        "cover": "/static/covers/legal.jpg",
+        "icon": "⚖️",
+        "lead": "契約・会社法・訴訟・知的財産・労働・金融など、"
+                "法律実務の主要10分野から頻出する英単語1,000語を集めました。",
+        "points": [
+            "契約書・会社法・訴訟など10分野を分野別に整理",
+            "全1,000語に定訳と「1文の例文＋和訳」つき",
+            "英文契約書を読み始めた方の最初の一冊に",
+        ],
+        "site_link": ("/vocab/legal/", "サイトで単語を確認する"),
+    },
+    {
+        "slug": "reading",
+        "volume": 3,
+        "title": "英文解釈トレーニング200問",
+        "subtitle": "日英対訳で読み解く英文法・構文",
+        "asin": None,          # 審査中。販売開始後にASINを記入する
+        "price": "¥500",
+        "cover": "/static/covers/reading.jpg",
+        "icon": "📖",
+        "lead": "主語と述語の発見・節の切れ目・修飾関係・比較・倒置・省略など、"
+                "英文解釈でつまずきやすいポイントを200問に凝縮しました。",
+        "points": [
+            "選択式59問＋和訳141問。手を動かして構造を確認",
+            "全問に自然な和訳と、なぜそう読むのかの詳しい解説つき",
+            "基礎★→標準★★→実戦★★★の難易度順",
+        ],
+        "site_link": ("/reading/", "サイトで問題を解く"),
+    },
+]
+
+
+def amazon_url(asin):
+    return f"https://www.amazon.co.jp/dp/{asin}"
+
+
+def _book_strip():
+    """トップページ用の表紙サムネイル列。クリックで /books/ へ。"""
+    items = "".join(
+        f'<a class="book-thumb" href="/books/">'
+        f'<img src="{esc(b["cover"])}" alt="{esc(b["title"])} の表紙" '
+        f'width="500" height="800" loading="lazy">'
+        f'<span>{esc(b["title"])}</span></a>'
+        for b in KINDLE_BOOKS)
+    return items
+
+
+def _book_card(b):
+    points = "".join(f"<li>{esc(p)}</li>" for p in b["points"])
+    if b["asin"]:
+        buy = (f'<a class="follow-btn" href="{esc(amazon_url(b["asin"]))}" '
+               f'rel="noopener" target="_blank">Amazonで見る（{esc(b["price"])}）</a>')
+        status = ""
+    else:
+        buy = '<span class="book-soon">近日公開</span>'
+        status = '<p class="book-status">現在Amazonで審査中です。公開までしばらくお待ちください。</p>'
+    path, label = b["site_link"]
+    return f"""
+<article class="book-card">
+  <div class="book-cover">
+    <img src="{esc(b["cover"])}" alt="{esc(b["title"])} の表紙"
+         width="500" height="800" loading="lazy">
+  </div>
+  <div class="book-body">
+    <span class="book-vol">英語トレーニングシリーズ 第{b["volume"]}巻</span>
+    <h3>{b["icon"]} {esc(b["title"])}</h3>
+    <p class="book-sub">{esc(b["subtitle"])}</p>
+    <p>{esc(b["lead"])}</p>
+    <ul class="book-points">{points}</ul>
+    {status}
+    <p class="book-actions">{buy}<a class="book-sitelink" href="{esc(path)}">{esc(label)} →</a></p>
+  </div>
+</article>"""
+
+
 def render_books(cfg):
-    content = """
-<h1>おすすめ教材</h1>
-<p class="lead">当サイトの学習と相性のよい教材を厳選して紹介します。</p>
+    cards = "".join(_book_card(b) for b in KINDLE_BOOKS)
+    content = f"""
+<h1>Kindle教材</h1>
+<p class="lead">当サイトの学習コンテンツをもとに作った、
+<strong>英語トレーニングシリーズ</strong>（全3巻）です。
+サイトで学んだ内容を、オフラインでもまとめて復習できます。</p>
 
-<h2>Kindleで読める英語学習書</h2>
-<div class="note-box">📚 紹介書籍は現在準備中です。公開までしばらくお待ちください。</div>
+<div class="book-list">{cards}</div>
 
-<h2>英文解釈をさらに深める</h2>
-<div class="note-box">📖 精読・構文解析の定番書などを準備中です。</div>
+<h2>サイトとの違い</h2>
+<p>当サイトでは、英単語は<strong>見出し語と定訳</strong>まで、英文解釈は
+<strong>英文・設問・正解・全文訳</strong>まで無料で公開しています。
+Kindle版には、これに加えて<strong>単語の例文と対訳</strong>、
+<strong>英文解釈の詳しい解説</strong>を収録しています。</p>
 
-<h2>USCPA・法律英語の学習リソース</h2>
-<div class="note-box">🎓 専門分野の英語教材・講座などを準備中です。</div>
+<h2>読者特典</h2>
+<p>各書籍には、内容をそのまま暗記アプリ <strong>Anki</strong> に取り込める
+学習用データの特典がついています。ダウンロード方法は書籍の巻末に記載しています。</p>
 """
     return layout.page(
-        cfg, title="おすすめ教材",
-        description="英文解釈・USCPA・法律英語の学習に役立つKindle書籍などの教材紹介。",
+        cfg, title="Kindle教材",
+        description="英文解釈・USCPA英単語・法律英単語のKindle教材「英語トレーニングシリーズ」全3巻のご紹介。",
         path="/books/", content=content,
         breadcrumbs=[("/books/", "教材")], active_nav="/books/")
 
