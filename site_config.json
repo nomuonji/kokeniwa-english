@@ -5,6 +5,13 @@
   "base_url": "https://en.kokeniwa.net",
   "lang": "ja",
   "include_draft": true,
+  "sister": {
+    "name": "Kokeniwa Japanese",
+    "url": "https://ja.kokeniwa.net",
+    "lang": "en",
+    "label": "姉妹サイト",
+    "note": "日本語を学ぶ英語話者向け（サイトは英語）"
+  },
   "sns": {
     "reading": {
       "platform": "Threads",

@@ -78,6 +78,22 @@ def _announce_html():
 </div>"""
 
 
+def _sister_html(cfg):
+    """フッタの姉妹サイト導線。
+
+    en（日本語話者の英語学習）と ja（英語話者の日本語学習）は読者が
+    ほぼ重ならないので、ナビには載せずフッタの1行にとどめる。
+    site_config.json の "sister" を消せば非表示になる。
+    """
+    s = cfg.get("sister")
+    if not s:
+        return ""
+    return (f'<p class="footer-sister">{esc(s["label"])} '
+            f'<a href="{esc(s["url"])}" hreflang="{esc(s["lang"])}" rel="noopener">'
+            f'{esc(s["name"])}</a>'
+            f'<span class="footer-sister-note">{esc(s["note"])}</span></p>')
+
+
 def page(cfg, *, title, description, path, content, breadcrumbs=None,
          jsonld=None, og_type="website", active_nav=None, extra_scripts="",
          noindex=False, og_image="default"):
@@ -218,6 +234,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
     <p class="footer-brand">{esc(site_name)}</p>
     <p class="footer-tagline">{esc(cfg["tagline"])}</p>
     <nav class="footer-nav" aria-label="フッタ">{nav_html}</nav>
+{_sister_html(cfg)}
     <p class="copyright">&copy; {esc(site_name)}</p>
   </div>
 </footer>
