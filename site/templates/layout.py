@@ -94,6 +94,34 @@ def _sister_html(cfg):
             f'<span class="footer-sister-note">{esc(s["note"])}</span></p>')
 
 
+def _analytics_html(cfg):
+    """Search Console の所有権確認メタと GA4 タグ。
+
+    site_config.json の "analytics" が空なら何も出力しない（ローカルや
+    フォーク時に他人の計測IDが混ざらないように、既定は空）。
+    GA4は本番ホスト以外では config を呼ばない。ローカルの
+    `python -m http.server` プレビューの表示が計測に混ざるのを防ぐため。
+    """
+    a = cfg.get("analytics") or {}
+    out = ""
+    if a.get("google_site_verification"):
+        out += ('<meta name="google-site-verification" '
+                f'content="{esc(a["google_site_verification"])}">\n')
+    ga4 = a.get("ga4_measurement_id")
+    if ga4:
+        host = cfg["base_url"].split("//", 1)[-1].rstrip("/")
+        out += (
+            f'<script async src="https://www.googletagmanager.com/gtag/js?id={esc(ga4)}"></script>\n'
+            "<script>\n"
+            "window.dataLayer=window.dataLayer||[];\n"
+            "function gtag(){dataLayer.push(arguments);}\n"
+            f'if(location.hostname==="{esc(host)}"){{gtag("js",new Date());'
+            f'gtag("config","{esc(ga4)}");}}\n'
+            "</script>\n"
+        )
+    return out
+
+
 def page(cfg, *, title, description, path, content, breadcrumbs=None,
          jsonld=None, og_type="website", active_nav=None, extra_scripts="",
          noindex=False, og_image="default"):
@@ -171,7 +199,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
 <link rel="apple-touch-icon" href="{esc(asset("/static/apple-touch-icon.png"))}">
 <link rel="alternate" type="application/rss+xml" title="{esc(site_name)} のブログ" href="/feed.xml">
 <link rel="stylesheet" href="{esc(asset("/static/style.css"))}">
-{jsonld_html}
+{_analytics_html(cfg)}{jsonld_html}
 </head>
 <body>
 <div class="garden-bg" aria-hidden="true">
@@ -235,6 +263,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
     <p class="footer-tagline">{esc(cfg["tagline"])}</p>
     <nav class="footer-nav" aria-label="フッタ">{nav_html}</nav>
 {_sister_html(cfg)}
+    <p class="footer-legal"><a href="/privacy/">プライバシーポリシー</a></p>
     <p class="copyright">&copy; {esc(site_name)}</p>
   </div>
 </footer>

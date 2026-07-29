@@ -152,6 +152,7 @@ def build(cfg):
         articles=articles))
     emit("/sns/", pages_tpl.render_sns(cfg))
     emit("/books/", pages_tpl.render_books(cfg))
+    emit("/privacy/", pages_tpl.render_privacy(cfg))
     # Kindle読者特典（本からリンクされる固定URL。検索には載せない）
     # 書籍ごとに1ページ＝1データ。他書籍のデータへは導線を作らない。
     emit("/kindle/", pages_tpl.render_kindle_index(cfg), noindex=True)

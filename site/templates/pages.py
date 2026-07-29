@@ -1,4 +1,4 @@
-"""トップ・SNS紹介・教材紹介・404。"""
+"""トップ・SNS紹介・教材紹介・プライバシーポリシー・404。"""
 from lib.render import esc
 from templates import blog as blog_tpl
 from templates import layout
@@ -510,6 +510,93 @@ Kindle版には、これに加えて<strong>単語の例文と対訳</strong>、
                     "Kindle Unlimited 対象です。",
         path="/books/", content=content, og_image="books",
         breadcrumbs=[("/books/", "教材")], active_nav="/books/")
+
+
+def render_privacy(cfg):
+    """プライバシーポリシー。
+
+    GA4（Cookieを使う）とAmazonアソシエイトを使っている以上、その旨の明示が要る。
+    連絡先は site_config.json の "contact_email" に入れれば出る（空なら省略し、
+    SNSのDMのみを案内する）。
+    """
+    site_name = esc(cfg["site_name"])
+    ga4 = (cfg.get("analytics") or {}).get("ga4_measurement_id")
+    email = cfg.get("contact_email")
+    sns_links = "、".join(
+        f'<a href="{esc(s["url"])}" rel="noopener">{esc(s["handle"])}</a>'
+        for s in cfg["sns"].values())
+
+    analytics_section = f"""
+<h2>アクセス解析について</h2>
+<p>当サイトでは、サイトの利用状況を把握し、コンテンツを改善するために
+Googleが提供するアクセス解析ツール「Google アナリティクス」を利用しています。
+Google アナリティクスはCookieを使用して、訪問者の情報を匿名で収集します。
+収集される情報にはIPアドレスやアクセス日時、閲覧ページ、参照元などが含まれますが、
+氏名や住所など個人を特定する情報は含まれません。</p>
+<p>Cookieの使用を望まない場合は、お使いのブラウザの設定でCookieを無効にするか、
+Googleが提供する
+<a href="https://tools.google.com/dlpage/gaoptout?hl=ja" rel="noopener nofollow">
+Google アナリティクス オプトアウト アドオン</a>をご利用ください。</p>
+<p>データの取り扱いについては
+<a href="https://policies.google.com/technologies/partner-sites?hl=ja" rel="noopener nofollow">
+Googleのポリシーと規約</a>をご確認ください。</p>
+<p>また、検索結果での表示状況を把握するために Google Search Console を利用しています。
+こちらは検索キーワードや表示回数などの集計データを扱うもので、
+個人を特定する情報は取得しません。</p>
+""" if ga4 else """
+<h2>アクセス解析について</h2>
+<p>当サイトでは、検索結果での表示状況を把握するために Google Search Console を
+利用しています。検索キーワードや表示回数などの集計データを扱うもので、
+個人を特定する情報は取得しません。</p>
+"""
+
+    contact_html = (
+        f'<p>本ポリシーに関するお問い合わせは <a href="mailto:{esc(email)}">{esc(email)}</a> '
+        f'までご連絡ください。SNSアカウント（{sns_links}）のDMでも受け付けています。</p>'
+        if email else
+        f'<p>本ポリシーに関するお問い合わせは、SNSアカウント（{sns_links}）のDMより'
+        f'ご連絡ください。</p>')
+
+    content = f"""
+<h1>プライバシーポリシー</h1>
+<p class="lead">{site_name}（{esc(cfg["base_url"])}、以下「当サイト」）における、
+個人情報およびアクセス情報の取り扱いについて定めます。</p>
+
+<h2>個人情報の収集について</h2>
+<p>当サイトは、閲覧にあたって氏名・住所・電話番号などの個人情報の入力を求めることは
+ありません。学習の進捗など、サイト上で入力・選択した内容はご利用のブラウザ内
+（localStorage）にのみ保存され、当サイトのサーバーへ送信されることはありません。</p>
+{analytics_section}
+<h2>アフィリエイトプログラムについて</h2>
+<p>当サイトは Amazon.co.jp を宣伝しリンクすることによってサイトが紹介料を獲得できる
+手段を提供することを目的に設定されたアフィリエイトプログラムである
+Amazonアソシエイト・プログラムの参加者です。当サイトから商品ページへ移動された場合、
+Amazon側でCookieが使用されることがあります。</p>
+
+<h2>免責事項</h2>
+<p>当サイトに掲載する学習コンテンツは正確性に努めていますが、その内容を保証するもの
+ではありません。当サイトの利用によって生じた損害について、運営者は責任を負いかねます。</p>
+<p>当サイトから外部サイトへ移動された場合、移動先サイトで提供される情報・サービスに
+ついては責任を負いかねます。</p>
+
+<h2>著作権について</h2>
+<p>当サイトに掲載している文章・問題・解説等の著作権は運営者に帰属します。
+無断での転載・複製を禁じます。引用の範囲でのご利用は、出典として
+当サイトへのリンクを明記のうえお願いします。</p>
+
+<h2>お問い合わせ</h2>
+{contact_html}
+
+<h2>改定について</h2>
+<p>本ポリシーの内容は、必要に応じて予告なく変更されることがあります。</p>
+<p class="privacy-date">制定日: 2026年7月29日</p>
+"""
+    return layout.page(
+        cfg, title="プライバシーポリシー",
+        description=f"{cfg['site_name']}における個人情報・Cookie・アクセス解析の"
+                    "取り扱い、およびアフィリエイトプログラムに関する方針。",
+        path="/privacy/", content=content,
+        breadcrumbs=[("/privacy/", "プライバシーポリシー")])
 
 
 def render_404(cfg):

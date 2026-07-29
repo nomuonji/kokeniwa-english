@@ -5,6 +5,10 @@ tokens.txt
 .env
 .env.*
 
+# Google サービスアカウントの鍵と、そこから取得した解析レポート
+.secrets/
+reports/
+
 # Python
 __pycache__/
 *.pyc
