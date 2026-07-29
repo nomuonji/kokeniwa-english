@@ -124,7 +124,7 @@ def _analytics_html(cfg):
 
 def page(cfg, *, title, description, path, content, breadcrumbs=None,
          jsonld=None, og_type="website", active_nav=None, extra_scripts="",
-         noindex=False, og_image="default"):
+         noindex=False, og_image="default", wide=False):
     """ページ全体のHTMLを返す。
 
     path: サイトルートからのパス（例 "/reading/1/"）。canonical/OGPに使う。
@@ -132,7 +132,10 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
     jsonld: dict または dictのリスト（BreadcrumbListは自動付与）
     active_nav: NAV_ITEMS のパス（現在地のハイライト用）
     og_image: /static/og/{名前}.png のスラッグ。scripts/build_og_images.py で生成する
-              （default / reading / uscpa / legal / training / books / blog / sns）
+              （default / reading / uscpa / legal / training / books / blog / sns、
+               記事は blog/{slug}）
+    wide: 本文の最大幅を広げる。カードを3列並べる一覧向け。読み物のページは
+          1行が長くなって読みにくくなるので既定のまま（920px）にしておく。
     """
     announce_html = _announce_html()
     site_name = cfg["site_name"]
@@ -253,7 +256,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
   </div>
 </header>
 </div>
-<main id="main" class="container">
+<main id="main" class="container{' container-wide' if wide else ''}">
 {crumbs_html}
 {content}
 </main>

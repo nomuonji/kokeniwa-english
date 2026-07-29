@@ -139,6 +139,9 @@ def build(cfg):
 
     # --- ブログ（記事末尾の関連記事は同トピック優先、足りなければ新しい順で補う） ---
     emit("/blog/", blog_tpl.render_index(cfg, articles))
+    for topic_name, topic_articles in blog_tpl.topics_with_articles(articles):
+        emit(blog_tpl.topic_url(topic_name),
+             blog_tpl.render_topic(cfg, topic_name, topic_articles, articles))
     for a in articles:
         others = [b for b in articles if b["slug"] != a["slug"]]
         same = [b for b in others if b.get("topic") and b["topic"] == a.get("topic")]

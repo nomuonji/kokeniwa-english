@@ -108,6 +108,8 @@ body {
 }
 
 .container { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+/* 一覧系だけ広げる。カードが3列並び、メディアらしい面になる */
+.container-wide { max-width: 1120px; }
 
 /* ---------- 庭シルエット背景（枯山水: 遠山・石灯籠・苔石・砂紋） ---------- */
 .garden-bg {
@@ -735,6 +737,58 @@ a.card:active { transform: translateY(-1px) scale(.99); }
 .article-header h1 { margin-bottom: .2em; }
 .page-head { margin-bottom: 26px; }
 
+/* ---------- ブログのメディア面 ---------- */
+
+/* 一覧・トピック別アーカイブの見出し。
+   eyebrow → 大見出し → リード の3段で、雑誌の扉のように入口を作る。 */
+.blog-hero {
+  --topic: var(--primary);
+  --topic-soft: var(--primary-soft);
+  margin-bottom: 22px; padding-bottom: 22px;
+  border-bottom: 1px solid var(--border);
+}
+.blog-hero .eyebrow {
+  margin: 0 0 6px;
+  font-size: .74rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--topic);
+}
+.blog-hero .eyebrow a { color: inherit; }
+.blog-hero h1 { margin: 0 0 10px; }
+.blog-hero .lead { margin: 0; }
+.blog-hero .hero-count { margin: 12px 0 0; font-size: .8rem; color: var(--text-muted); }
+
+/* トピック導線。件数を添えて、どの分野が厚いか一目で分かるようにする。
+   横に溢れたらスクロール（折り返すと縦に伸びて一覧が押し下がるため）。 */
+.topic-rail {
+  display: flex; gap: 8px; margin-bottom: 26px;
+  overflow-x: auto; scrollbar-width: none; padding-bottom: 2px;
+}
+.topic-rail::-webkit-scrollbar { display: none; }
+.topic-rail .chip {
+  --topic: var(--primary);
+  --topic-soft: var(--primary-soft);
+  display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+  padding: 7px 14px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--surface);
+  font-size: .84rem; font-weight: 600; color: var(--text);
+  transition: border-color 180ms var(--ease-out), background 180ms var(--ease-out);
+}
+.topic-rail .chip .chip-count {
+  font-size: .72rem; font-weight: 700; color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+@media (hover: hover) {
+  .topic-rail .chip:hover {
+    text-decoration: none; border-color: var(--topic); background: var(--topic-soft);
+  }
+}
+.topic-rail .chip.is-active {
+  background: var(--topic); border-color: var(--topic); color: var(--on-primary);
+}
+.topic-rail .chip.is-active .chip-count { color: var(--on-primary); opacity: .75; }
+
+.section-count { font-size: .8rem; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+
 /* 記事カード（一覧・トップの最新記事・関連記事で共用）
    トピックごとのアクセント色は .topic-* で切り替える。 */
 .post-featured, .post-card {
@@ -772,12 +826,28 @@ a.card:active { transform: translateY(-1px) scale(.99); }
 }
 .post-featured:active, .post-card:active { transform: scale(.995); }
 
-.post-card { padding: 22px 22px 20px; }
+/* サムネ。scripts/build_og_images.py が記事ごとに生成した画像を敷く。
+   aspect-ratio を固定して、読み込み前後でカードの高さが動かないようにする。 */
+.post-media { background: var(--surface-2); }
+.post-media img {
+  display: block; width: 100%; height: auto;
+  aspect-ratio: 640 / 336; object-fit: cover;
+}
+.post-body { padding: 20px 22px 20px; }
+
 .post-featured {
-  padding: 30px 32px 28px; margin-bottom: 18px;
+  margin-bottom: 26px;
   background:
     linear-gradient(160deg, var(--topic-soft) 0%, transparent 58%),
     var(--surface);
+}
+.post-featured .post-body { padding: 28px 30px 26px; }
+/* 先頭記事は横組み。画像を左に置いて、面の入口をはっきりさせる */
+@media (min-width: 760px) {
+  .post-featured { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); }
+  .post-featured .post-media { height: 100%; }
+  .post-featured .post-media img { height: 100%; aspect-ratio: auto; }
+  .post-featured .post-body { align-self: center; padding: 30px 34px; }
 }
 
 .post-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
@@ -808,9 +878,21 @@ a.card:active { transform: translateY(-1px) scale(.99); }
 }
 
 .post-grid {
-  display: grid; gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  display: grid; gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+/* カード内は「本文が伸びても『読む』が下端で揃う」ように縦に伸ばす */
+.post-grid .post-card { display: flex; flex-direction: column; }
+.post-grid .post-body { display: flex; flex-direction: column; flex: 1; }
+.post-grid .post-more { margin-top: auto; padding-top: 14px; }
+
+/* 記事ページのトピックバッジはアーカイブへのリンク */
+.post-topic-link { display: inline-flex; }
+@media (hover: hover) {
+  .post-topic-link:hover { text-decoration: none; }
+  .post-topic-link:hover .post-topic { background: var(--topic); color: var(--on-primary); }
+}
+.post-topic { transition: background 180ms var(--ease-out), color 180ms var(--ease-out); }
 .related { margin-top: 56px; }
 .related .section-head { margin-top: 0; }
 
@@ -818,9 +900,12 @@ a.card:active { transform: translateY(-1px) scale(.99); }
 .article-header .post-head { margin-bottom: 14px; }
 
 @media (max-width: 640px) {
-  .post-featured { padding: 24px 20px 22px; }
+  .post-featured .post-body { padding: 22px 20px 20px; }
   .post-featured .post-title { font-size: 1.28rem; }
   .post-grid { grid-template-columns: 1fr; }
+  .blog-hero { margin-bottom: 18px; padding-bottom: 18px; }
+  /* 端まで流して、まだ続きがあることを見せる */
+  .topic-rail { margin-inline: calc(var(--pad, 20px) * -1); padding-inline: var(--pad, 20px); }
 }
 
 /* ---------- セクション見出し ---------- */

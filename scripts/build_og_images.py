@@ -67,6 +67,19 @@ SECTIONS = {
 }
 
 
+def save_png(img, path):
+    """PNGを256色に減色して保存する。
+
+    この絵は平坦な塗り・ゆるいグラデ・文字だけなので、フルカラーで持つ意味が薄い。
+    実測で 70KB → 28KB（-60%）になり、目視では区別がつかなかった。
+    画像は git にコミットされ履歴に残り続けるため、ここは効く。
+    128色まで落としても2KBしか変わらないので、階調に余裕のある256色にしている。
+    """
+    path.parent.mkdir(parents=True, exist_ok=True)
+    img.convert("P", palette=Image.ADAPTIVE, colors=256).save(path, optimize=True)
+    return path
+
+
 def font(path, size, weight="Regular"):
     f = ImageFont.truetype(str(path), size)
     try:
@@ -191,10 +204,7 @@ def build(slug, title, desc, accent):
     # 下端のアクセントライン
     d.rectangle([0, H - 8, W, H], fill=accent)
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    path = OUT_DIR / f"{slug}.png"
-    img.save(path, optimize=True)
-    return path
+    return save_png(img, OUT_DIR / f"{slug}.png")
 
 
 def build_touch_icon():
@@ -215,16 +225,161 @@ def build_touch_icon():
     d.line(pts((24, 22), (42, 22)), fill=ink, width=w)
     d.line(pts((24, 30), (36, 30)), fill=ink, width=w)
     img = img.resize((180, 180), Image.LANCZOS)
-    path = OUT_DIR.parent / "apple-touch-icon.png"
-    img.save(path, optimize=True)
+    path = save_png(img, OUT_DIR.parent / "apple-touch-icon.png")
     print(f"icon: {path.relative_to(ROOT)} ({path.stat().st_size // 1024} KB)")
 
 
+# --- ブログ記事ごとのカバー画像 ------------------------------------------
+#
+# 記事一覧のカードのサムネと、その記事のOGP画像を兼ねる。1記事につき2枚出す:
+#   {slug}.png        1200x630  OGP（SNSのスクレイパー相手なのでPNGのまま）
+#   {slug}-card.webp   640x336  一覧のサムネ。一覧に何枚も並ぶので軽さが要る。
+#     PNGだと縮小で色数が増えて元より重くなった（95KB→100KB）ため WebP にした。
+#
+# セクションのOG画像より庭の描き込みを控えめにしている。カードの中では
+# 200px幅ほどに縮むので、要素が多いと何が描いてあるか分からない団子になる。
+
+BLOG_OUT = OUT_DIR / "blog"
+CARD_W, CARD_H = 640, 336
+
+# front matter の topic → アクセント色。site/templates/blog.py の TOPICS と対応させる。
+TOPIC_ACCENT = {
+    "英文解釈": PRIMARY,
+    "英単語": (71, 96, 143),     # 藍 = --accent-training
+    "会計英語": USCPA,
+    "法律英語": LEGAL,
+    "学習法": PRIMARY,
+}
+
+
+def read_front_matter(path):
+    """`---` で囲われた front matter を dict にする。値は文字列のみ。"""
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        return {}
+    _, fm, _ = text.split("---", 2)
+    meta = {}
+    for line in fm.strip().splitlines():
+        if ":" in line:
+            k, v = line.split(":", 1)
+            meta[k.strip()] = v.strip()
+    return meta
+
+
+def wrap_cjk(text, f, max_w, max_lines):
+    """日本語は単語境界が無いので1文字ずつ測って折る。
+
+    句読点の行頭を避けるところまではやらない（見出しは短く、実害が出ないため）。
+    収まらない分は最終行の末尾を「…」にする。
+    """
+    d = ImageDraw.Draw(Image.new("RGB", (1, 1)))
+    lines, cur = [], ""
+    for ch in text:
+        if d.textlength(cur + ch, font=f) <= max_w:
+            cur += ch
+        else:
+            lines.append(cur)
+            cur = ch
+            if len(lines) == max_lines:
+                break
+    if len(lines) < max_lines and cur:
+        lines.append(cur)
+    if len(lines) == max_lines:
+        # 溢れた場合だけ末尾を詰める
+        consumed = sum(len(x) for x in lines)
+        if consumed < len(text):
+            last = lines[-1]
+            while last and d.textlength(last + "…", font=f) > max_w:
+                last = last[:-1]
+            lines[-1] = last + "…"
+    return lines
+
+
+def build_article_cover(slug, title, topic, desc):
+    accent = TOPIC_ACCENT.get(topic, PRIMARY)
+    img = Image.new("RGB", (W, H), BG)
+    vgradient(img, BG_TOP, BG)
+    d = ImageDraw.Draw(img)
+
+    # 庭は遠景の稜線と、右下の苔石だけ。主役はタイトル。
+    hill(d, wave(470, 14, 0.4), GARDEN_FAR)
+    hill(d, wave(548, 10, 2.6), GARDEN_MID)
+    d.ellipse([880, 556, 1130, 640], fill=STONE)
+    moss_cap(d, 1005, 562, 112, [23, 28, 31, 28, 23])
+    moss_cap(d, 806, 600, 40, [11, 15, 17, 15, 11])
+
+    draw_brand(d)
+
+    # トピック名（アクセント色の帯）
+    y = 150
+    if topic:
+        f_topic = font(SANS, 30, "Bold")
+        tw = d.textlength(topic, font=f_topic)
+        d.rounded_rectangle([72, y, 72 + tw + 44, y + 50], radius=25, fill=accent)
+        d.text((94, y + 8), topic, font=f_topic, fill=BG_TOP)
+    y = 232
+
+    # タイトルは横だけでなく縦の収まりも見る。級数を落としながら、
+    # 「全文が入る」かつ「下限を越えない」最初の組み合わせを採る。
+    # ここを縦に見ないと、3行に収まった判定のまま説明文とドメインを踏み抜く。
+    TITLE_BOTTOM = 496
+    for size in (66, 58, 50, 44):
+        f_title = font(SERIF, size, "Bold")
+        lh = round(size * 1.34)
+        max_lines = max(1, (TITLE_BOTTOM - y) // lh)
+        lines = wrap_cjk(title, f_title, W - 72 - 150, max_lines)
+        if len("".join(lines)) >= len(title):
+            break
+    for line in lines:
+        d.text((72, y), line, font=f_title, fill=TEXT)
+        y += lh
+
+    # 説明文は余白が残ったときだけ。長いタイトルのときは無理に入れない
+    # （詰め込むより、タイトルがはっきり読めるほうがカードとして効く）。
+    if desc and TITLE_BOTTOM - y >= 44:
+        f_desc = font(SANS, 26)
+        d.text((72, y + 14), wrap_cjk(desc, f_desc, W - 72 - 260, 1)[0],
+               font=f_desc, fill=MUTED)
+
+    d.text((72, H - 74), DOMAIN, font=font(SANS, 25, "Medium"), fill=MUTED)
+    d.rectangle([0, H - 8, W, H], fill=accent)
+
+    og = save_png(img, BLOG_OUT / f"{slug}.png")
+    card = BLOG_OUT / f"{slug}-card.webp"
+    # 一覧に何枚も並ぶので、OGPより一段軽くする（q82→q76 で16KB→13KB、
+    # 表示サイズが350px前後なので劣化は見えない）
+    img.resize((CARD_W, CARD_H), Image.LANCZOS).save(card, quality=76, method=6)
+    return og, card
+
+
+def build_article_covers():
+    """content/blog/*.md 全記事分のカバーを生成する。
+
+    記事を足したら再実行してコミットする（Cloudflareはdistを配信するだけで、
+    ビルド時にPillowを動かさないため）。draft は一覧に出ないので飛ばす。
+    """
+    blog_dir = ROOT / "content" / "blog"
+    total = 0
+    for path in sorted(blog_dir.glob("*.md")):
+        meta = read_front_matter(path)
+        if meta.get("draft") == "true" or not meta.get("title"):
+            continue
+        og, card = build_article_cover(
+            path.stem, meta["title"], meta.get("topic", ""), meta.get("description", ""))
+        total += og.stat().st_size + card.stat().st_size
+        print(f"blog/{path.stem}: {og.stat().st_size // 1024} KB "
+              f"+ card {card.stat().st_size // 1024} KB")
+    print(f"記事カバー計 {total // 1024} KB")
+
+
 def main():
-    which = sys.argv[1:] or list(SECTIONS) + ["icon"]
+    which = sys.argv[1:] or list(SECTIONS) + ["icon", "blog-covers"]
     if "icon" in which:
         build_touch_icon()
         which = [w for w in which if w != "icon"]
+    if "blog-covers" in which:
+        build_article_covers()
+        which = [w for w in which if w != "blog-covers"]
     for slug in which:
         if slug not in SECTIONS:
             print(f"未知のセクション: {slug}")
