@@ -2,7 +2,7 @@
 """Threads 複数アカウント自動投稿のオーケストレーター(GitHub Actions から実行)。
 
 処理の流れ(各アカウント):
-  1. (前回投稿があり未リプライなら)サイト誘導リプライを前回投稿へぶら下げる
+  1. (前回投稿があり未リプライなら)サイト誘導リプライを前回ツリーの末尾へぶら下げる
   2. 期限が近ければトークンをリフレッシュ
   3. カーソル位置のコンテンツを1件投稿(読解はツリー投稿)
   4. 次回の誘導用に last_post を保存し、カーソルを1つ進める
@@ -138,7 +138,7 @@ def maybe_refresh(name, acc):
 # ---- 遅延サイト誘導リプライ(前回投稿へ) ----
 
 def do_referral(name, acc):
-    """前回投稿(last_post)が未リプライなら、誘導リプライをぶら下げる。
+    """前回投稿(last_post)が未リプライなら、そのツリーの末尾に誘導リプライをぶら下げる。
 
     ベストエフォート: 失敗しても本投稿は続行し、無限リトライを避けるため
     以後は replied=True にして諦める(親削除=media_not_found 等を想定)。
@@ -150,8 +150,11 @@ def do_referral(name, acc):
     if DRY_RUN:
         print(f"[{name}] (DRY_RUN 誘導リプライ)\n  " + text.replace("\n", "\n  "))
         return False
+    # ツリーの末尾へぶら下げる(読解は親+解説の複数投稿。先頭に付けると
+    # 解説より前に誘導が挟まって読む順序が崩れる)。tail_id が無い古い状態は root_id で代替。
+    parent_id = lp.get("tail_id") or lp["root_id"]
     try:
-        rid = tc.post_text(acc["user_id"], acc["token"], text, reply_to_id=lp["root_id"])
+        rid = tc.post_text(acc["user_id"], acc["token"], text, reply_to_id=parent_id)
         lp["replied"] = True
         lp["reply_id"] = rid
         print(f"[{name}] 誘導リプライ完了 reply_id={rid}")
@@ -174,10 +177,10 @@ def post_account(name, acc):
     else:
         ids = tc.post_thread(acc["user_id"], acc["token"], cur["posts"])
         print(f"{label} 投稿完了 media_ids={ids}")
-        # 次回の誘導用に親(先頭)投稿を記録
+        # 次回の誘導用に記録。root_id=親(先頭)、tail_id=ツリー末尾(誘導リプライのぶら下げ先)
         acc["last_post"] = {
             "kind": cur["kind"], "meta": cur["meta"],
-            "root_id": ids[0], "replied": False,
+            "root_id": ids[0], "tail_id": ids[-1], "replied": False,
             "posted_at": NOW.isoformat(),
         }
 

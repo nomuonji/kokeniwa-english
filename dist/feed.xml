@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kokeniwa English のブログ</title>
+    <link>https://en.kokeniwa.net/blog/</link>
+    <atom:link href="https://en.kokeniwa.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト「Kokeniwa（苔庭）」。ThreadsのSNS投稿と連動しています。</description>
+    <language>ja</language>
+    <item>
+      <title>このサイトの使い方 — SNSとセットで英語を「毎日コツコツ」続ける方法</title>
+      <link>https://en.kokeniwa.net/blog/how-to-use-this-site/</link>
+      <guid isPermaLink="true">https://en.kokeniwa.net/blog/how-to-use-this-site/</guid>
+      <description>英文解釈トレーニング・USCPA英単語・法律英単語の3コンテンツを、Threadsの毎日配信と組み合わせて使う方法を紹介します。</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>多読の前に「精読」— 英文解釈が読解スピードを上げる理由</title>
+      <link>https://en.kokeniwa.net/blog/why-sentence-parsing-matters/</link>
+      <guid isPermaLink="true">https://en.kokeniwa.net/blog/why-sentence-parsing-matters/</guid>
+      <description>「たくさん読めば速くなる」は半分だけ正しい。構文を正確に取る訓練が、結局いちばんの近道になる理由を解説します。</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

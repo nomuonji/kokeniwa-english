@@ -5,6 +5,7 @@
 確認:
     cd dist && python -m http.server 8000
 """
+import datetime as dt
 import json
 import re
 import shutil
@@ -14,7 +15,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from lib import config, data_loader, md
-from lib.render import write_page
+from lib.render import esc, write_page
 from templates import blog as blog_tpl
 from templates import pages as pages_tpl
 from templates import reading as reading_tpl
@@ -43,6 +44,35 @@ def load_articles():
         })
     articles.sort(key=lambda a: a["date"], reverse=True)
     return articles
+
+
+def build_feed(cfg, articles):
+    """ブログのRSS 2.0フィード。全ページの<head>から rel=alternate で参照する。"""
+    def rfc822(date):
+        # front matter は "2026-07-15" 形式。時刻は 00:00 GMT として扱う
+        d = dt.datetime.strptime(date, "%Y-%m-%d").replace(tzinfo=dt.timezone.utc)
+        return d.strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+    base = cfg["base_url"]
+    items = "\n".join(f"""    <item>
+      <title>{esc(a["title"])}</title>
+      <link>{base}{blog_tpl.article_url(a)}</link>
+      <guid isPermaLink="true">{base}{blog_tpl.article_url(a)}</guid>
+      <description>{esc(a.get("description", ""))}</description>
+      <pubDate>{rfc822(a["date"])}</pubDate>
+    </item>""" for a in articles)
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{esc(cfg["site_name"])} のブログ</title>
+    <link>{base}/blog/</link>
+    <atom:link href="{base}/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>{esc(cfg["description"])}</description>
+    <language>{esc(cfg["lang"])}</language>
+{items}
+  </channel>
+</rss>
+"""
 
 
 def build(cfg):
@@ -76,9 +106,6 @@ def build(cfg):
 
     # --- 読解問題 ---
     emit("/reading/", reading_tpl.render_index(cfg, problems))
-    for d in config.DIFFICULTY_LEVELS:
-        emit(f"/reading/level/{config.DIFFICULTY_LEVELS[d]['slug']}/",
-             reading_tpl.render_level(cfg, problems, d))
     for category in {p["category"] for p in problems}:
         emit(reading_tpl.category_url(category),
              reading_tpl.render_category(cfg, problems, category))
@@ -141,14 +168,19 @@ def build(cfg):
         for csv_file in sorted(anki_dir.glob("*.csv")):
             shutil.copy2(csv_file, dl_dir / csv_file.name)
 
-    # --- sitemap（noindexページは除外） / robots / _headers ---
+    # --- sitemap（noindexページは除外） / RSS / robots / _headers ---
+    # 更新日が分かるのはブログ記事だけなので、そこにだけ lastmod を付ける
+    lastmod = {blog_tpl.article_url(a): a["date"] for a in articles}
     urls = "\n".join(
-        f"  <url><loc>{cfg['base_url']}{path}</loc></url>"
+        f"  <url><loc>{cfg['base_url']}{path}</loc>"
+        + (f"<lastmod>{lastmod[path]}</lastmod>" if path in lastmod else "")
+        + "</url>"
         for path in sorted(indexable))
     write_page("sitemap.xml",
                '<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                f"{urls}\n</urlset>\n")
+    write_page("feed.xml", build_feed(cfg, articles))
     write_page("robots.txt",
                f"User-agent: *\nAllow: /\n\nSitemap: {cfg['base_url']}/sitemap.xml\n")
     write_page("_headers", """/*

@@ -16,7 +16,7 @@ from lib import config
 from lib.render import esc
 from templates import layout
 
-TRAINER_SCRIPT = '<script src="/static/training-grid.js" defer></script>'
+TRAINER_SCRIPT = f'<script src="{layout.asset("/static/training-grid.js")}" defer></script>'
 
 
 def set_url(set_key):
@@ -50,7 +50,7 @@ def render_training_home(cfg, counts):
     return layout.page(
         cfg, title="英単語トレーニング（英検準1級・ニュース・ドラマ・句動詞・イディオム）",
         description="英検準1級1500語ほか、ニュース・ドラマ・句動詞・イディオムの英単語を、めくって覚える無料フラッシュカード。",
-        path="/training/", content=content,
+        path="/training/", content=content, og_image="training",
         breadcrumbs=[("/training/", "英単語トレーニング")],
         active_nav="/training/")
 
@@ -75,6 +75,6 @@ def render_trainer(cfg, set_key, words):
     return layout.page(
         cfg, title=f"{tset['title']}フラッシュカード",
         description=f"{tset['description']}",
-        path=path, content=content, noindex=True,
+        path=path, content=content, noindex=True, og_image="training",
         breadcrumbs=[("/training/", "英単語トレーニング"), (path, tset["short"])],
         active_nav="/training/", extra_scripts=TRAINER_SCRIPT)

@@ -102,7 +102,8 @@ def build_posts(it, limit=X_LIMIT, length_fn=weighted_len):
     limit/length_fn を渡すと結合判定の基準を差し替えられる。
     Threads(500字・素の文字数)向けには build_posts(it, 500, len) を使う。
     """
-    head = f"【英文解釈 No.{it['id']}|{it['category']}】(難易度 {DIFF_LABEL[it['difficulty']]})"
+    # 難易度は投稿に載せない（体感と合っていないという指摘のため。サイト表示も廃止済み）
+    head = f"【英文解釈 No.{it['id']}|{it['category']}】"
     q = [head, "", it["sentence_en"], "", f"Q. {it['question_ja']}"]
     if it["format"] == "quiz":
         for i, c in enumerate(it["choices"]):

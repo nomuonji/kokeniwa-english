@@ -40,12 +40,8 @@ CATEGORY_SLUGS = {
     "分詞構文": "participial-constructions",
 }
 
-# 難易度 1/2/3 → CEFRレベル表示
-DIFFICULTY_LEVELS = {
-    1: {"slug": "b2", "label": "B2", "name": "中上級", "description": "大学入試〜英検準1級レベル。基本構文の正確な把握を問う。"},
-    2: {"slug": "c1", "label": "C1", "name": "上級", "description": "英検1級〜実務レベル。挿入・倒置など複雑な構造を含む。"},
-    3: {"slug": "c2", "label": "C2", "name": "最上級", "description": "ネイティブの教養層レベル。皮肉・文体・論理の綾まで読む。"},
-}
+# 難易度（data の difficulty 1/2/3）はサイトに表示しない。
+# 体感の難しさと合っていないという指摘を受けて表示を廃止した（templates/reading.py 冒頭参照）。
 
 # 語彙の科目（subject）メタデータ。key = データ上のsubject値
 USCPA_SUBJECTS = {

@@ -15,7 +15,7 @@ from lib import config
 from lib.render import esc
 from templates import layout
 
-TRAINER_SCRIPT = '<script src="/static/vocab-trainer.js" defer></script>'
+TRAINER_SCRIPT = f'<script src="{layout.asset("/static/vocab-trainer.js")}" defer></script>'
 
 
 def set_url(set_key):
@@ -63,7 +63,7 @@ Kindle版（Anki用データのおまけつき）をご検討ください。</di
     return layout.page(
         cfg, title="専門英単語フラッシュカード（USCPA・法律英語）",
         description="USCPA英単語1000語と法律英単語1000語を科目別にめくって覚える無料フラッシュカード。",
-        path="/vocab/", content=content,
+        path="/vocab/", content=content, og_image="uscpa",
         breadcrumbs=[("/vocab/", "専門英単語")])
 
 
@@ -95,6 +95,6 @@ def render_trainer(cfg, set_key, by_subject):
     return layout.page(
         cfg, title=f"{vset['title']}フラッシュカード",
         description=f"{vset['description']} 科目別にめくって覚える無料フラッシュカード。",
-        path=path, content=content, noindex=True,
+        path=path, content=content, noindex=True, og_image=set_key,
         breadcrumbs=[("/vocab/", "専門英単語"), (path, vset["title"])],
         active_nav=path, extra_scripts=TRAINER_SCRIPT)

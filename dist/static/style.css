@@ -284,9 +284,6 @@ a.card:active { transform: translateY(-1px) scale(.99); }
   background: var(--surface-2); color: var(--text-muted);
   border: 1px solid var(--border);
 }
-.badge-b2 { background: var(--success-soft); color: var(--success); border-color: transparent; }
-.badge-c1 { background: var(--accent-reading-soft); color: var(--accent-reading); border-color: transparent; }
-.badge-c2 { background: var(--accent-legal-soft); color: var(--accent-legal); border-color: transparent; }
 .badge-cat { background: var(--surface-2); }
 
 /* ---------- 一覧 ---------- */

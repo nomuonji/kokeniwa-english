@@ -2,7 +2,7 @@
   "site_name": "Kokeniwa English",
   "tagline": "苔むすように、言葉を育てる。英語を毎日すこしずつ。",
   "description": "英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト「Kokeniwa（苔庭）」。ThreadsのSNS投稿と連動しています。",
-  "base_url": "https://en.kokeniwa.study",
+  "base_url": "https://en.kokeniwa.net",
   "lang": "ja",
   "include_draft": true,
   "sns": {
@@ -11,7 +11,7 @@
       "handle": "@eibun_reading",
       "url": "https://www.threads.com/@eibun_reading",
       "label": "英文解釈クイズ",
-      "description": "B2〜C2レベルの英文解釈問題を1日3問出題。解説つきで、読み解く力を鍛えます。",
+      "description": "英文解釈の問題を1日3問出題。解説つきで、読み解く力を鍛えます。",
       "display_name": "英文解釈bot",
       "icon": "/static/sns/reading.jpg",
       "cadence": "1日3問"

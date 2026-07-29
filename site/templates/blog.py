@@ -23,7 +23,7 @@ def render_index(cfg, articles):
     return layout.page(
         cfg, title="ブログ",
         description="英語学習の方法論、教材レビュー、USCPA・法律英語のコラム。",
-        path="/blog/", content=content,
+        path="/blog/", content=content, og_image="blog",
         breadcrumbs=[("/blog/", "ブログ")], active_nav="/blog/")
 
 
@@ -47,13 +47,18 @@ def render_article(cfg, article):
         "headline": article["title"],
         "description": article.get("description", ""),
         "datePublished": article["date"],
+        "dateModified": article["date"],
         "inLanguage": "ja",
+        "image": cfg["base_url"] + "/static/og/blog.png",
         "mainEntityOfPage": cfg["base_url"] + path,
-        "publisher": {"@type": "Organization", "name": cfg["site_name"]},
+        "author": {"@type": "Organization", "name": cfg["site_name"],
+                   "url": cfg["base_url"] + "/"},
+        "publisher": {"@type": "Organization", "name": cfg["site_name"],
+                      "url": cfg["base_url"] + "/"},
     }
     return layout.page(
         cfg, title=article["title"],
         description=article.get("description", article["title"]),
-        path=path, content=content, jsonld=jsonld, og_type="article",
+        path=path, content=content, jsonld=jsonld, og_type="article", og_image="blog",
         breadcrumbs=[("/blog/", "ブログ"), (path, article["title"])],
         active_nav="/blog/")

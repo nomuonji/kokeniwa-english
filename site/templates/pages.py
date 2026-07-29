@@ -58,7 +58,7 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
     <span class="card-icon">📖</span>
     <h2>英文解釈トレーニング</h2>
     <p>一文をどこまで正確に読めるか。構文・語法・論理の急所を突くクイズ形式の問題集。</p>
-    <div class="card-meta">全{reading_count}問・B2〜C2・解説つき</div>
+    <div class="card-meta">全{reading_count}問・21カテゴリ・全文訳つき</div>
   </a>
   <a class="card card-uscpa" href="/vocab/uscpa/">
     <span class="card-icon">📊</span>
@@ -92,14 +92,24 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
 <div class="book-strip">{_book_strip()}</div>
 {_AFFILIATE_NOTICE}
 """
-    jsonld = {
+    jsonld = [{
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": cfg["site_name"],
+        "alternateName": "苔庭 英語",
         "description": cfg["description"],
         "url": cfg["base_url"] + "/",
         "inLanguage": "ja",
-    }
+        "publisher": {"@id": cfg["base_url"] + "/#publisher"},
+    }, {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": cfg["base_url"] + "/#publisher",
+        "name": cfg["site_name"],
+        "url": cfg["base_url"] + "/",
+        "logo": cfg["base_url"] + "/static/apple-touch-icon.png",
+        "sameAs": [s["url"] for s in cfg["sns"].values()],
+    }]
     return layout.page(
         cfg, title=cfg["site_name"], description=cfg["description"],
         path="/", content=content, jsonld=jsonld)
@@ -116,7 +126,7 @@ def render_sns(cfg):
     return layout.page(
         cfg, title="SNSアカウント紹介",
         description="英文解釈・USCPA英単語・法律英単語を毎日配信するThreadsアカウントの紹介。",
-        path="/sns/", content=content,
+        path="/sns/", content=content, og_image="sns",
         breadcrumbs=[("/sns/", "SNS")], active_nav="/sns/")
 
 
@@ -159,7 +169,7 @@ KINDLE_BONUS = {
         "count": "全200問",
         "desc": "表面に英文と設問、裏面に正解と全文訳が入ります"
                 "（詳しい解説は書籍でご確認ください）。"
-                "分野・難易度はタグで絞り込めます。",
+                "分野はタグで絞り込めます。",
     },
     "uscpa": {
         "slug": "uscpa",
@@ -327,7 +337,7 @@ KINDLE_BOOKS = [
         "points": [
             "選択式59問＋和訳141問。手を動かして構造を確認",
             "全問に自然な和訳と、なぜそう読むのかの詳しい解説つき",
-            "基礎★→標準★★→実戦★★★の難易度順",
+            "構文把握・比較・倒置・省略など21カテゴリを横断",
         ],
         "site_link": ("/reading/", "サイトで問題を解く"),
     },
@@ -492,8 +502,9 @@ Kindle版には、これに加えて<strong>単語の例文と対訳</strong>、
 <strong>英文解釈の詳しい解説</strong>を収録しています。</p>
 
 <h2>読者特典</h2>
-<p>各書籍には、内容をそのまま暗記アプリ <strong>Anki</strong> に取り込める
-学習用データの特典がついています。ダウンロード方法は書籍の巻末に記載しています。</p>
+<p>英語トレーニングシリーズ（全3巻）には、内容をそのまま暗記アプリ <strong>Anki</strong> に
+取り込める学習用データの特典がついています。ダウンロード方法は書籍の巻末に記載しています。
+（名作で学ぶ英語多読シリーズには、この特典はありません。）</p>
 
 {_AFFILIATE_NOTICE}
 """
@@ -501,7 +512,7 @@ Kindle版には、これに加えて<strong>単語の例文と対訳</strong>、
         cfg, title="Kindle教材",
         description="英文解釈・USCPA英単語・法律英単語のKindle教材「英語トレーニングシリーズ」全3巻。"
                     "Kindle Unlimited 対象です。",
-        path="/books/", content=content,
+        path="/books/", content=content, og_image="books",
         breadcrumbs=[("/books/", "教材")], active_nav="/books/")
 
 

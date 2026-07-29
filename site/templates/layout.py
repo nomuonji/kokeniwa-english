@@ -80,18 +80,23 @@ def _announce_html():
 
 def page(cfg, *, title, description, path, content, breadcrumbs=None,
          jsonld=None, og_type="website", active_nav=None, extra_scripts="",
-         noindex=False):
+         noindex=False, og_image="default"):
     """ページ全体のHTMLを返す。
 
     path: サイトルートからのパス（例 "/reading/1/"）。canonical/OGPに使う。
     breadcrumbs: [(path, label), ...]（トップは自動で先頭に付く）
     jsonld: dict または dictのリスト（BreadcrumbListは自動付与）
     active_nav: NAV_ITEMS のパス（現在地のハイライト用）
+    og_image: /static/og/{名前}.png のスラッグ。scripts/build_og_images.py で生成する
+              （default / reading / uscpa / legal / training / books / blog / sns）
     """
     announce_html = _announce_html()
     site_name = cfg["site_name"]
     full_title = site_name if path == "/" else f"{title}｜{site_name}"
     canonical = cfg["base_url"] + path
+    # OGP画像は絶対URL必須。内容ハッシュを付けて、差し替え時にSNS側の
+    # キャッシュを確実に引き剥がす（Threads/X は URL 単位でキャッシュする）
+    og_image_url = cfg["base_url"] + asset(f"/static/og/{og_image}.png")
 
     jsonld_list = []
     if jsonld:
@@ -136,8 +141,19 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="{esc(canonical)}">
 <meta property="og:site_name" content="{esc(site_name)}">
-<meta name="twitter:card" content="summary">
-<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="{esc(og_image_url)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(full_title)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(full_title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{esc(og_image_url)}">
+<meta name="theme-color" content="#4d6a38">
+<link rel="icon" href="{esc(asset("/static/favicon.svg"))}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{esc(asset("/static/apple-touch-icon.png"))}">
+<link rel="alternate" type="application/rss+xml" title="{esc(site_name)} のブログ" href="/feed.xml">
 <link rel="stylesheet" href="{esc(asset("/static/style.css"))}">
 {jsonld_html}
 </head>

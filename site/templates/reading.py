@@ -1,13 +1,15 @@
-"""英文解釈問題のページ群（個別・一覧・カテゴリ別・難易度別）。"""
+"""英文解釈問題のページ群（個別・一覧・カテゴリ別）。
+
+■ 難易度（B2/C1/C2）を表示しない理由（重要・戻さないこと）
+データ上の difficulty と体感の難しさが合っていないという指摘を受けたため、
+サイト上の難易度表示（バッジ・レベル別ページ・レベル絞り込み）を廃止した。
+データ側の difficulty フィールドは編集用に残してある。
+"""
 from lib import config
 from lib.render import esc
 from templates import layout
 
-QUIZ_SCRIPT = '<script src="/static/quiz.js" defer></script>'
-
-
-def level_of(problem):
-    return config.DIFFICULTY_LEVELS[problem["difficulty"]]
+QUIZ_SCRIPT = f'<script src="{layout.asset("/static/quiz.js")}" defer></script>'
 
 
 def category_url(category):
@@ -19,12 +21,18 @@ def problem_url(problem):
 
 
 def _badges(p, link_category=True):
-    lv = level_of(p)
     cat = (f'<a class="badge badge-cat" href="{category_url(p["category"])}">{esc(p["category"])}</a>'
            if link_category else f'<span class="badge badge-cat">{esc(p["category"])}</span>')
     fmt = "選択式" if p["format"] == "quiz" else "和訳"
-    return (f'<span class="badge badge-{lv["slug"]}">{lv["label"]}</span>'
-            f'{cat}<span class="badge">{fmt}</span>')
+    return f'{cat}<span class="badge">{fmt}</span>'
+
+
+def _clip(text, limit=90):
+    """英文を語の切れ目で詰める（meta descriptionが単語の途中で切れないように）。"""
+    if len(text) <= limit:
+        return text
+    head = text[:limit].rsplit(" ", 1)[0].rstrip(",.;:")
+    return head + "…"
 
 
 def _list_items(problems):
@@ -37,18 +45,6 @@ def _list_items(problems):
             f'<div class="en">{esc(p["sentence_en"])}</div>'
             f'</a>')
     return "\n".join(items)
-
-
-def _level_chips(problems, active_slug=None):
-    chips = []
-    all_cls = ' active' if active_slug is None else ''
-    chips.append(f'<a class="chip{all_cls}" href="/reading/">すべて</a>')
-    for d, lv in config.DIFFICULTY_LEVELS.items():
-        n = sum(1 for p in problems if p["difficulty"] == d)
-        cls = ' active' if lv["slug"] == active_slug else ''
-        chips.append(f'<a class="chip{cls}" href="/reading/level/{lv["slug"]}/">'
-                     f'{lv["label"]} {esc(lv["name"])}<span class="count">{n}</span></a>')
-    return f'<div class="chip-row">{"".join(chips)}</div>'
 
 
 def _category_chips(problems, active=None):
@@ -69,9 +65,7 @@ def render_index(cfg, problems):
     content = f"""
 <h1>英文解釈トレーニング</h1>
 <p class="lead">一文をどこまで正確に読めるか。構文・語法・論理の急所を突く全{len(problems)}問。
-1問1ページ、その場で答え合わせと解説が読めます。</p>
-<h2>レベルで選ぶ</h2>
-{_level_chips(problems)}
+1問1ページ、その場で答え合わせと全文訳が読めます。</p>
 <h2>カテゴリで選ぶ</h2>
 {_category_chips(problems)}
 <h2>全問題</h2>
@@ -79,27 +73,9 @@ def render_index(cfg, problems):
 """
     return layout.page(
         cfg, title="英文解釈トレーニング",
-        description=f"B2〜C2レベルの英文解釈問題{len(problems)}問。構文把握・倒置・省略など21カテゴリ。1問ごとに詳しい解説つき。",
-        path="/reading/", content=content,
+        description=f"英文解釈の練習問題{len(problems)}問。構文把握・倒置・省略など21カテゴリ。1問ごとに全文訳つき。",
+        path="/reading/", content=content, og_image="reading",
         breadcrumbs=[("/reading/", "英文解釈")], active_nav="/reading/")
-
-
-def render_level(cfg, problems, difficulty):
-    lv = config.DIFFICULTY_LEVELS[difficulty]
-    subset = [p for p in problems if p["difficulty"] == difficulty]
-    path = f"/reading/level/{lv['slug']}/"
-    content = f"""
-<h1>英文解釈 {lv['label']}（{esc(lv['name'])}）</h1>
-<p class="lead">{esc(lv['description'])} 全{len(subset)}問。</p>
-{_level_chips(problems, active_slug=lv['slug'])}
-{_list_items(subset)}
-"""
-    return layout.page(
-        cfg, title=f"英文解釈 {lv['label']}（{lv['name']}）",
-        description=f"{lv['label']}レベルの英文解釈問題{len(subset)}問。{lv['description']}",
-        path=path, content=content,
-        breadcrumbs=[("/reading/", "英文解釈"), (path, lv["label"])],
-        active_nav="/reading/")
 
 
 def render_category(cfg, problems, category):
@@ -114,8 +90,8 @@ def render_category(cfg, problems, category):
 """
     return layout.page(
         cfg, title=f"英文解釈「{category}」の問題一覧",
-        description=f"「{category}」がテーマの英文解釈問題{len(subset)}問。1問ごとに和訳と詳しい解説つき。",
-        path=path, content=content,
+        description=f"「{category}」がテーマの英文解釈問題{len(subset)}問。1問ごとに全文訳つき。",
+        path=path, content=content, og_image="reading",
         breadcrumbs=[("/reading/", "英文解釈"), (path, category)],
         active_nav="/reading/")
 
@@ -141,7 +117,6 @@ def _answer_panel_body(p):
 
 def render_problem(cfg, problems, index):
     p = problems[index]
-    lv = level_of(p)
     path = problem_url(p)
     panel_id = f"answer-{p['id']}"
 
@@ -189,14 +164,14 @@ def render_problem(cfg, problems, index):
         "@context": "https://schema.org",
         "@type": "Quiz",
         "name": f"英文解釈 No.{p['id']}: {p['point']}",
-        "educationalLevel": lv["label"],
         "about": p["category"],
         "inLanguage": "ja",
     }
     return layout.page(
         cfg, title=f"英文解釈 No.{p['id']}｜{p['category']}「{p['point']}」",
-        description=f"【{lv['label']}】{p['sentence_en'][:80]} — {p['question_ja']} 全文訳つき。",
-        path=path, content=content, jsonld=jsonld,
+        description=f"{p['question_ja']}｜{_clip(p['sentence_en'], 70)}"
+                    f"　英文解釈No.{p['id']}（{p['category']}）全文訳つき・無料。",
+        path=path, content=content, jsonld=jsonld, og_image="reading",
         breadcrumbs=[("/reading/", "英文解釈"),
                      (category_url(p["category"]), p["category"]),
                      (path, f"No.{p['id']}")],

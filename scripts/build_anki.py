@@ -7,7 +7,7 @@
 - Excel/スプレッドシートでもそのまま開ける。
 
   語彙(uscpa/legal): 表=単語 / 裏=意味+例文 / タグ=科目
-  読解(reading):     表=英文+設問(+選択肢) / 裏=正解+訳+解説 / タグ=カテゴリ・難易度
+  読解(reading):     表=英文+設問(+選択肢) / 裏=正解+訳+解説 / タグ=カテゴリ
 
 使い方:
     python scripts/build_anki.py            # 3ファイルすべて生成
@@ -25,7 +25,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = ROOT / "anki"
-DIFF_LABEL = {1: "B2", 2: "C1", 3: "C2"}
 
 
 def para(*parts):
@@ -122,11 +121,8 @@ def build_reading():
             head = f"【訳例】{it['translation_ja']}"
         back = (para(head, f"【解説】{it['explanation_ja']}")
                 if INCLUDE_READING_EXPLANATION else head)
-        tags = " ".join([
-            "reading",
-            str(it["category"]).replace(" ", "_"),
-            DIFF_LABEL.get(it["difficulty"], "?"),
-        ])
+        # 難易度タグは付けない（体感と合っていないという指摘のため。サイト表示も廃止済み）
+        tags = " ".join(["reading", str(it["category"]).replace(" ", "_")])
         rows.append([front, back, tags])
     path = OUT / "reading_anki.csv"
     n = write_csv(path, header("英文解釈", "Basic", 3), rows)
