@@ -36,14 +36,10 @@ def _sns_card(key, sns, heading="h3"):
 def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count, articles):
     latest = ""
     if articles:
-        items = "".join(
-            f'<a class="list-item" href="{blog_tpl.article_url(a)}">'
-            f'<h3>{esc(a["title"])}</h3>'
-            f'<span class="article-date">{esc(a["date"])}</span></a>'
-            for a in articles[:3])
+        items = "".join(blog_tpl.post_card(a) for a in articles[:3])
         latest = f"""
 <div class="section-head"><h2>ブログ</h2><a class="more" href="/blog/">すべて見る →</a></div>
-<div class="article-list">{items}</div>"""
+<div class="post-grid">{items}</div>"""
 
     sns_cards = "".join(_sns_card(k, s) for k, s in cfg["sns"].items())
 

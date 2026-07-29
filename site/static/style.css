@@ -24,6 +24,8 @@
   --accent-reading-soft: #e4ebd4;
   --accent-uscpa-soft: #daece8;
   --accent-legal-soft: #f0e6d0;
+  --accent-training: #47608f;  /* 藍。ブログの「英単語」トピック用 */
+  --accent-training-soft: #dfe5f1;
   --success: #2f7d4c;
   --success-soft: #dcefe0;
   --danger: #b0472f;          /* 紅殻・弁柄 */
@@ -69,6 +71,8 @@
     --accent-reading-soft: #26311a;
     --accent-uscpa-soft: #17352f;
     --accent-legal-soft: #362a19;
+    --accent-training: #8fabd8;
+    --accent-training-soft: #1c2434;
     --success: #5cc584;
     --success-soft: #183324;
     --danger: #e58d78;
@@ -729,6 +733,95 @@ a.card:active { transform: translateY(-1px) scale(.99); }
 .article-body img { max-width: 100%; border-radius: var(--radius); }
 .article-header { margin: 8px 0 30px; padding-bottom: 22px; border-bottom: 1px solid var(--border); }
 .article-header h1 { margin-bottom: .2em; }
+.page-head { margin-bottom: 26px; }
+
+/* 記事カード（一覧・トップの最新記事・関連記事で共用）
+   トピックごとのアクセント色は .topic-* で切り替える。 */
+.post-featured, .post-card {
+  --topic: var(--primary);
+  --topic-soft: var(--primary-soft);
+  position: relative;
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  color: var(--text);
+  overflow: hidden;
+  transition: border-color 180ms var(--ease-out), box-shadow 180ms var(--ease-out),
+              transform 180ms var(--ease-out);
+}
+.topic-reading  { --topic: var(--accent-reading); --topic-soft: var(--accent-reading-soft); }
+.topic-uscpa    { --topic: var(--accent-uscpa);   --topic-soft: var(--accent-uscpa-soft); }
+.topic-legal    { --topic: var(--accent-legal);   --topic-soft: var(--accent-legal-soft); }
+.topic-training { --topic: var(--accent-training); --topic-soft: var(--accent-training-soft); }
+.topic-study    { --topic: var(--primary);        --topic-soft: var(--primary-soft); }
+
+/* 上端のアクセント線。hoverで伸びる */
+.post-featured::before, .post-card::before {
+  content: ""; position: absolute; inset: 0 auto auto 0;
+  height: 3px; width: 56px; background: var(--topic);
+  transition: width 260ms var(--ease-out);
+}
+@media (hover: hover) {
+  .post-featured:hover, .post-card:hover {
+    text-decoration: none; border-color: var(--topic);
+    box-shadow: var(--shadow-lift); transform: translateY(-2px);
+  }
+  .post-featured:hover::before, .post-card:hover::before { width: 100%; }
+  .post-featured:hover .post-more, .post-card:hover .post-more { gap: 9px; }
+}
+.post-featured:active, .post-card:active { transform: scale(.995); }
+
+.post-card { padding: 22px 22px 20px; }
+.post-featured {
+  padding: 30px 32px 28px; margin-bottom: 18px;
+  background:
+    linear-gradient(160deg, var(--topic-soft) 0%, transparent 58%),
+    var(--surface);
+}
+
+.post-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.post-topic {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: .76rem; font-weight: 700; letter-spacing: .02em;
+  padding: 3px 11px; border-radius: 999px;
+  background: var(--topic-soft); color: var(--topic);
+}
+.post-meta { font-size: .76rem; color: var(--text-muted); }
+.post-meta .dot { margin: 0 2px; }
+
+.post-title {
+  font-family: var(--font-serif);
+  margin: 0 0 10px; line-height: 1.55;
+  font-size: 1.08rem; font-weight: 700;
+}
+.post-featured .post-title { font-size: 1.5rem; line-height: 1.45; margin-bottom: 12px; }
+.post-desc {
+  margin: 0; font-size: .87rem; line-height: 1.85; color: var(--text-muted);
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.post-featured .post-desc { font-size: .93rem; -webkit-line-clamp: 4; max-width: 62ch; }
+.post-more {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin-top: 14px; font-size: .84rem; font-weight: 700; color: var(--topic);
+  transition: gap 180ms var(--ease-out);
+}
+
+.post-grid {
+  display: grid; gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+}
+.related { margin-top: 56px; }
+.related .section-head { margin-top: 0; }
+
+/* 記事ページの見出し（トピックバッジ＋日付） */
+.article-header .post-head { margin-bottom: 14px; }
+
+@media (max-width: 640px) {
+  .post-featured { padding: 24px 20px 22px; }
+  .post-featured .post-title { font-size: 1.28rem; }
+  .post-grid { grid-template-columns: 1fr; }
+}
 
 /* ---------- セクション見出し ---------- */
 .section-head {

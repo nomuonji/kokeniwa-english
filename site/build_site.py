@@ -39,6 +39,7 @@ def load_articles():
             "slug": path.stem,
             "title": meta["title"],
             "date": meta["date"],
+            "topic": meta.get("topic", ""),
             "description": meta.get("description", ""),
             "html": html,
         })
@@ -136,10 +137,13 @@ def build(cfg):
                        ensure_ascii=False, separators=(",", ":")),
             encoding="utf-8")
 
-    # --- ブログ ---
+    # --- ブログ（記事末尾の関連記事は同トピック優先、足りなければ新しい順で補う） ---
     emit("/blog/", blog_tpl.render_index(cfg, articles))
     for a in articles:
-        emit(blog_tpl.article_url(a), blog_tpl.render_article(cfg, a))
+        others = [b for b in articles if b["slug"] != a["slug"]]
+        same = [b for b in others if b.get("topic") and b["topic"] == a.get("topic")]
+        related = (same + [b for b in others if b not in same])[:2]
+        emit(blog_tpl.article_url(a), blog_tpl.render_article(cfg, a, related))
 
     # --- 固定ページ ---
     emit("/", pages_tpl.render_home(
