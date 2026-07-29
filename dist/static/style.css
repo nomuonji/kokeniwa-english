@@ -852,7 +852,12 @@ a.card:active { transform: translateY(-1px) scale(.99); }
 }
 .footer-sister a { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
 .footer-sister-note::before { content: "— "; }
+.footer-legal { font-size: .78rem; margin: 0 0 6px; }
+.footer-legal a { color: var(--text-muted); text-decoration: underline; text-underline-offset: 3px; }
 .copyright { font-size: .78rem; color: var(--text-muted); margin: 0; }
+
+/* プライバシーポリシーの制定日 */
+.privacy-date { font-size: .82rem; color: var(--text-muted); margin-top: 28px; }
 
 /* ---------- レスポンシブ ---------- */
 @media (max-width: 640px) {
