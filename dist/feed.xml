@@ -7,10 +7,24 @@
     <description>英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト「Kokeniwa（苔庭）」。ThreadsのSNS投稿と連動しています。</description>
     <language>ja</language>
     <item>
+      <title>仕訳を英語で読むための会計用語 — debit・creditからadjusting entryまで</title>
+      <link>https://en.kokeniwa.net/blog/accounting-journal-entries-english/</link>
+      <guid isPermaLink="true">https://en.kokeniwa.net/blog/accounting-journal-entries-english/</guid>
+      <description>英語の仕訳と財務諸表を読むために、debit、credit、journal entry、accrual、adjusting entryなどを整理します。</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>英文解釈のやり方 — 長文を「単語の列」から「構造」に変える</title>
       <link>https://en.kokeniwa.net/blog/eibun-kaishaku-how-to/</link>
       <guid isPermaLink="true">https://en.kokeniwa.net/blog/eibun-kaishaku-how-to/</guid>
       <description>英文解釈のやり方を、SVOC・修飾関係・節の見抜き方から実践手順まで整理。長文読解で迷子にならないための再現可能な読み方です。</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>英検準1級単語の覚え方 — でる順だけで終わらせない</title>
+      <link>https://en.kokeniwa.net/blog/eiken-pre1-vocabulary-study/</link>
+      <guid isPermaLink="true">https://en.kokeniwa.net/blog/eiken-pre1-vocabulary-study/</guid>
+      <description>英検準1級単語を覚える順番と復習方法を解説。単語帳を何周もするだけで終わらせず、長文で使える語彙に変える方法です。</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -28,10 +42,24 @@
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>英語リスニングの勉強法 — 音が聞こえない原因を4種類に分ける</title>
+      <link>https://en.kokeniwa.net/blog/english-listening-practice/</link>
+      <guid isPermaLink="true">https://en.kokeniwa.net/blog/english-listening-practice/</guid>
+      <description>英語リスニングの勉強法を、語彙不足・音の連結・文構造・集中力に分けて整理。原因別に短時間で練習する方法です。</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>英語長文の読み方 — 時間切れを防ぐ「先に骨格」戦略</title>
       <link>https://en.kokeniwa.net/blog/english-long-reading-method/</link>
       <guid isPermaLink="true">https://en.kokeniwa.net/blog/english-long-reading-method/</guid>
       <description>英語長文の読み方を、設問を見る順番・段落の要旨・精読と速読の使い分けから解説。読む速度より迷子にならない手順を重視します。</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>英語ニュースの読み方 — 見出しの省略と本文の論理を分ける</title>
+      <link>https://en.kokeniwa.net/blog/english-news-reading-method/</link>
+      <guid isPermaLink="true">https://en.kokeniwa.net/blog/english-news-reading-method/</guid>
+      <description>英語ニュースの読み方を、見出しの省略・リード文・引用・背景説明に分けて解説。辞書に頼りすぎず要点を取る方法です。</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -46,6 +74,13 @@
       <link>https://en.kokeniwa.net/blog/english-sentence-structure/</link>
       <guid isPermaLink="true">https://en.kokeniwa.net/blog/english-sentence-structure/</guid>
       <description>英語の文構造を、主節・従属節・修飾語・同格・省略の順に整理。SVOCを長文読解で実際に使うためのチェック方法です。</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>契約書で頻出する法律英語 — shall・hereby・subject toを読む</title>
+      <link>https://en.kokeniwa.net/blog/legal-english-contract-terms/</link>
+      <guid isPermaLink="true">https://en.kokeniwa.net/blog/legal-english-contract-terms/</guid>
+      <description>英文契約書で頻出するshall、hereby、subject to、terminateなどの法律英語を、条項の役割ごとに整理します。</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
