@@ -49,6 +49,10 @@ def audit(pre_push_paths=None):
         if headings < 2:
             msg = f"{rel}: add at least two descriptive H2/H3 headings (found {headings})"
             (errors if pre_push_paths and rel in pre_push_paths else warnings).append(msg)
+        tokens = [t for t in re.split(r"[-_ ]+", path.stem.lower()) if len(t) > 2]
+        haystack = (meta.get("title", "") + " " + body).lower()
+        if tokens and not any(t in haystack for t in tokens if t not in {"the", "and", "for", "how", "with", "from"}):
+            warnings.append(f"{rel}: slug terms are not visible in title/body")
     for title, paths in titles.items():
         if len(paths) > 1: errors.append(f"duplicate title: {', '.join(paths)}")
     return errors, warnings
