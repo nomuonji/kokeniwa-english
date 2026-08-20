@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ -n "$local_sha" ] || continue
+  python site/build_site.py
+  python scripts/check_seo.py --pre-push "$local_sha" "$remote_sha"
+done
