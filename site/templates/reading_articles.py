@@ -30,22 +30,23 @@ STYLE = r"""
 .reading-orientation{margin:1rem 0 1rem;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:var(--radius)}
 .reading-orientation strong{display:block;margin-bottom:.25rem;color:var(--primary-strong)}
 .reading-structure-hint{margin:.7rem 0 1rem;color:var(--text-muted);font-size:.8rem}
-.reading-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:1rem 0 1.5rem;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.reading-toolbar button{appearance:none;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);border-radius:999px;padding:.48rem .8rem;font:inherit;font-size:.86rem;cursor:pointer}.reading-toolbar button:hover{border-color:var(--primary);color:var(--primary-strong)}
+.reading-toolbar{margin:1rem 0 1.5rem;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
 .reading-toolbar-note{font-size:.85rem;color:var(--text-muted)}
 .reading-study-block{position:relative;margin:0 0 1.6rem;padding:clamp(16px,3vw,24px);background:color-mix(in srgb,var(--surface) 92%,transparent);border:1px solid var(--border);border-radius:var(--radius-lg)}
 .reading-block-no{position:absolute;top:12px;right:14px;color:var(--border-strong);font-family:var(--font-serif);font-size:.78rem;letter-spacing:.08em}
 .reading-sentence-row{margin:0 0 .9rem}
-.reading-sentence-line{display:block;padding:.03rem 0;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:2}
+.reading-sentence-line{appearance:none;display:block;width:100%;border:0;background:transparent;color:var(--text);text-align:left;padding:.08rem .1rem;margin:0;border-radius:7px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:2;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .14s var(--ease-out)}
+.reading-sentence-line:hover{background:color-mix(in srgb,var(--surface-2) 34%,transparent)}
+.reading-sentence-line[aria-expanded="true"]{background:color-mix(in srgb,var(--surface-2) 22%,transparent)}
+.reading-sentence-line:focus-visible{outline:2px solid var(--primary);outline-offset:3px}
 .reading-plain-sentence{line-height:2}
-.reading-chunk{display:inline;color:var(--text);padding:.03em .10em .08em;margin:0 .01em;border-radius:3px;line-height:inherit;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.reading-chunk.role-subject{background:color-mix(in srgb,var(--accent-reading-soft) 78%,transparent)}
-.reading-chunk.role-predicate{background:color-mix(in srgb,var(--accent-training-soft) 78%,transparent)}
-.reading-chunk.role-object,.reading-chunk.role-complement{background:color-mix(in srgb,var(--surface-2) 72%,transparent)}
-.reading-chunk.role-clause,.reading-chunk.role-relative,.reading-chunk.role-infinitive,.reading-chunk.role-participle{background:color-mix(in srgb,var(--accent-legal-soft) 72%,transparent)}
-.reading-chunk.role-modifier{background:color-mix(in srgb,var(--surface-2) 46%,transparent)}
-.reading-chunk.role-connector{background:color-mix(in srgb,var(--accent-reading-soft) 52%,transparent);font-weight:600}
-.reading-translation-toggle{appearance:none;display:inline-block;vertical-align:middle;margin-left:.35rem;border:1px solid var(--border);background:transparent;color:var(--text-muted);border-radius:999px;padding:.08rem .42rem;font:600 .7rem/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}.reading-translation-toggle:hover,.reading-translation-toggle[aria-expanded="true"]{border-color:var(--primary);color:var(--primary-strong);background:var(--accent-reading-soft)}
+.reading-chunk{display:inline;background:transparent;padding:0;margin:0;line-height:inherit;font-weight:500}
+.reading-chunk.role-subject{color:var(--accent-reading)}
+.reading-chunk.role-predicate{color:var(--accent-training)}
+.reading-chunk.role-object,.reading-chunk.role-complement{color:var(--accent-uscpa)}
+.reading-chunk.role-clause,.reading-chunk.role-relative,.reading-chunk.role-infinitive,.reading-chunk.role-participle{color:var(--accent-legal)}
+.reading-chunk.role-modifier{color:var(--text-muted)}
+.reading-chunk.role-connector{color:var(--danger);font-weight:700}
 .reading-translation{margin:.2rem 0 .8rem;padding:.58rem .75rem;background:var(--surface-2);border-left:3px solid var(--primary);border-radius:0 8px 8px 0;color:var(--text-muted);font-size:.93rem}.reading-translation[hidden]{display:none}
 .reading-notes{margin:1rem 0 0;padding-top:.9rem;border-top:1px dashed var(--border)}.reading-notes-label{display:block;margin-bottom:.55rem;color:var(--text-muted);font-size:.78rem;font-weight:700;letter-spacing:.06em}
 .reading-note{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;margin:.45rem 0;padding:.55rem .65rem;border-radius:10px;background:var(--surface)}
@@ -55,7 +56,7 @@ STYLE = r"""
 .reading-guide>h2{margin-top:0}.reading-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.reading-guide-card{padding:14px 16px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius)}.reading-guide-card h3{margin:.1rem 0 .55rem}.reading-guide-card ul{margin:.35rem 0;padding-left:1.2rem}.reading-guide-card li{margin:.3rem 0}.reading-guide-card.full{grid-column:1/-1}
 .reading-question{padding:.7rem 0;border-bottom:1px dashed var(--border)}.reading-question:last-child{border-bottom:0}.reading-question strong{display:block}.reading-answer{margin:.35rem 0 0;color:var(--text-muted)}
 .reading-next{margin:2rem 0;padding:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-line{font-size:1.06rem;line-height:1.95}.reading-chunk{padding:.02em .08em .06em}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
+@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-line{font-size:1.06rem;line-height:1.95;padding:.06rem 0}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
 </style>
 """
 
@@ -63,22 +64,15 @@ STYLE = r"""
 SCRIPT = r"""
 <script>
 (function(){
-  const translationButtons=[...document.querySelectorAll('[data-reading-sentence]')];
-  const toggleTranslation=(button,show)=>{
-    const target=document.getElementById(button.getAttribute('aria-controls'));
+  const sentences=[...document.querySelectorAll('[data-reading-sentence]')];
+  const toggleTranslation=(sentence,show)=>{
+    const target=document.getElementById(sentence.getAttribute('aria-controls'));
     if(!target)return;
-    const next=show===undefined?button.getAttribute('aria-expanded')!=='true':show;
-    button.setAttribute('aria-expanded',next?'true':'false');
+    const next=show===undefined?sentence.getAttribute('aria-expanded')!=='true':show;
+    sentence.setAttribute('aria-expanded',next?'true':'false');
     target.hidden=!next;
   };
-  translationButtons.forEach(button=>button.addEventListener('click',()=>toggleTranslation(button)));
-
-  const all=document.querySelector('[data-reading-toggle-all]');
-  if(all)all.addEventListener('click',()=>{
-    const shouldShow=translationButtons.some(button=>button.getAttribute('aria-expanded')!=='true');
-    translationButtons.forEach(button=>toggleTranslation(button,shouldShow));
-    all.textContent=shouldShow?'日本語訳をすべて隠す':'日本語訳をすべて表示';
-  });
+  sentences.forEach(sentence=>sentence.addEventListener('click',()=>toggleTranslation(sentence)));
 })();
 </script>
 """
@@ -139,9 +133,9 @@ def render_index(cfg, articles):
 <section class="reading-library-hero">
   <p class="eyebrow">Kokeniwa Reading Garden</p>
   <h1>英語リーディング・精読教材</h1>
-  <p>面白い英語を読みながら、一文ごとの日本語訳、文の構造、語彙・表現・ニュアンスまでその場で確認できます。英文は普通の文章として読みやすさを保ちつつ、意味・文法上の塊を色分けしています。</p>
+  <p>面白い英語を読みながら、一文ごとの日本語訳、文の構造、語彙・表現・ニュアンスまでその場で確認できます。英文は普通の文章として読みやすさを保ちつつ、意味・文法上の塊を文字色で区別しています。</p>
 </section>
-<p class="lead">まず英文をそのまま読み、色のまとまりで文の構造をつかみます。必要な文だけ「訳」で日本語を開き、最後に学習ガイドで定着させる構成です。</p>
+<p class="lead">まず英文をそのまま読み、色のまとまりで文の構造をつかみます。和訳を確認したい文は、その文自体をタップしてください。</p>
 <div class="reading-article-grid">{''.join(cards)}</div>
 <section class="note-box">
   <h2>この教材の使い方</h2>
@@ -151,7 +145,7 @@ def render_index(cfg, articles):
     return layout.page(
         cfg,
         title="英語リーディング・精読教材｜楽しく読める長文",
-        description="英語リーディング・長文読解・精読の無料教材。面白い英語記事を、一文ごとの日本語訳、文構造の色分け、語彙・構文・ニュアンス解説つきで読めます。",
+        description="英語リーディング・長文読解・精読の無料教材。面白い英語記事を、一文タップで開く日本語訳、文構造の色分け、語彙・構文・ニュアンス解説つきで読めます。",
         path="/reading/articles/",
         content=content,
         og_image="reading",
@@ -190,7 +184,7 @@ def _render_sentence(sentence, p_index, s_index, chunks):
         sentence_html = f'<span class="reading-plain-sentence" lang="en">{esc(sentence["en"])}</span>'
     return f"""
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en">{sentence_html}<button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="{translation_id}" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="{translation_id}" title="タップして日本語訳を表示">{sentence_html}</button>
   <div class="reading-translation" id="{translation_id}" lang="ja" hidden>{esc(sentence['ja'])}</div>
 </div>"""
 
@@ -255,8 +249,8 @@ def render_article(cfg, article, prev_article=None, next_article=None):
     <p class="reading-dek">{esc(article.get('title_ja',''))} — {esc(article.get('description',''))}</p>
   </header>
   <div class="reading-orientation"><strong>この記事を読むヒント</strong>{esc(article.get('orientation_ja',''))}</div>
-  {('<p class="reading-structure-hint" lang="ja">色のまとまりが、意味・文法上の塊です。複数行に折り返しても同じ色のまとまりとして読み進めてください。</p>' if structure else '')}
-  <div class="reading-toolbar"><span class="reading-toolbar-note">「訳」で、その文の日本語訳を直下に表示できます。</span><button type="button" data-reading-toggle-all>日本語訳をすべて表示</button></div>
+  {('<p class="reading-structure-hint" lang="ja">文字色のまとまりが、意味・文法上の塊です。背景色ではなく文字色で区別するので、複数行に折り返しても自然に追えます。</p>' if structure else '')}
+  <div class="reading-toolbar"><span class="reading-toolbar-note">英文をタップすると、その一文の日本語訳を直下に表示・非表示できます。</span></div>
   {blocks}
   {_guide(article)}
   <nav class="reading-next" aria-label="前後の教材">{prev_link}{next_link}</nav>
@@ -285,7 +279,7 @@ def render_article(cfg, article, prev_article=None, next_article=None):
     return layout.page(
         cfg,
         title=f"{article.get('title_ja', article['title'])}｜英語リーディング・精読教材",
-        description=f"{article.get('description','')} 文構造の色分け、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。",
+        description=f"{article.get('description','')} 文構造の色分け、一文タップで開く日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。",
         path=path,
         content=content,
         jsonld=jsonld,
