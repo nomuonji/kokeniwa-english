@@ -19,6 +19,7 @@ from lib.render import esc, write_page
 from templates import blog as blog_tpl
 from templates import pages as pages_tpl
 from templates import reading as reading_tpl
+from templates import reading_articles as reading_articles_tpl
 from templates import training as training_tpl
 from templates import vocab as vocab_tpl
 
@@ -44,6 +45,35 @@ def load_articles():
             "html": html,
         })
     articles.sort(key=lambda a: a["date"], reverse=True)
+    return articles
+
+
+def load_reading_articles():
+    """content/reading/*.json の長文精読教材を読み込み、最低限の契約を検査する。"""
+    articles = []
+    reading_dir = config.CONTENT_DIR / "reading"
+    if not reading_dir.is_dir():
+        return articles
+    for path in sorted(reading_dir.glob("*.json")):
+        article = json.loads(path.read_text(encoding="utf-8"))
+        for key in ("slug", "title", "title_ja", "date", "description", "paragraphs"):
+            if not article.get(key):
+                raise ValueError(f"{path.name}: reading article に {key} がありません")
+        if article["slug"] != path.stem:
+            raise ValueError(f"{path.name}: slug はファイル名と一致させてください")
+        if not isinstance(article["paragraphs"], list) or not article["paragraphs"]:
+            raise ValueError(f"{path.name}: paragraphs は1件以上必要です")
+        for p_index, paragraph in enumerate(article["paragraphs"]):
+            sentences = paragraph.get("sentences")
+            if not isinstance(sentences, list) or not sentences:
+                raise ValueError(f"{path.name}: paragraphs[{p_index}].sentences は1件以上必要です")
+            for s_index, sentence in enumerate(sentences):
+                if not sentence.get("en") or not sentence.get("ja"):
+                    raise ValueError(
+                        f"{path.name}: paragraphs[{p_index}].sentences[{s_index}] に en/ja が必要です"
+                    )
+        articles.append(article)
+    articles.sort(key=lambda a: (a["date"], a["slug"]), reverse=True)
     return articles
 
 
@@ -104,6 +134,7 @@ def build(cfg):
     vocab_data = {"uscpa": uscpa, "legal": legal}
     training_data = {k: data_loader.load_training(k) for k in config.TRAINING_SETS}
     articles = load_articles()
+    reading_articles = load_reading_articles()
 
     # --- 読解問題 ---
     emit("/reading/", reading_tpl.render_index(cfg, problems))
@@ -112,6 +143,16 @@ def build(cfg):
              reading_tpl.render_category(cfg, problems, category))
     for i, p in enumerate(problems):
         emit(reading_tpl.problem_url(p), reading_tpl.render_problem(cfg, problems, i))
+
+    # --- 長文リーディング教材（ブログとは別系統。精読UIを記事内に統合） ---
+    emit("/reading/articles/", reading_articles_tpl.render_index(cfg, reading_articles))
+    for i, article in enumerate(reading_articles):
+        prev_article = reading_articles[i - 1] if i > 0 else None
+        next_article = reading_articles[i + 1] if i + 1 < len(reading_articles) else None
+        emit(
+            reading_articles_tpl.article_url(article),
+            reading_articles_tpl.render_article(cfg, article, prev_article, next_article),
+        )
 
     # --- 語彙（1枚のフラッシュカード＋軽量JSON。カード本体はnoindex） ---
     counts = {k: sum(len(v) for v in vocab_data[k].values()) for k in vocab_data}
@@ -177,8 +218,9 @@ def build(cfg):
             shutil.copy2(csv_file, dl_dir / csv_file.name)
 
     # --- sitemap（noindexページは除外） / RSS / robots / _headers ---
-    # 更新日が分かるのはブログ記事だけなので、そこにだけ lastmod を付ける
+    # 更新日が分かるコンテンツだけ lastmod を付ける
     lastmod = {blog_tpl.article_url(a): a["date"] for a in articles}
+    lastmod.update({reading_articles_tpl.article_url(a): a["date"] for a in reading_articles})
     urls = "\n".join(
         f"  <url><loc>{cfg['base_url']}{path}</loc>"
         + (f"<lastmod>{lastmod[path]}</lastmod>" if path in lastmod else "")

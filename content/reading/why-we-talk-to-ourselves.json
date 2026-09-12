@@ -1,0 +1,112 @@
+{
+  "slug": "why-we-talk-to-ourselves",
+  "title": "Why Do We Talk to Ourselves?",
+  "title_ja": "独り言はなぜ出る？ 自分に話しかける脳のしくみ",
+  "date": "2026-09-12",
+  "topic": "Mind & Everyday Life",
+  "level": "B1–B2",
+  "minutes": 6,
+  "description": "忘れ物を探すとき、難しい作業をするとき、つい独り言が出るのはなぜでしょうか。日常の不思議を読む英語教材です。",
+  "orientation_ja": "talk to oneself を単なる癖ではなく『思考を外に出す行為』として説明する流れに注目してください。抽象的な説明のあとに具体例が続く構成です。",
+  "paragraphs": [
+    {
+      "sentences": [
+        {"en": "People often talk to themselves when no one else is around.", "ja": "人は、周りに誰もいないときでもよく独り言を言います。"},
+        {"en": "We may whisper the name of a missing object, tell ourselves to calm down, or rehearse what we plan to say in an important conversation.", "ja": "なくした物の名前を小声で繰り返したり、自分に落ち着けと言ったり、大事な会話で言う予定のことを練習したりします。"},
+        {"en": "This behavior can look pointless, but it often serves a practical purpose.", "ja": "この行動は無意味に見えるかもしれませんが、実際には実用的な役割を果たすことがよくあります。"}
+      ],
+      "notes": [
+        {"type": "phrase", "quote": "talk to themselves", "explanation_ja": "talk to oneself で「独り言を言う／自分に話しかける」。myself, yourself, himself などに置き換えられます。"},
+        {"type": "word", "quote": "rehearse", "explanation_ja": "本番前に「練習する」。演劇だけでなく、会話や説明を頭の中で予行演習するときにも使えます。"}
+      ]
+    },
+    {
+      "sentences": [
+        {"en": "Speaking can turn a vague thought into something more concrete.", "ja": "声に出すことで、ぼんやりした考えがより具体的なものになることがあります。"},
+        {"en": "A complicated task may feel easier once its steps are placed into words: first open the file, then check the numbers, then send the message.", "ja": "複雑な作業も、手順を言葉にすると簡単に感じられることがあります。まずファイルを開き、次に数字を確認し、それからメッセージを送る、といった具合です。"},
+        {"en": "Language gives the mind a temporary structure to follow.", "ja": "言葉は、思考がたどるための一時的な構造を与えてくれます。"}
+      ],
+      "notes": [
+        {"type": "grammar", "quote": "turn A into B", "explanation_ja": "「AをBに変える」。ここでは vague thought が something more concrete に変化します。"},
+        {"type": "nuance", "quote": "a temporary structure to follow", "explanation_ja": "頭の中の『足場』のような比喩。考えを順序づけるための仮の道筋を指しています。"}
+      ]
+    },
+    {
+      "sentences": [
+        {"en": "Self-talk can also help direct attention.", "ja": "独り言は、注意を向ける助けにもなります。"},
+        {"en": "If you keep saying, “red mug, red mug,” while searching a crowded kitchen, the words may keep the visual target active in your mind.", "ja": "物でいっぱいのキッチンで『赤いマグ、赤いマグ』と言いながら探せば、その言葉によって探す対象のイメージを頭の中に保ちやすくなるかもしれません。"},
+        {"en": "The voice is not magically finding the mug; it is helping your attention stay organized.", "ja": "声が魔法のようにマグカップを見つけているわけではありません。注意を整理された状態に保つのを助けているのです。"}
+      ],
+      "notes": [
+        {"type": "phrase", "quote": "keep ... active", "explanation_ja": "「〜を活動状態・意識された状態に保つ」。keep + O + C の形です。"},
+        {"type": "grammar", "quote": "not ...; it is ...", "explanation_ja": "誤解を否定してから本当の説明を出す対比。説明文で非常によく使われる流れです。"}
+      ]
+    },
+    {
+      "sentences": [
+        {"en": "The tone of self-talk matters as much as the words themselves.", "ja": "独り言では、言葉そのものと同じくらい、その口調も重要です。"},
+        {"en": "Calling yourself stupid after a mistake is very different from saying, “That did not work. Try another way.”", "ja": "失敗したあとに自分を『バカだ』と責めるのと、『これはうまくいかなかった。別の方法を試そう』と言うのとでは大きく違います。"},
+        {"en": "One attacks the person; the other describes the problem and points toward the next action.", "ja": "前者は人そのものを攻撃し、後者は問題を説明して次の行動へ目を向けさせます。"}
+      ],
+      "notes": [
+        {"type": "grammar", "quote": "as much as", "explanation_ja": "ここでは「〜と同じくらい」。The tone matters as much as the words do. の do が省略された感覚です。"},
+        {"type": "phrase", "quote": "point toward", "explanation_ja": "文字通りは「〜の方向を指す」。ここでは「次に取るべき行動を示す」という抽象的な意味です。"}
+      ]
+    },
+    {
+      "sentences": [
+        {"en": "So talking to yourself is not necessarily a sign that your mind has lost control.", "ja": "つまり、独り言は必ずしも心が制御を失ったしるしではありません。"},
+        {"en": "Quite often, it is the opposite: a small tool the mind uses to create order, maintain focus, and guide behavior.", "ja": "むしろ多くの場合は逆で、思考が秩序を作り、集中を保ち、行動を導くために使う小さな道具なのです。"},
+        {"en": "The strange person giving you instructions in an empty room may simply be you helping yourself think.", "ja": "誰もいない部屋であなたに指示を出している奇妙な人物は、単にあなた自身が自分の思考を助けているだけなのかもしれません。"}
+      ],
+      "notes": [
+        {"type": "phrase", "quote": "not necessarily", "explanation_ja": "「必ずしも〜ではない」。断定をやわらげ、例外を残す重要表現です。"},
+        {"type": "nuance", "quote": "The strange person ... may simply be you", "explanation_ja": "最後に少しユーモラスな言い方へ戻し、説明文を軽く締めています。"}
+      ]
+    }
+  ],
+  "guide": {
+    "summary_ja": "独り言は、思考を言葉にして整理し、注意を特定の対象に向け、次の行動を導くために役立つことがあります。ただし内容だけでなく、自分に対してどんな口調で話すかも重要です。",
+    "vocabulary": [
+      "rehearse — 本番前に練習する、予行演習する",
+      "vague — 曖昧な、ぼんやりした",
+      "concrete — 具体的な",
+      "direct attention — 注意を向ける",
+      "maintain focus — 集中を保つ"
+    ],
+    "phrases": [
+      "turn A into B — AをBに変える",
+      "keep A active — Aを意識された状態に保つ",
+      "point toward ... — 〜を示す、〜の方向へ導く",
+      "not necessarily — 必ずしも〜ではない"
+    ],
+    "grammar": [
+      "once + 文：『いったん〜すると／〜した時点で』という変化のきっかけを示す",
+      "keep + O + C：目的語をある状態に保つ",
+      "as much as：程度が同じであることを示す比較表現"
+    ],
+    "nuance": [
+      "self-talk は本文では否定的な『独り言』ではなく、思考の補助装置として扱われている",
+      "tool / structure / guide という語を使い、思考を整理する機能が一貫して描かれている"
+    ],
+    "paraphrases": [
+      "serve a practical purpose → be useful in a real situation",
+      "direct attention → help someone focus on something",
+      "maintain focus → keep concentrating"
+    ],
+    "background": [
+      "例が『探し物』『作業手順』『失敗後の声かけ』と日常場面に移っていくため、自分の経験と結びつけて読むと内容が残りやすくなります。",
+      "説明の型は『一見変に見える行動 → 実用的な機能 → 具体例 → まとめ』です。"
+    ],
+    "comprehension": [
+      {"q": "How can speaking make a complicated task easier?", "a": "Putting the steps into words can give the mind a clearer structure to follow."},
+      {"q": "Why might repeating the name of an object help you find it?", "a": "The words can keep the target active in your mind and help organize attention."},
+      {"q": "What is the difference between helpful and harmful self-talk in the article?", "a": "Helpful self-talk describes the problem and guides the next action, while harmful self-talk attacks the person."}
+    ],
+    "output": [
+      "Write three examples of useful self-talk in English for situations you often face.",
+      "Explain a task using first ..., then ..., then ... in one English sentence.",
+      "Use 'not necessarily' to correct a common assumption."
+    ]
+  }
+}

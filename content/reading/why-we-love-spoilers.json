@@ -1,0 +1,113 @@
+{
+  "slug": "why-we-love-spoilers",
+  "title": "Why Do Some People Love Spoilers?",
+  "title_ja": "なぜネタバレを知ってから見たい人がいるのか",
+  "date": "2026-09-12",
+  "topic": "Psychology & Culture",
+  "level": "B1–B2",
+  "minutes": 7,
+  "description": "映画やドラマの結末を先に知ると、本当に楽しみは減るのでしょうか。ネタバレをめぐる意外な心理を読む英語教材です。",
+  "orientation_ja": "「spoiler＝楽しみを壊すもの」という前提をいったん疑いながら読んでみましょう。対比を示す however / instead / rather than と、抽象的な名詞を説明する文のつながりがポイントです。",
+  "paragraphs": [
+    {
+      "sentences": [
+        {"en": "For many people, a spoiler is almost an act of violence against a story.", "ja": "多くの人にとって、ネタバレは物語に対する一種の暴力にすら感じられます。"},
+        {"en": "They avoid trailers, mute words on social media, and sometimes refuse to talk to friends until they have finished a series.", "ja": "予告編を避け、SNSで特定の言葉をミュートし、シリーズを見終えるまで友人との会話さえ避けることがあります。"},
+        {"en": "Yet other people actively look up the ending before they start watching.", "ja": "ところが反対に、見る前から積極的に結末を調べる人もいます。"}
+      ],
+      "notes": [
+        {"type": "phrase", "quote": "an act of violence against", "explanation_ja": "直訳は「〜に対する暴力行為」。ここでは大げさな比喩で、ネタバレへの強い嫌悪感を表しています。"},
+        {"type": "grammar", "quote": "until they have finished", "explanation_ja": "until節の中で完了を表し、「見終わるその時まで」を明確にしています。"}
+      ]
+    },
+    {
+      "sentences": [
+        {"en": "At first, this seems to defeat the purpose of storytelling.", "ja": "一見すると、これは物語を楽しむ目的そのものを台無しにするように思えます。"},
+        {"en": "If you already know who wins, who dies, or who was secretly responsible, what is left to discover?", "ja": "誰が勝ち、誰が死に、誰が実は犯人だったのかを知っているなら、いったい何を発見する余地があるのでしょうか。"},
+        {"en": "The answer may be that discovery is only one kind of pleasure.", "ja": "その答えは、発見することは楽しみ方の一つにすぎない、ということかもしれません。"}
+      ],
+      "notes": [
+        {"type": "phrase", "quote": "defeat the purpose of", "explanation_ja": "「〜の目的を台無しにする」。日常・ビジネスの両方で使いやすい表現です。"},
+        {"type": "nuance", "quote": "only one kind of pleasure", "explanation_ja": "only が discovery を限定し、「楽しみは他にもある」という次の展開を準備しています。"}
+      ]
+    },
+    {
+      "sentences": [
+        {"en": "Knowing the destination can make it easier to notice the road.", "ja": "目的地を知っているからこそ、そこへ至る道筋に気づきやすくなることがあります。"},
+        {"en": "A viewer who knows the twist may pay more attention to a character's expression, an unusual camera angle, or a line that seemed meaningless the first time.", "ja": "どんでん返しを知っている視聴者は、人物の表情や不自然なカメラアングル、初見では意味がないように見えたセリフに、より注意を向けるかもしれません。"},
+        {"en": "Instead of asking what will happen, the viewer starts asking how the story is making it happen.", "ja": "何が起こるのかを問う代わりに、その物語がどうやってそれを起こしているのかを見るようになります。"}
+      ],
+      "notes": [
+        {"type": "phrase", "quote": "Knowing the destination can make it easier to notice the road.", "explanation_ja": "具体的な「目的地」と「道」を使って、結末と物語の過程を比喩的に対比しています。"},
+        {"type": "grammar", "quote": "Instead of asking ..., the viewer starts asking ...", "explanation_ja": "instead of + -ing で「〜する代わりに」。同じ asking を繰り返して対比をくっきりさせています。"}
+      ]
+    },
+    {
+      "sentences": [
+        {"en": "Spoilers can also reduce a particular kind of stress.", "ja": "ネタバレは、ある種のストレスを減らすこともあります。"},
+        {"en": "Some people become so anxious about a character they like that uncertainty stops being exciting and starts becoming exhausting.", "ja": "好きな登場人物のことが気になりすぎて、不確実さがワクワクではなく疲労に変わってしまう人もいます。"},
+        {"en": "For them, knowing the outcome creates enough emotional distance to enjoy the details.", "ja": "そうした人にとって、結末を知ることは細部を楽しめるだけの心理的な距離を作ってくれます。"}
+      ],
+      "notes": [
+        {"type": "grammar", "quote": "so anxious ... that", "explanation_ja": "so + 形容詞 + that で「とても〜なので…」。原因と結果を一気につなぐ定番構文です。"},
+        {"type": "word", "quote": "uncertainty", "explanation_ja": "「不確実さ」。この段落では suspense と近い役割ですが、より心理状態に焦点を当てた語です。"}
+      ]
+    },
+    {
+      "sentences": [
+        {"en": "None of this means that everyone should read spoilers.", "ja": "だからといって、誰もがネタバレを読むべきだという意味ではありません。"},
+        {"en": "Surprise is a real pleasure, and some stories are carefully built around it.", "ja": "驚きは確かな楽しみであり、それを中心に丁寧に作られている物語もあります。"},
+        {"en": "But the debate reminds us that enjoying a story is not a single mental process.", "ja": "ただ、この議論は、物語を楽しむことが単一の心理過程ではないと気づかせてくれます。"},
+        {"en": "Sometimes we want mystery; sometimes we want the comfort of knowing where the path leads.", "ja": "私たちは謎を求めることもあれば、その道がどこへ続くのか知っている安心感を求めることもあるのです。"}
+      ],
+      "notes": [
+        {"type": "grammar", "quote": "None of this means that ...", "explanation_ja": "直前までの議論を受けつつ、極端な一般化を避けるための便利なクッション表現です。"},
+        {"type": "nuance", "quote": "the comfort of knowing", "explanation_ja": "comfort は物理的な快適さだけでなく「安心感」。of knowing がその安心感の中身を説明しています。"}
+      ]
+    }
+  ],
+  "guide": {
+    "summary_ja": "ネタバレは驚きを減らす一方で、物語の作り方や細部に注意を向けやすくし、不確実さから来るストレスを弱めることもあります。物語の楽しさは「結末を知らないこと」だけではない、というのが本文の中心です。",
+    "vocabulary": [
+      "spoiler — ネタバレ、物語の重要展開を先に明かす情報",
+      "twist — 予想外の展開、どんでん返し",
+      "uncertainty — 不確実さ、先が分からない状態",
+      "outcome — 結果、結末",
+      "emotional distance — 心理的・感情的な距離"
+    ],
+    "phrases": [
+      "defeat the purpose of ... — 〜の目的を台無しにする",
+      "pay attention to ... — 〜に注意を向ける",
+      "instead of -ing — 〜する代わりに",
+      "None of this means that ... — だからといって〜という意味ではない"
+    ],
+    "grammar": [
+      "so + 形容詞 + that ...：程度が原因となって結果が起こる構文",
+      "who / what を並列させる疑問文：who wins, who dies, or who was ...",
+      "動名詞主語：Knowing the destination ... のように行為全体を主語にできる"
+    ],
+    "nuance": [
+      "discovery と pleasure を切り離すことで、『先を知る＝楽しめない』という前提を崩している",
+      "road / destination / path leads は、物語の過程と結末を一貫した道の比喩で描いている"
+    ],
+    "paraphrases": [
+      "defeat the purpose of → make the original goal meaningless",
+      "pay more attention to → notice more carefully",
+      "reduce stress → make someone feel less anxious"
+    ],
+    "background": [
+      "本文は特定作品のネタバレを含まないため、そのまま内容理解に集中できます。",
+      "『驚き』と『細部を味わう楽しさ』を対立させる読み方をすると、論理展開が追いやすくなります。"
+    ],
+    "comprehension": [
+      {"q": "Why might knowing a twist increase a viewer's attention?", "a": "Because the viewer no longer needs to focus only on what happens next and can notice how the story is constructed."},
+      {"q": "How can spoilers reduce stress for some people?", "a": "Knowing the outcome can reduce uncertainty and create emotional distance from worrying about a character."},
+      {"q": "Does the article argue that spoilers are always better?", "a": "No. It says surprise is a real pleasure and different people enjoy stories in different ways."}
+    ],
+    "output": [
+      "Do you avoid spoilers or look for them? Explain why in 3–5 English sentences.",
+      "Use 'instead of -ing' to describe a different way of enjoying a movie or book.",
+      "Summarize the article in English without using the words spoiler or surprise."
+    ]
+  }
+}
