@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8788", "--directory", "dist"],
+      "port": 8788
+    },
+    {
+      "name": "ja-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8789", "--directory",
+                      "../kokeniwa-japanese/dist"],
+      "port": 8789
+    }
+  ]
+}

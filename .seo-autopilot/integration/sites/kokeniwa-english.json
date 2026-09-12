@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "blog_site_id": "kokeniwa-english",
+  "canonical_origin": "https://en.kokeniwa.net",
+  "language": "ja",
+  "country": "jp",
+  "build_dir": "dist",
+  "route_evidence": [
+    "site_config.json",
+    "site/build_site.py",
+    "site/templates/blog.py"
+  ],
+  "collections": [
+    {
+      "root": "content/blog",
+      "extensions": [".md"],
+      "title_field": "title",
+      "url_template": "/blog/{slug}/"
+    }
+  ]
+}

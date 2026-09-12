@@ -95,7 +95,8 @@ def gsc_query(token, site_url, start, end, dimensions, limit=100, filters=None):
     url = f"{GSC_API}/sites/{urllib.parse.quote(site_url, safe='')}/searchAnalytics/query"
     rows = post(url, token, payload).get("rows", [])
     return [{
-        "keys": r["keys"],
+        # A totals query (dimensions=[]) comes back with no "keys" field.
+        "keys": r.get("keys", []),
         "clicks": r["clicks"], "impressions": r["impressions"],
         "ctr": round(r["ctr"] * 100, 2), "position": round(r["position"], 1),
     } for r in rows]

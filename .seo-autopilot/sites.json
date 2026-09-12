@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "sites": [
+    {
+      "id": "kokeniwa-english",
+      "path": ".",
+      "content_roots": ["content/blog"],
+      "article_count": 20,
+      "build_command": "python site/build_site.py",
+      "eligibility": "candidate"
+    }
+  ]
+}

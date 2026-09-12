@@ -5,7 +5,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BLOG = ROOT / "content" / "blog"
-MIN_BODY = 1800
+# English articles use a 1,500-character minimum for changed posts.
+# Longer pillar pages remain preferable, but this blocks genuinely thin drafts
+# without making the existing 20-post archive impossible to maintain.
+MIN_BODY = 1500
 
 def parse_article(path):
     text = path.read_text(encoding="utf-8")
