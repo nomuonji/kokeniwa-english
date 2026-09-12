@@ -1,8 +1,11 @@
 """長文リーディング教材の一覧・精読ページ。
 
-ブログとは分離し、英語本文を主役にしながら、一文訳・精読ポイント・学習ガイドを
+ブログとは分離し、英語本文を主役にしながら、一文訳・精読ポイント・構造チャンク・学習ガイドを
 本文の流れの中だけで完結させる。フローティングUIや精読ON/OFFは置かない。
 """
+import json
+
+from lib import config
 from lib.render import esc
 from templates import layout
 
@@ -24,15 +27,35 @@ STYLE = r"""
 .reading-pill{display:inline-flex;align-items:center;padding:.18rem .55rem;border-radius:999px;background:var(--accent-reading-soft);color:var(--primary-strong);font-size:.78rem;font-weight:700}
 .reading-article-head{margin:1rem 0 1.5rem;padding-bottom:1.25rem;border-bottom:1px solid var(--border)}
 .reading-article-head h1{margin:.25rem 0 .55rem}.reading-dek{font-family:var(--font-serif);font-size:1.06rem;color:var(--text-muted);max-width:760px}
-.reading-orientation{margin:1rem 0 1.5rem;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:var(--radius)}
+.reading-orientation{margin:1rem 0 1rem;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:var(--radius)}
 .reading-orientation strong{display:block;margin-bottom:.25rem;color:var(--primary-strong)}
+.reading-structure-legend{display:flex;gap:8px 12px;align-items:center;flex-wrap:wrap;margin:.8rem 0 1.2rem;color:var(--text-muted);font-size:.78rem}
+.reading-structure-legend>strong{font-weight:700;color:var(--text)}
+.reading-legend-item{display:inline-flex;align-items:center;padding:.12rem .48rem;border-radius:6px;border-bottom:2px solid transparent}
+.reading-legend-item.role-subject{background:var(--accent-reading-soft);border-color:var(--accent-reading)}
+.reading-legend-item.role-predicate{background:var(--accent-training-soft);border-color:var(--accent-training)}
+.reading-legend-item.role-object,.reading-legend-item.role-complement{background:var(--surface-2);border-color:var(--border-strong)}
+.reading-legend-item.role-clause{background:var(--accent-legal-soft);border-color:var(--accent-legal)}
+.reading-legend-item.role-modifier{border-bottom:2px dotted var(--text-muted)}
+.reading-legend-item.role-connector{border:1px solid var(--primary);border-radius:999px;color:var(--primary-strong)}
 .reading-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:1rem 0 1.5rem;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
 .reading-toolbar button{appearance:none;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);border-radius:999px;padding:.48rem .8rem;font:inherit;font-size:.86rem;cursor:pointer}.reading-toolbar button:hover{border-color:var(--primary);color:var(--primary-strong)}
 .reading-toolbar-note{font-size:.85rem;color:var(--text-muted)}
 .reading-study-block{position:relative;margin:0 0 1.6rem;padding:clamp(16px,3vw,24px);background:color-mix(in srgb,var(--surface) 92%,transparent);border:1px solid var(--border);border-radius:var(--radius-lg)}
 .reading-block-no{position:absolute;top:12px;right:14px;color:var(--border-strong);font-family:var(--font-serif);font-size:.78rem;letter-spacing:.08em}
-.reading-sentence-row{margin:0 0 .25rem}.reading-sentence-toggle{display:inline;text-align:left;border:0;padding:.05rem .08rem;margin:0;background:transparent;color:var(--text);font:inherit;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:1.95;cursor:pointer;border-radius:5px}.reading-sentence-toggle:hover{background:var(--accent-reading-soft)}.reading-sentence-toggle[aria-expanded="true"]{background:var(--accent-reading-soft)}
-.reading-sentence-toggle:focus-visible{outline:2px solid var(--primary);outline-offset:3px}
+.reading-sentence-row{margin:0 0 .65rem}.reading-sentence-line{display:flex;align-items:baseline;flex-wrap:wrap;gap:.28rem .34rem;padding:.08rem 0;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:1.85}
+.reading-plain-sentence{line-height:1.95}
+.reading-chunk{appearance:none;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--text);padding:.08rem .18rem .12rem;margin:0;border-radius:6px;font:inherit;font-family:inherit;line-height:1.55;cursor:pointer;transition:background .16s var(--ease-out),transform .16s var(--ease-out),border-color .16s var(--ease-out)}
+.reading-chunk:hover,.reading-chunk[aria-pressed="true"]{transform:translateY(-1px);box-shadow:0 1px 0 rgba(35,40,31,.08)}
+.reading-chunk:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.reading-chunk.role-subject{background:var(--accent-reading-soft);border-color:var(--accent-reading)}
+.reading-chunk.role-predicate{background:var(--accent-training-soft);border-color:var(--accent-training)}
+.reading-chunk.role-object,.reading-chunk.role-complement{background:var(--surface-2);border-color:var(--border-strong)}
+.reading-chunk.role-clause,.reading-chunk.role-relative,.reading-chunk.role-infinitive,.reading-chunk.role-participle{background:var(--accent-legal-soft);border-color:var(--accent-legal)}
+.reading-chunk.role-modifier{border-bottom-style:dotted;border-color:var(--text-muted)}
+.reading-chunk.role-connector{border:1px solid var(--primary);border-radius:999px;color:var(--primary-strong);padding:.04rem .42rem}
+.reading-translation-toggle{appearance:none;align-self:center;border:1px solid var(--border);background:var(--surface);color:var(--text-muted);border-radius:999px;padding:.12rem .5rem;font:600 .72rem/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}.reading-translation-toggle:hover,.reading-translation-toggle[aria-expanded="true"]{border-color:var(--primary);color:var(--primary-strong);background:var(--accent-reading-soft)}
+.reading-structure-detail{margin:.25rem 0 .45rem;padding:.58rem .72rem;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:.88rem}.reading-structure-detail[hidden]{display:none}.reading-structure-detail-head{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.reading-structure-detail-label{display:inline-flex;padding:.1rem .42rem;border-radius:999px;background:var(--surface-2);color:var(--text-muted);font-size:.72rem;font-weight:700}.reading-structure-detail strong{font-family:Georgia,"Times New Roman",serif}.reading-structure-detail p{margin:.2rem 0 0;color:var(--text-muted)}
 .reading-translation{margin:.25rem 0 .8rem;padding:.65rem .8rem;background:var(--surface-2);border-left:3px solid var(--primary);border-radius:0 8px 8px 0;color:var(--text-muted);font-size:.94rem}.reading-translation[hidden]{display:none}
 .reading-notes{margin:1rem 0 0;padding-top:.9rem;border-top:1px dashed var(--border)}.reading-notes-label{display:block;margin-bottom:.55rem;color:var(--text-muted);font-size:.78rem;font-weight:700;letter-spacing:.06em}
 .reading-note{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;margin:.45rem 0;padding:.55rem .65rem;border-radius:10px;background:var(--surface)}
@@ -42,7 +65,7 @@ STYLE = r"""
 .reading-guide>h2{margin-top:0}.reading-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.reading-guide-card{padding:14px 16px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius)}.reading-guide-card h3{margin:.1rem 0 .55rem}.reading-guide-card ul{margin:.35rem 0;padding-left:1.2rem}.reading-guide-card li{margin:.3rem 0}.reading-guide-card.full{grid-column:1/-1}
 .reading-question{padding:.7rem 0;border-bottom:1px dashed var(--border)}.reading-question:last-child{border-bottom:0}.reading-question strong{display:block}.reading-answer{margin:.35rem 0 0;color:var(--text-muted)}
 .reading-next{margin:2rem 0;padding:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-toggle{line-height:1.85}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
+@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-line{font-size:1.06rem;gap:.25rem}.reading-chunk{line-height:1.48}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
 </style>
 """
 
@@ -50,19 +73,43 @@ STYLE = r"""
 SCRIPT = r"""
 <script>
 (function(){
-  const buttons=[...document.querySelectorAll('[data-reading-sentence]')];
-  const toggle=(button,show)=>{
+  const translationButtons=[...document.querySelectorAll('[data-reading-sentence]')];
+  const toggleTranslation=(button,show)=>{
     const target=document.getElementById(button.getAttribute('aria-controls'));
     if(!target)return;
     const next=show===undefined?button.getAttribute('aria-expanded')!=='true':show;
     button.setAttribute('aria-expanded',next?'true':'false');
     target.hidden=!next;
   };
-  buttons.forEach(button=>button.addEventListener('click',()=>toggle(button)));
+  translationButtons.forEach(button=>button.addEventListener('click',()=>toggleTranslation(button)));
+
+  const chunks=[...document.querySelectorAll('[data-structure-chunk]')];
+  const closeRowDetails=(row)=>{
+    row.querySelectorAll('[data-structure-chunk]').forEach(item=>item.setAttribute('aria-pressed','false'));
+    row.querySelectorAll('[data-structure-detail]').forEach(detail=>detail.hidden=true);
+  };
+  chunks.forEach(button=>button.addEventListener('click',()=>{
+    const row=button.closest('.reading-sentence-row');
+    if(!row)return;
+    const detail=document.getElementById(button.dataset.detail||'');
+    if(!detail)return;
+    const wasOpen=button.getAttribute('aria-pressed')==='true';
+    closeRowDetails(row);
+    if(wasOpen)return;
+    button.setAttribute('aria-pressed','true');
+    const label=detail.querySelector('[data-structure-label]');
+    const quote=detail.querySelector('[data-structure-quote]');
+    const note=detail.querySelector('[data-structure-note]');
+    if(label)label.textContent=button.dataset.label||'構造';
+    if(quote)quote.textContent=button.textContent||'';
+    if(note)note.textContent=button.dataset.note||'';
+    detail.hidden=false;
+  }));
+
   const all=document.querySelector('[data-reading-toggle-all]');
   if(all)all.addEventListener('click',()=>{
-    const shouldShow=buttons.some(button=>button.getAttribute('aria-expanded')!=='true');
-    buttons.forEach(button=>toggle(button,shouldShow));
+    const shouldShow=translationButtons.some(button=>button.getAttribute('aria-expanded')!=='true');
+    translationButtons.forEach(button=>toggleTranslation(button,shouldShow));
     all.textContent=shouldShow?'日本語訳をすべて隠す':'日本語訳をすべて表示';
   });
 })();
@@ -79,6 +126,38 @@ def _meta(article):
     return " · ".join(esc(x) for x in bits if x)
 
 
+def _structure_for(article):
+    """記事と分離した構造チャンクを読み、本文とのズレをビルド時に検出する。"""
+    path = config.CONTENT_DIR / "reading" / "structure" / f"{article['slug']}.json"
+    if not path.is_file():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    mapping = data.get("sentences", {})
+    if not isinstance(mapping, dict):
+        raise ValueError(f"{path.name}: sentences は object にしてください")
+    source_sentences = {
+        sentence["en"]
+        for paragraph in article.get("paragraphs", [])
+        for sentence in paragraph.get("sentences", [])
+    }
+    unknown = set(mapping) - source_sentences
+    if unknown:
+        raise ValueError(f"{path.name}: 本文に存在しない英文があります: {next(iter(unknown))}")
+    for sentence_en, chunks in mapping.items():
+        if not isinstance(chunks, list) or not chunks:
+            raise ValueError(f"{path.name}: {sentence_en[:32]}... の chunks が空です")
+        for index, chunk in enumerate(chunks):
+            for key in ("text", "role", "label_ja", "note_ja"):
+                if not chunk.get(key):
+                    raise ValueError(f"{path.name}: chunk[{index}] に {key} がありません")
+        reconstructed = " ".join(chunk["text"].strip() for chunk in chunks)
+        if reconstructed != sentence_en:
+            raise ValueError(
+                f"{path.name}: chunk の連結結果が本文と一致しません\n本文: {sentence_en}\nchunk: {reconstructed}"
+            )
+    return mapping
+
+
 def render_index(cfg, articles):
     cards = []
     for article in articles:
@@ -93,19 +172,19 @@ def render_index(cfg, articles):
 <section class="reading-library-hero">
   <p class="eyebrow">Kokeniwa Reading Garden</p>
   <h1>英語リーディング・精読教材</h1>
-  <p>面白い英語を読みながら、一文ごとの日本語訳、語彙・表現・構文・ニュアンスまでその場で確認できます。訳は英文のすぐ下に差し込まれるので、ページを行き来せずに精読できます。</p>
+  <p>面白い英語を読みながら、一文ごとの日本語訳、文の構造、語彙・表現・ニュアンスまでその場で確認できます。英文は意味の塊ごとに視覚化されるので、語順のまま構造をつかむ練習ができます。</p>
 </section>
-<p class="lead">まず英文をそのまま読み、詰まった文だけタップ。最後に「学習ガイド」で表現と読み方を整理する構成です。精読モードは常時組み込まれており、切り替え操作はありません。</p>
+<p class="lead">まず英文をそのまま読み、色のついた塊をタップして文の骨格を確認。必要な文だけ「訳」で日本語を開き、最後に学習ガイドで定着させる構成です。</p>
 <div class="reading-article-grid">{''.join(cards)}</div>
 <section class="note-box">
   <h2>この教材の使い方</h2>
-  <p>1周目は内容を楽しむことを優先し、2周目で訳と精読ポイントを確認するのがおすすめです。英語長文読解の練習と、自然な表現のストックを同時に進められます。</p>
+  <p>色そのものを暗記するのではなく、「どこまでが主語か」「どこが述部か」「どの節が何を説明しているか」という境界を意識してください。英文を前から塊で処理する感覚を育てます。</p>
 </section>
 """
     return layout.page(
         cfg,
         title="英語リーディング・精読教材｜楽しく読める長文",
-        description="英語リーディング・長文読解・精読の無料教材。面白い英語記事を、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきで読めます。",
+        description="英語リーディング・長文読解・精読の無料教材。面白い英語記事を、一文ごとの日本語訳、文構造の色分け、語彙・構文・ニュアンス解説つきで読めます。",
         path="/reading/articles/",
         content=content,
         og_image="reading",
@@ -131,15 +210,40 @@ def _render_notes(notes):
     return '<aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span>' + "".join(rows) + "</aside>"
 
 
-def _render_block(block, p_index):
+def _render_sentence(sentence, p_index, s_index, chunks):
+    translation_id = f"translation-{p_index}-{s_index}"
+    detail_id = f"structure-{p_index}-{s_index}"
+    if chunks:
+        buttons = []
+        for chunk in chunks:
+            buttons.append(
+                f'<button type="button" class="reading-chunk role-{esc(chunk["role"])}" '
+                f'data-structure-chunk data-detail="{detail_id}" aria-pressed="false" '
+                f'data-label="{esc(chunk["label_ja"])}" data-note="{esc(chunk["note_ja"])}">'
+                f'{esc(chunk["text"])}</button>'
+            )
+        sentence_html = " ".join(buttons)
+    else:
+        sentence_html = f'<span class="reading-plain-sentence" lang="en">{esc(sentence["en"])}</span>'
+    detail = ""
+    if chunks:
+        detail = f"""
+  <div class="reading-structure-detail" id="{detail_id}" data-structure-detail lang="ja" hidden>
+    <div class="reading-structure-detail-head"><span class="reading-structure-detail-label" data-structure-label></span><strong lang="en" data-structure-quote></strong></div>
+    <p data-structure-note></p>
+  </div>"""
+    return f"""
+<div class="reading-sentence-row">
+  <div class="reading-sentence-line" lang="en">{sentence_html}<button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="{translation_id}" title="日本語訳を表示">訳</button></div>
+{detail}
+  <div class="reading-translation" id="{translation_id}" lang="ja" hidden>{esc(sentence['ja'])}</div>
+</div>"""
+
+
+def _render_block(block, p_index, structure):
     rows = []
     for s_index, sentence in enumerate(block.get("sentences", [])):
-        sid = f"translation-{p_index}-{s_index}"
-        rows.append(f"""
-<div class="reading-sentence-row">
-  <button type="button" class="reading-sentence-toggle" data-reading-sentence aria-expanded="false" aria-controls="{sid}" lang="en">{esc(sentence['en'])}</button>
-  <div class="reading-translation" id="{sid}" lang="ja" hidden>{esc(sentence['ja'])}</div>
-</div>""")
+        rows.append(_render_sentence(sentence, p_index, s_index, structure.get(sentence["en"], [])))
     return f"""
 <section class="reading-study-block">
   <span class="reading-block-no">{p_index + 1:02d}</span>
@@ -183,7 +287,8 @@ def _guide(article):
 
 def render_article(cfg, article, prev_article=None, next_article=None):
     path = article_url(article)
-    blocks = "".join(_render_block(block, i) for i, block in enumerate(article.get("paragraphs", [])))
+    structure = _structure_for(article)
+    blocks = "".join(_render_block(block, i, structure) for i, block in enumerate(article.get("paragraphs", [])))
     prev_link = f'<a href="{article_url(prev_article)}">← {esc(prev_article["title_ja"])}</a>' if prev_article else '<span></span>'
     next_link = f'<a href="{article_url(next_article)}">{esc(next_article["title_ja"])} →</a>' if next_article else '<a href="/reading/articles/">教材一覧へ →</a>'
     content = STYLE + f"""
@@ -195,7 +300,8 @@ def render_article(cfg, article, prev_article=None, next_article=None):
     <p class="reading-dek">{esc(article.get('title_ja',''))} — {esc(article.get('description',''))}</p>
   </header>
   <div class="reading-orientation"><strong>この記事を読むヒント</strong>{esc(article.get('orientation_ja',''))}</div>
-  <div class="reading-toolbar"><span class="reading-toolbar-note">英文をタップすると、その文の日本語訳が直下に開きます。</span><button type="button" data-reading-toggle-all>日本語訳をすべて表示</button></div>
+  {('<div class="reading-structure-legend" lang="ja"><strong>文の構造</strong><span class="reading-legend-item role-subject">主語</span><span class="reading-legend-item role-predicate">述部</span><span class="reading-legend-item role-object">目的語・補語</span><span class="reading-legend-item role-clause">節・後置修飾</span><span class="reading-legend-item role-modifier">修飾</span><span class="reading-legend-item role-connector">つなぎ</span></div>' if structure else '')}
+  <div class="reading-toolbar"><span class="reading-toolbar-note">色のついた塊をタップすると構造解説。「訳」でその文の日本語訳を開けます。</span><button type="button" data-reading-toggle-all>日本語訳をすべて表示</button></div>
   {blocks}
   {_guide(article)}
   <nav class="reading-next" aria-label="前後の教材">{prev_link}{next_link}</nav>
@@ -224,7 +330,7 @@ def render_article(cfg, article, prev_article=None, next_article=None):
     return layout.page(
         cfg,
         title=f"{article.get('title_ja', article['title'])}｜英語リーディング・精読教材",
-        description=f"{article.get('description','')} 一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。",
+        description=f"{article.get('description','')} 文構造の色分け、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。",
         path=path,
         content=content,
         jsonld=jsonld,
