@@ -6,6 +6,7 @@
     cd dist && python -m http.server 8000
 """
 import datetime as dt
+import hashlib
 import json
 import re
 import shutil
@@ -22,6 +23,23 @@ from templates import reading as reading_tpl
 from templates import reading_articles as reading_articles_tpl
 from templates import training as training_tpl
 from templates import vocab as vocab_tpl
+
+
+def build_version():
+    """Return a stable fingerprint for everything that can affect the site."""
+    digest = hashlib.sha256()
+    roots = [config.SITE_DIR, config.CONTENT_DIR, config.DATA_DIR, config.ROOT / "anki"]
+    files = [config.ROOT / "site_config.json"]
+    for root in roots:
+        if root.is_dir():
+            files.extend(path for path in root.rglob("*")
+                         if path.is_file() and path.suffix not in (".pyc", ".pyo"))
+    for path in sorted(files, key=lambda item: item.as_posix()):
+        digest.update(path.relative_to(config.ROOT).as_posix().encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(path.read_bytes())
+        digest.update(b"\0")
+    return digest.hexdigest()[:16]
 
 
 def load_articles():
@@ -208,6 +226,10 @@ def build(cfg):
     # --- 静的アセット（static/data は上で作成済みのため dirs_exist_ok） ---
     static_src = config.SITE_DIR / "static"
     shutil.copytree(static_src, config.DIST_DIR / "static", dirs_exist_ok=True)
+    sw_source = (static_src / "sw.js").read_text(encoding="utf-8")
+    write_page("sw.js", sw_source.replace("__BUILD_VERSION__", cfg["build_version"]))
+    write_page("version.json", json.dumps(
+        {"version": cfg["build_version"]}, separators=(",", ":")) + "\n")
 
     # --- CSVダウンロード（Ankiインポート用。Kindleおまけ。表からはリンクしない） ---
     anki_dir = config.ROOT / "anki"
@@ -241,6 +263,13 @@ def build(cfg):
 /static/*
   Cache-Control: public, max-age=86400
 
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Service-Worker-Allowed: /
+
+/version.json
+  Cache-Control: no-cache, no-store, must-revalidate
+
 /downloads/*
   X-Robots-Tag: noindex
   Content-Type: text/csv; charset=utf-8
@@ -273,6 +302,7 @@ def check_links(pages):
 
 def main():
     cfg = config.load_config()
+    cfg["build_version"] = build_version()
     pages = build(cfg)
     broken = check_links(pages)
     print(f"generated {len(pages) + 1} pages -> {config.DIST_DIR}")  # +1 = 404.html

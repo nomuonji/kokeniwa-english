@@ -62,8 +62,8 @@ def render_trainer(cfg, set_key, words):
     total = len(words)
     content = f"""
 <h1>{esc(tset["title"])}フラッシュカード</h1>
-<p class="lead">全{total}語を一覧表示。各カードをタップすると意味が裏返って出ます。
-覚えたい語だけめくってセルフチェックを。</p>
+<p class="lead">全{total}語から、単語や意味で検索できます。最初は48語ずつ表示。
+カードをタップして意味を確かめ、続けたいときは「さらに表示」へ。</p>
 <div id="training-app"
      data-src="/static/data/training-{tset["slug"]}.json"
      data-set="{esc(set_key)}"

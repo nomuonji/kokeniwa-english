@@ -103,7 +103,7 @@ def post_card(article, *, heading="h3", featured=False):
     label = "続きを読む" if featured else "読む"
     return f"""
 <a class="{kind} topic-{cls}" href="{article_url(article)}">
-  {_cover_img(article, eager=featured)}
+{_cover_img(article, eager=featured)}
   <div class="post-body">
     <div class="post-head">{_topic_badge(article)}{_meta_line(article)}</div>
     <{heading} class="post-title">{esc(article["title"])}</{heading}>

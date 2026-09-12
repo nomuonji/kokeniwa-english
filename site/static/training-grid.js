@@ -10,8 +10,10 @@
 
   var src = app.getAttribute("data-src");
 
+  function load() {
+  app.innerHTML = '<p class="lead" role="status">読み込み中…</p>';
   fetch(src)
-    .then(function (r) { return r.json(); })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
     .then(function (data) {
       init(data.words || []);
       // ハッシュだけ変わった場合（同一ページ内遷移）も再描画
@@ -19,7 +21,11 @@
     })
     .catch(function () {
       app.innerHTML = '<p class="lead">データの読み込みに失敗しました。時間をおいて再度お試しください。</p>';
+      var retry = el("button", "fc-btn", "再読み込み");
+      retry.type = "button"; retry.addEventListener("click", load); app.appendChild(retry);
     });
+  }
+  load();
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -36,7 +42,7 @@
 
     // --- 操作バー ---
     var bar = el("div", "fc-bar");
-    var flipAllBtn = el("button", "fc-btn", "すべて意味を表示");
+    var flipAllBtn = el("button", "fc-btn", "表示中の意味を表示");
     flipAllBtn.type = "button";
     flipAllBtn.setAttribute("aria-pressed", "false");
     bar.appendChild(flipAllBtn);
@@ -79,10 +85,10 @@
     // --- すべて表示/裏返し ---
     var allFlipped = false;
     flipAllBtn.addEventListener("click", function () {
-      allFlipped = !allFlipped;
+      allFlipped = !Array.from(grid.querySelectorAll(".fc-cell:not([hidden])")).every(function (cell) { return cell.classList.contains("flipped"); });
       flipAllBtn.setAttribute("aria-pressed", String(allFlipped));
-      flipAllBtn.textContent = allFlipped ? "すべて英単語に戻す" : "すべて意味を表示";
-      grid.querySelectorAll(".fc-cell").forEach(function (c) {
+      flipAllBtn.textContent = allFlipped ? "表示中を英単語に戻す" : "表示中の意味を表示";
+      grid.querySelectorAll(".fc-cell:not([hidden])").forEach(function (c) {
         c.classList.toggle("flipped", allFlipped);
       });
     });
@@ -97,5 +103,6 @@
         });
       }
     }
+    if (window.enhanceStudyGrid) window.enhanceStudyGrid(app);
   }
 })();

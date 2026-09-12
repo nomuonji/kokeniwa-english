@@ -81,9 +81,8 @@ def render_trainer(cfg, set_key, by_subject):
 
     content = f"""
 <h1>{esc(vset["title"])}フラッシュカード</h1>
-<p class="lead">全{total}語を一覧表示。各カードをタップすると意味が裏返って出ます。
-覚えたい語だけめくってセルフチェックを。例文つきの完全版は<a href="/books/">Kindle版</a>で。</p>
-{sns_html}
+<p class="lead">全{total}語を科目ごとに学べます。表示中の科目から検索し、カードをめくって意味を確認。
+最初は48語ずつ表示します。例文は<a href="/books/">Kindle版</a>に収録しています。</p>
 <div id="vocab-app"
      data-src="/static/data/{set_key}.json"
      data-set="{set_key}"
@@ -91,6 +90,7 @@ def render_trainer(cfg, set_key, by_subject):
   <p class="lead">読み込み中…</p>
   <noscript>このフラッシュカードはJavaScriptが必要です。</noscript>
 </div>
+{sns_html}
 """
     return layout.page(
         cfg, title=f"{vset['title']}フラッシュカード",

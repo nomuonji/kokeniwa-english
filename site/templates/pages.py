@@ -44,10 +44,18 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
     sns_cards = "".join(_sns_card(k, s) for k, s in cfg["sns"].items())
 
     content = f"""
-<section class="hero">
-  <h1>{esc(cfg["tagline"])}</h1>
-  <p>{esc(cfg["description"])}</p>
+<section class="hero home-hero">
+  <p class="eyebrow">Kokeniwa English · 無料・登録不要</p>
+  <h1>一文を読む。<br>ひとつ、身につける。</h1>
+  <p>英文をじっくり読む日も、単語を少し覚える日も。<br>今日の学びたいことから始めましょう。</p>
+  <div class="hero-actions"><a class="follow-btn" href="/reading/articles/">長文を精読する →</a><a href="/training/">英単語を練習する →</a></div>
 </section>
+<div class="learning-paths" aria-label="目的から選ぶ">
+  <a href="/reading/"><span>01 / 読む</span><strong>一文の理解を確かめる</strong><small>英文解釈・全文訳つき →</small></a>
+  <a href="/training/"><span>02 / 覚える</span><strong>使える語彙を増やす</strong><small>英検・ニュース・ドラマ →</small></a>
+  <a href="/vocab/"><span>03 / 専門を学ぶ</span><strong>仕事と資格の英語</strong><small>USCPA・法律英単語 →</small></a>
+</div>
+<div class="section-head"><h2>学習メニュー</h2></div>
 
 <div class="card-grid">
   <a class="card card-reading" href="/reading/">
@@ -76,9 +84,6 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
   </a>
 </div>
 
-<div class="section-head"><h2>SNSで毎日配信中</h2><a class="more" href="/sns/">アカウント紹介 →</a></div>
-{sns_cards}
-
 {latest}
 
 <div class="section-head"><h2>Kindle教材</h2><a class="more" href="/books/">くわしく見る →</a></div>
@@ -87,6 +92,9 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
 <strong>3冊とも Kindle Unlimited の読み放題対象</strong>です。</p>
 <div class="book-strip">{_book_strip()}</div>
 {_AFFILIATE_NOTICE}
+<div class="section-head"><h2>SNSで毎日配信中</h2><a class="more" href="/sns/">アカウント紹介 →</a></div>
+<div class="home-social">{sns_cards}</div>
+
 """
     jsonld = [{
         "@context": "https://schema.org",

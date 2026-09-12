@@ -22,10 +22,16 @@
 <meta name="twitter:description" content="英語リーディング・長文読解・精読の無料教材。面白い英語記事を、一文タップで開く日本語訳、文構造の色分け、語彙・構文・ニュアンス解説つきで読めます。">
 <meta name="twitter:image" content="https://en.kokeniwa.net/static/og/reading.png?v=dc545437">
 <meta name="theme-color" content="#4d6a38">
+<meta name="application-name" content="Kokeniwa English">
+<meta name="app-version" content="57c60c7649cb60f2">
 <link rel="icon" href="/static/favicon.svg?v=934cb3c0" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/static/apple-touch-icon.png?v=1d7d2c65">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png?v=d06e301b">
+<link rel="manifest" href="/static/manifest.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="Kokeniwa English のブログ" href="/feed.xml">
 <link rel="stylesheet" href="/static/style.css?v=b1cbbdab">
+<link rel="stylesheet" href="/static/experience.css?v=5fdaeb41">
+<link rel="stylesheet" href="/static/garden.css?v=6909e558">
+<link rel="stylesheet" href="/static/pwa.css?v=3b177f4c">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5KC79PZK8"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
@@ -34,7 +40,7 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://en.kokeniwa.net/"}, {"@type": "ListItem", "position": 2, "name": "英文解釈", "item": "https://en.kokeniwa.net/reading/"}, {"@type": "ListItem", "position": 3, "name": "長文リーディング", "item": "https://en.kokeniwa.net/reading/articles/"}]}</script>
 </head>
-<body>
+<body class="site-inner">
 <div class="garden-bg" aria-hidden="true">
   <svg viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
     <path class="g-far" d="M0 214 C 240 150 430 176 620 200 S 1060 150 1440 188 L1440 400 L0 400 Z"/>
@@ -76,80 +82,27 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 <a class="skip-link" href="#main">本文へスキップ</a>
 <div class="site-top">
 
-<div class="announce" id="announce" data-announce-id="kindle-2026-07" hidden>
-  <div class="container announce-inner">
-    <span class="announce-icon" aria-hidden="true">📚</span>
-    <p class="announce-text">
-      <span class="announce-full">英語トレーニングシリーズ全3巻を出版しました。対訳シリーズと合わせて全6冊、Kindle Unlimited の読み放題対象です。</span>
-      <span class="announce-short">Kindle教材 全6冊を出版しました（Kindle Unlimited 対象）</span>
-    </p>
-    <a class="announce-link" href="/books/">教材を見る →</a>
-    <button type="button" class="announce-close" aria-label="お知らせを閉じる">×</button>
-  </div>
-</div>
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="/">
-      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 20.5V5.5M8 8h8M8 11.5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 23C2 18 8 14 14 15C20 14 26 18 25 24C24 29 5 29 3 23Z" fill="currentColor" opacity=".3"/><path d="M4 20C4 14 10 9 16 12C21 9 26 15 25 20C21 18 19 23 15 20C10 23 9 18 4 20Z" fill="currentColor"/><path d="M21 12Q22 6 28 5Q29 12 21 12Z" fill="currentColor"/><path d="M21 16L23 10" stroke="currentColor" stroke-width="1.5"/></svg>
       <span>Kokeniwa English</span>
     </a>
-    <nav class="site-nav" aria-label="メイン"><a href="/reading/" class="active">英文解釈</a><a href="/reading/articles/">リーディング</a><a href="/vocab/uscpa/">USCPA単語</a><a href="/vocab/legal/">法律単語</a><a href="/training/">英単語</a><a href="/blog/">ブログ</a><a href="/books/">教材</a><a href="/sns/">SNS</a></nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>メニュー</button>
+    <nav id="main-nav" class="site-nav" aria-label="メイン"><a href="/reading/articles/" class="active" aria-current="page">長文精読</a><a href="/reading/">一文問題</a><a href="/training/">英単語</a><a href="/vocab/">専門英語</a><a href="/blog/">学習ブログ</a><a href="/books/">書籍</a></nav>
   </div>
 </header>
 </div>
-<main id="main" class="container container-wide">
+<main tabindex="-1" id="main" class="container container-wide">
 <nav class="breadcrumbs" aria-label="パンくず"><a href="/">ホーム</a><span class="sep">/</span><a href="/reading/">英文解釈</a><span class="sep">/</span><span aria-current="page">長文リーディング</span></nav>
-
-<style>
-.reading-library-hero{margin:1.2rem 0 2rem;padding:clamp(1.2rem,4vw,2rem);background:linear-gradient(145deg,var(--surface),var(--accent-reading-soft));border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow)}
-.reading-library-hero .eyebrow,.reading-article-kicker{margin:0 0 .35rem;color:var(--primary);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem}
-.reading-library-hero p{max-width:760px;margin:.55rem 0 0;color:var(--text-muted)}
-.reading-article-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:1.2rem 0 2.5rem}
-.reading-article-card{display:block;padding:20px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow);color:var(--text);transition:transform .18s var(--ease-out),box-shadow .18s var(--ease-out),border-color .18s var(--ease-out)}
-.reading-article-card:hover{text-decoration:none;transform:translateY(-2px);box-shadow:var(--shadow-lift);border-color:var(--border-strong)}
-.reading-article-card h2{margin:.35rem 0 .45rem;font-size:1.2rem}.reading-article-card p{margin:.4rem 0;color:var(--text-muted)}
-.reading-card-meta,.reading-article-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;color:var(--text-muted);font-size:.86rem}
-.reading-pill{display:inline-flex;align-items:center;padding:.18rem .55rem;border-radius:999px;background:var(--accent-reading-soft);color:var(--primary-strong);font-size:.78rem;font-weight:700}
-.reading-article-head{margin:1rem 0 1.5rem;padding-bottom:1.25rem;border-bottom:1px solid var(--border)}
-.reading-article-head h1{margin:.25rem 0 .55rem}.reading-dek{font-family:var(--font-serif);font-size:1.06rem;color:var(--text-muted);max-width:760px}
-.reading-orientation{margin:1rem 0 1rem;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:var(--radius)}
-.reading-orientation strong{display:block;margin-bottom:.25rem;color:var(--primary-strong)}
-.reading-structure-hint{margin:.7rem 0 1rem;color:var(--text-muted);font-size:.8rem}
-.reading-toolbar{margin:1rem 0 1.5rem;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.reading-toolbar-note{font-size:.85rem;color:var(--text-muted)}
-.reading-study-block{position:relative;margin:0 0 1.6rem;padding:clamp(16px,3vw,24px);background:color-mix(in srgb,var(--surface) 92%,transparent);border:1px solid var(--border);border-radius:var(--radius-lg)}
-.reading-block-no{position:absolute;top:12px;right:14px;color:var(--border-strong);font-family:var(--font-serif);font-size:.78rem;letter-spacing:.08em}
-.reading-sentence-row{margin:0 0 .9rem}
-.reading-sentence-line{appearance:none;display:block;width:100%;border:0;background:transparent;color:var(--text);text-align:left;padding:.08rem .1rem;margin:0;border-radius:7px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:2;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .14s var(--ease-out)}
-.reading-sentence-line:hover{background:color-mix(in srgb,var(--surface-2) 34%,transparent)}
-.reading-sentence-line[aria-expanded="true"]{background:color-mix(in srgb,var(--surface-2) 22%,transparent)}
-.reading-sentence-line:focus-visible{outline:2px solid var(--primary);outline-offset:3px}
-.reading-plain-sentence{line-height:2}
-.reading-chunk{display:inline;background:transparent;padding:0;margin:0;line-height:inherit;font-weight:500}
-.reading-chunk.role-subject{color:var(--accent-reading)}
-.reading-chunk.role-predicate{color:var(--accent-training)}
-.reading-chunk.role-object,.reading-chunk.role-complement{color:var(--accent-uscpa)}
-.reading-chunk.role-clause,.reading-chunk.role-relative,.reading-chunk.role-infinitive,.reading-chunk.role-participle{color:var(--accent-legal)}
-.reading-chunk.role-modifier{color:var(--text-muted)}
-.reading-chunk.role-connector{color:var(--danger);font-weight:700}
-.reading-translation{margin:.2rem 0 .8rem;padding:.58rem .75rem;background:var(--surface-2);border-left:3px solid var(--primary);border-radius:0 8px 8px 0;color:var(--text-muted);font-size:.93rem}.reading-translation[hidden]{display:none}
-.reading-notes{margin:1rem 0 0;padding-top:.9rem;border-top:1px dashed var(--border)}.reading-notes-label{display:block;margin-bottom:.55rem;color:var(--text-muted);font-size:.78rem;font-weight:700;letter-spacing:.06em}
-.reading-note{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;margin:.45rem 0;padding:.55rem .65rem;border-radius:10px;background:var(--surface)}
-.reading-note-type{min-width:3.2rem;text-align:center;padding:.12rem .42rem;border-radius:999px;background:var(--accent-reading-soft);color:var(--primary-strong);font-size:.72rem;font-weight:700}.reading-note.type-grammar .reading-note-type{background:var(--accent-training-soft);color:var(--accent-training)}.reading-note.type-nuance .reading-note-type{background:var(--accent-legal-soft);color:var(--accent-legal)}
-.reading-note strong{font-family:Georgia,"Times New Roman",serif}.reading-note p{margin:.12rem 0 0;color:var(--text-muted);font-size:.9rem}
-.reading-guide{margin:2.5rem 0 1.5rem;padding:clamp(18px,4vw,28px);background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow)}
-.reading-guide>h2{margin-top:0}.reading-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.reading-guide-card{padding:14px 16px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius)}.reading-guide-card h3{margin:.1rem 0 .55rem}.reading-guide-card ul{margin:.35rem 0;padding-left:1.2rem}.reading-guide-card li{margin:.3rem 0}.reading-guide-card.full{grid-column:1/-1}
-.reading-question{padding:.7rem 0;border-bottom:1px dashed var(--border)}.reading-question:last-child{border-bottom:0}.reading-question strong{display:block}.reading-answer{margin:.35rem 0 0;color:var(--text-muted)}
-.reading-next{margin:2rem 0;padding:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-line{font-size:1.06rem;line-height:1.95;padding:.06rem 0}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
-</style>
-
+<nav class="section-nav" aria-label="読解メニュー"><a href="/reading/">一文の問題</a><a href="/reading/articles/" aria-current="page">長文を精読</a></nav>
+<link rel="stylesheet" href="/static/reading-base.css?v=e9c703a6"><link rel="stylesheet" href="/static/reader.css?v=99fd7e4f">
 <section class="reading-library-hero">
   <p class="eyebrow">Kokeniwa Reading Garden</p>
   <h1>英語リーディング・精読教材</h1>
-  <p>面白い英語を読みながら、一文ごとの日本語訳、文の構造、語彙・表現・ニュアンスまでその場で確認できます。英文は普通の文章として読みやすさを保ちつつ、意味・文法上の塊を文字色で区別しています。</p>
+  <p>気になる話題をひとつ選び、英文を一段落ずつ。訳、構文、語彙の解説を手元で確認しながら、自分のペースで読み進められます。</p>
 </section>
-<p class="lead">まず英文をそのまま読み、色のまとまりで文の構造をつかみます。和訳を確認したい文は、その文自体をタップしてください。</p>
+<p class="lead">まずは本文を読む。迷った一文は「日本語訳を確認」、読み解きたい段落は「語彙・構文を確認」へ。</p>
 <div class="reading-article-grid">
 <a class="reading-article-card" href="/reading/articles/why-we-talk-to-ourselves/">
   <div class="reading-card-meta"><span class="reading-pill">精読教材</span><span>Mind &amp; Everyday Life · B1–B2 · 約6分</span></div>
@@ -165,7 +118,7 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 </a></div>
 <section class="note-box">
   <h2>この教材の使い方</h2>
-  <p>色名を覚える必要はありません。「どこまでが一つの意味の塊か」を目で追いながら、英文を前からまとまりで処理する感覚を育てます。</p>
+  <p>訳を見る前に意味を考え、解説で確かめたらもう一度英文へ。記事の最後には、答えを開いて確認できる理解チェックがあります。</p>
 </section>
 
 </main>
@@ -173,13 +126,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <div class="container">
     <p class="footer-brand">Kokeniwa English</p>
     <p class="footer-tagline">苔むすように、言葉を育てる。英語を毎日すこしずつ。</p>
-    <nav class="footer-nav" aria-label="フッタ"><a href="/reading/" class="active">英文解釈</a><a href="/reading/articles/">リーディング</a><a href="/vocab/uscpa/">USCPA単語</a><a href="/vocab/legal/">法律単語</a><a href="/training/">英単語</a><a href="/blog/">ブログ</a><a href="/books/">教材</a><a href="/sns/">SNS</a></nav>
+    <nav class="footer-nav" aria-label="フッタ"><a href="/reading/articles/" class="active" aria-current="page">長文精読</a><a href="/reading/">一文問題</a><a href="/training/">英単語</a><a href="/vocab/">専門英語</a><a href="/blog/">学習ブログ</a><a href="/books/">書籍</a><a href="/sns/">SNS</a></nav>
 <p class="footer-sister">姉妹サイト <a href="https://ja.kokeniwa.net" hreflang="en" rel="noopener">Kokeniwa Japanese</a><span class="footer-sister-note">日本語を学ぶ英語話者向け（サイトは英語）</span></p>
     <p class="footer-legal"><a href="/privacy/">プライバシーポリシー</a></p>
     <p class="copyright">&copy; Kokeniwa English</p>
   </div>
 </footer>
+<script src="/static/experience.js?v=a8d4c881" defer></script>
 
 <script src="/static/announce.js?v=4e6f519c" defer></script>
+<script src="/static/pwa.js?v=5d9f4db9" defer></script>
 </body>
 </html>

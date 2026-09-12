@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Kokeniwa English",
+  "short_name": "Kokeniwa",
+  "description": "英文解釈・英単語を少しずつ学べる無料の英語学習サイト",
+  "lang": "ja",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f4e8",
+  "theme_color": "#4d6a38",
+  "categories": ["education"],
+  "icons": [
+    {"src": "/static/pwa-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "/static/pwa-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

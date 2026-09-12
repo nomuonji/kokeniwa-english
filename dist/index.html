@@ -22,10 +22,16 @@
 <meta name="twitter:description" content="英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト「Kokeniwa（苔庭）」。ThreadsのSNS投稿と連動しています。">
 <meta name="twitter:image" content="https://en.kokeniwa.net/static/og/default.png?v=6d27a322">
 <meta name="theme-color" content="#4d6a38">
+<meta name="application-name" content="Kokeniwa English">
+<meta name="app-version" content="57c60c7649cb60f2">
 <link rel="icon" href="/static/favicon.svg?v=934cb3c0" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/static/apple-touch-icon.png?v=1d7d2c65">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png?v=d06e301b">
+<link rel="manifest" href="/static/manifest.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="Kokeniwa English のブログ" href="/feed.xml">
 <link rel="stylesheet" href="/static/style.css?v=b1cbbdab">
+<link rel="stylesheet" href="/static/experience.css?v=5fdaeb41">
+<link rel="stylesheet" href="/static/garden.css?v=6909e558">
+<link rel="stylesheet" href="/static/pwa.css?v=3b177f4c">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5KC79PZK8"></script>
 <script>
 window.dataLayer=window.dataLayer||[];
@@ -34,7 +40,7 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Kokeniwa English", "alternateName": "苔庭 英語", "description": "英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト「Kokeniwa（苔庭）」。ThreadsのSNS投稿と連動しています。", "url": "https://en.kokeniwa.net/", "inLanguage": "ja", "publisher": {"@id": "https://en.kokeniwa.net/#publisher"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://en.kokeniwa.net/#publisher", "name": "Kokeniwa English", "url": "https://en.kokeniwa.net/", "logo": "https://en.kokeniwa.net/static/apple-touch-icon.png", "sameAs": ["https://www.threads.com/@eibun_reading", "https://www.threads.com/@uscpa_vocab_jp", "https://www.threads.com/@legal_english_vocab", "https://www.threads.com/@english_vocabulary_kotsukotsu"]}</script>
 </head>
-<body>
+<body class="site-home">
 <div class="garden-bg" aria-hidden="true">
   <svg viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
     <path class="g-far" d="M0 214 C 240 150 430 176 620 200 S 1060 150 1440 188 L1440 400 L0 400 Z"/>
@@ -90,20 +96,30 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="/">
-      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 20.5V5.5M8 8h8M8 11.5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 23C2 18 8 14 14 15C20 14 26 18 25 24C24 29 5 29 3 23Z" fill="currentColor" opacity=".3"/><path d="M4 20C4 14 10 9 16 12C21 9 26 15 25 20C21 18 19 23 15 20C10 23 9 18 4 20Z" fill="currentColor"/><path d="M21 12Q22 6 28 5Q29 12 21 12Z" fill="currentColor"/><path d="M21 16L23 10" stroke="currentColor" stroke-width="1.5"/></svg>
       <span>Kokeniwa English</span>
     </a>
-    <nav class="site-nav" aria-label="メイン"><a href="/reading/">英文解釈</a><a href="/reading/articles/">リーディング</a><a href="/vocab/uscpa/">USCPA単語</a><a href="/vocab/legal/">法律単語</a><a href="/training/">英単語</a><a href="/blog/">ブログ</a><a href="/books/">教材</a><a href="/sns/">SNS</a></nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>メニュー</button>
+    <nav id="main-nav" class="site-nav" aria-label="メイン"><a href="/reading/articles/">長文精読</a><a href="/reading/">一文問題</a><a href="/training/">英単語</a><a href="/vocab/">専門英語</a><a href="/blog/">学習ブログ</a><a href="/books/">書籍</a></nav>
   </div>
 </header>
 </div>
-<main id="main" class="container">
+<main tabindex="-1" id="main" class="container">
 
 
-<section class="hero">
-  <h1>苔むすように、言葉を育てる。英語を毎日すこしずつ。</h1>
-  <p>英文解釈トレーニング200問、USCPA英単語1000語、法律英単語1000語、英検準1級ほか一般英単語トレーニングを無料で学べる英語学習サイト「Kokeniwa（苔庭）」。ThreadsのSNS投稿と連動しています。</p>
+
+<section class="hero home-hero">
+  <p class="eyebrow">Kokeniwa English · 無料・登録不要</p>
+  <h1>一文を読む。<br>ひとつ、身につける。</h1>
+  <p>英文をじっくり読む日も、単語を少し覚える日も。<br>今日の学びたいことから始めましょう。</p>
+  <div class="hero-actions"><a class="follow-btn" href="/reading/articles/">長文を精読する →</a><a href="/training/">英単語を練習する →</a></div>
 </section>
+<div class="learning-paths" aria-label="目的から選ぶ">
+  <a href="/reading/"><span>01 / 読む</span><strong>一文の理解を確かめる</strong><small>英文解釈・全文訳つき →</small></a>
+  <a href="/training/"><span>02 / 覚える</span><strong>使える語彙を増やす</strong><small>英検・ニュース・ドラマ →</small></a>
+  <a href="/vocab/"><span>03 / 専門を学ぶ</span><strong>仕事と資格の英語</strong><small>USCPA・法律英単語 →</small></a>
+</div>
+<div class="section-head"><h2>学習メニュー</h2></div>
 
 <div class="card-grid">
   <a class="card card-reading" href="/reading/">
@@ -132,8 +148,45 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   </a>
 </div>
 
-<div class="section-head"><h2>SNSで毎日配信中</h2><a class="more" href="/sns/">アカウント紹介 →</a></div>
 
+<div class="section-head"><h2>ブログ</h2><a class="more" href="/blog/">すべて見る →</a></div>
+<div class="post-grid">
+<a class="post-card topic-uscpa" href="/blog/accounting-journal-entries-english/">
+
+  <div class="post-body">
+    <div class="post-head"><span class="post-topic">📊 会計英語</span><span class="post-meta"><time datetime="2026-08-20">2026-08-20</time><span class="dot" aria-hidden="true">・</span>約4分</span></div>
+    <h3 class="post-title">仕訳を英語で読むための会計用語 — debit・creditからadjusting entryまで</h3>
+    <p class="post-desc">英語の仕訳と財務諸表を読むために、debit、credit、journal entry、accrual、adjusting entryなどを整理します。</p>
+    <span class="post-more">読む <span aria-hidden="true">→</span></span>
+  </div>
+</a>
+<a class="post-card topic-reading" href="/blog/eibun-kaishaku-how-to/">
+<div class="post-media"><img src="/static/og/blog/eibun-kaishaku-how-to-card.webp?v=1c70d025" alt="" width="640" height="336" loading="lazy" decoding="async"></div>
+  <div class="post-body">
+    <div class="post-head"><span class="post-topic">📖 英文解釈</span><span class="post-meta"><time datetime="2026-08-20">2026-08-20</time><span class="dot" aria-hidden="true">・</span>約4分</span></div>
+    <h3 class="post-title">英文解釈のやり方 — 長文を「単語の列」から「構造」に変える</h3>
+    <p class="post-desc">英文解釈のやり方を、SVOC・修飾関係・節の見抜き方から実践手順まで整理。長文読解で迷子にならないための再現可能な読み方です。</p>
+    <span class="post-more">読む <span aria-hidden="true">→</span></span>
+  </div>
+</a>
+<a class="post-card topic-training" href="/blog/eiken-pre1-vocabulary-study/">
+
+  <div class="post-body">
+    <div class="post-head"><span class="post-topic">✍️ 英単語</span><span class="post-meta"><time datetime="2026-08-20">2026-08-20</time><span class="dot" aria-hidden="true">・</span>約4分</span></div>
+    <h3 class="post-title">英検準1級単語の覚え方 — でる順だけで終わらせない</h3>
+    <p class="post-desc">英検準1級単語を覚える順番と復習方法を解説。単語帳を何周もするだけで終わらせず、長文で使える語彙に変える方法です。</p>
+    <span class="post-more">読む <span aria-hidden="true">→</span></span>
+  </div>
+</a></div>
+
+<div class="section-head"><h2>Kindle教材</h2><a class="more" href="/books/">くわしく見る →</a></div>
+<p class="lead">当サイトの学習コンテンツをもとに作った「英語トレーニングシリーズ」全3巻。
+単語の例文や英文解釈の詳しい解説は、Kindle版に収録しています。
+<strong>3冊とも Kindle Unlimited の読み放題対象</strong>です。</p>
+<div class="book-strip"><a class="book-thumb" href="/books/"><img src="/static/covers/uscpa.jpg" alt="USCPA頻出英単語1000 の表紙" width="500" height="800" loading="lazy"><span>USCPA頻出英単語1000</span></a><a class="book-thumb" href="/books/"><img src="/static/covers/legal.jpg" alt="法律英単語1000 の表紙" width="500" height="800" loading="lazy"><span>法律英単語1000</span></a><a class="book-thumb" href="/books/"><img src="/static/covers/reading.jpg" alt="英文解釈トレーニング200問 の表紙" width="500" height="800" loading="lazy"><span>英文解釈トレーニング200問</span></a></div>
+<p class="affiliate-note">※ 当サイトは Amazon.co.jp アソシエイトとして、適格販売により収入を得ています。</p>
+<div class="section-head"><h2>SNSで毎日配信中</h2><a class="more" href="/sns/">アカウント紹介 →</a></div>
+<div class="home-social">
 <div class="sns-card sns-reading">
   <div class="sns-avatar"><img src="/static/sns/reading.jpg" alt="英文解釈botのアイコン" width="320" height="320" loading="lazy"></div>
   <div class="sns-body">
@@ -173,58 +226,23 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
     <a class="follow-btn" href="https://www.threads.com/@english_vocabulary_kotsukotsu" rel="noopener" target="_blank">
       Threadsでフォロー</a>
   </div>
-</div>
+</div></div>
 
-
-<div class="section-head"><h2>ブログ</h2><a class="more" href="/blog/">すべて見る →</a></div>
-<div class="post-grid">
-<a class="post-card topic-uscpa" href="/blog/accounting-journal-entries-english/">
-  
-  <div class="post-body">
-    <div class="post-head"><span class="post-topic">📊 会計英語</span><span class="post-meta"><time datetime="2026-08-20">2026-08-20</time><span class="dot" aria-hidden="true">・</span>約4分</span></div>
-    <h3 class="post-title">仕訳を英語で読むための会計用語 — debit・creditからadjusting entryまで</h3>
-    <p class="post-desc">英語の仕訳と財務諸表を読むために、debit、credit、journal entry、accrual、adjusting entryなどを整理します。</p>
-    <span class="post-more">読む <span aria-hidden="true">→</span></span>
-  </div>
-</a>
-<a class="post-card topic-reading" href="/blog/eibun-kaishaku-how-to/">
-  <div class="post-media"><img src="/static/og/blog/eibun-kaishaku-how-to-card.webp?v=1c70d025" alt="" width="640" height="336" loading="lazy" decoding="async"></div>
-  <div class="post-body">
-    <div class="post-head"><span class="post-topic">📖 英文解釈</span><span class="post-meta"><time datetime="2026-08-20">2026-08-20</time><span class="dot" aria-hidden="true">・</span>約4分</span></div>
-    <h3 class="post-title">英文解釈のやり方 — 長文を「単語の列」から「構造」に変える</h3>
-    <p class="post-desc">英文解釈のやり方を、SVOC・修飾関係・節の見抜き方から実践手順まで整理。長文読解で迷子にならないための再現可能な読み方です。</p>
-    <span class="post-more">読む <span aria-hidden="true">→</span></span>
-  </div>
-</a>
-<a class="post-card topic-training" href="/blog/eiken-pre1-vocabulary-study/">
-  
-  <div class="post-body">
-    <div class="post-head"><span class="post-topic">✍️ 英単語</span><span class="post-meta"><time datetime="2026-08-20">2026-08-20</time><span class="dot" aria-hidden="true">・</span>約4分</span></div>
-    <h3 class="post-title">英検準1級単語の覚え方 — でる順だけで終わらせない</h3>
-    <p class="post-desc">英検準1級単語を覚える順番と復習方法を解説。単語帳を何周もするだけで終わらせず、長文で使える語彙に変える方法です。</p>
-    <span class="post-more">読む <span aria-hidden="true">→</span></span>
-  </div>
-</a></div>
-
-<div class="section-head"><h2>Kindle教材</h2><a class="more" href="/books/">くわしく見る →</a></div>
-<p class="lead">当サイトの学習コンテンツをもとに作った「英語トレーニングシリーズ」全3巻。
-単語の例文や英文解釈の詳しい解説は、Kindle版に収録しています。
-<strong>3冊とも Kindle Unlimited の読み放題対象</strong>です。</p>
-<div class="book-strip"><a class="book-thumb" href="/books/"><img src="/static/covers/uscpa.jpg" alt="USCPA頻出英単語1000 の表紙" width="500" height="800" loading="lazy"><span>USCPA頻出英単語1000</span></a><a class="book-thumb" href="/books/"><img src="/static/covers/legal.jpg" alt="法律英単語1000 の表紙" width="500" height="800" loading="lazy"><span>法律英単語1000</span></a><a class="book-thumb" href="/books/"><img src="/static/covers/reading.jpg" alt="英文解釈トレーニング200問 の表紙" width="500" height="800" loading="lazy"><span>英文解釈トレーニング200問</span></a></div>
-<p class="affiliate-note">※ 当サイトは Amazon.co.jp アソシエイトとして、適格販売により収入を得ています。</p>
 
 </main>
 <footer class="site-footer">
   <div class="container">
     <p class="footer-brand">Kokeniwa English</p>
     <p class="footer-tagline">苔むすように、言葉を育てる。英語を毎日すこしずつ。</p>
-    <nav class="footer-nav" aria-label="フッタ"><a href="/reading/">英文解釈</a><a href="/reading/articles/">リーディング</a><a href="/vocab/uscpa/">USCPA単語</a><a href="/vocab/legal/">法律単語</a><a href="/training/">英単語</a><a href="/blog/">ブログ</a><a href="/books/">教材</a><a href="/sns/">SNS</a></nav>
+    <nav class="footer-nav" aria-label="フッタ"><a href="/reading/articles/">長文精読</a><a href="/reading/">一文問題</a><a href="/training/">英単語</a><a href="/vocab/">専門英語</a><a href="/blog/">学習ブログ</a><a href="/books/">書籍</a><a href="/sns/">SNS</a></nav>
 <p class="footer-sister">姉妹サイト <a href="https://ja.kokeniwa.net" hreflang="en" rel="noopener">Kokeniwa Japanese</a><span class="footer-sister-note">日本語を学ぶ英語話者向け（サイトは英語）</span></p>
     <p class="footer-legal"><a href="/privacy/">プライバシーポリシー</a></p>
     <p class="copyright">&copy; Kokeniwa English</p>
   </div>
 </footer>
+<script src="/static/experience.js?v=a8d4c881" defer></script>
 
 <script src="/static/announce.js?v=4e6f519c" defer></script>
+<script src="/static/pwa.js?v=5d9f4db9" defer></script>
 </body>
 </html>

@@ -51,7 +51,7 @@ def _category_chips(problems, active=None):
     counts = {}
     for p in problems:
         counts[p["category"]] = counts.get(p["category"], 0) + 1
-    chips = []
+    chips = ['<a class="chip" href="/reading/">すべての問題</a>']
     for cat, slug in config.CATEGORY_SLUGS.items():
         if cat not in counts:
             continue
@@ -66,6 +66,8 @@ def render_index(cfg, problems):
 <h1>英文解釈トレーニング</h1>
 <p class="lead">一文をどこまで正確に読めるか。構文・語法・論理の急所を突く全{len(problems)}問。
 1問1ページ、その場で答え合わせと全文訳が読めます。</p>
+<p class="scope-note">この問題集は答えと全文訳まで無料です。構文や語彙の解説も読みたいときは、<a href="/reading/articles/">解説つきの長文精読</a>へ。</p>
+<p><a class="follow-btn" href="{problem_url(problems[0])}">最初の問題を解く →</a></p>
 <h2>カテゴリで選ぶ</h2>
 {_category_chips(problems)}
 <h2>全問題</h2>
@@ -158,7 +160,7 @@ def render_problem(cfg, problems, index):
   <p class="sentence-en" lang="en">{esc(p["sentence_en"])}</p>
   {interaction}
 </article>
-<nav class="pager">{prev_link}{next_link}</nav>
+<nav class="pager">{prev_link}{next_link}</nav><p><a href="/reading/">問題一覧へ戻る →</a></p>
 """
     jsonld = {
         "@context": "https://schema.org",
