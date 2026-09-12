@@ -1,0 +1,105 @@
+{
+  "sentences": {
+    "For many people, a spoiler is almost an act of violence against a story.": [
+      {"text": "For many people,", "role": "modifier", "label_ja": "文全体の修飾", "note_ja": "『多くの人にとって』という視点を先に置く前置詞句です。"},
+      {"text": "a spoiler", "role": "subject", "label_ja": "主語", "note_ja": "文の中心人物・話題です。"},
+      {"text": "is", "role": "predicate", "label_ja": "述語", "note_ja": "主語と補語を結ぶ be 動詞です。"},
+      {"text": "almost an act of violence against a story.", "role": "complement", "label_ja": "補語", "note_ja": "a spoiler がどのようなものかを説明しています。"}
+    ],
+    "They avoid trailers, mute words on social media, and sometimes refuse to talk to friends until they have finished a series.": [
+      {"text": "They", "role": "subject", "label_ja": "主語", "note_ja": "前文の many people を受けています。"},
+      {"text": "avoid trailers,", "role": "predicate", "label_ja": "述部①", "note_ja": "avoid + 目的語の1つ目の行動です。"},
+      {"text": "mute words on social media,", "role": "predicate", "label_ja": "述部②", "note_ja": "主語 They に対する2つ目の並列動作です。"},
+      {"text": "and sometimes refuse to talk to friends", "role": "predicate", "label_ja": "述部③", "note_ja": "refuse to do で『〜することを拒む』。3つ目の並列動作です。"},
+      {"text": "until they have finished a series.", "role": "clause", "label_ja": "時を表す節", "note_ja": "until が『シリーズを見終えるまで』という時間の終点を示します。"}
+    ],
+    "Yet other people actively look up the ending before they start watching.": [
+      {"text": "Yet", "role": "connector", "label_ja": "逆接", "note_ja": "前の内容と反対方向へ話を進めます。"},
+      {"text": "other people", "role": "subject", "label_ja": "主語", "note_ja": "前文の人々とは別タイプの人を示します。"},
+      {"text": "actively look up the ending", "role": "predicate", "label_ja": "述部", "note_ja": "look up は『調べる』。actively がその仕方を修飾します。"},
+      {"text": "before they start watching.", "role": "clause", "label_ja": "時を表す節", "note_ja": "見る前に、というタイミングを補足しています。"}
+    ],
+    "At first, this seems to defeat the purpose of storytelling.": [
+      {"text": "At first,", "role": "modifier", "label_ja": "文全体の修飾", "note_ja": "『一見すると』という筆者の見方を示します。"},
+      {"text": "this", "role": "subject", "label_ja": "主語", "note_ja": "直前の『先に結末を調べる行為』を指します。"},
+      {"text": "seems", "role": "predicate", "label_ja": "述語", "note_ja": "断定せず『〜のように見える』と距離を置く動詞です。"},
+      {"text": "to defeat the purpose of storytelling.", "role": "infinitive", "label_ja": "to不定詞", "note_ja": "seem to do の形で、『物語の目的を台無しにするように見える』を作っています。"}
+    ],
+    "If you already know who wins, who dies, or who was secretly responsible, what is left to discover?": [
+      {"text": "If you already know who wins, who dies, or who was secretly responsible,", "role": "clause", "label_ja": "条件節", "note_ja": "If 節全体が後半の疑問文の条件になっています。"},
+      {"text": "what", "role": "subject", "label_ja": "疑問詞主語", "note_ja": "『何が』残っているのかを問う主語です。"},
+      {"text": "is left", "role": "predicate", "label_ja": "述語", "note_ja": "be left で『残されている』。"},
+      {"text": "to discover?", "role": "infinitive", "label_ja": "to不定詞", "note_ja": "left の内容を補い、『発見する余地』という意味を作ります。"}
+    ],
+    "The answer may be that discovery is only one kind of pleasure.": [
+      {"text": "The answer", "role": "subject", "label_ja": "主語", "note_ja": "直前の疑問への答えを提示する主語です。"},
+      {"text": "may be", "role": "predicate", "label_ja": "述語", "note_ja": "may により可能性として控えめに述べています。"},
+      {"text": "that discovery is only one kind of pleasure.", "role": "clause", "label_ja": "補語になる that節", "note_ja": "The answer の中身そのものを説明する名詞節です。"}
+    ],
+    "Knowing the destination can make it easier to notice the road.": [
+      {"text": "Knowing the destination", "role": "subject", "label_ja": "主語（動名詞句）", "note_ja": "Knowing から始まる動名詞句全体が文の主語です。"},
+      {"text": "can make", "role": "predicate", "label_ja": "述語", "note_ja": "make O C の骨格を作る動詞です。"},
+      {"text": "it", "role": "object", "label_ja": "形式目的語", "note_ja": "後ろの to notice the road を受ける形式目的語です。"},
+      {"text": "easier", "role": "complement", "label_ja": "目的格補語", "note_ja": "it がどうなるかを説明する補語です。"},
+      {"text": "to notice the road.", "role": "infinitive", "label_ja": "真の内容", "note_ja": "実際に easier になる内容を to不定詞で示しています。"}
+    ],
+    "A viewer who knows the twist may pay more attention to a character's expression, an unusual camera angle, or a line that seemed meaningless the first time.": [
+      {"text": "A viewer", "role": "subject", "label_ja": "主語", "note_ja": "文の中心となる名詞です。"},
+      {"text": "who knows the twist", "role": "relative", "label_ja": "関係詞節", "note_ja": "A viewer を後ろから限定して、『どんでん返しを知っている視聴者』としています。"},
+      {"text": "may pay more attention to", "role": "predicate", "label_ja": "述部", "note_ja": "pay attention to で『〜に注意を向ける』。"},
+      {"text": "a character's expression, an unusual camera angle, or a line", "role": "object", "label_ja": "前置詞の目的語", "note_ja": "attention の向かう対象が3つ並列されています。"},
+      {"text": "that seemed meaningless the first time.", "role": "relative", "label_ja": "関係詞節", "note_ja": "直前の a line を説明しています。"}
+    ],
+    "Instead of asking what will happen, the viewer starts asking how the story is making it happen.": [
+      {"text": "Instead of asking what will happen,", "role": "modifier", "label_ja": "対比の修飾句", "note_ja": "instead of -ing で『〜する代わりに』。読み方の転換を示します。"},
+      {"text": "the viewer", "role": "subject", "label_ja": "主語", "note_ja": "文の中心人物です。"},
+      {"text": "starts asking", "role": "predicate", "label_ja": "述部", "note_ja": "start -ing で『〜し始める』。"},
+      {"text": "how the story is making it happen.", "role": "clause", "label_ja": "目的語になる疑問詞節", "note_ja": "asking の内容を how で始まる節が説明しています。"}
+    ],
+    "Spoilers can also reduce a particular kind of stress.": [
+      {"text": "Spoilers", "role": "subject", "label_ja": "主語", "note_ja": "この段落の話題です。"},
+      {"text": "can also reduce", "role": "predicate", "label_ja": "述部", "note_ja": "also が前段落に加えて別の効果を提示します。"},
+      {"text": "a particular kind of stress.", "role": "object", "label_ja": "目的語", "note_ja": "reduce の対象です。"}
+    ],
+    "Some people become so anxious about a character they like that uncertainty stops being exciting and starts becoming exhausting.": [
+      {"text": "Some people", "role": "subject", "label_ja": "主語", "note_ja": "一部の人々を主語にしています。"},
+      {"text": "become so anxious about a character", "role": "predicate", "label_ja": "述部", "note_ja": "so anxious が後ろの that節と呼応します。"},
+      {"text": "they like", "role": "relative", "label_ja": "関係詞省略の節", "note_ja": "a character (that) they like の that が省略されています。"},
+      {"text": "that uncertainty stops being exciting and starts becoming exhausting.", "role": "clause", "label_ja": "結果の that節", "note_ja": "so ... that の結果部分で、『不確実さが疲労に変わる』ことを示します。"}
+    ],
+    "For them, knowing the outcome creates enough emotional distance to enjoy the details.": [
+      {"text": "For them,", "role": "modifier", "label_ja": "文全体の修飾", "note_ja": "『そうした人にとって』という視点を限定します。"},
+      {"text": "knowing the outcome", "role": "subject", "label_ja": "主語（動名詞句）", "note_ja": "『結末を知ること』全体が主語です。"},
+      {"text": "creates", "role": "predicate", "label_ja": "述語", "note_ja": "主語が何を生み出すかを示します。"},
+      {"text": "enough emotional distance", "role": "object", "label_ja": "目的語", "note_ja": "creates の対象です。"},
+      {"text": "to enjoy the details.", "role": "infinitive", "label_ja": "to不定詞", "note_ja": "enough ... to do で『〜するのに十分な』という結果・程度を示します。"}
+    ],
+    "None of this means that everyone should read spoilers.": [
+      {"text": "None of this", "role": "subject", "label_ja": "主語", "note_ja": "ここまでの議論全体を受けています。"},
+      {"text": "means", "role": "predicate", "label_ja": "述語", "note_ja": "『意味する』。後ろに内容を取ります。"},
+      {"text": "that everyone should read spoilers.", "role": "clause", "label_ja": "目的語になる that節", "note_ja": "means の具体的な内容です。"}
+    ],
+    "Surprise is a real pleasure, and some stories are carefully built around it.": [
+      {"text": "Surprise", "role": "subject", "label_ja": "主語", "note_ja": "前半の主語です。"},
+      {"text": "is a real pleasure,", "role": "predicate", "label_ja": "述部", "note_ja": "be動詞＋補語で Surprise を説明しています。"},
+      {"text": "and", "role": "connector", "label_ja": "等位接続", "note_ja": "前半と後半を対等につなぎます。"},
+      {"text": "some stories", "role": "subject", "label_ja": "後半の主語", "note_ja": "and 以下では新しい主語に切り替わります。"},
+      {"text": "are carefully built around it.", "role": "predicate", "label_ja": "後半の述部", "note_ja": "受動態で『それを中心に作られている』。it は surprise を指します。"}
+    ],
+    "But the debate reminds us that enjoying a story is not a single mental process.": [
+      {"text": "But", "role": "connector", "label_ja": "逆接", "note_ja": "直前の譲歩から本文の結論へ戻します。"},
+      {"text": "the debate", "role": "subject", "label_ja": "主語", "note_ja": "ネタバレをめぐる議論を指します。"},
+      {"text": "reminds us", "role": "predicate", "label_ja": "述部", "note_ja": "remind 人 that ... の形です。"},
+      {"text": "that enjoying a story is not a single mental process.", "role": "clause", "label_ja": "that節", "note_ja": "何を思い出させるのか、その内容を説明しています。"}
+    ],
+    "Sometimes we want mystery; sometimes we want the comfort of knowing where the path leads.": [
+      {"text": "Sometimes", "role": "modifier", "label_ja": "頻度の修飾", "note_ja": "『ときには』。対比する2つの場面の1つ目です。"},
+      {"text": "we", "role": "subject", "label_ja": "主語", "note_ja": "前半の主語です。"},
+      {"text": "want mystery;", "role": "predicate", "label_ja": "述部", "note_ja": "セミコロンで後半との強い並列を作っています。"},
+      {"text": "sometimes", "role": "modifier", "label_ja": "頻度の修飾", "note_ja": "後半でも同じ語を繰り返し、対比を整えています。"},
+      {"text": "we", "role": "subject", "label_ja": "主語", "note_ja": "後半の主語です。"},
+      {"text": "want the comfort of knowing", "role": "predicate", "label_ja": "述部", "note_ja": "want の目的語 the comfort に of knowing が続きます。"},
+      {"text": "where the path leads.", "role": "clause", "label_ja": "疑問詞節", "note_ja": "knowing の内容で、『道がどこへ続くか』を表します。"}
+    ]
+  }
+}

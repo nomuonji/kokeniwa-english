@@ -1,0 +1,104 @@
+{
+  "sentences": {
+    "People often talk to themselves when no one else is around.": [
+      {"text": "People", "role": "subject", "label_ja": "主語", "note_ja": "文の中心となる人々です。"},
+      {"text": "often talk to themselves", "role": "predicate", "label_ja": "述部", "note_ja": "talk to oneself で『独り言を言う／自分に話しかける』。"},
+      {"text": "when no one else is around.", "role": "clause", "label_ja": "時を表す節", "note_ja": "『ほかに誰もいないとき』という状況を補足します。"}
+    ],
+    "We may whisper the name of a missing object, tell ourselves to calm down, or rehearse what we plan to say in an important conversation.": [
+      {"text": "We", "role": "subject", "label_ja": "主語", "note_ja": "3つの並列動作すべてに共通する主語です。"},
+      {"text": "may whisper the name of a missing object,", "role": "predicate", "label_ja": "述部①", "note_ja": "may + 動詞で、よくある行動の例を控えめに示します。"},
+      {"text": "tell ourselves to calm down,", "role": "predicate", "label_ja": "述部②", "note_ja": "tell 人 to do で『人に〜するよう言う』。"},
+      {"text": "or rehearse", "role": "predicate", "label_ja": "述部③", "note_ja": "or で3つ目の行動を並べます。"},
+      {"text": "what we plan to say", "role": "clause", "label_ja": "目的語になる疑問詞節", "note_ja": "rehearse の内容を what節が示しています。"},
+      {"text": "in an important conversation.", "role": "modifier", "label_ja": "修飾句", "note_ja": "何を言う予定なのか、その場面を補足します。"}
+    ],
+    "This behavior can look pointless, but it often serves a practical purpose.": [
+      {"text": "This behavior", "role": "subject", "label_ja": "主語", "note_ja": "前文で挙げた独り言の行動全体を指します。"},
+      {"text": "can look pointless,", "role": "predicate", "label_ja": "述部", "note_ja": "look + 形容詞で『〜に見える』。"},
+      {"text": "but", "role": "connector", "label_ja": "逆接", "note_ja": "見た目と実際の機能を対比します。"},
+      {"text": "it", "role": "subject", "label_ja": "後半の主語", "note_ja": "This behavior を受ける代名詞です。"},
+      {"text": "often serves a practical purpose.", "role": "predicate", "label_ja": "後半の述部", "note_ja": "serve a purpose で『目的・役割を果たす』。"}
+    ],
+    "Speaking can turn a vague thought into something more concrete.": [
+      {"text": "Speaking", "role": "subject", "label_ja": "主語（動名詞）", "note_ja": "『声に出すこと』という行為そのものが主語です。"},
+      {"text": "can turn", "role": "predicate", "label_ja": "述語", "note_ja": "turn A into B の骨格を作ります。"},
+      {"text": "a vague thought", "role": "object", "label_ja": "目的語 A", "note_ja": "変化する前の対象です。"},
+      {"text": "into something more concrete.", "role": "complement", "label_ja": "変化後 B", "note_ja": "into が変化後の状態を示します。"}
+    ],
+    "A complicated task may feel easier once its steps are placed into words: first open the file, then check the numbers, then send the message.": [
+      {"text": "A complicated task", "role": "subject", "label_ja": "主語", "note_ja": "複雑な作業が文の話題です。"},
+      {"text": "may feel easier", "role": "predicate", "label_ja": "述部", "note_ja": "feel + 形容詞で『〜に感じられる』。"},
+      {"text": "once its steps are placed into words:", "role": "clause", "label_ja": "条件・時の節", "note_ja": "once は『いったん〜すると』。後ろの具体例への橋渡しもします。"},
+      {"text": "first open the file,", "role": "modifier", "label_ja": "手順①", "note_ja": "命令形で手順を具体化しています。"},
+      {"text": "then check the numbers,", "role": "modifier", "label_ja": "手順②", "note_ja": "then で順序を進めます。"},
+      {"text": "then send the message.", "role": "modifier", "label_ja": "手順③", "note_ja": "同じ形を繰り返し、作業を塊で見せています。"}
+    ],
+    "Language gives the mind a temporary structure to follow.": [
+      {"text": "Language", "role": "subject", "label_ja": "主語", "note_ja": "言語そのものを主語にしています。"},
+      {"text": "gives", "role": "predicate", "label_ja": "述語", "note_ja": "give 人 物 の形です。"},
+      {"text": "the mind", "role": "object", "label_ja": "間接目的語", "note_ja": "何に与えるかを示します。"},
+      {"text": "a temporary structure", "role": "object", "label_ja": "直接目的語", "note_ja": "何を与えるかを示します。"},
+      {"text": "to follow.", "role": "infinitive", "label_ja": "後置修飾のto不定詞", "note_ja": "structure を『たどるための構造』と後ろから説明します。"}
+    ],
+    "Self-talk can also help direct attention.": [
+      {"text": "Self-talk", "role": "subject", "label_ja": "主語", "note_ja": "段落の話題です。"},
+      {"text": "can also help direct", "role": "predicate", "label_ja": "述部", "note_ja": "help + 動詞原形で『〜するのを助ける』。"},
+      {"text": "attention.", "role": "object", "label_ja": "目的語", "note_ja": "direct の対象です。"}
+    ],
+    "If you keep saying, “red mug, red mug,” while searching a crowded kitchen, the words may keep the visual target active in your mind.": [
+      {"text": "If you keep saying, “red mug, red mug,” while searching a crowded kitchen,", "role": "clause", "label_ja": "条件節", "note_ja": "If節全体が、後半の結果が起きる条件を示します。"},
+      {"text": "the words", "role": "subject", "label_ja": "主語", "note_ja": "繰り返している言葉そのものが主語です。"},
+      {"text": "may keep", "role": "predicate", "label_ja": "述語", "note_ja": "keep O C の骨格を作ります。"},
+      {"text": "the visual target", "role": "object", "label_ja": "目的語", "note_ja": "保たれる対象です。"},
+      {"text": "active in your mind.", "role": "complement", "label_ja": "目的格補語", "note_ja": "visual target がどんな状態に保たれるかを説明します。"}
+    ],
+    "The voice is not magically finding the mug; it is helping your attention stay organized.": [
+      {"text": "The voice", "role": "subject", "label_ja": "前半の主語", "note_ja": "声そのものを主語にしています。"},
+      {"text": "is not magically finding the mug;", "role": "predicate", "label_ja": "前半の述部", "note_ja": "まず誤解を否定する部分です。"},
+      {"text": "it", "role": "subject", "label_ja": "後半の主語", "note_ja": "The voice を受けています。"},
+      {"text": "is helping", "role": "predicate", "label_ja": "後半の述語", "note_ja": "本当に起きていることを説明し始めます。"},
+      {"text": "your attention", "role": "object", "label_ja": "目的語", "note_ja": "help の対象です。"},
+      {"text": "stay organized.", "role": "complement", "label_ja": "補語的な動詞句", "note_ja": "help O do の形で、『注意が整理された状態を保つ』と説明します。"}
+    ],
+    "The tone of self-talk matters as much as the words themselves.": [
+      {"text": "The tone of self-talk", "role": "subject", "label_ja": "主語", "note_ja": "独り言の内容ではなく『口調』を主語に切り替えています。"},
+      {"text": "matters", "role": "predicate", "label_ja": "述語", "note_ja": "『重要である』。"},
+      {"text": "as much as the words themselves.", "role": "modifier", "label_ja": "比較表現", "note_ja": "『言葉そのものと同じくらい』という比較です。"}
+    ],
+    "Calling yourself stupid after a mistake is very different from saying, “That did not work. Try another way.”": [
+      {"text": "Calling yourself stupid after a mistake", "role": "subject", "label_ja": "主語（動名詞句）", "note_ja": "Calling から mistake まで全体が主語です。"},
+      {"text": "is", "role": "predicate", "label_ja": "述語", "note_ja": "主語と補語を結ぶ be 動詞です。"},
+      {"text": "very different from saying, “That did not work. Try another way.”", "role": "complement", "label_ja": "補語＋比較", "note_ja": "different from で、2種類の自己対話を対比しています。"}
+    ],
+    "One attacks the person; the other describes the problem and points toward the next action.": [
+      {"text": "One", "role": "subject", "label_ja": "前者", "note_ja": "直前の2つの自己対話のうち1つ目を指します。"},
+      {"text": "attacks the person;", "role": "predicate", "label_ja": "前半の述部", "note_ja": "人そのものを攻撃する、と説明します。"},
+      {"text": "the other", "role": "subject", "label_ja": "後者", "note_ja": "2つ目の自己対話を指します。"},
+      {"text": "describes the problem and points toward the next action.", "role": "predicate", "label_ja": "後半の述部", "note_ja": "describes と points が and で並列されています。"}
+    ],
+    "So talking to yourself is not necessarily a sign that your mind has lost control.": [
+      {"text": "So", "role": "connector", "label_ja": "結論", "note_ja": "ここまでの説明をまとめる合図です。"},
+      {"text": "talking to yourself", "role": "subject", "label_ja": "主語（動名詞句）", "note_ja": "『独り言を言うこと』全体が主語です。"},
+      {"text": "is not necessarily", "role": "predicate", "label_ja": "述部", "note_ja": "not necessarily で『必ずしも〜ではない』と断定を弱めます。"},
+      {"text": "a sign", "role": "complement", "label_ja": "補語", "note_ja": "主語が何の兆候ではないのかを示します。"},
+      {"text": "that your mind has lost control.", "role": "relative", "label_ja": "同格的なthat節", "note_ja": "a sign の中身を説明し、『心が制御を失ったという兆候』としています。"}
+    ],
+    "Quite often, it is the opposite: a small tool the mind uses to create order, maintain focus, and guide behavior.": [
+      {"text": "Quite often,", "role": "modifier", "label_ja": "頻度の修飾", "note_ja": "『かなり多くの場合』と結論の範囲を示します。"},
+      {"text": "it", "role": "subject", "label_ja": "主語", "note_ja": "talking to yourself を受けています。"},
+      {"text": "is", "role": "predicate", "label_ja": "述語", "note_ja": "主語と後ろの説明を結びます。"},
+      {"text": "the opposite:", "role": "complement", "label_ja": "補語", "note_ja": "『むしろ逆だ』と前文を反転させます。"},
+      {"text": "a small tool", "role": "complement", "label_ja": "言い換え", "note_ja": "the opposite の具体的な中身をコロンの後ろで説明します。"},
+      {"text": "the mind uses", "role": "relative", "label_ja": "関係詞省略の節", "note_ja": "a small tool (that) the mind uses の that が省略されています。"},
+      {"text": "to create order, maintain focus, and guide behavior.", "role": "infinitive", "label_ja": "目的のto不定詞", "note_ja": "その tool を何のために使うのか、3つの目的を並列しています。"}
+    ],
+    "The strange person giving you instructions in an empty room may simply be you helping yourself think.": [
+      {"text": "The strange person", "role": "subject", "label_ja": "主語", "note_ja": "文の中心となる名詞句です。"},
+      {"text": "giving you instructions in an empty room", "role": "participle", "label_ja": "分詞による後置修飾", "note_ja": "The strange person を後ろから説明しています。"},
+      {"text": "may simply be", "role": "predicate", "label_ja": "述部", "note_ja": "may で可能性、simply で『単に』というニュアンスを加えます。"},
+      {"text": "you", "role": "complement", "label_ja": "補語", "note_ja": "strange person の正体を示します。"},
+      {"text": "helping yourself think.", "role": "participle", "label_ja": "分詞句", "note_ja": "you が何をしている状態なのかを説明しています。"}
+    ]
+  }
+}
