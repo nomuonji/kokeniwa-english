@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>独り言はなぜ出る？ 自分に話しかける脳のしくみ｜英語リーディング・精読教材｜Kokeniwa English</title>
-<meta name="description" content="忘れ物を探すとき、難しい作業をするとき、つい独り言が出るのはなぜでしょうか。日常の不思議を読む英語教材です。 文構造の色分け、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
+<meta name="description" content="忘れ物を探すとき、難しい作業をするとき、つい独り言が出るのはなぜでしょうか。日常の不思議を読む英語教材です。 文構造の色分け、一文タップで開く日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
 <link rel="canonical" href="https://en.kokeniwa.net/reading/articles/why-we-talk-to-ourselves/">
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="独り言はなぜ出る？ 自分に話しかける脳のしくみ｜英語リーディング・精読教材｜Kokeniwa English">
-<meta property="og:description" content="忘れ物を探すとき、難しい作業をするとき、つい独り言が出るのはなぜでしょうか。日常の不思議を読む英語教材です。 文構造の色分け、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
+<meta property="og:description" content="忘れ物を探すとき、難しい作業をするとき、つい独り言が出るのはなぜでしょうか。日常の不思議を読む英語教材です。 文構造の色分け、一文タップで開く日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
 <meta property="og:url" content="https://en.kokeniwa.net/reading/articles/why-we-talk-to-ourselves/">
 <meta property="og:site_name" content="Kokeniwa English">
 <meta property="og:locale" content="ja_JP">
@@ -19,7 +19,7 @@
 <meta property="og:image:alt" content="独り言はなぜ出る？ 自分に話しかける脳のしくみ｜英語リーディング・精読教材｜Kokeniwa English">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="独り言はなぜ出る？ 自分に話しかける脳のしくみ｜英語リーディング・精読教材｜Kokeniwa English">
-<meta name="twitter:description" content="忘れ物を探すとき、難しい作業をするとき、つい独り言が出るのはなぜでしょうか。日常の不思議を読む英語教材です。 文構造の色分け、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
+<meta name="twitter:description" content="忘れ物を探すとき、難しい作業をするとき、つい独り言が出るのはなぜでしょうか。日常の不思議を読む英語教材です。 文構造の色分け、一文タップで開く日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
 <meta name="twitter:image" content="https://en.kokeniwa.net/static/og/reading.png?v=dc545437">
 <meta name="theme-color" content="#4d6a38">
 <link rel="icon" href="/static/favicon.svg?v=934cb3c0" type="image/svg+xml">
@@ -115,22 +115,23 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 .reading-orientation{margin:1rem 0 1rem;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:var(--radius)}
 .reading-orientation strong{display:block;margin-bottom:.25rem;color:var(--primary-strong)}
 .reading-structure-hint{margin:.7rem 0 1rem;color:var(--text-muted);font-size:.8rem}
-.reading-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:1rem 0 1.5rem;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.reading-toolbar button{appearance:none;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);border-radius:999px;padding:.48rem .8rem;font:inherit;font-size:.86rem;cursor:pointer}.reading-toolbar button:hover{border-color:var(--primary);color:var(--primary-strong)}
+.reading-toolbar{margin:1rem 0 1.5rem;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
 .reading-toolbar-note{font-size:.85rem;color:var(--text-muted)}
 .reading-study-block{position:relative;margin:0 0 1.6rem;padding:clamp(16px,3vw,24px);background:color-mix(in srgb,var(--surface) 92%,transparent);border:1px solid var(--border);border-radius:var(--radius-lg)}
 .reading-block-no{position:absolute;top:12px;right:14px;color:var(--border-strong);font-family:var(--font-serif);font-size:.78rem;letter-spacing:.08em}
 .reading-sentence-row{margin:0 0 .9rem}
-.reading-sentence-line{display:block;padding:.03rem 0;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:2}
+.reading-sentence-line{appearance:none;display:block;width:100%;border:0;background:transparent;color:var(--text);text-align:left;padding:.08rem .1rem;margin:0;border-radius:7px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:2;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .14s var(--ease-out)}
+.reading-sentence-line:hover{background:color-mix(in srgb,var(--surface-2) 34%,transparent)}
+.reading-sentence-line[aria-expanded="true"]{background:color-mix(in srgb,var(--surface-2) 22%,transparent)}
+.reading-sentence-line:focus-visible{outline:2px solid var(--primary);outline-offset:3px}
 .reading-plain-sentence{line-height:2}
-.reading-chunk{display:inline;color:var(--text);padding:.03em .10em .08em;margin:0 .01em;border-radius:3px;line-height:inherit;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.reading-chunk.role-subject{background:color-mix(in srgb,var(--accent-reading-soft) 78%,transparent)}
-.reading-chunk.role-predicate{background:color-mix(in srgb,var(--accent-training-soft) 78%,transparent)}
-.reading-chunk.role-object,.reading-chunk.role-complement{background:color-mix(in srgb,var(--surface-2) 72%,transparent)}
-.reading-chunk.role-clause,.reading-chunk.role-relative,.reading-chunk.role-infinitive,.reading-chunk.role-participle{background:color-mix(in srgb,var(--accent-legal-soft) 72%,transparent)}
-.reading-chunk.role-modifier{background:color-mix(in srgb,var(--surface-2) 46%,transparent)}
-.reading-chunk.role-connector{background:color-mix(in srgb,var(--accent-reading-soft) 52%,transparent);font-weight:600}
-.reading-translation-toggle{appearance:none;display:inline-block;vertical-align:middle;margin-left:.35rem;border:1px solid var(--border);background:transparent;color:var(--text-muted);border-radius:999px;padding:.08rem .42rem;font:600 .7rem/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}.reading-translation-toggle:hover,.reading-translation-toggle[aria-expanded="true"]{border-color:var(--primary);color:var(--primary-strong);background:var(--accent-reading-soft)}
+.reading-chunk{display:inline;background:transparent;padding:0;margin:0;line-height:inherit;font-weight:500}
+.reading-chunk.role-subject{color:var(--accent-reading)}
+.reading-chunk.role-predicate{color:var(--accent-training)}
+.reading-chunk.role-object,.reading-chunk.role-complement{color:var(--accent-uscpa)}
+.reading-chunk.role-clause,.reading-chunk.role-relative,.reading-chunk.role-infinitive,.reading-chunk.role-participle{color:var(--accent-legal)}
+.reading-chunk.role-modifier{color:var(--text-muted)}
+.reading-chunk.role-connector{color:var(--danger);font-weight:700}
 .reading-translation{margin:.2rem 0 .8rem;padding:.58rem .75rem;background:var(--surface-2);border-left:3px solid var(--primary);border-radius:0 8px 8px 0;color:var(--text-muted);font-size:.93rem}.reading-translation[hidden]{display:none}
 .reading-notes{margin:1rem 0 0;padding-top:.9rem;border-top:1px dashed var(--border)}.reading-notes-label{display:block;margin-bottom:.55rem;color:var(--text-muted);font-size:.78rem;font-weight:700;letter-spacing:.06em}
 .reading-note{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;margin:.45rem 0;padding:.55rem .65rem;border-radius:10px;background:var(--surface)}
@@ -140,7 +141,7 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 .reading-guide>h2{margin-top:0}.reading-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.reading-guide-card{padding:14px 16px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius)}.reading-guide-card h3{margin:.1rem 0 .55rem}.reading-guide-card ul{margin:.35rem 0;padding-left:1.2rem}.reading-guide-card li{margin:.3rem 0}.reading-guide-card.full{grid-column:1/-1}
 .reading-question{padding:.7rem 0;border-bottom:1px dashed var(--border)}.reading-question:last-child{border-bottom:0}.reading-question strong{display:block}.reading-answer{margin:.35rem 0 0;color:var(--text-muted)}
 .reading-next{margin:2rem 0;padding:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-line{font-size:1.06rem;line-height:1.95}.reading-chunk{padding:.02em .08em .06em}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
+@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-line{font-size:1.06rem;line-height:1.95;padding:.06rem 0}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
 </style>
 
 <article class="reading-article-shell">
@@ -151,22 +152,22 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
     <p class="reading-dek">独り言はなぜ出る？ 自分に話しかける脳のしくみ — 忘れ物を探すとき、難しい作業をするとき、つい独り言が出るのはなぜでしょうか。日常の不思議を読む英語教材です。</p>
   </header>
   <div class="reading-orientation"><strong>この記事を読むヒント</strong>talk to oneself を単なる癖ではなく『思考を外に出す行為』として説明する流れに注目してください。抽象的な説明のあとに具体例が続く構成です。</div>
-  <p class="reading-structure-hint" lang="ja">色のまとまりが、意味・文法上の塊です。複数行に折り返しても同じ色のまとまりとして読み進めてください。</p>
-  <div class="reading-toolbar"><span class="reading-toolbar-note">「訳」で、その文の日本語訳を直下に表示できます。</span><button type="button" data-reading-toggle-all>日本語訳をすべて表示</button></div>
+  <p class="reading-structure-hint" lang="ja">文字色のまとまりが、意味・文法上の塊です。背景色ではなく文字色で区別するので、複数行に折り返しても自然に追えます。</p>
+  <div class="reading-toolbar"><span class="reading-toolbar-note">英文をタップすると、その一文の日本語訳を直下に表示・非表示できます。</span></div>
   
 <section class="reading-study-block">
   <span class="reading-block-no">01</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">People</span> <span class="reading-chunk role-predicate">often talk to themselves</span> <span class="reading-chunk role-clause">when no one else is around.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-0-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-0-0" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">People</span> <span class="reading-chunk role-predicate">often talk to themselves</span> <span class="reading-chunk role-clause">when no one else is around.</span></button>
   <div class="reading-translation" id="translation-0-0" lang="ja" hidden>人は、周りに誰もいないときでもよく独り言を言います。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">We</span> <span class="reading-chunk role-predicate">may whisper the name of a missing object,</span> <span class="reading-chunk role-predicate">tell ourselves to calm down,</span> <span class="reading-chunk role-predicate">or rehearse</span> <span class="reading-chunk role-clause">what we plan to say</span> <span class="reading-chunk role-modifier">in an important conversation.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-0-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-0-1" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">We</span> <span class="reading-chunk role-predicate">may whisper the name of a missing object,</span> <span class="reading-chunk role-predicate">tell ourselves to calm down,</span> <span class="reading-chunk role-predicate">or rehearse</span> <span class="reading-chunk role-clause">what we plan to say</span> <span class="reading-chunk role-modifier">in an important conversation.</span></button>
   <div class="reading-translation" id="translation-0-1" lang="ja" hidden>なくした物の名前を小声で繰り返したり、自分に落ち着けと言ったり、大事な会話で言う予定のことを練習したりします。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">This behavior</span> <span class="reading-chunk role-predicate">can look pointless,</span> <span class="reading-chunk role-connector">but</span> <span class="reading-chunk role-subject">it</span> <span class="reading-chunk role-predicate">often serves a practical purpose.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-0-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-0-2" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">This behavior</span> <span class="reading-chunk role-predicate">can look pointless,</span> <span class="reading-chunk role-connector">but</span> <span class="reading-chunk role-subject">it</span> <span class="reading-chunk role-predicate">often serves a practical purpose.</span></button>
   <div class="reading-translation" id="translation-0-2" lang="ja" hidden>この行動は無意味に見えるかもしれませんが、実際には実用的な役割を果たすことがよくあります。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-phrase"><span class="reading-note-type">表現</span><div><strong lang="en">talk to themselves</strong><p>talk to oneself で「独り言を言う／自分に話しかける」。myself, yourself, himself などに置き換えられます。</p></div></div><div class="reading-note type-word"><span class="reading-note-type">重要語</span><div><strong lang="en">rehearse</strong><p>本番前に「練習する」。演劇だけでなく、会話や説明を頭の中で予行演習するときにも使えます。</p></div></div></aside>
@@ -175,15 +176,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <span class="reading-block-no">02</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">Speaking</span> <span class="reading-chunk role-predicate">can turn</span> <span class="reading-chunk role-object">a vague thought</span> <span class="reading-chunk role-complement">into something more concrete.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-1-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-1-0" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">Speaking</span> <span class="reading-chunk role-predicate">can turn</span> <span class="reading-chunk role-object">a vague thought</span> <span class="reading-chunk role-complement">into something more concrete.</span></button>
   <div class="reading-translation" id="translation-1-0" lang="ja" hidden>声に出すことで、ぼんやりした考えがより具体的なものになることがあります。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">A complicated task</span> <span class="reading-chunk role-predicate">may feel easier</span> <span class="reading-chunk role-clause">once its steps are placed into words:</span> <span class="reading-chunk role-modifier">first open the file,</span> <span class="reading-chunk role-modifier">then check the numbers,</span> <span class="reading-chunk role-modifier">then send the message.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-1-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-1-1" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">A complicated task</span> <span class="reading-chunk role-predicate">may feel easier</span> <span class="reading-chunk role-clause">once its steps are placed into words:</span> <span class="reading-chunk role-modifier">first open the file,</span> <span class="reading-chunk role-modifier">then check the numbers,</span> <span class="reading-chunk role-modifier">then send the message.</span></button>
   <div class="reading-translation" id="translation-1-1" lang="ja" hidden>複雑な作業も、手順を言葉にすると簡単に感じられることがあります。まずファイルを開き、次に数字を確認し、それからメッセージを送る、といった具合です。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">Language</span> <span class="reading-chunk role-predicate">gives</span> <span class="reading-chunk role-object">the mind</span> <span class="reading-chunk role-object">a temporary structure</span> <span class="reading-chunk role-infinitive">to follow.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-1-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-1-2" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">Language</span> <span class="reading-chunk role-predicate">gives</span> <span class="reading-chunk role-object">the mind</span> <span class="reading-chunk role-object">a temporary structure</span> <span class="reading-chunk role-infinitive">to follow.</span></button>
   <div class="reading-translation" id="translation-1-2" lang="ja" hidden>言葉は、思考がたどるための一時的な構造を与えてくれます。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-grammar"><span class="reading-note-type">構文</span><div><strong lang="en">turn A into B</strong><p>「AをBに変える」。ここでは vague thought が something more concrete に変化します。</p></div></div><div class="reading-note type-nuance"><span class="reading-note-type">語感</span><div><strong lang="en">a temporary structure to follow</strong><p>頭の中の『足場』のような比喩。考えを順序づけるための仮の道筋を指しています。</p></div></div></aside>
@@ -192,15 +193,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <span class="reading-block-no">03</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">Self-talk</span> <span class="reading-chunk role-predicate">can also help direct</span> <span class="reading-chunk role-object">attention.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-2-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-2-0" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">Self-talk</span> <span class="reading-chunk role-predicate">can also help direct</span> <span class="reading-chunk role-object">attention.</span></button>
   <div class="reading-translation" id="translation-2-0" lang="ja" hidden>独り言は、注意を向ける助けにもなります。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-clause">If you keep saying, “red mug, red mug,” while searching a crowded kitchen,</span> <span class="reading-chunk role-subject">the words</span> <span class="reading-chunk role-predicate">may keep</span> <span class="reading-chunk role-object">the visual target</span> <span class="reading-chunk role-complement">active in your mind.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-2-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-2-1" title="タップして日本語訳を表示"><span class="reading-chunk role-clause">If you keep saying, “red mug, red mug,” while searching a crowded kitchen,</span> <span class="reading-chunk role-subject">the words</span> <span class="reading-chunk role-predicate">may keep</span> <span class="reading-chunk role-object">the visual target</span> <span class="reading-chunk role-complement">active in your mind.</span></button>
   <div class="reading-translation" id="translation-2-1" lang="ja" hidden>物でいっぱいのキッチンで『赤いマグ、赤いマグ』と言いながら探せば、その言葉によって探す対象のイメージを頭の中に保ちやすくなるかもしれません。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">The voice</span> <span class="reading-chunk role-predicate">is not magically finding the mug;</span> <span class="reading-chunk role-subject">it</span> <span class="reading-chunk role-predicate">is helping</span> <span class="reading-chunk role-object">your attention</span> <span class="reading-chunk role-complement">stay organized.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-2-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-2-2" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">The voice</span> <span class="reading-chunk role-predicate">is not magically finding the mug;</span> <span class="reading-chunk role-subject">it</span> <span class="reading-chunk role-predicate">is helping</span> <span class="reading-chunk role-object">your attention</span> <span class="reading-chunk role-complement">stay organized.</span></button>
   <div class="reading-translation" id="translation-2-2" lang="ja" hidden>声が魔法のようにマグカップを見つけているわけではありません。注意を整理された状態に保つのを助けているのです。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-phrase"><span class="reading-note-type">表現</span><div><strong lang="en">keep ... active</strong><p>「〜を活動状態・意識された状態に保つ」。keep + O + C の形です。</p></div></div><div class="reading-note type-grammar"><span class="reading-note-type">構文</span><div><strong lang="en">not ...; it is ...</strong><p>誤解を否定してから本当の説明を出す対比。説明文で非常によく使われる流れです。</p></div></div></aside>
@@ -209,15 +210,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <span class="reading-block-no">04</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">The tone of self-talk</span> <span class="reading-chunk role-predicate">matters</span> <span class="reading-chunk role-modifier">as much as the words themselves.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-3-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-3-0" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">The tone of self-talk</span> <span class="reading-chunk role-predicate">matters</span> <span class="reading-chunk role-modifier">as much as the words themselves.</span></button>
   <div class="reading-translation" id="translation-3-0" lang="ja" hidden>独り言では、言葉そのものと同じくらい、その口調も重要です。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">Calling yourself stupid after a mistake</span> <span class="reading-chunk role-predicate">is</span> <span class="reading-chunk role-complement">very different from saying, “That did not work. Try another way.”</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-3-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-3-1" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">Calling yourself stupid after a mistake</span> <span class="reading-chunk role-predicate">is</span> <span class="reading-chunk role-complement">very different from saying, “That did not work. Try another way.”</span></button>
   <div class="reading-translation" id="translation-3-1" lang="ja" hidden>失敗したあとに自分を『バカだ』と責めるのと、『これはうまくいかなかった。別の方法を試そう』と言うのとでは大きく違います。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">One</span> <span class="reading-chunk role-predicate">attacks the person;</span> <span class="reading-chunk role-subject">the other</span> <span class="reading-chunk role-predicate">describes the problem and points toward the next action.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-3-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-3-2" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">One</span> <span class="reading-chunk role-predicate">attacks the person;</span> <span class="reading-chunk role-subject">the other</span> <span class="reading-chunk role-predicate">describes the problem and points toward the next action.</span></button>
   <div class="reading-translation" id="translation-3-2" lang="ja" hidden>前者は人そのものを攻撃し、後者は問題を説明して次の行動へ目を向けさせます。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-grammar"><span class="reading-note-type">構文</span><div><strong lang="en">as much as</strong><p>ここでは「〜と同じくらい」。The tone matters as much as the words do. の do が省略された感覚です。</p></div></div><div class="reading-note type-phrase"><span class="reading-note-type">表現</span><div><strong lang="en">point toward</strong><p>文字通りは「〜の方向を指す」。ここでは「次に取るべき行動を示す」という抽象的な意味です。</p></div></div></aside>
@@ -226,15 +227,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <span class="reading-block-no">05</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-connector">So</span> <span class="reading-chunk role-subject">talking to yourself</span> <span class="reading-chunk role-predicate">is not necessarily</span> <span class="reading-chunk role-complement">a sign</span> <span class="reading-chunk role-relative">that your mind has lost control.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-4-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-4-0" title="タップして日本語訳を表示"><span class="reading-chunk role-connector">So</span> <span class="reading-chunk role-subject">talking to yourself</span> <span class="reading-chunk role-predicate">is not necessarily</span> <span class="reading-chunk role-complement">a sign</span> <span class="reading-chunk role-relative">that your mind has lost control.</span></button>
   <div class="reading-translation" id="translation-4-0" lang="ja" hidden>つまり、独り言は必ずしも心が制御を失ったしるしではありません。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-modifier">Quite often,</span> <span class="reading-chunk role-subject">it</span> <span class="reading-chunk role-predicate">is</span> <span class="reading-chunk role-complement">the opposite:</span> <span class="reading-chunk role-complement">a small tool</span> <span class="reading-chunk role-relative">the mind uses</span> <span class="reading-chunk role-infinitive">to create order, maintain focus, and guide behavior.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-4-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-4-1" title="タップして日本語訳を表示"><span class="reading-chunk role-modifier">Quite often,</span> <span class="reading-chunk role-subject">it</span> <span class="reading-chunk role-predicate">is</span> <span class="reading-chunk role-complement">the opposite:</span> <span class="reading-chunk role-complement">a small tool</span> <span class="reading-chunk role-relative">the mind uses</span> <span class="reading-chunk role-infinitive">to create order, maintain focus, and guide behavior.</span></button>
   <div class="reading-translation" id="translation-4-1" lang="ja" hidden>むしろ多くの場合は逆で、思考が秩序を作り、集中を保ち、行動を導くために使う小さな道具なのです。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">The strange person</span> <span class="reading-chunk role-participle">giving you instructions in an empty room</span> <span class="reading-chunk role-predicate">may simply be</span> <span class="reading-chunk role-complement">you</span> <span class="reading-chunk role-participle">helping yourself think.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-4-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-4-2" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">The strange person</span> <span class="reading-chunk role-participle">giving you instructions in an empty room</span> <span class="reading-chunk role-predicate">may simply be</span> <span class="reading-chunk role-complement">you</span> <span class="reading-chunk role-participle">helping yourself think.</span></button>
   <div class="reading-translation" id="translation-4-2" lang="ja" hidden>誰もいない部屋であなたに指示を出している奇妙な人物は、単にあなた自身が自分の思考を助けているだけなのかもしれません。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-phrase"><span class="reading-note-type">表現</span><div><strong lang="en">not necessarily</strong><p>「必ずしも〜ではない」。断定をやわらげ、例外を残す重要表現です。</p></div></div><div class="reading-note type-nuance"><span class="reading-note-type">語感</span><div><strong lang="en">The strange person ... may simply be you</strong><p>最後に少しユーモラスな言い方へ戻し、説明文を軽く締めています。</p></div></div></aside>
@@ -271,22 +272,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 
 <script>
 (function(){
-  const translationButtons=[...document.querySelectorAll('[data-reading-sentence]')];
-  const toggleTranslation=(button,show)=>{
-    const target=document.getElementById(button.getAttribute('aria-controls'));
+  const sentences=[...document.querySelectorAll('[data-reading-sentence]')];
+  const toggleTranslation=(sentence,show)=>{
+    const target=document.getElementById(sentence.getAttribute('aria-controls'));
     if(!target)return;
-    const next=show===undefined?button.getAttribute('aria-expanded')!=='true':show;
-    button.setAttribute('aria-expanded',next?'true':'false');
+    const next=show===undefined?sentence.getAttribute('aria-expanded')!=='true':show;
+    sentence.setAttribute('aria-expanded',next?'true':'false');
     target.hidden=!next;
   };
-  translationButtons.forEach(button=>button.addEventListener('click',()=>toggleTranslation(button)));
-
-  const all=document.querySelector('[data-reading-toggle-all]');
-  if(all)all.addEventListener('click',()=>{
-    const shouldShow=translationButtons.some(button=>button.getAttribute('aria-expanded')!=='true');
-    translationButtons.forEach(button=>toggleTranslation(button,shouldShow));
-    all.textContent=shouldShow?'日本語訳をすべて隠す':'日本語訳をすべて表示';
-  });
+  sentences.forEach(sentence=>sentence.addEventListener('click',()=>toggleTranslation(sentence)));
 })();
 </script>
 

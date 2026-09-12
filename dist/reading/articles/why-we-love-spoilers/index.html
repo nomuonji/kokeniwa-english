@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>なぜネタバレを知ってから見たい人がいるのか｜英語リーディング・精読教材｜Kokeniwa English</title>
-<meta name="description" content="映画やドラマの結末を先に知ると、本当に楽しみは減るのでしょうか。ネタバレをめぐる意外な心理を読む英語教材です。 文構造の色分け、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
+<meta name="description" content="映画やドラマの結末を先に知ると、本当に楽しみは減るのでしょうか。ネタバレをめぐる意外な心理を読む英語教材です。 文構造の色分け、一文タップで開く日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
 <link rel="canonical" href="https://en.kokeniwa.net/reading/articles/why-we-love-spoilers/">
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="なぜネタバレを知ってから見たい人がいるのか｜英語リーディング・精読教材｜Kokeniwa English">
-<meta property="og:description" content="映画やドラマの結末を先に知ると、本当に楽しみは減るのでしょうか。ネタバレをめぐる意外な心理を読む英語教材です。 文構造の色分け、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
+<meta property="og:description" content="映画やドラマの結末を先に知ると、本当に楽しみは減るのでしょうか。ネタバレをめぐる意外な心理を読む英語教材です。 文構造の色分け、一文タップで開く日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
 <meta property="og:url" content="https://en.kokeniwa.net/reading/articles/why-we-love-spoilers/">
 <meta property="og:site_name" content="Kokeniwa English">
 <meta property="og:locale" content="ja_JP">
@@ -19,7 +19,7 @@
 <meta property="og:image:alt" content="なぜネタバレを知ってから見たい人がいるのか｜英語リーディング・精読教材｜Kokeniwa English">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="なぜネタバレを知ってから見たい人がいるのか｜英語リーディング・精読教材｜Kokeniwa English">
-<meta name="twitter:description" content="映画やドラマの結末を先に知ると、本当に楽しみは減るのでしょうか。ネタバレをめぐる意外な心理を読む英語教材です。 文構造の色分け、一文ごとの日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
+<meta name="twitter:description" content="映画やドラマの結末を先に知ると、本当に楽しみは減るのでしょうか。ネタバレをめぐる意外な心理を読む英語教材です。 文構造の色分け、一文タップで開く日本語訳、語彙・構文・ニュアンス解説つきの英語リーディング教材。">
 <meta name="twitter:image" content="https://en.kokeniwa.net/static/og/reading.png?v=dc545437">
 <meta name="theme-color" content="#4d6a38">
 <link rel="icon" href="/static/favicon.svg?v=934cb3c0" type="image/svg+xml">
@@ -115,22 +115,23 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 .reading-orientation{margin:1rem 0 1rem;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:var(--radius)}
 .reading-orientation strong{display:block;margin-bottom:.25rem;color:var(--primary-strong)}
 .reading-structure-hint{margin:.7rem 0 1rem;color:var(--text-muted);font-size:.8rem}
-.reading-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:1rem 0 1.5rem;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.reading-toolbar button{appearance:none;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);border-radius:999px;padding:.48rem .8rem;font:inherit;font-size:.86rem;cursor:pointer}.reading-toolbar button:hover{border-color:var(--primary);color:var(--primary-strong)}
+.reading-toolbar{margin:1rem 0 1.5rem;padding:10px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
 .reading-toolbar-note{font-size:.85rem;color:var(--text-muted)}
 .reading-study-block{position:relative;margin:0 0 1.6rem;padding:clamp(16px,3vw,24px);background:color-mix(in srgb,var(--surface) 92%,transparent);border:1px solid var(--border);border-radius:var(--radius-lg)}
 .reading-block-no{position:absolute;top:12px;right:14px;color:var(--border-strong);font-family:var(--font-serif);font-size:.78rem;letter-spacing:.08em}
 .reading-sentence-row{margin:0 0 .9rem}
-.reading-sentence-line{display:block;padding:.03rem 0;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:2}
+.reading-sentence-line{appearance:none;display:block;width:100%;border:0;background:transparent;color:var(--text);text-align:left;padding:.08rem .1rem;margin:0;border-radius:7px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.08rem,2.4vw,1.22rem);line-height:2;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .14s var(--ease-out)}
+.reading-sentence-line:hover{background:color-mix(in srgb,var(--surface-2) 34%,transparent)}
+.reading-sentence-line[aria-expanded="true"]{background:color-mix(in srgb,var(--surface-2) 22%,transparent)}
+.reading-sentence-line:focus-visible{outline:2px solid var(--primary);outline-offset:3px}
 .reading-plain-sentence{line-height:2}
-.reading-chunk{display:inline;color:var(--text);padding:.03em .10em .08em;margin:0 .01em;border-radius:3px;line-height:inherit;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.reading-chunk.role-subject{background:color-mix(in srgb,var(--accent-reading-soft) 78%,transparent)}
-.reading-chunk.role-predicate{background:color-mix(in srgb,var(--accent-training-soft) 78%,transparent)}
-.reading-chunk.role-object,.reading-chunk.role-complement{background:color-mix(in srgb,var(--surface-2) 72%,transparent)}
-.reading-chunk.role-clause,.reading-chunk.role-relative,.reading-chunk.role-infinitive,.reading-chunk.role-participle{background:color-mix(in srgb,var(--accent-legal-soft) 72%,transparent)}
-.reading-chunk.role-modifier{background:color-mix(in srgb,var(--surface-2) 46%,transparent)}
-.reading-chunk.role-connector{background:color-mix(in srgb,var(--accent-reading-soft) 52%,transparent);font-weight:600}
-.reading-translation-toggle{appearance:none;display:inline-block;vertical-align:middle;margin-left:.35rem;border:1px solid var(--border);background:transparent;color:var(--text-muted);border-radius:999px;padding:.08rem .42rem;font:600 .7rem/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}.reading-translation-toggle:hover,.reading-translation-toggle[aria-expanded="true"]{border-color:var(--primary);color:var(--primary-strong);background:var(--accent-reading-soft)}
+.reading-chunk{display:inline;background:transparent;padding:0;margin:0;line-height:inherit;font-weight:500}
+.reading-chunk.role-subject{color:var(--accent-reading)}
+.reading-chunk.role-predicate{color:var(--accent-training)}
+.reading-chunk.role-object,.reading-chunk.role-complement{color:var(--accent-uscpa)}
+.reading-chunk.role-clause,.reading-chunk.role-relative,.reading-chunk.role-infinitive,.reading-chunk.role-participle{color:var(--accent-legal)}
+.reading-chunk.role-modifier{color:var(--text-muted)}
+.reading-chunk.role-connector{color:var(--danger);font-weight:700}
 .reading-translation{margin:.2rem 0 .8rem;padding:.58rem .75rem;background:var(--surface-2);border-left:3px solid var(--primary);border-radius:0 8px 8px 0;color:var(--text-muted);font-size:.93rem}.reading-translation[hidden]{display:none}
 .reading-notes{margin:1rem 0 0;padding-top:.9rem;border-top:1px dashed var(--border)}.reading-notes-label{display:block;margin-bottom:.55rem;color:var(--text-muted);font-size:.78rem;font-weight:700;letter-spacing:.06em}
 .reading-note{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;margin:.45rem 0;padding:.55rem .65rem;border-radius:10px;background:var(--surface)}
@@ -140,7 +141,7 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 .reading-guide>h2{margin-top:0}.reading-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.reading-guide-card{padding:14px 16px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius)}.reading-guide-card h3{margin:.1rem 0 .55rem}.reading-guide-card ul{margin:.35rem 0;padding-left:1.2rem}.reading-guide-card li{margin:.3rem 0}.reading-guide-card.full{grid-column:1/-1}
 .reading-question{padding:.7rem 0;border-bottom:1px dashed var(--border)}.reading-question:last-child{border-bottom:0}.reading-question strong{display:block}.reading-answer{margin:.35rem 0 0;color:var(--text-muted)}
 .reading-next{margin:2rem 0;padding:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-line{font-size:1.06rem;line-height:1.95}.reading-chunk{padding:.02em .08em .06em}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
+@media(max-width:720px){.reading-article-grid,.reading-guide-grid{grid-template-columns:1fr}.reading-guide-card.full{grid-column:auto}.reading-study-block{padding:16px 14px}.reading-sentence-line{font-size:1.06rem;line-height:1.95;padding:.06rem 0}.reading-note{grid-template-columns:1fr}.reading-note-type{justify-self:start}}
 </style>
 
 <article class="reading-article-shell">
@@ -151,22 +152,22 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
     <p class="reading-dek">なぜネタバレを知ってから見たい人がいるのか — 映画やドラマの結末を先に知ると、本当に楽しみは減るのでしょうか。ネタバレをめぐる意外な心理を読む英語教材です。</p>
   </header>
   <div class="reading-orientation"><strong>この記事を読むヒント</strong>「spoiler＝楽しみを壊すもの」という前提をいったん疑いながら読んでみましょう。対比を示す however / instead / rather than と、抽象的な名詞を説明する文のつながりがポイントです。</div>
-  <p class="reading-structure-hint" lang="ja">色のまとまりが、意味・文法上の塊です。複数行に折り返しても同じ色のまとまりとして読み進めてください。</p>
-  <div class="reading-toolbar"><span class="reading-toolbar-note">「訳」で、その文の日本語訳を直下に表示できます。</span><button type="button" data-reading-toggle-all>日本語訳をすべて表示</button></div>
+  <p class="reading-structure-hint" lang="ja">文字色のまとまりが、意味・文法上の塊です。背景色ではなく文字色で区別するので、複数行に折り返しても自然に追えます。</p>
+  <div class="reading-toolbar"><span class="reading-toolbar-note">英文をタップすると、その一文の日本語訳を直下に表示・非表示できます。</span></div>
   
 <section class="reading-study-block">
   <span class="reading-block-no">01</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-modifier">For many people,</span> <span class="reading-chunk role-subject">a spoiler</span> <span class="reading-chunk role-predicate">is</span> <span class="reading-chunk role-complement">almost an act of violence against a story.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-0-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-0-0" title="タップして日本語訳を表示"><span class="reading-chunk role-modifier">For many people,</span> <span class="reading-chunk role-subject">a spoiler</span> <span class="reading-chunk role-predicate">is</span> <span class="reading-chunk role-complement">almost an act of violence against a story.</span></button>
   <div class="reading-translation" id="translation-0-0" lang="ja" hidden>多くの人にとって、ネタバレは物語に対する一種の暴力にすら感じられます。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">They</span> <span class="reading-chunk role-predicate">avoid trailers,</span> <span class="reading-chunk role-predicate">mute words on social media,</span> <span class="reading-chunk role-predicate">and sometimes refuse to talk to friends</span> <span class="reading-chunk role-clause">until they have finished a series.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-0-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-0-1" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">They</span> <span class="reading-chunk role-predicate">avoid trailers,</span> <span class="reading-chunk role-predicate">mute words on social media,</span> <span class="reading-chunk role-predicate">and sometimes refuse to talk to friends</span> <span class="reading-chunk role-clause">until they have finished a series.</span></button>
   <div class="reading-translation" id="translation-0-1" lang="ja" hidden>予告編を避け、SNSで特定の言葉をミュートし、シリーズを見終えるまで友人との会話さえ避けることがあります。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-connector">Yet</span> <span class="reading-chunk role-subject">other people</span> <span class="reading-chunk role-predicate">actively look up the ending</span> <span class="reading-chunk role-clause">before they start watching.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-0-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-0-2" title="タップして日本語訳を表示"><span class="reading-chunk role-connector">Yet</span> <span class="reading-chunk role-subject">other people</span> <span class="reading-chunk role-predicate">actively look up the ending</span> <span class="reading-chunk role-clause">before they start watching.</span></button>
   <div class="reading-translation" id="translation-0-2" lang="ja" hidden>ところが反対に、見る前から積極的に結末を調べる人もいます。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-phrase"><span class="reading-note-type">表現</span><div><strong lang="en">an act of violence against</strong><p>直訳は「〜に対する暴力行為」。ここでは大げさな比喩で、ネタバレへの強い嫌悪感を表しています。</p></div></div><div class="reading-note type-grammar"><span class="reading-note-type">構文</span><div><strong lang="en">until they have finished</strong><p>until節の中で完了を表し、「見終わるその時まで」を明確にしています。</p></div></div></aside>
@@ -175,15 +176,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <span class="reading-block-no">02</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-modifier">At first,</span> <span class="reading-chunk role-subject">this</span> <span class="reading-chunk role-predicate">seems</span> <span class="reading-chunk role-infinitive">to defeat the purpose of storytelling.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-1-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-1-0" title="タップして日本語訳を表示"><span class="reading-chunk role-modifier">At first,</span> <span class="reading-chunk role-subject">this</span> <span class="reading-chunk role-predicate">seems</span> <span class="reading-chunk role-infinitive">to defeat the purpose of storytelling.</span></button>
   <div class="reading-translation" id="translation-1-0" lang="ja" hidden>一見すると、これは物語を楽しむ目的そのものを台無しにするように思えます。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-clause">If you already know who wins, who dies, or who was secretly responsible,</span> <span class="reading-chunk role-subject">what</span> <span class="reading-chunk role-predicate">is left</span> <span class="reading-chunk role-infinitive">to discover?</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-1-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-1-1" title="タップして日本語訳を表示"><span class="reading-chunk role-clause">If you already know who wins, who dies, or who was secretly responsible,</span> <span class="reading-chunk role-subject">what</span> <span class="reading-chunk role-predicate">is left</span> <span class="reading-chunk role-infinitive">to discover?</span></button>
   <div class="reading-translation" id="translation-1-1" lang="ja" hidden>誰が勝ち、誰が死に、誰が実は犯人だったのかを知っているなら、いったい何を発見する余地があるのでしょうか。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">The answer</span> <span class="reading-chunk role-predicate">may be</span> <span class="reading-chunk role-clause">that discovery is only one kind of pleasure.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-1-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-1-2" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">The answer</span> <span class="reading-chunk role-predicate">may be</span> <span class="reading-chunk role-clause">that discovery is only one kind of pleasure.</span></button>
   <div class="reading-translation" id="translation-1-2" lang="ja" hidden>その答えは、発見することは楽しみ方の一つにすぎない、ということかもしれません。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-phrase"><span class="reading-note-type">表現</span><div><strong lang="en">defeat the purpose of</strong><p>「〜の目的を台無しにする」。日常・ビジネスの両方で使いやすい表現です。</p></div></div><div class="reading-note type-nuance"><span class="reading-note-type">語感</span><div><strong lang="en">only one kind of pleasure</strong><p>only が discovery を限定し、「楽しみは他にもある」という次の展開を準備しています。</p></div></div></aside>
@@ -192,15 +193,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <span class="reading-block-no">03</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">Knowing the destination</span> <span class="reading-chunk role-predicate">can make</span> <span class="reading-chunk role-object">it</span> <span class="reading-chunk role-complement">easier</span> <span class="reading-chunk role-infinitive">to notice the road.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-2-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-2-0" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">Knowing the destination</span> <span class="reading-chunk role-predicate">can make</span> <span class="reading-chunk role-object">it</span> <span class="reading-chunk role-complement">easier</span> <span class="reading-chunk role-infinitive">to notice the road.</span></button>
   <div class="reading-translation" id="translation-2-0" lang="ja" hidden>目的地を知っているからこそ、そこへ至る道筋に気づきやすくなることがあります。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">A viewer</span> <span class="reading-chunk role-relative">who knows the twist</span> <span class="reading-chunk role-predicate">may pay more attention to</span> <span class="reading-chunk role-object">a character&#x27;s expression, an unusual camera angle, or a line</span> <span class="reading-chunk role-relative">that seemed meaningless the first time.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-2-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-2-1" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">A viewer</span> <span class="reading-chunk role-relative">who knows the twist</span> <span class="reading-chunk role-predicate">may pay more attention to</span> <span class="reading-chunk role-object">a character&#x27;s expression, an unusual camera angle, or a line</span> <span class="reading-chunk role-relative">that seemed meaningless the first time.</span></button>
   <div class="reading-translation" id="translation-2-1" lang="ja" hidden>どんでん返しを知っている視聴者は、人物の表情や不自然なカメラアングル、初見では意味がないように見えたセリフに、より注意を向けるかもしれません。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-modifier">Instead of asking what will happen,</span> <span class="reading-chunk role-subject">the viewer</span> <span class="reading-chunk role-predicate">starts asking</span> <span class="reading-chunk role-clause">how the story is making it happen.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-2-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-2-2" title="タップして日本語訳を表示"><span class="reading-chunk role-modifier">Instead of asking what will happen,</span> <span class="reading-chunk role-subject">the viewer</span> <span class="reading-chunk role-predicate">starts asking</span> <span class="reading-chunk role-clause">how the story is making it happen.</span></button>
   <div class="reading-translation" id="translation-2-2" lang="ja" hidden>何が起こるのかを問う代わりに、その物語がどうやってそれを起こしているのかを見るようになります。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-phrase"><span class="reading-note-type">表現</span><div><strong lang="en">Knowing the destination can make it easier to notice the road.</strong><p>具体的な「目的地」と「道」を使って、結末と物語の過程を比喩的に対比しています。</p></div></div><div class="reading-note type-grammar"><span class="reading-note-type">構文</span><div><strong lang="en">Instead of asking ..., the viewer starts asking ...</strong><p>instead of + -ing で「〜する代わりに」。同じ asking を繰り返して対比をくっきりさせています。</p></div></div></aside>
@@ -209,15 +210,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <span class="reading-block-no">04</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">Spoilers</span> <span class="reading-chunk role-predicate">can also reduce</span> <span class="reading-chunk role-object">a particular kind of stress.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-3-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-3-0" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">Spoilers</span> <span class="reading-chunk role-predicate">can also reduce</span> <span class="reading-chunk role-object">a particular kind of stress.</span></button>
   <div class="reading-translation" id="translation-3-0" lang="ja" hidden>ネタバレは、ある種のストレスを減らすこともあります。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">Some people</span> <span class="reading-chunk role-predicate">become so anxious about a character</span> <span class="reading-chunk role-relative">they like</span> <span class="reading-chunk role-clause">that uncertainty stops being exciting and starts becoming exhausting.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-3-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-3-1" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">Some people</span> <span class="reading-chunk role-predicate">become so anxious about a character</span> <span class="reading-chunk role-relative">they like</span> <span class="reading-chunk role-clause">that uncertainty stops being exciting and starts becoming exhausting.</span></button>
   <div class="reading-translation" id="translation-3-1" lang="ja" hidden>好きな登場人物のことが気になりすぎて、不確実さがワクワクではなく疲労に変わってしまう人もいます。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-modifier">For them,</span> <span class="reading-chunk role-subject">knowing the outcome</span> <span class="reading-chunk role-predicate">creates</span> <span class="reading-chunk role-object">enough emotional distance</span> <span class="reading-chunk role-infinitive">to enjoy the details.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-3-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-3-2" title="タップして日本語訳を表示"><span class="reading-chunk role-modifier">For them,</span> <span class="reading-chunk role-subject">knowing the outcome</span> <span class="reading-chunk role-predicate">creates</span> <span class="reading-chunk role-object">enough emotional distance</span> <span class="reading-chunk role-infinitive">to enjoy the details.</span></button>
   <div class="reading-translation" id="translation-3-2" lang="ja" hidden>そうした人にとって、結末を知ることは細部を楽しめるだけの心理的な距離を作ってくれます。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-grammar"><span class="reading-note-type">構文</span><div><strong lang="en">so anxious ... that</strong><p>so + 形容詞 + that で「とても〜なので…」。原因と結果を一気につなぐ定番構文です。</p></div></div><div class="reading-note type-word"><span class="reading-note-type">重要語</span><div><strong lang="en">uncertainty</strong><p>「不確実さ」。この段落では suspense と近い役割ですが、より心理状態に焦点を当てた語です。</p></div></div></aside>
@@ -226,19 +227,19 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
   <span class="reading-block-no">05</span>
   <div class="reading-block-text">
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">None of this</span> <span class="reading-chunk role-predicate">means</span> <span class="reading-chunk role-clause">that everyone should read spoilers.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-4-0" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-4-0" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">None of this</span> <span class="reading-chunk role-predicate">means</span> <span class="reading-chunk role-clause">that everyone should read spoilers.</span></button>
   <div class="reading-translation" id="translation-4-0" lang="ja" hidden>だからといって、誰もがネタバレを読むべきだという意味ではありません。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-subject">Surprise</span> <span class="reading-chunk role-predicate">is a real pleasure,</span> <span class="reading-chunk role-connector">and</span> <span class="reading-chunk role-subject">some stories</span> <span class="reading-chunk role-predicate">are carefully built around it.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-4-1" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-4-1" title="タップして日本語訳を表示"><span class="reading-chunk role-subject">Surprise</span> <span class="reading-chunk role-predicate">is a real pleasure,</span> <span class="reading-chunk role-connector">and</span> <span class="reading-chunk role-subject">some stories</span> <span class="reading-chunk role-predicate">are carefully built around it.</span></button>
   <div class="reading-translation" id="translation-4-1" lang="ja" hidden>驚きは確かな楽しみであり、それを中心に丁寧に作られている物語もあります。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-connector">But</span> <span class="reading-chunk role-subject">the debate</span> <span class="reading-chunk role-predicate">reminds us</span> <span class="reading-chunk role-clause">that enjoying a story is not a single mental process.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-4-2" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-4-2" title="タップして日本語訳を表示"><span class="reading-chunk role-connector">But</span> <span class="reading-chunk role-subject">the debate</span> <span class="reading-chunk role-predicate">reminds us</span> <span class="reading-chunk role-clause">that enjoying a story is not a single mental process.</span></button>
   <div class="reading-translation" id="translation-4-2" lang="ja" hidden>ただ、この議論は、物語を楽しむことが単一の心理過程ではないと気づかせてくれます。</div>
 </div>
 <div class="reading-sentence-row">
-  <div class="reading-sentence-line" lang="en"><span class="reading-chunk role-modifier">Sometimes</span> <span class="reading-chunk role-subject">we</span> <span class="reading-chunk role-predicate">want mystery;</span> <span class="reading-chunk role-modifier">sometimes</span> <span class="reading-chunk role-subject">we</span> <span class="reading-chunk role-predicate">want the comfort of knowing</span> <span class="reading-chunk role-clause">where the path leads.</span><button type="button" class="reading-translation-toggle" data-reading-sentence aria-expanded="false" aria-controls="translation-4-3" title="日本語訳を表示">訳</button></div>
+  <button type="button" class="reading-sentence-line" lang="en" data-reading-sentence aria-expanded="false" aria-controls="translation-4-3" title="タップして日本語訳を表示"><span class="reading-chunk role-modifier">Sometimes</span> <span class="reading-chunk role-subject">we</span> <span class="reading-chunk role-predicate">want mystery;</span> <span class="reading-chunk role-modifier">sometimes</span> <span class="reading-chunk role-subject">we</span> <span class="reading-chunk role-predicate">want the comfort of knowing</span> <span class="reading-chunk role-clause">where the path leads.</span></button>
   <div class="reading-translation" id="translation-4-3" lang="ja" hidden>私たちは謎を求めることもあれば、その道がどこへ続くのか知っている安心感を求めることもあるのです。</div>
 </div></div>
   <aside class="reading-notes"><span class="reading-notes-label">ここで覚える</span><div class="reading-note type-grammar"><span class="reading-note-type">構文</span><div><strong lang="en">None of this means that ...</strong><p>直前までの議論を受けつつ、極端な一般化を避けるための便利なクッション表現です。</p></div></div><div class="reading-note type-nuance"><span class="reading-note-type">語感</span><div><strong lang="en">the comfort of knowing</strong><p>comfort は物理的な快適さだけでなく「安心感」。of knowing がその安心感の中身を説明しています。</p></div></div></aside>
@@ -275,22 +276,15 @@ if(location.hostname==="en.kokeniwa.net"){gtag("js",new Date());gtag("config","G
 
 <script>
 (function(){
-  const translationButtons=[...document.querySelectorAll('[data-reading-sentence]')];
-  const toggleTranslation=(button,show)=>{
-    const target=document.getElementById(button.getAttribute('aria-controls'));
+  const sentences=[...document.querySelectorAll('[data-reading-sentence]')];
+  const toggleTranslation=(sentence,show)=>{
+    const target=document.getElementById(sentence.getAttribute('aria-controls'));
     if(!target)return;
-    const next=show===undefined?button.getAttribute('aria-expanded')!=='true':show;
-    button.setAttribute('aria-expanded',next?'true':'false');
+    const next=show===undefined?sentence.getAttribute('aria-expanded')!=='true':show;
+    sentence.setAttribute('aria-expanded',next?'true':'false');
     target.hidden=!next;
   };
-  translationButtons.forEach(button=>button.addEventListener('click',()=>toggleTranslation(button)));
-
-  const all=document.querySelector('[data-reading-toggle-all]');
-  if(all)all.addEventListener('click',()=>{
-    const shouldShow=translationButtons.some(button=>button.getAttribute('aria-expanded')!=='true');
-    translationButtons.forEach(button=>toggleTranslation(button,shouldShow));
-    all.textContent=shouldShow?'日本語訳をすべて隠す':'日本語訳をすべて表示';
-  });
+  sentences.forEach(sentence=>sentence.addEventListener('click',()=>toggleTranslation(sentence)));
 })();
 </script>
 
