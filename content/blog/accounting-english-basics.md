@@ -1,92 +1,108 @@
 ---
-title: 会計・経理の英語は「暗記の範囲が狭い」— 財務諸表と監査の頻出語
+title: 会計・経理の英語 — IFRS・US GAAPで用語の違いを整理する
 date: 2026-07-27
 topic: 会計英語
-description: 会計英語は日常英語より覚える範囲が狭く、用語さえ押さえれば読めるようになります。財務諸表の名称、頻出の勘定科目と動詞、監査の定型表現を整理し、USCPAに必要な英語力にも触れます。
+description: 会計英語の主要用語を、IFRS・US GAAP・共通表現に分けて整理。財務諸表、収益、provision、監査意見など、同じ日本語でも基準や文脈で呼び方が変わる点を実務向けに解説します。
 ---
 
-「英語で経理をやることになった」「USCPAを受けたいが英語に自信がない」——このとき最初に知っておくといいのは、**会計英語は覚える範囲が驚くほど狭い**ということです。
+「英語で経理をやることになった」「USCPAを受けたいが英語に自信がない」というとき、最初に押さえたいのは、**会計英語は一般英語より語彙の範囲を絞りやすい一方、基準や文脈によって呼び方が変わる**という点です。
 
-日常英会話は話題が無限に広がりますが、財務諸表に出てくる語は決まっています。勘定科目・注記・監査報告書は、どの会社でもほぼ同じ言い回しの繰り返しです。つまり、**有限の語彙を潰せば読める**世界です。
+財務諸表・注記・監査報告書には定型的な表現が多くあります。ただし、「どの会社でも同じ」「この日本語には必ずこの英語」というわけではありません。IFRS、US GAAP、監査基準、会社独自の表示によって表現が変わるため、**単語帳として覚えるだけでなく、どの文脈の用語かを確認する**のが安全です。
 
 ## まず財務諸表の名前から
 
-- `balance sheet` / `statement of financial position` — 貸借対照表
-- `income statement` / `statement of operations` — 損益計算書
-- `statement of cash flows` — キャッシュ・フロー計算書
-- `statement of stockholders' equity` — 株主資本等変動計算書
-- `notes to the financial statements` — 注記
+| 英語 | 日本語 | 主な文脈 | 注意点・例 |
+| --- | --- | --- | --- |
+| `statement of financial position` | 財政状態計算書 / 貸借対照表 | IFRSで一般的 | IAS 1で使われる正式名称。実務では `balance sheet` と呼ばれることもあります。 |
+| `balance sheet` | 貸借対照表 | US GAAP・実務で広く使用 | 米国企業の開示でよく見かけます。 |
+| `statement of profit or loss` | 損益計算書 | IFRS | IAS 1では利益又は損失を示す計算書として扱われます。 |
+| `income statement` / `statement of operations` | 損益計算書 | US GAAP・米国企業で一般的 | 会社ごとにタイトルが異なることがあります。 |
+| `statement of cash flows` | キャッシュ・フロー計算書 | 共通 | IFRS・US GAAPの双方で一般的な名称です。 |
+| `statement of changes in equity` | 持分変動計算書 | IFRS | 米国企業では `statement of stockholders' equity` などの名称も使われます。 |
+| `notes to the financial statements` | 財務諸表注記 | 共通 | 会計方針、見積り、内訳などを確認する重要部分です。 |
 
-`statement of financial position` はIFRSでよく使われる呼び方で、指しているものは貸借対照表と同じです。**同じものに複数の呼び名がある**のが会計英語の第一の壁で、逆に言えばそれさえ知っていれば読めます。
+IFRSの表示名称は、IAS 1の公式ページで確認できます。
 
-## 頻出の勘定科目
+- IFRS Foundation: https://www.ifrs.org/issued-standards/list-of-standards/ias-1-presentation-of-financial-statements/
+- FASB standards: https://fasb.org/Page/PageContent?PageId=%2Fstaticpages%2Fstandards.html
 
-貸借対照表と損益計算書に並ぶ語は、ほぼこの範囲に収まります。
+## 頻出の勘定科目を「基準差つき」で見る
 
-- `accounts receivable` 売掛金 ／ `accounts payable` 買掛金
-- `accrued liabilities` 未払費用 ／ `prepaid expenses` 前払費用
-- `inventory` 棚卸資産 ／ `property, plant and equipment` 有形固定資産
-- `goodwill` のれん ／ `intangible assets` 無形資産
-- `retained earnings` 利益剰余金 ／ `additional paid-in capital` 資本剰余金
-- `deferred tax assets` 繰延税金資産
-- `revenue` 収益 ／ `cost of goods sold` 売上原価 ／ `operating expenses` 販管費
+| 英語 | 日本語 | IFRS・US GAAP・共通 | 注意点または例 |
+| --- | --- | --- | --- |
+| `accounts receivable` | 売掛金 | 共通 | 顧客に対する営業債権。 |
+| `accounts payable` | 買掛金 | 共通 | 仕入先に対する営業債務。 |
+| `inventory` | 棚卸資産 | 共通 | 測定ルールの細部は基準差があります。 |
+| `property, plant and equipment` | 有形固定資産 | 共通 | 略して `PP&E` と書かれることがあります。 |
+| `goodwill` | のれん | 共通 | 認識後の会計処理にはIFRSとUS GAAPで差があります。 |
+| `retained earnings` | 利益剰余金 | 共通 | 株主持分・資本の表示内で使われます。 |
+| `revenue` | 収益 | 共通 | 最も広い表現。 |
+| `sales` | 売上高 | 共通だが業種依存 | 小売・製造などで使われやすく、`revenue` と完全な同義ではありません。 |
+| `provision` | 引当金 / 引当 | IFRSで重要 | IFRSでは不確実性のある負債を表す用語。US GAAPでは同じ概念を常に `provision` と呼ぶわけではありません。 |
 
-`receivable`（受け取るべきもの）と `payable`（支払うべきもの）のように、**接尾辞から意味が取れる語**も多いので、丸暗記より語の作りを見るほうが早く覚えられます。
+特に `provision` は要注意です。IFRSでは「時期または金額が不確実な負債」という技術的な意味があります。一方、米国企業の開示では `provision for income taxes` や `provision for credit losses` のように「費用・引当の計上額」という文脈でも使われます。日本語訳だけを見て一対一対応させないほうが安全です。
 
-## 動詞のほうが差がつく
+## 一般英語と意味がずれる動詞
 
-科目名は調べれば出てきますが、実務で読み書きするときに効いてくるのは動詞です。
+実務で読み書きするときは、科目名より動詞で止まりやすいことがあります。
 
-- `recognize` 認識する（`revenue recognition` 収益認識）
-- `accrue` 見越計上する ／ `defer` 繰り延べる
-- `capitalize` 資産計上する ⇔ `expense` 費用処理する
-- `depreciate`（有形）／ `amortize`（無形）償却する
-- `impair` 減損する（`impairment loss` 減損損失）
-- `reconcile` 照合する（`bank reconciliation` 銀行勘定調整）
-- `disclose` 開示する ／ `restate` 修正再表示する
+- `recognize` — 認識する（`revenue recognition` 収益認識）
+- `accrue` — 発生主義で計上する、見越計上する
+- `defer` — 繰り延べる
+- `capitalize` — 資産計上する
+- `expense` — 費用処理する
+- `depreciate` — 有形資産を減価償却する
+- `amortize` — 無形資産などを償却する
+- `impair` — 減損する
+- `reconcile` — 照合する
+- `disclose` — 開示する
+- `restate` — 修正再表示する
 
-`capitalize` を「大文字にする」としか知らないと、`These costs were capitalized.`（これらの費用は資産計上された）で必ず止まります。**一般英語での意味と会計での意味が違う語**は、会計側の意味を別に覚えておく必要があります。`material`（重要な）、`provision`（引当金）、`security`（有価証券）、`consideration`（対価）などが典型です。
+たとえば `These costs were capitalized.` は「これらのコストは大文字にされた」ではなく、「資産計上された」という意味です。
 
-## 監査は定型表現の塊
+## 監査意見は会計基準ではなく監査基準の用語
 
-監査報告書と監査論は、言い回しがほぼ固定されています。ここは覚えたぶんだけそのまま得点・実務に直結します。
+監査報告書の用語は、IFRS/US GAAPそのものではなく、適用される監査基準によって表現が変わります。
 
-- `material misstatement` 重要な虚偽表示
-- `reasonable assurance` 合理的な保証
-- `internal control over financial reporting` 財務報告に係る内部統制
-- `tests of controls` 統制テスト ／ `substantive procedures` 実証手続
-- `audit evidence` 監査証拠 ／ `sampling` サンプリング
-- `going concern` 継続企業の前提
-- `unqualified opinion` / `unmodified opinion` 無限定適正意見
-- `qualified opinion` 限定付適正意見 ／ `adverse opinion` 不適正意見 ／ `disclaimer of opinion` 意見不表明
+- `material misstatement` — 重要な虚偽表示
+- `reasonable assurance` — 合理的な保証
+- `internal control over financial reporting` — 財務報告に係る内部統制
+- `substantive procedures` — 実証手続
+- `audit evidence` — 監査証拠
+- `going concern` — 継続企業の前提
+- `qualified opinion` — 限定付適正意見
+- `adverse opinion` — 不適正意見
+- `disclaimer of opinion` — 意見不表明
 
-意見の4種類（無限定・限定付・不適正・意見不表明）は、英語のまま丸ごと覚えてしまうのが結局いちばん早いです。
+「適正意見」は、国際監査基準系では `unmodified opinion`、米国の監査実務では `unqualified opinion` という表現を見かけます。どちらか一方を唯一の訳として覚えるのではなく、**どの監査基準・報告書を読んでいるか**を確認してください。
 
 ## 経理の現場で使う言い回し
 
-- `month-end close` / `year-end close` 月次決算・年次決算
-- `journal entry` 仕訳 ／ `trial balance` 試算表
-- `variance analysis` 差異分析
-- `write off` 償却する・貸倒処理する
-- `book` 計上する（`We booked the expense in June.`）
+- `month-end close` / `year-end close` — 月次決算・年次決算
+- `journal entry` — 仕訳
+- `trial balance` — 試算表
+- `variance analysis` — 差異分析
+- `write off` — 償却する、貸倒処理する
+- `book` — 計上する（例: `We booked the expense in June.`）
 
-外資系の経理でメールに出てくるのは、この層の口語的な表現です。教科書の用語とは少し違うので、両方に触れておくと安心です。
+これらは会計基準の正式用語というより、実務メールや会話で頻繁に出る表現です。
 
-## USCPAに必要な「英語力」とは
+## USCPAで必要になる英語の処理
 
-USCPAの受験を考えている方からよく聞かれるのが、「TOEIC何点あれば足りますか」という質問です。実際に必要なのは、点数よりも次の2つです。
+USCPA対策では、TOEICの点数だけでなく次の処理ができるかを確認したほうが実用的です。
 
-1. **会計用語を英語のまま処理できること**（日本語に訳してから考えない）
-2. **長い1文の構造を取れること**（問題文には条件が重なった長文が普通に出ます）
+1. **会計用語を英語のまま識別できる**
+2. **長い条件文の主節・例外・数量条件を追える**
+3. **同じ日本語でも基準によって英語表現が違うと気づける**
 
-1は語彙の問題なので、範囲が有限である以上、時間をかければ必ず埋まります。2は会計とは無関係の読解力で、こちらが弱いと**用語は分かるのに問題文の条件を取り違える**という形で失点します。会計の勉強と並行して、英文の構造を取る練習をしておくと効きます。
+会計語彙は範囲を区切って学べますが、すべてを一対一で暗記できるわけではありません。用語カードでは「英語→日本語」だけでなく、短い注記や財務諸表の一文で意味を確認すると、基準差を吸収しやすくなります。
 
 ## 練習に使えるもの
 
-- [USCPA英単語](/vocab/uscpa/) — 現行試験の6科目（FAR 330／AUD 160／REG 200／BAR 120／ISC 90／TCP 100）にそって整理した**1,000語**。科目別フラッシュカード、無料・登録不要
-- [英文解釈トレーニング](/reading/) — 長い1文の構造を取る練習。全200問・全文訳つき
-- [法律英単語](/vocab/legal/) — REGや契約まわりで重なる領域。全1,000語
+- [USCPA英単語](/vocab/uscpa/) — 科目別に整理した語彙カード
+- [英文解釈トレーニング](/reading/) — 長い一文の条件・修飾関係を取る練習
+- [法律英単語](/vocab/legal/) — REGや契約まわりで重なる語彙
 
 単語の**例文と対訳**は[Kindle版『USCPA頻出英単語1000』](/books/)にまとめています（Kindle Unlimited 対象、Anki用データの読者特典つき）。
 
-毎日少しずつ触れておきたい方は、[Threadsで1日15語を配信](/sns/)しています。通勤中に5語ずつ、科目別に流れてきます。
+毎日少しずつ触れたい方は、[Threadsでの配信](/sns/)も復習のきっかけとして使えます。
