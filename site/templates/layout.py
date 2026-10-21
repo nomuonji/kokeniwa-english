@@ -132,7 +132,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
     """
     announce_html = _announce_html() if path in ("/", "/books/", "/blog/") else ""
     site_name = cfg["site_name"]
-    full_title = site_name if path == "/" else f"{title}｜{site_name}"
+    full_title = cfg.get("home_title", site_name) if path == "/" else f"{title}｜{site_name}"
     canonical = cfg["base_url"] + path
     # OGP画像は絶対URL必須。内容ハッシュを付けて、差し替え時にSNS側の
     # キャッシュを確実に引き剥がす（Threads/X は URL 単位でキャッシュする）

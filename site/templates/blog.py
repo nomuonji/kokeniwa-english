@@ -75,10 +75,13 @@ def _topic_badge(article):
 
 
 def _meta_line(article):
+    updated = article.get("updated", article["date"])
+    update_html = (f'・更新 <time datetime="{esc(updated)}">{esc(updated)}</time>'
+                   if updated != article["date"] else "")
     return (f'<span class="post-meta"><time datetime="{esc(article["date"])}">'
             f'{esc(article["date"])}</time>'
             f'<span class="dot" aria-hidden="true">・</span>'
-            f'約{reading_minutes(article)}分</span>')
+            f'約{reading_minutes(article)}分{update_html}</span>')
 
 
 def _cover_img(article, *, eager=False):
@@ -235,7 +238,7 @@ def render_article(cfg, article, related=()):
         "headline": article["title"],
         "description": article.get("description", ""),
         "datePublished": article["date"],
-        "dateModified": article["date"],
+        "dateModified": article.get("updated", article["date"]),
         "inLanguage": "ja",
         "image": cfg["base_url"] + f"/static/og/{cover_og(article)}.png",
         "mainEntityOfPage": cfg["base_url"] + path,
