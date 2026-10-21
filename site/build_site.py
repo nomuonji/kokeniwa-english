@@ -58,6 +58,7 @@ def load_articles():
             "slug": path.stem,
             "title": meta["title"],
             "date": meta["date"],
+            "updated": meta.get("updated", meta["date"]),
             "topic": meta.get("topic", ""),
             "description": meta.get("description", ""),
             "html": html,
@@ -174,7 +175,7 @@ def build(cfg):
 
     # --- 語彙（1枚のフラッシュカード＋軽量JSON。カード本体はnoindex） ---
     counts = {k: sum(len(v) for v in vocab_data[k].values()) for k in vocab_data}
-    emit("/vocab/", vocab_tpl.render_vocab_home(cfg, counts))
+    emit("/vocab/", vocab_tpl.render_vocab_home(cfg, counts, vocab_data))
     data_dir = config.DIST_DIR / "static" / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
     for set_key, by_subject in vocab_data.items():

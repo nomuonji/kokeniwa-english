@@ -40,7 +40,7 @@ def build_json(set_key, by_subject):
     return {"title": vset["title"], "set": set_key, "subjects": subjects, "words": words}
 
 
-def render_vocab_home(cfg, counts):
+def render_vocab_home(cfg, counts, vocab_data):
     """/vocab/ — 2つの単語帳への入口（このページはindex可）。"""
     cards = []
     for set_key, vset in config.VOCAB_SETS.items():
@@ -51,6 +51,26 @@ def render_vocab_home(cfg, counts):
             f'<span class="card-icon">{icon}</span>'
             f'<h2>{esc(vset["title"])}</h2><p>{esc(vset["description"])}</p>'
             f'<div class="card-meta">全{total}語・科目別フラッシュカード</div></a>')
+    previews = []
+    guides = {
+        "uscpa": ("/blog/accounting-english-basics/", "会計英語の基本を読む"),
+        "legal": ("/blog/legal-english-contract-terms/", "英文契約書の用語を読む"),
+    }
+    for key, subject in (("uscpa", "FAR"), ("legal", "CONTRACT")):
+        vset = config.VOCAB_SETS[key]
+        words = vocab_data[key][subject][:6]
+        rows = "".join(
+            f'<tr><th scope="row" lang="en">{esc(w["term"])}</th>'
+            f'<td>{esc(w["meaning_ja"])}</td>'
+            f'<td><a href="{set_url(key)}?subject={subject}#w{w["id"]}">この語を復習</a></td></tr>'
+            for w in words)
+        href, label = guides[key]
+        previews.append(
+            f'<section class="vocab-preview"><h2>{esc(vset["title"])}の見本：{subject}</h2>'
+            '<div class="vocab-table-wrap" role="region" aria-label="英単語の見本" tabindex="0">'
+            f'<table><caption>{esc(vset["title"])}・収録データから6語</caption>'
+            '<thead><tr><th scope="col">英単語</th><th scope="col">日本語の意味</th><th scope="col">練習</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table></div><p><a href="{href}">{label}</a></p></section>')
     content = f"""
 <h1>専門英単語フラッシュカード</h1>
 <p class="lead">試験・実務に直結する専門英単語を、科目別のフラッシュカードで。
@@ -59,6 +79,19 @@ def render_vocab_home(cfg, counts):
 <div class="note-box">📕 <strong>例文つきの完全版はKindleで。</strong>
 当サイトは日々の投稿の復習・自己テスト用です。全語を例文つきでまとめて学びたい方は、
 Kindle版（Anki用データのおまけつき）をご検討ください。</div>
+<h2>USCPAと法律英語、どちらから始める？</h2>
+<p>財務諸表や監査の英文を読むならUSCPA英単語、契約書や訴訟の英文を読むなら法律英単語から始められます。
+USCPAはFAR・AUD・REG・BAR・ISC・TCP、法律英語は契約一般・契約条項・会社法などの分野を選べます。
+これは当サイトの学習用分類です。試験範囲の網羅や、個々の文書での訳語を保証する一覧ではありません。</p>
+{"".join(previews)}
+<h2>単語の意味は分かるのに、文が読めないとき</h2>
+<p>単語だけを追加する前に、主語・動詞・修飾先を区切ってみてください。
+<a href="/blog/inanimate-subject/">無生物主語の訳し方と練習問題</a>では、物や出来事が主語になる文を扱います。
+<a href="/reading/">英文解釈の問題一覧</a>では、選択肢と全文訳で読みを確かめられます。</p>
+<h2>カードで復習する手順</h2>
+<p>科目を一つ選び、意味を思い出してからカードをめくります。間違えた語は検索してもう一度確認。
+訳語が複数ある語は、実際に読んでいる文書でどの意味が合うかも確かめてください。
+このページは単語と意味の見本、カードは自己テスト用、例文つきのまとまった教材はKindle版という使い分けです。</p>
 """
     return layout.page(
         cfg, title="専門英単語フラッシュカード（USCPA・法律英語）",
