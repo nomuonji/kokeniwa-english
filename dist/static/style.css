@@ -961,3 +961,15 @@ a.card:active { transform: translateY(-1px) scale(.99); }
   .answer-panel.open { animation: none; }
   * { transition-duration: 0ms !important; }
 }
+
+/* Readable vocabulary samples on the public search landing page. */
+.vocab-preview { margin-block: 2.5rem; }
+.vocab-table-wrap { max-width: 100%; overflow-x: auto; margin-block: 1rem; border: 1px solid var(--border); border-radius: var(--radius); }
+.vocab-table-wrap:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+.vocab-table-wrap table { width: 100%; border-collapse: collapse; text-align: left; }
+.vocab-table-wrap caption { padding: .8rem; text-align: left; color: var(--text-muted); }
+.vocab-table-wrap th, .vocab-table-wrap td { padding: .75rem; border-top: 1px solid var(--border); vertical-align: top; overflow-wrap: anywhere; }
+.vocab-table-wrap thead { background: var(--surface-2); }
+@media (max-width: 640px) {
+  .vocab-table-wrap th, .vocab-table-wrap td { padding: .5rem; font-size: .88rem; }
+}
