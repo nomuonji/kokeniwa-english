@@ -28,6 +28,15 @@ NAV_ITEMS = [('/reading/articles/', '長文精読'), ('/reading/', '一文問題
 
 
 
+# ページの主役色(pop.css の body[data-section])。Instagram カードと同じ配色。
+SECTION_COLORS = [("/reading/", "reading"), ("/vocab/uscpa/", "uscpa"), ("/vocab/legal/", "legal"),
+                  ("/training/", "training")]
+
+
+def section_of(path):
+    return next((name for prefix, name in SECTION_COLORS if path.startswith(prefix)), "moss")
+
+
 def breadcrumb_jsonld(cfg, crumbs):
     items = [{
         "@type": "ListItem",
@@ -220,9 +229,13 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
 <link rel="stylesheet" href="{esc(asset("/static/experience.css"))}">
 <link rel="stylesheet" href="{esc(asset("/static/garden.css"))}">
 <link rel="stylesheet" href="{esc(asset("/static/pwa.css"))}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&amp;display=swap">
+<link rel="stylesheet" href="{esc(asset("/static/pop.css"))}">
 {_analytics_html(cfg)}{jsonld_html}
 </head>
-<body class="{'site-home' if path == '/' else 'site-inner'}">
+<body class="{'site-home' if path == '/' else 'site-inner'}" data-section="{section_of(path)}">
 <div class="garden-bg" aria-hidden="true">
   <svg viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
     <path class="g-far" d="M0 214 C 240 150 430 176 620 200 S 1060 150 1440 188 L1440 400 L0 400 Z"/>
@@ -267,7 +280,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="/">
-      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 23C2 18 8 14 14 15C20 14 26 18 25 24C24 29 5 29 3 23Z" fill="currentColor" opacity=".3"/><path d="M4 20C4 14 10 9 16 12C21 9 26 15 25 20C21 18 19 23 15 20C10 23 9 18 4 20Z" fill="currentColor"/><path d="M21 12Q22 6 28 5Q29 12 21 12Z" fill="currentColor"/><path d="M21 16L23 10" stroke="currentColor" stroke-width="1.5"/></svg>
+      <img class="brand-mark" src="{esc(asset("/static/kokemaru.svg"))}" alt="" width="38" height="41">
       <span>{esc(site_name)}</span>
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>メニュー</button>
@@ -282,7 +295,7 @@ def page(cfg, *, title, description, path, content, breadcrumbs=None,
 </main>
 <footer class="site-footer">
   <div class="container">
-    <p class="footer-brand">{esc(site_name)}</p>
+    <p class="footer-brand"><img src="{esc(asset("/static/kokemaru.svg"))}" alt="" width="44" height="46" loading="lazy">{esc(site_name)}</p>
     <p class="footer-tagline">{esc(cfg["tagline"])}</p>
     <nav class="footer-nav" aria-label="フッタ">{nav_html}<a href="/sns/">SNS</a></nav>
 {_sister_html(cfg)}

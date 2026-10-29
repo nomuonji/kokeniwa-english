@@ -1,0 +1,294 @@
+/* ============================================================
+   Kokeniwa — pop layer（style / experience / garden の上に重ねる最終層）
+   Instagram カードと同じテイスト: シリーズ別パステル・水玉・ステッカー風の
+   縁取りとずらした影・丸ゴシックの見出し・マスコット「こけまる」。
+   残すもの: 情報設計、本文の読みやすさ（本文は従来のシステムフォント）、
+   下端の苔庭、ライト/ダーク、動きの原則（transform/opacity・200ms前後）。
+   ============================================================ */
+
+:root {
+  --font-pop: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+  --pop-ink: #403642;
+  --pop-paper: #fffdf8;
+  --pop-dot: #e9e7d5;
+  --bg: #f6f4e8;
+  --surface: var(--pop-paper);
+  --border: #e3dfcc;
+  --border-strong: var(--pop-ink);
+
+  /* シリーズ別（Instagram と同じ色） */
+  --moss: #5f9a43;       --moss-deep: #3f6d2c;     --moss-soft: #e2f0d3;
+  --lav: #846ed6;        --lav-deep: #56429f;      --lav-soft: #ece8fc;
+  --mint: #2f9f89;       --mint-deep: #22705f;     --mint-soft: #d9f2ea;
+  --peach: #e47a50;      --peach-deep: #a65234;    --peach-soft: #fde9dc;
+  --lemon: #e19a12;      --lemon-deep: #9a640c;    --lemon-soft: #fff1c4;
+  --sakura: #e46f92;     --sakura-deep: #a83e62;   --sakura-soft: #ffe3eb;
+
+  --primary: var(--moss-deep);
+  --primary-strong: #2f5520;
+  --primary-soft: var(--moss-soft);
+  --accent-reading: var(--lav-deep);   --accent-reading-soft: var(--lav-soft);
+  --accent-uscpa: var(--mint-deep);    --accent-uscpa-soft: var(--mint-soft);
+  --accent-legal: var(--peach-deep);   --accent-legal-soft: var(--peach-soft);
+  --accent-training: var(--lemon-deep); --accent-training-soft: var(--lemon-soft);
+
+  /* ページの主役色（body[data-section] で切り替え） */
+  --sec: var(--moss);
+  --sec-deep: var(--moss-deep);
+  --sec-soft: var(--moss-soft);
+
+  --pop-radius: 22px;
+  --pop-border: 2px solid var(--pop-ink);
+}
+
+body[data-section="reading"]  { --sec: var(--lav);   --sec-deep: var(--lav-deep);   --sec-soft: var(--lav-soft); }
+body[data-section="uscpa"]    { --sec: var(--mint);  --sec-deep: var(--mint-deep);  --sec-soft: var(--mint-soft); }
+body[data-section="legal"]    { --sec: var(--peach); --sec-deep: var(--peach-deep); --sec-soft: var(--peach-soft); }
+body[data-section="training"] { --sec: var(--lemon); --sec-deep: var(--lemon-deep); --sec-soft: var(--lemon-soft); }
+body[data-section="jlpt"]     { --sec: var(--sakura); --sec-deep: var(--sakura-deep); --sec-soft: var(--sakura-soft); }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --pop-ink: #8f9c80;
+    --pop-paper: #232a20;
+    --pop-dot: #20271c;
+    --bg: #181d15;
+    --surface: var(--pop-paper);
+    --border: #343d2e;
+    --moss: #8cc26a;   --moss-deep: #4f7d38;   --moss-soft: #2b3a24;
+    --lav: #a996f0;    --lav-deep: #5a48a8;    --lav-soft: #2c2843;
+    --mint: #5cc9b2;   --mint-deep: #23715f;   --mint-soft: #1d3832;
+    --peach: #f29a76;  --peach-deep: #9a4d30;  --peach-soft: #3b2a22;
+    --lemon: #f0bc4c;  --lemon-deep: #8d5f0e;  --lemon-soft: #3a3220;
+    --sakura: #f08fac; --sakura-deep: #9c3b5c; --sakura-soft: #3c2530;
+    --primary: #a6d08a;
+    --primary-strong: #c0e0a8;
+    --primary-soft: var(--moss-soft);
+    --accent-reading: #c3b5f7;  --accent-uscpa: #7fd8c5;
+    --accent-legal: #f5b293;    --accent-training: #f3cd77;
+  }
+}
+
+/* ---------- 地: 水玉＋（下端の苔庭はそのまま） ---------- */
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(var(--pop-dot) 4.5px, transparent 5px),
+                    radial-gradient(var(--pop-dot) 4.5px, transparent 5px);
+  background-size: 56px 56px;
+  background-position: 0 0, 28px 28px;
+}
+
+/* ---------- 見出し・UI は丸ゴシック、本文は従来どおり ---------- */
+h1, h2, h3, .brand, .site-nav a, .section-nav a, .eyebrow, .card-meta,
+.follow-btn, .chip, .fc-btn, .badge, .post-topic, .fc-cell-term, .fc-cell-meaning,
+.learning-paths strong, .learning-paths span, .footer-brand, .pager .next,
+.study-tools button, .menu-toggle, .study-more, .quiz-retry, .reveal-btn, .choice .marker {
+  font-family: var(--font-pop);
+}
+h1, h2, h3 { font-weight: 800; letter-spacing: .01em; }
+.home-hero h1, html[lang="ja"] .home-hero h1 { font-family: var(--font-pop); font-weight: 800; letter-spacing: 0; }
+
+/* 見出しの下に蛍光ペン（複数行でも行ごとに引ける text-decoration 方式） */
+main h1:not(.home-hero h1) {
+  text-decoration: underline;
+  text-decoration-color: var(--sec-soft);
+  text-decoration-thickness: .38em;
+  text-underline-offset: -.2em;
+  text-decoration-skip-ink: none;
+}
+.section-head h2::before {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--sec); box-shadow: none; border: 2px solid var(--pop-ink);
+}
+
+/* ---------- ヘッダ ---------- */
+.site-header {
+  border-top: 0;
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  backdrop-filter: saturate(1.2) blur(8px);
+  border-bottom: 2px solid var(--pop-ink);
+}
+.brand { color: var(--pop-ink); font-weight: 800; }
+@media (prefers-color-scheme: dark) { .brand { color: var(--text); } }
+.brand-mark { width: 38px; height: 38px; }
+.site-nav a {
+  border-radius: 999px; padding: 6px 14px; font-weight: 700; color: var(--text);
+  transition: background-color 180ms var(--ease-out), transform 180ms var(--ease-out);
+}
+.site-nav a.active { background: var(--sec); color: #fff; border: 2px solid var(--pop-ink); }
+@media (hover: hover) and (pointer: fine) {
+  .site-nav a:hover { background: var(--sec-soft); text-decoration: none; transform: translateY(-1px); }
+  .site-nav a.active:hover { background: var(--sec); }
+}
+.announce { background: var(--lemon-soft); color: var(--text); border-bottom: 2px solid var(--pop-ink); }
+.announce-link { color: var(--lemon-deep); font-weight: 700; }
+
+/* ---------- ステッカー風の面 ---------- */
+.card, .post-card, .post-featured, .sns-card, .note-box, .quiz, .study-tools,
+.book-card, .bl-card, .resume-study, .ku-hero, .pager a, .list-item, .study-empty {
+  border: var(--pop-border);
+  border-radius: var(--pop-radius);
+  background: var(--surface);
+  box-shadow: 5px 6px 0 var(--sec-deep);
+}
+.card { border-top: var(--pop-border); padding: 26px 26px 22px; }
+.card-reading  { --sec: var(--lav);   --sec-deep: var(--lav-deep);   --sec-soft: var(--lav-soft); }
+.card-uscpa    { --sec: var(--mint);  --sec-deep: var(--mint-deep);  --sec-soft: var(--mint-soft); }
+.card-legal    { --sec: var(--peach); --sec-deep: var(--peach-deep); --sec-soft: var(--peach-soft); }
+.card-training { --sec: var(--lemon); --sec-deep: var(--lemon-deep); --sec-soft: var(--lemon-soft); }
+.topic-reading  { --sec-deep: var(--lav-deep); }
+.topic-uscpa    { --sec-deep: var(--mint-deep); }
+.topic-legal    { --sec-deep: var(--peach-deep); }
+.topic-training { --sec-deep: var(--lemon-deep); }
+.sns-reading { --sec-deep: var(--lav-deep); --sec-soft: var(--lav-soft); }
+.sns-uscpa { --sec-deep: var(--mint-deep); --sec-soft: var(--mint-soft); }
+.sns-legal { --sec-deep: var(--peach-deep); --sec-soft: var(--peach-soft); }
+.sns-kotsukotsu { --sec-deep: var(--lemon-deep); --sec-soft: var(--lemon-soft); }
+
+a.card, .post-card, .post-featured, .pager a, a.list-item, .book-card, .bl-card {
+  transition: transform 200ms var(--ease-out), box-shadow 200ms var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) {
+  a.card:hover, .post-card:hover, .post-featured:hover, .pager a:hover, a.list-item:hover {
+    transform: translate(-2px, -3px); box-shadow: 7px 9px 0 var(--sec-deep); text-decoration: none;
+  }
+  .card:hover { border-top-color: var(--pop-ink); }
+}
+a.card:active, .post-card:active, .pager a:active, a.list-item:active {
+  transform: translate(3px, 4px); box-shadow: 2px 2px 0 var(--sec-deep);
+}
+.card .card-icon {
+  width: 56px; height: 56px; font-size: 1.6rem; filter: none;
+  border-radius: 50%; border: 2px solid var(--pop-ink); background: var(--sec-soft);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.card h2, .card h3 { margin-top: 14px; }
+.card-meta { color: var(--sec-deep); font-weight: 700; font-size: .82rem; }
+@media (prefers-color-scheme: dark) { .card-meta { color: var(--sec); } }
+.post-featured::before, .post-card::before { display: none; }
+.post-media { border-bottom: var(--pop-border); }
+.post-topic, .badge, .badge-cat {
+  border-radius: 999px; background: var(--sec-soft); color: var(--text); font-weight: 700;
+}
+
+/* ---------- ボタン ---------- */
+.follow-btn, .hero-actions .follow-btn {
+  background: var(--sec); color: #fff; border: var(--pop-border); border-radius: 999px;
+  box-shadow: 4px 5px 0 var(--sec-deep); padding: 10px 24px; font-weight: 800;
+  transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) {
+  .follow-btn:hover { transform: translate(-1px, -2px); box-shadow: 6px 7px 0 var(--sec-deep); text-decoration: none; }
+}
+.follow-btn:active { transform: translate(3px, 4px); box-shadow: 1px 1px 0 var(--sec-deep); }
+.chip, .fc-btn, .study-tools button, .menu-toggle, .study-more, .quiz-retry, .reveal-btn {
+  border: 2px solid var(--pop-ink); border-radius: 999px; background: var(--surface);
+  color: var(--text); font-weight: 700;
+}
+.chip.active, .chip.is-active, .topic-rail .chip.is-active, .fc-btn[aria-pressed="true"] {
+  background: var(--sec); color: #fff; border-color: var(--pop-ink);
+}
+.study-tools input { border: 2px solid var(--pop-ink); border-radius: 999px; padding-inline: 18px; background: var(--bg); }
+.section-nav { border-bottom: 2px dashed var(--border); gap: 10px; padding-bottom: 10px; }
+.section-nav a { border-radius: 999px; font-weight: 700; }
+.section-nav a[aria-current] { background: var(--sec); color: #fff; border: 2px solid var(--pop-ink); }
+
+/* ---------- トップ ---------- */
+.home-hero::after { background-image: url('/static/moss-garden.svg'); opacity: .9; }
+.home-hero .eyebrow {
+  display: inline-block; background: var(--surface); border: var(--pop-border); border-radius: 999px;
+  padding: 4px 14px; color: var(--moss-deep); letter-spacing: .04em;
+}
+@media (prefers-color-scheme: dark) { .home-hero .eyebrow { color: var(--moss); } }
+.hero-mascot {
+  position: absolute; z-index: 1; right: 120px; bottom: 34px; width: 132px;
+  animation: km-bob 3.2s var(--ease-in-out) infinite alternate;
+  transform-origin: 50% 100%;
+}
+.hero-bubble {
+  position: absolute; z-index: 2; right: 250px; bottom: 150px;
+  background: var(--pop-paper); border: var(--pop-border); border-radius: 18px;
+  padding: 8px 16px; font-family: var(--font-pop); font-weight: 800; font-size: .92rem;
+  color: var(--moss-deep); line-height: 1.4; white-space: nowrap;
+}
+@media (prefers-color-scheme: dark) { .hero-bubble { color: var(--moss); } }
+.hero-bubble::after {
+  content: ""; position: absolute; right: -12px; bottom: 10px; width: 16px; height: 16px;
+  background: var(--pop-paper); border-right: var(--pop-border); border-bottom: var(--pop-border);
+  transform: rotate(-45deg);
+}
+@keyframes km-bob { from { transform: translateY(0) rotate(-2deg); } to { transform: translateY(-6px) rotate(2deg); } }
+
+.learning-paths {
+  border: 0; background: none; gap: 16px; padding-block: 8px;
+}
+.learning-paths a {
+  border: var(--pop-border) !important; border-radius: var(--pop-radius); background: var(--surface);
+  padding: 18px 20px !important; box-shadow: 5px 6px 0 var(--sec-deep);
+  transition: transform 200ms var(--ease-out), box-shadow 200ms var(--ease-out);
+}
+.learning-paths a:nth-child(1) { --sec-deep: var(--lav-deep); --sec-soft: var(--lav-soft); }
+.learning-paths a:nth-child(2) { --sec-deep: var(--lemon-deep); --sec-soft: var(--lemon-soft); }
+.learning-paths a:nth-child(3) { --sec-deep: var(--mint-deep); --sec-soft: var(--mint-soft); }
+.learning-paths span {
+  align-self: flex-start; background: var(--sec-soft); color: var(--text); border-radius: 999px;
+  padding: 2px 12px; font-weight: 800;
+}
+@media (hover: hover) and (pointer: fine) {
+  .learning-paths a:hover { transform: translate(-2px, -3px); box-shadow: 7px 9px 0 var(--sec-deep); text-decoration: none; }
+}
+
+/* ---------- フラッシュカード ---------- */
+.fc-cell { min-height: 132px; }
+.fc-cell-face {
+  border: var(--pop-border); border-radius: 18px; background: var(--surface);
+  box-shadow: 4px 5px 0 var(--sec-deep);
+}
+.fc-cell-back { background: var(--sec-soft); border-color: var(--pop-ink); }
+.fc-cell-num {
+  top: 8px; left: 8px; min-width: 26px; height: 26px; padding: 0 6px; border-radius: 999px;
+  background: var(--sec-soft); color: var(--text); display: inline-flex; align-items: center;
+  justify-content: center; font-family: var(--font-pop); font-weight: 800; font-size: .72rem;
+}
+.fc-cell-term { font-weight: 800; letter-spacing: 0; }
+@media (hover: hover) and (pointer: fine) {
+  .fc-cell:hover .fc-cell-face { border-color: var(--pop-ink); box-shadow: 6px 7px 0 var(--sec-deep); }
+}
+.fc-cell.target .fc-cell-face { border-color: var(--pop-ink); box-shadow: 0 0 0 4px var(--sec-soft), 4px 5px 0 var(--sec-deep); }
+
+/* ---------- 一文問題 ---------- */
+.quiz { padding: 26px; }
+.sentence-en { background: var(--sec-soft); border-radius: 16px; border: 2px dashed var(--sec); }
+.choice { border: var(--pop-border); border-radius: 999px; background: var(--surface); font-weight: 600; }
+.choice .marker {
+  border-radius: 50%; background: var(--sec-soft); border: 2px solid var(--pop-ink);
+  width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center; font-weight: 800;
+}
+@media (hover: hover) and (pointer: fine) {
+  .choice:hover:not(:disabled) { background: var(--sec-soft); }
+}
+.choice.correct { border-color: var(--pop-ink); }
+.choice.wrong { border-color: var(--pop-ink); }
+.scope-note, .level-guide { border-left: 0; border-radius: 16px; border: 2px dashed var(--sec); background: var(--sec-soft); }
+
+/* ---------- フッタ ---------- */
+.site-footer { border-top: 2px solid var(--pop-ink); background: color-mix(in srgb, var(--moss-soft) 55%, transparent); }
+.footer-brand { font-family: var(--font-pop); font-weight: 800; color: var(--moss-deep); display: flex; align-items: center; gap: 10px; }
+@media (prefers-color-scheme: dark) { .footer-brand { color: var(--moss); } }
+.footer-brand img { width: 44px; height: 46px; }
+
+/* ---------- スマホ ---------- */
+@media (max-width: 760px) {
+  .learning-paths { grid-template-columns: 1fr; gap: 12px; }
+  .learning-paths a + a { border-left: var(--pop-border) !important; }
+  .hero-mascot { width: 92px; right: 18px; bottom: 26px; }
+  .hero-bubble { right: 112px; bottom: 98px; font-size: .82rem; }
+  .card { padding: 22px 20px 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-mascot { animation: none; }
+}
+@media (forced-colors: active) {
+  .hero-mascot, .hero-bubble { display: none; }
+}
