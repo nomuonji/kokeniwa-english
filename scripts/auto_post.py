@@ -116,10 +116,8 @@ def build_current(acc):
 
 # ---- トークン延命 ----
 
-def maybe_refresh(name, acc):
-    if DRY_RUN:  # 副作用を避けるためリフレッシュしない
-        return False
-    exp = acc.get("expires_at")
+def _refresh_one(name, label, acc, token_key, exp_key, refresh_fn):
+    exp = acc.get(exp_key)
     need = True
     if exp:
         try:
@@ -132,15 +130,26 @@ def maybe_refresh(name, acc):
     if not need:
         return False
     try:
-        res = tc.refresh_token(acc["token"])
-        acc["token"] = res["access_token"]
+        res = refresh_fn(acc[token_key])
+        acc[token_key] = res["access_token"]
         secs = int(res.get("expires_in", 60 * 24 * 3600))
-        acc["expires_at"] = (NOW + dt.timedelta(seconds=secs)).isoformat()
-        print(f"[{name}] トークンをリフレッシュ(新期限 {acc['expires_at']})")
+        acc[exp_key] = (NOW + dt.timedelta(seconds=secs)).isoformat()
+        print(f"[{name}] {label}トークンをリフレッシュ(新期限 {acc[exp_key]})")
         return True
     except tc.ThreadsError as e:
-        print(f"[{name}] リフレッシュskip: {e}")
+        print(f"[{name}] {label}リフレッシュskip: {e}")
         return False
+
+
+def maybe_refresh(name, acc):
+    if DRY_RUN:  # 副作用を避けるためリフレッシュしない
+        return False
+    changed = _refresh_one(name, "Threads", acc, "token", "expires_at", tc.refresh_token)
+    if acc.get("instagram_token"):
+        if _refresh_one(name, "Instagram", acc, "instagram_token", "instagram_expires_at",
+                        tc.refresh_instagram_token):
+            changed = True
+    return changed
 
 
 # ---- 遅延サイト誘導リプライ(前回投稿へ) ----
