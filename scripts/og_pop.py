@@ -80,8 +80,8 @@ def _domain(cv, pal, domain):
 def _mascot(cv, pal, bubble=None):
     x1, y1 = CARD[2], CARD[3]
     ic.kokemaru(cv, x1 - 110, y1 - 52, 92)
-    ic.heart(cv, x1 - 220, y1 - 160, 18, ic.BLUSH)
-    ic.heart(cv, x1 - 248, y1 - 120, 11, ic.BLUSH)
+    ic.heart(cv, x1 - 205, y1 - 175, 18, ic.BLUSH)
+    ic.heart(cv, x1 - 232, y1 - 140, 11, ic.BLUSH)
     if bubble:  # こけまるの頭の上(タイトル列の右側の空き)に置く
         f = ic.font("bold", 26)
         w = cv.length(bubble, f) + 48
@@ -171,7 +171,7 @@ def article(title, tag, desc, pal_key, site, domain):
     if tag:
         w, h = ic.pill(cv, x, y, tag, ic.WHITE, pal["accent"], size=26, outline=ic.INK)
         y += h + 26
-    max_w = CARD[2] - x - 230
+    max_w = CARD[2] - x - 260
     y = _title(cv, pal, title, x, y, max_w, CARD[3] - 96, (62, 56, 50, 44, 40))
     if desc and CARD[3] - 96 - y >= 46:
         f = ic.font("regular", 24)
