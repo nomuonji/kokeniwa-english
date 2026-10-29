@@ -64,7 +64,11 @@ def training_pick(acc):
     text = ftp.build_post(cat, rows)
     meta = {"slug": ftp.TRAINING[cat]["slug"], "first_id": rows[0]["id"],
             "total": len(words), "words": [r["word"] for r in rows]}
-    return {"posts": [text], "kind": "training", "meta": meta,
+    card_rows = [{"id": r["id"], "term": r["word"], "meaning": r["meaning"],
+                  "example_en": r.get("example", ""), "example_ja": r.get("example_ja", ""),
+                  "tag": ftp.TRAINING[cat]["title"]} for r in rows]
+    return {"posts": [text], "kind": "training", "meta": meta, "rows": rows,
+            "card_rows": card_rows, "cover_title": f"{ftp.TRAINING[cat]['title']} {len(rows)}語",
             "label": f"training:{cat} cursor={cur}/{len(words)}"}
 
 
@@ -78,7 +82,11 @@ def vocab_pick(content_key, acc):
     text = build_vocab_post(content_key, rows)
     meta = {"set": content_key, "first_id": rows[0]["id"], "total": len(rows_all),
             "words": [r["term"] for r in rows]}
-    return {"posts": [text], "kind": "vocab", "meta": meta,
+    card_rows = [{"id": r["id"], "term": r["term"], "meaning": r["meaning_ja"],
+                  "example_en": r.get("example_en", ""), "example_ja": r.get("example_ja", ""),
+                  "tag": r.get("subject", "")} for r in rows]
+    return {"posts": [text], "kind": "vocab", "meta": meta, "rows": rows,
+            "card_rows": card_rows,
             "label": f"{content_key} cursor={cur}/{total}"}
 
 
@@ -91,7 +99,7 @@ def reading_pick(acc):
     acc["cursor"] = (cur + 1) % total
     posts = reading.build_posts(it, limit=THREADS_LIMIT, length_fn=len)  # 親+解説
     meta = {"id": it["id"], "total": total}
-    return {"posts": posts, "kind": "reading", "meta": meta,
+    return {"posts": posts, "kind": "reading", "meta": meta, "item": it,
             "label": f"reading cursor={cur}/{total} id={it['id']}"}
 
 
@@ -183,6 +191,24 @@ def post_account(name, acc):
             "root_id": ids[0], "tail_id": ids[-1], "replied": False,
             "posted_at": NOW.isoformat(),
         }
+    return cur
+
+
+def post_instagram(name, acc, cur):
+    """Threads と同じ中身を Instagram へ(連携済みのアカウントのみ)。
+
+    Threads 投稿が成功した後に呼ぶ。失敗しても Threads 側の状態は保存されるよう、
+    例外は呼び出し元でまとめて扱う。
+    """
+    if not DRY_RUN and not (acc.get("instagram") or {}).get("enabled"):
+        return None  # 未連携: 画像生成ライブラリも読まない(Threads 投稿に一切影響させない)
+    import ig_post  # Pillow を使うので必要なときだけ読む
+    try:
+        return ig_post.post(name, acc, cur, NOW, REFRESH_BEFORE, dry_run=DRY_RUN)
+    except Exception as e:
+        if acc.get("instagram") is not None:
+            acc["instagram"]["last_error"] = f"{NOW.isoformat()} {str(e)[:500]}"
+        raise
 
 
 def main():
@@ -203,11 +229,18 @@ def main():
                 changed = True
             if maybe_refresh(name, acc):
                 changed = True
-            post_account(name, acc)
+            cur = post_account(name, acc)
             changed = True
         except Exception as e:  # 1アカウントの失敗で他を止めない
             errors.append(name)
             print(f"[{name}] 失敗: {e}")
+            traceback.print_exc()
+            continue
+        try:
+            post_instagram(name, acc, cur)
+        except Exception as e:  # Instagram の失敗で Threads の進捗を失わない
+            errors.append(f"{name}(instagram)")
+            print(f"[{name}] Instagram 失敗: {e}")
             traceback.print_exc()
 
     if changed and not DRY_RUN:

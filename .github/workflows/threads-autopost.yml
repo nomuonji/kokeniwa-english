@@ -3,6 +3,8 @@ name: Threads 自動投稿
 # 3アカウント(USCPA / 法律英語 / 英文読解)へ 1日3回投稿する。
 # 投稿時刻: 07:00 / 12:00 / 20:00 JST(= UTC 22:00 / 03:00 / 11:00)
 # トークンとカーソルは Gist に保存し、期限が近づくと自動でリフレッシュする。
+# Instagram を連携したアカウントは、同じ中身をカルーセル画像でも投稿する
+# (画像は ig-media ブランチに一時配置。連携は instagram-link.yml)。
 
 on:
   schedule:
@@ -20,6 +22,9 @@ on:
         required: false
         default: ""
 
+permissions:
+  contents: write   # Instagram 用画像を ig-media ブランチへ置くため
+
 concurrency:
   group: threads-autopost   # Gist 書き込み競合を防ぐため多重実行を禁止
   cancel-in-progress: false
@@ -34,11 +39,28 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: 画像生成の準備(Instagram 用)
+        run: |
+          pip install --quiet pillow
+          if ! fc-list | grep -q "Noto Sans CJK JP"; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+          fi
+
       - name: 投稿
         env:
           GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
           ACCOUNTS: ${{ github.event.inputs.accounts }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONIOENCODING: "utf-8"
         run: python scripts/auto_post.py
+
+      - name: Instagram 画像を保存(確認用)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: instagram-slides
+          path: out/ig
+          if-no-files-found: ignore
+          retention-days: 7
