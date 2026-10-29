@@ -4,6 +4,8 @@
 SNSでシェアされたときのカードに出る画像。サイトの「苔むす庭」の世界観
 (生成りの和紙・墨・苔緑)をそのまま持ち込み、遠山→苔石→灯籠のシルエットを
 Pillowで描いている(サイト背景の garden SVG のラスタ版)。
+2026-10 からは og_pop.py のポップなテイスト(サイトの pop.css・Instagram カードと共通)で描く。
+フォントは丸ゴシック M PLUS Rounded 1c(python scripts/ig_cards.py --fetch-fonts で fonts/ に取得)。
 
 使い方:
     python scripts/build_og_images.py        # 全ページ分を再生成
@@ -16,6 +18,9 @@ import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import og_pop  # noqa: E402  ポップなテイストの描画(サイト・Instagramと共通)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "site" / "static" / "og"
@@ -181,29 +186,23 @@ def draw_brand(d):
     d.text((x + 50, y + 6), SITE, font=font(SANS, 30, "Bold"), fill=PRIMARY)
 
 
+# セクション → 配色(pop.css / Instagram と同じ)と、こけまるの吹き出し
+SECTION_STYLE = {
+    "default": ("moss", "きょうも こつこつ!"),
+    "reading": ("lav", "1日1問!"),
+    "uscpa": ("mint", "FAR・AUD・REG"),
+    "legal": ("peach", "契約書も読める"),
+    "training": ("lemon", "めくって覚える"),
+    "books": ("peach", "読み放題対象"),
+    "blog": ("moss", None),
+    "sns": ("sakura", "毎日配信中"),
+}
+
+
 def build(slug, title, desc, accent):
-    img = Image.new("RGB", (W, H), BG)
-    vgradient(img, BG_TOP, BG)
-    draw_garden(img)
-    d = ImageDraw.Draw(img)
-
-    draw_brand(d)
-    # アクセントの縦線（セクションの色）
-    d.rounded_rectangle([72, 168, 79, 168 + 52 * len(title.split("\n"))],
-                        radius=4, fill=accent)
-
-    f_title = font(SERIF, 76, "Bold")
-    y = 158
-    for line in title.split("\n"):
-        d.text((104, y), line, font=f_title, fill=TEXT)
-        y += 96
-    d.text((104, y + 34), desc, font=font(SANS, 27), fill=MUTED)
-
-    # 左下にドメイン（右下は灯籠・苔石と重なるため）
-    d.text((104, H - 76), DOMAIN, font=font(SANS, 26, "Medium"), fill=MUTED)
-    # 下端のアクセントライン
-    d.rectangle([0, H - 8, W, H], fill=accent)
-
+    """セクションのOGP(ポップなテイスト)。accent は旧デザインの名残で未使用。"""
+    pal, bubble = SECTION_STYLE.get(slug, ("moss", None))
+    img = og_pop.section(title, desc, pal, SITE, DOMAIN, bubble)
     return save_png(img, OUT_DIR / f"{slug}.png")
 
 
@@ -295,59 +294,15 @@ def wrap_cjk(text, f, max_w, max_lines):
     return lines
 
 
+# front matter の topic → 配色。site/templates/blog.py の TOPICS と対応させる。
+TOPIC_PAL = {"英文解釈": "lav", "英単語": "lemon", "会計英語": "mint", "法律英語": "peach", "学習法": "moss"}
+
+
 def build_article_cover(slug, title, topic, desc):
-    accent = TOPIC_ACCENT.get(topic, PRIMARY)
-    img = Image.new("RGB", (W, H), BG)
-    vgradient(img, BG_TOP, BG)
-    d = ImageDraw.Draw(img)
-
-    # 庭は遠景の稜線と、右下の苔石だけ。主役はタイトル。
-    hill(d, wave(470, 14, 0.4), GARDEN_FAR)
-    hill(d, wave(548, 10, 2.6), GARDEN_MID)
-    d.ellipse([880, 556, 1130, 640], fill=STONE)
-    moss_cap(d, 1005, 562, 112, [23, 28, 31, 28, 23])
-    moss_cap(d, 806, 600, 40, [11, 15, 17, 15, 11])
-
-    draw_brand(d)
-
-    # トピック名（アクセント色の帯）
-    y = 150
-    if topic:
-        f_topic = font(SANS, 30, "Bold")
-        tw = d.textlength(topic, font=f_topic)
-        d.rounded_rectangle([72, y, 72 + tw + 44, y + 50], radius=25, fill=accent)
-        d.text((94, y + 8), topic, font=f_topic, fill=BG_TOP)
-    y = 232
-
-    # タイトルは横だけでなく縦の収まりも見る。級数を落としながら、
-    # 「全文が入る」かつ「下限を越えない」最初の組み合わせを採る。
-    # ここを縦に見ないと、3行に収まった判定のまま説明文とドメインを踏み抜く。
-    TITLE_BOTTOM = 496
-    for size in (66, 58, 50, 44):
-        f_title = font(SERIF, size, "Bold")
-        lh = round(size * 1.34)
-        max_lines = max(1, (TITLE_BOTTOM - y) // lh)
-        lines = wrap_cjk(title, f_title, W - 72 - 150, max_lines)
-        if len("".join(lines)) >= len(title):
-            break
-    for line in lines:
-        d.text((72, y), line, font=f_title, fill=TEXT)
-        y += lh
-
-    # 説明文は余白が残ったときだけ。長いタイトルのときは無理に入れない
-    # （詰め込むより、タイトルがはっきり読めるほうがカードとして効く）。
-    if desc and TITLE_BOTTOM - y >= 44:
-        f_desc = font(SANS, 26)
-        d.text((72, y + 14), wrap_cjk(desc, f_desc, W - 72 - 260, 1)[0],
-               font=f_desc, fill=MUTED)
-
-    d.text((72, H - 74), DOMAIN, font=font(SANS, 25, "Medium"), fill=MUTED)
-    d.rectangle([0, H - 8, W, H], fill=accent)
-
+    img = og_pop.article(title, topic, desc, TOPIC_PAL.get(topic, "moss"), SITE, DOMAIN)
     og = save_png(img, BLOG_OUT / f"{slug}.png")
     card = BLOG_OUT / f"{slug}-card.webp"
-    # 一覧に何枚も並ぶので、OGPより一段軽くする（q82→q76 で16KB→13KB、
-    # 表示サイズが350px前後なので劣化は見えない）
+    # 一覧に何枚も並ぶので、OGPより一段軽くする(表示サイズが350px前後なので劣化は見えない)
     img.resize((CARD_W, CARD_H), Image.LANCZOS).save(card, quality=76, method=6)
     return og, card
 
