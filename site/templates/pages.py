@@ -49,6 +49,8 @@ def render_home(cfg, *, reading_count, uscpa_count, legal_count, training_count,
   <h1>一文を読む。<br>ひとつ、身につける。</h1>
   <p>英文をじっくり読む日も、単語を少し覚える日も。<br>今日の学びたいことから始めましょう。</p>
   <div class="hero-actions"><a class="follow-btn" href="/reading/articles/">長文を精読する →</a><a href="/training/">英単語を練習する →</a></div>
+  <p class="hero-bubble" aria-hidden="true">きょうも こつこつ!</p>
+  <img class="hero-mascot" src="/static/kokemaru.svg" alt="" width="132" height="142">
 </section>
 <div class="learning-paths" aria-label="目的から選ぶ">
   <a href="/reading/"><span>01 / 読む</span><strong>一文の理解を確かめる</strong><small>英文解釈・全文訳つき →</small></a>
