@@ -4,7 +4,7 @@ name: Threads 自動投稿
 # 投稿時刻: 07:00 / 12:00 / 20:00 JST(= UTC 22:00 / 03:00 / 11:00)
 # トークンとカーソルは Gist に保存し、期限が近づくと自動でリフレッシュする。
 # Instagram を連携したアカウントは、同じ中身をカルーセル画像でも投稿する
-# (画像は ig-media ブランチに一時配置。連携は instagram-link.yml)。
+# (画像は ig-media タグのコミットに一時配置。連携は instagram-link.yml)。
 
 on:
   schedule:
@@ -23,7 +23,7 @@ on:
         default: ""
 
 permissions:
-  contents: write   # Instagram 用画像を ig-media ブランチへ置くため
+  contents: write   # Instagram 用画像を ig-media タグへ置くため
 
 concurrency:
   group: threads-autopost   # Gist 書き込み競合を防ぐため多重実行を禁止

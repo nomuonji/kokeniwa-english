@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
-"""Instagram に渡す画像を、このリポジトリの ig-media ブランチへ置いて公開URLを返す。
+"""Instagram に渡す画像を、このリポジトリの ig-media タグへ置いて公開URLを返す。
 
 Instagram の投稿APIは画像を「公開URL」で受け取り、Meta 側が取りに来る。
 専用サーバーを持たずに済むよう、GitHub の公開リポジトリを一時置き場に使う。
 
 - GitHub Actions の GITHUB_TOKEN(contents: write)で Git Data API を叩く
-- 毎回「親なしの新しいコミット(今回の画像だけ)」を作り、ig-media を強制更新する
-  → ブランチには常に直近1回分しか残らず、リポジトリが肥大化しない
+- 毎回「親なしの新しいコミット(今回の画像だけ)」を作り、タグ ig-media を強制更新する
+  → 常に直近1回分しか参照されず、リポジトリが肥大化しない
+  → ブランチではなくタグにしているのは、Cloudflare Pages のプレビュービルドや
+    branch 指定の Actions を起動させないため
 - URL はコミットSHA固定の raw.githubusercontent.com(後から書き換わらない)
 
 Instagram はコンテナ作成時に画像を取り込むので、投稿後に消えても問題ない。
@@ -21,7 +23,7 @@ import urllib.request
 from pathlib import Path
 
 API = "https://api.github.com"
-BRANCH = os.environ.get("IG_MEDIA_BRANCH", "ig-media")
+REF = os.environ.get("IG_MEDIA_REF", "tags/ig-media")  # refs/ 以下のパス
 
 
 class HostError(RuntimeError):
@@ -48,7 +50,7 @@ def _gh(method, path, payload=None):
 
 
 def upload(paths, folder):
-    """paths の画像を ig-media/{folder}/ に置き、公開URLのリストを返す。"""
+    """paths の画像を {folder}/ に置いたコミットを作り、公開URLのリストを返す。"""
     repo = os.environ.get("GITHUB_REPOSITORY")
     if not repo:
         raise HostError("GITHUB_REPOSITORY が未設定")
@@ -62,8 +64,8 @@ def upload(paths, folder):
     commit = _gh("POST", f"/repos/{repo}/git/commits",
                  {"message": f"ig-media: {folder}", "tree": t["sha"], "parents": []})
     sha = commit["sha"]
-    if _gh("GET", f"/repos/{repo}/git/ref/heads/{BRANCH}"):
-        _gh("PATCH", f"/repos/{repo}/git/refs/heads/{BRANCH}", {"sha": sha, "force": True})
+    if _gh("GET", f"/repos/{repo}/git/ref/{REF}"):
+        _gh("PATCH", f"/repos/{repo}/git/refs/{REF}", {"sha": sha, "force": True})
     else:
-        _gh("POST", f"/repos/{repo}/git/refs", {"ref": f"refs/heads/{BRANCH}", "sha": sha})
+        _gh("POST", f"/repos/{repo}/git/refs", {"ref": f"refs/{REF}", "sha": sha})
     return [f"https://raw.githubusercontent.com/{repo}/{sha}/{e['path']}" for e in tree]

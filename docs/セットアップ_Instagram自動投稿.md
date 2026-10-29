@@ -9,7 +9,7 @@ Threads 自動投稿(1日3回)
         ├─ Threads へ投稿(これまで通り)
         └─ 連携済みなら Instagram へ
              ├─ scripts/ig_cards.py      … 苔庭デザインの 1080x1350 JPEG を生成
-             ├─ scripts/ig_media_host.py … 画像を ig-media ブランチに一時配置(公開URL)
+             ├─ scripts/ig_media_host.py … 画像を ig-media タグのコミットに一時配置(公開URL)
              └─ scripts/instagram_client.py … カルーセルを作成・公開
 ```
 
@@ -60,8 +60,8 @@ Threads と同じ Meta 開発者アプリを使える。
 
 ## 補足
 
-- 画像の置き場 `ig-media` ブランチは毎回「今回の画像だけ」のコミットで上書きされる
-  (リポジトリは肥大化しない)。Cloudflare Pages のプレビュー対象から `ig-media` を除外しておくこと
+- 画像の置き場はタグ `ig-media`。毎回「今回の画像だけ」のコミットで上書きされる
+  (リポジトリは肥大化しない)。ブランチではないので Cloudflare Pages のプレビューは走らない
 - Instagram の API 投稿上限は 24時間あたり 50〜100件(カルーセルは1件扱い)。1日3回なら十分
 - カード文言・色は `scripts/ig_cards.py`、キャプションとタグは `scripts/ig_post.py`
 - ローカルで見た目を確認: `python scripts/ig_cards.py uscpa --cursor 0 --out out/ig`
