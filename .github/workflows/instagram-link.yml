@@ -1,19 +1,18 @@
 name: Instagram 連携
 
-# Threads アカウントに Instagram を紐づける / 投稿を止める / 状態を見る。
-# 使い方は docs/セットアップ_Instagram自動投稿.md。
-# link のときだけ、事前に Secret IG_LINK_TOKEN に Instagram の長期トークンを入れておく
-# (実行後は Secret を空にしてよい。トークン本体は Gist に移る)。
+# Instagram 連携の状態確認と、アカウントごとの一時停止/再開。
+# 紐づけ(トークン登録)は Threads と同じくローカルで行い、トークンは Gist にだけ保存する
+# (Actions の Secret や入力にトークンを置かない)。手順は docs/セットアップ_Instagram自動投稿.md。
 
 on:
   workflow_dispatch:
     inputs:
       action:
-        description: "link=紐づけ / enable / disable / status"
+        description: "status / enable / disable"
         required: true
         default: "status"
         type: choice
-        options: [status, link, enable, disable]
+        options: [status, enable, disable]
       account:
         description: 'Threads 側のアカウント名(例: uscpa, legal, reading, kotsukotsu)。status なら空でよい'
         required: false
@@ -27,7 +26,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  link:
+  run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -38,7 +37,6 @@ jobs:
         env:
           GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
-          IG_TOKEN: ${{ secrets.IG_LINK_TOKEN }}
           ACTION: ${{ github.event.inputs.action }}
           ACCOUNT: ${{ github.event.inputs.account }}
           PYTHONIOENCODING: "utf-8"
