@@ -65,7 +65,7 @@ def training_pick(acc):
     meta = {"slug": ftp.TRAINING[cat]["slug"], "first_id": rows[0]["id"],
             "total": len(words), "words": [r["word"] for r in rows]}
     card_rows = [{"id": r["id"], "term": r["word"], "meaning": r["meaning"],
-                  "example_en": r.get("example", ""), "example_ja": r.get("example_ja", ""),
+                  "example": r.get("example", ""), "example_sub": r.get("example_ja", ""),
                   "tag": ftp.TRAINING[cat]["title"]} for r in rows]
     return {"posts": [text], "kind": "training", "meta": meta, "rows": rows,
             "card_rows": card_rows, "cover_title": f"{ftp.TRAINING[cat]['title']} {len(rows)}語",
@@ -83,7 +83,7 @@ def vocab_pick(content_key, acc):
     meta = {"set": content_key, "first_id": rows[0]["id"], "total": len(rows_all),
             "words": [r["term"] for r in rows]}
     card_rows = [{"id": r["id"], "term": r["term"], "meaning": r["meaning_ja"],
-                  "example_en": r.get("example_en", ""), "example_ja": r.get("example_ja", ""),
+                  "example": r.get("example_en", ""), "example_sub": r.get("example_ja", ""),
                   "tag": r.get("subject", "")} for r in rows]
     return {"posts": [text], "kind": "vocab", "meta": meta, "rows": rows,
             "card_rows": card_rows,
