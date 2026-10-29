@@ -48,17 +48,6 @@ def refresh_token(token):
     return _request("GET", url)
 
 
-def refresh_instagram_token(token):
-    """Instagram 長期トークンを延命し {'access_token','expires_in',...} を返す。
-
-    条件は Threads と同じ(発行から24時間以上・未失効)。満たさない場合は ThreadsError。
-    """
-    url = "https://graph.instagram.com/refresh_access_token?" + urllib.parse.urlencode(
-        {"grant_type": "ig_refresh_token", "access_token": token}
-    )
-    return _request("GET", url)
-
-
 def _create_container(user_id, token, text, reply_to_id=None):
     data = {"media_type": "TEXT", "text": text, "access_token": token}
     if reply_to_id:
